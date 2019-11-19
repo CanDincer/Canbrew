@@ -1,49 +1,65 @@
 {
-    "_meta": {
-        "sources": [{
-            "json": "Canbrew",
-            "abbreviation": "CB",
-            "full": "Canbrew",
-            "authors": [
-                "Can Dinçer"
-            ],
-            "version": "0.0.1",
-            "url": "https://github.com/CanDincer/Canbrew",
-            "targetSchema": "1.0.0"
-        }],
+    "_meta":
+    {
+        "sources":
+        [
+            {
+                "json": "Canbrew",
+                "abbreviation": "CB",
+                "full": "Canbrew",
+                "authors":
+                [
+                    "Can Dinçer"
+                ],
+                "version": "0.0.1",
+                "url": "https://github.com/CanDincer/Canbrew",
+                "targetSchema": "1.0.0"
+            }
+        ],
         "itemValueConversions": {
-            "Gold": [{
-                    "coin": "ap",
-                    "mult": 1
+            "Gold":
+            [
+                {
+                    "coin": "gp",
+                    "mult": 1,
+                    "isFallback": true
                 },
                 {
-                    "coin": "bp",
-                    "mult": 0.001,
-                    "isFallback": true
+                    "coin": "sp",
+                    "mult": 10,
+                },
+                {
+                    "coin": "cp",
+                    "mult": 100
                 }
             ]
         },
         "dateAdded": 0
     },
-    "item": [{
-        "name": "Ki-rin's Guidance",
-        "type": "R",
-        "weaponCategory": "Martial",
-        "weight": 2,
-        "dmg1": "{@dice 4d6}",
-        "dmgType": "R",
-        "property": [
-            "H"
-        ],
-        "range": "120/600",
-        "tier": "Major",
-        "rarity": "Legendary",
-        "source": "Canbrew",
-        "value": 220000,
-        "valueConversion": "Gold",
-        "entries": [
-            "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. When you lunch an arrow from this weapon, the arrow transforms into a Guiding Bolt of light. On a hit, the target takes 4d6 radiant damage, and all your subsequent attacks from this weapon ignores target's AC from dexterity modifier. When you attack a creature with the Ki-rin's Guidance and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
-        ],
-        "bonus": "+0"
-    }]
+    "item":
+    [
+        {
+            "name": "Ki-rin's Guidance",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@dice 4d6}",
+            "dmgType": "R",
+            "property":
+            [
+                "H"
+            ],
+            "range": "120/600",
+            "tier": "Major",
+            "rarity": "Legendary",
+            "source": "Canbrew",
+            "value": 220000,
+            "valueConversion": "Gold",
+            "entries":
+            [
+                "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. When you lunch an arrow from this weapon, the arrow transforms into a Guiding Bolt of light. On a hit, the target takes 4d6 radiant damage, and all your subsequent attacks from this weapon ignores target's AC from dexterity modifier. When you attack a creature with the Ki-rin's Guidance and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
+            ],
+            "bonus": "+0"
+        }
+    ]
 }
