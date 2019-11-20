@@ -4,14 +4,14 @@
         "sources":
         [
             {
-                "json": "Canbrew",
+                "json": "Canbrew Items",
                 "abbreviation": "CB",
-                "full": "Canbrew",
+                "full": "Canbrew Items",
                 "authors":
                 [
                     "Can Dinçer"
                 ],
-                "version": "0.0.1",
+                "version": "0.0.2",
                 "url": "https://github.com/CanDincer/Canbrew",
                 "targetSchema": "1.0.0"
             }
