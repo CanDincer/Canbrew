@@ -4,9 +4,9 @@
         "sources":
         [
             {
-                "json": "Canbrew Items",
+                "json": "Items",
                 "abbreviation": "CB",
-                "full": "Canbrew Items",
+                "full": "Canbrew",
                 "authors":
                 [
                     "Can Dinçer"
