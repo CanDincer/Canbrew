@@ -16,30 +16,13 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "itemValueConversions": {
-            "Gold":
-            [
-                {
-                    "coin": "gp",
-                    "mult": 1,
-                    "isFallback": true
-                },
-                {
-                    "coin": "sp",
-                    "mult": 10,
-                },
-                {
-                    "coin": "cp",
-                    "mult": 100
-                }
-            ]
-        },
         "dateAdded": 0
     },
     "item":
     [
         {
             "name": "Ki-rin's Guidance",
+            "baseItem": "Longbow",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -49,15 +32,37 @@
             [
                 "H"
             ],
-            "range": "120/600",
+            "range": "150/600",
             "tier": "Major",
             "rarity": "Legendary",
             "source": "Canbrew",
             "value": 220000,
-            "valueConversion": "Gold",
             "entries":
             [
-                "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. When you lunch an arrow from this weapon, the arrow transforms into a Guiding Bolt of light. On a hit, the target takes 4d6 radiant damage, and all your subsequent attacks from this weapon ignores target's AC from dexterity modifier. When you attack a creature with the Ki-rin's Guidance and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
+                "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. When you lunch an arrow from this weapon, the arrow transforms into a {@spell Guiding Bolt} of light. On a hit, the target takes {@dice 4d6} radiant damage, and all your subsequent attacks from this weapon ignores target's AC from dexterity modifier. When you attack a creature with the Ki-rin's Guidance and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
+            ],
+            "bonus": "+0"
+        }
+        {
+            "name": "Spirit String Bow",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "S",
+            "property":
+            [
+                "H"
+            ],
+            "range": "150/600",
+            "tier": "Major",
+            "rarity": "Legendary",
+            "source": "Canbrew",
+            "value": 220000,
+            "entries":
+            [
+                "When the string is pulled an ethereal arrow forms. The arrows are considered magical weapons in terms of resistance. You can fire twice every time you attack as you don't have to spend time to get an arrow from your quiver."
             ],
             "bonus": "+0"
         }
