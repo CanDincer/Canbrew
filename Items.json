@@ -50,16 +50,16 @@
             "weaponCategory": "Martial",
             "weight": 2,
             "dmg1": "{@dice 1d8}",
-            "dmgType": "S",
+            "dmgType": "O",
             "property":
             [
-                "H"
+                "A, 2H"
             ],
             "range": "150/600",
             "tier": "Major",
             "rarity": "Legendary",
             "source": "Canbrew",
-            "value": 220000,
+            "value": 160000,
             "entries":
             [
                 "When the string is pulled an ethereal arrow forms. The arrows are considered magical weapons in terms of resistance. You can fire twice every time you attack as you don't have to spend time to get an arrow from your quiver."
