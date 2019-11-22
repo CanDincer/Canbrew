@@ -1,0 +1,37 @@
+{
+    "_meta":
+    {
+        "sources":
+        [
+            {
+                "json": "Canbrew Items",
+                "abbreviation": "CB",
+                "full": "Canbrew",
+                "authors":
+                [
+                    "Can Dinçer"
+                ],
+                "version": "0.0.2",
+                "url": "https://github.com/CanDincer/Canbrew",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 0
+    },
+    "item":
+    [
+        {
+            "name": "Testingstar",
+            "type": "M",
+            "weapon": true,
+            "weaponCategory": "Martial",
+            "rarity": "None",
+            "value": 1500,
+            "weight": 4,
+            "dmg1": "{@dice 1d8}",
+            "dmgType": "P",
+            "source": "Canbrew Items",
+            "entries": []
+        }
+    ]
+}

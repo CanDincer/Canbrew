@@ -4,7 +4,7 @@
         "sources":
         [
             {
-                "json": "Items",
+                "json": "Canbrew Items",
                 "abbreviation": "CB",
                 "full": "Canbrew",
                 "authors":
@@ -35,7 +35,7 @@
             "range": "150/600",
             "tier": "Major",
             "rarity": "Legendary",
-            "source": "Canbrew",
+            "source": "Canbrew Items",
             "value": 220000,
             "entries":
             [
@@ -60,7 +60,7 @@
             "range": "150/600",
             "tier": "Major",
             "rarity": "Legendary",
-            "source": "Canbrew",
+            "source": "Canbrew Items",
             "value": 160000,
             "entries":
             [
@@ -83,11 +83,36 @@
           "range": "5",
           "tier": "Major",
           "rarity": "Rare",
-          "source": "Canbrew",
+          "source": "Canbrew Items",
           "value": 1600,
           "entries":
           [
             "Can cast Searing Smite a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
+          ],
+          "bonus": "+0"
+        },
+        {
+          "name": "The Great Annihilator's Fang",
+          "baseItem": "Dagger",
+          "type": "M",
+          "weaponCategory": "Simple",
+          "weight": 1,
+          "dmg1": "{@dice 1d4}",
+          "dmgType": "O",
+          "property":
+          [
+            "L",
+            "T",
+            "F"
+          ],
+          "range": "30",
+          "tier": "Major",
+          "rarity": "Very Rare",
+          "source": "Canbrew Items",
+          "value": 1600,
+          "entries":
+          [
+            "A very large fang with a slight curve. In darkness, you can see shadows bend towards it. You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals 1d4 force damage. You add your spellcasting modifier to both attack and damage rolls. If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang then grants you an extra action you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand. Curse: It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
           ],
           "bonus": "+0"
         }
