@@ -30,7 +30,7 @@
             "dmgType": "R",
             "property":
             [
-                "A, 2H"
+                "A, 2H, H"
             ],
             "range": "150/600",
             "tier": "Major",
@@ -53,7 +53,9 @@
             "dmgType": "O",
             "property":
             [
-                "A, 2H"
+                "A",
+                "H",
+                "2H"
             ],
             "range": "150/600",
             "tier": "Major",
@@ -71,12 +73,12 @@
           "baseItem": "Morningstar",
           "type": "M",
           "weaponCategory": "Martial",
-          "weight": 2,
+          "weight": 4,
           "dmg1": "{@dice 1d8}",
-          "dmgType": "B",
+          "dmgType": "P",
           "property":
           [
-            "V, "
+            
           ],
           "range": "5",
           "tier": "Major",
@@ -85,7 +87,7 @@
           "value": 1600,
           "entries":
           [
-            "Can cast Searing Smite a number of times equal to the wielder’s proficiency, recharges 1d4 per dawn."
+            "Can cast Searing Smite a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
           ],
           "bonus": "+0"
         }
