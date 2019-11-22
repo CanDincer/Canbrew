@@ -30,7 +30,7 @@
             "dmgType": "R",
             "property":
             [
-                "H"
+                "A, 2H"
             ],
             "range": "150/600",
             "tier": "Major",
@@ -67,25 +67,25 @@
             "bonus": "+0"
         },
         {
-          "name": "",
-          "baseItem": "Longbow",
-          "type": "R",
+          "name": "Morningstar of the Dawn",
+          "baseItem": "Morningstar",
+          "type": "M",
           "weaponCategory": "Martial",
           "weight": 2,
           "dmg1": "{@dice 1d8}",
-          "dmgType": "O",
+          "dmgType": "B",
           "property":
           [
-            "A, 2H"
+            "V, "
           ],
-          "range": "150/600",
+          "range": "5",
           "tier": "Major",
-          "rarity": "Legendary",
+          "rarity": "Rare",
           "source": "Canbrew",
-          "value": 160000,
+          "value": 1600,
           "entries":
           [
-            "When the string is pulled an ethereal arrow forms. The arrows are considered magical weapons in terms of resistance. You can fire twice every time you attack as you don't have to spend time to get an arrow from your quiver."
+            "Can cast Searing Smite a number of times equal to the wielder’s proficiency, recharges 1d4 per dawn."
           ],
           "bonus": "+0"
         }
