@@ -37,7 +37,6 @@
             "tier": "Major",
             "rarity": "Legendary",
             "source": "Canbrew Items",
-            "value": 220000,
             "entries":
             [
                 "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. When you lunch an arrow from this weapon, the arrow transforms into a {@spell Guiding Bolt} of light. On a hit, the target takes {@dice 4d6} radiant damage, and all your subsequent attacks from this weapon ignores target's AC from dexterity modifier. When you attack a creature with the Ki-rin's Guidance and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
@@ -63,10 +62,85 @@
           "tier": "Major",
           "rarity": "Legendary",
           "source": "Canbrew Items",
-          "value": 160000,
           "entries":
           [
               "When the string is pulled an ethereal arrow forms. The arrows are considered magical weapons in terms of resistance. You can fire twice every time you attack as you don't have to spend time to get an arrow from your quiver."
+          ],
+          "bonus": "+0"
+        },
+        {
+          "name": "Bastilla",
+          "baseItem": "Heavy Crossbow",
+          "type": "R",
+          "weaponCategory": "Martial",
+          "weight": 18,
+          "dmg1": "{@dice 1d10}",
+          "dmgType": "P",
+          "reqAttune": true,
+          "property":
+          [
+              "A",
+              "H",
+              "2H",
+              "LD"
+          ],
+          "range": "100/400",
+          "tier": "Major",
+          "rarity": "Common",
+          "source": "Canbrew Items",
+          "entries":
+          [
+              "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack rolls. You can either deploy the Bastilla on a half cover sized object, or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack rolls have -3 while moving with the stand out."
+          ],
+          "bonus": "+0"
+        },
+        {
+          "name": "Rich Man's Crossbow",
+          "baseItem": "Heavy Crossbow",
+          "type": "R",
+          "weaponCategory": "Martial",
+          "weight": 18,
+          "dmg1": "{@dice 1d10}",
+          "dmgType": "P",
+          "reqAttune": true,
+          "property":
+          [
+              "A",
+              "H",
+              "2H",
+              "LD"
+          ],
+          "range": "100/400",
+          "tier": "Major",
+          "rarity": "Uncommon",
+          "source": "Canbrew Items",
+          "entries":
+          [
+              "This crossbow-like weapon uses pieces of currency as ammunition. The value of the coins themselves has an effect on the damage output as well. Coins fired this way are destroyed. cp {@dice 1d10} piercing, sp {@dice 1d10} piercing (silvered), gp {@dice 2d6} piercing + {@dice 1d4} radiant, ep {@dice 2d6} lightning + {@dice 1d6} piercing"
+          ],
+          "bonus": "+0"
+        },
+        {
+          "name": "Betrayer's Blade",
+          "baseItem": "Dagger",
+          "type": "M",
+          "weaponCategory": "Simple",
+          "weight": 1,
+          "dmg1": "{@dice 1d4}",
+          "dmgType": "P",
+          "reqAttune": true,
+          "property":
+          [
+            "L",
+            "T",
+            "F"
+          ],
+          "range": "30",
+          "rarity": "Uncommon",
+          "source": "Canbrew Items",
+          "entries":
+          [
+              "A small dagger with a jagged black blade. You have proficiency(expertise if you're already proficient) on any stealth/sleight of hand check to hide it, and get a surprise round when attacking any non-hostile character. The location of this dagger is currently unknown, but it is being sought in connection with the murder of a Count. If you have any information regarding its whereabouts, report to your nearest guard post for a reward of 20 gold pieces."
           ],
           "bonus": "+0"
         },
@@ -87,7 +161,6 @@
             "tier": "Major",
             "rarity": "Rare",
             "source": "Canbrew Items",
-            "value": 1600,
             "entries":
             [
               "Can cast Searing Smite a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
@@ -102,6 +175,7 @@
           "weight": 1,
           "dmg1": "{@dice 1d4}",
           "dmgType": "O",
+          "reqAttune": true,
           "property":
           [
             "L",
@@ -109,12 +183,11 @@
             "F"
           ],
           "range": "30",
-          "rarity": "Very Rare",
+          "rarity": "Artifact",
           "source": "Canbrew Items",
-          "value": 1600,
           "entries":
           [
-            "A very large fang with a slight curve. In darkness, you can see shadows bend towards it. You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals 1d4 force damage. You add your spellcasting modifier to both attack and damage rolls. If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang then grants you an extra action you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand. Curse: It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
+            "A very large fang with a slight curve. In darkness, you can see shadows bend towards it. You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@dice 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls. If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang then grants you an extra action which you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand. Curse: It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
           ],
           "bonus": "+0"
         },
@@ -126,6 +199,7 @@
           "weight": 2,
           "dmg1": "{@dice 1d6}",
           "dmgType": "S",
+          "reqAttune": true,
           "charges": 5,
           "property":
           [
@@ -136,7 +210,6 @@
           "range": "20/60",
           "rarity": "Uncommon",
           "source": "Canbrew Items",
-          "value": 1600,
           "entries":
           [
             "It is chained to your wrist and cannot be disarmed, but it takes an action to stow. Can cast Ensnaring Strike a number of times equal to your proficiency, with chains bursting from the ground to imprison your enemy. Recharges {@dice 1d6} per day."
