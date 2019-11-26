@@ -274,10 +274,6 @@
             "dmg1": "{@dice 1d8}",
             "dmgType": "P",
             "reqAttune": true,
-            "property":
-            [
-              
-            ],
             "tier": "Major",
             "rarity": "Rare",
             "source": "Canbrew Items",
