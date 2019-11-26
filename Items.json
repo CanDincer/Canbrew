@@ -11,12 +11,12 @@
                 [
                     "Can Dinçer"
                 ],
-                "version": "0.0.2",
+                "version": "0.0.3",
                 "url": "https://github.com/CanDincer/Canbrew",
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateAdded": 9568
+        "dateAdded": 0
     },
     "item":
     [
@@ -45,219 +45,219 @@
             "bonus": "+0"
         },
         {
-          "name": "Spirit String Bow",
-          "baseItem": "Longbow",
-          "type": "R",
-          "weaponCategory": "Martial",
-          "weight": 2,
-          "dmg1": "{@damage 1d8}",
-          "dmgType": "O",
-          "reqAttune": true,
-          "property":
-          [
-              "A",
-              "H",
-              "2H"
-          ],
-          "range": "150/600",
-          "rarity": "Legendary",
-          "source": "Canbrew Items",
-          "entries":
-          [
-              "When the string is pulled an ethereal arrow forms. The arrows are considered magical weapons in terms of resistance. You can fire twice every time you attack as you don't have to spend time to get an arrow from your quiver."
-          ],
-          "bonus": "+0"
+            "name": "Spirit String Bow",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "O",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H"
+             ],
+            "range": "150/600",
+            "rarity": "Legendary",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "When the string is pulled an ethereal arrow forms. The arrows are considered magical weapons in terms of resistance. You can fire twice every time you attack as you don't have to spend time to get an arrow from your quiver."
+            ],
+            "bonus": "+0"
         },
         {
-          "name": "Razorwind",
-          "baseItem": "Longbow",
-          "type": "R",
-          "weaponCategory": "Martial",
-          "weight": 2,
-          "dmg1": "{@damage 1d8}",
-          "dmgType": "P",
-          "reqAttune": true,
-          "property":
-          [
-              "A",
-              "H",
-              "2H"
-          ],
-          "range": "150/600",
-          "rarity": "Uncommon",
-          "source": "Canbrew Items",
-          "entries":
-          [
-              "Causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@damage 1d6} slashing damage and on a critical roll, causes the target to bleed for {@damage 1d4} damage per turn until it succeeds a DC equal to your Strength modifier +10 Constitution saving throw repeated at the end of its turn."
-          ],
-          "bonus": "+0"
+            "name": "Razorwind",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H"
+            ],
+            "range": "150/600",
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@damage 1d6} slashing damage and on a critical roll, causes the target to bleed for {@damage 1d4} damage per turn until it succeeds a DC equal to your Strength modifier +10 Constitution saving throw repeated at the end of its turn."
+            ],
+            "bonus": "+0"
         },
         {
-          "name": "Rifling Bow",
-          "baseItem": "Longbow",
-          "type": "R",
-          "weaponCategory": "Martial",
-          "weight": 2,
-          "dmg1": "{@damage 1d8}",
-          "dmgType": "P",
-          "reqAttune": true,
-          "property":
-          [
-              "A",
-              "H",
-              "2H"
-          ],
-          "range": "150/600",
-          "rarity": "2 Rare",
-          "source": "Canbrew Items",
-          "entries":
-          [
-              "The bow has protrusions on its arrow rest. When released, an arrow starts to spin fast. If you hit, creatures directly behind are hit, if your attack roll surpasses their AC, until a creature's AC from armor stops it."
-          ],
-          "bonus": "+0"
+            "name": "Rifling Bow",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H"
+            ],
+            "range": "150/600",
+            "rarity": "2 Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "The bow has protrusions on its arrow rest. When released, an arrow starts to spin fast. If you hit, creatures directly behind are hit, if your attack roll surpasses their AC, until a creature's AC from armor stops it."
+            ],
+            "bonus": "+0"
         },
         {
-          "name": "Bastilla",
-          "baseItem": "Heavy Crossbow",
-          "type": "R",
-          "weaponCategory": "Martial",
-          "weight": 18,
-          "dmg1": "{@damage 1d10}",
-          "dmgType": "P",
-          "reqAttune": true,
-          "property":
-          [
-              "A",
-              "H",
-              "2H",
-              "LD"
-          ],
-          "range": "100/400",
-          "rarity": "Common",
-          "source": "Canbrew Items",
-          "entries":
-          [
-              "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack rolls. You can either deploy the Bastilla on a half cover sized object, or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack rolls have -3 while moving with the stand out."
-          ],
-          "bonus": "+0"
+            "name": "Bastilla",
+            "baseItem": "Heavy Crossbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 18,
+            "dmg1": "{@damage 1d10}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H",
+                "LD"
+            ],
+            "range": "100/400",
+            "rarity": "Common",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack rolls. You can either deploy the Bastilla on a half cover sized object, or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack rolls have -3 while moving with the stand out."
+            ],
+            "bonus": "+0"
         },
         {
-          "name": "Rich Man's Crossbow",
-          "baseItem": "Heavy Crossbow",
-          "type": "R",
-          "weaponCategory": "Martial",
-          "weight": 18,
-          "dmg1": "{@damage 1d10}",
-          "dmgType": "P",
-          "reqAttune": true,
-          "property":
-          [
-              "A",
-              "H",
-              "2H",
-              "LD"
-          ],
-          "range": "100/400",
-          "rarity": "Uncommon",
-          "source": "Canbrew Items",
-          "entries":
-          [
-              "This crossbow-like weapon uses pieces of currency as ammunition. The value of the coins themselves has an effect on the damage output as well. Coins fired this way are destroyed. cp {@damage 1d10} piercing, sp {@damage 1d10} piercing (silvered), gp {@damage 2d6} piercing + {@damage 1d4} radiant, ep {@damage 2d6} lightning + {@damage 1d6} piercing"
-          ],
-          "bonus": "+0"
+            "name": "Rich Man's Crossbow",
+            "baseItem": "Heavy Crossbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 18,
+            "dmg1": "{@damage 1d10}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H",
+                "LD"
+            ],
+            "range": "100/400",
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This crossbow-like weapon uses pieces of currency as ammunition. The value of the coins themselves has an effect on the damage output as well. Coins fired this way are destroyed. cp {@damage 1d10} piercing, sp {@damage 1d10} piercing (silvered), gp {@damage 2d6} piercing + {@damage 1d4} radiant, ep {@damage 2d6} lightning + {@damage 1d6} piercing"
+            ],
+            "bonus": "+0"
         },
         {
-          "name": "Betrayer's Blade",
-          "baseItem": "Dagger",
-          "type": "M",
-          "weaponCategory": "Simple",
-          "weight": 1,
-          "dmg1": "{@damage 1d4}",
-          "dmgType": "P",
-          "reqAttune": true,
-          "property":
-          [
-            "F",
-            "L",
-            "T"
-          ],
-          "range": "20/60",
-          "rarity": "Uncommon",
-          "source": "Canbrew Items",
-          "entries":
-          [
-              "A small dagger with a jagged black blade. You have proficiency(expertise if you're already proficient) on any stealth/sleight of hand check to hide it, and get a surprise round when attacking any non-hostile character. The location of this dagger is currently unknown, but it is being sought in connection with the murder of a Count. If you have any information regarding its whereabouts, report to your nearest guard post for a reward of 20 gold pieces."
-          ],
-          "bonus": "+0"
+            "name": "Betrayer's Blade",
+            "baseItem": "Dagger",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "{@damage 1d4}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A small dagger with a jagged black blade. You have proficiency(expertise if you're already proficient) on any stealth/sleight of hand check to hide it, and get a surprise round when attacking any non-hostile character. The location of this dagger is currently unknown, but it is being sought in connection with the murder of a Count. If you have any information regarding its whereabouts, report to your nearest guard post for a reward of 20 gold pieces."
+            ],
+            "bonus": "+0"
         },
         {
-          "name": "Poisoner's Needle",
-          "baseItem": "Dagger",
-          "type": "M",
-          "weaponCategory": "Simple",
-          "weight": 1,
-          "dmg1": "{@damage 1d4}",
-          "dmgType": "P",
-          "reqAttune": true,
-          "property":
-          [
-            "F",
-            "L",
-            "T"
-          ],
-          "range": "20/60",
-          "rarity": "Uncommon",
-          "source": "Canbrew Items",
-          "entries":
-          [
-              "A dagger, has a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object action. Creature must make a DC 10 Constitution saving throw or take {@damage 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
-          ],
-          "bonus": "+0"
+            "name": "Poisoner's Needle",
+            "baseItem": "Dagger",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "{@damage 1d4}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A dagger, has a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object action. Creature must make a DC 10 Constitution saving throw or take {@damage 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
+            ],
+            "bonus": "+0"
         },
         {
-          "name": "Lightning Storm Gauntlet",
-          "baseItem": "Gauntlet",
-          "type": "M",
-          "weaponCategory": "Simple",
-          "weight": 1,
-          "dmg1": "{@damage 1d8}",
-          "dmgType": "L",
-          "reqAttune": true,
-          "property":
-          [
-            "F",
-            "L",
-            "LD"
-          ],
-          "rarity": "Uncommon",
-          "source": "Canbrew Items",
-          "entries":
-          [
-              "A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell Shocking Grasp}."
-          ],
-          "bonus": "+0"
+            "name": "Lightning Storm Gauntlet",
+            "baseItem": "Gauntlet",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "L",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L",
+                "LD"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell Shocking Grasp}."
+            ],
+            "bonus": "+0"
         },
         {
-          "name": "Giant Axe",
-          "baseItem": "Greataxe",
-          "type": "M",
-          "weaponCategory": "Martial",
-          "weight": 12,
-          "dmg1": "{@damage 1d20}",
-          "dmgType": "S",
-          "reqAttune": true,
-          "property":
-          [
-            "H",
-            "2H"
-          ],
-          "rarity": "Uncommon",
-          "source": "Canbrew Items",
-          "entries":
-          [
-              " A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. Minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than medium, you only get -3 penalty."
-          ],
-          "bonus": "+0"
+            "name": "Giant Axe",
+            "baseItem": "Greataxe",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 12,
+            "dmg1": "{@damage 1d20}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "H",
+                "2H"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. Minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than medium, you only get -3 penalty."
+            ],
+            "bonus": "+0"
         },
         {
             "name": "Morningstar of the Dawn",
@@ -272,58 +272,101 @@
             "source": "Canbrew Items",
             "entries":
             [
-              "Can cast Searing Smite a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
+                "Can cast Searing Smite a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
             ],
             "bonus": "+0"
         },
         {
-          "name": "The Great Annihilator's Fang",
-          "baseItem": "Dagger",
-          "type": "M",
-          "weaponCategory": "Simple",
-          "weight": 1,
-          "dmg1": "{@damage 1d4}",
-          "dmgType": "O",
-          "reqAttune": true,
-          "property":
-          [
-            "L",
-            "T",
-            "F"
+            "name": "The Great Annihilator's Fang",
+            "baseItem": "Dagger",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "{@damage 1d4}",
+            "dmgType": "O",
+            "reqAttune": true,
+            "property":
+            [
+                "L",
+                "T",
+                "F"
           ],
-          "range": "20/60",
-          "rarity": "Artifact",
-          "source": "Canbrew Items",
-          "entries":
-          [
-            "A very large fang with a slight curve. In darkness, you can see shadows bend towards it. You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls. If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang then grants you an extra action which you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand. Curse: It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
-          ],
-          "bonus": "+0"
+            "range": "20/60",
+            "rarity": "Artifact",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A very large fang with a slight curve. In darkness, you can see shadows bend towards it. You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls. If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang then grants you an extra action which you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand. Curse: It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
+            ],
+            "bonus": "+0"
         },
         {
-          "name": "Chained Axe",
-          "baseItem": "Handaxe",
-          "type": "M",
-          "weaponCategory": "Simple",
-          "weight": 2,
-          "dmg1": "{@damage 1d6}",
-          "dmgType": "S",
-          "reqAttune": true,
-          "charges": 5,
-          "property":
-          [
-            "L",
-            "T",
-            "RT"
-          ],
-          "range": "20/60",
-          "rarity": "Uncommon",
-          "source": "Canbrew Items",
-          "entries":
-          [
-            "It is chained to your wrist and cannot be disarmed, but it takes an action to stow. Can cast Ensnaring Strike a number of times equal to your proficiency, with chains bursting from the ground to imprison your enemy. Recharges {@dice 1d6} per day."
-          ],
-          "bonus": "+0"
+            "name": "Chained Axe",
+            "baseItem": "Handaxe",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "charges": 5,
+            "property":
+            [
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "It is chained to your wrist and cannot be disarmed, but it takes an action to stow. Can cast Ensnaring Strike a number of times equal to your proficiency, with chains bursting from the ground to imprison your enemy. Recharges {@dice 1d6} per day."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Flashstep Rapier",
+            "baseItem": "Rapier",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "F"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "An elegant rapier, inlaid with elven engravings. Whenever you're about to make an attack, you can dash 5 feet towards your target to close the distance, as a free action. You have to make an attack roll with the rapier after dashing to be able to use it. To the untrained eye, it looks like you've teleported. If you are dashing away from another foe, you have +1 AC against opportunity attacks from that foe. Glows dimly when used."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Beacon Bow",
+            "baseItem": "Shortbow",
+            "type": "R",
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "R",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "2H"
+            ],
+            "range": "80/320",
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Shortbow, doing {@damage 1d6} radiant damage, and casting Light wherever its arrow lands. On a critical hit, It blinds its target for 1 round, if the target fails DC 10 Constitution saving throw. Used by the legendary wood-elf, Aela the Drow-Hunter, in her quest into the Underdark to retrieve her kidnapped husband. Nock an arrow and its head will ignite with brilliant radiance. The creature can use its action to remove the arrow, or you may use a bonus action if you are within range. While the creature is under the magics effect, it cannot have any benefits from being invisible, hidden, or by being behind half cover."
+            ],
+            "bonus": "+0"
         }
     ]
 }
