@@ -31,7 +31,9 @@
             "reqAttune": true,
             "property":
             [
-                "A, 2H, H"
+                "A",
+                "2H",
+                "H"
             ],
             "range": "150/600",
             "tier": "Major",
