@@ -26,12 +26,12 @@
             "weapon": true,
             "weaponCategory": "Martial",
             "rarity": "None",
-            "value": 1500,
             "weight": 4,
-            "dmg1": "{@dice 1d8}",
+            "dmg1": "{@damage 1d8}",
             "dmgType": "P",
             "source": "Canbrew Items",
-            "entries": []
+            "entries": [],
+            "bonus": "+0"
         }
     ]
 }
