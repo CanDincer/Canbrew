@@ -69,6 +69,56 @@
           "bonus": "+0"
         },
         {
+          "name": "Razorwind",
+          "baseItem": "Longbow",
+          "type": "R",
+          "weaponCategory": "Martial",
+          "weight": 2,
+          "dmg1": "{@dice 1d8}",
+          "dmgType": "P",
+          "reqAttune": true,
+          "property":
+          [
+              "A",
+              "H",
+              "2H"
+          ],
+          "range": "150/600",
+          "tier": "Major",
+          "rarity": "Uncommon",
+          "source": "Canbrew Items",
+          "entries":
+          [
+              "Causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@dice 1d6} slashing damage and on a critical roll, causes the target to bleed for {@dice 1d4} damage per turn until it succeeds a DC equal to your Strength modifier +10 Constitution saving throw repeated at the end of its turn."
+          ],
+          "bonus": "+0"
+        },
+        {
+          "name": "Rifling Bow",
+          "baseItem": "Longbow",
+          "type": "R",
+          "weaponCategory": "Martial",
+          "weight": 2,
+          "dmg1": "{@dice 1d8}",
+          "dmgType": "P",
+          "reqAttune": true,
+          "property":
+          [
+              "A",
+              "H",
+              "2H"
+          ],
+          "range": "150/600",
+          "tier": "Major",
+          "rarity": "2 Rare",
+          "source": "Canbrew Items",
+          "entries":
+          [
+              "The bow has protrusions on its arrow rest. When released, an arrow starts to spin fast. If you hit, creatures directly behind are hit, if your attack roll surpasses their AC, until a creature's AC from armor stops it."
+          ],
+          "bonus": "+0"
+        },
+        {
           "name": "Bastilla",
           "baseItem": "Heavy Crossbow",
           "type": "R",
@@ -131,16 +181,85 @@
           "reqAttune": true,
           "property":
           [
+            "F",
             "L",
-            "T",
-            "F"
+            "T"
           ],
-          "range": "30",
+          "range": "20/60",
           "rarity": "Uncommon",
           "source": "Canbrew Items",
           "entries":
           [
               "A small dagger with a jagged black blade. You have proficiency(expertise if you're already proficient) on any stealth/sleight of hand check to hide it, and get a surprise round when attacking any non-hostile character. The location of this dagger is currently unknown, but it is being sought in connection with the murder of a Count. If you have any information regarding its whereabouts, report to your nearest guard post for a reward of 20 gold pieces."
+          ],
+          "bonus": "+0"
+        },
+        {
+          "name": "Poisoner's Needle",
+          "baseItem": "Dagger",
+          "type": "M",
+          "weaponCategory": "Simple",
+          "weight": 1,
+          "dmg1": "{@dice 1d4}",
+          "dmgType": "P",
+          "reqAttune": true,
+          "property":
+          [
+            "F",
+            "L",
+            "T"
+          ],
+          "range": "20/60",
+          "rarity": "Uncommon",
+          "source": "Canbrew Items",
+          "entries":
+          [
+              "A dagger, has a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object action. Creature must make a DC 10 Constitution saving throw or take {@dice 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
+          ],
+          "bonus": "+0"
+        },
+        {
+          "name": "Lightning Storm Gauntlet",
+          "baseItem": "Gauntlet",
+          "type": "M",
+          "weaponCategory": "Simple",
+          "weight": 1,
+          "dmg1": "{@dice 1d8}",
+          "dmgType": "L",
+          "reqAttune": true,
+          "property":
+          [
+            "F",
+            "L",
+            "LD"
+          ],
+          "rarity": "Uncommon",
+          "source": "Canbrew Items",
+          "entries":
+          [
+              "A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell Shocking Grasp}."
+          ],
+          "bonus": "+0"
+        },
+        {
+          "name": "Giant Axe",
+          "baseItem": "Greataxe",
+          "type": "M",
+          "weaponCategory": "Martial",
+          "weight": 12,
+          "dmg1": "{@dice 1d20}",
+          "dmgType": "S",
+          "reqAttune": true,
+          "property":
+          [
+            "H",
+            "2H"
+          ],
+          "rarity": "Uncommon",
+          "source": "Canbrew Items",
+          "entries":
+          [
+              " A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. Minimum of 14 Strength is required to lift it. Roll and add another {@dice 1d20} damage if you roll a 20 on a damage roll. If your size is larger than medium, you only get -3 penalty."
           ],
           "bonus": "+0"
         },
@@ -157,7 +276,6 @@
             [
               
             ],
-            "range": "5",
             "tier": "Major",
             "rarity": "Rare",
             "source": "Canbrew Items",
@@ -182,7 +300,7 @@
             "T",
             "F"
           ],
-          "range": "30",
+          "range": "20/60",
           "rarity": "Artifact",
           "source": "Canbrew Items",
           "entries":
