@@ -36,7 +36,6 @@
                 "H"
             ],
             "range": "150/600",
-            "tier": "Major",
             "rarity": "Legendary",
             "source": "Canbrew Items",
             "entries":
@@ -61,7 +60,6 @@
               "2H"
           ],
           "range": "150/600",
-          "tier": "Major",
           "rarity": "Legendary",
           "source": "Canbrew Items",
           "entries":
@@ -86,7 +84,6 @@
               "2H"
           ],
           "range": "150/600",
-          "tier": "Major",
           "rarity": "Uncommon",
           "source": "Canbrew Items",
           "entries":
@@ -111,7 +108,6 @@
               "2H"
           ],
           "range": "150/600",
-          "tier": "Major",
           "rarity": "2 Rare",
           "source": "Canbrew Items",
           "entries":
@@ -137,7 +133,6 @@
               "LD"
           ],
           "range": "100/400",
-          "tier": "Major",
           "rarity": "Common",
           "source": "Canbrew Items",
           "entries":
@@ -163,7 +158,6 @@
               "LD"
           ],
           "range": "100/400",
-          "tier": "Major",
           "rarity": "Uncommon",
           "source": "Canbrew Items",
           "entries":
@@ -274,7 +268,6 @@
             "dmg1": "{@dice 1d8}",
             "dmgType": "P",
             "reqAttune": true,
-            "tier": "Major",
             "rarity": "Rare",
             "source": "Canbrew Items",
             "entries":
