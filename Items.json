@@ -242,7 +242,7 @@
             "baseItem": "Greataxe",
             "type": "M",
             "weaponCategory": "Martial",
-            "weight": 12,
+            "weight": 22,
             "dmg1": "{@damage 1d20}",
             "dmgType": "S",
             "reqAttune": true,
@@ -328,7 +328,7 @@
             "name": "Flashstep Rapier",
             "baseItem": "Rapier",
             "type": "M",
-            "weaponCategory": "Simple",
+            "weaponCategory": "Martial",
             "weight": 2,
             "dmg1": "{@damage 1d8}",
             "dmgType": "P",
@@ -337,11 +337,11 @@
             [
                 "F"
             ],
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "source": "Canbrew Items",
             "entries":
             [
-                "An elegant rapier, inlaid with elven engravings. Whenever you're about to make an attack, you can dash 5 feet towards your target to close the distance, as a free action. You have to make an attack roll with the rapier after dashing to be able to use it. To the untrained eye, it looks like you've teleported. If you are dashing away from another foe, you have +1 AC against opportunity attacks from that foe. Glows dimly when used."
+                "An elegant rapier, inlaid with elven engravings. Whenever you're about to make an attack, you can dash 5 feet towards your target to close the distance, as a free action. You have to make an attack roll with the rapier after dashing to be able to use it. To the untrained eye, it looks like you've teleported. If you are dashing away from another foe, you have +1 AC against opportunity attacks from that foe. Glows dimly when used and deals an extra {@damage 1d4} piercing damage."
             ],
             "bonus": "+0"
         },
@@ -365,6 +365,467 @@
             "entries":
             [
                 "Shortbow, doing {@damage 1d6} radiant damage, and casting Light wherever its arrow lands. On a critical hit, It blinds its target for 1 round, if the target fails DC 10 Constitution saving throw. Used by the legendary wood-elf, Aela the Drow-Hunter, in her quest into the Underdark to retrieve her kidnapped husband. Nock an arrow and its head will ignite with brilliant radiance. The creature can use its action to remove the arrow, or you may use a bonus action if you are within range. While the creature is under the magics effect, it cannot have any benefits from being invisible, hidden, or by being behind half cover."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Staff of Life",
+            "baseItem": "Quarterstaff",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 4,
+            "dmg1": "{@damage 1d6}",
+            "dmg2": "{@damage 1d8}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "V"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "As an action you may call upon the arcane power of this staff. In a flash of light, two lemons appear."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Hammer of the Farseer",
+            "baseItem": "Warhammer",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmg2": "{@damage 1d10}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "V"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "When you kill a monster with this weapon, you glimpse a random moment from its past. You may cast Augury once per day."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Grasping Whip",
+            "baseItem": "Whip",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d4}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "R"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "When you hit with this weapon as a bonus action you can make a strength or dexterity contest to disarm or trip your enemy. You have disadvantage in this contest if disarming a two handed weapon or tripping a creature larger than yourself. Take care picking it up or its lash will snap to your wrist."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Giant Bow",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 18,
+            "dmg1": "{@damage 1d10}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H",
+                "LD"
+            ],
+            "range": "40/80",
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "1d10 bludgeoning. You can use your Strength modifier for calculating the damage instead of Dexterity for this weapon. While carrying this bow, your movement is reduced by 10ft and you have -5 penalty on Dexterity saving throws. This bow has 40 ft. effective range. If your size is at least large you're not subjected to the penalties"
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Kingsglaive",
+            "baseItem": "Dagger",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "{@damage 1d4}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Ranged attacks with this dagger grant you Misty Step spell. You can use your object interaction to teleport to the location of your dagger. If you choose to teleport, you deal extra {@damage 1d4} lightning damage and acquire the dagger. Use your Charisma modifier for both attack and damage rolls. If you kill an enemy with this weapon you gain Haste spell."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Spiderbite Daggers",
+            "baseItem": "Dagger",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "{@damage 1d4}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "These daggers are made using the harvested fangs of a large venomous spider. When you hit the same target on your turn with each dagger, that target must succeed on a DC 14 Constitution saving throw or take an extra {@damage 2d4} poison damage and become poisoned until the end of its next turn."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Orcish Falx",
+            "baseItem": "Greatsword",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 1,
+            "dmg1": "{@damage 1d12}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "H",
+                "2H"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Does max damage against targets with under 11AC, or who are unarmored. Critical hits lop off limbs."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Angels Will",
+            "baseItem": "Greatsword",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 1,
+            "dmg1": "{@damage 2d6}",
+            "dmg2": "{@damage 2d8}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "V"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This greatsword was forged from an angels left wing. Leaves a dim light where it cuts."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Repeating Crossbow",
+            "baseItem": "Heavy Crossbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 18,
+            "dmg1": "{@damage 3d4}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "LD",
+                "2H"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A dwarven contraption that flings out bolts at a startling rate. It does {@damage 3d4} piercing damage and can attack twice per round. It costs 3 bolts per attack, and the crossbow has 12 bolts loaded. It costs an action and your movement to reload instead of having the loading quality."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Vampiric Trident",
+            "baseItem": "Trident",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 4,
+            "dmg1": "{@damage 1d6}",
+            "dmg2": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "T",
+                "V"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Its tip is lined with teeth. When you hit a living creature with this weapon, you can use a bonus action to deal additional {@damage 1d4} necrotic damage, as the weapon bites into the target. You have to make a Charisma check against target's Charisma Saving Throw. After this, you gain temporary Hit Points equal to half of the extra damage dealt."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Clockwork Bow",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "2H"
+            ],
+            "range": "150/600",
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This longbow has an assortment of gears and pulleys attached to it. Near the handle of the bow, there is a scope and a dial. This dial has three settings, Small, Medium, and Large. If you are a creature who's size is the one the dial is set to, you have automatic proficiency with the bow. Additionally, you can use the scope to perfect your aim and spend a bonus action lining up your shot. On the next attack with this bow, you can fire as if you had Sharpshooter feat including the optional penalty. The bow can be folded up to be concealed as a bonus action, and you have proficiency (expertise if you're already proficient) on sleight of hand checks to hide the weapon when it is in this state."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Spiked Chain",
+            "baseItem": "Whip",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 3,
+            "dmg1": "{@damage 2d4}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "R"
+            ],
+            "range": "15",
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Weapon of the mighty goblin warlord Ulx. Two-handed, 15 feet reach, double. {@dmage 2d4} piercing damage. Once you hit a creature, you can grapple it with an athletics check. On a success you can pull the creature up to 15 feet"
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Double Knock Bow",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H"
+            ],
+            "range": "150/600",
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "You can chose to fire two arrows simultaneously as if you were firing one, you fire with a -4 penalty but damage is calculated for the arrows separately (both hit or both miss). You can target 2 adjacent creatures or one creature for both arrows."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Inevitable Bow",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H"
+            ],
+            "range": "150/600",
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A nonmagical arrow or bolt fired from this magic weapon emits a fizzing red glow when it hits a creature. Only one creature can be so affected at a time. All your subsequent attacks from this weapon ignores target's AC from dexterity modifier. When you attack a creature with the Inevitable Bow and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Bow of the Nymph",
+            "baseItem": "Shortbow",
+            "type": "R",
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "dmg1": "{@damage 0}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "2H"
+            ],
+            "range": "80/320",
+            "charges": 1,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Magical short-bow. The bow does not require ammo. When the bow is drawn without ammo, a magical arrow appears knocked in the bow. Anyone struck by the magical arrow becomes charmed with the first creature it sees after being struck (as charm person—the target must be a humanoid of Medium or smaller size, Wisdom DC 11 negates). The charm effects wear off after 1 minute. The magical arrow does not cause pain, and is invisible unless detected by the Wisdom Save. The arrow disappears after the effect ends. The bow has 1 charge and recovers {@dice 1d2-1} charges at the end of a long rest."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "The Rainbow",
+            "baseItem": "Shortbow",
+            "type": "R",
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "2H"
+            ],
+            "range": "80/320",
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "All arrows shot with this bow leave behind streak of 7-colored light. Which deals an extra {@damage 1d6} radiant damage. Once per day you can instead cause it to start raining as if a cast weather spell was cast"
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Wind Walkers Bow",
+            "baseItem": "Shortbow",
+            "type": "R",
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "2H"
+            ],
+            "range": "80/320",
+            "charges": 3,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "An ornate silver bow. The string appears to shimmer with a blue light when drawn. This bow has 3 charges. When an arrow is fired from the Wind Walker's Bow you can chose to expend a charge as a bonus action and teleport to where ever the arrow makes contact. Teleport does not provoke opportunity attacks. Regains {@damage 1d4-1} charges every sunrise."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Blade of Selves",
+            "baseItem": "Shortsword",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "While holding this weapon, as a bonus action, you may cast the mirror image spell. When you cast mirror image this way, it creates five illusory duplicates. Once you have used this ability you cannot use it again until you finish a long rest. Curse. This weapon is cursed, and attuning to it curses you until you are targeted by the remove curse spell or similar magic. When the mirror image spell is cast from this item, roll a d20. On a 1, one of the illusory duplicates created is a full grown clone inhabited by an evil aligned soul, and tries to take your place."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Lady Luck",
+            "baseItem": "Shortsword",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A shortsword with a blade of silver that critically hits on a 1. You have a +3 bonus to your attack rolls while you have under 1/2 of your max HP. Those who wield this sword tend to discover a latent love for games of chance."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Ice Sickle",
+            "baseItem": "Sickle",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "dmg1": "{@damage 1d4}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "L"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "{@damage 1d4} slashing and {@damage 1d4} cold damage. On a hit a target must succeed DC 10 Constitution to be able to use its reaction until the start of their turn. Its blade is a translucent shard of ice, and its handle is bone."
             ],
             "bonus": "+0"
         }
