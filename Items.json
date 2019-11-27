@@ -440,7 +440,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
-            "dmg1": "{@damage 1d10}",
+            "dmg1": "{@damage 1d12}",
             "dmgType": "B",
             "reqAttune": true,
             "property":
@@ -828,6 +828,214 @@
                 "{@damage 1d4} slashing and {@damage 1d4} cold damage. On a hit a target must succeed DC 10 Constitution to be able to use its reaction until the start of their turn. Its blade is a translucent shard of ice, and its handle is bone."
             ],
             "bonus": "+0"
+        },
+        {
+            "name": "David’s Sling",
+            "baseItem": "Sling",
+            "type": "R",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "{@damage 1d4}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "A"
+            ],
+            "range": "30/120",
+            "rarity": "Legendary",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "+100 damage on a hit against any creature larger than you, 5 non-replenishing charges"
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "The Judge",
+            "baseItem": "Warhammer",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmg2": "{@damage 1d10}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "V"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Hits from this weapon cast Sacred Flame upon the hit enemy. If you roll a 1 on an attack roll Vicious Mockery is cast on you."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Bow of the Truthseeker",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H"
+            ],
+            "range": "150/600",
+            "rarity": "Legendary",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This bow once belonged to Emyna Truthseeker, a legendary elven huntress that set out to discover the truth of the origins of Elvenkind. She traveled the continent tirelessly, seeking out what knowledge she could find, until finally making her way into the Feywild. She never returned, and her bow was lost along with her. You gain a +2 to attack and damage rolls with this weapon. Once per long rest, the wielder can summon the power of the bow and automatically critically strike an enemy affected by Hunter’s Mark. The weapon does an additional {@damage 1d8} + (dexterity modifier) damage to Favored Enemies of the wielder."
+            ],
+            "bonus": "+2"
+        },
+        {
+            "name": "Dryad’s Gift",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H"
+            ],
+            "range": "150/600",
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Forged with a kiss from a dryad. Its string is a strand of her hair. Constantly, branches grow and flowers bloom on it, creating a beautiful scent. The flowers conceal your scent against predators. When branches growing from the bow are drawn, they turn into arrows."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Valefor",
+            "baseItem": "Longbow",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H"
+            ],
+            "range": "150/600",
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This Bow is in the shape of Valefor herself (A sort of feathery dragon looking thing), the wings being the upper and lower limbs, and the body creating a shield for the wielders arm. The head has Valefor's mouth open and thats where you actually shoot the arrow through. As a bonus action the user can speak the bow's command word and Valefor then spreads it's wings and provides half cover, and -25 ft. speed. While its wings are spread you get -5 penalty to dexterity saving throws. Upon hit the arrow goes through the mouth perfectly and shoots with such force, creatures directly behind are hit, if your attack roll surpasses their AC, until a creature's AC from armor stops it. The arrow does break apart when it hits the ground/wall. Upon critical fail, the arrow shatters once it hits the wind force inside of Valefor's mouth, causing an explosion of splinters on the wielder. The wielder takes {@damage 1d6} damage."
+            ],
+            "bonus": "+0"
+        }
+        {
+            "name": "Half-forged Longsword",
+            "baseItem": "Shortsword",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 3,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "In an attempt to create a sentient Longsword. A powerful wizard and a renowned blacksmith got together. While being forged it kept yelling \"Harder!\", \"Right there!\", and other kinky stuff. The blacksmith couldn't handle hearing it every time he hammered the sword and gave up. Deals {@damage 1d6} bludgeoning + {@damage 1d4} psychic damage. If you can please it enough it has +1 magic for a day hours."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Akkadian Warhammer",
+            "baseItem": "Warhammer",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmg2": "{@damage 1d10}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "V"
+            ],
+            "charges": 10,
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Blessed by Enlil. This weapon carries his perseverance. You can activate it using your bonus action. While you are holding it with two hands, next time you miss, Erupting Earth spell is cast at the point of the target you were trying to hit. It has 10 charges and replenishes {@damage 1d4+3} charges at dawn."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Everglacier's Cold Fury",
+            "baseItem": "Pike",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 18,
+            "dmg1": "{@damage 1d10}",
+            "dmgType": "C",
+            "reqAttune": true,
+            "property":
+            [
+                "H",
+                "R",
+                "2H"
+            ],
+            "charges": 2,
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This cold steel weapon from the Everglacier is topped with a menacing ice spike that never melts. When you hit with an attack using this pike, the target takes an extra {@damage 1d10} cold damage. The weapon and its properties treat immunity to cold damage as resistance, and ignore resistance to cold damage.When you reduce a Large or smaller creature to 0 hit points using this weapon, you can choose to encase that creature in ice. An encased creature is prevented from falling prone and is held in place by a shell of ice for 1 minute. If the creature is unconscious, it does not make death saving throws while it's encased in the ice. The ice has AC 12, 20 hit points, immunity to poison and psychic damage, and vulnerability to fire and thunder damage. If the encased creature is healed or the ice is destroyed, the ice crumbles and releases the reatures. Chillspike: As an action you can plunge the pike into the ground at your feet. When you do, the blade of the pike magically vanishes into the earth and summons up to three icy spikes from the ground nearby. Choose up to 3 different targets on the ground you can see within 20 feet of you. An affected target must succeed on a DC 16 Dexterity saving throw or take {@damage 2d8} cold damage as an frozen spike erupts from the ground beneath them. Immediately after using this property, the spikes recede into the ground, and the icy blade of the pike reappears. It has 2 charges and replenishes {@dice 1d2-1} charges every day."
+            ],
+            "bonus": "+0"
+        }
+        {
+            "name": "Achilles Spear",
+            "baseItem": "Spear",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 3,
+            "dmg1": "{@damage 1d10}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "T",
+                "V"
+            ],
+            "charges": 2,
+            "rarity": "Legendary",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A legendary +5/+5 spear. Critical hits against you however force a Constitution save, with a DC of the damage taken. Failure on this save reduces you to 0hp. Fatal damage still kills you. With a shaft hewn from the wood of an ancient tree at the foot of Mount Celestia, and a head said to be forged by Hephaestus himself, this is a weapon for victorious heroes - and yet it has been responsible for as many terrible defeats."
+            ],
+            "bonus": "+5"
         }
     ]
 }
