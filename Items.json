@@ -22,7 +22,7 @@
     [
         {
             "name": "Ki-rin's Guidance",
-            "baseItem": "Longbow",
+            "baseItem": "Longbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -46,7 +46,7 @@
         },
         {
             "name": "Spirit String Bow",
-            "baseItem": "Longbow",
+            "baseItem": "Longbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -70,7 +70,7 @@
         },
         {
             "name": "Razorwind",
-            "baseItem": "Longbow",
+            "baseItem": "Longbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -94,7 +94,7 @@
         },
         {
             "name": "Rifling Bow",
-            "baseItem": "Longbow",
+            "baseItem": "Longbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -118,7 +118,7 @@
         },
         {
             "name": "Bastilla",
-            "baseItem": "Heavy Crossbow",
+            "baseItem": "Heavy Crossbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -143,7 +143,7 @@
         },
         {
             "name": "Rich Man's Crossbow",
-            "baseItem": "Heavy Crossbow",
+            "baseItem": "Heavy Crossbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -168,7 +168,7 @@
         },
         {
             "name": "Betrayer's Blade",
-            "baseItem": "Dagger",
+            "baseItem": "Dagger|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -192,7 +192,7 @@
         },
         {
             "name": "Poisoner's Needle",
-            "baseItem": "Dagger",
+            "baseItem": "Dagger|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -216,7 +216,7 @@
         },
         {
             "name": "Lightning Storm Gauntlet",
-            "baseItem": "Gauntlet",
+            "baseItem": "Gauntlet|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -239,7 +239,7 @@
         },
         {
             "name": "Giant Axe",
-            "baseItem": "Greataxe",
+            "baseItem": "Greataxe|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 22,
@@ -261,7 +261,7 @@
         },
         {
             "name": "Morningstar of the Dawn",
-            "baseItem": "Morningstar",
+            "baseItem": "Morningstar|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 4,
@@ -278,7 +278,7 @@
         },
         {
             "name": "The Great Annihilator's Fang",
-            "baseItem": "Dagger",
+            "baseItem": "Dagger|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -302,7 +302,7 @@
         },
         {
             "name": "Chained Axe",
-            "baseItem": "Handaxe",
+            "baseItem": "Handaxe|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -326,7 +326,7 @@
         },
         {
             "name": "Flashstep Rapier",
-            "baseItem": "Rapier",
+            "baseItem": "Rapier|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -347,7 +347,7 @@
         },
         {
             "name": "Beacon Bow",
-            "baseItem": "Shortbow",
+            "baseItem": "Shortbow|phb",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -370,7 +370,7 @@
         },
         {
             "name": "Staff of Life",
-            "baseItem": "Quarterstaff",
+            "baseItem": "Quarterstaff|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 4,
@@ -392,7 +392,7 @@
         },
         {
             "name": "Hammer of the Farseer",
-            "baseItem": "Warhammer",
+            "baseItem": "Warhammer|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -414,7 +414,7 @@
         },
         {
             "name": "Grasping Whip",
-            "baseItem": "Whip",
+            "baseItem": "Whip|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -436,7 +436,7 @@
         },
         {
             "name": "Giant Bow",
-            "baseItem": "Longbow",
+            "baseItem": "Longbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -461,7 +461,7 @@
         },
         {
             "name": "Kingsglaive",
-            "baseItem": "Dagger",
+            "baseItem": "Dagge|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -485,7 +485,7 @@
         },
         {
             "name": "Spiderbite Daggers",
-            "baseItem": "Dagger",
+            "baseItem": "Dagger|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -509,7 +509,7 @@
         },
         {
             "name": "Orcish Falx",
-            "baseItem": "Greatsword",
+            "baseItem": "Greatsword|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 1,
@@ -531,7 +531,7 @@
         },
         {
             "name": "Angels Will",
-            "baseItem": "Greatsword",
+            "baseItem": "Greatsword|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 1,
@@ -554,7 +554,7 @@
         },
         {
             "name": "Repeating Crossbow",
-            "baseItem": "Heavy Crossbow",
+            "baseItem": "Heavy Crossbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -578,7 +578,7 @@
         },
         {
             "name": "Vampiric Trident",
-            "baseItem": "Trident",
+            "baseItem": "Trident|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 4,
@@ -601,7 +601,7 @@
         },
         {
             "name": "Clockwork Bow",
-            "baseItem": "Longbow",
+            "baseItem": "Longbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -624,7 +624,7 @@
         },
         {
             "name": "Spiked Chain",
-            "baseItem": "Whip",
+            "baseItem": "Whip|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 3,
@@ -647,7 +647,7 @@
         },
         {
             "name": "Double Knock Bow",
-            "baseItem": "Longbow",
+            "baseItem": "Longbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -671,7 +671,7 @@
         },
         {
             "name": "Inevitable Bow",
-            "baseItem": "Longbow",
+            "baseItem": "Longbow|phb",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -695,7 +695,7 @@
         },
         {
             "name": "Bow of the Nymph",
-            "baseItem": "Shortbow",
+            "baseItem": "Shortbow|phb",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -719,7 +719,7 @@
         },
         {
             "name": "The Rainbow",
-            "baseItem": "Shortbow",
+            "baseItem": "Shortbow|phb",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -742,7 +742,7 @@
         },
         {
             "name": "Wind Walkers Bow",
-            "baseItem": "Shortbow",
+            "baseItem": "Shortbow|phb",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -766,7 +766,7 @@
         },
         {
             "name": "Blade of Selves",
-            "baseItem": "Shortsword",
+            "baseItem": "Shortsword|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -788,7 +788,7 @@
         },
         {
             "name": "Lady Luck",
-            "baseItem": "Shortsword",
+            "baseItem": "Shortsword|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -810,7 +810,7 @@
         },
         {
             "name": "Ice Sickle",
-            "baseItem": "Sickle",
+            "baseItem": "Sickle|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -831,7 +831,7 @@
         },
         {
             "name": "David’s Sling",
-            "baseItem": "Sling",
+            "baseItem": "Sling|phb",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -853,7 +853,7 @@
         },
         {
             "name": "The Judge",
-            "baseItem": "Warhammer",
+            "baseItem": "Warhammer|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -869,13 +869,13 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "Hits from this weapon cast Sacred Flame upon the hit enemy. If you roll a 1 on an attack roll Vicious Mockery is cast on you."
+                "Hits from this weapon cast {@spell Sacred Flame} upon the hit enemy. If you roll a 1 on an attack roll Vicious Mockery is cast on you."
             ],
             "bonus": "+0"
         },
          {
             "name": "Half-forged Longsword",
-            "baseItem": "Shortsword",
+            "baseItem": "Shortsword|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 3,
@@ -897,7 +897,7 @@
         },
         {
             "name": "Akkadian Warhammer",
-            "baseItem": "Warhammer",
+            "baseItem": "Warhammer|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -920,7 +920,7 @@
         },
         {
             "name": "Everglacier's Cold Fury",
-            "baseItem": "Pike",
+            "baseItem": "Pike|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -943,12 +943,13 @@
             "bonus": "+0"
         },
         {
-            "name": "Achilles Spear",
-            "baseItem": "Spear",
+            "name": "Achille's Spear",
+            "baseItem": "Spear|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 3,
             "dmg1": "{@damage 1d6}",
+            "dmg2": "{@damage 1d8}",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -956,7 +957,7 @@
                 "T",
                 "V"
             ],
-            "Range": "20/60",
+            "range": "20/60",
             "rarity": "Legendary",
             "source": "Canbrew Items",
             "entries":
@@ -967,11 +968,12 @@
         },
         {
             "name": "Cu Chulainn's Spear",
-            "baseItem": "Spear",
+            "baseItem": "Spear|phb",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 3,
             "dmg1": "{@damage 1d6}",
+            "dmg2": "{@damage 1d8}",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -979,7 +981,7 @@
                 "T",
                 "V"
             ],
-            "Range": "20/60",
+            "range": "20/60",
             "rarity": "Legendary",
             "source": "Canbrew Items",
             "entries":
@@ -990,7 +992,7 @@
         },
         {
             "name": "Mage Guardian's Greatsword",
-            "baseItem": "Greatsword",
+            "baseItem": "Greatsword|phb",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 6,
