@@ -1011,7 +1011,56 @@
                 "Only the one who knows the ways of Mage Guardian can wield this sword. This weapon absorbs the spells around. Whenever someone casts a harmful spell in 30 feet of you, it copies the damage type of the spell. When you hit, roll the dice for the damage again as the damage type it copied. You can use your reaction to make an attack roll against any harmful spell that targets only you to block the spell entirely. You must roll higher than the attacker's roll or DC, plus the level of the spell. Prerequisite: Strength 18."
             ],
             "bonus": "+0"
+        },
+        {
+            "name": "Ghost Mail",
+            "baseItem": "Scale Mail|phb",
+            "type": "MA",
+            "armor": true,
+            "weight": 45,
+            "ac": 14,
+            "reqAttune": true,
+            "stealth": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Scale mail that allows you to use a reaction to have a melee attack pass through you, as if you were ethereal. Each use pulls you towards death, and next time you must make death saves you automatically fail one for each use of this item. If you survive, this is reset. Would likely only be used to avoid fatal damage. When the light shines just right on this armor's polished scales, tendrils of white mist can be discerned moving somewhere within."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Scorpion Armor",
+            "baseItem": "Half Plate|phb",
+            "type": "MA",
+            "armor": true,
+            "weight": 40,
+            "ac": 15,
+            "reqAttune": true,
+            "stealth": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Crafted from the chitin of a giant scorpion. Your Constitution score increases by 2, to a maximum of 22. When you take a critical hit, your blood splatters and deals the damage you took as acid damage to all enemies adjacent to you. | Curse: Once you wear this armor, you are cursed. It corrupts your blood with venom of the scorpion. Dark green veins show under your skin. Your maximum hit points are reduced by a number equal to your level + your class hit die and healing potions deal damage to you. You can instead drink poison potions to recover. Your AC is 15 + your Dexterity modifier (max 2)."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Venombane Armor",
+            "baseItem": "Hide Armor|phb",
+            "type": "MA",
+            "armor": true,
+            "weight": 12,
+            "ac": 12,
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This spider hide armor absorbs poison and allows you to traverse webbed areas more easily. While you're wearing this armor, you can't be caught in webs of any sort and can move through webs as if they were difficult terrain. In addition, when you take poison damage while wearing this armor, you can use your reaction to reduce the damage by {@dice 1d8} + your Constitution modifier."
+            ],
+            "bonus": "+0"
         }
-
     ]
 }
