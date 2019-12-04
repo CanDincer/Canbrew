@@ -40,7 +40,8 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. When you lunch an arrow from this weapon, the arrow transforms into a {@spell Guiding Bolt} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignores target's AC from dexterity modifier. When you attack a creature with the Ki-rin's Guidance and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
+                "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones.",
+                "When you lunch an arrow from this weapon, the arrow transforms into a {@spell Guiding Bolt} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignores target's AC from dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're unconscious."
             ],
             "bonus": "+0"
         },
@@ -162,7 +163,11 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "This crossbow-like weapon uses pieces of currency as ammunition. The value of the coins themselves has an effect on the damage output as well. Coins fired this way are destroyed. cp {@damage 1d10} piercing, sp {@damage 1d10} piercing (silvered), gp {@damage 2d6} piercing + {@damage 1d4} radiant, ep {@damage 2d6} lightning + {@damage 1d6} piercing"
+                "This crossbow-like weapon uses pieces of currency as ammunition. The value of the coins themselves has an effect on the damage output as well. Coins fired this way are destroyed.",
+                "cp {@damage 1d10} piercing",
+                "sp {@damage 1d10} piercing (silvered)",
+                "gp {@damage 2d6} piercing + {@damage 1d4} radiant",
+                "ep {@damage 2d6} lightning + {@damage 1d6} piercing"
             ],
             "bonus": "+0"
         },
@@ -186,7 +191,8 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "A small dagger with a jagged black blade. You have proficiency(expertise if you're already proficient) on any stealth/sleight of hand check to hide it, and get a surprise round when attacking any non-hostile character. The location of this dagger is currently unknown, but it is being sought in connection with the murder of a Count. If you have any information regarding its whereabouts, report to your nearest guard post for a reward of 20 gold pieces."
+                "A small dagger with a jagged black blade. You have proficiency(expertise if you're already proficient) on any stealth/sleight of hand check to hide it, and get a surprise round when attacking any non-hostile character.",
+                "The location of this dagger is currently unknown, but it is being sought in connection with the murder of a Count. If you have any information regarding its whereabouts, report to your nearest guard post for a reward of 20 gold pieces."
             ],
             "bonus": "+0"
         },
@@ -260,6 +266,29 @@
             "bonus": "+0"
         },
         {
+            "name": "Repulsor Gauntlet",
+            "type": "R",
+            "weight": 2,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "T",
+            "reqAttune": true,
+            "property":
+            [
+                "S",
+                "L"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "range": "10/15",
+            "entries":
+            [
+                "This gauntlet is made of various pieces of leather sown together with thick stitches with a large crystal disk fitted into the palm.",
+                "With this gauntlet, you can make a ranged spell attack against one creature you can see, within 10 feet of you. Although you are not proficient with it, you add your spellcasting modifier to attacks made with it. On a successful attack deal {@damage 1d6} thunder damage. Each time an attack is made with the Force Gauntlet, increase the damage by an additional {@damage 1d6}. For example, if the Force Gauntlet has been used 5 times, it will deal {@damage 6d6} damage.",
+                "If you roll 1 on the attack roll, the attack backfires and the wielder takes the damage instead. If you roll 2, the disc bolts out and you have to use an action to mount it back on. It resets after a backfire, a disc failure, a long rest or if you miss an attack. If you manage to kill a creature with this weapon, the creature explodes and the creature directly behind it takes the same damage from the weapon. On a critical hit target is pushed back 5 ft."
+            ],
+            "bonus": "+0"
+        },
+        {
             "name": "Morningstar of the Dawn",
             "baseItem": "Morningstar|phb",
             "type": "M",
@@ -296,7 +325,10 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "A very large fang with a slight curve. In darkness, you can see shadows bend towards it. You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls. If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang then grants you an extra action which you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand. Curse: It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
+                "A very large fang with a slight curve. In darkness, you can see shadows bend towards it.",
+                "You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls.",
+                "If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang then grants you an extra action which you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand.",
+                "Curse: It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
             ],
             "bonus": "+0"
         },
@@ -364,7 +396,8 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "Shortbow, doing {@damage 1d6} radiant damage, and casting Light wherever its arrow lands. On a critical hit, It blinds its target for 1 round, if the target fails DC 10 Constitution saving throw. Used by the legendary wood-elf, Aela the Drow-Hunter, in her quest into the Underdark to retrieve her kidnapped husband. Nock an arrow and its head will ignite with brilliant radiance. The creature can use its action to remove the arrow, or you may use a bonus action if you are within range. While the creature is under the magics effect, it cannot have any benefits from being invisible, hidden, or by being behind half cover."
+                "Shortbow, doing {@damage 1d6} radiant damage, and casting Light wherever its arrow lands. On a critical hit, It blinds its target for 1 round, if the target fails DC 10 Constitution saving throw.",
+                "Used by the legendary wood-elf, Aela the Drow-Hunter, in her quest into the Underdark to retrieve her kidnapped husband. Nock an arrow and its head will ignite with brilliant radiance. The creature can use its action to remove the arrow, or you may use a bonus action if you are within range. While the creature is under the magics effect, it cannot have any benefits from being invisible, hidden, or by being behind half cover."
             ],
             "bonus": "+0"
         },
@@ -479,7 +512,7 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "Ranged attacks with this dagger grant you Misty Step spell. You can use your object interaction to teleport to the location of your dagger. If you choose to teleport, you deal extra {@damage 1d4} lightning damage and acquire the dagger. Use your Charisma modifier for both attack and damage rolls. If you kill an enemy with this weapon you gain Haste spell."
+                "Ranged attacks with this dagger grant you {@spell Misty Step} spell. You can use your object interaction to teleport to the location of your dagger. If you choose to teleport, you deal extra {@damage 1d4} lightning damage and acquire the dagger. If you kill an enemy with this weapon you gain Haste spell."
             ],
             "bonus": "+0"
         },
@@ -591,7 +624,7 @@
                 "T",
                 "V"
             ],
-            "rarity": "Rare",
+            "rarity": "Very Rare",
             "source": "Canbrew Items",
             "entries":
             [
@@ -618,7 +651,9 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "This longbow has an assortment of gears and pulleys attached to it. Near the handle of the bow, there is a scope and a dial. This dial has three settings, Small, Medium, and Large. If you are a creature who's size is the one the dial is set to, you have automatic proficiency with the bow. Additionally, you can use the scope to perfect your aim and spend a bonus action lining up your shot. On the next attack with this bow, you can fire as if you had Sharpshooter feat including the optional penalty. The bow can be folded up to be concealed as a bonus action, and you have proficiency (expertise if you're already proficient) on sleight of hand checks to hide the weapon when it is in this state."
+                "This longbow has an assortment of gears and pulleys attached to it. Near the handle of the bow, there is a scope and a dial. This dial has three settings, Small, Medium, and Large.",
+                "If you are a creature who's size is the one the dial is set to, you have automatic proficiency with the bow. Additionally, you can use the scope to perfect your aim and spend a bonus action lining up your shot. On the next attack with this bow, you can fire as if you had Sharpshooter feat including the optional penalty.",
+                "The bow can be folded up to be concealed as a bonus action, and you have proficiency (expertise if you're already proficient) on sleight of hand checks to hide the weapon when it is in this state."
             ],
             "bonus": "+0"
         },
@@ -713,7 +748,8 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "Magical short-bow. The bow does not require ammo. When the bow is drawn without ammo, a magical arrow appears knocked in the bow. Anyone struck by the magical arrow becomes charmed with the first creature it sees after being struck (as charm person—the target must be a humanoid of Medium or smaller size, Wisdom DC 11 negates). The charm effects wear off after 1 minute. The magical arrow does not cause pain, and is invisible unless detected by the Wisdom Save. The arrow disappears after the effect ends. The bow has 1 charge and recovers {@dice 1d2-1} charges at the end of a long rest."
+                "Magical short-bow. The bow does not require ammo. When the bow is drawn without ammo, a magical arrow appears knocked in the bow.",
+                "Anyone struck by the magical arrow becomes charmed with the first creature it sees after being struck (as charm person—the target must be a humanoid of Medium or smaller size, Wisdom DC 11 negates). The charm effects wear off after 1 minute. The magical arrow does not cause pain, and is invisible unless detected by the Wisdom Save. The arrow disappears after the effect ends. The bow has 1 charge and recovers {@dice 1d2-1} charges at the end of a long rest."
             ],
             "bonus": "+0"
         },
@@ -1061,6 +1097,452 @@
                 "This spider hide armor absorbs poison and allows you to traverse webbed areas more easily. While you're wearing this armor, you can't be caught in webs of any sort and can move through webs as if they were difficult terrain. In addition, when you take poison damage while wearing this armor, you can use your reaction to reduce the damage by {@dice 1d8} + your Constitution modifier."
             ],
             "bonus": "+0"
+        },
+        {
+            "name": "Darkwood Half Plate Armor",
+            "baseItem": "Half Plate Armor|phb",
+            "type": "MA",
+            "armor": true,
+            "weight": 20,
+            "ac": 15,
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This armor is made of darkwood, a light but dense wood that is as strong as steel and cannot catch fire. This armor weighs half as much as its mundane equivalent. You don't have disadvantage with Dexterity (Stealth) checks wearing this armor."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Darkwood Breastplate Armor",
+            "baseItem": "Breastplate Armor|phb",
+            "type": "LA",
+            "armor": true,
+            "weight": 10,
+            "ac": 14,
+            "reqAttune": true,
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This armor is made of darkwood, a light but dense wood that is as strong as steel and cannot catch fire. This armor weighs half as much as its mundane equivalent. Your AC equals to 14 + your Dexterity modifier."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Elven Chain",
+            "baseItem": "Chain Shirt Armor|phb",
+            "type": "LA",
+            "armor": true,
+            "weight": 10,
+            "ac": 13,
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Pinnacle of elven craftsmanship. You are considered proficient with this armor, even if you lack proficiency with medium armor. Your AC equals to 13 + your Dexterity modifier. This armor is concealed."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Ravenous Sentinel",
+            "baseItem": "Half Plate Armor|phb",
+            "type": "MA",
+            "armor": true,
+            "weight": 40,
+            "ac": 15,
+            "reqAttune": true,
+            "stealth": true,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "When an incoming attack misses by between 1 to 4 points, tries to “eat” the metal weapon with an opposed attack roll (magic weapons add their enhancement bonus squared). If it succeeds, the weapon is destroyed and the armor gains +3 magic bonus for 1 minute. The armor must be “fed” daily or else it may try to eat nearby metal objects at random."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Armor of the Totem",
+            "baseItem": "Studded Leather Armor|phb",
+            "type": "LA",
+            "armor": true,
+            "weight": 13,
+            "ac": 12,
+            "reqAttune": true,
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This suit of studded leather armor is made entirely without metal. Studs are made of polished ironwood. Buckles and clasps are crafted of carved bone, horn, and claw. When you use your Wild Shape ability, this armor changes shape as well, granting +2 AC while in animal form. Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Juggernaut Plate",
+            "baseItem": "Plate Armor|phb",
+            "type": "HA",
+            "armor": true,
+            "weight": 65,
+            "ac": 18,
+            "reqAttune": true,
+            "stealth": true,
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Requires str 18, max speed 30ft, gives -5 to Dexterity saves while wearing, but allows a special attack action - Charge: move 30 ft straight and make a Shove contest against all in the path of the last 20ft, doing {@damage 1d8} bludgeoning to all who fail. You do not provoke attack of opportunity, and moving through enemy space is treated as normal terrain. You have resistance to mundane damage until the end of your next turn after Charge is initiated. You have +5 to Athletics checks when charging."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Tabula Rasa",
+            "baseItem": "Plate Armor|phb",
+            "type": "HA",
+            "armor": true,
+            "weight": 65,
+            "ac": 18,
+            "reqAttune": true,
+            "stealth": true,
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A clean, white, adamantine plate armor. When you kill an elemental, a rune engraving related to the type of the elemental appears on the armor, giving you permanent resistance to the type of the elemental while you're donned."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Mithril Plate Armor",
+            "baseItem": "Plate Armor|phb",
+            "type": "HA",
+            "armor": true,
+            "weight": 35,
+            "ac": 18,
+            "reqAttune": true,
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Mithril is a light, flexible metal. Mithril armor weighs half as much as its mundane equivalent. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithril version of the armor doesn't."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Mithril Splint Armor",
+            "baseItem": "Splint Armor|phb",
+            "type": "HA",
+            "armor": true,
+            "weight": 30,
+            "ac": 17,
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Mithril is a light, flexible metal. Mithril armor weighs half as much as its mundane equivalent. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithril version of the armor doesn't."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Symbiotic Armor",
+            "type": "LA",
+            "armor": true,
+            "weight": 3,
+            "ac": 8,
+            "reqAttune": true,
+            "rarity": "Artifact",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "In its true form it's a black goo. You can make it look like common clothes at will while you're out of combat. Mechanics wise you are considered unarmored. Your AC is 8 + your Dexterity(+ Constitution modifier if you're a Barbarian and + Wisdom modifier if you're a Monk) modifier. You gain +2 to Dexterity, Strength, and Constitution and your Strength, Dexterity, and Constitution maximums are increased by 2. You have -4 Wisdom and your Wisdom maximum is decreased by 2. You have Proficiency(Expertise if you're already proficient) in Strength, Dexterity, and Constitution Saving Throws. You cannot Doff this armor. It is a part of you and it feeds of off you. You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have. As an action, you can expend a hit die to recover hit points. Creatures don't gain advantage while flanking you. You have two reactions instead of one. In combat you refer to yourself in a plural manner. Kills grant you temporary hit points equal to your level. You have vulnerability to force and thunder damage."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Mirage Shield",      
+            "baseItem": "Shield|phb",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This is a shield that casts Shield on you. It has a rune engraved under its grip. When you follow the engraving with your finger using a bonus action, it lights up dimly and activates. Next time you are attacked light refracts from the shield and another shield appears in front of this shield. It has 1 charge which replenishes after a short rest."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Eladrian Shield",       
+            "baseItem": "Shield|phb",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A wooden shield inlaid with mithril ornaments. Slightly pulls any projectile towards it. Provides +3 AC against projectiles and +2 AC to the rest of the attacks."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Twitcher's Shield",
+            "baseItem": "Shield|phb",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This shield feeds from your fears. Whenever you're surprised you panic and rise you shield gaining temporary hit points equal to 20 - your Wisdom until the end of the surprise round."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Sage Bull",            
+            "baseItem": "Shield|phb",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A full metal shield with a large bull face ornament at the front.  This shield holds a maximum of 5 charges. It replenishes itself 1d4 charge every dawn. Guiding Flame: You may expend 2 charges to have the guiding flame show you the level of danger in the direction you're pointing it at. / Green Flame - No Threat / Purple Flame - Low Threat / Red Flame - Medium Threat / Black Flame - High Threat. In Flames: When melee attacked, as a reaction, you may expend 2 charges to attempt to ignite the attacking creature in flames. Attacking creature must make a DC 17 Intelligence saving throw. If they fail, they take {@damage 3d10} fire damage. If they are successful, nothing happens."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Mirrored Shield",
+            "baseItem": "Shield|phb",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "reqAttune": true,
+            "rarity": "Very Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "You can add your shield's AC bonus to any Dexterity saving throw you make against a projectile like spell that targets only you. If the attacker's roll equals your AC or spell's DC equals your Dexterity saving throw, it reflects the spell back at its caster."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Coralshield Golem",
+            "baseItem": "Shield|phb",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This ancient golem is fashioned in the shape of a crab and made of a light but sturdy coral. While wearing it on your back, you can use a bonus action to instruct it to shield you. Doing so causes the crab to slowly move along your arm, and at the start of your next turn dons itself like an ordinary shield. Once equipped, you can instruct it to return to your back, doffing itself at the start of your next turn.",
+                "If you do not have a free hand or refuse to drop what you're holding when the crab attempts to don itself, it returns and reattaches to your back at the start of the next turn, when it can be summoned once again. If the golem is removed from you against your will, it will slowly move toward you at a speed of 5 feet as it can see you."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Rho Aias",            
+            "baseItem": "Shield|phb",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "reqAttune": true,
+            "rarity": "Artifact",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This shield expands and gives bonus equal to the number of enemies in 30 feet of you to your AC, starting from +0. For each expansion you get -5 ft. to your speed."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Injection Arrow",
+            "baseItem": "Arrow|phb",
+            "type": "A",
+            "weight": 0.05,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "These arrow's heads are hollow and have storage equal to that of a vial. It contains a tiny mechanism similar to a syringe. You can use an action to prepare a syringe. Liquids held within never dry out, and are injected directly into a creature struck."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Armor Piercing Arrow",
+            "baseItem": "Arrow|phb",
+            "type": "A",
+            "weight": 0.05,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "These arrows have very narrow metal tips, instead of a standard broad head, they appear much as a target arrow, but painfully sharp and heavier. Because of the small point of impact, the armor-piercing arrow can penetrate better through most armors. Wielding an armor-piercing arrow ignores up to 3 points of creature's AC gained from mundane armor."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Arrows of Transposition",
+            "baseItem": "Arrow|phb",
+            "type": "A",
+            "weight": 0.05,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "On-hit, the attacker and target immediately exchange positions, if they both can fit. If a transposition is impossible, both take {@damage 3d6} force damage, and are returned to their original positions."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Hollow-point Arrows",
+            "baseItem": "Arrow|phb",
+            "type": "A",
+            "weight": 0.05,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "On-hit, the target must make a DC equal to your Strength modifier + 10 Strength save or be knocked prone. Damage dealt is Bludgeoning, rather than Piercing."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Arrow of Rest",
+            "baseItem": "Arrow|phb",
+            "type": "A",
+            "weight": 0.05,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "if it hits on a surprise round it casts Sleep on that target."
+            ],
+            "bonus": "+0"
+        },
+        {
+            "name": "Horned Arrow",
+            "baseItem": "Arrow|phb",
+            "type": "A",
+            "weight": 0.05,
+            "reqAttune": true,
+            "rarity": "Legendary",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Forged from the horns of  slaughtered unicorns, each horned arrow is sentient with soul of the unicorn it was crafted from. They remember how they died and how they were forged into the arrow. Over a long time, they are broken into Stockholm Syndrome. As a bonus action, you may magically call all horned arrows back to you. An arcane unicorn embodies each arrow and they run back into your quiver. You gain +2 to your attack and damage rolls made with this arrow. These arrows cannot break as long as you are attuned to them."
+            ],
+            "bonus": "+2"
+        },
+        {
+            "name": "Ring?",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This ring has Nondetection spell cast on it by itself continuously."
+            ],
+        },
+        {
+            "name": "Ring of Mind Shielding",
+            "type": "RG",
+            "weight": 0.05,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "You are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it. You can use an action to cause the ring to become invisible until you use another action to make it visible, until you remove the ring, or until you die. If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
+            ],
+        },
+        {
+            "name": "Ring of Shark Detection",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Plays the Jaws music when a shark is within 60ft."
+            ],
+        },
+        {
+            "name": "Ring of Water Walking",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "You can stand on and move across any liquid surface as if it were solid ground."
+            ],
+        },
+        {
+            "name": "Exile's Ring",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "It's cursed and cannot be removed. Once worn, whatever settlement you're in, you are magically exiled {@dice 1d6} days after from there. Reroll the die when you enter an another settlement. You roll Wisdom Saving Throw with DC 10 to enter or stay in a settlement you're exiled. The DC increases each day by 1. Once a day you can cast 4th-level Banishment."
+            ],
+        },
+        {
+            "name": "Ring of Entropy",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "When you roll a critical fail, your next roll is critical success, vice versa. The second critical success/fail generated by the ring doesn't charge the ring again."
+            ],
+        },
+        {
+            "name": "Heart of Hydra",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "A red gold ring. Protects you from a fatal blow once, then shatters."
+            ],
+        },
+        {
+            "name": "Seal of Gal'badur",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "You can activate the ring to gain advantage on Charisma checks against dwarfs."
+            ],
+        },
+        {
+            "name": "Ring of Alucard",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Legendary",
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Whenever you deal melee damage to anything that isn't undead or a construct, you gain temporary hit points equal to your proficiency bonus."
+            ],
         }
     ]
 }
