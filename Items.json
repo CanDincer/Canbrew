@@ -1013,7 +1013,7 @@
             ]
         },
         {
-            "name": "Crystal-heart Spear",
+            "name": "Crystalheart Spear",
             "baseItem": "Spear|phb",
             "type": "M",
             "weaponCategory": "Simple",
@@ -1674,19 +1674,6 @@
             ]
         },
         {
-            "name": "Bands of Atonement",
-            "rarity": "Uncommon",
-            "weight": 1,
-            "reqAttune": true,
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "Two interlocking bands, one gold engraved with a motifs of Justitia and the other granite with a motifs of Arete.",
-                "Justitia rewards order with temporary hit points equal to your level and punishes chaos with Shocking Grasp.",
-                "Arete rewards goodness with inspiration and punishes evil with a Sacred Flame."
-            ]
-        },
-        {
             "name": "Babel’s Ornament",
             "rarity": "Rare",
             "weight": 0.05,
@@ -1992,7 +1979,6 @@
             "name": "Sheath of Returning",
             "rarity": "Very Rare",
             "weight": 1,
-            "reqAttune": false,
             "source": "Canbrew Items",
             "entries":
             [
@@ -2004,9 +1990,8 @@
         {
             "name": "Archmage Krylles’ Instant Campsite",
             "rarity": "Rare",
-            "weight": 0.05,
+            "weight": 4,
             "charges": 1,
-            "reqAttune": false,
             "source": "Canbrew Items",
             "entries":
             [
