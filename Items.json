@@ -1292,7 +1292,20 @@
             "source": "Canbrew Items",
             "entries":
             [
-                "In its true form it's a black goo. You can make it look like common clothes at will while you're out of combat. Mechanics wise you are considered unarmored. Your AC is 8 + your Dexterity(+ Constitution modifier if you're a Barbarian and + Wisdom modifier if you're a Monk) modifier. You gain +2 to Dexterity, Strength, and Constitution and your Strength, Dexterity, and Constitution maximums are increased by 2. You have -4 Wisdom and your Wisdom maximum is decreased by 2. You have Proficiency(Expertise if you're already proficient) in Strength, Dexterity, and Constitution Saving Throws. You cannot Doff this armor. It is a part of you and it feeds of off you. You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have. As an action, you can expend a hit die to recover hit points. Creatures don't gain advantage while flanking you. You have two reactions instead of one. In combat you refer to yourself in a plural manner. Kills grant you temporary hit points equal to your level. You have vulnerability to force and thunder damage."
+                "In its true form it's a black goo. You can make it look like common clothes at will while you're out of combat. Mechanics wise you are considered unarmored.",
+                "Your AC is 8 + your Dexterity(+ Constitution modifier if you're a Barbarian or + Wisdom modifier if you're a Monk) modifier.",
+                "You gain +2 to Dexterity, Strength, and Constitution and your Strength, Dexterity, and Constitution maximums are increased by 2. You have -4 Wisdom and your Wisdom maximum is decreased by 2.",
+                "You have Proficiency(Expertise if you're already proficient) in Strength, Dexterity, and Constitution Saving Throws.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries":
+                    [
+                        "You cannot Doff this armor. It is a part of you and it feeds of off you.",
+                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have. As an action, you can expend a hit die to recover hit points. Creatures don't gain advantage while flanking you. You have two reactions instead of one.",
+                        "In combat you refer to yourself in a plural manner. Kills grant you temporary hit points equal to your level. You have vulnerability to force and thunder damage."
+                    ]
+                }
             ]
         },
         {
@@ -1836,6 +1849,7 @@
         {
             "name": "Swiss Army Wand",
             "rarity": "Uncommon",
+            "type": "WD",
             "weight": 1,
             "charges": 7,
             "reqAttune": true,
@@ -1856,6 +1870,7 @@
         {
             "name": "Wand of Magic Missiles",
             "rarity": "Rare",
+            "type": "WD",
             "weight": 1,
             "charges": 7,
             "reqAttune": true,
@@ -1935,6 +1950,7 @@
         {
             "name": "Potion of Shadow Form",
             "rarity": "Rare",
+            "type": "P",
             "weight": 0.5,
             "reqAttune": true,
             "source": "Canbrew Items",
@@ -1947,6 +1963,7 @@
         {
             "name": "Wand of Secrets",
             "rarity": "Rare",
+            "type": "WD",
             "weight": 1,
             "charges": 3,
             "reqAttune": true,
@@ -2000,7 +2017,8 @@
         },
         {
             "name": "Liquid Focus",
-            "rarity": "Rare",
+            "rarity": "Legendary",
+            "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew Items",
@@ -2012,6 +2030,7 @@
         {
             "name": "Academic Focus",
             "rarity": "Legendary",
+            "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew Items",
@@ -2028,6 +2047,7 @@
         {
             "name": "Adamantine Focus",
             "rarity": "Legendary",
+            "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew Items",
@@ -2039,6 +2059,7 @@
         {
             "name": "Pearl Focus",
             "rarity": "Legendary",
+            "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew Items",
