@@ -1922,12 +1922,175 @@
             "name": "All-In Coin",
             "rarity": "Rare",
             "weight": 0.05,
-            "charges": 1,
             "reqAttune": true,
             "source": "Canbrew Items",
             "entries":
             [
                 "On a roll you would normally use a {@dice d20}, flip a coin instead. Heads is a critical success, tails is a critical fail. It has one charge and refills when you roll 20 or 1 naturally."
+            ]
+        },
+        {
+            "name": "Hymn of Zeus",
+            "rarity": "Rare",
+            "weight": 1,
+            "charges": 1,
+            "reqAttune": true,
+            "attachedSpells":
+            [
+                "Call Lightning"
+            ],
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Prayer book, gives +2 on Religion checks when held. Has one charge of {@spell Call Lightning}."
+            ]
+        },
+        {
+            "name": "Potion of Shadow Form",
+            "rarity": "Rare",
+            "weight": 0.5,
+            "reqAttune": true,
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This potion's container seems to hold a black fog that moves and pours like water.",
+                "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being grappled and restrained, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain Darkvision to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
+            ]
+        },
+        {
+            "name": "Wand of Secrets",
+            "rarity": "Rare",
+            "weight": 1,
+            "charges": 3,
+            "reqAttune": true,
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains {@dice 1d3-1} expended charges daily at dawn."
+            ]
+        },
+        {
+            "name": "Whistle of the Meadow Genie",
+            "rarity": "Rare",
+            "weight": 0.05,
+            "reqAttune": true,
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Carved by a druid of the old ways. This whistle makes the sound of the spring winds when blown.",
+                {
+                    "type": "entries",
+                    "name": "Bloom",
+                    "entries":
+                    [
+                        "Once per day, as a bonus action, you may blow this whistle to activate its magic. All flowers within 100 ft. of you bloom to life. Healing all friendly creatures within 20 ft. of you for {@dice 1d6} + your Wisdom (Nature) modifier."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sheath of Returning",
+            "rarity": "Very Rare",
+            "weight": 1,
+            "reqAttune": false,
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "The sheath magically adjusts its shape for any weapon you sheath into it.",
+                "During a long rest you can sheath a melee weapon in it, speak its command word and bind the weapon to the sheath. As a bonus action you can re-summon your bound weapon into the sheath, whilst the weapon is in a 30 ft. range.",
+                "There can only be one bound weapon at any time. If the bound weapon gets destroyed, the bond breaks. The bound weapon does not use your attunement slot while bound to the sheath."
+            ]
+        },
+        {
+            "name": "Archmage Krylles’ Instant Campsite",
+            "rarity": "Rare",
+            "weight": 0.05,
+            "charges": 1,
+            "reqAttune": false,
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Throw down this magical pack and a have a furnished 4 man tent appear, with a fire pit and roaring fire, and pot of water on the boil."
+            ]
+        }
+        {
+            "name": "Liquid Focus",
+            "rarity": "Rare",
+            "weight": 0.05,
+            "reqAttune": true,
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "You can mix and match your available spell slots. Expending a level 3 and a level 4 spell slot, you can cast a spell at level 7."
+            ]
+        },
+        {
+            "name": "Academic Focus",
+            "rarity": "Legendary",
+            "weight": 0.05,
+            "reqAttune": true,
+            "source": "Canbrew Items",
+            "attachedSpells":
+            [
+                "Identify",
+                "Legend Lore"
+            ],
+            "entries":
+            [
+                "An orb that functions as an Arcane Focus, giving -5 to Passive Perception, but proficiency (expertise if you are already proficient) on Arcana checks. You can cast {@spell Legend Lore} as a 4th level spell, and {@spell Identify} without expending a spell slot. These spells are added to your spell list if you do not already know them, and they do not count against spells known."
+            ]
+        },
+        {
+            "name": "Adamantine Focus",
+            "rarity": "Legendary",
+            "weight": 0.05,
+            "reqAttune": true,
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "It acts as a conduit between you and your target. You can expand a spell slot and lend a spell of your choosing to an ally. For the next hour, your ally can cast the spell using the spell slot as an action."
+            ]
+        },
+        {
+            "name": "Pearl Focus",
+            "rarity": "Legendary",
+            "weight": 0.05,
+            "reqAttune": true,
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "Amplifies your spells. When used; level of the spell you are casting doubles but, strains your physical form and you gain 1 exhaustion."
+            ]
+        },
+        {
+            "name": "Horadric Cube",
+            "rarity": "Rare",
+            "weight": 0.5,
+            "reqAttune": true,
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "It's a hand-sized cube with engravings on it. The cube can store your excess spell power. When you finish a long rest (short rest if you are a warlock), you can store unused spell slots from earlier in the cube. The total of the spell slot levels you can store equals to the sum of your caster class level."
+            ]
+        },
+        {
+            "name": "Tome of Mage Guardian",
+            "rarity": "Rare",
+            "weight": 1,
+            "reqAttune": true,
+            "attachedSpells":
+            [
+                "Weapon Bond"
+            ],
+            "source": "Canbrew Items",
+            "entries":
+            [
+                "This book is written in elder language and belongs to an over eight thousand year lineage of Mage Guardians, magically enhanced Eldritch Knights, Magi. They have been accompanying archmages for generations. When there are no archmages to protect and serve, they are sent into hibernation. Only the aura of a powerful mage can wake them up.",
+                "The book has one purpose, passing ancestral knowledge and power of the guardians along. At least 14 Intelligence is required to understand it. Once you read this book, what you can make up of it grants you:",
+                "-1 cantrip which you must choose from the abjuration or evocation schools",
+                "-Knowledge of {@spell Weapon Bond}",
+                "-Ability to cast cantrips using bonus action if you used your action to attack with a two-handed melee weapon for that turn",
+                "After reading, the writings will diminish for one hundred years."
             ]
         }
     ]
