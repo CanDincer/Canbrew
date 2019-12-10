@@ -1527,6 +1527,17 @@
             ]
         },
         {
+            "name": "Ring of the Mimic",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This ring may not shoot fireballs, but it never fails to impress shoppers. Once per day you may use the Ring of the Mimic to transform magically into an inanimate object withing sight. This object can only be Tiny sized"
+            ]
+        },
+        {
             "name": "Ring of Mind Shielding",
             "type": "RG",
             "weight": 0.05,
@@ -2098,6 +2109,22 @@
                 "-Ability to cast cantrips using bonus action if you used your action to attack with a two-handed melee weapon for that turn",
                 "After reading, the writings will diminish for one hundred years."
             ]
+        },
+        {
+            "name": "Identifier Machine",
+            "rarity": "Uncommon",
+            "weight": 62,
+            "reqAttune": true,
+            "attachedSpells":
+            [
+                "Identify"
+            ],
+            "source": "Canbrew",
+            "entries":
+            [
+                "A contraption with a huge pearl in the right side and a hemisphere cavity on the left side. Between the two, numerous lenses and prisms are inlaid. The cavity is surfaced with polished adamantine. Whenever a magical item is brought close to the cavity, the pearl shines with the color of the specific magic school. The pearl's brightness points to the intensity of the magic.",
+                "You can expend a spell slot to infuse the machine with your magic to \"{@spell Identify}\" the item."
+            ]
         }
     ],
     "monster":
@@ -2223,7 +2250,22 @@
             "miscTags":
             [
                 "MW"
-            ]
+            ],
+            "tokenUrl": "https://i.imgur.com/6KYxAKy.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/6KYxAKy.png"
+                        }
+                    }
+                ]
+            }
         }
     ]
 }
