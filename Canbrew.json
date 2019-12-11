@@ -22,7 +22,7 @@
     [
         {
             "name": "Ki-rin's Guidance",
-            "baseItem": "Longbow|phb",
+            "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -45,12 +45,12 @@
             "entries":
             [
                 "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones.",
-                "When you lunch an arrow from this weapon, the arrow transforms into a {@spell Guiding Bolt} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignores target's AC from dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're unconscious."
+                "When you lunch an arrow from this weapon, the arrow transforms into a {@spell Guiding Bolt|PHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore target's AC from dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're unconscious."
             ]
         },
         {
             "name": "Spirit String Bow",
-            "baseItem": "Longbow|phb",
+            "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -72,8 +72,46 @@
             ]
         },
         {
+            "name": "Bow of he Twilight Valkyrie",
+            "baseItem": "Longbow|PHB",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "H",
+                "2H"
+             ],
+            "range": "150/600",
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "A Twilight Valkyrie is said to walk the line between the light and the dark.",
+                "You can use your bonus action to switch between bow's celestial and infernal stances.",
+                "In celestial stance, the bow shines brightly and casts bright light in a 20-foot radius and dim light for an additional 20 feet.",
+                "In infernal stance, the bow releases a dark smoke to hide you in the shadows. In dim light or darkness, you have +3 to Stealth checks",
+                "Beware of the consequences of leaning towards one side too much.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries":
+                    [
+                        "Leaning towards one side particularly may have consequences.",
+                        "Leaning towards the light side slowly burns your soul out and diminishes your spirit. You feel numb inside. On a critical success, deals {@damage 3d6} radiant damage both to you and your target.",
+                        "Leaning towards the dark side corrupts your soul. You, constantly, feel agitated. On a critical success, deals {@damage 3d6} necrotic damage both to you and your target."
+                    ]
+                }
+
+            ]
+        },
+        {
             "name": "Razorwind",
-            "baseItem": "Longbow|phb",
+            "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -91,12 +129,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "Causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@damage 1d6} slashing damage and on a critical roll, causes the target to bleed for {@damage 1d4} damage per turn until it succeeds a DC equal to your Strength modifier +10 Constitution saving throw repeated at the end of its turn."
+                "It causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@damage 1d6} slashing damage and on a critical roll, causes the target to bleed for {@damage 1d4} damage per turn until it succeeds a DC equal to your Strength modifier +10 Constitution saving throw repeated at the end of its turn."
             ]
         },
         {
             "name": "Rifling Bow",
-            "baseItem": "Longbow|phb",
+            "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -119,7 +157,7 @@
         },
         {
             "name": "Bastilla",
-            "baseItem": "Heavy Crossbow|phb",
+            "baseItem": "Heavy Crossbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -138,12 +176,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack rolls. You can either deploy the Bastilla on a half cover sized object, or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack rolls have -3 while moving with the stand out."
+                "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack rolls. You can either deploy the Bastilla on a half cover sized object or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack rolls have -3 while moving with the stand out."
             ]
         },
         {
             "name": "Rich Man's Crossbow",
-            "baseItem": "Heavy Crossbow|phb",
+            "baseItem": "Heavy Crossbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -171,7 +209,7 @@
         },
         {
             "name": "Betrayer's Blade",
-            "baseItem": "Dagger|phb",
+            "baseItem": "Dagger|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -195,7 +233,7 @@
         },
         {
             "name": "Poisoner's Needle",
-            "baseItem": "Dagger|phb",
+            "baseItem": "Dagger|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -213,12 +251,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "A dagger, has a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object action. Creature must make a DC 10 Constitution saving throw or take {@damage 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
+                "A dagger, has a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object action. The creature must make a DC 10 Constitution saving throw or take {@damage 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
             ]
         },
         {
             "name": "Lightning Storm Gauntlet",
-            "baseItem": "Gauntlet|phb",
+            "baseItem": "Gauntlet|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -239,12 +277,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell Shocking Grasp}."
+                "A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell Shocking Grasp|PHB}."
             ]
         },
         {
             "name": "Giant Axe",
-            "baseItem": "Greataxe|phb",
+            "baseItem": "Greataxe|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 22,
@@ -260,7 +298,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. Minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than medium, you only get -3 penalty."
+                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. A minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than medium, you only get -3 penalty."
             ]
         },
         {
@@ -280,14 +318,40 @@
             "range": "10/15",
             "entries":
             [
-                "This gauntlet is made of various pieces of leather sown together with thick stitches with a large crystal disk fitted into the palm.",
+                "This gauntlet is made of various pieces of leather sewn together with thick stitches with a large crystal disk fitted into the palm.",
                 "With this gauntlet, you can make a ranged spell attack against one creature you can see, within 10 feet of you. Although you are not proficient with it, you add your spellcasting modifier to attacks made with it. On a successful attack deal {@damage 1d6} thunder damage. Each time an attack is made with the Repulsor Gauntlet, increase the damage by an additional {@damage 1d6}. For example, if the Repulsor Gauntlet has been used 5 times, it will deal {@damage 6d6} damage.",
-                "If you roll 1 on the attack roll, the attack backfires and the wielder takes the damage instead. If you roll 2, the disc bolts out and you have to use an action to mount it back on. It resets after a backfire, a disc failure, a long rest or if you miss an attack. If you manage to kill a creature with this weapon, the creature explodes and the creature directly behind it takes the same damage from the weapon. On a critical hit target is pushed back 5 ft."
+                "If you roll 1 on the attack roll, the attack backfires and the wielder takes the damage instead. If you roll 2, the disc bolts out and you have to use an action to mount it back on. It resets after a backfire, a disc failure, a long rest or if you miss an attack. If you manage to kill a creature with this weapon, the creature explodes and the creature directly behind it takes the same damage from the weapon. On a critical hit, the target is pushed back 5 ft."
+            ]
+        },
+        {
+            "name": "Dwarven Fire Starters",
+            "type": "M",
+            "weight": 2,
+            "dmg1": "{@damage 1d4} + {@damage 1d4}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "L"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This metal \"Knuckle Dusters\" have a small level of infamy granting them the title of dwarven fire starters. Originally designed for a fist up in tavern brawls, they have become common in pugilist circles. Inscribed in dwarvish across the faces are \"Fire\" and \"Pyre\"",
+                {
+                    "type": "entries",
+                    "name": "White Hot",
+                    "entries":
+                    [
+                        "Speaking the command words causes the knuckles to radiate intense heat and consumes 1 charge. This effect lasts for 1 minute or can be ended early at will. When activated, apply an additional {@damage 1d4} fire damage to all unarmed attacks."
+                    ]
+                }
             ]
         },
         {
             "name": "Morningstar of the Dawn",
-            "baseItem": "Morningstar|phb",
+            "baseItem": "Morningstar|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 4,
@@ -303,7 +367,7 @@
         },
         {
             "name": "The Great Annihilator's Fang",
-            "baseItem": "Dagger|phb",
+            "baseItem": "Dagger|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -324,7 +388,7 @@
             [
                 "A very large fang with a slight curve. In darkness, you can see shadows bend towards it.",
                 "You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls.",
-                "If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang then grants you an extra action which you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand.",
+                "If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang, then, grants you an extra action that you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand.",
                 {
                     "type": "entries",
                     "name": "Curse",
@@ -337,7 +401,7 @@
         },
         {
             "name": "Chained Axe",
-            "baseItem": "Handaxe|phb",
+            "baseItem": "Handaxe|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -355,12 +419,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "It is chained to your wrist and cannot be disarmed, but it takes an action to stow. Can cast Ensnaring Strike a number of times equal to your proficiency, with chains bursting from the ground to imprison your enemy. Recharges {@dice 1d6} per day."
+                "It is chained to your wrist and cannot be disarmed, but it takes an action to stow. Can cast Ensnaring Strike a number of times equal to your proficiency bonus, with chains bursting from the ground to imprison your enemy. Recharges {@dice 1d6} per day."
             ]
         },
         {
             "name": "Flashstep Rapier",
-            "baseItem": "Rapier|phb",
+            "baseItem": "Rapier|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -380,7 +444,7 @@
         },
         {
             "name": "Beacon Bow",
-            "baseItem": "Shortbow|phb",
+            "baseItem": "Shortbow|PHB",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -403,7 +467,7 @@
         },
         {
             "name": "Staff of Life",
-            "baseItem": "Quarterstaff|phb",
+            "baseItem": "Quarterstaff|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 4,
@@ -419,12 +483,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "As an action you may call upon the arcane power of this staff. In a flash of light, two lemons appear."
+                "As an action, you may call upon the arcane power of this staff. In a flash of light, two lemons appear."
             ]
         },
         {
             "name": "Hammer of the Farseer",
-            "baseItem": "Warhammer|phb",
+            "baseItem": "Warhammer|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -445,7 +509,7 @@
         },
         {
             "name": "Grasping Whip",
-            "baseItem": "Whip|phb",
+            "baseItem": "Whip|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -461,13 +525,13 @@
             "source": "Canbrew",
             "entries":
             [
-                "When you hit with this weapon as a bonus action you can make a strength or dexterity contest to disarm or trip your enemy. You have disadvantage in this contest if disarming a two handed weapon or tripping a creature larger than yourself.",
+                "When you hit with this weapon as a bonus action you can make a strength or dexterity contest to disarm or trip your enemy. You have disadvantage in this contest if disarming a two-handed weapon or tripping a creature larger than yourself.",
                 "Take care picking it up or its lash will snap to your wrist."
             ]
         },
         {
             "name": "Giant Bow",
-            "baseItem": "Longbow|phb",
+            "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -486,12 +550,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "You use your Strength modifier for calculating the damage instead of Dexterity for this weapon. While carrying this bow, your movement is reduced by 10ft and you have -5 penalty on Dexterity saving throws. This bow has 40 ft. effective range. If your size is at least large you're not subjected to the penalties"
+                "You use your Strength modifier for calculating the damage instead of Dexterity for this weapon. While carrying this bow, your movement is reduced by 10ft and you have -5 penalty on Dexterity saving throws. This bow has 40 ft. effective range. If your size is at least large you're not subjected to the penalties."
             ]
         },
         {
             "name": "Kingsglaive",
-            "baseItem": "Dagge|phb",
+            "baseItem": "Dagger|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -514,12 +578,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "Ranged attacks with this dagger grant you {@spell Misty Step} spell. You can use your object interaction to teleport to the location of your dagger. If you choose to teleport, you deal extra {@damage 1d4} lightning damage and acquire the dagger. If you kill an enemy with this weapon you gain {@spell Haste} spell."
+                "Ranged attacks with this dagger grant you {@spell Misty Step|PHB} spell. You can use your object interaction to teleport to the location of your dagger. If you choose to teleport, you deal extra {@damage 1d4} lightning damage and acquire the dagger. If you kill an enemy with this weapon you gain {@spell Haste|PHB} spell."
             ]
         },
         {
             "name": "Spiderbite Daggers",
-            "baseItem": "Dagger|phb",
+            "baseItem": "Dagger|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -542,7 +606,7 @@
         },
         {
             "name": "Orcish Falx",
-            "baseItem": "Greatsword|phb",
+            "baseItem": "Greatsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 1,
@@ -563,7 +627,7 @@
         },
         {
             "name": "Angels Will",
-            "baseItem": "Greatsword|phb",
+            "baseItem": "Greatsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 1,
@@ -580,12 +644,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "This greatsword was forged from an angels left wing. Leaves a dim light where it cuts."
+                "This greatsword was forged from an angel's left wing. It leaves a dim light where it cuts."
             ]
         },
         {
             "name": "Repeating Crossbow",
-            "baseItem": "Heavy Crossbow|phb",
+            "baseItem": "Heavy Crossbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -608,7 +672,7 @@
         },
         {
             "name": "Vampiric Trident",
-            "baseItem": "Trident|phb",
+            "baseItem": "Trident|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 4,
@@ -625,12 +689,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "Its tip is lined with teeth. When you hit a living creature with this weapon, you can use a bonus action to deal additional {@damage 1d4} necrotic damage, as the weapon bites into the target. You have to make a Charisma check against target's Charisma Saving Throw. After this, you gain temporary Hit Points equal to half of the extra damage dealt."
+                "Its tip is lined with teeth. When you hit a living creature with this weapon, you can use a bonus action to deal additional {@damage 1d4} necrotic damage, as the weapon bites into the target. You have to make a Charisma check against the target's Charisma Saving Throw. After this, you gain temporary Hit Points equal to half of the extra damage dealt."
             ]
         },
         {
             "name": "Clockwork Bow",
-            "baseItem": "Longbow|phb",
+            "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -654,7 +718,7 @@
         },
         {
             "name": "Spiked Chain",
-            "baseItem": "Whip|phb",
+            "baseItem": "Whip|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 3,
@@ -671,12 +735,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "Weapon of the mighty goblin warlord Ulx. Two-handed, 15 feet reach, double. {@dmage 2d4} piercing damage. Once you hit a creature, you can grapple it with an athletics check. On a success you can pull the creature up to 15 feet"
+                "Weapon of the mighty goblin warlord Ulx. Two-handed, 15 feet reach, double. {@dmage 2d4} piercing damage. Once you hit a creature, you can grapple it with an athletics check. On a success, you can pull the creature up to 15 feet."
             ]
         },
         {
             "name": "Double Knock Bow",
-            "baseItem": "Longbow|phb",
+            "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -694,12 +758,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "You can chose to fire two arrows simultaneously as if you were firing one, you fire with a -4 penalty but damage is calculated for the arrows separately (both hit or both miss). You can target 2 adjacent creatures or one creature for both arrows."
+                "You can choose to fire two arrows simultaneously as if you were firing one, you fire with a -4 penalty but the damage is calculated for the arrows separately (both hit or both miss). You can target 2 adjacent creatures or one creature for both arrows."
             ]
         },
         {
             "name": "Inevitable Bow",
-            "baseItem": "Longbow|phb",
+            "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -717,12 +781,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "A nonmagical arrow or bolt fired from this magic weapon emits a fizzing red glow when it hits a creature. Only one creature can be so affected at a time. All your subsequent attacks from this weapon ignores target's AC from dexterity modifier. When you attack a creature with the Inevitable Bow and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
+                "A nonmagical arrow or bolt fired from this magic weapon emits a fizzing red glow when it hits a creature. Only one creature can be so affected at a time. All your subsequent attacks from this weapon ignore the target's AC from dexterity modifier. When you attack a creature with the Inevitable Bow and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
             ]
         },
         {
             "name": "Bow of the Nymph",
-            "baseItem": "Shortbow|phb",
+            "baseItem": "Shortbow|PHB",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -741,12 +805,12 @@
             "entries":
             [
                 "Magical short-bow. The bow does not require ammo. When the bow is drawn without ammo, a magical arrow appears knocked in the bow.",
-                "Anyone struck by the magical arrow becomes charmed with the first creature it sees after being struck (as charm person—the target must be a humanoid of Medium or smaller size, Wisdom DC 11 negates). The charm effects wear off after 1 minute. The magical arrow does not cause pain, and is invisible unless detected by the Wisdom Save. The arrow disappears after the effect ends. The bow has 1 charge and recovers {@dice 1d2-1} charges at the end of a long rest."
+                "Anyone struck by the magical arrow becomes charmed with the first creature it sees after being struck (as charm person—the target must be a humanoid of Medium or smaller size, Wisdom DC 11 negates). The charm effects wear off after 1 minute. The magical arrow does not cause pain and is invisible unless detected by the Wisdom Save. The arrow disappears after the effect ends. The bow has 1 charge and recovers {@dice 1d2-1} charges at the end of a long rest."
             ]
         },
         {
             "name": "The Rainbow",
-            "baseItem": "Shortbow|phb",
+            "baseItem": "Shortbow|PHB",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -767,12 +831,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "All arrows shot with this bow leave behind streak of 7-colored light. Which deals an extra {@damage 1d6} radiant damage. Once per day you can instead cause it to start raining as if a {@spell Control Weather} spell was cast"
+                "All arrows shot with this bow leave behind a streak of 7-colored light. Which deals an extra {@damage 1d6} radiant damage. Once per day you can instead cause it to start raining as if a {@spell Control Weather|PHB} spell was cast."
             ]
         },
         {
             "name": "Wind Walkers Bow",
-            "baseItem": "Shortbow|phb",
+            "baseItem": "Shortbow|PHB",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -790,12 +854,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "An ornate silver bow. The string appears to shimmer with a blue light when drawn. This bow has 3 charges. When an arrow is fired from the Wind Walker's Bow you can chose to expend a charge as a bonus action and teleport to where ever the arrow makes contact. Teleport does not provoke opportunity attacks. Regains {@damage 1d4-1} charges every sunrise."
+                "An ornate silver bow. The string appears to shimmer with a blue light when drawn. This bow has 3 charges. When an arrow is fired from the Wind Walker's Bow you can choose to expend a charge as a bonus action and teleport to where ever the arrow makes contact. Teleport does not provoke opportunity attacks. Regains {@damage 1d4-1} charges every sunrise."
             ]
         },
         {
             "name": "Blade of Selves",
-            "baseItem": "Shortsword|phb",
+            "baseItem": "Shortsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -816,20 +880,20 @@
             "source": "Canbrew",
             "entries":
             [
-                "While holding this weapon, as a bonus action, you may cast the {@spell Mirror Image} spell. When you cast {@spell Mirror Image} this way, it creates five illusory duplicates. Once you have used this ability you cannot use it again until you finish a long rest.",
+                "While holding this weapon, as a bonus action, you may cast the {@spell Mirror Image|PHB} spell. When you cast {@spell Mirror Image|PHB} this way, it creates five illusory duplicates. Once you have used this ability you cannot use it again until you finish a long rest.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "This weapon is cursed, and attuning to it curses you until you are targeted by the {@spell Remove Curse} spell or similar magic. When the {@spell Mirror Image} spell is cast from this item, roll a d20. On a 1, one of the illusory duplicates created is a full grown clone inhabited by an evil aligned soul, and tries to take your place."
+                        "This weapon is cursed, and attuning to it curses you until you are targeted by the {@spell Remove Curse|PHB} spell or similar magic. When the {@spell Mirror Image|PHB} spell is cast from this item, roll a d20. On a 1, one of the illusory duplicates created is a full-grown clone inhabited by an evil-aligned soul and tries to take your place."
                     ]
                 }
             ]
         },
         {
             "name": "Lady Luck",
-            "baseItem": "Shortsword|phb",
+            "baseItem": "Shortsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -850,7 +914,7 @@
         },
         {
             "name": "Ice Sickle",
-            "baseItem": "Sickle|phb",
+            "baseItem": "Sickle|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 2,
@@ -865,12 +929,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "{@damage 1d4} slashing and {@damage 1d4} cold damage. On a hit a target must succeed DC 10 Constitution to be able to use its reaction until the start of their turn. Its blade is a translucent shard of ice, and its handle is bone."
+                "{@damage 1d4} slashing and {@damage 1d4} cold damage. On a hit, a target must succeed DC 10 Constitution to be able to use its reaction until the start of their turn. Its blade is a translucent shard of ice, and its handle is bone."
             ]
         },
         {
             "name": "David’s Sling",
-            "baseItem": "Sling|phb",
+            "baseItem": "Sling|PHB",
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -886,12 +950,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "+100 damage on a hit against any creature larger than you, 5 non-replenishing charges"
+                "+100 damage on a hit against any creature larger than you, 5 non-replenishing charges."
             ]
         },
         {
             "name": "The Judge",
-            "baseItem": "Warhammer|phb",
+            "baseItem": "Warhammer|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -911,12 +975,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "Hits from this weapon cast {@spell Sacred Flame} upon the hit enemy. If you roll a 1 on an attack roll Vicious Mockery is cast on you."
+                "Hits from this weapon cast {@spell Sacred Flame|PHB} upon the hit enemy. If you roll a 1 on an attack roll Vicious Mockery is cast on you."
             ]
         },
-         {
+        {
             "name": "Half-forged Longsword",
-            "baseItem": "Shortsword|phb",
+            "baseItem": "Shortsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 3,
@@ -936,8 +1000,46 @@
             ]
         },
         {
+            "name": "Sword of the Defeated",
+            "baseItem": "Shortsword|PHB",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "Once wielded by a hero of the land, this old and shattered blade is still as sharp as it was when it was forged. It's cold to the touch and the runes upon the blade glow white when drawn.",
+                {
+                    "type": "entries",
+                    "name": "Vailorn",
+                    "entries":
+                    [
+                        "Once per day, you can speak to Vailorn for 10 minutes. Vailorn is a fallen hero whose soul has been trapped within the blade due to a curse. He relays to you that the only way to release his soul is to kill the creature that killed him and bound his soul to the blade."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Vailorn Freed",
+                    "entries":
+                    [
+                        "Once Vailorn is set free, blade's powers are unlocked.",
+                        "Once per day, you can call upon Vailorn for aid. He will grant {@damage 1d8} psychic damage to attacks made with this weapon for 1 minute ."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Akkadian Warhammer",
-            "baseItem": "Warhammer|phb",
+            "baseItem": "Warhammer|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
@@ -958,12 +1060,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "Blessed by Enlil. This weapon carries his perseverance. You can activate it using your bonus action. While you are holding it with two hands, next time you miss, {@spell Erupting Earth} spell is cast at the point of the target you were trying to hit. It has 10 charges and replenishes {@dice 1d4} charges at dawn."
+                "Blessed by Enlil. This weapon carries his perseverance. You can activate it using your bonus action. While you are holding it with two hands, next time you miss, {@spell Erupting Earth|XGE} spell is cast at the point of the target you were trying to hit. It has 5 charges and replenishes {@dice 1d4} charges at dawn."
             ]
         },
         {
             "name": "Everglacier's Cold Fury",
-            "baseItem": "Pike|phb",
+            "baseItem": "Pike|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 18,
@@ -983,14 +1085,21 @@
             [
                 "This cold steel weapon from the Everglacier is topped with a menacing ice spike that never melts.",
                 "When you hit with an attack using this pike, the target takes an extra {@damage 1d10} cold damage. The weapon and its properties treat immunity to cold damage as resistance, and ignore resistance to cold damage.",
-                "When you reduce a Large or smaller creature to 0 hit points using this weapon, you can choose to encase that creature in ice. An encased creature is prevented from falling prone and is held in place by a shell of ice for 1 minute. If the creature is unconscious, it does not make death saving throws while it's encased in the ice. The ice has AC 12, 20 hit points, immunity to poison and psychic damage, and vulnerability to fire and thunder damage. If the encased creature is healed or the ice is destroyed, the ice crumbles and releases the reatures.",
-                "Chillspike: As an action you can plunge the pike into the ground at your feet. When you do, the blade of the pike magically vanishes into the earth and summons up to three icy spikes from the ground nearby. Choose up to 3 different targets on the ground you can see within 20 feet of you. An affected target must succeed on a DC 16 Dexterity saving throw or take {@damage 2d8} cold damage as an frozen spike erupts from the ground beneath them. Immediately after using this property, the spikes recede into the ground, and the icy blade of the pike reappears.",
+                "When you reduce a Large or smaller creature to 0 hit points using this weapon, you can choose to encase that creature in ice. An encased creature is prevented from falling prone and is held in place by a shell of ice for 1 minute. If the creature is unconscious, it does not make death saving throws while it's encased in the ice. The ice has AC 12, 20 hit points, immunity to poison and psychic damage, and vulnerability to fire and thunder damage. If the encased creature is healed or the ice is destroyed, the ice crumbles and releases the creatures.",
+                {
+                    "type": "entries",
+                    "name": "Chillspike",
+                    "entries":
+                    [
+                        "As an action, you can plunge the pike into the ground at your feet. When you do, the blade of the pike magically vanishes into the earth and summons up to three icy spikes from the ground nearby. Choose up to 3 different targets on the ground you can see within 20 feet of you. An affected target must succeed on a DC 16 Dexterity saving throw or take {@damage 2d8} cold damage as an frozen spike erupts from the ground beneath them. Immediately after using this property, the spikes recede into the ground, and the icy blade of the pike reappears."
+                    ]
+                },
                 "It has 2 charges and replenishes {@dice 1d2-1} charges every day."
             ]
         },
         {
             "name": "Achille's Spear",
-            "baseItem": "Spear|phb",
+            "baseItem": "Spear|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 3,
@@ -1009,12 +1118,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "A legendary +5/+5 spear. Critical hits against you however force a Constitution save, with a DC of the damage taken. Failure on this save reduces you to 0hp. Fatal damage still kills you. With a shaft hewn from the wood of an ancient tree at the foot of Mount Celestia, and a head said to be forged by Hephaestus himself, this is a weapon for victorious heroes - and yet it has been responsible for as many terrible defeats."
+                "A legendary +5/+5 spear. Critical hits against you, however, force a Constitution save, with a DC of the damage taken. Failure on this save reduces you to 0hp. Fatal damage still kills you. With a shaft hewn from the wood of an ancient tree at the foot of Mount Celestia, and a head said to be forged by Hephaestus himself, this is a weapon for victorious heroes - and yet it has been responsible for as many terrible defeats."
             ]
         },
         {
             "name": "Crystalheart Spear",
-            "baseItem": "Spear|phb",
+            "baseItem": "Spear|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 3,
@@ -1032,14 +1141,14 @@
             "source": "Canbrew",
             "entries":
             [
-                "Its iron was mined from the Shale Cavern of Dolhiem. When the miner's couldn't separate the block of steel from the diamond, they forged around it.",
+                "Its iron was mined from the Shale Cavern of Dolhiem. When the miners couldn't separate the block of steel from the diamond, they forged around it.",
                 "When you hit, you can use a bonus action turn the spear's handle to shatter the diamond. Each turn, you can use your bonus action to draw energy from the splinters left inside the creature. On a failed DC 20 Constitution saving throw, the creature has 3 levels of exhaustion until the end of your next turn. You can repeat this until the splinters are removed from the creature somehow.",
                 "Once shattered, the diamond is no more. You can replace the diamond with a new one but the gem must be crafted into the spear."
             ]
         },
         {
             "name": "Cu Chulainn's Spear",
-            "baseItem": "Spear|phb",
+            "baseItem": "Spear|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 3,
@@ -1063,7 +1172,7 @@
         },
         {
             "name": "Mage Guardian's Greatsword",
-            "baseItem": "Greatsword|phb",
+            "baseItem": "Greatsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 6,
@@ -1087,7 +1196,7 @@
         },
         {
             "name": "Ghost Mail",
-            "baseItem": "Scale Mail|phb",
+            "baseItem": "Scale Mail|PHB",
             "type": "MA",
             "armor": true,
             "weight": 45,
@@ -1098,12 +1207,29 @@
             "source": "Canbrew",
             "entries":
             [
-                "Scale mail that allows you to use a reaction to have a melee attack pass through you, as if you were ethereal. Each use pulls you towards death, and next time you must make death saves you automatically fail one for each use of this item. If you survive, this is reset. Would likely only be used to avoid fatal damage. When the light shines just right on this armor's polished scales, tendrils of white mist can be discerned moving somewhere within."
+                "Scale mail that allows you to use a reaction to have a melee attack pass through you as if you were ethereal. Each use pulls you towards death, and next time you must make death saves you automatically fail one for each use of this item. If you survive, this is reset. Would likely only be used to avoid fatal damage. When the light shines just right on this armor's polished scales, tendrils of white mist can be discerned moving somewhere within."
+            ]
+        },
+        {
+            "name": "Hide of the Winter Wolf",
+            "baseItem": "Hide Armor|PHB",
+            "type": "MA",
+            "armor": true,
+            "weight": 12,
+            "ac": 12,
+            "reqAttune": true,
+            "rarity": "Common",
+            "source": "Canbrew",
+            "entries":
+            [
+                "The hue of this pelt draws up imagery of a frozen waste coated in snow or a harsh winter. The fine white fur is almost always chilled to the touch, only warming after prolonged contact. The size, texture, and snowy hue are all telltale signs of its origin as a pelt of a winter wolf.",
+                "While worn, cold damage you take is reduced by {@damage 1d8}.",
+                "This armor is considered cold-weather gear."
             ]
         },
         {
             "name": "Scorpion Armor",
-            "baseItem": "Half Plate|phb",
+            "baseItem": "Half Plate|PHB",
             "type": "MA",
             "armor": true,
             "weight": 40,
@@ -1115,20 +1241,20 @@
             "source": "Canbrew",
             "entries":
             [
-                "Crafted from the chitin of a giant scorpion. Your Constitution score increases by 2, to a maximum of 22. When you take a critical hit, your blood splatters and deals the damage you took as acid damage to all enemies adjacent to you.",
+                "Crafted from the chitin of a giant scorpion. Your maximum Constitution increases by 2. When you take a critical hit, your blood splatters and deals the damage you took as acid damage to all enemies adjacent to you.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "Once you wear this armor, you are cursed. It corrupts your blood with venom of the scorpion. Dark green veins show under your skin. Your maximum hit points are reduced by a number equal to your level + your class hit die and healing potions deal damage to you. You can instead drink poison potions to recover. Your AC is 15 + your Dexterity modifier (max 2)."
+                        "Once you wear this armor, you are cursed. It corrupts your blood with the venom of the scorpion. Dark green veins show under your skin. Healing potions deal damage to you. You can instead drink poison potions to recover. Your AC is 15 + your Dexterity modifier (max 2)."
                     ]
                 }
             ]
         },
         {
             "name": "Venombane Armor",
-            "baseItem": "Hide Armor|phb",
+            "baseItem": "Hide Armor|PHB",
             "type": "MA",
             "armor": true,
             "weight": 12,
@@ -1143,7 +1269,7 @@
         },
         {
             "name": "Darkwood Half Plate Armor",
-            "baseItem": "Half Plate Armor|phb",
+            "baseItem": "Half Plate Armor|PHB",
             "type": "MA",
             "armor": true,
             "weight": 20,
@@ -1158,7 +1284,7 @@
         },
         {
             "name": "Darkwood Breastplate Armor",
-            "baseItem": "Breastplate Armor|phb",
+            "baseItem": "Breastplate Armor|PHB",
             "type": "LA",
             "armor": true,
             "weight": 10,
@@ -1173,7 +1299,7 @@
         },
         {
             "name": "Elven Chain",
-            "baseItem": "Chain Shirt Armor|phb",
+            "baseItem": "Chain Shirt Armor|PHB",
             "type": "LA",
             "armor": true,
             "weight": 10,
@@ -1188,7 +1314,7 @@
         },
         {
             "name": "Ravenous Sentinel",
-            "baseItem": "Half Plate Armor|phb",
+            "baseItem": "Half Plate Armor|PHB",
             "type": "MA",
             "armor": true,
             "weight": 40,
@@ -1204,7 +1330,7 @@
         },
         {
             "name": "Armor of the Totem",
-            "baseItem": "Studded Leather Armor|phb",
+            "baseItem": "Studded Leather Armor|PHB",
             "type": "LA",
             "armor": true,
             "weight": 13,
@@ -1219,7 +1345,7 @@
         },
         {
             "name": "Juggernaut Plate",
-            "baseItem": "Plate Armor|phb",
+            "baseItem": "Plate Armor|PHB",
             "type": "HA",
             "armor": true,
             "weight": 65,
@@ -1237,7 +1363,7 @@
         },
         {
             "name": "Tabula Rasa",
-            "baseItem": "Plate Armor|phb",
+            "baseItem": "Plate Armor|PHB",
             "type": "HA",
             "armor": true,
             "weight": 65,
@@ -1253,7 +1379,7 @@
         },
         {
             "name": "Mithril Plate Armor",
-            "baseItem": "Plate Armor|phb",
+            "baseItem": "Plate Armor|PHB",
             "type": "HA",
             "armor": true,
             "weight": 35,
@@ -1268,7 +1394,7 @@
         },
         {
             "name": "Mithril Splint Armor",
-            "baseItem": "Splint Armor|phb",
+            "baseItem": "Splint Armor|PHB",
             "type": "HA",
             "armor": true,
             "weight": 30,
@@ -1292,7 +1418,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "In its true form it's a black goo. You can make it look like common clothes at will while you're out of combat. Mechanics wise you are considered unarmored.",
+                "In its true form, it's a black goo. You can make it look like common clothes at will while you're out of combat. Mechanics wise you are considered unarmored.",
                 "Your AC is 8 + your Dexterity(+ Constitution modifier if you're a Barbarian or + Wisdom modifier if you're a Monk) modifier.",
                 "You gain +2 to Dexterity, Strength, and Constitution and your Strength, Dexterity, and Constitution maximums are increased by 2. You have -4 Wisdom and your Wisdom maximum is decreased by 2.",
                 "You have Proficiency(Expertise if you're already proficient) in Strength, Dexterity, and Constitution Saving Throws.",
@@ -1303,14 +1429,14 @@
                     [
                         "You cannot Doff this armor. It is a part of you and it feeds of off you.",
                         "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have. As an action, you can expend a hit die to recover hit points. Creatures don't gain advantage while flanking you. You have two reactions instead of one.",
-                        "In combat you refer to yourself in a plural manner. Kills grant you temporary hit points equal to your level. You have vulnerability to force and thunder damage."
+                        "In combat, you refer to yourself in a plural manner. Kills grant you temporary hit points equal to your level. You have vulnerability to force and thunder damage."
                     ]
                 }
             ]
         },
         {
             "name": "Mirage Shield",      
-            "baseItem": "Shield|phb",
+            "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
             "ac": 2,
@@ -1325,7 +1451,7 @@
         },
         {
             "name": "Band of the Shimmering Shield",      
-            "baseItem": "Shield|phb",
+            "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 1,
             "ac": 2,
@@ -1334,12 +1460,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "A brass arm band that projects a disk of force, giving +2AC, but leaving your hand free enough to still take the 'use an object' action."
+                "A brass armband that projects a disk of force, giving +2AC, but leaving your hand free enough to still take the 'use an object' action."
             ]
         },
         {
             "name": "Eladrian Shield",       
-            "baseItem": "Shield|phb",
+            "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
             "ac": 2,
@@ -1353,7 +1479,7 @@
         },
         {
             "name": "Twitcher's Shield",
-            "baseItem": "Shield|phb",
+            "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
             "ac": 2,
@@ -1362,12 +1488,13 @@
             "source": "Canbrew",
             "entries":
             [
+                "A shield made out of thick wooden sticks tied together with a leather strap as a grip.",
                 "This shield feeds from your fears. Whenever you're surprised you panic and rise you shield gaining temporary hit points equal to 20 - your Wisdom until the end of the surprise round."
             ]
         },
         {
             "name": "Sage Bull",            
-            "baseItem": "Shield|phb",
+            "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
             "ac": 2,
@@ -1389,14 +1516,14 @@
                     "name": "In Flames",
                     "entries":
                     [
-                        "When melee attacked, as a reaction, you may expend 2 charges to attempt to ignite the attacking creature in flames. Attacking creature must make a DC 17 Intelligence saving throw. If they fail, they take {@damage 3d10} fire damage. If they are successful, nothing happens."
+                        "When melee attacked, as a reaction, you may expend 2 charges to attempt to ignite the attacking creature in flames. The attacking creature must make a DC 17 Intelligence saving throw. If they fail, they take {@damage 3d10} fire damage. If they are successful, nothing happens."
                     ]
                 }
             ]
         },
         {
             "name": "Mirrored Shield",
-            "baseItem": "Shield|phb",
+            "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
             "ac": 2,
@@ -1410,7 +1537,7 @@
         },
         {
             "name": "Coralshield Golem",
-            "baseItem": "Shield|phb",
+            "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
             "ac": 2,
@@ -1420,12 +1547,12 @@
             "entries":
             [
                 "This ancient golem is fashioned in the shape of a crab and made of a light but sturdy coral. While wearing it on your back, you can use a bonus action to instruct it to shield you. Doing so causes the crab to slowly move along your arm, and at the start of your next turn dons itself like an ordinary shield. Once equipped, you can instruct it to return to your back, doffing itself at the start of your next turn.",
-                "If you do not have a free hand or refuse to drop what you're holding when the crab attempts to don itself, it returns and reattaches to your back at the start of the next turn, when it can be summoned once again. If the golem is removed from you against your will, it will slowly move toward you at a speed of 5 feet as it can see you."
+                "If you do not have a free hand or refuse to drop what you're holding when the crab attempts to don itself, it returns and re-attaches to your back at the start of the next turn, when it can be summoned once again. If the golem is removed from you against your will, it will slowly move toward you at a speed of 5 feet as it can see you."
             ]
         },
         {
             "name": "Rho Aias",            
-            "baseItem": "Shield|phb",
+            "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
             "ac": 2,
@@ -1434,15 +1561,15 @@
             "source": "Canbrew",
             "entries":
             [
-                "This shield expands and gives bonus equal to the number of enemies in 30 feet of you to your AC, starting from +0. For each expansion you get -5 ft. to your speed."
+                "This shield expands and gives a bonus equal to the number of enemies in 30 feet of you to your AC, starting from +0. For each expansion, you get -5 ft. to your speed."
             ]
         },
         {
             "name": "Injection Arrow",
-            "baseItem": "Arrow|phb",
+            "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Uncommon",
+            "rarity": "Common",
             "source": "Canbrew",
             "entries":
             [
@@ -1451,10 +1578,10 @@
         },
         {
             "name": "Armor Piercing Arrow",
-            "baseItem": "Arrow|phb",
+            "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -1462,23 +1589,23 @@
             ]
         },
         {
-            "name": "Arrows of Transposition",
-            "baseItem": "Arrow|phb",
+            "name": "Arrow of Transposition",
+            "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
             "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
-                "On-hit, the attacker and target immediately exchange positions, if they both can fit. If a transposition is impossible, both take {@damage 3d6} force damage, and are returned to their original positions."
+                "On-hit, the attacker and target immediately exchange positions, if they both can fit. If transposition is impossible, both take {@damage 3d6} force damage, and are returned to their original positions."
             ]
         },
         {
-            "name": "Hollow-point Arrows",
-            "baseItem": "Arrow|phb",
+            "name": "Hollow-point Arrow",
+            "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -1486,11 +1613,24 @@
             ]
         },
         {
-            "name": "Arrow of Rest",
-            "baseItem": "Arrow|phb",
+            "name": "Mind Devouring Arrow",
+            "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
             "rarity": "Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "These pale grey arrow tips are crafted from many {@creature Intellect Devourer|MM}'s spinal cartilage.",
+                "When you hit a creature with a ranged attack using these arrows, the target takes an extra 1d8 psychic damage and is forced to make a DC 15 Intelligence saving throw. On a failed save, the creature is stunned until the end of your next turn. On a successful save, the creature is not stunned and is immune to these arrows for the next 24 hours. A construct or undead creature automatically succeeds on the saving throw."
+            ]
+        },
+        {
+            "name": "Arrow of Rest",
+            "baseItem": "Arrow|PHB",
+            "type": "A",
+            "weight": 0.05,
+            "rarity": "Uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -1499,7 +1639,7 @@
         },
         {
             "name": "Horned Arrow",
-            "baseItem": "Arrow|phb",
+            "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
             "reqAttune": true,
@@ -1508,11 +1648,12 @@
             "source": "Canbrew",
             "entries":
             [
-                "Forged from the horns of  slaughtered unicorns, each horned arrow is sentient with soul of the unicorn it was crafted from. They remember how they died and how they were forged into the arrow. Over a long time, they are broken into Stockholm Syndrome. As a bonus action, you may magically call all horned arrows back to you. An arcane unicorn embodies each arrow and they run back into your quiver. You gain +2 to your attack and damage rolls made with this arrow. These arrows cannot break as long as you are attuned to them."
+                "Forged from the horns of slaughtered unicorns, each horned arrow is sentient with the soul of the unicorn it was crafted from. They remember how they died and how they were forged into the arrow. Over a long time, they are broken into Stockholm Syndrome.",
+                "As a bonus action, you may magically call all horned arrows back to you. An arcane unicorn embodies each arrow and they run back into your quiver. You gain +2 to your attack and damage rolls made with this arrow. These arrows cannot break as long as you are attuned to them."
             ]
         },
         {
-            "name": "Ring?",
+            "name": "What Ring?",
             "type": "RG",
             "reqAttune": true,
             "rarity": "Uncommon",
@@ -1523,7 +1664,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "This ring has {@spell Nondetection} spell cast on it by itself continuously."
+                "This ring has {@spell Nondetection|PHB} spell cast on it by itself continuously."
             ]
         },
         {
@@ -1534,7 +1675,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "This ring may not shoot fireballs, but it never fails to impress shoppers. Once per day you may use the Ring of the Mimic to transform magically into an inanimate object withing sight. This object can only be Tiny sized"
+                "This ring may not shoot fireballs, but it never fails to impress shoppers. Once per day you may use the Ring of the Mimic to transform magically into an inanimate object within sight. This object can only be Tiny sized"
             ]
         },
         {
@@ -1545,7 +1686,9 @@
             "source": "Canbrew",
             "entries":
             [
-                "You are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it. You can use an action to cause the ring to become invisible until you use another action to make it visible, until you remove the ring, or until you die. If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
+                "You are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
+                "You can use an action to cause the ring to become invisible until you use another action to make it visible until you remove the ring, or until you die.",
+                "If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
             ]
         },
         {
@@ -1584,7 +1727,7 @@
                     "name": "Curse",
                     "entries":
                     [
-                        "It's cursed and cannot be removed. Once worn, whatever settlement you're in, you are magically exiled {@dice 1d6} days after from there. Reroll the die when you enter an another settlement. You roll Wisdom Saving Throw with DC 10 to enter or stay in a settlement you're exiled. The DC increases each day by 1. Once a day you can cast 4th-level Banishment."
+                        "It's cursed and cannot be removed. Once worn, whatever settlement you're in, you are magically exiled {@dice 1d6} days after from there. Reroll the die when you enter another settlement. You roll Wisdom Saving Throw with DC 10 to enter or stay in a settlement you're exiled. The DC increases each day by 1. Once a day you can cast 4th-level Banishment."
                     ]
                 }
             ]
@@ -1597,7 +1740,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "When you roll a critical fail, your next roll is critical success, vice versa. The second critical success/fail generated by the ring doesn't charge the ring again."
+                "When you roll a critical fail, your next roll is a critical success, vice versa. The second critical success/fail generated by the ring doesn't charge the ring again."
             ]
         },
         {
@@ -1627,10 +1770,12 @@
             "type": "RG",
             "reqAttune": true,
             "rarity": "Legendary",
+            "charges": 10,
             "source": "Canbrew",
             "entries":
             [
-                "Whenever you deal melee damage to anything that isn't undead or a construct, you gain temporary hit points equal to your proficiency bonus."
+                "Whenever you deal melee damage to anything that isn't undead or a construct, you gain temporary hit points equal to your proficiency bonus.",
+                "This ring has 10 charges. As part of a melee attack, you can expend 4 charges to gain hit points equal to the damage you dealt. It recharges using your blood. Roll {@dice d8}'s as many as your level, take the result as necrotic damage, for each charge restored."
             ]
         },
         {
@@ -1641,7 +1786,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Two interlocking bands, one gold engraved with a motifs of Justitia and the other granite with a motifs of Arete.",
+                "Two interlocking bands, one gold engraved with motifs of Justitia and the other granite with motifs of Arete.",
                 "Justitia rewards order with temporary hit points equal to your level and punishes chaos with Shocking Grasp.",
                 "Arete rewards goodness with inspiration and punishes evil with a Sacred Flame."
             ]
@@ -1664,12 +1809,12 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Charm"
+                "Charm Person"
             ],
             "source": "Canbrew",
             "entries":
             [
-                "An ornate mask, like those worn for masked balls. The wearer hears a constant stream of sycophantic praise. Allows you to cast {@spell Charm} spell once a day."
+                "An ornate mask, like those worn for masked balls. The wearer hears a constant stream of sycophantic praise. Allows you to cast {@spell Charm Person|PHB} spell once a day."
             ]
         },
         {
@@ -1693,7 +1838,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "These boots have 3 charges which refreshes at dawn.",
+                "These boots have 3 charges which refresh at dawn.",
                 "When you use any type of healing that requires die roll, you can expend a charge and reroll a die once."
             ]
         },
@@ -1705,7 +1850,15 @@
             "source": "Canbrew",
             "entries":
             [
-                "An earring that translates all languages, but sometimes lies and causes mischief."
+                "An earring that translates all languages.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries":
+                    [
+                        "Sometimes lies and causes mischief."
+                    ]
+                }
             ]
         },
         {
@@ -1726,7 +1879,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "As a reaction you may have an enemy attack against an ally within 5ft of you target you instead, if you took the dodge action on your turn - possibly causing it to miss."
+                "As a reaction, you may have an enemy attack against an ally within 5ft of you target you instead. If you took the dodge action on your turn - possibly causing it to miss."
             ]
         },
         {
@@ -1738,6 +1891,49 @@
             "entries":
             [
                 "When you roll 1 on a {@dice d20}, your mantle spreads the effect. Until the start of your next turn, any creature within 60 feet must roll a {@dice d4} and subtract the result from any attack rolls, ability checks or saving throws."
+            ]
+        },
+        {
+            "name": "Pouch of Replenishment",
+            "rarity": "Rare",
+            "weight": 0.5,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This pouch holds a maximum of 3 potions. At the beginning of a long rest, you may choose to activate the pouch's magic. Should there be any empty common, uncommon or rare potions within the bag during a long rest, roll {@dice 1d4}. If you roll a 1-2, they are magically destroyed and the maximum number of potions the pouch can hold is lowered by 1. If you roll a 3-4, they are magically replenished."
+            ]
+        },
+        {
+            "name": "Goblin's Gourd",
+            "rarity": "Common",
+            "type": "P",
+            "weight": 0.5,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This gourd is covered in primitive carvings and decorations. It is accented by a cork stuffed with grass and weeds to seal it shut. Upon removing the cork, the interior reveals a noxious smelling, thick substance that is almost unnaturally sticky. Made through a combination of goblin alchemy if crushed fermented plants and other natural waste, this gourd seem to be a mainstay among their culture.",
+                {
+                    "type": "entries",
+                    "name": "Ingestion",
+                    "entries":
+                    [
+                        "When consuming this potion, roll a Constitution saving throw with a DC 8. This DC increases by 2 for each consumption within a 24-hour span.",
+                        "On a failure, the user becomes {@condition poisoned} for {@dice 1d6} rounds.",
+                        "On a success, the user regains hit points totaling {@dice 1d6} + Constitution modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Thrown",
+                    "entries":
+                    [
+                        "After a successful ranged attack, if the target is a medium or smaller creature, it must make a Strenght saving throw DC 10.",
+                        "On a failure, the target is {@contidion restrained} It can spend its action to attempt to break free by rerolling the save, this effect lasts {@dice 1d4} rounds."
+                    ]
+                },
+                "Any goblinoid type creature lowers listed DCs by 2 and only adds +1 for each additional usage due to familiarity and use."
             ]
         },
         {
@@ -1794,10 +1990,10 @@
                             "name": "Familiar",
                             "entries":
                             [
-                                "The eye is a gruesome familiar. As an action, you can command the eye to crawl out of its socket and move independently of you. Use the abilities described in the {@spell Find Familiar} spell when commanding the Eye of the Fiendlord. The eye has five hit points, an AC of 12, movement and climbing speed of 20 feet, does not require air to breathe, and has a +6 bonus to Dexterity (Stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. If it was slain, you cannot use its magical sight or command it as a familiar again until the following dusk."
+                                "The eye is a gruesome familiar. As an action, you can command the eye to crawl out of its socket and move independently of you. Use the abilities described in the {@spell Find Familiar|PHB} spell when commanding the Eye of the Fiendlord. The eye has five hit points, an AC of 12, movement and climbing speed of 20 feet, does not require air to breathe and has a +6 bonus to Dexterity (Stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. If it was slain, you cannot use its magical sight or command it as a familiar again until the following dusk."
                             ]
                         },
-                        "Targeting the eye with the {@spell Remove Curse} spell or unattuning to it causes the eye to pull itself out of the socket and crawl away. Slaying the eye while it is unattuned to a creature destroys the item."
+                        "Targeting the eye with the {@spell Remove Curse|PHB} spell or unattuning to it causes the eye to pull itself out of the socket and crawl away. Slaying the eye while it is unattuned to a creature destroys the item."
                     ]
                 }
             ]
@@ -1830,7 +2026,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Gold plate bracers. Your unarmed critical strikes explode with {@spell Thunderclap}, unless you critically miss in which case it backfires and you take {@damage 1d6} thunder damage. Spells DC equals to 8 + your Proficiency Bonus + your Charisma modifier."
+                "Gold plate bracers. Your unarmed critical strikes explode with {@spell Thunderclap|XGE} unless you critically miss in which case it backfires and you take {@damage 1d6} thunder damage. Spells DC equals to 8 + your Proficiency Bonus + your Charisma modifier."
             ]
         },
         {
@@ -1841,7 +2037,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A full plate helmet without any openings. While you are wearing it, you are blinded, deafened, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Truesight. Provides resistance to psychic damage, {@spell Charm} and {@spell Sleep}."
+                "A full plate helmet without any openings. While you are wearing it, you are blinded, deafened, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Truesight. Provides resistance to psychic damage, {@spell Charm Person|PHB} and {@spell Sleep|PHB}."
             ]
         },
         {
@@ -1854,7 +2050,7 @@
             [
                 "This spider leather bag is lined with a thin layer of adhesive web.",
                 "Items stored inside the bag are held in place by the web, preventing stored items from clattering around or being removed without permission. While you're wearing the bag, creatures other than you have disadvantage on Dexterity (Sleight of Hand) checks to steal from the bag. The bag and its eight straps adhere to the surface they're pressed against, such as a creature's torso or the wall of an inn. If you're wearing the bag, you can gently remove the straps from your body as an action. Other creatures that attempt to wrench the bag from you make any Strength checks to do so with disadvantage.",
-                "The bag can hold up to 8 cubic feet or 80 pounds. Spider leather is pliable and stretches easily, allowing the bag to shrink and grow to accommodate the objects placed inside to some degree. Even though the eyes adorning the bag are lifeless and unmoving. they still blink on rare occasion."
+                "The bag can hold up to 8 cubic feet or 80 pounds. Spider leather is pliable and stretches easily, allowing the bag to shrink and grow to accommodate the objects placed inside to some degree. Even though the eyes adorning the bag are lifeless and unmoving. they still blink on a rare occasion."
             ]
         },
         {
@@ -1875,7 +2071,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "You're not sure who the Swiss are or why an army would need such a non-aggressive wand, but it seems useful enough. Never Leave Home Without It. This wand regains {@dice 1d6+1} expended charges daily at dawn. You can expend 1 or more charges to cast one of the following spells from the wand: {@spell Create Bonfire} (1 charge), {@spell Dancing Lights} (1 charge), {@spell Mending} (1 charge), {@spell Prestidigitation} (1 charge), or {@spell @spell Alarm} (2 charges)."
+                "You're not sure who the Swiss are or why an army would need such a non-aggressive wand, but it seems useful enough. Never Leave Home Without It. This wand regains {@dice 1d6+1} expended charges daily at dawn. You can expend 1 or more charges to cast one of the following spells from the wand: {@spell Create Bonfire|XGE} (1 charge), {@spell Dancing Lights|PHB} (1 charge), {@spell Mending|PHB} (1 charge), {@spell Prestidigitation|PHB} (1 charge), or {@spell @spell Alarm|PHB} (2 charges)."
             ]
         },
         {
@@ -1892,7 +2088,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell Magic Missile} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains {dice 1d6+1} expended charges daily at dawn. If you expend the wand's last charge, the wand crumbles into ashes and is destroyed."
+                "While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell Magic Missile|PHB} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains {dice 1d6+1} expended charges daily at dawn. If you expend the wand's last charge, the wand crumbles into ashes and is destroyed."
             ]
         },
         {
@@ -1908,9 +2104,9 @@
             "entries":
             [
                 "This bronze clockwork mechanism is 2 inches long and has a glass vial under it. It whirs with the hum of tiny gears inside.",
-                "You can tap the head of the faefly twice as a bonus action. When you do, the mechanism flutters 5 feet in the air and emits the {@spell light} spell.",
+                "You can tap the head of the faefly twice as a bonus action. When you do, the mechanism flutters 5 feet in the air and emits the {@spell light|PHB} spell.",
                 "The faefly has AC 15 and 10 hit points and flies in this way until it falls to 0 hit points or another creature grasps it. If you move more than 3 feet from the hovering faefly, it follows you until it is within 3 feet of you.",
-                "If the {@spell Mending} spell is cast on the faefly while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the faefly drops to 0 hit points, it can't be used again."
+                "If the {@spell Mending|PHB} spell is cast on the faefly while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the faefly drops to 0 hit points, it can't be used again."
             ]
         },
         {
@@ -1927,8 +2123,8 @@
             "entries":
             [
                 "This pill-shaped magical mechanism is 2 inches long and made of brass. It has a pair of tiny wings that silently keep it aloft. It hovers up to 5 feet above the ground and does its best to stay at your side within your space.",
-                "The bee has 8 charges and regains {@dice 1d6+2} expended charges daily at dawn. While the bee is within your space, you can speak its command word and expend up to 3 of its charges as a bonus action to command the bee to heal a creature that you can see within 20 feet of you. The bee flies to the creature's space and stings the creature, casting a {@spell Healing Word} for each expended charge. After healing the creature, the bee returns to your space.",
-                "It has AC 15, 10 hit points, and has resistance to all damage types. If the {@spell Mending} spell is cast on the bee while it has at least 1 hit point, it regains 2d6 hit points. If the bee drops to 0 hit points, it can't be used again."
+                "The bee has 8 charges and regains {@dice 1d6+2} expended charges daily at dawn. While the bee is within your space, you can speak its command word and expend up to 3 of its charges as a bonus action to command the bee to heal a creature that you can see within 20 feet of you. The bee flies to the creature's space and stings the creature, casting a {@spell Healing Word|PHB} for each expended charge. After healing the creature, the bee returns to your space.",
+                "It has AC 15, 10 hit points, and has resistance to all damage types. If the {@spell Mending|PHB} spell is cast on the bee while it has at least 1 hit point, it regains 2d6 hit points. If the bee drops to 0 hit points, it can't be used again."
             ]
         },
         {
@@ -1955,7 +2151,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Prayer book, gives +2 on Religion checks when held. Has one charge of {@spell Call Lightning}."
+                "A prayer book that gives +2 on Religion checks when held. Has one charge of {@spell Call Lightning|PHB}."
             ]
         },
         {
@@ -2011,7 +2207,7 @@
             "entries":
             [
                 "The sheath magically adjusts its shape for any weapon you sheath into it.",
-                "During a long rest you can sheath a melee weapon in it, speak its command word and bind the weapon to the sheath. As a bonus action you can re-summon your bound weapon into the sheath, whilst the weapon is in a 30 ft. range.",
+                "During a long rest you can sheath a melee weapon in it, speak its command word and bind the weapon to the sheath. As a bonus action, you can re-summon your bound weapon into the sheath, whilst the weapon is in a 30 ft. range.",
                 "There can only be one bound weapon at any time. If the bound weapon gets destroyed, the bond breaks. The bound weapon does not use your attunement slot while bound to the sheath."
             ]
         },
@@ -2023,7 +2219,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Throw down this magical pack and a have a furnished 4 man tent appear, with a fire pit and roaring fire, and pot of water on the boil."
+                "Throw down this magical pack and have a furnished 4 man tent appear, with a fire pit and roaring fire, and a pot of water on the boil."
             ]
         },
         {
@@ -2052,7 +2248,7 @@
             ],
             "entries":
             [
-                "An orb that functions as an Arcane Focus, giving -5 to Passive Perception, but proficiency (expertise if you are already proficient) on Arcana checks. You can cast {@spell Legend Lore} as a 4th level spell, and {@spell Identify} without expending a spell slot. These spells are added to your spell list if you do not already know them, and they do not count against spells known."
+                "An orb that functions as an Arcane Focus, giving -5 to Passive Perception, but proficiency (expertise if you are already proficient) on Arcana checks. You can cast {@spell Legend Lore|PHB} as a 4th level spell, and {@spell Identify|PHB} without expending a spell slot. These spells are added to your spell list if you do not already know them, and they do not count against spells known."
             ]
         },
         {
@@ -2064,7 +2260,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "It acts as a conduit between you and your target. You can expand a spell slot and lend a spell of your choosing to an ally. For the next hour, your ally can cast the spell using the spell slot as an action."
+                "It acts as a conduit between you and your target. You can expend a spell slot and lend a spell of your choosing to an ally. For the next hour, your ally can cast the spell using the spell slot as an action."
             ]
         },
         {
@@ -2076,7 +2272,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Amplifies your spells. When used; level of the spell you are casting doubles but, strains your physical form and you gain 1 exhaustion."
+                "Amplifies your spells. When used; the level of the spell you are casting doubles but, strains your physical form and you gain 1 exhaustion."
             ]
         },
         {
@@ -2095,17 +2291,13 @@
             "rarity": "Rare",
             "weight": 1,
             "reqAttune": true,
-            "attachedSpells":
-            [
-                "Weapon Bond"
-            ],
             "source": "Canbrew",
             "entries":
             [
                 "This book is written in elder language and belongs to an over eight thousand year lineage of Mage Guardians, magically enhanced Eldritch Knights, Magi. They have been accompanying archmages for generations. When there are no archmages to protect and serve, they are sent into hibernation. Only the aura of a powerful mage can wake them up.",
                 "The book has one purpose, passing ancestral knowledge and power of the guardians along. At least 14 Intelligence is required to understand it. Once you read this book, what you can make up of it grants you:",
                 "-1 cantrip which you must choose from the abjuration or evocation schools",
-                "-Knowledge of {@spell Weapon Bond}",
+                "-Knowledge of Weapon Bond",
                 "-Ability to cast cantrips using bonus action if you used your action to attack with a two-handed melee weapon for that turn",
                 "After reading, the writings will diminish for one hundred years."
             ]
@@ -2122,8 +2314,8 @@
             "source": "Canbrew",
             "entries":
             [
-                "A contraption with a huge pearl in the right side and a hemisphere cavity on the left side. Between the two, numerous lenses and prisms are inlaid. The cavity is surfaced with polished adamantine. Whenever a magical item is brought close to the cavity, the pearl shines with the color of the specific magic school. The pearl's brightness points to the intensity of the magic.",
-                "You can expend a spell slot to infuse the machine with your magic to \"{@spell Identify}\" the item."
+                "A contraption with a huge pearl on the right side and a hemisphere cavity on the left side. Between the two, numerous lenses and prisms are inlaid. The cavity is surfaced with polished adamantine. Whenever a magical item is brought close to the cavity, the pearl shines with the color of the specific magic school. The pearl's brightness points to the intensity of the magic.",
+                "You can expend a spell slot to infuse the machine with your magic to \"{@spell Identify|PHB}\" the item."
             ]
         }
     ],
