@@ -327,14 +327,15 @@
             "name": "Dwarven Fire Starters",
             "type": "M",
             "weight": 2,
-            "dmg1": "{@damage 1d4} + {@damage 1d4}",
+            "dmg1": "{@damage 1d4}",
             "dmgType": "B",
             "reqAttune": true,
+            "charges": 6,
             "property":
             [
                 "L"
             ],
-            "rarity": "Uncommon",
+            "rarity": "Common",
             "source": "Canbrew",
             "entries":
             [
@@ -344,7 +345,7 @@
                     "name": "White Hot",
                     "entries":
                     [
-                        "Speaking the command words causes the knuckles to radiate intense heat and consumes 1 charge. This effect lasts for 1 minute or can be ended early at will. When activated, apply an additional {@damage 1d4} fire damage to all unarmed attacks."
+                        "Speaking the command words causes the knuckles to radiate intense heat and consumes 1 charge. This effect lasts for 1 minute or can be ended early at will. When activated, apply an additional {@damage 1d6} fire damage to all unarmed attacks."
                     ]
                 }
             ]
