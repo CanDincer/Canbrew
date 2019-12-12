@@ -1420,9 +1420,9 @@
             "entries":
             [
                 "In its true form, it's a black goo. You can make it look like common clothes at will while you're out of combat. Mechanics wise you are considered unarmored.",
-                "Your AC is 8 + your Dexterity(+ Constitution modifier if you're a Barbarian or + Wisdom modifier if you're a Monk) modifier.",
+                "Your AC is 8 + your Dexterity (+ Constitution modifier if you're a Barbarian or + Wisdom modifier if you're a Monk) modifier.",
                 "You gain +2 to Dexterity, Strength, and Constitution and your Strength, Dexterity, and Constitution maximums are increased by 2. You have -4 Wisdom and your Wisdom maximum is decreased by 2.",
-                "You have Proficiency(Expertise if you're already proficient) in Strength, Dexterity, and Constitution Saving Throws.",
+                "You have Proficiency (Expertise if you're already proficient) in Strength, Dexterity, and Constitution Saving Throws.",
                 {
                     "type": "entries",
                     "name": "Curse",
@@ -2166,6 +2166,19 @@
             [
                 "This potion's container seems to hold a black fog that moves and pours like water.",
                 "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being grappled and restrained, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain Darkvision to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
+            ]
+        },
+        {
+            "name": "Potion of Sight",
+            "rarity": "Common",
+            "type": "P",
+            "weight": 0.5,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This potion's container seems to hold a very thick black goo.",
+                "When you drink this potion, you gain {@sense darkvision} out to a range of 30 ft."
             ]
         },
         {
