@@ -2586,7 +2586,8 @@
                 ]
             },
             "source": "Canbrew",
-            "alignment": [
+            "alignment":
+            [
                 "N"
             ],
             "ac":
@@ -2604,7 +2605,8 @@
                 "average": 142,
                 "formula": "15d10 + 60"
             },
-            "speed": {
+            "speed":
+            {
                 "walk": 5
             },
             "str": 21,
@@ -2744,7 +2746,8 @@
                 "average": 50,
                 "formula": "11d10 + 11"
             },
-            "speed": {
+            "speed":
+            {
                 "walk": 30
             },
             "str": 16,
@@ -2833,7 +2836,8 @@
             "size": "H",
             "type": "plant",
             "source": "Canbrew",
-            "alignment": [
+            "alignment":
+            [
                 "N",
                 "E"
             ],
@@ -2852,7 +2856,8 @@
                 "average": 67,
                 "formula": "7d12 + 21"
             },
-            "speed": {
+            "speed":
+            {
                 "walk": 10
             },
             "str": 21,
@@ -3014,7 +3019,8 @@
                 ]
             },
             "source": "Canbrew",
-            "alignment": [
+            "alignment":
+            [
                 "C",
                 "E"
             ],
@@ -3038,7 +3044,8 @@
                 "average": 119,
                 "formula": "14d8 + 56"
             },
-            "speed": {
+            "speed":
+            {
                 "walk": 30
             },
             "str": 20,
@@ -3059,15 +3066,17 @@
                 "perception": "+6"
             },
             "immune":
-            {
-                "immune":
-                [
-                    "bludgeoning",
-                    "piercing",
-                    "slashing"
-                ],
-                "note": "from nonmagical attacks that aren't silvered"
-            },
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks that aren't silvered"
+                }
+            ],
             "conditionImmune":
             [
                 "prone"
@@ -3126,7 +3135,7 @@
                     "name": "Bite (Wolf or Hybrid Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
                     ]
                 },
                 {
@@ -3170,12 +3179,10 @@
                 "Boss",
                 "Shapechanger",
                 "Keen Senses"
-
             ],
-            "languageTages":
+            "languageTags":
             [
-                "C",
-                "CS"
+                "C"
             ],
             "damageTags":
             [
