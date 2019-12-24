@@ -2631,7 +2631,8 @@
             ],
             "passive": 11,
             "cr": "9",
-            "trait": [
+            "trait":
+            [
                 {
                     "name": "Shapechanger",
                     "entries":
@@ -2768,7 +2769,8 @@
                 "Goblin"
             ],
             "cr": "3",
-            "trait": [
+            "trait":
+            [
                 {
                     "name": "Boss Fight",
                     "entries":
@@ -2821,6 +2823,178 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/XAYD6bJ.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Cursed Tree",
+            "size": "H",
+            "type": "plant",
+            "source": "Canbrew",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 13,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 67,
+                "formula": "7d12 + 21"
+            },
+            "speed": {
+                "walk": 10
+            },
+            "str": 21,
+            "dex": 6,
+            "con": 17,
+            "int": 12,
+            "wis": 12,
+            "cha": 7,
+            "vulnerable":
+            [
+                "fire (Cursed or Rot only)"
+            ],
+            "resist":
+            [
+                "fire (Burning only), bludgeoning, piercing, slashing"
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "languages":
+            [
+                "Common",
+                "Infernal"
+            ],
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Boss Fight",
+                    "entries":
+                    [
+                        "At the start of combat, Cursed Tree rolls twice for initiative, taking two turns per round of combat. At the start of each round, Cursed Tree must reroll for initiative once and replace one of its turns with the new result."
+                    ]
+                },
+                {
+                    "name": "False Appearance (Cursed Tree only)",
+                    "entries":
+                    [
+                        "While the tree remains motionless, it is indistinguishable from a normal tree."
+                    ]
+                },
+                {
+                    "name": "Bloodied Resistance",
+                    "entries":
+                    [
+                        "Upon taking damage that would reduce the creature to 0 hit points or lower, the creature returns to full hit points, and the creature immediately ends all negative conditions on itself. Once this feature activates, it cannot activate again until the creature takes a long rest. This effect can occur even when taking normally lethal damage, such as from power word kill"
+                    ]
+                },
+                {
+                    "name": "Tactics Change",
+                    "entries":
+                    [
+                        "When Bloodied Resistance activates, the Cursed Tree becomes a Rot Tree, or if Bloodied Resistance is activated by fire damage it becomes a Burning Tree. This determines which abilities it uses."
+                    ]
+                },
+                {
+                    "name": "Boss Actions",
+                    "entries":
+                    [
+                        "The boss can take 1 boss action, choosing from the options below. Only one boss action option can be used at a time and only at the end of another creature's turn. The boss regains its spent boss action at the start of the round."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Burning Tree only)",
+                    "entries":
+                    [
+                        "Cursed Tree makes two Slam attacks."
+                    ]
+                },
+                {
+                    "name": "Slam",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage (Cursed Tree), poison damage (Rot Tree), or fire damage (Burning Tree)."
+                    ]
+                },
+                {
+                    "name": "Summon (2/day) (Cursed Tree only)",
+                    "entries":
+                    [
+                        "The Cursed Tree summons [[1d2]] Vine Blights."
+                    ]
+                },
+                {
+                    "name": "Summon (2/day) (Rot Tree only)",
+                    "entries":
+                    [
+                        "The Cursed Tree summons [[1d2]] Needle Blights."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Boss",
+                "False Appearance"
+            ],
+            "damageTags":
+            [
+                "B",
+                "F"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RCH"
+            ],
+            "tokenUrl": "https://i.imgur.com/1MsDa1F.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/3omGJOJ.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Z7dLVLo.jpg"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/2Rx9Seo.jpg"
                         }
                     }
                 ]
