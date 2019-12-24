@@ -125,11 +125,11 @@
                 "2H"
             ],
             "range": "150/600",
-            "rarity": "Uncommon",
+            "rarity": "Common",
             "source": "Canbrew",
             "entries":
             [
-                "It causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@damage 1d6} slashing damage and on a critical roll, causes the target to bleed for {@damage 1d4} damage per turn until it succeeds a DC equal to your Strength modifier +10 Constitution saving throw repeated at the end of its turn."
+                "It causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@damage 1d6} slashing damage and on a critical roll, causes the target to bleed for {@damage 1d4} damage per turn until it succeeds a DC equal to your Strength modifier + 10 Constitution saving throw repeated at the end of the target's turn."
             ]
         },
         {
@@ -251,12 +251,13 @@
             "source": "Canbrew",
             "entries":
             [
-                "A dagger, has a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object action. The creature must make a DC 10 Constitution saving throw or take {@damage 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
+                "A dagger, has a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object action.",
+                "The creature must make a DC 10 Constitution saving throw or take {@damage 1d4} poison damage. Also, the creature is poisoned until the end of their next turn regardless of the saving throw.",
+                "Once applied, the poison retains potency for 1 minute before drying."
             ]
         },
         {
             "name": "Lightning Storm Gauntlet",
-            "baseItem": "Gauntlet|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
@@ -298,7 +299,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. A minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than medium, you only get -3 penalty."
+                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. A minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than Medium, you only get -3 penalty."
             ]
         },
         {
@@ -310,7 +311,6 @@
             "reqAttune": true,
             "property":
             [
-                "S",
                 "L"
             ],
             "rarity": "Rare",
@@ -319,8 +319,9 @@
             "entries":
             [
                 "This gauntlet is made of various pieces of leather sewn together with thick stitches with a large crystal disk fitted into the palm.",
-                "With this gauntlet, you can make a ranged spell attack against one creature you can see, within 10 feet of you. Although you are not proficient with it, you add your spellcasting modifier to attacks made with it. On a successful attack deal {@damage 1d6} thunder damage. Each time an attack is made with the Repulsor Gauntlet, increase the damage by an additional {@damage 1d6}. For example, if the Repulsor Gauntlet has been used 5 times, it will deal {@damage 6d6} damage.",
-                "If you roll 1 on the attack roll, the attack backfires and the wielder takes the damage instead. If you roll 2, the disc bolts out and you have to use an action to mount it back on. It resets after a backfire, a disc failure, a long rest or if you miss an attack. If you manage to kill a creature with this weapon, the creature explodes and the creature directly behind it takes the same damage from the weapon. On a critical hit, the target is pushed back 5 ft."
+                "With this gauntlet, you can make a ranged spell attack against one creature you can see, within 10 feet of you. Although you are not proficient with it, you add your spellcasting modifier to attacks made with it. On a successful attack deal {@damage 1d6} thunder damage. Each consecutive hit made with the Repulsor Gauntlet, increases the damage by an additional {@damage 1d6}. For example, if the Repulsor Gauntlet has been used 5 times, it will deal {@damage 6d6} damage on the next consecutive hit.",
+                "If you roll 1 on the attack roll, the attack backfires and the wielder takes the damage instead. If you roll 2, the disc bolts out and you have to use an action to mount it back on. It resets after a backfire, a disc failure, a long or short rest, or if you miss an attack.",
+                "If you manage to kill a creature with this weapon, the creature explodes and the creatures adjacent to the target take the same damage from the weapon. On a critical hit, the target is pushed back 5 ft."
             ]
         },
         {
@@ -359,7 +360,7 @@
             "dmg1": "{@damage 1d8}",
             "dmgType": "P",
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -379,10 +380,8 @@
             "property":
             [
                 "L",
-                "T",
                 "F"
           ],
-            "range": "20/60",
             "rarity": "Artifact",
             "source": "Canbrew",
             "entries":
@@ -401,26 +400,36 @@
             ]
         },
         {
-            "name": "Chained Axe",
+            "name": "Chained Axes",
             "baseItem": "Handaxe|PHB",
             "type": "M",
             "weaponCategory": "Simple",
-            "weight": 2,
+            "weight": 10,
             "dmg1": "{@damage 1d6}",
-            "dmgType": "S",
+            "dmgType": "",
             "reqAttune": true,
-            "charges": 5,
             "property":
             [
                 "L",
-                "T"
+                "T",
+                "2H",
+                "S"
             ],
             "range": "20/60",
             "rarity": "Uncommon",
             "source": "Canbrew",
             "entries":
             [
-                "It is chained to your wrist and cannot be disarmed, but it takes an action to stow. Can cast Ensnaring Strike a number of times equal to your proficiency bonus, with chains bursting from the ground to imprison your enemy. Recharges {@dice 1d6} per day."
+                "They are chained to your wrist and cannot be disarmed, but it takes an action to stow.",
+                "You can cast {@spell Ensnaring Strike|PHB} a number of times equal to your proficiency bonus, with chains bursting from the ground to imprison your enemy. Recharges at dawn.",
+                {
+                    "type": "entries",
+                    "name": "Special",
+                    "entries":
+                    [
+                        "You have disadvantage when you use Chained Axes to attack a target within 5 feet of you. Also, Chained Axes requires two hands to wield."
+                    ]
+                }
             ]
         },
         {
@@ -440,7 +449,9 @@
             "source": "Canbrew",
             "entries":
             [
-                "An elegant rapier, inlaid with elven engravings. Whenever you're about to make an attack, you can dash 5 feet towards your target to close the distance, as a free action. You have to make an attack roll with the rapier after dashing to be able to use it. To the untrained eye, it looks like you've teleported. If you are dashing away from another foe, you have +1 AC against opportunity attacks from that foe. Glows dimly when used and deals an extra {@damage 1d4} piercing damage."
+                "An elegant rapier, inlaid with elven engravings.",
+                "Whenever you're about to make an attack, you can dash 5 feet towards your target to close the distance, as a free action. You have to make an attack roll with the rapier after dashing to be able to use it. To the untrained eye, it looks like you've teleported. If you are dashing away from another foe, you have +1 AC against opportunity attacks from that foe.",
+                "Glows dimly when used in this way and deals an extra {@damage 1d4} force damage."
             ]
         },
         {
@@ -462,8 +473,9 @@
             "source": "Canbrew",
             "entries":
             [
-                "Shortbow, doing {@damage 1d6} radiant damage, and casting Light wherever its arrow lands. On a critical hit, It blinds its target for 1 round, if the target fails DC 10 Constitution saving throw.",
-                "Used by the legendary wood-elf, Aela the Drow-Hunter, in her quest into the Underdark to retrieve her kidnapped husband. Nock an arrow and its head will ignite with brilliant radiance. The creature can use its action to remove the arrow, or you may use a bonus action if you are within range. While the creature is under the magics effect, it cannot have any benefits from being invisible, hidden, or by being behind half cover."
+                "Used by the legendary wood-elf, Aela the Drow-Hunter, in her quest into the Underdark to retrieve her kidnapped husband. Nock an arrow and its head will ignite with brilliant radiance.",
+                "A Shortbow, doing {@damage 1d6} radiant damage, and casting Light wherever its arrow lands. On a critical hit, It blinds its target for 1 round, if the target fails DC 10 Constitution saving throw.",
+                "The creature can use their action to remove the arrow, or you may use a bonus action if you are within range. While the creature is under the magics effect, it cannot have any benefits from being invisible, hidden, or by being behind half cover."
             ]
         },
         {
@@ -485,6 +497,32 @@
             "entries":
             [
                 "As an action, you may call upon the arcane power of this staff. In a flash of light, two lemons appear."
+            ]
+        },
+        {
+            "name": "Spell Jammer",
+            "baseItem": "Quarterstaff|PHB",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 4,
+            "dmg1": "{@damage 1d6}",
+            "dmg2": "{@damage 1d8}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "V"
+            ],
+            "rarity": "Very Rare",
+            "charges": 1,
+            "source": "Canbrew",
+            "entries":
+            [
+                "An adamantine staff with a pointy tip on one end and a pearl on the other end.",
+                "You can jam it on the ground using an action and activate it using another action. It stays active for a minute or until you deactivate it using an action.",
+                "While it is active, any spell cast in the 60-foot radius below 4th-level disperses in the air and has no effect. It also disrupts all concentrations on spells. Creatures in the area of effect lose the effect of the concentrated spell. Creatures regain concentration at the end of the staff's effect or if they move out of the area of effect.",
+                "A creature who is about to cast a spell must roll an Arcana check against your spell save DC to notice the jammer effect. On a success, the creature can forego casting it.",
+                "It has 1 charge and you can replenish it by expending a 3rd-level or higher spell slot."
             ]
         },
         {
@@ -551,7 +589,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "You use your Strength modifier for calculating the damage instead of Dexterity for this weapon. While carrying this bow, your movement is reduced by 10ft and you have -5 penalty on Dexterity saving throws. This bow has 40 ft. effective range. If your size is at least large you're not subjected to the penalties."
+                "You use your Strength modifier for calculating the damage instead of Dexterity for this weapon. While carrying this bow, your movement is reduced by 10ft and you have -5 penalty on Dexterity saving throws. This bow has 40 ft. effective range. If your size is at least Large you're not subjected to the penalties."
             ]
         },
         {
@@ -575,11 +613,13 @@
                 "T"
             ],
             "range": "20/60",
-            "rarity": "Very Rare",
+            "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
-                "Ranged attacks with this dagger grant you {@spell Misty Step|PHB} spell. You can use your object interaction to teleport to the location of your dagger. If you choose to teleport, you deal extra {@damage 1d4} lightning damage and acquire the dagger. If you kill an enemy with this weapon you gain {@spell Haste|PHB} spell."
+                "A curved kukri, given to an elite group of soldiers who defend the royal family.",
+                "Ranged hits with this kukri grant you {@spell Misty Step|PHB} spell. You can use your object interaction to teleport to the location of your dagger. If you teleport at least 10 feet, you deal extra {@damage 1d4} lightning damage and acquire the dagger.",
+                "If you kill an enemy with this weapon's lightning damage, you are under the effect of {@spell Haste|PHB} spell until the start of your next turn. You do not suffer the lethargic consequences."
             ]
         },
         {
@@ -602,7 +642,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "These daggers are made using the harvested fangs of a large venomous spider. When you hit the same target on your turn with each dagger, that target must succeed on a DC 14 Constitution saving throw or take an extra {@damage 2d4} poison damage and become poisoned until the end of its next turn."
+                "These daggers are made using the harvested fangs of a large venomous spider. When you hit the same target on your turn with each dagger, that target must succeed on a DC 14 Constitution saving throw or take an extra {@damage 2d4} poison damage and become poisoned until the end of their next turn."
             ]
         },
         {
@@ -627,7 +667,7 @@
             ]
         },
         {
-            "name": "Angels Will",
+            "name": "Angel's Will",
             "baseItem": "Greatsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
@@ -686,7 +726,7 @@
                 "T",
                 "V"
             ],
-            "rarity": "Very Rare",
+            "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
@@ -713,30 +753,42 @@
             "entries":
             [
                 "This longbow has an assortment of gears and pulleys attached to it. Near the handle of the bow, there is a scope and a dial. This dial has three settings, Small, Medium, and Large.",
-                "If you are a creature who's size is the one the dial is set to, you have automatic proficiency with the bow. Additionally, you can use the scope to perfect your aim and spend a bonus action lining up your shot. On the next attack with this bow, you can fire as if you had Sharpshooter feat including the optional penalty.",
+                "If you are a creature who's size is the one the dial is set to, you have automatic proficiency with the bow. Additionally, you can use the scope to perfect your aim and spend a bonus action lining up your shot. You transfer your AC from your Dexterity modifier to your attack and damage rolls until the start of your next turn.",
                 "The bow can be folded up to be concealed as a bonus action, and you have proficiency (expertise if you're already proficient) on sleight of hand checks to hide the weapon when it is in this state."
             ]
         },
         {
             "name": "Spiked Chain",
-            "baseItem": "Whip|PHB",
+            "baseItem": "Dagger|PHB",
             "type": "M",
             "weaponCategory": "Martial",
-            "weight": 3,
+            "weight": 8,
             "dmg1": "{@damage 2d4}",
             "dmgType": "P",
             "reqAttune": true,
             "property":
             [
                 "F",
-                "R"
+                "S",
+                "2H",
+                "T",
+                "L"
             ],
             "range": "15",
             "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
-                "Weapon of the mighty goblin warlord Ulx. Two-handed, 15 feet reach, double. {@dmage 2d4} piercing damage. Once you hit a creature, you can grapple it with an athletics check. On a success, you can pull the creature up to 15 feet."
+                "Weapon of the mighty goblin warlord Ulx.",
+                "Once you hit a creature, you can grapple it with a Strength check against the target's Strength saving throw. On a success, you can pull the creature up to 5 feet.",
+                {
+                    "type": "entries",
+                    "name": "Special",
+                    "entries":
+                    [
+                        "You have disadvantage when you use  Spiked Chain to attack a target within 5 feet of you. Also, Spiked Chain requires two hands to wield."
+                    ]
+                }
             ]
         },
         {
@@ -763,6 +815,24 @@
             ]
         },
         {
+            "name": "Unzest",
+            "baseItem": "Flail|PHB",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d8}",
+            "dmgType": "B",
+            "reqAttune": true,
+            "charges": 5,
+            "rarity": "Common",
+            "source": "Canbrew",
+            "entries":
+            [
+                "When you hit with this weapon, you can use a bonus action to suck the living force out of your target. The target loses one ability score modifier of your choice that you gain until the end of your next turn.",
+                "It has 5 charges and regains {@dice 1d4} charges at dawn."
+            ]
+        },
+        {
             "name": "Inevitable Bow",
             "baseItem": "Longbow|PHB",
             "type": "R",
@@ -782,7 +852,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A nonmagical arrow or bolt fired from this magic weapon emits a fizzing red glow when it hits a creature. Only one creature can be so affected at a time. All your subsequent attacks from this weapon ignore the target's AC from dexterity modifier. When you attack a creature with the Inevitable Bow and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
+                "A nonmagical arrow or bolt fired from this magic weapon emits a fizzing red glow when it hits a creature. Only one creature can be so affected at a time. All your subsequent attacks from this weapon ignore the target's AC from Dexterity modifier. When you attack a creature with the Inevitable Bow and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
             ]
         },
         {
@@ -824,7 +894,7 @@
                 "2H"
             ],
             "range": "80/320",
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "attachedSpells":
             [
                 "Control Weather"
@@ -893,6 +963,79 @@
             ]
         },
         {
+            "name": "Denier",
+            "baseItem": "Scimitar|PHB",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "curse": true,
+            "charges": 3,
+            "property":
+            [
+                "F",
+                "L"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This magic weapon comes from a clan of Githzerai that debilitate their foes with strange magic.",
+                "When you hit a creature with the sword, you can expend 1 of its charges as part of the attack to force that creature to make a DC 13 saving throw of your choice. On a failed save, a creature is subjected to an effect based on the kind of saving throw it made:",
+                "This sword has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
+                {
+                    "type": "entries",
+                    "name": "Strength",
+                    "entries":
+                    [
+                        "The creature gains a -2 penalty to attack rolls until the end of their next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dexterity",
+                    "entries":
+                    [
+                        "The creature's movement speed is halved until the end of their next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Constitution",
+                    "entries":
+                    [
+                        "If the creature is Large or smaller, it loses their balance and is pushed 5 feet away from you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Intelligence",
+                    "entries":
+                    [
+                        "The creature has disadvantage on the next spell attack it makes within 1 minute."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Wisdom",
+                    "entries":
+                    [
+                        "The creature becomes slightly sluggish and can't take reactions until the end of its next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Charisma",
+                    "entries":
+                    [
+                        "The creature has disadvantage on attacks against creatures other than you until the end of its next turn."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Lady Luck",
             "baseItem": "Shortsword|PHB",
             "type": "M",
@@ -910,7 +1053,8 @@
             "source": "Canbrew",
             "entries":
             [
-                "A shortsword with a blade of silver that critically hits on a 1. You have a +3 bonus to your attack rolls while you have under 1/2 of your max HP. Those who wield this sword tend to discover a latent love for games of chance."
+                "A Shortsword with a blade of silver that critically hits on a 1. You have a +3 bonus to your attack rolls while you have under 1/2 of your maximum Hit Points.",
+                "Those who wield this sword tend to discover a latent love for games of chance."
             ]
         },
         {
@@ -1099,6 +1243,50 @@
             ]
         },
         {
+            "name": "Chain of Reckoning",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 8,
+            "dmg1": "{@damage 1d4}",
+            "dmgType": "F",
+            "reqAttune": true,
+            "range": "15",
+            "property":
+            [
+                "2H",
+                "S",
+                "T",
+                "L",
+                "F"
+            ],
+            "charges": 10,
+            "rarity": "Very Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "It was used to chain a titan in Tartarus.",
+                "You have +2 to your checks made to grapple with this weapon.",
+                {
+                    "type": "entries",
+                    "name": "Judgement Day",
+                    "entries":
+                    [
+                        "While you have an enemy grappled with this weapon, you can use your action to force Tartarus's calling upon them. On a failed Wisdom saving throw, the creature is forced to face their guilt and take {@damage 1d8} psychic + {@damage 1d8} fire damage. DC for this action equals to 8 + your Wisdom modifier or your Charisma modifier (your choice) + your proficiency bonus.",
+                        "Once you use this on an enemy, they are immune to the psychic damage from this weapon."
+                    ]
+                },
+                "It has 10 charges and recharges 1d10 charges every day.",
+                {
+                    "type": "entries",
+                    "name": "Special",
+                    "entries":
+                    [
+                        "You have disadvantage when you use Chains of Reckoning to attack a target within 5 feet of you. Also, Chains of Reckoning requires two hands to wield."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Achille's Spear",
             "baseItem": "Spear|PHB",
             "type": "M",
@@ -1230,7 +1418,7 @@
         },
         {
             "name": "Scorpion Armor",
-            "baseItem": "Half Plate|PHB",
+            "baseItem": "Half Plate Armor|PHB",
             "type": "MA",
             "armor": true,
             "weight": 40,
@@ -1300,7 +1488,7 @@
         },
         {
             "name": "Elven Chain",
-            "baseItem": "Chain Shirt Armor|PHB",
+            "baseItem": "Chain Shirt|PHB",
             "type": "LA",
             "armor": true,
             "weight": 10,
@@ -1358,7 +1546,14 @@
             "entries":
             [
                 "Requires str 18, max speed 30ft, gives -5 to Dexterity saves while wearing, but allows a special attack action.",
-                "Charge: move 30 ft straight and make a Shove contest against all in the path of the last 20ft, doing {@damage 1d8} bludgeoning to all who fail. You do not provoke attack of opportunity, and moving through enemy space is treated as normal terrain. You have resistance to mundane damage until the end of your next turn after Charge is initiated.",
+                {
+                    "type": "entries",
+                    "name": "Charge",
+                    "entries":
+                    [
+                        "Move 30 ft straight and make a Shove contest against all in the path of the last 20 ft., doing {@damage 1d8} bludgeoning to all who fail. You do not provoke attack of opportunity, and moving through enemy space is treated as normal terrain. You have resistance to mundane damage until the end of your next turn after Charge is initiated."
+                    ]
+                },
                 "You have +5 to Athletics checks when charging."
             ]
         },
@@ -1422,7 +1617,7 @@
                 "In its true form, it's a black goo. You can make it look like common clothes at will while you're out of combat. Mechanics wise you are considered unarmored.",
                 "Your AC is 8 + your Dexterity (+ Constitution modifier if you're a Barbarian or + Wisdom modifier if you're a Monk) modifier.",
                 "You gain +2 to Dexterity, Strength, and Constitution and your Strength, Dexterity, and Constitution maximums are increased by 2. You have -4 Wisdom and your Wisdom maximum is decreased by 2.",
-                "You have Proficiency (Expertise if you're already proficient) in Strength, Dexterity, and Constitution Saving Throws.",
+                "You have proficiency (Expertise if you're already proficient) in Strength, Dexterity, and Constitution Saving Throws.",
                 {
                     "type": "entries",
                     "name": "Curse",
@@ -1448,6 +1643,24 @@
             "entries":
             [
                 "This is a shield that casts Shield on you. It has a rune engraved under its grip. When you follow the engraving with your finger using a bonus action, it lights up dimly and activates. Next time you are attacked light refracts from the shield and another shield appears in front of this shield. It has 1 charge which replenishes after a short rest."
+            ]
+        },
+        {
+            "name": "Rebuker",      
+            "baseItem": "Shield|PHB",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "charges": 3,
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This magic shield is forged by a mysterious group of Githzerai whose work is prized for its craftiness.",
+                "When you take damage from a creature you can see within 30 feet of you and are holding the shield, you can expend 1 of its charges as a reaction to reduce the damage you take by {@dice 1d6}. When you do, you choose an ability. Until the end of their next turn, that creature magically has disadvantage on the next saving throw it makes of the chosen ability.",
+                "Once a creature has been affected by this property, they can't be affected by it again for 1 minute.",
+                "This shield has 3 charges and regains {@dice 1d3} expended charges daily at dawn."
             ]
         },
         {
@@ -1485,12 +1698,12 @@
             "weight": 6,
             "ac": 2,
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "Common",
             "source": "Canbrew",
             "entries":
             [
                 "A shield made out of thick wooden sticks tied together with a leather strap as a grip.",
-                "This shield feeds from your fears. Whenever you're surprised you panic and rise you shield gaining temporary hit points equal to 20 - your Wisdom until the end of the surprise round."
+                "This shield feeds from your fears. Whenever you're surprised you panic and rise your shield, gaining temporary hit points equal to 20 - your Wisdom until the end of the surprise round."
             ]
         },
         {
@@ -1618,12 +1831,12 @@
             "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Rare",
+            "rarity": "Uncommon",
             "source": "Canbrew",
             "entries":
             [
                 "These pale grey arrow tips are crafted from many {@creature Intellect Devourer|MM}'s spinal cartilage.",
-                "When you hit a creature with a ranged attack using these arrows, the target takes an extra 1d8 psychic damage and is forced to make a DC 15 Intelligence saving throw. On a failed save, the creature is stunned until the end of your next turn. On a successful save, the creature is not stunned and is immune to these arrows for the next 24 hours. A construct or undead creature automatically succeeds on the saving throw."
+                "When you hit a creature with a ranged attack using this arrow, the target takes an extra {@damage 1d8} psychic damage and is forced to make a DC 15 Intelligence saving throw. On a failed save, the creature's is dropped to 0 Intelligence and stunned until the end of their next turn. On a successful save, the creature is not stunned and is immune to these arrows for the next 24 hours. A construct or undead creature automatically succeeds on the saving throw."
             ]
         },
         {
@@ -1636,6 +1849,20 @@
             "entries":
             [
                 "if it hits on a surprise round it casts Sleep on that target."
+            ]
+        },
+        {
+            "name": "Witch Hunter's Arrow",
+            "baseItem": "Arrow|PHB",
+            "type": "A",
+            "weight": 0.05,
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This arrow has an adamantine tip, a tiny pearl at the back, and a strand of adamntine wire connecting them inside the shaft.",
+                "When a creature is hit with this arrow, the creature loses all of their spellcasting abiliy. Any spell that is cast after being hit is uneffective. The creature also loses concentration on their spells.",
+                "The arrow can be removed using an action. At removal the creature regains their concentration."
             ]
         },
         {
@@ -1921,8 +2148,8 @@
                     "entries":
                     [
                         "When consuming this potion, roll a Constitution saving throw with a DC 8. This DC increases by 2 for each consumption within a 24-hour span.",
-                        "On a failure, the user becomes {@condition poisoned} for {@dice 1d6} rounds.",
-                        "On a success, the user regains hit points totaling {@dice 1d6} + Constitution modifier."
+                        "On a failure, you become {@condition poisoned} for {@dice 1d6} rounds.",
+                        "On a success, you regain hit points equal to {@dice 1d6} + your Constitution modifier."
                     ]
                 },
                 {
@@ -1930,8 +2157,8 @@
                     "name": "Thrown",
                     "entries":
                     [
-                        "After a successful ranged attack, if the target is a medium or smaller creature, it must make a Strenght saving throw DC 10.",
-                        "On a failure, the target is {@contidion restrained} It can spend its action to attempt to break free by rerolling the save, this effect lasts {@dice 1d4} rounds."
+                        "After a successful ranged attack, if the target is a Medium or smaller creature, it must make a Strength saving throw DC 10.",
+                        "On a failure, the target is {@contidion restrained}. It can spend its action to attempt to break free by rerolling the save, this effect lasts {@dice 1d4} rounds."
                     ]
                 },
                 "Any goblinoid type creature lowers listed DCs by 2 and only adds +1 for each additional usage due to familiarity and use."
@@ -2017,7 +2244,7 @@
         },
         {
             "name": "Wrath of Zeus",
-            "rarity": "Legendary",
+            "rarity": "Uncommon",
             "weight": 1,
             "reqAttune": true,
             "attachedSpells":
@@ -2027,7 +2254,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Gold plate bracers. Your unarmed critical strikes explode with {@spell Thunderclap|XGE} unless you critically miss in which case it backfires and you take {@damage 1d6} thunder damage. Spells DC equals to 8 + your Proficiency Bonus + your Charisma modifier."
+                "Gold plate bracers. On a roll of 9 or 11, your unarmed strike explodes with {@spell Thunderclap|XGE}. On a roll of 10, it backfires and you take {@damage 1d6} lightning damage. The spell's DC equals to 8 + your proficiency bonus + your Charisma modifier."
             ]
         },
         {
@@ -2160,7 +2387,6 @@
             "rarity": "Rare",
             "type": "P",
             "weight": 0.5,
-            "reqAttune": true,
             "source": "Canbrew",
             "entries":
             [
@@ -2173,12 +2399,25 @@
             "rarity": "Common",
             "type": "P",
             "weight": 0.5,
-            "reqAttune": true,
             "source": "Canbrew",
             "entries":
             [
                 "This potion's container seems to hold a very thick black goo.",
-                "When you drink this potion, you gain {@sense darkvision} out to a range of 30 ft."
+                "When you drink this potion, you gain {@sense darkvision} out to a range of 30 ft. for 1 hour."
+            ]
+        },
+        {
+            "name": "Kraken Blood",
+            "rarity": "Rare",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "Actually, made from mushed Juvenile Kraken eye but \"Kraken Blood\" sells better.",
+                "When you drink this potion, your eyes glow with a bright orange for the duration.",
+                "You receive a total of 3 Legendary Actions which can be used within the next minute, all unused Legendary Actions fade away after this time.",
+                "You can use a Legendary Action at the end of the turn of any other creature in the initiative order. You can use a maximum of one Legendary Action each round. To spend a Legendary Action you can do anything which would require a single Bonus Action or an Action to perform."
             ]
         },
         {
@@ -2297,7 +2536,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "It's a hand-sized cube with engravings on it. The cube can store your excess spell power. When you finish a long rest (short rest if you are a warlock), you can store unused spell slots from earlier in the cube. The total of the spell slot levels you can store equals to the sum of your caster class level."
+                "It's a hand-sized cube with engravings on it. The cube can store your excess spell power. When you finish a long rest (short rest if you are a Warlock), you can store unused spell slots from earlier in the cube. The total of the spell slot levels you can store equals to the sum of your caster class' level."
             ]
         },
         {
@@ -2310,7 +2549,7 @@
             [
                 "This book is written in elder language and belongs to an over eight thousand year lineage of Mage Guardians, magically enhanced Eldritch Knights, Magi. They have been accompanying archmages for generations. When there are no archmages to protect and serve, they are sent into hibernation. Only the aura of a powerful mage can wake them up.",
                 "The book has one purpose, passing ancestral knowledge and power of the guardians along. At least 14 Intelligence is required to understand it. Once you read this book, what you can make up of it grants you:",
-                "-1 cantrip which you must choose from the abjuration or evocation schools",
+                "-1 cantrip, which you must choose from the abjuration or evocation schools",
                 "-Knowledge of Weapon Bond",
                 "-Ability to cast cantrips using bonus action if you used your action to attack with a two-handed melee weapon for that turn",
                 "After reading, the writings will diminish for one hundred years."
@@ -2468,6 +2707,120 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/6KYxAKy.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ulx",
+            "size": "S",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "goblinoid"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from":
+                    [
+                        "{@item chain shirt|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 50,
+                "formula": "11d10 + 11"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 12,
+            "int": 11,
+            "wis": 9,
+            "cha": 10,
+            "skill":
+            {
+                "athletics": "+7",
+                "stealth": "+4"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 9,
+            "languages":
+            [
+                "Common",
+                "Goblin"
+            ],
+            "cr": "3",
+            "trait": [
+                {
+                    "name": "Boss Fight",
+                    "entries":
+                    [
+                        "At the start of combat, Ulx rolls twice for initiative, taking two turns per round of combat. At the start of each round, Ulx must reroll for initiative once and replace one of its turns with the new result."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "Ulx makes two attacks with its Spiked Chain."
+                    ]
+                },
+                {
+                    "name": "Spiked Chain",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}5 ({@damage 2d4}) piercing damage. Ulx can force the target to make a contested Athletics check. On a failed saving throw, the target is grappled and pulled towards Ulx up 5 ft."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Boss"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/OS1l3LY.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/XAYD6bJ.png"
                         }
                     }
                 ]
