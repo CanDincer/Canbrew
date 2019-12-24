@@ -2792,7 +2792,7 @@
                     "name": "Spiked Chain",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}5 ({@damage 2d4}) piercing damage. Ulx can force the target to make a contested Athletics check. On a failed saving throw, the target is grappled and pulled towards Ulx up 5 ft."
+                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}5 ({@damage 2d4}) piercing damage. Ulx can force the target to make a contested Athletics ([[@{npc_athletics}+1d20]]) check. On a failed saving throw, the target is grappled and pulled towards Ulx up 5 ft."
                     ]
                 }
             ],
@@ -2942,14 +2942,14 @@
                     "name": "Summon (2/day) (Cursed Tree only)",
                     "entries":
                     [
-                        "The Cursed Tree summons [[1d2]] Vine Blights."
+                        "The Cursed Tree summons [[1d2+1]] Vine Blights."
                     ]
                 },
                 {
                     "name": "Summon (2/day) (Rot Tree only)",
                     "entries":
                     [
-                        "The Cursed Tree summons [[1d2]] Needle Blights."
+                        "The Cursed Tree summons [[1d2+1]] Needle Blights."
                     ]
                 }
             ],
@@ -2995,6 +2995,208 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/2Rx9Seo.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Maul Darkmane",
+            "group": "Lycanthropes",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human",
+                    "shapechanger"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment": [
+                "C",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 12,
+                    "condition": "in humanoid form"
+                },
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ],
+                    "condition": "in hybrid form"
+                }
+            ],
+            "hp":
+            {
+                "average": 119,
+                "formula": "14d8 + 56"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 15,
+            "con": 18,
+            "int": 11,
+            "wis": 14,
+            "cha": 15,
+            "save":
+            {
+                "dex": "+9",
+                "con": "+8",
+                "wis": "+6"
+            },
+            "skill":
+            {
+                "acrobatics": "+9",
+                "perception": "+6"
+            },
+            "immune":
+            {
+                "immune":
+                [
+                    "bludgeoning",
+                    "piercing",
+                    "slashing"
+                ],
+                "note": "from nonmagical attacks that aren't silvered"
+            },
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "languages":
+            [
+                "Common"
+            ],
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "Maul Darkmane can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If Maul Darkmane fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "Maul Darkmane has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Pack Leader",
+                    "entries":
+                    [
+                        "Maul Darkmane's allies have advantage on melee attack rolls against any hostile creature within 5 feet of Maul Darkmane."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "Maul Darkmane makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Claws (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Maul Darkmane"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Leap",
+                    "entries":
+                    [
+                        "Maul Darkmane moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Bark Orders",
+                    "entries":
+                    [
+                        "Maul Darkmane chooses a friendly creature who can see or hear it. That creature can use ts reaction to move up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Frenzy (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "Maul Darkmane can make one claw attack against each creature within 5 feet of it."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Boss",
+                "Shapechanger",
+                "Keen Senses"
+
+            ],
+            "languageTages":
+            [
+                "C",
+                "CS"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/c3CT1sv.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/JHHmZYi.jpg"
                         }
                     }
                 ]
