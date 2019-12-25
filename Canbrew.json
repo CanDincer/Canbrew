@@ -148,11 +148,11 @@
                 "2H"
             ],
             "range": "150/600",
-            "rarity": "2 Rare",
+            "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
-                "The bow has protrusions on its arrow rest. When released, an arrow starts to spin fast. If you hit, creatures directly behind are hit, if your attack roll surpasses their AC, until a creature's AC from armor stops it."
+                "The bow has protrusions on its arrow rest. When released, an arrow starts to spin fast. If you hit, creatures directly behind are struk if your attack roll surpasses their AC, until a creature's AC from armor stops it."
             ]
         },
         {
@@ -569,30 +569,6 @@
             ]
         },
         {
-            "name": "Giant Bow",
-            "baseItem": "Longbow|PHB",
-            "type": "R",
-            "weaponCategory": "Martial",
-            "weight": 18,
-            "dmg1": "{@damage 1d12}",
-            "dmgType": "B",
-            "reqAttune": true,
-            "property":
-            [
-                "A",
-                "H",
-                "2H",
-                "LD"
-            ],
-            "range": "40/80",
-            "rarity": "Uncommon",
-            "source": "Canbrew",
-            "entries":
-            [
-                "You use your Strength modifier for calculating the damage instead of Dexterity for this weapon. While carrying this bow, your movement is reduced by 10ft and you have -5 penalty on Dexterity saving throws. This bow has 40 ft. effective range. If your size is at least Large you're not subjected to the penalties."
-            ]
-        },
-        {
             "name": "Kingsglaive",
             "baseItem": "Dagger|PHB",
             "type": "M",
@@ -828,6 +804,7 @@
             "source": "Canbrew",
             "entries":
             [
+                "A flail with runes on the head."
                 "When you hit with this weapon, you can use a bonus action to suck the living force out of your target. The target loses one ability score modifier of your choice that you gain until the end of your next turn.",
                 "It has 5 charges and regains {@dice 1d4} charges at dawn."
             ]
