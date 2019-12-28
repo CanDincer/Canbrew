@@ -804,9 +804,9 @@
             "source": "Canbrew",
             "entries":
             [
-                "A flail with runes on the head."
-                "When you hit with this weapon, you can use a bonus action to suck the living force out of your target. The target loses one ability score modifier of your choice that you gain until the end of your next turn.",
-                "It has 5 charges and regains {@dice 1d4} charges at dawn."
+                "A flail with runes on the head.",
+                "When you hit with this weapon, you can use a bonus action to suck the living force out of your target. The target loses two ability score modifiers of your choice that you gain until the end of your next turn.",
+                "It has 5 charges and regains {@dice 1d4+1} charges at dawn."
             ]
         },
         {
@@ -3181,6 +3181,763 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/JHHmZYi.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mongolian Pirate Hunter (od)",
+            "group": "humanoid",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 12,
+                    "condition": "in humanoid form"
+                },
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ],
+                    "condition": "in hybrid form"
+                }
+            ],
+            "hp":
+            {
+                "average": 119,
+                "formula": "14d8 + 56"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 15,
+            "con": 18,
+            "int": 11,
+            "wis": 14,
+            "cha": 15,
+            "save":
+            {
+                "dex": "+9",
+                "con": "+8",
+                "wis": "+6"
+            },
+            "skill":
+            {
+                "acrobatics": "+9",
+                "perception": "+6"
+            },
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks that aren't silvered"
+                }
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "languages":
+            [
+                "Common"
+            ],
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "Maul Darkmane can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If Maul Darkmane fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "Maul Darkmane has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Pack Leader",
+                    "entries":
+                    [
+                        "Maul Darkmane's allies have advantage on melee attack rolls against any hostile creature within 5 feet of Maul Darkmane."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "Maul Darkmane makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Claws (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Maul Darkmane"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Leap",
+                    "entries":
+                    [
+                        "Maul Darkmane moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Bark Orders",
+                    "entries":
+                    [
+                        "Maul Darkmane chooses a friendly creature who can see or hear it. That creature can use ts reaction to move up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Frenzy (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "Maul Darkmane can make one claw attack against each creature within 5 feet of it."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Boss",
+                "Shapechanger",
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/2sgl2u8.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/5HdLT7q.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mongolian Pirate Hunter Shaman (od)",
+            "group": "humanoid",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 12,
+                    "condition": "in humanoid form"
+                },
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ],
+                    "condition": "in hybrid form"
+                }
+            ],
+            "hp":
+            {
+                "average": 119,
+                "formula": "14d8 + 56"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 15,
+            "con": 18,
+            "int": 11,
+            "wis": 14,
+            "cha": 15,
+            "save":
+            {
+                "dex": "+9",
+                "con": "+8",
+                "wis": "+6"
+            },
+            "skill":
+            {
+                "acrobatics": "+9",
+                "perception": "+6"
+            },
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks that aren't silvered"
+                }
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "languages":
+            [
+                "Common"
+            ],
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "Maul Darkmane can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If Maul Darkmane fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "Maul Darkmane has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Pack Leader",
+                    "entries":
+                    [
+                        "Maul Darkmane's allies have advantage on melee attack rolls against any hostile creature within 5 feet of Maul Darkmane."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "Maul Darkmane makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Claws (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Maul Darkmane"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Leap",
+                    "entries":
+                    [
+                        "Maul Darkmane moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Bark Orders",
+                    "entries":
+                    [
+                        "Maul Darkmane chooses a friendly creature who can see or hear it. That creature can use ts reaction to move up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Frenzy (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "Maul Darkmane can make one claw attack against each creature within 5 feet of it."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Boss",
+                "Shapechanger",
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/3NfJjUA.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/AQcPliB.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mongolian Pirate Hunter Captain (od)",
+            "group": "humanoid",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "G"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 60,
+                "formula": "8d8 + 24"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 11,
+            "wis": 10,
+            "cha": 14,
+            "skill":
+            {
+                "athletics": "+8",
+                "intimidation": "+7"
+            },
+            "passive": 10,
+            "languages":
+            [
+                "Common",
+                "Mongolian"
+            ],
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Flourish",
+                    "entries":
+                    [
+                        "The captain adds their Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
+                    ]
+                },
+                {
+                    "name": "Sea Legs",
+                    "entries":
+                    [
+                        "The captain has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The captain makes four attacks with their Scimitars or two attacks with their Shortbow."
+                    ]
+                },
+                {
+                    "name": "Scimitar",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d6 + 7}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Shortbow",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Mongolian Pirate Hunter Captain"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Heave ho, scallywag",
+                    "entries":
+                    [
+                        "The captain orders an ally to run up to their speed and make an attack."
+                    ]
+                },
+                {
+                    "name": "Shiver me timbers",
+                    "entries":
+                    [
+                        "The captain takes a step back and all negative effects and conditions on them ends." 
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Boss"
+            ],
+            "languageTags":
+            [
+                "C"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW"
+            ],
+            "tokenUrl": "https://i.imgur.com/U386svi.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/MTqMb2K.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Atlantis Guardian (od)",
+            "group": "humanoid",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 12,
+                    "condition": "in humanoid form"
+                },
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ],
+                    "condition": "in hybrid form"
+                }
+            ],
+            "hp":
+            {
+                "average": 119,
+                "formula": "14d8 + 56"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 15,
+            "con": 18,
+            "int": 11,
+            "wis": 14,
+            "cha": 15,
+            "save":
+            {
+                "dex": "+9",
+                "con": "+8",
+                "wis": "+6"
+            },
+            "skill":
+            {
+                "acrobatics": "+9",
+                "perception": "+6"
+            },
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks that aren't silvered"
+                }
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "languages":
+            [
+                "Common"
+            ],
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "Maul Darkmane can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If Maul Darkmane fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "Maul Darkmane has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Pack Leader",
+                    "entries":
+                    [
+                        "Maul Darkmane's allies have advantage on melee attack rolls against any hostile creature within 5 feet of Maul Darkmane."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "Maul Darkmane makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Claws (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Maul Darkmane"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Leap",
+                    "entries":
+                    [
+                        "Maul Darkmane moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Bark Orders",
+                    "entries":
+                    [
+                        "Maul Darkmane chooses a friendly creature who can see or hear it. That creature can use ts reaction to move up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Frenzy (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "Maul Darkmane can make one claw attack against each creature within 5 feet of it."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Boss",
+                "Shapechanger",
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/QAV4Y8d.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/uwQQw1r.png"
                         }
                     }
                 ]
