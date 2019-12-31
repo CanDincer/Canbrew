@@ -406,7 +406,7 @@
             "weaponCategory": "Simple",
             "weight": 10,
             "dmg1": "{@damage 1d6}",
-            "dmgType": "",
+            "dmgType": "S",
             "reqAttune": true,
             "property":
             [
@@ -430,6 +430,28 @@
                         "You have disadvantage when you use Chained Axes to attack a target within 5 feet of you. Also, Chained Axes requires two hands to wield."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Night Song",
+            "baseItem": "Handaxe|PHB",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 10,
+            "dmg1": "{@damage 1d6}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "Deals {@damage 1d6} force damage to any creature it hits that has the \"Incorporeal Movement\" trait. Whet it does, a link is created between the axe and the creature, and the creature can't benefit from its \"Incorporeal Movement\" trait again until another target is hit with this weapon. After hitting a target, you can choose to root the target by anchoring the axe on the ground. Doing so, removes the target's damage resistances and prevents the target from teleporting or shifting to another plane by any means."
             ]
         },
         {
@@ -1938,6 +1960,41 @@
             ]
         },
         {
+            "name": "Ring of Greater Mage Hand",
+            "type": "RG",
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "It is said that some can manipulate the forces of nature. This ring is sure to increase your connection to the said forces.",
+                {
+                    "type": "entries",
+                    "name": "Push",
+                    "entries":
+                    [
+                        "You can push your enemy a distance equal to your spellcasting ability modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "You can pull your enemy a distance equal to your spellcasting ability modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Levitate",
+                    "entries":
+                    [
+                        "The weight your mage hand can carry is increased by your spellcasting ability score in pounds."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Ring of Entropy",
             "type": "RG",
             "reqAttune": true,
@@ -1984,16 +2041,47 @@
             ]
         },
         {
-            "name": "Bands of Atonement",
+            "name": "Bands of Amend",
             "rarity": "Uncommon",
             "weight": 1,
             "reqAttune": true,
+            "charges": 8,
             "source": "Canbrew",
             "entries":
             [
                 "Two interlocking bands, one gold engraved with motifs of Justitia and the other granite with motifs of Arete.",
                 "Justitia rewards order with temporary hit points equal to your level and punishes chaos with Shocking Grasp.",
                 "Arete rewards goodness with inspiration and punishes evil with a Sacred Flame."
+            ]
+        },
+        {
+            "name": "Band of Atonement (od)",
+            "rarity": "Rare",
+            "weight": 0.5,
+            "reqAttune": "by a Creature of Chaotic Alignment",
+            "source": "Canbrew",
+            "entries":
+            [
+                "A leather wristband with 8 small circular runes on it",
+                "Each rune heals the wearer for {@dice 1d8}.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries":
+                    [
+                        "Upon wearing it, roll a Wisdom check. DC is designated by the chaos you have accumulated. On a fail, you are cursed and cannot remove the band. On a success, the band has neither effect nor any healing power and can be removed.",
+                        "Your acts on the righteous path grants you rune charges.",
+                        {
+                            "type": "entries",
+                            "name": "Mind Lull",
+                            "entries":
+                            [
+                                "You lose the temptation for the chaos inside you. Your emotions are calmer and your mind focused on the righteous path. Before acting in a mischievous way you must pass a Wisdom check. On a fail, your mind is blanked and you cannot continue your act.",
+                                "\"For you have sinned, you must atone. Your chaos shall cease. Your emotions shall go quiet. Your passion shall soothe. Worry not, for I shall cleanse you from the chaos inside.\""
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -2506,14 +2594,17 @@
             ]
         },
         {
-            "name": "Horadric Cube",
-            "rarity": "Rare",
+            "name": "Horadric Cube (ongoingdevelopment)",
+            "rarity": "Very Rare",
             "weight": 0.5,
             "reqAttune": true,
             "source": "Canbrew",
             "entries":
             [
-                "It's a hand-sized cube with engravings on it. The cube can store your excess spell power. When you finish a long rest (short rest if you are a Warlock), you can store unused spell slots from earlier in the cube. The total of the spell slot levels you can store equals to the sum of your caster class' level."
+                "It's a hand-sized cube with engravings on it. The cube can merge same type of magical items into greater ones.",
+                "If you touch any item to one of its sides, the item is diffused into it. You have one minute to insert the rest of the items. Otherwise, all items are ejected from it.",
+                "The time required for this process is equal to rarity level x 10 hours. Place 5 of the same item inside the cube, lock the cube and then wait.",
+                "Some examples include: 5 +1 longwords can be merged to a +2 longsword, 5 Potions of Healing can be merged to a Potion of Greater Healing."
             ]
         },
         {
@@ -3859,17 +3950,10 @@
             "action":
             [
                 {
-                    "name": "Multiattack (Hybrid Form Only)",
+                    "name": "Disintegration Ray",
                     "entries":
                     [
-                        "Maul Darkmane makes three attacks: one with its bite and two with its claws."
-                    ]
-                },
-                {
-                    "name": "Bite (Wolf or Hybrid Form Only)",
-                    "entries":
-                    [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
+                        "If the target is a creature, it must succeed on a DC 16 Dexterity saving throw or take 27 {@damage 6d8} force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust"
                     ]
                 },
                 {
