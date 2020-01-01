@@ -91,7 +91,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A Twilight Valkyrie is said to walk the line between the light and the dark.",
+                "A Twilight Valkyrie are said to walk the line between the light and the dark.",
                 "You can use your bonus action to switch between bow's celestial and infernal stances.",
                 "In celestial stance, the bow shines brightly and casts bright light in a 20-foot radius and dim light for an additional 20 feet.",
                 "In infernal stance, the bow releases a dark smoke to hide you in the shadows. In dim light or darkness, you have +3 to Stealth checks",
@@ -588,6 +588,47 @@
             [
                 "When you hit with this weapon as a bonus action you can make a strength or dexterity contest to disarm or trip your enemy. You have disadvantage in this contest if disarming a two-handed weapon or tripping a creature larger than yourself.",
                 "Take care picking it up or its lash will snap to your wrist."
+            ]
+        },
+        {
+            "name": "Glaive of Atlas",
+            "baseItem": "Glaive|PHB",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 6,
+            "dmg1": "{@damage 1d10}",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "H",
+                "R",
+                "2H"
+            ],
+            "rarity": "Legendary",
+            "source": "Canbrew",
+            "entries":
+            [
+                "Belonged to the first king of Atlantis, son of Poseidon, Atlas.",
+                "You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
+                "While attuned to this Glaive, you gain the Powerful Build trait.",
+                "This weapon functions as a defender.",
+                {
+                    "type": "entries",
+                    "name": "Powerful Build",
+                    "entries":
+                    [
+                        "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Defender",
+                    "entries":
+                    [
+                        "The first time you attack with the glaive on each of your turns, you can transfer some or all of the glaive's bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the glaive to gain a bonus to AC from it."
+                    ]
+                }
             ]
         },
         {
@@ -1945,16 +1986,21 @@
             "type": "RG",
             "reqAttune": true,
             "rarity": "Rare",
+            "attachedSpells":
+            [
+                "Banishment"
+            ],
             "source": "Canbrew",
             "entries":
             [
                 "An exotic ring with tiny chains circling it.",
+                "Once a day you can cast 4th-level {@spell Banishment|PHB}.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "It's cursed and cannot be removed. Once worn, whatever settlement you're in, you are magically exiled {@dice 1d6} days after from there. Reroll the die when you enter another settlement. You roll Wisdom Saving Throw with DC 10 to enter or stay in a settlement you're exiled. The DC increases each day by 1. Once a day you can cast 4th-level Banishment."
+                        "It's cursed and cannot be removed. Once worn, whatever settlement you're in, you are magically exiled {@dice 1d6} days after from there. Reroll the die when you enter another settlement. You roll Wisdom Saving Throw with DC 10 to enter or stay in a settlement you're exiled. The DC increases each day by 1."
                     ]
                 }
             ]
@@ -1964,10 +2010,15 @@
             "type": "RG",
             "reqAttune": true,
             "rarity": "Uncommon",
+            "attachedSpells":
+            [
+                "Mage Hand"
+            ],
             "source": "Canbrew",
             "entries":
             [
                 "It is said that some can manipulate the forces of nature. This ring is sure to increase your connection to the said forces.",
+                "This ring enhances your {@spell Mage Hand|PHB} spell. You know the {@spell Mage Hand|PHB} spell if you don't already.",
                 {
                     "type": "entries",
                     "name": "Push",
@@ -1989,7 +2040,7 @@
                     "name": "Levitate",
                     "entries":
                     [
-                        "The weight your mage hand can carry is increased by your spellcasting ability score in pounds."
+                        "The weight your {@spell Mage Hand|PHB} can carry is increased by your spellcasting ability score in pounds."
                     ]
                 }
             ]
@@ -2013,18 +2064,17 @@
             "source": "Canbrew",
             "entries":
             [
-                "A red gold ring. Protects you from a fatal blow once, then shatters."
+                "A red gold ring. Protects you from a failed death saving throw once, then shatters."
             ]
         },
         {
             "name": "Seal of Gal'badur",
             "type": "RG",
-            "reqAttune": true,
             "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
-                "You can activate the ring to gain advantage on Charisma checks against dwarfs."
+                "You can wear it to gain advantage on Charisma checks against dwarfs."
             ]
         },
         {
@@ -2037,25 +2087,24 @@
             "entries":
             [
                 "Whenever you deal melee damage to anything that isn't undead or a construct, you gain temporary hit points equal to your proficiency bonus.",
-                "This ring has 10 charges. As part of a melee attack, you can expend 4 charges to gain hit points equal to the damage you dealt. It recharges using your blood. Roll {@dice d8}'s as many as your level, take the result as necrotic damage, for each charge restored."
+                "This ring has 10 charges. As part of a melee attack, you can expend 4 charges to gain hit points equal to the damage you dealt. It recharges using your blood. Roll {@dice 1d8}'s as many as your level, take the result as necrotic damage, for each charge restored."
             ]
         },
         {
             "name": "Bands of Amend",
             "rarity": "Uncommon",
             "weight": 1,
-            "reqAttune": true,
-            "charges": 8,
             "source": "Canbrew",
             "entries":
             [
                 "Two interlocking bands, one gold engraved with motifs of Justitia and the other granite with motifs of Arete.",
                 "Justitia rewards order with temporary hit points equal to your level and punishes chaos with Shocking Grasp.",
-                "Arete rewards goodness with inspiration and punishes evil with a Sacred Flame."
+                "Arete rewards goodness with inspiration and punishes evil with a Sacred Flame.",
+                "Once worn, only a royal blood can unequip it from you."
             ]
         },
         {
-            "name": "Band of Atonement (od)",
+            "name": "Band of Atonement",
             "rarity": "Rare",
             "weight": 0.5,
             "reqAttune": "by a Creature of Chaotic Alignment",
@@ -2077,7 +2126,11 @@
                             "entries":
                             [
                                 "You lose the temptation for the chaos inside you. Your emotions are calmer and your mind focused on the righteous path. Before acting in a mischievous way you must pass a Wisdom check. On a fail, your mind is blanked and you cannot continue your act.",
-                                "\"For you have sinned, you must atone. Your chaos shall cease. Your emotions shall go quiet. Your passion shall soothe. Worry not, for I shall cleanse you from the chaos inside.\""
+                                "If {@spell Remove Curse|PHB} is cast on you, the ring ceases to function.",
+                                "\"For you have sinned, you must atone.",
+                                "Your chaos shall cease. Your emotions shall go quiet.",
+                                "Your passion shall soothe.",
+                                "Worry not, for I shall cleanse you from the chaos inside.\""
                             ]
                         }
                     ]
@@ -2445,6 +2498,84 @@
             "entries":
             [
                 "A prayer book that gives +2 on Religion checks when held. Has one charge of {@spell Call Lightning|PHB}."
+            ]
+        },
+        {
+            "name": "Opus of Poseidon",
+            "rarity": "Rare",
+            "weight": 1,
+            "charges": 8,
+            "reqAttune": true,
+            "attachedSpells":
+            [
+                "Shape Water",
+                "Ice Knife",
+                "Augury",
+                "Call Lightning",
+                "Tidal Wave",
+                "Control Water",
+                "Maelstrom",
+                "Tsunami"
+            ],
+            "source": "Canbrew",
+            "entries":
+            [
+                "Written by Poseidon himself. First users of the tidal magic were taught by this book. Generations have practiced these spells to carry Poseidon's will.",
+                "It needs to be soaked in saltwater regularly or the pages will dry out and fall, losing spells.",
+                "It has 8 charges and regains 1 charge on each ebb and flow.",
+                {
+                    "type": "table",
+                    "caption": "Spells Contained in Opus of Poseidon",
+                    "colLabels":
+                    [
+                        "Spell",
+                        "Charge Expended"
+                    ],
+                    "colStyles":
+                    [
+                        "col-4",
+                        "col-6"
+                    ],
+                    "rows":
+                    [
+                        [
+                            "{@spell Shape Water|XGE}",
+                            "0"
+                        ],
+                        [
+                            "{@spell Ice Knife|XGE}",
+                            "1"
+                        ],
+                        [
+                            "{@spell Augury|PHB}",
+                            "2"
+                        ],
+                        [
+                            "{@spell Tidal Wave|XGE}",
+                            "3"
+                        ],
+                        [
+                            "{@spell Control Water|PHB}",
+                            "4"
+                        ],
+                        [
+                            "{@spell Maelstrom|XGE}",
+                            "5"
+                        ],
+                        [
+                            "{@spell Move Earth|PHB}",
+                            "6"
+                        ],
+                        [
+                            "{@spell Temple of the Gods|XGE}",
+                            "7"
+                        ],
+                        [
+                            "{@spell Tsunami|PHB}",
+                            "8"
+                        ]
+                    ]
+                }
             ]
         },
         {
