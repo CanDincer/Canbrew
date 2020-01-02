@@ -85,9 +85,9 @@
                 "If you hit a creature with an arrow or bolt that was connected to the vine, the vine magically disconnects itself and falls from the ammunition. You can disconnect the vine from the ammunition by speaking its command word again or sever the vine from the quiver as a bonus action. Once severed, the vine is considered to be a mundane length of hemp rope.",
                 "You can only fire a connected piece of ammunition as far as you have the vine to. The quiver regrows 1d4 x 10 feet of vine each day at dawn, up to a maximum of 120 feet."
             ]
-        }
+        },
         {
-            "name": "Bow of he Twilight Valkyrie",
+            "name": "Bow of the Twilight Valkyrie",
             "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
