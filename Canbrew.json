@@ -64,13 +64,28 @@
                 "2H"
              ],
             "range": "150/600",
-            "rarity": "Legendary",
+            "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
-                "When the string is pulled an ethereal arrow forms. The arrows are considered magical weapons in terms of resistance. You can fire twice every time you attack as you don't have to spend time to get an arrow from your quiver."
+                "This weapon doesn't have a visible string, but when you pull where would be a string, a string glows into existence. When the string is pulled all the way, an ethereal arrow forms. The arrows deal force damage instead of piercing. If you used an action to attack, you can fire another arrow using your bonus action as you don't have to spend time to get an arrow from your quiver. Arrows disappear a minute after they are fired."
             ]
         },
+        {
+            "name": "Tethervine Quiver",
+            "baseItem": "Quiver|PHB",
+            "type": "G",
+            "weight": "1",
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This seemingly overgrown quiver keeps a large plant magically concealed within. The quiver can store up to 20 arrows or bolts. When you draw a piece of ammunition from the quiver, you can speak the quiver's command word as a bonus action to magically connect the end of the ammunition to the plant inside the quiver. The plant is a rope-like vine that flies effortlessly behind a fired piece of ammunition. While wearing the quiver, you can use a bonus action to magically retract the vine up to 60 feet back into the quiver. Any object weighing less than 25 pounds that was hit by a connected piece of ammunition is pulled back toward the quiver when it's retracted in this way. Despite the quiver's limitations, the rope-like vine can hold up to 250 pounds on its own.",
+                "If you hit a creature with an arrow or bolt that was connected to the vine, the vine magically disconnects itself and falls from the ammunition. You can disconnect the vine from the ammunition by speaking its command word again or sever the vine from the quiver as a bonus action. Once severed, the vine is considered to be a mundane length of hemp rope.",
+                "You can only fire a connected piece of ammunition as far as you have the vine to. The quiver regrows 1d4 x 10 feet of vine each day at dawn, up to a maximum of 120 feet."
+            ]
+        }
         {
             "name": "Bow of he Twilight Valkyrie",
             "baseItem": "Longbow|PHB",
@@ -598,12 +613,14 @@
             "weight": 6,
             "dmg1": "{@damage 1d10}",
             "dmgType": "S",
+            "bonus": "+3",
             "reqAttune": true,
             "property":
             [
                 "H",
                 "R",
-                "2H"
+                "2H",
+                "S"
             ],
             "rarity": "Legendary",
             "source": "Canbrew",
@@ -619,6 +636,14 @@
                     "entries":
                     [
                         "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Special",
+                    "entries":
+                    [
+                        "If you attack with a double-bladed glaive as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d10} slashing damage on a hit."
                     ]
                 },
                 {
@@ -760,6 +785,7 @@
             "dmg2": "{@damage 1d8}",
             "dmgType": "P",
             "reqAttune": true,
+            "range": "20/60",
             "property":
             [
                 "T",
@@ -770,6 +796,29 @@
             "entries":
             [
                 "Its tip is lined with teeth. When you hit a living creature with this weapon, you can use a bonus action to deal additional {@damage 1d4} necrotic damage, as the weapon bites into the target. You have to make a Charisma check against the target's Charisma Saving Throw. After this, you gain temporary Hit Points equal to half of the extra damage dealt."
+            ]
+        },
+        {
+            "name": "Galepierce Trident",
+            "baseItem": "Trident|PHB",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 4,
+            "dmg1": "{@damage 1d6}",
+            "dmg2": "{@damage 1d8}",
+            "dmgType": "P",
+            "reqAttune": true,
+            "range": "40/120",
+            "property":
+            [
+                "T",
+                "V"
+            ],
+            "rarity": "Common",
+            "source": "Canbrew",
+            "entries":
+            [
+                "Fine work of Atlanteans. This magic weapon has been tempered to glide through the wind, doubling both its normal and long throwing ranges. Ranged attacks made with this weapon against targets that are protected by fog, high winds, and other air-based hindrances are made without the normal disadvantage that those obstructions would typically cause."
             ]
         },
         {
@@ -1347,7 +1396,8 @@
             "source": "Canbrew",
             "entries":
             [
-                "A legendary +5/+5 spear. Critical hits against you, however, force a Constitution save, with a DC of the damage taken. Failure on this save reduces you to 0hp. Fatal damage still kills you. With a shaft hewn from the wood of an ancient tree at the foot of Mount Celestia, and a head said to be forged by Hephaestus himself, this is a weapon for victorious heroes - and yet it has been responsible for as many terrible defeats."
+                "A legendary +5 spear with a shaft hewn from the wood of an ancient tree at the foot of Mount Celestia, and a head said to be forged by Hephaestus himself, this is a weapon for victorious heroes - and yet it has been responsible for as many terrible defeats.",
+                "Critical hits against you force a Constitution save, with a DC of the damage taken. Failure on this save reduces you to 0hp. Fatal damage still kills you."
             ]
         },
         {
@@ -1743,7 +1793,7 @@
             "entries":
             [
                 "A shield made out of thick wooden sticks tied together with a leather strap as a grip.",
-                "This shield feeds from your fears. Whenever you're surprised you panic and rise your shield, gaining temporary hit points equal to 20 - your Wisdom until the end of the surprise round."
+                "This shield feeds from your fears. Whenever you're surprised you panic and rise your shield, gaining temporary hit points equal to 20 - your Wisdom score until the end of the surprise round."
             ]
         },
         {
@@ -1828,6 +1878,18 @@
             "entries":
             [
                 "These arrow's heads are hollow and have storage equal to that of a vial. It contains a tiny mechanism similar to a syringe. You can use an action to prepare a syringe. Liquids held within never dry out, and are injected directly into a creature struck."
+            ]
+        },
+        {
+            "name": "Void Arrow",
+            "baseItem": "Arrow|PHB",
+            "type": "A",
+            "weight": 0.05,
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This pitch dark piece of ammunition is composed of densely packed shadows. A creature hit by this magic ammunition takes force damage instead of piercing damage. This ammunition makes no sound when it's fired or strikes a surface. It leaves no discernible wounds and vanishes immediately after hitting a creature."
             ]
         },
         {
@@ -2161,6 +2223,17 @@
             "entries":
             [
                 "An ornate mask, like those worn for masked balls. The wearer hears a constant stream of sycophantic praise. Allows you to cast {@spell Charm Person|PHB} spell once a day."
+            ]
+        },
+        {
+            "name": "Mask of the Pact Bearer",
+            "rarity": "Uncommon",
+            "weight": 0.5,
+            "reqAttune": "by a Warlock",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This mask appears like a normal wooden mask before you attune to it. When you attune to this mask, your otherworldly patron's presence over you magically reshapes it to represent the visage of your patron. While you wear this mask, you can cast one spell from your patron's expanded spell list without expending a spell slot. The spell must be of a level equal to or less than your warlock spell slot level. A spell cast in this way is always cast at its lowest level, regardless of your normal warlock spell slot level. Once the mask has been used in this way, it can't be used again until the following dawn."
             ]
         },
         {
@@ -2598,7 +2671,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "This potion's container seems to hold a very thick black goo.",
+                "This potion's container seems to hold a very thick black goo. Drinking it gives you black eyes.",
                 "When you drink this potion, you gain {@sense darkvision} out to a range of 30 ft. for 1 hour."
             ]
         },
@@ -2942,8 +3015,8 @@
             ],
             "hp":
             {
-                "average": 50,
-                "formula": "11d10 + 11"
+                "average": 77,
+                "formula": "14d6 + 14"
             },
             "speed":
             {
@@ -2957,7 +3030,7 @@
             "cha": 10,
             "skill":
             {
-                "athletics": "+7",
+                "athletics": "+8",
                 "stealth": "+4"
             },
             "senses":
@@ -2970,7 +3043,7 @@
                 "Common",
                 "Goblin"
             ],
-            "cr": "3",
+            "cr": "4",
             "trait":
             [
                 {
@@ -2994,7 +3067,7 @@
                     "name": "Spiked Chain",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}5 ({@damage 2d4}) piercing damage. Ulx can force the target to make a contested Athletics ([[@{npc_athletics}+1d20]]) check. On a failed saving throw, the target is grappled and pulled towards Ulx up 5 ft."
+                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage. Ulx can force the target to make a contested Athletics ([[@{npc_athletics}+1d20]]) check. On a failed saving throw, the target is grappled and pulled towards Ulx up 5 ft."
                     ]
                 }
             ],
