@@ -2745,6 +2745,19 @@
             ]
         },
         {
+            "name": "Blood Pact Pendants",
+            "rarity": "Very Rare",
+            "type": "SCF",
+            "weight": 0.05,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "These iron pendants come in pairs and are connected by a powerful bond of self-sacrifice. In order to create this bond, you and a friendly creature with whom you are close perform a brief, 1 minute ritual to connect your destinies and forge a blood pact. When you create this blood pact, you must each agree on a number of hit points to permanently sacrifice, reducing your total maximum hit points (minimum 1). Once a pact has been forged, trickles of the bound creatures' blood are absorbed into the normally clear gem adorning the face of this pendant. While the gem is filled in this way, it seems to gently swirl and pulse in time with your heartbeat.",
+                "While each bound creature is wearing their pendant and are on the same plane of existence, they're protected by this pact so long as one creature is still conscious. When a bound creature dies, they're immediately revived with 2d10 hit points plus twice the number of hit points previously sacrificed by the creature. When a creature is revived in this way, the other bound creature immediately falls to 0 hit points and is knocked unconscious. This property ignores any effect that would normally prevent a creature from falling to 0 hit points. When this happens, both creatures' maximum hit points are returned to normal. Once the pact is ended in this way, the gems and pendants crack and are no longer magical."
+            ]
+        },
+        {
             "name": "Liquid Focus",
             "rarity": "Legendary",
             "type": "SCF",
