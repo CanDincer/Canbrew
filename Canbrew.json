@@ -11,7 +11,7 @@
                 [
                     "Can Dinçer"
                 ],
-                "version": "0.1.3",
+                "version": "2020.01.08",
                 "url": "https://github.com/CanDincer/Canbrew",
                 "targetSchema": "1.0.0"
             }
@@ -26,7 +26,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 4d6}",
+            "dmg1": "4d6",
             "dmgType": "R",
             "attachedSpells":
             [
@@ -54,7 +54,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "O",
             "reqAttune": true,
             "property":
@@ -72,27 +72,12 @@
             ]
         },
         {
-            "name": "Tethervine Quiver",
-            "baseItem": "Quiver|PHB",
-            "type": "G",
-            "weight": "1",
-            "reqAttune": true,
-            "rarity": "Uncommon",
-            "source": "Canbrew",
-            "entries":
-            [
-                "This seemingly overgrown quiver keeps a large plant magically concealed within. The quiver can store up to 20 arrows or bolts. When you draw a piece of ammunition from the quiver, you can speak the quiver's command word as a bonus action to magically connect the end of the ammunition to the plant inside the quiver. The plant is a rope-like vine that flies effortlessly behind a fired piece of ammunition. While wearing the quiver, you can use a bonus action to magically retract the vine up to 60 feet back into the quiver. Any object weighing less than 25 pounds that was hit by a connected piece of ammunition is pulled back toward the quiver when it's retracted in this way. Despite the quiver's limitations, the rope-like vine can hold up to 250 pounds on its own.",
-                "If you hit a creature with an arrow or bolt that was connected to the vine, the vine magically disconnects itself and falls from the ammunition. You can disconnect the vine from the ammunition by speaking its command word again or sever the vine from the quiver as a bonus action. Once severed, the vine is considered to be a mundane length of hemp rope.",
-                "You can only fire a connected piece of ammunition as far as you have the vine to. The quiver regrows 1d4 x 10 feet of vine each day at dawn, up to a maximum of 120 feet."
-            ]
-        },
-        {
             "name": "Bow of the Twilight Valkyrie",
             "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -108,8 +93,14 @@
             [
                 "A Twilight Valkyrie are said to walk the line between the light and the dark.",
                 "You can use your bonus action to switch between bow's celestial and infernal stances.",
-                "In celestial stance, the bow shines brightly and casts bright light in a 20-foot radius and dim light for an additional 20 feet.",
-                "In infernal stance, the bow releases a dark smoke to hide you in the shadows. In dim light or darkness, you have +3 to Stealth checks",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "In celestial stance, the bow shines brightly and casts bright light in a 20-foot radius and dim light for an additional 20 feet.",
+                        "In infernal stance, the bow releases a dark smoke to hide you in the shadows. In dim light or darkness, you have +3 to Stealth checks"
+                    ]
+                },
                 "Beware of the consequences of leaning towards one side too much.",
                 {
                     "type": "entries",
@@ -130,7 +121,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -153,7 +144,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -176,7 +167,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
-            "dmg1": "{@damage 1d10}",
+            "dmg1": "1d10",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -200,7 +191,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
-            "dmg1": "{@damage 1d10}",
+            "dmg1": "1d10",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -216,10 +207,31 @@
             "entries":
             [
                 "This crossbow-like weapon uses pieces of currency as ammunition. The value of the coins themselves has an effect on the damage output as well. Coins fired this way are destroyed.",
-                "cp {@damage 1d10} piercing",
-                "sp {@damage 1d10} piercing (silvered)",
-                "gp {@damage 2d6} piercing + {@damage 1d4} radiant",
-                "ep {@damage 2d6} lightning + {@damage 1d6} piercing"
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "cp {@damage 1d10} piercing",
+                        "sp {@damage 1d10} piercing (silvered)",
+                        "gp {@damage 2d6} piercing + {@damage 1d4} radiant",
+                        "ep {@damage 2d6} lightning + {@damage 1d6} piercing"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tethervine Quiver",
+            "baseItem": "Quiver|PHB",
+            "type": "G",
+            "weight": "1",
+            "reqAttune": true,
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This seemingly overgrown quiver keeps a large plant magically concealed within. The quiver can store up to 20 arrows or bolts. When you draw a piece of ammunition from the quiver, you can speak the quiver's command word as a bonus action to magically connect the end of the ammunition to the plant inside the quiver. The plant is a rope-like vine that flies effortlessly behind a fired piece of ammunition. While wearing the quiver, you can use a bonus action to magically retract the vine up to 60 feet back into the quiver. Any object weighing less than 25 pounds that was hit by a connected piece of ammunition is pulled back toward the quiver when it's retracted in this way. Despite the quiver's limitations, the rope-like vine can hold up to 250 pounds on its own.",
+                "If you hit a creature with an arrow or bolt that was connected to the vine, the vine magically disconnects itself and falls from the ammunition. You can disconnect the vine from the ammunition by speaking its command word again or sever the vine from the quiver as a bonus action. Once severed, the vine is considered to be a mundane length of hemp rope.",
+                "You can only fire a connected piece of ammunition as far as you have the vine to. The quiver regrows 1d4 x 10 feet of vine each day at dawn, up to a maximum of 120 feet."
             ]
         },
         {
@@ -228,7 +240,7 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
-            "dmg1": "{@damage 1d4}",
+            "dmg1": "1d4",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -252,7 +264,7 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
-            "dmg1": "{@damage 1d4}",
+            "dmg1": "1d4",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -272,11 +284,64 @@
             ]
         },
         {
+            "name": "The Great Annihilator's Fang",
+            "baseItem": "Dagger|PHB",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "1d4",
+            "dmgType": "O",
+            "reqAttune": true,
+            "curse": true,
+            "property":
+            [
+                "L",
+                "F"
+          ],
+            "rarity": "Artifact",
+            "source": "Canbrew",
+            "entries":
+            [
+                "A very large fang with a slight curve. In darkness, you can see shadows bend towards it.",
+                "You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls.",
+                "If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang, then, grants you an extra action that you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries":
+                    [
+                        "It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Giant Axe",
+            "baseItem": "Greataxe|PHB",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 22,
+            "dmg1": "1d20",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "H",
+                "2H"
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. A minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than Medium, you only get -3 penalty."
+            ]
+        },
+        {
             "name": "Lightning Storm Gauntlet",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "L",
             "reqAttune": true,
             "attachedSpells":
@@ -297,31 +362,10 @@
             ]
         },
         {
-            "name": "Giant Axe",
-            "baseItem": "Greataxe|PHB",
-            "type": "M",
-            "weaponCategory": "Martial",
-            "weight": 22,
-            "dmg1": "{@damage 1d20}",
-            "dmgType": "S",
-            "reqAttune": true,
-            "property":
-            [
-                "H",
-                "2H"
-            ],
-            "rarity": "Uncommon",
-            "source": "Canbrew",
-            "entries":
-            [
-                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. A minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than Medium, you only get -3 penalty."
-            ]
-        },
-        {
             "name": "Repulsor Gauntlet",
             "type": "R",
             "weight": 2,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "T",
             "reqAttune": true,
             "property":
@@ -343,7 +387,7 @@
             "name": "Dwarven Fire Starters",
             "type": "M",
             "weight": 2,
-            "dmg1": "{@damage 1d4}",
+            "dmg1": "1d4",
             "dmgType": "B",
             "reqAttune": true,
             "charges": 6,
@@ -372,7 +416,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 4,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "rarity": "Uncommon",
@@ -383,46 +427,18 @@
             ]
         },
         {
-            "name": "The Great Annihilator's Fang",
-            "baseItem": "Dagger|PHB",
-            "type": "M",
-            "weaponCategory": "Simple",
-            "weight": 1,
-            "dmg1": "{@damage 1d4}",
-            "dmgType": "O",
-            "reqAttune": true,
-            "curse": true,
-            "property":
-            [
-                "L",
-                "F"
-          ],
-            "rarity": "Artifact",
-            "source": "Canbrew",
-            "entries":
-            [
-                "A very large fang with a slight curve. In darkness, you can see shadows bend towards it.",
-                "You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls.",
-                "If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang, then, grants you an extra action that you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand.",
-                {
-                    "type": "entries",
-                    "name": "Curse",
-                    "entries":
-                    [
-                        "It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
-                    ]
-                }
-            ]
-        },
-        {
             "name": "Chained Axes",
             "baseItem": "Handaxe|PHB",
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 10,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "S",
             "reqAttune": true,
+            "attachedSpells":
+            [
+                            "Ensnaring Strike"
+            ],
             "property":
             [
                 "L",
@@ -453,7 +469,7 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 10,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "S",
             "reqAttune": true,
             "property":
@@ -475,7 +491,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -497,7 +513,7 @@
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "R",
             "reqAttune": true,
             "property":
@@ -521,8 +537,8 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 4,
-            "dmg1": "{@damage 1d6}",
-            "dmg2": "{@damage 1d8}",
+            "dmg1": "1d6",
+            "dmg2": "1d8",
             "dmgType": "B",
             "reqAttune": true,
             "property":
@@ -538,28 +554,19 @@
         },
         {
             "name": "Spell Jammer",
-            "baseItem": "Quarterstaff|PHB",
-            "type": "M",
-            "weaponCategory": "Simple",
-            "weight": 4,
-            "dmg1": "{@damage 1d6}",
-            "dmg2": "{@damage 1d8}",
-            "dmgType": "B",
+            "type": "RD",
+            "weight": 2,
             "reqAttune": true,
-            "property":
-            [
-                "V"
-            ],
-            "rarity": "Very Rare",
+            "rarity": "Rare",
             "charges": 1,
             "source": "Canbrew",
             "entries":
             [
-                "An adamantine staff with a pointy tip on one end and a pearl on the other end.",
+                "An adamantine rod with a pointy tip on one end and a pearl on the other end.",
                 "You can jam it on the ground using an action and activate it using another action. It stays active for a minute or until you deactivate it using an action.",
                 "While it is active, any spell cast in the 60-foot radius below 4th-level disperses in the air and has no effect. It also disrupts all concentrations on spells. Creatures in the area of effect lose the effect of the concentrated spell. Creatures regain concentration at the end of the staff's effect or if they move out of the area of effect.",
                 "A creature who is about to cast a spell must roll an Arcana check against your spell save DC to notice the jammer effect. On a success, the creature can forego casting it.",
-                "It has 1 charge and you can replenish it by expending a 3rd-level or higher spell slot."
+                "It has 1 charge and you can replenish it by expending a 3rd-level or higher spell slot. Doing so costs an action"
             ]
         },
         {
@@ -568,8 +575,8 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
-            "dmg2": "{@damage 1d10}",
+            "dmg1": "1d8",
+            "dmg2": "1d10",
             "dmgType": "B",
             "reqAttune": true,
             "property":
@@ -589,7 +596,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d4}",
+            "dmg1": "1d4",
             "dmgType": "B",
             "reqAttune": true,
             "property":
@@ -611,7 +618,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 6,
-            "dmg1": "{@damage 1d10}",
+            "dmg1": "1d10",
             "dmgType": "S",
             "bonus": "+3",
             "reqAttune": true,
@@ -643,7 +650,7 @@
                     "name": "Special",
                     "entries":
                     [
-                        "If you attack with a double-bladed glaive as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d10} slashing damage on a hit."
+                        "If you attack with a double-bladed glaive as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it."
                     ]
                 },
                 {
@@ -662,7 +669,7 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
-            "dmg1": "{@damage 1d4}",
+            "dmg1": "1d4",
             "dmgType": "P",
             "reqAttune": true,
             "attachedSpells":
@@ -692,7 +699,7 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 1,
-            "dmg1": "{@damage 1d4}",
+            "dmg1": "1d4",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -715,7 +722,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 1,
-            "dmg1": "{@damage 1d12}",
+            "dmg1": "1d12",
             "dmgType": "S",
             "reqAttune": true,
             "property":
@@ -731,13 +738,13 @@
             ]
         },
         {
-            "name": "Angel's Will",
+            "name": "Angel's Will (od)",
             "baseItem": "Greatsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 1,
-            "dmg1": "{@damage 2d6}",
-            "dmg2": "{@damage 2d8}",
+            "dmg1": "2d6",
+            "dmg2": "2d8",
             "dmgType": "S",
             "reqAttune": true,
             "property":
@@ -758,7 +765,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 18,
-            "dmg1": "{@damage 3d4}",
+            "dmg1": "3d4",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -781,8 +788,8 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 4,
-            "dmg1": "{@damage 1d6}",
-            "dmg2": "{@damage 1d8}",
+            "dmg1": "1d6",
+            "dmg2": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "range": "20/60",
@@ -804,8 +811,8 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 4,
-            "dmg1": "{@damage 1d6}",
-            "dmg2": "{@damage 1d8}",
+            "dmg1": "1d6",
+            "dmg2": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "range": "40/120",
@@ -827,7 +834,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -851,7 +858,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 8,
-            "dmg1": "{@damage 2d4}",
+            "dmg1": "2d4",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -859,8 +866,7 @@
                 "F",
                 "S",
                 "2H",
-                "T",
-                "L"
+                "T"
             ],
             "range": "15",
             "rarity": "Rare",
@@ -874,7 +880,7 @@
                     "name": "Special",
                     "entries":
                     [
-                        "You have disadvantage when you use  Spiked Chain to attack a target within 5 feet of you. Also, Spiked Chain requires two hands to wield."
+                        "You have disadvantage when you use  Spiked Chain to attack a target within 5 feet of you. Also, Spiked Chain requires two hands to wield an if you make an attack using your action, you can make another attack with your bonus action."
                     ]
                 }
             ]
@@ -885,7 +891,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -908,7 +914,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "B",
             "reqAttune": true,
             "charges": 5,
@@ -916,7 +922,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A flail with runes on the head.",
+                "A flail with runes on its head.",
                 "When you hit with this weapon, you can use a bonus action to suck the living force out of your target. The target loses two ability score modifiers of your choice that you gain until the end of your next turn.",
                 "It has 5 charges and regains {@dice 1d4+1} charges at dawn."
             ]
@@ -927,7 +933,7 @@
             "type": "R",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
+            "dmg1": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -950,7 +956,7 @@
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
-            "dmg1": "{@damage 0}",
+            "dmg1": "1d6",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -974,7 +980,7 @@
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -1000,7 +1006,7 @@
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 2,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -1023,7 +1029,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "S",
             "reqAttune": true,
             "attachedSpells":
@@ -1057,7 +1063,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "S",
             "reqAttune": true,
             "curse": true,
@@ -1075,51 +1081,57 @@
                 "When you hit a creature with the sword, you can expend 1 of its charges as part of the attack to force that creature to make a DC 13 saving throw of your choice. On a failed save, a creature is subjected to an effect based on the kind of saving throw it made:",
                 "This sword has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
                 {
-                    "type": "entries",
-                    "name": "Strength",
-                    "entries":
+                    "type": "list",
+                    "items":
                     [
-                        "The creature gains a -2 penalty to attack rolls until the end of their next turn."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Dexterity",
-                    "entries":
-                    [
-                        "The creature's movement speed is halved until the end of their next turn."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Constitution",
-                    "entries":
-                    [
-                        "If the creature is Large or smaller, it loses their balance and is pushed 5 feet away from you."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Intelligence",
-                    "entries":
-                    [
-                        "The creature has disadvantage on the next spell attack it makes within 1 minute."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Wisdom",
-                    "entries":
-                    [
-                        "The creature becomes slightly sluggish and can't take reactions until the end of its next turn."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Charisma",
-                    "entries":
-                    [
-                        "The creature has disadvantage on attacks against creatures other than you until the end of its next turn."
+                        {
+                            "type": "entries",
+                            "name": "Strength",
+                            "entries":
+                            [
+                                "The creature gains a -2 penalty to attack rolls until the end of their next turn."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Dexterity",
+                            "entries":
+                            [
+                                "The creature's movement speed is halved until the end of their next turn."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Constitution",
+                            "entries":
+                            [
+                                "If the creature is Large or smaller, it loses their balance and is pushed 5 feet away from you."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Intelligence",
+                            "entries":
+                            [
+                                "The creature has disadvantage on the next spell attack it makes within 1 minute."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Wisdom",
+                            "entries":
+                            [
+                                "The creature becomes slightly sluggish and can't take reactions until the end of its next turn."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Charisma",
+                            "entries":
+                            [
+                                "The creature has disadvantage on attacks against creatures other than you until the end of its next turn."
+                            ]
+                        }
                     ]
                 }
             ]
@@ -1130,7 +1142,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "S",
             "reqAttune": true,
             "property":
@@ -1152,7 +1164,7 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 2,
-            "dmg1": "{@damage 1d4}",
+            "dmg1": "1d4",
             "dmgType": "S",
             "reqAttune": true,
             "property":
@@ -1172,7 +1184,7 @@
             "type": "R",
             "weaponCategory": "Simple",
             "weight": 1,
-            "dmg1": "{@damage 1d4}",
+            "dmg1": "1d4",
             "dmgType": "B",
             "reqAttune": true,
             "property":
@@ -1193,8 +1205,8 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
-            "dmg2": "{@damage 1d10}",
+            "dmg1": "1d8",
+            "dmg2": "1d10",
             "dmgType": "B",
             "attachedSpells":
             [
@@ -1218,7 +1230,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 3,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "B",
             "reqAttune": true,
             "property":
@@ -1239,7 +1251,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d6}",
+            "dmg1": "1d6",
             "dmgType": "B",
             "reqAttune": true,
             "property":
@@ -1277,8 +1289,8 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 2,
-            "dmg1": "{@damage 1d8}",
-            "dmg2": "{@damage 1d10}",
+            "dmg1": "1d8",
+            "dmg2": "1d10",
             "dmgType": "B",
             "reqAttune": true,
             "attachedSpells":
@@ -1303,7 +1315,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 18,
-            "dmg1": "{@damage 1d10}",
+            "dmg1": "1d10",
             "dmgType": "C",
             "reqAttune": true,
             "property":
@@ -1336,7 +1348,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 8,
-            "dmg1": "{@damage 1d4}",
+            "dmg1": "1d4",
             "dmgType": "F",
             "reqAttune": true,
             "range": "15",
@@ -1345,11 +1357,10 @@
                 "2H",
                 "S",
                 "T",
-                "L",
                 "F"
             ],
             "charges": 10,
-            "rarity": "Very Rare",
+            "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1357,20 +1368,20 @@
                 "You have +2 to your checks made to grapple with this weapon.",
                 {
                     "type": "entries",
-                    "name": "Judgement Day",
+                    "name": "Judgment",
                     "entries":
                     [
                         "While you have an enemy grappled with this weapon, you can use your action to force Tartarus's calling upon them. On a failed Wisdom saving throw, the creature is forced to face their guilt and take {@damage 1d8} psychic + {@damage 1d8} fire damage. DC for this action equals to 8 + your Wisdom modifier or your Charisma modifier (your choice) + your proficiency bonus.",
                         "Once you use this on an enemy, they are immune to the psychic damage from this weapon."
                     ]
                 },
-                "It has 10 charges and recharges 1d10 charges every day.",
+                "It has 10 charges and recharges {@dice 1d10} charges every day.",
                 {
                     "type": "entries",
                     "name": "Special",
                     "entries":
                     [
-                        "You have disadvantage when you use Chains of Reckoning to attack a target within 5 feet of you. Also, Chains of Reckoning requires two hands to wield."
+                        "You have disadvantage when you use Chains of Reckoning to attack a target within 5 feet of you. Also, Chains of Reckoning requires two hands to wield and if you make an attack using your action, you can make another attack with your bonus action."
                     ]
                 }
             ]
@@ -1381,8 +1392,8 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 3,
-            "dmg1": "{@damage 1d6}",
-            "dmg2": "{@damage 1d8}",
+            "dmg1": "1d6",
+            "dmg2": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -1406,8 +1417,8 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 3,
-            "dmg1": "{@damage 1d6}",
-            "dmg2": "{@damage 1d8}",
+            "dmg1": "1d6",
+            "dmg2": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -1431,8 +1442,8 @@
             "type": "M",
             "weaponCategory": "Simple",
             "weight": 3,
-            "dmg1": "{@damage 1d6}",
-            "dmg2": "{@damage 1d8}",
+            "dmg1": "1d6",
+            "dmg2": "1d8",
             "dmgType": "P",
             "reqAttune": true,
             "property":
@@ -1455,7 +1466,7 @@
             "type": "M",
             "weaponCategory": "Martial",
             "weight": 6,
-            "dmg1": "{@damage 3d6}",
+            "dmg1": "3d6",
             "dmgType": "T",
             "reqAttune": true,
             "property":
@@ -1635,7 +1646,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Requires str 18, max speed 30ft, gives -5 to Dexterity saves while wearing, but allows a special attack action.",
+                "Requires str 18, max speed 30ft, gives -5 to Dexterity saves while wearing, but allows a special {@action Attack} action.",
                 {
                     "type": "entries",
                     "name": "Charge",
@@ -1726,13 +1737,17 @@
             "type": "S",
             "weight": 6,
             "ac": 2,
-            "charges": 1,
+            "charges": 2,
             "reqAttune": true,
             "rarity": "Uncommon",
             "source": "Canbrew",
+            "attachedSpells":
+            [
+                "Shield"
+            ],
             "entries":
             [
-                "This is a shield that casts Shield on you. It has a rune engraved under its grip. When you follow the engraving with your finger using a bonus action, it lights up dimly and activates. Next time you are attacked light refracts from the shield and another shield appears in front of this shield. It has 1 charge which replenishes after a short rest."
+                "This is a shield that casts {@spell Shield|PHB} on you. It has a rune engraved under its grip. When you follow the engraving with your finger using a bonus action, it lights up dimly and activates. Next time you are hit, light refracts from the shield and another shield appears in front of this shield. It has 2 charges which replenishes after a short rest."
             ]
         },
         {
@@ -1774,7 +1789,7 @@
             "weight": 6,
             "ac": 2,
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "Common",
             "source": "Canbrew",
             "entries":
             [
@@ -1811,10 +1826,16 @@
                 "A full metal shield with a large bull face ornament at the front.",
                 "This shield holds a maximum of 5 charges. It replenishes {@dice 1d4} charge every dawn.",
                 "Guiding Flame: You may expend 2 charges to have the guiding flame show you the level of danger in the direction you're pointing it at.",
-                "-Green Flame - No Threat",
-                "-Purple Flame - Low Threat",
-                "-Red Flame - Medium Threat",
-                "-Black Flame - High Threat.",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "Green Flame - No Threat",
+                        "Purple Flame - Low Threat",
+                        "Red Flame - Medium Threat",
+                        "Black Flame - High Threat."
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "In Flames",
@@ -2082,27 +2103,33 @@
                 "It is said that some can manipulate the forces of nature. This ring is sure to increase your connection to the said forces.",
                 "This ring enhances your {@spell Mage Hand|PHB} spell. You know the {@spell Mage Hand|PHB} spell if you don't already.",
                 {
-                    "type": "entries",
-                    "name": "Push",
-                    "entries":
+                    "type": "list",
+                    "items":
                     [
-                        "You can push your enemy a distance equal to your spellcasting ability modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Pull",
-                    "entries":
-                    [
-                        "You can pull your enemy a distance equal to your spellcasting ability modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Levitate",
-                    "entries":
-                    [
-                        "The weight your {@spell Mage Hand|PHB} can carry is increased by your spellcasting ability score in pounds."
+                        {
+                            "type": "entries",
+                            "name": "Push",
+                            "entries":
+                            [
+                                "You can push your enemy a distance equal to your spellcasting ability modifier."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Pull",
+                            "entries":
+                            [
+                                "You can pull your enemy a distance equal to your spellcasting ability modifier."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Levitate",
+                            "entries":
+                            [
+                                "The weight your {@spell Mage Hand|PHB} can carry is increased by your spellcasting ability score in pounds."
+                            ]
+                        }
                     ]
                 }
             ]
@@ -2291,6 +2318,49 @@
             ]
         },
         {
+            "name": "Mirror of Imprisonment (od, too op, too boring, can be salvaged)",
+            "rarity": "Artifact",
+            "weight": 0.5,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "The mirror was used in the days of old to trap an immortal evil. Once the creature was captured, the heroes attempted to destroy the mirror to kill the creature, needles to say, they failed.",
+                "This item requires attunement, to attune to this item, you must speak the true name of the last creature you killed. When attuned, you gain the following:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "You gain a bonus +4 to your charisma to your modifier.",
+                        {
+                            "type": "entries",
+                            "name": "Scrying",
+                            "entries":
+                            [
+                                "Once per long rest, you may cast {@spell Scrying|PHB}"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries":
+                    [
+                        "This item is cursed. Upon attunement, you must look into the mirror at every dawn or take {@damage 12d10} magic damage. Every time you look into the mirror, you are shown how one of your friends or family member will die. The mirror however will sometimes show the truth or a false vision. At the end of every vision, you must make a Constitution saving throw (DC 19), if you fail, you take 3d10 psychic damage. The only way to unattune to this item is you must save someone from their deathly fate you have been shown."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Death's Whisper",
+                    "entries":
+                    [
+                        "This mirror is sentient with a trapped lesser demon."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Cloak of the Matador",
             "rarity": "Rare",
             "weight": 2,
@@ -2367,7 +2437,7 @@
                 "This dark, silky scarf moves slightly on its own in a breeze that no one can feel and absorb more light than it reflects.",
                 "The scarf has an extradimensional space within the folds of its fabric that can only be reached while it's worn. The space holds 60 pounds of material, not exceeding a volume of 6 cubic feet. The scarf always weighs 1 pound, regardless of its contents.",
                 "Despite being able to place items in the scarf, reaching back into it fails to return them to your grasp. The frayed ends of the scarf are actually wisp-like hands that slowly twist and curl on their own. While wearing the scarf, you can mentally command the hands as a bonus action to reach into the extradimensional space and retrieve a stored item.",
-                "Placing the scarf inside an extradimensional space created by a \"bag of holding\", \"portable hole\", or similar item instantly destroys both items and creates a singularity."
+                "Placing the scarf inside an extradimensional space created by a \"bag of holding\", \"portable hole\", or similar item instantly destroys both items and creates a singularity."
             ]
         },
         {
@@ -2396,24 +2466,24 @@
             "source": "Canbrew",
             "entries":
             [
-                "While you are attuned to the eye, once a day, you can cast see invisibility on yourself at will. You can choose to see through its magically enhanced lens using a bonus action.",
+                "While you are attuned to the eye, once a day, you can cast see invisibility on yourself at will. You can choose to see through its magically enhanced lens using a bonus action.",
                 "Looking through the eye grants you darkvision of up to 120 feet, and are able to peer through both magical and nonmagical darkness using it.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "When you attune to the Eye of the Fiendlord, you are suddenly overcome with the urge to see what it sees. Make a DC 20 Wisdom saving throw. On a success, you're able to resist the enchantment and are aware of the curse's effects, but are not attuned to it. On a failure, you forcefully tear out one of your own eyes, taking {@damage 4d6} necrotic damage, allowing the Eye of the Fiendlord to crawl into its place. If you are already missing an eye, you are simply compelled to allow the eye to crawl into the empty socket.",
-                        "You can see normally while the Eye of the Fiendlord remains in your socket, but you can choose to close your other eye to see through its magically enhanced lens using a bonus action. The eye moves slower than a normal eye, leaving slight trails and motion blurs behind it as you look through it. While looking only through the Eye of the Fiendlord, you have disadvantage on any attack you make as well as ability checks that rely on depth perception. You can open your other eye and regain your normal vision using another bonus action.",
+                        "When you attune to the Eye of the Fiendlord, you are suddenly overcome with the urge to see what it sees. Make a DC 20 Wisdom saving throw. On a success, you're able to resist the enchantment and are aware of the curse's effects, but are not attuned to it. On a failure, you forcefully tear out one of your own eyes, taking {@damage 4d6} necrotic damage, allowing the Eye of the Fiendlord to crawl into its place. If you are already missing an eye, you are simply compelled to allow the eye to crawl into the empty socket.",
+                        "You can see normally while the Eye of the Fiendlord remains in your socket, but you can choose to close your other eye to see through its magically enhanced lens using a bonus action. The eye moves slower than a normal eye, leaving slight trails and motion blurs behind it as you look through it. While looking only through the Eye of the Fiendlord, you have disadvantage on any attack you make as well as ability checks that rely on depth perception. You can open your other eye and regain your normal vision using another bonus action.",
                         {
                             "type": "entries",
                             "name": "Familiar",
                             "entries":
                             [
-                                "The eye is a gruesome familiar. As an action, you can command the eye to crawl out of its socket and move independently of you. Use the abilities described in the {@spell Find Familiar|PHB} spell when commanding the Eye of the Fiendlord. The eye has five hit points, an AC of 12, movement and climbing speed of 20 feet, does not require air to breathe and has a +6 bonus to Dexterity (Stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. If it was slain, you cannot use its magical sight or command it as a familiar again until the following dusk."
+                                "The eye is a gruesome familiar. As an action, you can command the eye to crawl out of its socket and move independently of you. Use the abilities described in the {@spell Find Familiar|PHB} spell when commanding the Eye of the Fiendlord. The eye has five hit points, an AC of 12, movement and climbing speed of 20 feet, does not require air to breathe and has a +6 bonus to Dexterity (Stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. If it was slain, you cannot use its magical sight or command it as a familiar again until the following dusk."
                             ]
                         },
-                        "Targeting the eye with the {@spell Remove Curse|PHB} spell or unattuning to it causes the eye to pull itself out of the socket and crawl away. Slaying the eye while it is unattuned to a creature destroys the item."
+                        "Targeting the eye with the {@spell Remove Curse|PHB} spell or unattuning to it causes the eye to pull itself out of the socket and crawl away. Slaying the eye while it is unattuned to a creature destroys the item."
                     ]
                 }
             ]
@@ -2427,10 +2497,16 @@
             "entries":
             [
                 "This tough dragon scale robe is miraculously insulated and comfortable. While wearing the robe, you gain the following benefits:",
-                "-You can withstand extreme temperatures without any additional protection.",
-                "-Your Constitution score increases by 2, to a maximum of 22.",
-                "-You have resistance to fire damage.",
-                "-You can walk on lava as if it were solid ground, without taking fire damage from it. Ending your turn on lava causes you to sink into it and take fire damage as normal.",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "You can withstand extreme temperatures without any additional protection.",
+                        "Your Constitution score increases by 2, to a maximum of 22.",
+                        "You have resistance to fire damage.",
+                        "You can walk on lava as if it were solid ground, without taking fire damage from it. Ending your turn on lava causes you to sink into it and take fire damage as normal."
+                    ]
+                },
                 "The hem of this robe glimmers with slowly shifting embers. While wearing this robe, your steps leave behind small motes of magical fire and scorched earth. The flames and marks left behind are harmless and disappear 1 second after they appear."
             ]
         },
@@ -2524,8 +2600,8 @@
             "entries":
             [
                 "This bronze clockwork mechanism is 2 inches long and has a glass vial under it. It whirs with the hum of tiny gears inside.",
-                "You can tap the head of the faefly twice as a bonus action. When you do, the mechanism flutters 5 feet in the air and emits the {@spell light|PHB} spell.",
-                "The faefly has AC 15 and 10 hit points and flies in this way until it falls to 0 hit points or another creature grasps it. If you move more than 3 feet from the hovering faefly, it follows you until it is within 3 feet of you.",
+                "You can tap the head of the faefly twice as a bonus action. When you do, the mechanism flutters 5 feet in the air and emits the {@spell light|PHB} spell.",
+                "The faefly has AC 15 and 10 hit points and flies in this way until it falls to 0 hit points or another creature grasps it. If you move more than 3 feet from the hovering faefly, it follows you until it is within 3 feet of you.",
                 "If the {@spell Mending|PHB} spell is cast on the faefly while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the faefly drops to 0 hit points, it can't be used again."
             ]
         },
@@ -2576,7 +2652,7 @@
         },
         {
             "name": "Opus of Poseidon",
-            "rarity": "Rare",
+            "rarity": "Legendary",
             "weight": 1,
             "charges": 8,
             "reqAttune": true,
@@ -2748,7 +2824,6 @@
         {
             "name": "Blood Pact Pendants",
             "rarity": "Rare",
-            "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew",
@@ -2835,9 +2910,15 @@
             [
                 "This book is written in elder language and belongs to an over eight thousand year lineage of Mage Guardians, magically enhanced Eldritch Knights, Magi. They have been accompanying archmages for generations. When there are no archmages to protect and serve, they are sent into hibernation. Only the aura of a powerful mage can wake them up.",
                 "The book has one purpose, passing ancestral knowledge and power of the guardians along. At least 14 Intelligence is required to understand it. Once you read this book, what you can make up of it grants you:",
-                "-1 cantrip, which you must choose from the abjuration or evocation schools",
-                "-Knowledge of Weapon Bond",
-                "-Ability to cast cantrips using bonus action if you used your action to attack with a two-handed melee weapon for that turn",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "A cantrip, which you must choose from the abjuration or evocation schools",
+                        "Knowledge of Weapon Bond",
+                        "Ability to cast cantrips using bonus action if you used your action to attack with a two-handed melee weapon for that turn"
+                    ]
+                },
                 "After reading, the writings will diminish for one hundred years."
             ]
         },
@@ -2855,6 +2936,17 @@
             [
                 "A contraption with a huge pearl on the right side and a hemisphere cavity on the left side. Between the two, numerous lenses and prisms are inlaid. The cavity is surfaced with polished adamantine. Whenever a magical item is brought close to the cavity, the pearl shines with the color of the specific magic school. The pearl's brightness points to the intensity of the magic.",
                 "You can expend a spell slot to infuse the machine with your magic to \"{@spell Identify|PHB}\" the item."
+            ]
+        },
+        {
+            "name": "Beggar's Delight",
+            "rarity": "Uncommon",
+            "weight": 0.05,
+            "source": "Canbrew",
+            "entries":
+            [
+                "Enchanted by a wizard who was sick of eating their spouse's cooking. This fork tingles in your hand when picked up.",
+                "When you use this fork to eat, yoy may think of any food begore taking a bite, the food on the fork takes the smell and tastes of what you are thinking of. Should the food on your fork have any poison in it, the fork magically melts in your hand."
             ]
         }
     ],
@@ -4244,6 +4336,13 @@
                     }
                 ]
             }
+        }
+    ],
+    "class":
+    [
+        {
+            "name": "Symbiot",
+            "source": "Canbrew"
         }
     ]
 }

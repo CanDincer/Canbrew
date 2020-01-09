@@ -1,2 +1,2 @@
 # Canbrew
-D&amp;D 5e Homebrew
+D&D 5e Homebrew
