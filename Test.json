@@ -4,8 +4,8 @@
         "sources":
         [
             {
-                "json": "Canbrew Items",
-                "abbreviation": "CB",
+                "json": "Canbrew Test",
+                "abbreviation": "CBT",
                 "full": "Testbrew",
                 "authors":
                 [
@@ -18,311 +18,165 @@
         ],
         "dateAdded": 0
     },
-    "item":
+    "race":
     [
         {
-            "name": "Ki-rin's Guidance",
-            "baseItem": "Longbow",
-            "type": "R",
-            "weaponCategory": "Martial",
-            "weight": 2,
-            "dmg1": "{@damage 4d6}",
-            "dmgType": "R",
-            "reqAttune": true,
-            "property":
+            "name": "Klyntar (Void)",
+            "source": "Canbrew",
+            "ability":
             [
-                "A",
-                "2H",
-                "H"
+                {
+                    "str": 2,
+                    "con": 2,
+                    "wis": -4
+                }
             ],
-            "range": "150/600",
-            "rarity": "Legendary",
-            "source": "Canbrew Items",
+            "size": "M",
+            "speed":
+            {
+                "walk": 30
+            },
+            "traitTags":
+            [
+                "Amorphous",
+                "Powerful Build",
+                "Unarmed Strike",
+                "Uncommon Race",
+                "Skill Proficiency",
+                "Monstrous Race"
+            ],
             "entries":
             [
-                "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. When you lunch an arrow from this weapon, the arrow transforms into a {@spell Guiding Bolt} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignores target's AC from dexterity modifier. When you attack a creature with the Ki-rin's Guidance and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
+                "Klyntar have the following racial traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries":
+                    [
+                        "Klyntar do not age. They leap from a host to another and can live for tens of thousands of years"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries":
+                    [
+                        "Each Klyntar has a different purpose like; world domination, species invaion, freeing Klyntar from Knull's dominion, or saving a race from total extinction. They range from lawful evil to chaotic good."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries":
+                    [
+                        "a Klyntar's size is dependent on their host. Your size is medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries":
+                    [
+                        "Accustomed to the lack of light in empty space, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Unique Physiology",
+                    "entries":
+                    [
+                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have. If you haven't used your movement for the turn, as an action, you can expend a hit die to recover hit points. After doing so, your speed is zero"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Augmented Muscles",
+                    "entries":
+                    [
+                        "Your fists are natural melee weapons, with witch you're proficient. If you hit with a fist, the target takes bludgeoning damage equal to {@damage 1d6} + your Strenght modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Enhanced Metabolism",
+                    "entries":
+                    [
+                        "You hae proficiency in the {@skill Athletics} skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Powerful Build",
+                    "entries":
+                    [
+                        "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Hybrid Nature",
+                    "entries":
+                    [
+                        "You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries":
+                    [
+                        "You can speak, read, and write Common and Abyssal."
+                    ]
+                }
             ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Spirit String Bow",
-            "baseItem": "Longbow",
-            "type": "R",
-            "weaponCategory": "Martial",
-            "weight": 2,
-            "dmg1": "{@damage 1d8}",
-            "dmgType": "O",
-            "reqAttune": true,
-            "property":
+            "fluff":
+            {
+                "entries":
+                [
+                    {
+                        "type": "quote",
+                        "entries":
+                        [
+                            "Though we are a benevolent species, there is no literature on my home planet. And though it is our goal to make the universe better, we create no art, no music, no culture. At least, not as other civilizations would understand it. All we have are our hosts -- the beings we join with -- to forge through the cold and unforgiving cosmos with. The bond between a Klyntar and its host is sacred. They give our lives context and our existence meaning. They give us history. All we have are our hosts to tell us who we are."
+                        ],
+                        "by": "Darkness"
+                    },
+                    "Klyntar are a species of inorganic, amorphous, symbiotic extraterrestrials created from the \"living abyss\" at the beginning of the universe by the primordial deity Knull, who manifested a sword of living darkness called All-Black from his shadow to slaughter the Celestials and other deities.",
+                    {
+                        "name": "True Form",
+                        "entries":
+                        [
+                            "You are a black goo and you can saheshift yourself to mimic medium objects. When attached to a host, you can make yourself look like common clothes at will while you're out of combat. In combat, you refer to yourself in a plural manner."
+                        ]
+                    },
+                    {
+                        "name": "Klyntar Names",
+                        "entries":
+                        [
+                            "Most Klyntars have unpronouncable names. So, they take nick names instead.",
+                            {
+                                "entries":
+                                [
+                                    {
+                                        "name": "Nicknames",
+                                        "entries":
+                                        [
+                                            "Spasm, Hook, Rash, Ghost, Limit, Coil, Fang, Mold, Deceit, Rot, Pulse, Havoc, Shade, Fume, Torment, Whip, Judgement, Sidestep, Spark, Phase, Feedback, Blight, Twitch, Quicksand, Regret."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "languageProficiencies":
             [
-                "A",
-                "H",
-                "2H"
-             ],
-            "range": "150/600",
-            "rarity": "Legendary",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "When the string is pulled an ethereal arrow forms. The arrows are considered magical weapons in terms of resistance. You can fire twice every time you attack as you don't have to spend time to get an arrow from your quiver."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Razorwind",
-            "baseItem": "Longbow",
-            "type": "R",
-            "weaponCategory": "Martial",
-            "weight": 2,
-            "dmg1": "{@damage 1d8}",
-            "dmgType": "P",
-            "reqAttune": true,
-            "property":
-            [
-                "A",
-                "H",
-                "2H"
-            ],
-            "range": "150/600",
-            "rarity": "Uncommon",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "Causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@damage 1d6} slashing damage and on a critical roll, causes the target to bleed for {@damage 1d4} damage per turn until it succeeds a DC equal to your Strength modifier +10 Constitution saving throw repeated at the end of its turn."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Rifling Bow",
-            "baseItem": "Longbow",
-            "type": "R",
-            "weaponCategory": "Martial",
-            "weight": 2,
-            "dmg1": "{@damage 1d8}",
-            "dmgType": "P",
-            "reqAttune": true,
-            "property":
-            [
-                "A",
-                "H",
-                "2H"
-            ],
-            "range": "150/600",
-            "rarity": "2 Rare",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "The bow has protrusions on its arrow rest. When released, an arrow starts to spin fast. If you hit, creatures directly behind are hit, if your attack roll surpasses their AC, until a creature's AC from armor stops it."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Bastilla",
-            "baseItem": "Heavy Crossbow",
-            "type": "R",
-            "weaponCategory": "Martial",
-            "weight": 18,
-            "dmg1": "{@damage 1d10}",
-            "dmgType": "P",
-            "reqAttune": true,
-            "property":
-            [
-                "A",
-                "H",
-                "2H",
-                "LD"
-            ],
-            "range": "100/400",
-            "rarity": "Common",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack rolls. You can either deploy the Bastilla on a half cover sized object, or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack rolls have -3 while moving with the stand out."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Rich Man's Crossbow",
-            "baseItem": "Heavy Crossbow",
-            "type": "R",
-            "weaponCategory": "Martial",
-            "weight": 18,
-            "dmg1": "{@damage 1d10}",
-            "dmgType": "P",
-            "reqAttune": true,
-            "property":
-            [
-                "A",
-                "H",
-                "2H",
-                "LD"
-            ],
-            "range": "100/400",
-            "rarity": "Uncommon",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "This crossbow-like weapon uses pieces of currency as ammunition. The value of the coins themselves has an effect on the damage output as well. Coins fired this way are destroyed. cp {@damage 1d10} piercing, sp {@damage 1d10} piercing (silvered), gp {@damage 2d6} piercing + {@damage 1d4} radiant, ep {@damage 2d6} lightning + {@damage 1d6} piercing"
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Betrayer's Blade",
-            "baseItem": "Dagger",
-            "type": "M",
-            "weaponCategory": "Simple",
-            "weight": 1,
-            "dmg1": "{@damage 1d4}",
-            "dmgType": "P",
-            "reqAttune": true,
-            "property":
-            [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "rarity": "Uncommon",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "A small dagger with a jagged black blade. You have proficiency(expertise if you're already proficient) on any stealth/sleight of hand check to hide it, and get a surprise round when attacking any non-hostile character. The location of this dagger is currently unknown, but it is being sought in connection with the murder of a Count. If you have any information regarding its whereabouts, report to your nearest guard post for a reward of 20 gold pieces."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Poisoner's Needle",
-            "baseItem": "Dagger",
-            "type": "M",
-            "weaponCategory": "Simple",
-            "weight": 1,
-            "dmg1": "{@damage 1d4}",
-            "dmgType": "P",
-            "reqAttune": true,
-            "property":
-            [
-                "F",
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "rarity": "Uncommon",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "A dagger, has a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object action. Creature must make a DC 10 Constitution saving throw or take {@damage 1d4} poison damage. Once applied, the poison retains potency for 1 minute before drying."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Lightning Storm Gauntlet",
-            "baseItem": "Gauntlet",
-            "type": "M",
-            "weaponCategory": "Simple",
-            "weight": 1,
-            "dmg1": "{@damage 1d8}",
-            "dmgType": "L",
-            "reqAttune": true,
-            "property":
-            [
-                "F",
-                "L",
-                "LD"
-            ],
-            "rarity": "Uncommon",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell Shocking Grasp}."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Giant Axe",
-            "baseItem": "Greataxe",
-            "type": "M",
-            "weaponCategory": "Martial",
-            "weight": 12,
-            "dmg1": "{@damage 1d20}",
-            "dmgType": "S",
-            "reqAttune": true,
-            "property":
-            [
-                "H",
-                "2H"
-            ],
-            "rarity": "Uncommon",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. Minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than medium, you only get -3 penalty."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Morningstar of the Dawn",
-            "baseItem": "Morningstar",
-            "type": "M",
-            "weaponCategory": "Martial",
-            "weight": 4,
-            "dmg1": "{@damage 1d8}",
-            "dmgType": "P",
-            "reqAttune": true,
-            "rarity": "Rare",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "Can cast Searing Smite a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "The Great Annihilator's Fang",
-            "baseItem": "Dagger",
-            "type": "M",
-            "weaponCategory": "Simple",
-            "weight": 1,
-            "dmg1": "{@damage 1d4}",
-            "dmgType": "O",
-            "reqAttune": true,
-            "property":
-            [
-                "L",
-                "T",
-                "F"
-          ],
-            "range": "20/60",
-            "rarity": "Artifact",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "A very large fang with a slight curve. In darkness, you can see shadows bend towards it. You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls. If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang then grants you an extra action which you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand. Curse: It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
-            ],
-            "bonus": "+0"
-        },
-        {
-            "name": "Chained Axe",
-            "baseItem": "Handaxe",
-            "type": "M",
-            "weaponCategory": "Simple",
-            "weight": 2,
-            "dmg1": "{@damage 1d6}",
-            "dmgType": "S",
-            "reqAttune": true,
-            "charges": 5,
-            "property":
-            [
-                "L",
-                "T"
-            ],
-            "range": "20/60",
-            "rarity": "Uncommon",
-            "source": "Canbrew Items",
-            "entries":
-            [
-                "It is chained to your wrist and cannot be disarmed, but it takes an action to stow. Can cast Ensnaring Strike a number of times equal to your proficiency, with chains bursting from the ground to imprison your enemy. Recharges {@dice 1d6} per day."
-            ],
-            "bonus": "+0"
+                {
+                    "common": true,
+                    "abyssal": true
+                }
+            ]
         }
     ]
 }

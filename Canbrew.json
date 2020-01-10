@@ -4337,12 +4337,5 @@
                 ]
             }
         }
-    ],
-    "class":
-    [
-        {
-            "name": "Symbiot",
-            "source": "Canbrew"
-        }
     ]
 }
