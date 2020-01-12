@@ -2334,18 +2334,19 @@
             ]
         },
         {
-            "name": "Chalice of Hestia",
+            "name": "Chalice of Hestia (ogd, needs spell attack +1)",
             "rarity": "Rare",
             "weight": 0.5,
             "reqAttune": true,
             "bonus": "+2",
+            "staff": true,
             "source": "Canbrew",
             "entries":
             [
                 "Whitish gold chalice inlaid with red gems. Red gems are carved to resemble flames.",
                 "The chalice imprints on you. It only works while you are holding it.",
                 "Whatever liquid you fill it with turns into wine. If you sing love songs or read love poems to it while filling it, the quality of the wine increases. While you drink from the chalice, you can taste her lips. If you go to bed drunk with the wine, you see Hestia in your dreams.",
-                "You have +2 bonus to your spell attacks",
+                "You have +2 bonus to your spell attacks.",
                 {
                     "type": "entries",
                     "name": "Curse",
