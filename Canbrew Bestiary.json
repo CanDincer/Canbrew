@@ -162,6 +162,138 @@
             }
         },
         {
+            "name": "Goblin Shaman",
+            "size": "S",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "goblinoid"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                10
+            ],
+            "hp":
+            {
+                "average": 35,
+                "formula": "10d6"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 8,
+            "dex": 13,
+            "con": 10,
+            "int": 12,
+            "wis": 11,
+            "cha": 14,
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "languages":
+            [
+                "Common",
+                "Goblin"
+            ],
+            "cr": "1",
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The Goblin Shaman is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The Goblin Shaman has the following warlock spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell Chill Touch|PHB}",
+                                "{@spell Blade Ward|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "lower": 1,
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell Hex|PHB}",
+                                "{@spell Armor of Agathys|PHB}",
+                                "{@spell Misty Step|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Dagger",
+                    "entries":
+                    [
+                        "{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Boss"
+            ],
+            "languageTags":
+            [
+                "C",
+                "GO"
+            ],
+            "spellcastingTags":
+            [
+                "CL"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/KkIc7qi.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/f1G1Ig1.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "name": "Ulx",
             "size": "S",
             "type":
@@ -173,7 +305,8 @@
                 ]
             },
             "source": "Canbrew",
-            "alignment": [
+            "alignment":
+            [
                 "N",
                 "E"
             ],
@@ -249,6 +382,11 @@
             [
                 "Boss"
             ],
+            "languageTags":
+            [
+                "C",
+                "GO"
+            ],
             "senseTags":
             [
                 "D"
@@ -260,6 +398,10 @@
             "miscTags":
             [
                 "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/OS1l3LY.png",
             "fluff":
@@ -393,14 +535,14 @@
                     "name": "Summon (2/day) (Cursed Tree only)",
                     "entries":
                     [
-                        "The Cursed Tree summons [[1d2+1]] Vine Blights."
+                        "The Cursed Tree summons [[{@dice 1d2+1}]] Vine Blights."
                     ]
                 },
                 {
                     "name": "Summon (2/day) (Rot Tree only)",
                     "entries":
                     [
-                        "The Cursed Tree summons [[1d2+1]] Needle Blights."
+                        "The Cursed Tree summons [[{@dice 1d2+1}]] Needle Blights."
                     ]
                 }
             ],
@@ -418,6 +560,10 @@
             [
                 "MW",
                 "RCH"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/1MsDa1F.png",
             "fluff":
@@ -452,8 +598,7 @@
             }
         },
         {
-            "name": "Maul Darkmane",
-            "group": "Lycanthropes",
+            "name": "Werewolf ALpha",
             "size": "M",
             "type":
             {
@@ -467,7 +612,7 @@
             "source": "Canbrew",
             "alignment":
             [
-                "C",
+                "N",
                 "E"
             ],
             "ac":
@@ -543,28 +688,28 @@
                     "name": "Shapechanger",
                     "entries":
                     [
-                        "Maul Darkmane can use its action to polymorph into a wolf-humanoid hybrid or a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                        "Werewolf ALpha can use its action to polymorph into a wolf-humanoid hybrid or a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
                     ]
                 },
                 {
                     "name": "Legendary Resistance (3/Day)",
                     "entries":
                     [
-                        "If Maul Darkmane fails a saving throw, it can choose to succeed instead."
+                        "If the Werewolf ALpha fails a saving throw, it can choose to succeed instead."
                     ]
                 },
                 {
                     "name": "Keen Hearing and Smell",
                     "entries":
                     [
-                        "Maul Darkmane has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                        "The Werewolf ALpha has advantage on Wisdom (Perception) checks that rely on hearing or smell."
                     ]
                 },
                 {
                     "name": "Pack Leader",
                     "entries":
                     [
-                        "Maul Darkmane's allies have advantage on melee attack rolls against any hostile creature within 5 feet of Maul Darkmane."
+                        "The Werewolf ALpha's allies have advantage on melee attack rolls against any hostile creature within 5 feet of the Werewolf ALpha."
                     ]
                 }
             ],
@@ -574,7 +719,7 @@
                     "name": "Multiattack (Hybrid Form Only)",
                     "entries":
                     [
-                        "Maul Darkmane makes three attacks: one with its bite and two with its claws."
+                        "The Werewolf ALpha makes three attacks: one with its bite and two with its claws."
                     ]
                 },
                 {
@@ -594,7 +739,7 @@
             ],
             "legendaryGroup":
             {
-                "name": "Maul Darkmane"
+                "name": "Werewolf ALpha"
             },
             "legendary":
             [
@@ -602,21 +747,21 @@
                     "name": "Leap",
                     "entries":
                     [
-                        "Maul Darkmane moves up to its speed without provoking opportunity attacks."
+                        "The Werewolf ALpha moves up to its speed without provoking opportunity attacks."
                     ]
                 },
                 {
                     "name": "Bark Orders",
                     "entries":
                     [
-                        "Maul Darkmane chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
+                        "The Werewolf ALpha chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
                     ]
                 },
                 {
                     "name": "Frenzy (Costs 2 Actions)",
                     "entries":
                     [
-                        "Maul Darkmane can make one claw attack against each creature within 5 feet of it."
+                        "The Werewolf ALpha can make one claw attack against each creature within 5 feet of it."
                     ]
                 }
             ],
@@ -624,7 +769,8 @@
             [
                 "Boss",
                 "Shapechanger",
-                "Keen Senses"
+                "Keen Senses",
+                "Legendary Resistances"
             ],
             "languageTags":
             [
@@ -638,6 +784,10 @@
             "miscTags":
             [
                 "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/c3CT1sv.png",
             "fluff":
@@ -656,8 +806,7 @@
             }
         },
         {
-            "name": "Mongolian Pirate Hunter (od)",
-            "group": "humanoid",
+            "name": "Mongolian Pirate Hunter",
             "size": "M",
             "type":
             {
@@ -675,158 +824,79 @@
             "ac":
             [
                 {
-                    "ac": 12,
-                    "condition": "in humanoid form"
-                },
-                {
-                    "ac": 16,
+                    "ac": 13,
                     "from":
                     [
-                        "natural armor"
-                    ],
-                    "condition": "in hybrid form"
+                        "{@item Studded Leather Armor|phb}"
+                    ]
                 }
             ],
             "hp":
             {
-                "average": 119,
-                "formula": "14d8 + 56"
+                "average": 26,
+                "formula": "4d8 + 8"
             },
             "speed":
             {
                 "walk": 30
             },
-            "str": 20,
-            "dex": 15,
-            "con": 18,
+            "str": 14,
+            "dex": 12,
+            "con": 14,
             "int": 11,
-            "wis": 14,
-            "cha": 15,
-            "save":
-            {
-                "dex": "+9",
-                "con": "+8",
-                "wis": "+6"
-            },
+            "wis": 10,
+            "cha": 13,
             "skill":
             {
-                "acrobatics": "+9",
-                "perception": "+6"
+                "athletics": "+4",
+                "intimidation": "+3"
             },
-            "immune":
-            [
-                {
-                    "immune":
-                    [
-                        "bludgeoning",
-                        "piercing",
-                        "slashing"
-                    ],
-                    "note": "from nonmagical attacks that aren't silvered"
-                }
-            ],
-            "conditionImmune":
-            [
-                "prone"
-            ],
-            "senses":
-            [
-                "darkvision 60 ft."
-            ],
-            "passive": 16,
+            "passive": 10,
             "languages":
             [
                 "Common"
             ],
-            "cr": "9",
+            "cr": "1",
             "trait":
             [
                 {
-                    "name": "Shapechanger",
+                    "name": "Flourish",
                     "entries":
                     [
-                        "Maul Darkmane can use its action to polymorph into a wolf-humanoid hybrid or a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                        "The Mongolian Pirate Hunter adds their Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
                     ]
                 },
                 {
-                    "name": "Legendary Resistance (3/Day)",
+                    "name": "Sea Legs",
                     "entries":
                     [
-                        "If Maul Darkmane fails a saving throw, it can choose to succeed instead."
-                    ]
-                },
-                {
-                    "name": "Keen Hearing and Smell",
-                    "entries":
-                    [
-                        "Maul Darkmane has advantage on Wisdom (Perception) checks that rely on hearing or smell."
-                    ]
-                },
-                {
-                    "name": "Pack Leader",
-                    "entries":
-                    [
-                        "Maul Darkmane's allies have advantage on melee attack rolls against any hostile creature within 5 feet of Maul Darkmane."
+                        "The Mongolian Pirate Hunter has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "Multiattack (Hybrid Form Only)",
+                    "name": "Multiattack",
                     "entries":
                     [
-                        "Maul Darkmane makes three attacks: one with its bite and two with its claws."
+                        "The Mongolian Pirate Hunter makes two attacks with their Scimitar or two attacks with their Shortbow."
                     ]
                 },
                 {
-                    "name": "Bite (Wolf or Hybrid Form Only)",
+                    "name": "Scimitar",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
                     ]
                 },
                 {
-                    "name": "Claws (Wolf or Hybrid Form Only)",
+                    "name": "Shortbow",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
                     ]
                 }
-            ],
-            "legendaryGroup":
-            {
-                "name": "Maul Darkmane"
-            },
-            "legendary":
-            [
-                {
-                    "name": "Leap",
-                    "entries":
-                    [
-                        "Maul Darkmane moves up to its speed without provoking opportunity attacks."
-                    ]
-                },
-                {
-                    "name": "Bark Orders",
-                    "entries":
-                    [
-                        "Maul Darkmane chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
-                    ]
-                },
-                {
-                    "name": "Frenzy (Costs 2 Actions)",
-                    "entries":
-                    [
-                        "Maul Darkmane can make one claw attack against each creature within 5 feet of it."
-                    ]
-                }
-            ],
-            "traitTags":
-            [
-                "Boss",
-                "Shapechanger",
-                "Keen Senses"
             ],
             "languageTags":
             [
@@ -839,7 +909,12 @@
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "RW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/2sgl2u8.png",
             "fluff":
@@ -858,8 +933,7 @@
             }
         },
         {
-            "name": "Mongolian Pirate Hunter Shaman (od)",
-            "group": "humanoid",
+            "name": "Mongolian Pirate Hunter Shaman",
             "size": "M",
             "type":
             {
@@ -872,172 +946,160 @@
             "source": "Canbrew",
             "alignment":
             [
-                "N"
+                "N",
+                "G"
             ],
             "ac":
             [
                 {
-                    "ac": 12,
-                    "condition": "in humanoid form"
+                    "ac": 13,
+                    "from":
+                    [
+                        "{@item Studded Leather Armor|PHB}"
+                    ]
                 },
                 {
                     "ac": 16,
-                    "from":
-                    [
-                        "natural armor"
-                    ],
-                    "condition": "in hybrid form"
+                    "condition": "with {@spell Barkskin|PHB}",
+                    "braces": true
                 }
             ],
             "hp":
             {
-                "average": 119,
-                "formula": "14d8 + 56"
+                "average": 37,
+                "formula": "5d8 + 15"
             },
             "speed":
             {
                 "walk": 30
             },
-            "str": 20,
-            "dex": 15,
-            "con": 18,
-            "int": 11,
-            "wis": 14,
-            "cha": 15,
-            "save":
-            {
-                "dex": "+9",
-                "con": "+8",
-                "wis": "+6"
-            },
+            "str": 12,
+            "dex": 14,
+            "con": 16,
+            "int": 13,
+            "wis": 16,
+            "cha": 11,
             "skill":
             {
-                "acrobatics": "+9",
-                "perception": "+6"
+                "arcana": "+3",
+                "medicine": "+5",
+                "nature": "+4"
             },
-            "immune":
-            [
-                {
-                    "immune":
-                    [
-                        "bludgeoning",
-                        "piercing",
-                        "slashing"
-                    ],
-                    "note": "from nonmagical attacks that aren't silvered"
-                }
-            ],
-            "conditionImmune":
-            [
-                "prone"
-            ],
-            "senses":
-            [
-                "darkvision 60 ft."
-            ],
-            "passive": 16,
+            "passive": 13,
             "languages":
             [
-                "Common"
+                "Common",
+                "Druidic"
             ],
-            "cr": "9",
+            "cr": "3",
             "trait":
             [
                 {
-                    "name": "Shapechanger",
+                    "name": "Flourish",
                     "entries":
                     [
-                        "Maul Darkmane can use its action to polymorph into a wolf-humanoid hybrid or a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                        "The Mongolian Pirate Hunter Shaman adds their Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
                     ]
                 },
                 {
-                    "name": "Legendary Resistance (3/Day)",
+                    "name": "Sea Legs",
                     "entries":
                     [
-                        "If Maul Darkmane fails a saving throw, it can choose to succeed instead."
-                    ]
-                },
-                {
-                    "name": "Keen Hearing and Smell",
-                    "entries":
-                    [
-                        "Maul Darkmane has advantage on Wisdom (Perception) checks that rely on hearing or smell."
-                    ]
-                },
-                {
-                    "name": "Pack Leader",
-                    "entries":
-                    [
-                        "Maul Darkmane's allies have advantage on melee attack rolls against any hostile creature within 5 feet of Maul Darkmane."
+                        "The Mongolian Pirate Hunter Shaman has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "Multiattack (Hybrid Form Only)",
+                    "name": "Quarterstaff",
                     "entries":
                     [
-                        "Maul Darkmane makes three attacks: one with its bite and two with its claws."
+                        "{@atk mw} {@hit 3} to hit ({@hit 5} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage with {@spell Shillelagh|PHB} or if wielded with two hands."
                     ]
                 },
                 {
-                    "name": "Bite (Wolf or Hybrid Form Only)",
+                    "name": "Scimitar",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
-                    ]
-                },
-                {
-                    "name": "Claws (Wolf or Hybrid Form Only)",
-                    "entries":
-                    [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d6 + 7}) slashing damage."
                     ]
                 }
             ],
-            "legendaryGroup":
-            {
-                "name": "Maul Darkmane"
-            },
-            "legendary":
+            "spellcasting":
             [
                 {
-                    "name": "Leap",
-                    "entries":
+                    "name": "Spellcasting",
+                    "headerEntries":
                     [
-                        "Maul Darkmane moves up to its speed without provoking opportunity attacks."
-                    ]
-                },
-                {
-                    "name": "Bark Orders",
-                    "entries":
-                    [
-                        "Maul Darkmane chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
-                    ]
-                },
-                {
-                    "name": "Frenzy (Costs 2 Actions)",
-                    "entries":
-                    [
-                        "Maul Darkmane can make one claw attack against each creature within 5 feet of it."
-                    ]
+                        "The Mongolian Pirate Hunter Shaman is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 6} to hit with spell attacks). The Mongolian pirate Hunter Shaman has the following druid spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell Druidcraft|PHB}",
+                                "{@spell Shillelaghe|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell Entangle|PHB}",
+                                "{@spell Goodberry|PHB}",
+                                "{@spell Speak With Animals|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Lesser Restoration|PHB}",
+                                "{@spell Barkskin|PHB}",
+                                "{@spell Healing Spirit|XGE}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Conjure Animals|PHB}",
+                                "{@spell Tidal Wave|XGE}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell Conjure Minor Elementals|PHB}",
+                                "{@spell Control Water|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "wis",
+                    "type": "spellcasting"
                 }
             ],
-            "traitTags":
+            "spellcastingTags":
             [
-                "Boss",
-                "Shapechanger",
-                "Keen Senses"
+                "CD"
             ],
             "languageTags":
             [
-                "C"
+                "C",
+                "DU"
             ],
             "damageTags":
             [
                 "S",
-                "P"
+                "B"
             ],
             "miscTags":
             [
@@ -1110,11 +1172,6 @@
                 "Common"
             ],
             "cr": "3",
-            "passive": 10,
-            "languages":
-            [
-                "Common"
-            ],
             "action":
             [
                 {
@@ -1166,8 +1223,7 @@
             }
         },
         {
-            "name": "Mongolian Pirate Hunter Captain (od)",
-            "group": "humanoid",
+            "name": "Mongolian Pirate Hunter Captain",
             "size": "M",
             "type":
             {
@@ -1299,6 +1355,10 @@
             [
                 "MW",
                 "RW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/U386svi.png",
             "fluff":
@@ -1486,65 +1546,1610 @@
             }
         },
         {
-            "name": "Atlantis Guardian (od)",
-            "group": "humanoid",
-            "size": "M",
+            "name": "Sir James Bravebark",
+            "size": "T",
             "type":
             {
-                "type": "humanoid",
+                "type": "beast",
                 "tags":
                 [
-                    "human"
+                    "squirrelfolk"
                 ]
             },
             "source": "Canbrew",
             "alignment":
             [
+                "L",
+                "G"
+            ],
+            "ac":
+            [
+                20
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "3d4 - 3"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 3,
+            "dex": 26,
+            "con": 6,
+            "int": 10,
+            "wis": 12,
+            "cha": 8,
+            "save":
+            {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "skill":
+            {
+                "animal handling": "+3",
+                "medicine": "+2",
+                "nature": "+6",
+                "perception": "+4",
+                "sleight of hand": "+4",
+                "stealth": "+8",
+                "survival": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "resist":
+            [
+                "poison"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Common",
+                "Druidic",
+                "Squirrel"
+            ],
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Avoidance",
+                    "entries":
+                    [
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Nimble Escape",
+                    "entries":
+                    [
+                        "The squirrel can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Superior Stealth",
+                    "entries":
+                    [
+                        "While in forestry, the squirrel can stay hidden while moving."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1 + 8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tinysword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d2 + 8}) piercing damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DU"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/3yJ4OG7.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "'Tis but a scratch!"
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/NyIpNMa.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Lady Aluna Flufftail",
+            "size": "T",
+            "type":
+            {
+                "type": "beast",
+                "tags":
+                [
+                    "squirrelfolk"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "G"
+            ],
+            "ac":
+            [
+                20
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "3d4 - 3"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 3,
+            "dex": 26,
+            "con": 6,
+            "int": 10,
+            "wis": 12,
+            "cha": 8,
+            "save":
+            {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "skill":
+            {
+                "animal handling": "+3",
+                "medicine": "+2",
+                "nature": "+6",
+                "perception": "+4",
+                "sleight of hand": "+4",
+                "stealth": "+8",
+                "survival": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "resist":
+            [
+                "poison"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Common",
+                "Druidic",
+                "Squirrel"
+            ],
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Avoidance",
+                    "entries":
+                    [
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Nimble Escape",
+                    "entries":
+                    [
+                        "The squirrel can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Superior Stealth",
+                    "entries":
+                    [
+                        "While in forestry, the squirrel can stay hidden while moving."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1 + 8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tinysword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d2 + 8}) piercing damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DU"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/SQUB4QN.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/sR2jd8T.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "William Branchstrider",
+            "size": "T",
+            "type":
+            {
+                "type": "beast",
+                "tags":
+                [
+                    "squirrelfolk"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "G"
+            ],
+            "ac":
+            [
+                20
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "3d4 - 3"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "climb": 20
+            },
+            "str": 3,
+            "dex": 26,
+            "con": 6,
+            "int": 10,
+            "wis": 12,
+            "cha": 8,
+            "save":
+            {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "skill":
+            {
+                "animal handling": "+3",
+                "medicine": "+2",
+                "nature": "+6",
+                "perception": "+4",
+                "sleight of hand": "+4",
+                "stealth": "+8",
+                "survival": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "resist":
+            [
+                "poison"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Common",
+                "Druidic",
+                "Squirrel"
+            ],
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Avoidance",
+                    "entries":
+                    [
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Nimble Escape",
+                    "entries":
+                    [
+                        "The squirrel can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Superior Stealth",
+                    "entries":
+                    [
+                        "While in forestry, the squirrel can stay hidden while moving."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1 + 8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tinyaxe",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d2 + 8}) slashing damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DU"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "P",
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/e0GSgZY.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/CkiVr5g.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Russle Quickbottom",
+            "size": "T",
+            "type":
+            {
+                "type": "beast",
+                "tags":
+                [
+                    "squirrelfolk"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "C",
+                "G"
+            ],
+            "ac":
+            [
+                20
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "3d4 - 3"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 3,
+            "dex": 26,
+            "con": 6,
+            "int": 10,
+            "wis": 12,
+            "cha": 8,
+            "save":
+            {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "skill":
+            {
+                "animal handling": "+3",
+                "medicine": "+2",
+                "nature": "+6",
+                "perception": "+4",
+                "sleight of hand": "+4",
+                "stealth": "+8",
+                "survival": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "resist":
+            [
+                "poison"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Common",
+                "Druidic",
+                "Squirrel"
+            ],
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Avoidance",
+                    "entries":
+                    [
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Nimble Escape",
+                    "entries":
+                    [
+                        "The squirrel can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Superior Stealth",
+                    "entries":
+                    [
+                        "While in forestry, the squirrel can stay hidden while moving."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "Valnan Nutcrawler makes one attack with its Bite or two attacks with its Tinydagger."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1 + 8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tinydagger",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d2 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DU"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/FUa6h3J.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/bIdLaIm.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Cedric Divineroot",
+            "size": "T",
+            "type":
+            {
+                "type": "beast",
+                "tags":
+                [
+                    "squirrelfolk"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "G"
+            ],
+            "ac":
+            [
+                20
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "3d4 - 3"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 3,
+            "dex": 26,
+            "con": 6,
+            "int": 10,
+            "wis": 18,
+            "cha": 6,
+            "save":
+            {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "skill":
+            {
+                "animal handling": "+3",
+                "medicine": "+2",
+                "nature": "+6",
+                "perception": "+4",
+                "sleight of hand": "+4",
+                "stealth": "+8",
+                "survival": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "resist":
+            [
+                "poison"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Common",
+                "Druidic",
+                "Squirrel"
+            ],
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Avoidance",
+                    "entries":
+                    [
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Nimble Escape",
+                    "entries":
+                    [
+                        "The squirrel can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Superior Stealth",
+                    "entries":
+                    [
+                        "While in forestry, the squirrel can stay hidden while moving."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1 + 8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tinysword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d2 + 8}) piercing damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "Cedric Divineroot is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Cedric Divineroot has the following cleric spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell Light|PHB}",
+                                "{@spell Sacred Flame|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell Cure Wounds|PHB}",
+                                "{@spell Sanctuary|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Lesser Restoration|PHB}",
+                                "{@spell Detect Magic|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Dispel Magic|PHB}",
+                                "{@spell Spirit Guardians|PHB}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell Banishment|PHB}",
+                                "{@spell Guardian of Faith|PHB}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell Greater Restoration|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "wis",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DU"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "spellcastingTags":
+            [
+                "CC"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/PUeNDmx.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/D0um6xG.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Fred Ticklestraw",
+            "size": "T",
+            "type":
+            {
+                "type": "beast",
+                "tags":
+                [
+                    "squirrelfolk"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "C",
+                "G"
+            ],
+            "ac":
+            [
+                20
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "3d4 - 3"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 3,
+            "dex": 26,
+            "con": 6,
+            "int": 10,
+            "wis": 8,
+            "cha": 16,
+            "save":
+            {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "skill":
+            {
+                "animal handling": "+3",
+                "medicine": "+2",
+                "nature": "+6",
+                "perception": "+4",
+                "sleight of hand": "+4",
+                "stealth": "+8",
+                "survival": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "resist":
+            [
+                "poison"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Common",
+                "Druidic",
+                "Squirrel"
+            ],
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Avoidance",
+                    "entries":
+                    [
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Nimble Escape",
+                    "entries":
+                    [
+                        "The squirrel can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Superior Stealth",
+                    "entries":
+                    [
+                        "While in forestry, the squirrel can stay hidden while moving."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1 + 8}) piercing damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "Fred Ticklestraw is a 9th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Fred Ticklestraw has the following bard spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell Vicious Mockery|PHB}",
+                                "{@spell Friends|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell Healing Word|PHB}",
+                                "{@spell Heroism|PHB}",
+                                "{@spell Shield|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Pyrotechnics|XGE}",
+                                "{@spell Suggestion|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Leomund's Tiny Hut|PHB}",
+                                "{@spell Motivational Speech|PHB}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell Dimension Door|PHB}",
+                                "{@spell Polymorph|PHB}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell Animate Objects|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DU"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "spellcastingTags":
+            [
+                "CB"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/Mig14up.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/OolXVSk.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Trish Nutcrawler",
+            "size": "T",
+            "type":
+            {
+                "type": "beast",
+                "tags":
+                [
+                    "squirrelfolk"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                20
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "3d4 - 3"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 3,
+            "dex": 26,
+            "con": 6,
+            "int": 10,
+            "wis": 8,
+            "cha": 16,
+            "save":
+            {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "skill":
+            {
+                "animal handling": "+3",
+                "medicine": "+2",
+                "nature": "+6",
+                "perception": "+4",
+                "sleight of hand": "+4",
+                "stealth": "+8",
+                "survival": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "resist":
+            [
+                "poison"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Common",
+                "Druidic",
+                "Squirrel"
+            ],
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Avoidance",
+                    "entries":
+                    [
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Nimble Escape",
+                    "entries":
+                    [
+                        "The squirrel can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Superior Stealth",
+                    "entries":
+                    [
+                        "While in forestry, the squirrel can stay hidden while moving."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1 + 8}) piercing damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "Trish Nutcrawler is a 9th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Trish Nutcrawler has the following warlock spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell Chill Touch|PHB}",
+                                "{@spell Eldritch Blast|PHB}",
+                                "{@spell Mage Hand|PHB}"
+                            ]
+                        },
+                        "5":
+                        {
+                            "lower": 1,
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell Conjure Animals|PHB} (spiders only)",
+                                "{@spell Dimension Door|PHB}",
+                                "{@spell Invisibility|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DU"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "spellcastingTags":
+            [
+                "CL"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/D9JC2gP.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Z8DW8di.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "George Cuddlebelly",
+            "size": "T",
+            "type":
+            {
+                "type": "beast",
+                "tags":
+                [
+                    "squirrelfolk"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                20
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "3d4 - 3"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 3,
+            "dex": 26,
+            "con": 6,
+            "int": 16,
+            "wis": 10,
+            "cha": 8,
+            "save":
+            {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "skill":
+            {
+                "animal handling": "+3",
+                "medicine": "+2",
+                "nature": "+6",
+                "perception": "+4",
+                "sleight of hand": "+4",
+                "stealth": "+8",
+                "survival": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "resist":
+            [
+                "poison"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Common",
+                "Druidic",
+                "Squirrel"
+            ],
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Avoidance",
+                    "entries":
+                    [
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Nimble Escape",
+                    "entries":
+                    [
+                        "The squirrel can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Superior Stealth",
+                    "entries":
+                    [
+                        "While in forestry, the squirrel can stay hidden while moving."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1 + 8}) piercing damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "George Cuddlebelly is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). George Cuddlebelly has the following wizard spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell Fire Bolt|PHB}",
+                                "{@spell Prestidigitation|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell Mage Armor|PHB}",
+                                "{@spell Magic Missile|PHB}",
+                                "{@spell Shield|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Detect Thoughts|PHB}",
+                                "{@spell Misty Step|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Counterspell|PHB}",
+                                "{@spell Fireball|PHB}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell Stoneskin|PHB}",
+                                "{@spell Polymorph|PHB}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell Conjure Elemental|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Keen Senses"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DU"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "spellcastingTags":
+            [
+                "CW"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/6Vv2NFT.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/uxHHZtv.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Atlantis Sentinel",
+            "size": "H",
+            "type": "construct",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
                 "N"
             ],
             "ac":
             [
                 {
-                    "ac": 12,
-                    "condition": "in humanoid form"
-                },
-                {
-                    "ac": 16,
+                    "ac": 20,
                     "from":
                     [
                         "natural armor"
-                    ],
-                    "condition": "in hybrid form"
+                    ]
                 }
             ],
             "hp":
             {
-                "average": 119,
-                "formula": "14d8 + 56"
+                "average": 125,
+                "formula": "10d12 + 60"
             },
             "speed":
             {
-                "walk": 30
+                "walk": 0
             },
-            "str": 20,
-            "dex": 15,
-            "con": 18,
-            "int": 11,
-            "wis": 14,
-            "cha": 15,
-            "save":
-            {
-                "dex": "+9",
-                "con": "+8",
-                "wis": "+6"
-            },
-            "skill":
-            {
-                "acrobatics": "+9",
-                "perception": "+6"
-            },
+            "str": 23,
+            "dex": 8,
+            "con": 22,
+            "int": 3,
+            "wis": 11,
+            "cha": 1,
             "immune":
             [
+                "poison",
+                "acid",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "necrotic",
+                "psychic",
+                "radiant",
+                "thunder",
                 {
                     "immune":
                     [
@@ -1557,99 +3162,83 @@
             ],
             "conditionImmune":
             [
-                "prone"
+                "prone",
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "petrified",
+                "poisoned"
             ],
             "senses":
             [
-                "darkvision 60 ft."
+                "truesight 120 ft."
             ],
             "passive": 16,
             "languages":
             [
-                "Common"
+                "understands the languages of its creator but can't speak"
             ],
             "cr": "9",
             "trait":
             [
                 {
-                    "name": "Shapechanger",
+                    "name": "Adamantine Structure",
                     "entries":
                     [
-                        "Maul Darkmane can use its action to polymorph into a wolf-humanoid hybrid or a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                        "Atlantis Sentinel is made of adamantine. It can absorb and nullify magical damage. Doing so charges its core."
                     ]
                 },
                 {
-                    "name": "Legendary Resistance (3/Day)",
+                    "name": "Siege Monster",
                     "entries":
                     [
-                        "If Maul Darkmane fails a saving throw, it can choose to succeed instead."
+                        "Atlantis Sentinel deals double damage to objects and structures."
                     ]
                 },
                 {
-                    "name": "Keen Hearing and Smell",
+                    "name": "Pearl Core",
                     "entries":
                     [
-                        "Maul Darkmane has advantage on Wisdom (Perception) checks that rely on hearing or smell."
-                    ]
-                },
-                {
-                    "name": "Pack Leader",
-                    "entries":
-                    [
-                        "Maul Darkmane's allies have advantage on melee attack rolls against any hostile creature within 5 feet of Maul Darkmane."
+                        "Atlantis Sentinel has an energized core which it uses as a capacitor for its Retaliating Blast. After expending a charge, Atlantis Sentinel loses its magical immunities and cannot expend another charge until the beginning of its next turn."
                     ]
                 }
             ],
             "action":
             [
                 {
+                    "name": "Target Lock",
+                    "entries":
+                    [
+                        "Atlantis Sentinel must seek and aim before using its Disintegration Ray."
+                    ]
+                },
+                {
                     "name": "Disintegration Ray",
                     "entries":
                     [
-                        "If the target is a creature, it must succeed on a DC 16 Dexterity saving throw or take 27 {@damage 6d8} force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust"
-                    ]
-                },
-                {
-                    "name": "Claws (Wolf or Hybrid Form Only)",
-                    "entries":
-                    [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                        "If the target is a creature, it must succeed on a {@dc 16} Dexterity saving throw or take [[{@damage 10d6}]] radiant damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust."
                     ]
                 }
             ],
-            "legendaryGroup":
-            {
-                "name": "Maul Darkmane"
-            },
-            "legendary":
+            "reaction":
             [
                 {
-                    "name": "Leap",
+                    "name": "Retaliating Blast",
                     "entries":
                     [
-                        "Maul Darkmane moves up to its speed without provoking opportunity attacks."
-                    ]
-                },
-                {
-                    "name": "Bark Orders",
-                    "entries":
-                    [
-                        "Maul Darkmane chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
-                    ]
-                },
-                {
-                    "name": "Frenzy (Costs 2 Actions)",
-                    "entries":
-                    [
-                        "Maul Darkmane can make one claw attack against each creature within 5 feet of it."
+                        "Atlantis Sentinel uses a charge in its Pearl Core to retaliate a magical attack. A wave of thunderous force sweeps out from it. Each creature in a 90-foot sphere originating from it must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes [[{@damage 2d8}]] thunder damage and is pushed 10 feet away from it. On a successful save, the creature takes half as much damage and isn't pushed. Creatures at least 60-foot away from it make the saving throw with advantage."
                     ]
                 }
             ],
             "traitTags":
             [
                 "Boss",
-                "Shapechanger",
-                "Keen Senses"
+                "Siege Monster"
+            ],
+            "senseTags":
+            [
+                "U"
             ],
             "languageTags":
             [
@@ -1657,12 +3246,12 @@
             ],
             "damageTags":
             [
-                "S",
-                "P"
+                "R",
+                "T"
             ],
             "miscTags":
             [
-                "MW"
+                "AOE"
             ],
             "tokenUrl": "https://i.imgur.com/QAV4Y8d.png",
             "fluff":
@@ -1675,6 +3264,567 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/uwQQw1r.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kobold Cask Hauler",
+            "size": "S",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "kobold"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                12
+            ],
+            "hp":
+            {
+                "average": 7,
+                "formula": "2d6"
+            },
+            "speed":
+            {
+                "walk": 25
+            },
+            "str": 9,
+            "dex": 15,
+            "con": 10,
+            "int": 7,
+            "wis": 6,
+            "cha": 10,
+            "save":
+            {
+                "str": "+1"
+            },
+            "skill":
+            {
+                "athletics": "+3"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "languages":
+            [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "2",
+            "trait":
+            [
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries":
+                    [
+                        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Volatile Cask",
+                    "entries":
+                    [
+                        "The kobold carries a cask of flammable alcohol on its back. While it does so, the kobold can't use its hands to make attacks or use actions, and fire damage the kobold takes is also taken by the cask.",
+                        "When the cask takes fire damage, roll a [[{@damage 1d10}]]. If the result is less than the fire damage dealt, the cask erupts in a 10-foot radius explosion. Each creature in the area must make a DC 13 Dexterity saving throw, taking [[{@damage 4d6}]] fire damage on a failed save, or half as much on a successful one. Flammable objects in the area not being worn or carried ignite."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Dagger",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Roll Cask (1/Day)",
+                    "entries":
+                    [
+                        "The Kobold rolls its carried cask in a straight line 15 feet in a direction of its choice. The cask then continues to roll 15 feet at the start of each of the kobold's turns, accelerating, decelerating, or changing direction with the terrain at the GM's discretion.",
+                        "The cask is an object with an AC of 10 and 10 hit points (immunity to poison and psychic damage, vulnerability to fire damage), and which retains the applicable portion of the Volatile Cask trait above. If the cask collides with a creature or a solid surface, both it and what it collides with take [[{@damage 1d10}]] bludgeoning damage for every 10 feet it moved this turn.",
+                        "If the cask is destroyed by fire damage, the Volatile Cask trait is triggered automatically. If it is destroyed by damage of a different type, it creates a 5-foot radius pool of flammable alcohol on the ground where it was destroyed. Any fire damage dealt in the pool's area ignites it, forcing each creature in the area to succeed on a DC 13 Dexterity saving throw or take [[{@damage 2d6}]] fire damage as the alcohol burns up."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Pack Tactics",
+                "Sunlight Sensitivity"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DR"
+            ],
+            "damageTags":
+            [
+                "B",
+                "P",
+                "F"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW"
+            ],
+            "tokenUrl": "https://i.imgur.com/DHNtkRW.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/WzOzN5B.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Kobold Booze Server",
+            "size": "S",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "kobold"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                13
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "2d6-2"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 7,
+            "dex": 16,
+            "con": 9,
+            "int": 7,
+            "wis": 6,
+            "cha": 10,
+            "save":
+            {
+                "dex": "+5"
+            },
+            "skill":
+            {
+                "acrobatics": "+3"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "languages":
+            [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "entries":
+                    [
+                        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Flammable Spirits",
+                    "entries":
+                    [
+                        "The kobold carries many bottles filled with highly-flammable alcohol. As a bonus action on each of its turns, the kobold can stuff a rag into the opening of an alcohol bottle it is carrying and ignite it using a nearby open flame, causing its next Hurl Bottle attack to use its ignited effects."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Broken Bottle",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Hurl Bottle",
+                    "entries":
+                    [
+                        "If the bottle was not ignited, the target is soaked in flammable alcohol. The next time a soaked target takes any fire damage, that fire damage is increased by [[{@damage 1d6}]] as the alcohol burns away. If not ignited, the alcohol evaporates harmlessly after 1 minute.",
+                        "If the bottle was ignited, hit or miss, it shatters in a fiery explosion. The target and each creature within 5 feet of it must make a DC 13 Dexterity saving throw. A creature takes [[{@damage 2d4}]] fire damage and is ignited on a failed save, or takes half as much fire damage and is not ignited on a successful one. An ignited target takes [[{@damage 1d4}]] fire damage at the start of each of its turns, and can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+                        "A flammable object in the area ignites if it isn't being worn or carried."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Pack Tactics",
+                "Sunlight Sensitivity"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "C",
+                "DR"
+            ],
+            "damageTags":
+            [
+                "S",
+                "F"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW"
+            ],
+            "tokenUrl": "https://i.imgur.com/6ozLi0o.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/WzOzN5B.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Princess Nivim",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                12,
+                {
+                    "ac": 15,
+                    "condition": "with {@spell Mage Armor|PHB}",
+                    "braces": true
+                }
+            ],
+            "hp": {
+                "average": 40,
+                "formula": "9d8"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 9,
+            "dex": 14,
+            "con": 11,
+            "int": 17,
+            "wis": 12,
+            "cha": 11,
+            "save": {
+                "int": "+6",
+                "wis": "+4"
+            },
+            "skill": {
+                "arcana": "+6",
+                "history": "+6"
+            },
+            "passive": 11,
+            "languages": [
+                "any four languages"
+            ],
+            "cr": "6",
+            "action": [
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+                    ]
+                }
+            ],
+            "page": 347,
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "Princess Nivim is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Princess Nivim has the following wizard spells prepared:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell fire bolt}",
+                                "{@spell light}",
+                                "{@spell mage hand}",
+                                "{@spell prestidigitation}"
+                            ]
+                        },
+                        "1": {
+                            "slots": 4,
+                            "spells": [
+                                "{@spell Witch Bolt|PHB}",
+                                "{@spell mage armor}",
+                                "{@spell magic missile}",
+                                "{@spell shield}"
+                            ]
+                        },
+                        "2": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell misty step}",
+                                "{@spell suggestion}"
+                            ]
+                        },
+                        "3": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell counterspell}",
+                                "{@spell fireball}",
+                                "{@spell fly}"
+                            ]
+                        },
+                        "4": {
+                            "slots": 3,
+                            "spells": [
+                                "{@spell greater invisibility}",
+                                "{@spell ice storm}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell cone of cold}"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "languageTags":
+            [
+                "C",
+            ],
+            "spellcastingTags":
+            [
+                "CW"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "tokenUrl": "https://i.imgur.com/Mvu83Cu.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/fA6nROf.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Scatha",
+            "size": "G",
+            "type": "dragon",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "C",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 35,
+                "formula": "3d20 + 3"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 60,
+                "swim": 30
+            },
+            "str": 15,
+            "dex": 14,
+            "con": 13,
+            "int": 10,
+            "wis": 11,
+            "cha": 13,
+            "save":
+            {
+                "dex": "+4",
+                "con": "+3",
+                "wis": "+2",
+                "cha": "+3"
+            },
+            "skill":
+            {
+                "perception": "+4",
+                "stealth": "+4"
+            },
+            "immune":
+            [
+                "acid"
+            ],
+            "senses":
+            [
+                "blindsight 10 ft.",
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Draconic",
+                "Common"
+            ],
+            "cr": "2",
+            "trait":
+            [
+                {
+                    "name": "Amphibious",
+                    "entries":
+                    [
+                        "Scatha can breathe air and water."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage plus 2 ({@damage 1d4}) acid damage."
+                    ]
+                },
+                {
+                    "name": "Acid Breath {@recharge 5} ([[1d6]])",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 4} to hit, reach 15 ft., any target. {@h}22 ({@damage 5d8}) acid damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Amphibious"
+            ],
+            "languageTags":
+            [
+                "DR",
+                "C"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "P",
+                "A"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "AOE"
+            ],
+            "tokenUrl": "https://i.imgur.com/vvwqp2K.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/6tG1M5k.jpg"
                         }
                     }
                 ]

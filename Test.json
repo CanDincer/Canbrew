@@ -1,205 +1,215 @@
-{
-    "_meta":
-    {
-        "sources":
-        [
-            {
-                "json": "Canbrew",
-                "abbreviation": "CB",
-                "full": "Canbrew",
-                "authors":
-                [
-                    "Can Dinçer"
-                ],
-                "version": "2020.01.09",
-                "url": "https://github.com/CanDincer/Canbrew",
-                "targetSchema": "1.0.0"
-            }
-        ],
-        "dateAdded": 0
-    },
-    "race":
-    [
+
         {
-            "name": "Klyntar (test2)",
+            "name": "Fred Ticklestraw",
+            "size": "T",
+            "type":"beast",
             "source": "Canbrew",
-            "ability":
+            "alignment":
             [
-                {
-                    "str": 2,
-                    "con": 2,
-                    "wis": -4
-                }
+                "C",
+                "G"
             ],
-            "size": "M",
+            "ac":
+            [
+                20
+            ],
+            "hp":
+            {
+                "average": 5,
+                "formula": "3d4 - 3"
+            },
             "speed":
             {
-                "walk": 30
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 3,
+            "dex": 26,
+            "con": 6,
+            "int": 10,
+            "wis": 8,
+            "cha": 16,
+            "save":
+            {
+                "dex": "+4",
+                "wis": "+4"
+            },
+            "skill":
+            {
+                "animal handling": "+3",
+                "medicine": "+2",
+                "nature": "+6",
+                "perception": "+4",
+                "sleight of hand": "+4",
+                "stealth": "+8",
+                "survival": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "resist":
+            [
+                "poison"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Common",
+                "Druidic",
+                "Squirrel"
+            ],
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Avoidance",
+                    "entries":
+                    [
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Nimble Escape",
+                    "entries":
+                    [
+                        "The squirrel can take the Disengage or Hide action as a bonus action on each of its turns."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                },
+                {
+                    "name": "Superior Stealth",
+                    "entries":
+                    [
+                        "While in forestry, the squirrel can stay hidden while moving."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}9 ({@damage 1 + 8}) piercing damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            {
+                "name": "Spellcasting",
+                "headerEntries":
+                [
+                    "Fred Ticklestraw is a 9th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Fred Ticklestraw has the following bard spells prepared:"
+                ],
+                "spells":
+                {
+                    "0":
+                    {
+                        "spells":
+                        [
+                            "{@spell Vicious Mockery|PHB}",
+                            "{@spell Friends|PHB}"
+                        ]
+                    },
+                    "1":
+                    {
+                        "slots": 4,
+                        "spells":
+                        [
+                            "{@spell Healing Word|PHB}",
+                            "{@spell Heroism|PHB}",
+                            "{@spell Shield|PHB}"
+                        ]
+                    },
+                    "2":
+                    {
+                        "slots": 3,
+                        "spells":
+                        [
+                            "{@spell Pyrotechnics|XGE}",
+                            "{@spell Suggestion|PHB}"
+                        ]
+                    },
+                    "3":
+                    {
+                        "slots": 3,
+                        "spells":
+                        [
+                            "{@spell Dispel Magic|PHB}",
+                            "{@spell Leomund's Tiny Hut|PHB}",
+                            "{@spell Motivational Speech|PHB}"
+                        ]
+                    },
+                    "4":
+                    {
+                        "slots": 2,
+                        "spells": [
+                            "{@spell Dimension Door|PHB}",
+                            "{@spell Polymorph|PHB}"
+                        ]
+                    },
+                    "5": {
+                        "slots": 1,
+                        "spells": [
+                            "{@spell Animate Objects|PHB}"
+                        ]
+                    }
+                },
+                "ability": "cha",
+                "type": "spellcasting"
             },
             "traitTags":
             [
-                "Amorphous",
-                "Unarmed Strike",
-                "Uncommon Race",
-                "Skill Proficiency",
-                "Monstrous Race"
+                "Keen Senses"
             ],
-            "entries":
+            "languageTags":
             [
-                "Klyntar have the following racial traits:",
-                {
-                    "type": "entries",
-                    "name": "Age",
-                    "entries":
-                    [
-                        "Klyntar do not age. They leap from a host to another and can live for tens of thousands of years"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Alignment",
-                    "entries":
-                    [
-                        "Each Klyntar has a different purpose like; world domination, species invaion, freeing Klyntar from Knull's dominion, or saving a race from total extinction. They range from lawful evil to chaotic good."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries":
-                    [
-                        "a Klyntar's size is dependent on their host. Your size is medium."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Darkvision",
-                    "entries":
-                    [
-                        "Accustomed to the lack of light in empty space, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Unique Physiology",
-                    "entries":
-                    [
-                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have. If you haven't used your movement for the turn, as an action, you can expend a hit die to recover hit points. After doing so, your speed is zero"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Hybrid Nature",
-                    "entries":
-                    [
-                        "You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Languages",
-                    "entries":
-                    [
-                        "You can speak, read, and write Common and Abyssal."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Parasitic Awareness",
-                    "entries":
-                    [
-                        "Creatures don't gain advantage while flanking you. You have two reactions instead of one."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Vibration Sensivity",
-                    "entries":
-                    [
-                        "You have vulnerability to thunder and force damage."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Infused Structure",
-                    "entries":
-                    [
-                        "Your pseudopods are natural melee weapons, with witch you're proficient. If you hit with a pseudopod, the target takes bludgeoning damage equal to {@damage 1d6} + your Strength modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Augmented Muscles",
-                    "entries":
-                    [
-                        "You have proficiency in the {@skill Athletics} skill."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Powerful Build",
-                    "entries":
-                    [
-                        "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift"
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Impervious Vitaliy",
-                    "entries":
-                    [
-                        "When you roll a hit die, you instead take maximum of it."
-                    ]
-                }
+                "C",
+                "DU"
             ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/Mig14up.png",
             "fluff":
             {
-                "entries":
+                "images":
                 [
                     {
-                        "type": "quote",
-                        "entries":
-                        [
-                            "Though we are a benevolent species, there is no literature on my home planet. And though it is our goal to make the universe better, we create no art, no music, no culture. At least, not as other civilizations would understand it. All we have are our hosts -- the beings we join with -- to forge through the cold and unforgiving cosmos with. The bond between a Klyntar and its host is sacred. They give our lives context and our existence meaning. They give us history. All we have are our hosts to tell us who we are."
-                        ],
-                        "by": "Darkness"
-                    },
-                    "Klyntar are a species of inorganic, amorphous, symbiotic extraterrestrials created from the \"living abyss\" at the beginning of the universe by the primordial deity Knull, who manifested a sword of living darkness called All-Black from his shadow to slaughter the Celestials and other deities.",
-                    {
-                        "name": "True Form",
-                        "entries":
-                        [
-                            "You are a black goo and you can saheshift yourself to mimic medium objects. When attached to a host, you can make yourself look like common clothes at will while you're out of combat. In combat, you refer to yourself in a plural manner."
-                        ]
-                    },
-                    {
-                        "name": "Klyntar Names",
-                        "entries":
-                        [
-                            "Most Klyntars have unpronouncable names. So, they take nick names instead.",
-                            {
-                                "entries":
-                                [
-                                    {
-                                        "name": "Nicknames",
-                                        "entries":
-                                        [
-                                            "Spasm, Hook, Rash, Ghost, Limit, Coil, Fang, Mold, Deceit, Rot, Pulse, Havoc, Shade, Fume, Torment, Whip, Judgement, Sidestep, Spark, Phase, Feedback, Blight, Twitch, Quicksand, Regret."
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/OolXVSk.jpg"
+                        }
                     }
                 ]
-            },
-            "languageProficiencies":
-            [
-                {
-                    "common": true,
-                    "abyssal": true
-                }
-            ]
-        }
-    ]
-}
+            }
+        },
