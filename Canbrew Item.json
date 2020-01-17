@@ -45,7 +45,7 @@
             "entries":
             [
                 "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones.",
-                "When you lunch an arrow from this weapon, the arrow transforms into a {@spell Guiding Bolt|PHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're unconscious."
+                "When you lunch an arrow from this weapon, the arrow transforms into a {@spell guiding bolt|PHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're unconscious."
             ]
         },
         {
@@ -292,7 +292,7 @@
             "weight": 1,
             "dmg1": "1d4",
             "dmgType": "O",
-            "reqAttune": true,
+            "reqAttune": "by a non-divine spellcaster",
             "curse": true,
             "property":
             [
@@ -304,7 +304,8 @@
             "entries":
             [
                 "A very large fang with a slight curve. In darkness, you can see shadows bend towards it.",
-                "You can use your bonus action to command it. It has a flying speed of up to 40 feet, but it can only travel in a straight line during a turn. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls.",
+                "If you try to throw it, it hangs in the air in front of you.",
+                "You can use your bonus action to command it with you mind. It has a flying speed of up to 40 feet, but it can only travel in a straight line that you can see during a turn and it can't go through creatures. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls.",
                 "If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang, then, grants you an extra action that you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand.",
                 {
                     "type": "entries",
@@ -359,7 +360,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell Shocking Grasp|PHB}."
+                "A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell shocking grasp|PHB}."
             ]
         },
         {
@@ -453,7 +454,7 @@
             "entries":
             [
                 "They are chained to your wrist and cannot be disarmed, but it takes an action to stow.",
-                "You can cast {@spell Ensnaring Strike|PHB} a number of times equal to your proficiency bonus, with chains bursting from the ground to imprison your enemy. Recharges at dawn.",
+                "You can cast {@spell ensnaring strike|PHB} a number of times equal to your proficiency bonus, with chains bursting from the ground to imprison your enemy. Recharges at dawn.",
                 {
                     "type": "entries",
                     "name": "Special",
@@ -690,8 +691,8 @@
             "entries":
             [
                 "A curved kukri, given to an elite group of soldiers who defend the royal family.",
-                "Ranged hits with this kukri grant you {@spell Misty Step|PHB} spell. You can use your object interaction to teleport to the location of your dagger. If you teleport at least 10 feet, you deal extra {@damage 1d4} lightning damage and acquire the dagger.",
-                "If you kill an enemy with this weapon's lightning damage, you are under the effect of {@spell Haste|PHB} spell until the start of your next turn. You do not suffer the lethargic consequences."
+                "Ranged hits with this kukri grant you {@spell misty step|PHB} spell. You can use your object interaction to teleport to the location of your dagger. If you teleport at least 10 feet, you deal extra {@damage 1d4} lightning damage and acquire the dagger.",
+                "If you kill an enemy with this weapon's lightning damage, you are under the effect of {@spell haste|PHB} spell until the start of your next turn. You do not suffer the lethargic consequences."
             ]
         },
         {
@@ -998,7 +999,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "All arrows shot with this bow leave behind a streak of 7-colored light. Which deals an extra {@damage 1d6} radiant damage. Once per day you can instead cause it to start raining as if a {@spell Control Weather|PHB} spell was cast."
+                "All arrows shot with this bow leave behind a streak of 7-colored light. Which deals an extra {@damage 1d6} radiant damage. Once per day you can instead cause it to start raining as if a {@spell control weather|PHB} spell was cast."
             ]
         },
         {
@@ -1047,13 +1048,13 @@
             "source": "Canbrew",
             "entries":
             [
-                "While holding this weapon, as a bonus action, you may cast the {@spell Mirror Image|PHB} spell. When you cast {@spell Mirror Image|PHB} this way, it creates five illusory duplicates. Once you have used this ability you cannot use it again until you finish a long rest.",
+                "While holding this weapon, as a bonus action, you may cast the {@spell mirror image|PHB} spell. When you cast {@spell mirror image|PHB} this way, it creates five illusory duplicates. Once you have used this ability you cannot use it again until you finish a long rest.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "This weapon is cursed, and attuning to it curses you until you are targeted by the {@spell Remove Curse|PHB} spell or similar magic. When the {@spell Mirror Image|PHB} spell is cast from this item, roll a d20. On a 1, one of the illusory duplicates created is a full-grown clone inhabited by an evil-aligned soul and tries to take your place."
+                        "This weapon is cursed, and attuning to it curses you until you are targeted by the {@spell remove curse|PHB} spell or similar magic. When the {@spell mirror image|PHB} spell is cast from this item, roll a d20. On a 1, one of the illusory duplicates created is a full-grown clone inhabited by an evil-aligned soul and tries to take your place."
                     ]
                 }
             ]
@@ -1222,7 +1223,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Hits from this weapon cast {@spell Sacred Flame|PHB} upon the hit enemy. If you roll a 1 on an attack roll Vicious Mockery is cast on you."
+                "Hits from this weapon cast {@spell sacred flame|PHB} upon the hit enemy. If you roll a 1 on an attack roll Vicious Mockery is cast on you."
             ]
         },
         {
@@ -1303,11 +1304,11 @@
                 "V"
             ],
             "charges": 5,
-            "rarity": "Very Rare",
+            "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
-                "Blessed by Enlil. This weapon carries his perseverance. You can activate it using your bonus action. While you are holding it with two hands, next time you miss, {@spell Erupting Earth|XGE} spell is cast at the point of the target you were trying to hit. It has 5 charges and replenishes {@dice 1d4} charges at dawn."
+                "Blessed by Enlil. This weapon carries his perseverance. You can activate it using your bonus action. While you are holding it with two hands, next time you miss, {@spell erupting earth|XGE} spell is cast at the point of the target you were trying to hit. It has 5 charges and replenishes {@dice 1d4} charges at dawn."
             ]
         },
         {
@@ -1721,7 +1722,46 @@
             ],
             "entries":
             [
-                "This is a shield that casts {@spell Shield|PHB} on you. It has a rune engraved under its grip. When you follow the engraving with your finger using a bonus action, it lights up dimly and activates. Next time you are hit, light refracts from the shield and another shield appears in front of this shield. It has 2 charges which replenishe after a short rest."
+                "This is a shield that casts {@spell shield|PHB} on you. It has a rune engraved under its grip. When you follow the engraving with your finger using a bonus action, it lights up dimly and activates. Next time you are hit, light refracts from the shield and another shield appears in front of this shield. It has 2 charges which replenishe after a short rest."
+            ]
+        },
+        {
+            "name": "Anvil Plate Shield",      
+            "baseItem": "Shield|PHB",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "bonus": "+2",
+            "charges": 4,
+            "reqAttune": true,
+            "rarity": "Legendary",
+            "source": "Canbrew",
+            "attachedSpells":
+            [
+                "Wall of Fire"
+            ],
+            "entries":
+            [
+                "This was a metal plate that had been used to forge weapons and armor on it. Throughout time many metal pieces were beaten on it. Hundreds of different types of metal are infused into it, many of them being magical.",
+                "Raya Emberstone was trying to create the best shield in the city when she realized this metal plate is the hardest piece of metal she had. She worked on it for months, bending it to shape while bending her will to her ambitions. She then inoculated it with Moradin's breath. Fine particles of adamantine inside it accepted the enchantment.",
+                "While holding this shield, you have a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+                {
+                    "type": "entries",
+                    "name": "Retaliation",
+                    "entries":
+                    [
+                        "Whenever a melee attack from a creature within 5 feet of you is stopped with this shield's AC (i.e. attacker misses you by up to 4 points), the shield erupts with sparks dealing {@damage 2d8} fire damage. The attacker is blinded until the end of its next turn on a failed {@dc 18} Constitution saving throw."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Moradin's Embrace",
+                    "entries":
+                    [
+                        "This shield radiates fiery dim light for 5 feet from the outlines of the anvil engravings on it. You can use a bonus action to increase its radiance to bright light for 10 feet and dim light for an additional 20 feet."
+                    ]
+                },
+                "The shield has 4 charges. You can use an action to expend 2 charges to cast {@spell wall of fire|PHB} from the shield (save DC 18). The {@spell wall of fire|PHB} spell lasts for 1 minute (no concentration required). The shield regains {@dice 1d4} expended charges daily at dawn."
             ]
         },
         {
@@ -1989,7 +2029,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "This ring has {@spell Nondetection|PHB} spell cast on it by itself continuously."
+                "This ring has {@spell nondetection|PHB} spell cast on it by itself continuously."
             ]
         },
         {
@@ -2020,19 +2060,6 @@
             ]
         },
         {
-            "name": "Ring of Mind Shielding",
-            "type": "RG",
-            "weight": 0.05,
-            "rarity": "Uncommon",
-            "source": "Canbrew",
-            "entries":
-            [
-                "You are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
-                "You can use an action to cause the ring to become invisible until you use another action to make it visible until you remove the ring, or until you die.",
-                "If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
-            ]
-        },
-        {
             "name": "Ring of Shark Detection",
             "type": "RG",
             "reqAttune": true,
@@ -2041,17 +2068,6 @@
             "entries":
             [
                 "Plays the Jaws music when a shark is within 60ft."
-            ]
-        },
-        {
-            "name": "Ring of Water Walking",
-            "type": "RG",
-            "reqAttune": true,
-            "rarity": "Uncommon",
-            "source": "Canbrew",
-            "entries":
-            [
-                "You can stand on and move across any liquid surface as if it were solid ground."
             ]
         },
         {
@@ -2068,7 +2084,7 @@
             "entries":
             [
                 "An exotic ring with tiny chains circling it.",
-                "Once a day you can cast 4th-level {@spell Banishment|PHB}.",
+                "Once a day you can cast 4th-level {@spell banishment|PHB}.",
                 {
                     "type": "entries",
                     "name": "Curse",
@@ -2082,7 +2098,7 @@
         {
             "name": "Ring of Greater Mage Hand",
             "type": "RG",
-            "reqAttune": true,
+            "reqAttune": "by a spellcaster",
             "rarity": "Uncommon",
             "attachedSpells":
             [
@@ -2092,7 +2108,7 @@
             "entries":
             [
                 "It is said that some can manipulate the forces of nature. This ring is sure to increase your connection to the said forces.",
-                "This ring enhances your {@spell Mage Hand|PHB} spell. You know the {@spell Mage Hand|PHB} spell if you don't already.",
+                "This ring enhances your {@spell mage hand|PHB} spell. You know the {@spell mage hand|PHB} spell if you don't already.",
                 {
                     "type": "list",
                     "items":
@@ -2118,7 +2134,7 @@
                             "name": "Levitate",
                             "entries":
                             [
-                                "The weight your {@spell Mage Hand|PHB} can carry is increased by your spellcasting ability score in pounds."
+                                "The weight your {@spell mage mand|PHB} can carry is increased by your spellcasting ability score in pounds."
                             ]
                         }
                     ]
@@ -2207,7 +2223,7 @@
                             "entries":
                             [
                                 "You lose the temptation for the chaos inside you. Your emotions are calmer and your mind focused on the righteous path. Before acting in a mischievous way you must pass a Wisdom check. On a fail, your mind is blanked and you cannot continue your act.",
-                                "If {@spell Remove Curse|PHB} is cast on you, the ring ceases to function.",
+                                "If {@spell remove curse|PHB} is cast on you, the ring ceases to function.",
                                 "\"For you have sinned, you must atone.",
                                 "Your chaos shall cease. Your emotions shall go quiet.",
                                 "Your passion shall soothe.",
@@ -2241,7 +2257,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "An ornate mask, like those worn for masked balls. The wearer hears a constant stream of sycophantic praise. Allows you to cast {@spell Charm Person|PHB} spell once a day."
+                "An ornate mask, like those worn for masked balls. The wearer hears a constant stream of sycophantic praise. Allows you to cast {@spell charm person|PHB} spell once a day."
             ]
         },
         {
@@ -2331,7 +2347,7 @@
                             "name": "Scrying",
                             "entries":
                             [
-                                "Once per long rest, you may cast {@spell Scrying|PHB}"
+                                "Once per long rest, you may cast {@spell scrying|PHB}"
                             ]
                         }
                     ]
@@ -2497,10 +2513,10 @@
                             "name": "Familiar",
                             "entries":
                             [
-                                "The eye is a gruesome familiar. As an action, you can command the eye to crawl out of its socket and move independently of you. Use the abilities described in the {@spell Find Familiar|PHB} spell when commanding the Eye of the Fiendlord. The eye has five hit points, an AC of 12, movement and climbing speed of 20 feet, does not require air to breathe and has a +6 bonus to Dexterity (Stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. If it was slain, you cannot use its magical sight or command it as a familiar again until the following dusk."
+                                "The eye is a gruesome familiar. As an action, you can command the eye to crawl out of its socket and move independently of you. Use the abilities described in the {@spell find familiar|PHB} spell when commanding the Eye of the Fiendlord. The eye has five hit points, an AC of 12, movement and climbing speed of 20 feet, does not require air to breathe and has a +6 bonus to Dexterity (Stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. If it was slain, you cannot use its magical sight or command it as a familiar again until the following dusk."
                             ]
                         },
-                        "Targeting the eye with the {@spell Remove Curse|PHB} spell or unattuning to it causes the eye to pull itself out of the socket and crawl away. Slaying the eye while it is unattuned to a creature destroys the item."
+                        "Targeting the eye with the {@spell remove curse|PHB} spell or unattuning to it causes the eye to pull itself out of the socket and crawl away. Slaying the eye while it is unattuned to a creature destroys the item."
                     ]
                 }
             ]
@@ -2539,7 +2555,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Gold plate bracers. On a roll of 9 or 11, your unarmed strike explodes with {@spell Thunderclap|XGE}. On a roll of 10, it backfires and you take {@damage 1d6} lightning damage. The spell's DC equals to 8 + your proficiency bonus + your Charisma modifier."
+                "Gold plate bracers. On a roll of 9 or 11, your unarmed strike explodes with {@spell thunderclap|XGE}. On a roll of 10, it backfires and you take {@damage 1d6} lightning damage. The spell's DC equals to 8 + your proficiency bonus + your Charisma modifier."
             ]
         },
         {
@@ -2550,7 +2566,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A full plate helmet without any openings. While you are wearing it, you are blinded, deafened, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Truesight. Provides resistance to psychic damage, {@spell Charm Person|PHB} and {@spell Sleep|PHB}."
+                "A full plate helmet without any openings. While you are wearing it, you are blinded, deafened, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Truesight. Provides resistance to psychic damage, {@spell charm person|PHB} and {@spell sleep|PHB}."
             ]
         },
         {
@@ -2571,7 +2587,7 @@
             "rarity": "Uncommon",
             "type": "WD",
             "weight": 1,
-            "charges": 7,
+            "charges": 10,
             "reqAttune": true,
             "attachedSpells":
             [
@@ -2584,7 +2600,43 @@
             "source": "Canbrew",
             "entries":
             [
-                "You're not sure who the Swiss are or why an army would need such a non-aggressive wand, but it seems useful enough. Never Leave Home Without It. This wand regains {@dice 1d6+1} expended charges daily at dawn. You can expend 1 or more charges to cast one of the following spells from the wand: {@spell Create Bonfire|XGE} (1 charge), {@spell Dancing Lights|PHB} (1 charge), {@spell Mending|PHB} (1 charge), {@spell Prestidigitation|PHB} (1 charge), or {@spell @spell Alarm|PHB} (2 charges)."
+                "You're not sure who the Swiss are or why an army would need such a non-aggressive wand, but it seems useful enough. Never Leave Home Without It. This wand has 10 charges and it regains {@dice 1d6+1} expended charges daily at dawn. You can expend 1 or more charges to cast one of the following spells from the wand:"
+                {
+                    "type": "table",
+                    "colLabels":
+                    [
+                        "Spell",
+                        "Charge Expended"
+                    ],
+                    "colStyles":
+                    [
+                        "col-4",
+                        "col-6"
+                    ],
+                    "rows":
+                    [
+                        [
+                            "{@spell Create Bonfire|XGE}",
+                            "1"
+                        ],
+                        [
+                            "{@spell Dancing Lights|PHB}",
+                            "1"
+                        ],
+                        [
+                            "{@spell Mending|PHB}",
+                            "1"
+                        ],
+                        [
+                            "{@spell Prestidigitation|PHB}",
+                            "1"
+                        ],
+                        [
+                            "{@spell @spell Alarm|PHB}",
+                            "2"
+                        ]
+                    ]
+                }
             ]
         },
         {
@@ -2601,7 +2653,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell Magic Missile|PHB} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains {dice 1d6+1} expended charges daily at dawn. If you expend the wand's last charge, the wand crumbles into ashes and is destroyed."
+                "While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell magic missile|PHB} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains {dice 1d6+1} expended charges daily at dawn. If you expend the wand's last charge, the wand crumbles into ashes and is destroyed."
             ]
         },
         {
@@ -2619,7 +2671,7 @@
                 "This bronze clockwork mechanism is 2 inches long and has a glass vial under it. It whirs with the hum of tiny gears inside.",
                 "You can tap the head of the faefly twice as a bonus action. When you do, the mechanism flutters 5 feet in the air and emits the {@spell light|PHB} spell.",
                 "The faefly has AC 15 and 10 hit points and flies in this way until it falls to 0 hit points or another creature grasps it. If you move more than 3 feet from the hovering faefly, it follows you until it is within 3 feet of you.",
-                "If the {@spell Mending|PHB} spell is cast on the faefly while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the faefly drops to 0 hit points, it can't be used again."
+                "If the {@spell mending|PHB} spell is cast on the faefly while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the faefly drops to 0 hit points, it can't be used again."
             ]
         },
         {
@@ -2636,8 +2688,8 @@
             "entries":
             [
                 "This pill-shaped magical mechanism is 2 inches long and made of brass. It has a pair of tiny wings that silently keep it aloft. It hovers up to 5 feet above the ground and does its best to stay at your side within your space.",
-                "The bee has 8 charges and regains {@dice 1d6+2} expended charges daily at dawn. While the bee is within your space, you can speak its command word and expend up to 3 of its charges as a bonus action to command the bee to heal a creature that you can see within 20 feet of you. The bee flies to the creature's space and stings the creature, casting a {@spell Healing Word|PHB} for each expended charge. After healing the creature, the bee returns to your space.",
-                "It has AC 15, 10 hit points, and has resistance to all damage types. If the {@spell Mending|PHB} spell is cast on the bee while it has at least 1 hit point, it regains 2d6 hit points. If the bee drops to 0 hit points, it can't be used again."
+                "The bee has 8 charges and regains {@dice 1d6+2} expended charges daily at dawn. While the bee is within your space, you can speak its command word and expend up to 3 of its charges as a bonus action to command the bee to heal a creature that you can see within 20 feet of you. The bee flies to the creature's space and stings the creature, casting a {@spell healing word|PHB} for each expended charge. After healing the creature, the bee returns to your space.",
+                "It has AC 15, 10 hit points, and has resistance to all damage types. If the {@spell mending|PHB} spell is cast on the bee while it has at least 1 hit point, it regains 2d6 hit points. If the bee drops to 0 hit points, it can't be used again."
             ]
         },
         {
@@ -2664,7 +2716,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A prayer book that gives +2 on Religion checks when held. Has one charge of {@spell Call Lightning|PHB}."
+                "A prayer book that gives +2 on Religion checks when held. Has one charge of {@spell call lightning|PHB}."
             ]
         },
         {
@@ -2755,6 +2807,18 @@
             [
                 "This potion's container seems to hold a black fog that moves and pours like water.",
                 "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being grappled and restrained, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain Darkvision to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
+            ]
+        },
+        {
+            "name": "Potion of Minor Errands",
+            "rarity": "Rare",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "It's a very clear looking liquid. Tiny sparks are seen inside frequently",
+                "When you drink this potion, you gain an additional bonus action on each of your turns for a minute."
             ]
         },
         {
@@ -2876,7 +2940,7 @@
             ],
             "entries":
             [
-                "An orb that functions as an Arcane Focus, giving -5 to Passive Perception, but proficiency (expertise if you are already proficient) on Arcana checks. You can cast {@spell Legend Lore|PHB} as a 4th level spell, and {@spell Identify|PHB} without expending a spell slot. These spells are added to your spell list if you do not already know them, and they do not count against spells known."
+                "An orb that functions as an Arcane Focus, giving -5 to Passive Perception, but proficiency (expertise if you are already proficient) on Arcana checks. You can cast {@spell legend lore|PHB} as a 4th level spell, and {@spell identify|PHB} without expending a spell slot. These spells are added to your spell list if you do not already know them, and they do not count against spells known."
             ]
         },
         {
@@ -2952,7 +3016,7 @@
             "entries":
             [
                 "A contraption with a huge pearl on the right side and a hemisphere cavity on the left side. Between the two, numerous lenses and prisms are inlaid. The cavity is surfaced with polished adamantine. Whenever a magical item is brought close to the cavity, the pearl shines with the color of the specific magic school. The pearl's brightness points to the intensity of the magic.",
-                "You can expend a spell slot to infuse the machine with your magic to \"{@spell Identify|PHB}\" the item."
+                "You can expend a spell slot to infuse the machine with your magic to \"{@spell identify|PHB}\" the item."
             ]
         },
         {
@@ -2983,7 +3047,7 @@
                     [
                         "If you pay for this statuette willingly, you are cursed.",
                         "As soon as you start fiddling with it, the statuette animates and bites you.",
-                        "When bitten you are affected with {@spell Bane|PHB} and the rat runs away.",
+                        "When bitten you are affected with {@spell bane|PHB} and the rat runs away.",
                         "To get rid of the curse, you must find the rat, petrify it back to a statuette and sell it.",
                         "For the curse to transfer to another, the creature buying it must pay at least 1 copper piece for it."
                     ]

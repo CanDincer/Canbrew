@@ -28,7 +28,7 @@
                 {
                     "str": 2,
                     "con": 2,
-                    "wis": -4
+                    "wis": -2
                 }
             ],
             "size": "M",
@@ -84,7 +84,7 @@
                     "name": "Unique Physiology",
                     "entries":
                     [
-                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have. If you haven't used your movement for the turn, as an action, you can expend a hit die to recover hit points. After doing so, your speed is zero."
+                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have to roll to gain Hit Points. If you haven't used your movement for the turn, as an action, you can expend a hit die to recover hit points. After doing so, your speed is zero."
                     ]
                 },
                 {
@@ -156,7 +156,7 @@
                     "name": "Impervious Vitaliy",
                     "entries":
                     [
-                        "When you roll a hit die, you instead take the maximum of it."
+                        "When you roll a hit die to gain Hit Points, you instead take the maximum of it."
                     ]
                 }
             ],
@@ -217,7 +217,7 @@
                 {
                     "dex": 2,
                     "con": 2,
-                    "wis": -4
+                    "wis": -2
                 }
             ],
             "size": "M",
@@ -274,7 +274,7 @@
                     "name": "Unique Physiology",
                     "entries":
                     [
-                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have. If you haven't used your movement for the turn, as an action, you can expend a hit die to recover hit points. After doing so, your speed is zero."
+                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have to roll to gain Hit Points. If you haven't used your movement for the turn, as an action, you can expend a hit die to recover hit points. After doing so, your speed is zero."
                     ]
                 },
                 {
@@ -407,7 +407,6 @@
                 {
                     "int": 2,
                     "con": 2,
-                    "wis": -2,
                     "cha": -2
                 }
             ],
@@ -465,7 +464,7 @@
                     "name": "Unique Physiology",
                     "entries":
                     [
-                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have. If you haven't used your movement for the turn, as an action, you can expend a hit die to recover hit points. After doing so, your speed is zero."
+                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have to roll to gain Hit Points. If you haven't used your movement for the turn, as an action, you can expend a hit die to recover hit points. After doing so, your speed is zero."
                     ]
                 },
                 {
