@@ -292,7 +292,7 @@
             "weight": 1,
             "dmg1": "1d4",
             "dmgType": "O",
-            "reqAttune": "by a non-divine spellcaster",
+            "reqAttune": "by a non-divine full spellcaster",
             "curse": true,
             "property":
             [
@@ -1726,6 +1726,30 @@
             ]
         },
         {
+            "name": "Templar's Shield",      
+            "baseItem": "Shield|PHB",
+            "type": "S",
+            "weight": 6,
+            "ac": 2,
+            "charges": 2,
+            "reqAttune": "by a Cleric or a Paladin",
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "attachedSpells":
+            [
+                "Identify"
+            ],
+            "entries":
+            [
+                "This is a gold metal book, forged in the mines of Gal'badur.",
+                "The mines were overtaken by an undead plague. A cleric who was seeking shelter was tasked by Tharmekhûl himself to clense the mines. Tharmekhûl landed his light and knowledge to the cleric.",
+                "Upon repenting to Tharmekhûl, the book melts and attaches itself to your shield.",
+                "You are attuned to the shield at union spontaneously.",
+                "The shield grants you two extra Turn Undead casts per rest.",
+                "You know the {@spell identify} spell and can cast it as a ritual."
+            ]
+        },
+        {
             "name": "Anvil Plate Shield",      
             "baseItem": "Shield|PHB",
             "type": "S",
@@ -2600,7 +2624,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "You're not sure who the Swiss are or why an army would need such a non-aggressive wand, but it seems useful enough. Never Leave Home Without It. This wand has 10 charges and it regains {@dice 1d6+1} expended charges daily at dawn. You can expend 1 or more charges to cast one of the following spells from the wand:"
+                "You're not sure who the Swiss are or why an army would need such a non-aggressive wand, but it seems useful enough. Never Leave Home Without It. This wand has 10 charges and it regains {@dice 1d6+1} expended charges daily at dawn. You can expend 1 or more charges to cast one of the following spells from the wand:",
                 {
                     "type": "table",
                     "colLabels":

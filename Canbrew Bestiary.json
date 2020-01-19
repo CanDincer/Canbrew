@@ -3842,18 +3842,18 @@
             ],
             "ac":
             [
-                12
+                13
             ],
             "hp": {
-                "average": 18,
-                "formula": "4d8"
+                "average": 22,
+                "formula": "5d8"
             },
             "speed":
             {
                 "walk": 35
             },
             "str": 11,
-            "dex": 15,
+            "dex": 17,
             "con": 11,
             "int": 13,
             "wis": 11,
@@ -3864,8 +3864,8 @@
             },
             "skill":
             {
-                "perception": "+4",
-                "stealth": "+4"
+                "perception": "+2",
+                "stealth": "+5"
             },
             "immune":
             [
@@ -3884,12 +3884,12 @@
                 "blindsight 10 ft.",
                 "darkvision 60 ft."
             ],
-            "passive": 14,
+            "passive": 12,
             "languages":
             [
                 "understands Common and Celestial but can't speak"
             ],
-            "cr": "1",
+            "cr": "2",
             "trait":
             [
                 {
@@ -3920,7 +3920,7 @@
                     "name": "Khopesh",
                     "entries":
                     [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 2}) piercing damage."
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 3}) piercing damage."
                     ]
                 }
             ],
@@ -3937,7 +3937,8 @@
             ],
             "senseTags":
             [
-                "D"
+                "D",
+                "B"
             ],
             "damageTags":
             [
@@ -4141,6 +4142,129 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/1igzQBi.png"
+                        }
+                    }
+                ]
+            }
+        },
+        
+        {
+            "name": "Lava Drake",
+            "size": "M",
+            "type": "undead",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 52,
+                "formula": "7d8+21"
+            },
+            "speed":
+            {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 11,
+            "con": 16,
+            "int": 4,
+            "wis": 10,
+            "cha": 7,
+            "skill":
+            {
+                "perception": "+2",
+                "stealth": "+3"
+            },
+            "immune":
+            [
+                "fire"
+            ],
+            "vulnerable":
+            [
+                "cold"
+            ],
+            "senses":
+            [
+                "blindsight 10 ft."
+            ],
+            "passive": 12,
+            "languages":
+            [
+                "understands Draconic but can't speak"
+            ],
+            "cr": "3",
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "Lava Drake attacks twice, once with its bite and once with its tail."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Lava Spit {@recharge 5} ([[1d6]]",
+                    "entries":
+                    [
+                        "Lava Drake spits out 1 foot thick molten rock-metal amalgam up to 60 feet. The lava stays hot for a minute, forcing each creature to make a Dexterity saving throw. On a failed save, a creature takes [[{@damage 2d8}]] fire damage, or half as much damage on a successful save. Lava on the ground keeps dealing [[{@damage 1d8}]] fire damage to each creature that ends its turn within. A creature takes the same damage when it enters for the first time on a turn or ends its turn there."
+                    ]
+                }
+            ],
+            "languageTags":
+            [
+                "DR",
+                "CS"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "B",
+                "F"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/zrkeYjB.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/TQiJWdW.jpg"
                         }
                     }
                 ]
