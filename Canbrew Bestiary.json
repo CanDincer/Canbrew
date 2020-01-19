@@ -4151,7 +4151,7 @@
         {
             "name": "Lava Drake",
             "size": "M",
-            "type": "undead",
+            "type": "dragon",
             "source": "Canbrew",
             "alignment":
             [
@@ -4173,7 +4173,8 @@
             },
             "speed":
             {
-                "walk": 35
+                "walk": 35,
+                "climb": 30
             },
             "str": 16,
             "dex": 11,
@@ -4204,6 +4205,16 @@
                 "understands Draconic but can't speak"
             ],
             "cr": "3",
+            "trait":
+            [
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The lava drake has advantage on an attack roll against a creature if at least one of the lava drake's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                    ]
+                }
+            ],
             "action":
             [
                 {
@@ -4234,6 +4245,10 @@
                         "Lava Drake spits out 1 foot thick molten rock-metal amalgam up to 60 feet. The lava stays hot for a minute, forcing each creature to make a Dexterity saving throw. On a failed save, a creature takes [[{@damage 2d8}]] fire damage, or half as much damage on a successful save. Lava on the ground keeps dealing [[{@damage 1d8}]] fire damage to each creature that ends its turn within. A creature takes the same damage when it enters for the first time on a turn or ends its turn there."
                     ]
                 }
+            ],
+            "traitTags":
+            [
+                "Pack Tactics"
             ],
             "languageTags":
             [
