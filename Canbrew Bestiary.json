@@ -4131,7 +4131,7 @@
             [
                 "MW"
             ],
-            "tokenUrl": "https://i.imgur.com/w4aiUEs.png",
+            "tokenUrl": "https://i.imgur.com/nplKK20.png",
             "fluff":
             {
                 "images":
@@ -4147,7 +4147,6 @@
                 ]
             }
         },
-        
         {
             "name": "Lava Drake",
             "size": "M",
@@ -4280,6 +4279,281 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/TQiJWdW.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Verazin Lemmad",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "G"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 19,
+                    "from":
+                    [
+                        "medium armor, ring of protection"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 85,
+                "formula": "10d8+60"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 18,
+            "int": 16,
+            "wis": 14,
+            "cha": 20,
+            "save":
+            {
+                "con": "+8",
+                "cha": "+9"
+            },
+            "skill":
+            {
+                "arcana": "+7",
+                "investigation": "+7",
+                "perception": "+6",
+                "stealth": "+7"
+            },
+            "resist":
+            [
+                "fire"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "languages":
+            [
+                "Common",
+                "Draconic",
+                "Dwarvish",
+                "Elvish",
+                "can speak Primordial but is fluent in Ignan"
+            ],
+            "cr": "10",
+            "trait":
+            [
+                {
+                    "name": "Fire Adept",
+                    "entries":
+                    [
+                        "Any spell or effect Verazin creates ignores resistance to fire damage and treats immunity to fire damage as resistance to fire damage."
+                    ]
+                },
+                {
+                    "name": "Brave",
+                    "entries":
+                    [
+                        "Verazin  has advantage on saving throws against being {@condition frightened}."
+                    ]
+                },
+                {
+                    "name": "Sense Magic",
+                    "entries":
+                    [
+                        "Verazin senses magic within 120 feet of him at will. This trait otherwise works like the detect magic spell but isn't itself magical."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Dagger",
+                    "entries":
+                    [
+                        "{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Shadow Blade",
+                    "entries":
+                    [
+                        "{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}12 ({@damage 2d8 + 3}) psychic damage, and Verazin has advantage on attack rolls against targets in dim light or darkness."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "Verazin is a 13th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Verazin has the following Sorcerer spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell Fire Bolt|PHB}",
+                                "{@spell Light|PHB}",
+                                "{@spell Mage Hand|PHB}",
+                                "{@spell Mending|PHB}",
+                                "{@spell Message|PHB}",
+                                "{@spell Prestidigitation|PHB}",
+                                "{@spell Shocking Grasp|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell Absorb Elements|XGE}",
+                                "{@spell Burning Hands|PHB}",
+                                "{@spell Detect Magic|PHB}",
+                                "{@spell Expeditious Retreat|PHB}",
+                                "{@spell False Life|PHB}",
+                                "{@spell Feather Fall|PHB}",
+                                "{@spell Magic Missile|PHB}",
+                                "{@spell Shield|PHB}",
+                                "{@spell Thunderwave|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Aganazzar's Scorcher|XGE}",
+                                "{@spell Alter Self|PHB}",
+                                "{@spell Blur|PHB}",
+                                "{@spell Darkness|PHB}",
+                                "{@spell Darkvision|PHB}",
+                                "{@spell Knock|PHB}",
+                                "{@spell Mental Barrier|UAFighterRogueWizard}",
+                                "{@spell Misty Step|PHB}",
+                                "{@spell See Invisibility|PHB}",
+                                "{@spell Shadow Blade|XGE}",
+                                "{@spell Thought Shield|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell Blink|PHB}",
+                                "{@spell Counterspell|PHB}",
+                                "{@spell Dispel Magic|PHB}",
+                                "{@spell Fireball|PHB}",
+                                "{@spell Haste|PHB}",
+                                "{@spell Lightning Bolt|PHB}",
+                                "{@spell Melf's Minute Meteors|PHB}",
+                                "{@spell Water Breathing|PHB}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell Dimension Door|PHB}",
+                                "{@spell Dominate Beast|PHB}",
+                                "{@spell Greater Invisibility|PHB}",
+                                "{@spell Stoneskin|PHB}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell Far Step|PHB}",
+                                "{@spell Immolation|XGE}",
+                                "{@spell Teleportation Circle|PHB}"
+                            ]
+                        },
+                        "6": {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell Investiture of Flame|XGE}",
+                                "{@spell True Seeing|PHB}"
+                            ]
+                        },
+                        "7": {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell Fire Storm|PHB}",
+                                "{@spell Plane Shift|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Brave",
+                "Sense Magic"
+            ],
+            "languageTags":
+            [
+                "C",
+                "D",
+                "E",
+                "IG",
+                "P"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "spellcastingTags":
+            [
+                "CS"
+            ],
+            "damageTags":
+            [
+                "P",
+                "F",
+                "O"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "tokenUrl": "https://i.imgur.com/WL8TLE2.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/iGCxdsN.jpg"
                         }
                     }
                 ]

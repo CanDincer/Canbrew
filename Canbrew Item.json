@@ -2992,7 +2992,7 @@
             ]
         },
         {
-            "name": "Horadric Cube (ogd)",
+            "name": "Horadric Cube ogd",
             "rarity": "Very Rare",
             "weight": 0.5,
             "reqAttune": true,
@@ -3002,7 +3002,7 @@
                 "It's a hand-sized cube with engravings on it. The cube can merge the same type of magical items into greater ones.",
                 "If you touch any item to one of its sides, the item is diffused into it. You have one minute to insert the rest of the items. Otherwise, all items are ejected from it.",
                 "The time required for this process is equal to the rarity level x 10 hours. Place 5 of the same item inside the cube, lock the cube and then wait.",
-                "Some examples include: 5 +1 longwords can be merged into a +2 longsword, 5 Potions of Healing can be merged to a Potion of Greater Healing."
+                "Some examples include: 5 +1 Longwords can be merged into a +2 Longsword within 20 hours, 5 Potions of Healing can be merged to a Potion of Greater Healing within 10 hours."
             ]
         },
         {
