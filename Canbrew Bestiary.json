@@ -4415,7 +4415,6 @@
                                 "{@spell Light|PHB}",
                                 "{@spell Mage Hand|PHB}",
                                 "{@spell Mending|PHB}",
-                                "{@spell Message|PHB}",
                                 "{@spell Prestidigitation|PHB}",
                                 "{@spell Shocking Grasp|PHB}"
                             ]
@@ -4425,11 +4424,7 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell Absorb Elements|XGE}",
-                                "{@spell Burning Hands|PHB}",
-                                "{@spell Detect Magic|PHB}",
                                 "{@spell Expeditious Retreat|PHB}",
-                                "{@spell False Life|PHB}",
                                 "{@spell Feather Fall|PHB}",
                                 "{@spell Magic Missile|PHB}",
                                 "{@spell Shield|PHB}",
@@ -4442,8 +4437,6 @@
                             "spells":
                             [
                                 "{@spell Aganazzar's Scorcher|XGE}",
-                                "{@spell Alter Self|PHB}",
-                                "{@spell Blur|PHB}",
                                 "{@spell Darkness|PHB}",
                                 "{@spell Darkvision|PHB}",
                                 "{@spell Knock|PHB}",
@@ -4476,8 +4469,7 @@
                             [
                                 "{@spell Dimension Door|PHB}",
                                 "{@spell Dominate Beast|PHB}",
-                                "{@spell Greater Invisibility|PHB}",
-                                "{@spell Stoneskin|PHB}"
+                                "{@spell Greater Invisibility|PHB}"
                             ]
                         },
                         "5": {
