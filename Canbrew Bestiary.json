@@ -854,7 +854,8 @@
             "passive": 10,
             "languages":
             [
-                "Common"
+                "Common",
+                "Mongolian"
             ],
             "cr": "1",
             "trait":
@@ -900,7 +901,8 @@
             ],
             "languageTags":
             [
-                "C"
+                "C",
+                "OTH"
             ],
             "damageTags":
             [
@@ -989,7 +991,8 @@
             "languages":
             [
                 "Common",
-                "Druidic"
+                "Druidic",
+                "Mongolian"
             ],
             "cr": "3",
             "trait":
@@ -1094,7 +1097,8 @@
             "languageTags":
             [
                 "C",
-                "DU"
+                "DU",
+                "OTH"
             ],
             "damageTags":
             [
@@ -1344,7 +1348,8 @@
             ],
             "languageTags":
             [
-                "C"
+                "C",
+                "OTH"
             ],
             "damageTags":
             [
@@ -3573,7 +3578,8 @@
                     "braces": true
                 }
             ],
-            "hp": {
+            "hp":
+            {
                 "average": 40,
                 "formula": "9d8"
             },
@@ -3719,7 +3725,8 @@
                     ]
                 }
             ],
-            "hp": {
+            "hp":
+            {
                 "average": 35,
                 "formula": "3d20 + 3"
             },
@@ -3844,7 +3851,8 @@
             [
                 13
             ],
-            "hp": {
+            "hp":
+            {
                 "average": 22,
                 "formula": "5d8"
             },
@@ -3985,7 +3993,8 @@
             [
                 12
             ],
-            "hp": {
+            "hp":
+            {
                 "average": 18,
                 "formula": "4d8"
             },
@@ -4166,7 +4175,8 @@
                     ]
                 }
             ],
-            "hp": {
+            "hp":
+            {
                 "average": 52,
                 "formula": "7d8+21"
             },
@@ -4261,7 +4271,7 @@
             "damageTags":
             [
                 "B",
-                "B",
+                "P",
                 "F"
             ],
             "miscTags":
@@ -4546,6 +4556,178 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/iGCxdsN.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shabeshta",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "orc"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "unarmored defense"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 76,
+                "formula": "8d8+40"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 13,
+            "con": 20,
+            "int": 9,
+            "wis": 14,
+            "cha": 17,
+            "save":
+            {
+                "str": "+8",
+                "con": "+8",
+                "wis": "+5"
+            },
+            "skill":
+            {
+                "athletics": "+8",
+                "insight": "+5",
+                "intimidation": "+6",
+                "perception": "+5",
+                "survival": "+5"
+            },
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 15,
+            "languages":
+            [
+                "Common",
+                "Dwarvish",
+                "Goblin",
+                "Orcish"
+            ],
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Agressive",
+                    "entries":
+                    [
+                        "As a bonus action, Shabeshta can move up to its speed toward a hostile creature it can see."
+                    ]
+                },
+                {
+                    "name": "Crushing Build",
+                    "entries":
+                    [
+                        "Shabeshta deals an extra 4 ({@damage 1d8}) damage when she hits with a weapon attack (included in the attacks)."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "Shabeshta makes two attacks with her greatclub or her Javelin."
+                    ]
+                },
+                {
+                    "name": "Greatclub",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 1d8 + 5} plus {@damage 1d8}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Javelin",
+                    "entries":
+                    [
+                        "{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 5} plus {@damage 1d8}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Battle Cry (1/Day)",
+                    "entries":
+                    [
+                        "Each creature of the Shabeshta's choice that is within 30 feet of her, can hear her, and not already affected by Battle Cry gain advantage on attack rolls until the start of the Shabeshta's next turn. Shabeshta can then make one attack as a bonus action."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Boss",
+                "Aggressive"
+            ],
+            "languageTags":
+            [
+                "C",
+                "D",
+                "GO",
+                "O"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "tokenUrl": "https://i.imgur.com/rNA0O9s.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/wePGPuN.jpg"
                         }
                     }
                 ]

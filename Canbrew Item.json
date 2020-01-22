@@ -221,6 +221,31 @@
             ]
         },
         {
+            "name": "Venomous Hand Crossbow",
+            "baseItem": "Hand Crossbow|PHB",
+            "type": "R",
+            "weaponCategory": "Martial",
+            "weight": 3,
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "L",
+                "LD"
+            ],
+            "range": "30/120",
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This magic crossbow carries a small system of curious tubes and vessels. It deals an extra {@damage 1d4} poison damage.",
+                "The crossbow has 4 charges and regains {@dice 1d4} expended charges daily at dawn. You can expend 1 of the weapon's charges when you make an attack with it to coat the fired bolt with a unique, self-generating venom. If the attack hits, the target takes an extra {@damage 3d6} poison damage and must make a DC 13 Constitution saving throw. On a failed save, the target is poisoned until the end of its next turn",
+                "If you expend the crossbow's last charge, roll a d20. On a 1, the vessels attached to the crossbow shatter and spray poison in a 25-foot-radius sphere centered on your location. Creatures within the sphere take {@damage 1d12} poison damage and must succeed on a DC 15 Constitution saving throw or be poisoned for 1 minute. When this happens, the crossbow ceases to be magical and loses all of its additional properties."
+            ]
+        },
+        {
             "name": "Tethervine Quiver",
             "baseItem": "Quiver|PHB",
             "type": "G",
@@ -3052,6 +3077,30 @@
             [
                 "Enchanted by a wizard who was sick of eating their spouse's cooking. This fork tingles in your hand when picked up.",
                 "When you use this fork to eat, you may think of any food begore taking a bite, the food on the fork takes the smell and tastes of what you are thinking of. Should the food on your fork have any poison in it, the fork magically melts in your hand."
+            ]
+        },
+        {
+            "name": "Rat Statuette",
+            "rarity": "Rare",
+            "weight": 0.5,
+            "curse": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "A rat statuette. The rat is posed standing up, trying to smell something.",
+                "If you lick it, roll a Performance check. On a success, you gain the ability to change your voice to someone you have heard before.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries":
+                    [
+                        "If you pay for this statuette willingly, you are cursed.",
+                        "As soon as you start fiddling with it, the statuette animates and bites you.",
+                        "When bitten you are affected with {@spell bane|PHB} and the rat runs away.",
+                        "To get rid of the curse, you must find the rat, petrify it back to a statuette and sell it.",
+                        "For the curse to transfer to another, the creature buying it must pay at least 1 copper piece for it."
+                    ]
+                }
             ]
         },
         {
