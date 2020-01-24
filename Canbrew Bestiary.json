@@ -252,10 +252,6 @@
                     ]
                 }
             ],
-            "traitTags":
-            [
-                "Boss"
-            ],
             "languageTags":
             [
                 "C",
@@ -294,7 +290,7 @@
             }
         },
         {
-            "name": "Ulx",
+            "name": "Goblin Warlord",
             "size": "S",
             "type":
             {
@@ -357,7 +353,7 @@
                     "name": "Boss Fight",
                     "entries":
                     [
-                        "At the start of combat, Ulx rolls twice for initiative, taking two turns per round of combat. At the start of each round, Ulx must reroll for initiative once and replace one of its turns with the new result."
+                        "At the start of combat, the goblin warlord rolls twice for initiative, taking two turns per round of combat. At the start of each round, the goblin warlord must reroll for initiative once and replace one of its turns with the new result."
                     ]
                 }
             ],
@@ -367,20 +363,20 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "Ulx makes two attacks with its Spiked Chain."
+                        "The Goblin warlord makes two attacks with its Spiked Chain."
                     ]
                 },
                 {
                     "name": "Spiked Chain",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage. Ulx can force the target to make a contested Athletics ([[@{npc_athletics}+1d20]]) check. On a failed saving throw, the target is grappled and pulled towards Ulx up 5 ft."
+                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage. The goblin warlord can force the target to make a contested Athletics ([[@{npc_athletics}+1d20]]) check. On a failed saving throw, the target is grappled and pulled towards the goblin warlord up 5 ft."
                     ]
                 }
             ],
             "traitTags":
             [
-                "Boss"
+                "Boss Fight"
             ],
             "languageTags":
             [
@@ -456,11 +452,26 @@
             "cha": 7,
             "vulnerable":
             [
-                "fire (Cursed or Rot only)"
+                "fire (Cursed only)"
             ],
             "resist":
             [
-                "fire (Burning only), bludgeoning, piercing, slashing"
+                {
+                    "resist":
+                    [
+                        "fire"
+                    ],
+                    "note": "(Burning Tree only)"
+                },
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
             ],
             "conditionImmune":
             [
@@ -483,14 +494,14 @@
                     "name": "Boss Fight",
                     "entries":
                     [
-                        "At the start of combat, Cursed Tree rolls twice for initiative, taking two turns per round of combat. At the start of each round, Cursed Tree must reroll for initiative once and replace one of its turns with the new result."
+                        "At the start of combat, the cursed tree rolls twice for initiative, taking two turns per round of combat. At the start of each round, the cursed tree must reroll for initiative once and replace one of its turns with the new result."
                     ]
                 },
                 {
                     "name": "False Appearance (Cursed Tree only)",
                     "entries":
                     [
-                        "While the tree remains motionless, it is indistinguishable from a normal tree."
+                        "While the cursed tree remains motionless, it is indistinguishable from a normal tree."
                     ]
                 },
                 {
@@ -504,14 +515,7 @@
                     "name": "Tactics Change",
                     "entries":
                     [
-                        "When Bloodied Resistance activates, the Cursed Tree becomes a Rot Tree, or if Bloodied Resistance is activated by fire damage it becomes a Burning Tree. This determines which abilities it uses."
-                    ]
-                },
-                {
-                    "name": "Boss Actions",
-                    "entries":
-                    [
-                        "The boss can take 1 boss action, choosing from the options below. Only one boss action option can be used at a time and only at the end of another creature's turn. The boss regains its spent boss action at the start of the round."
+                        "When Bloodied Resistance activates, the cursed tree becomes a Rot Tree, or if Bloodied Resistance is activated by fire damage it becomes a burning tree. This determines which abilities it uses."
                     ]
                 }
             ],
@@ -521,34 +525,42 @@
                     "name": "Multiattack (Burning Tree only)",
                     "entries":
                     [
-                        "Cursed Tree makes two Slam attacks."
+                        "The cursed tree makes two Slam attacks."
                     ]
                 },
                 {
                     "name": "Slam",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage (Cursed Tree), poison damage (Rot Tree), or fire damage (Burning Tree)."
-                    ]
-                },
-                {
-                    "name": "Summon (2/day) (Cursed Tree only)",
-                    "entries":
-                    [
-                        "The Cursed Tree summons [[{@dice 1d2+1}]] Vine Blights."
-                    ]
-                },
-                {
-                    "name": "Summon (2/day) (Rot Tree only)",
-                    "entries":
-                    [
-                        "The Cursed Tree summons [[{@dice 1d2+1}]] Needle Blights."
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage (Cursed Tree), poison damage (Rot Tree), or fire damage (Burning Tree)."
                     ]
                 }
             ],
+            "legendaryGroup":
+            {
+                "name": "Cursed Tree"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Summon (Cursed Tree only)",
+                    "entries":
+                    [
+                        "The cursed tree summons [[{@dice 1d2+1}]] Vine Blights."
+                    ]
+                },
+                {
+                    "name": "Summon (Rot Tree only)",
+                    "entries":
+                    [
+                        "The cursed tree summons [[{@dice 1d2+1}]] Needle Blights."
+                    ]
+                }
+            ],
+            "legendaryActions": 1,
             "traitTags":
             [
-                "Boss",
+                "Boss Fight",
                 "False Appearance"
             ],
             "damageTags":
@@ -739,7 +751,7 @@
             ],
             "legendaryGroup":
             {
-                "name": "Werewolf ALpha"
+                "name": "Werewolf Alpha"
             },
             "legendary":
             [
@@ -747,24 +759,25 @@
                     "name": "Leap",
                     "entries":
                     [
-                        "The Werewolf ALpha moves up to its speed without provoking opportunity attacks."
+                        "The werewolf alpha moves up to its speed without provoking opportunity attacks."
                     ]
                 },
                 {
                     "name": "Bark Orders",
                     "entries":
                     [
-                        "The Werewolf ALpha chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
+                        "The werewolf alpha chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
                     ]
                 },
                 {
                     "name": "Frenzy (Costs 2 Actions)",
                     "entries":
                     [
-                        "The Werewolf ALpha can make one claw attack against each creature within 5 feet of it."
+                        "The werewolf alpha can make one claw attack against each creature within 5 feet of it."
                     ]
                 }
             ],
+            "legendaryActions": 3,
             "traitTags":
             [
                 "Boss",
@@ -864,14 +877,14 @@
                     "name": "Flourish",
                     "entries":
                     [
-                        "The Mongolian Pirate Hunter adds their Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
+                        "The mongolian pirate hunter adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
                     ]
                 },
                 {
                     "name": "Sea Legs",
                     "entries":
                     [
-                        "The Mongolian Pirate Hunter has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                        "The mongolian pirate hunter has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
@@ -881,7 +894,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The Mongolian Pirate Hunter makes two attacks with their Scimitar or two attacks with their Shortbow."
+                        "The mongolian pirate hunter makes two attacks with its scimitar or two attacks with its Shortbow."
                     ]
                 },
                 {
@@ -1001,14 +1014,14 @@
                     "name": "Flourish",
                     "entries":
                     [
-                        "The Mongolian Pirate Hunter Shaman adds their Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
+                        "The mongolian pirate hunter shaman adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
                     ]
                 },
                 {
                     "name": "Sea Legs",
                     "entries":
                     [
-                        "The Mongolian Pirate Hunter Shaman has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                        "The mongolian pirate hunter shaman has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
@@ -1035,7 +1048,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The Mongolian Pirate Hunter Shaman is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 6} to hit with spell attacks). The Mongolian pirate Hunter Shaman has the following druid spells prepared:"
+                        "The mongolian pirate hunter shaman is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 6} to hit with spell attacks). The mongolian pirate hunter shaman has the following druid spells prepared:"
                     ],
                     "spells":
                     {
@@ -1286,14 +1299,14 @@
                     "name": "Flourish",
                     "entries":
                     [
-                        "The captain adds their Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
+                        "The mongolian pirate hunter captain adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
                     ]
                 },
                 {
                     "name": "Sea Legs",
                     "entries":
                     [
-                        "The captain has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                        "The mongolian pirate hunter captain has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
@@ -1303,7 +1316,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The captain makes four attacks with their Scimitars or two attacks with their Shortbow."
+                        "The mongolian pirate hunter captain makes four attacks with its scimitars or two attacks with its shortbow."
                     ]
                 },
                 {
@@ -1331,17 +1344,18 @@
                     "name": "Heave ho, scallywag",
                     "entries":
                     [
-                        "The captain orders an ally to run up to their speed and make an attack."
+                        "The mongolian pirate hunter captain orders an ally to run up to its speed and make an attack."
                     ]
                 },
                 {
                     "name": "Shiver me timbers",
                     "entries":
                     [
-                        "The captain takes a step back and all negative effects and conditions on them ends." 
+                        "The mongolian pirate hunter captain takes a step back and all negative effects and conditions on it ends." 
                     ]
                 }
             ],
+            "legendaryActions": 2,
             "traitTags":
             [
                 "Boss"
@@ -1558,7 +1572,7 @@
                 "type": "beast",
                 "tags":
                 [
-                    "squirrelfolk"
+                    "squirrel"
                 ]
             },
             "source": "Canbrew",
@@ -1726,7 +1740,7 @@
                 "type": "beast",
                 "tags":
                 [
-                    "squirrelfolk"
+                    "squirrel"
                 ]
             },
             "source": "Canbrew",
@@ -1890,7 +1904,7 @@
                 "type": "beast",
                 "tags":
                 [
-                    "squirrelfolk"
+                    "squirrel"
                 ]
             },
             "source": "Canbrew",
@@ -2055,7 +2069,7 @@
                 "type": "beast",
                 "tags":
                 [
-                    "squirrelfolk"
+                    "squirrel"
                 ]
             },
             "source": "Canbrew",
@@ -2230,7 +2244,7 @@
                 "type": "beast",
                 "tags":
                 [
-                    "squirrelfolk"
+                    "squirrel"
                 ]
             },
             "source": "Canbrew",
@@ -2464,7 +2478,7 @@
                 "type": "beast",
                 "tags":
                 [
-                    "squirrelfolk"
+                    "squirrel"
                 ]
             },
             "source": "Canbrew",
@@ -2692,7 +2706,7 @@
                 "type": "beast",
                 "tags":
                 [
-                    "squirrelfolk"
+                    "squirrel"
                 ]
             },
             "source": "Canbrew",
@@ -2888,7 +2902,7 @@
                 "type": "beast",
                 "tags":
                 [
-                    "squirrelfolk"
+                    "squirrel"
                 ]
             },
             "source": "Canbrew",
@@ -4728,6 +4742,249 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/wePGPuN.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Venom Queen",
+            "source": "Canbrew",
+            "size": "G",
+            "type": "monstrosity",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 188,
+                "formula": "13d20 + 52"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "climb": 40
+            },
+            "str": 21,
+            "dex": 14,
+            "con": 18,
+            "int": 10,
+            "wis": 17,
+            "cha": 13,
+            "save":
+            {
+                "dex": "+6",
+                "wis": "+7",
+                "cha": "+5"
+            },
+            "skill":
+            {
+                "perception": "+7",
+                "stealth": "+10"
+            },
+            "senses":
+            [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "charmed",
+                "poisoned"
+            ],
+            "languages":
+            [
+                "understands Common and Elvish but can't speak them",
+                "telepathy 120 ft."
+            ],
+            "cr": "11",
+            "trait":
+            [
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The venom queen can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Spider Telepathy",
+                    "entries":
+                    [
+                        "The venom queen can magically command any spiders within 120 feet of it using telepathy."
+                    ]
+                },
+                {
+                    "name": "Web Sense",
+                    "entries":
+                    [
+                        "While in contact with a web, the venom queen knows the exact location of any other creature in contact with the same web."
+                    ]
+                },
+                {
+                    "name": "Web Rappel",
+                    "entries":
+                    [
+                        "While clinging to a wall or ceiling, the venom queen can fall any distance without taking damage, landing silently on its legs."
+                    ]
+                },
+                {
+                    "name": "Web Walker",
+                    "entries":
+                    [
+                        "The venom queen ignores movement restrictions caused by webbing."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The venom queen makes two attacks with its claws, one of which can be replaced with a bite attack. It can also make a web attack, if recharged."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d12 + 5}) piercing damage, and the target must make a {@dc 14} Constitution saving throw.",
+                        "On a failed save, the target takes ([[{@damage 4d10}]]) poison damage and is {@condition poisoned} for 1 hour. On a successful save, the target takes half as much damage and is not {@condition poisoned}. A creature {@condition poisoned} by this attack has its movement speed halved and repeats its save at the end of each of its turns, ending the condition on a success.",
+                        "If the poison damage from this attack reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Venom Spittle",
+                    "entries":
+                    [
+                        "Each creature in a 5-foot wide, 30-foot long line must make a DC14 Dexterity saving throw.",
+                        "On a failed save, a creature takes 18 ({@damage 4d8}) poison damage and is {@condition blinded} until the end of its next turn. On a successful save, a creature takes half as much poison damage and is not {@condition blinded}."
+                    ]
+                },
+                {
+                    "name": "Summon Brood (1/Day)",
+                    "entries":
+                    [
+                        "The venom queen magically calls {@dice 1d4} venom crawler hatchlings and {@dice 1d4} venom crawlers. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the venom queen and obeying its telepathic commands. The beasts remain for 1 hour, until the venom queen dies, or until the venom queen dismisses them as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Web {@recharge 4} ([[1d6]])",
+                    "entries":
+                    [
+                        "The venom queen uses one of the following web effects."
+                    ]
+                },
+                {
+                    "name": "Binding Web",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 6} to hit, range",
+                        "40/80 ft., one creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 14} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 12; hp 15; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage). If the target is already {@condition restrained} by webbing, then until freed, it also becomes {@condition blinded} and {@condition deafened}, it can't make attacks, and the DC to burst the webbing increases to 16."
+                    ]
+                },
+                {
+                    "name": "Snaring Strand",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 6} to hit, range 40 ft., one creature. {@h}A tough, rubbery strand of webbing attaches to the target in a straight line. While this strand is attached, the creature can't move further from the venom queen than the length of the strand, the venom queen can't use its web action on another target, and as a bonus action on each of the venom queen's turns, it can force the target to make a",
+                        "{@dc 15} Strength saving throw. On a failed save, the target is pulled up to 20 feet closer to the venom queen, simultaneously shortening the length of the attached web strand by the same distance. The web strand can be attacked and destroyed (AC 13; hp 15; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage), or the venom queen can choose to detach it at any point on each of its turns (no action)."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Venom Queen"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Detect",
+                    "entries":
+                    [
+                        "The venom queen makes a Wisdom (Perception) check."
+                    ]
+                },
+                {
+                    "name": "Command",
+                    "entries":
+                    [
+                        "One spider within 120 feet of the venom queen can either move up to half its speed or make a single weapon attack."
+                    ]
+                },
+                {
+                    "name": "Skitter (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The venom queen moves up to its speed, not provoking opportunity attacks. While doing so, it can enter the spaces of any Large or smaller creatures. The first time on a turn that the venom queen enters the space of a creature that isn't a spider, the creature must succeed on a {@dc 12} Dexterity saving throw or take 9 ({@damage 2d8}) piercing damage."
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Spider Climb",
+                "Web Sense",
+                "Web Walker"
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "CS",
+                "E",
+                "TP"
+            ],
+            "damageTags": [
+                "P",
+                "I",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH",
+                "RW"
+            ],
+            "tokenUrl": "https://i.imgur.com/lpimqV3.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/dwSijV9.png"
                         }
                     }
                 ]
