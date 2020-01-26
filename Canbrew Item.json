@@ -330,14 +330,109 @@
             [
                 "A very large fang with a slight curve. In darkness, you can see shadows bend towards it.",
                 "If you try to throw it, it hangs in the air in front of you.",
-                "You can use your bonus action to command it with you mind. It has a flying speed of up to 40 feet, but it can only travel in a straight line that you can see during a turn and it can't go through creatures. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls.",
-                "If you kill a creature with it, the creature turns into a shadow and absorbed by the fang. The fang, then, grants you an extra action that you have to use before you end your turn. If you try to throw it, it hangs in the air after leaving your hand.",
+                "You can use your bonus action to command it with your mind. It has a flying speed of up to 40 feet, but it can only travel in a straight line that you can see during a turn and it can't go through creatures. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, both trying to consume you and trying to make you spread His shadows."
+                        "It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, either trying to consume you or trying to make you spread his shadows.",
+                        "If you accept to become his prophet, a sigil appears on your chest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Shadow Touched",
+                    "entries":
+                    [
+                        "In darkness your entire body becomes swirled in shadows, granting you proficiency (expertise if you are already proficient) in Dexterity (Stealth) checks made to hide."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Cult of Annihilator",
+                    "entries":
+                    [
+                        "You can turn a willing creature to cult worshipper by extending your shadow. A small part of the sigil appears on their chest and their skin color darkens.",
+                        "For each sentient being you convince to join the cult, the sigil spreads with new runes."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Offering to the Shadows",
+                    "entries":
+                    [
+                        "Sacrificing creatures with the fang activates the runes on your sigil. Activated runes glow dimly.",
+                        "You can have maximum runic charges active equal to the cultists you have (i.e. runes you have)."
+                    ]
+                },
+                "You can use active runes to conjure special powers granted by the Great Annihilator. A used rune deactivates. Powers you can conjure are listed below.",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        {
+                            "type": "entries",
+                            "name": "0 cultists",
+                            "entries":
+                            [
+                                "While you're inside shadows or at most a dimly lighted area, as a bonus action, you can \"{@spell blink|PHB} teleport\". Doing so expends two runic charges.",
+                                "You can travel up to 60 ft. through shadows and darkness to a place you can see at the location you've started.",
+                                "You do not provoke opportunity attacks while you travel in this manner.",
+                                "You cannot attack or take any other actions until you emerge from the shadows."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "10 cultists",
+                            "entries":
+                            [
+                                "As an action, you can summon up to two {@creature shadow mastiff|VGM}s (5 charges each). They stay with you for an hour, unless they drop to zero hit points, or unless you lose your concentration on this power. You mentally guide the summoned mastiffs"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "20 cultists",
+                            "entries":
+                            [
+                                "You can expend two runic charges and use your enemy's shadow against it.",
+                                "You reach a creature's shadows with yours and grapple it until the start of your next turn. The creature can try to resist this effect with Strength or Intelligence saving throw, once when you first grapple it and again at the end of each of its turns."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "30 cultists",
+                            "entries":
+                            [
+                                "You can infuse an attack with The Great Annihilator's shadow. With a cost of 1 runic charge, you add your spell attack bonus to the damage of a spell attack."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "35 cultists",
+                            "entries":
+                            [
+                                "You have +1 bonus to your spell attack rolls"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "40 cultists",
+                            "entries":
+                            [
+                                "You can detach your shadow from your body using a bonus action. Doing so expends 10 runic charges.",
+                                "Your shadow clone has half your maximum hit points and a shadow copy of everything you had equipped at the time of detachment. It can only make weapon attacks and deals half damage. You can use an action to see through its eyes. After a minute or when called, shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the minute. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so exerts the shadow clone immediately."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "50 cultists",
+                            "entries":
+                            [
+                                "The Great Annihilator grants you a part of his own shadow",
+                                "When you're mortally wounded you can forego 50 runic charges to become a shadow with 1 hit point for one minute. You're not invisible but cannot be interacted with. At the end of your reformation, you are fully healed and your spell slots and traits are restored as if you had completed a long rest."
+                            ]
+                        }
                     ]
                 }
             ]
@@ -495,7 +590,7 @@
             "baseItem": "Handaxe|PHB",
             "type": "M",
             "weaponCategory": "Simple",
-            "weight": 10,
+            "weight": 2,
             "dmg1": "1d6",
             "dmgType": "S",
             "reqAttune": true,
