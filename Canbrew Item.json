@@ -362,7 +362,7 @@
                     "name": "Offering to the Shadows",
                     "entries":
                     [
-                        "Sacrificing creatures with the fang activates the runes on your sigil. Activated runes glow dimly.",
+                        "Sacrificing worthy (living creatures with CR over 1) creatures with the fang activates the runes on your sigil. Activated runes glow dimly.",
                         "You can have maximum runic charges active equal to the cultists you have (i.e. runes you have)."
                     ]
                 },
@@ -376,10 +376,7 @@
                             "name": "0 cultists",
                             "entries":
                             [
-                                "While you're inside shadows or at most a dimly lighted area, as a bonus action, you can \"{@spell blink|PHB} teleport\". Doing so expends two runic charges.",
-                                "You can travel up to 60 ft. through shadows and darkness to a place you can see at the location you've started.",
-                                "You do not provoke opportunity attacks while you travel in this manner.",
-                                "You cannot attack or take any other actions until you emerge from the shadows."
+                                "You can infuse a spell attack with the Great Annihilator's shadow. With a cost of 1 runic charge, you add your spell attack bonus to the damage of a spell attack."
                             ]
                         },
                         {
@@ -395,7 +392,7 @@
                             "name": "20 cultists",
                             "entries":
                             [
-                                "You can expend two runic charges and use your enemy's shadow against it.",
+                                "You can expend 2 runic charges and use your enemy's shadow against it.",
                                 "You reach a creature's shadows with yours and grapple it until the start of your next turn. The creature can try to resist this effect with Strength or Intelligence saving throw, once when you first grapple it and again at the end of each of its turns."
                             ]
                         },
@@ -404,15 +401,10 @@
                             "name": "30 cultists",
                             "entries":
                             [
-                                "You can infuse an attack with The Great Annihilator's shadow. With a cost of 1 runic charge, you add your spell attack bonus to the damage of a spell attack."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "35 cultists",
-                            "entries":
-                            [
-                                "You have +1 bonus to your spell attack rolls"
+                                "While you're inside shadows or at most a dimly lighted area, as a bonus action, you can \"{@spell blink|PHB} teleport\". Doing so expends 3 runic charges.",
+                                    "You can travel up to 60 ft. through shadows and darkness to a place you can see at the location you've started.",
+                                    "You do not provoke opportunity attacks while you travel in this manner.",
+                                    "You cannot attack or take any other actions until you emerge from the shadows."
                             ]
                         },
                         {
@@ -431,6 +423,14 @@
                             [
                                 "The Great Annihilator grants you a part of his own shadow",
                                 "When you're mortally wounded you can forego 50 runic charges to become a shadow with 1 hit point for one minute. You're not invisible but cannot be interacted with. At the end of your reformation, you are fully healed and your spell slots and traits are restored as if you had completed a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "60 cultists",
+                            "entries":
+                            [
+                                "You have +1 bonus to your spell attack rolls"
                             ]
                         }
                     ]
