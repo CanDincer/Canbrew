@@ -675,6 +675,45 @@
             ]
         },
         {
+            "name": "Staff of Elementalist",
+            "baseItem": "Quarterstaff|PHB",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 4,
+            "dmg1": "1d6",
+            "dmg2": "1d8",
+            "dmgType": "B",
+            "reqAttune": true,
+            "property":
+            [
+                "V"
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This staff has polychromatic opal stones attached at the tips. Each opal can hold one elemental's essence.",
+                "When an elemental with CR 5 or higher dies within 30 feet of you, you can use your reaction to capture the released energy from it. You can also, within the same reaction, release up to two essences from before to make room for the new ones.",
+                "The staff deals bludgeoning damage innately but you can change the damage type of the staff to one of the type of elementals you've captured.",
+                "You can use an action to conjure a CR 1 mephit according to the elementals contained.",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "Fire + Water = {@creature Steam Mephit}",
+                        "Water + Water = {@creature Ice Mephit}",
+                        "Air + Fire = {@creature Smoke Mephit}",
+                        "Earth + Air = {@creature Dust Mephit}",
+                        "Water + Earth = {@creature Mud Mephit}",
+                        "Fire + Earth = {@creature Magma Mephit}"
+
+                    ]
+                },
+                "Stored elemental energy is released and lost after a successful conjuring. You can only have one mephit bound to you. Conjuring another while one already exists, creates an unbound mephit.",
+                "A mephit conjured using this staff stays away from settlements. If you enter a settlement the mephit will leave you."
+            ]
+        },
+        {
             "name": "Spell Jammer",
             "type": "RD",
             "weight": 2,
@@ -3201,7 +3240,7 @@
         {
             "name": "Rat Statuette",
             "rarity": "Rare",
-            "weight": 0.5,
+            "weight": 1,
             "curse": true,
             "source": "Canbrew",
             "entries":
@@ -3232,7 +3271,69 @@
             [
                 "During a long rest, you can take 1 hour to read a spell to the earring. The earring will memorise it and remind you if you ever need to.",
                 "The number of spells you know increases by 1.",
+                "You can cast the spell memorised by the earring once every day without expending a spell slot.",
                 "You have a +1 bonus to spell attack rolls."
+            ]
+        },
+        {
+            "name": "Brass Centipede",
+            "rarity": "Rare",
+            "weight": 2,
+            "curse": true,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "When you attune to this statuette of a brass centipede, it animates and crawls into your ear. The centipede nests inside your brain, creating an extra alter ego for you to expand your mind and concentrate for you. You can concentrate on 2 spells at the same time.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries":
+                    [
+                        "You have to fend for two minds at the same time. You have disadvantage on saving throws against spell effects and magic.",
+                        "You need surgical tools and a surgeon to remove this centipede from your brain without killing yourself."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Companion Coin",
+            "rarity": "Uncommon",
+            "weight": 0.1,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This coin creates an unbreakable magic link with a single creature when they drop a drip of blood upon it. Once linked, their name is magically inscribed on the blank side. When the coin is flipped and untouched until landing, it shows the following:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "If it lands with the skull face up, they are dying or in a life threatening position.",
+                        "If it lands with their name side face up, they're in no danger and doing okay.",
+                        "If the coin lands on its edge, they are dead."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Horn of Vulgrim",
+            "weight": 2,
+            "rarity": "Legendary",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This is the broken horn of Vulgrim the demonic merchant. You can blow it to call him from anywhere and he will humbly answer your call.",
+                "When summoned, a glyph portal will open at the nearest square to the summoner. Any creature overlapping with the portal must succeed on a {@dc 19} Dexterity saving throw or take {@damage 3d6} bludgeoning damage and be knocked {@condition prone}.",
+                "He also accepts souls as payment.",
+                {
+                    "type": "quote",
+                    "entries":
+                    [
+                        "Vulgrim's twisted mind spins with so many detestable schemes that I doubt he even trusts himself. If this wretched demon's business is collecting souls, his pleasure is devouring them.",
+                        "Always ravenous, Vulgrim will beg, steal or kill for souls. He has also been known to trade for them. A desperate warrior might find such a black bargain palatable."
+                    ],
+                    "by": "Al'chaia"
+                }
             ]
         }
     ]

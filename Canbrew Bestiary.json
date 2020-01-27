@@ -222,8 +222,8 @@
                         {
                             "spells":
                             [
-                                "{@spell Chill Touch|PHB}",
-                                "{@spell Blade Ward|PHB}"
+                                "{@spell chill touch|PHB}",
+                                "{@spell blade ward|PHB}"
                             ]
                         },
                         "2":
@@ -232,9 +232,9 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell Hex|PHB}",
-                                "{@spell Armor of Agathys|PHB}",
-                                "{@spell Misty Step|PHB}"
+                                "{@spell hex|PHB}",
+                                "{@spell armor of agathys|PHB}",
+                                "{@spell misty step|PHB}"
                             ]
                         }
                     },
@@ -840,7 +840,7 @@
                     "ac": 13,
                     "from":
                     [
-                        "{@item Studded Leather Armor|phb}"
+                        "{@item studded leather armor|phb}"
                     ]
                 }
             ],
@@ -970,12 +970,12 @@
                     "ac": 13,
                     "from":
                     [
-                        "{@item Studded Leather Armor|PHB}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 },
                 {
                     "ac": 16,
-                    "condition": "with {@spell Barkskin|PHB}",
+                    "condition": "with {@spell barkskin|PHB}",
                     "braces": true
                 }
             ],
@@ -1031,7 +1031,7 @@
                     "name": "Quarterstaff",
                     "entries":
                     [
-                        "{@atk mw} {@hit 3} to hit ({@hit 5} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage with {@spell Shillelagh|PHB} or if wielded with two hands."
+                        "{@atk mw} {@hit 3} to hit ({@hit 5} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage with {@spell shillelagh|PHB} or if wielded with two hands."
                     ]
                 },
                 {
@@ -1056,8 +1056,8 @@
                         {
                             "spells":
                             [
-                                "{@spell Druidcraft|PHB}",
-                                "{@spell Shillelaghe|PHB}"
+                                "{@spell druidcraft|PHB}",
+                                "{@spell shillelaghe|PHB}"
                             ]
                         },
                         "1":
@@ -1065,9 +1065,9 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell Entangle|PHB}",
-                                "{@spell Goodberry|PHB}",
-                                "{@spell Speak With Animals|PHB}"
+                                "{@spell entangle|PHB}",
+                                "{@spell goodberry|PHB}",
+                                "{@spell speak with animals|PHB}"
                             ]
                         },
                         "2":
@@ -1075,9 +1075,9 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Lesser Restoration|PHB}",
-                                "{@spell Barkskin|PHB}",
-                                "{@spell Healing Spirit|XGE}"
+                                "{@spell lesser restoration|PHB}",
+                                "{@spell barkskin|PHB}",
+                                "{@spell healing spirit|XGE}"
                             ]
                         },
                         "3":
@@ -1085,8 +1085,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Conjure Animals|PHB}",
-                                "{@spell Tidal Wave|XGE}"
+                                "{@spell conjure animals|PHB}",
+                                "{@spell tidal wave|XGE}"
                             ]
                         },
                         "4":
@@ -1094,8 +1094,8 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell Conjure Minor Elementals|PHB}",
-                                "{@spell Control Water|PHB}"
+                                "{@spell conjure minor elementals|PHB}",
+                                "{@spell control water|PHB}"
                             ]
                         }
                     },
@@ -2377,8 +2377,8 @@
                         {
                             "spells":
                             [
-                                "{@spell Light|PHB}",
-                                "{@spell Sacred Flame|PHB}"
+                                "{@spell light|PHB}",
+                                "{@spell sacred flame|PHB}"
                             ]
                         },
                         "1":
@@ -2386,8 +2386,8 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell Cure Wounds|PHB}",
-                                "{@spell Sanctuary|PHB}"
+                                "{@spell cure wounds|PHB}",
+                                "{@spell sanctuary|PHB}"
                             ]
                         },
                         "2":
@@ -2395,8 +2395,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Lesser Restoration|PHB}",
-                                "{@spell Detect Magic|PHB}"
+                                "{@spell lesser restoration|PHB}",
+                                "{@spell Detect magic|PHB}"
                             ]
                         },
                         "3":
@@ -2404,8 +2404,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Dispel Magic|PHB}",
-                                "{@spell Spirit Guardians|PHB}"
+                                "{@spell dispel magic|PHB}",
+                                "{@spell spirit guardians|PHB}"
                             ]
                         },
                         "4":
@@ -2413,15 +2413,15 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell Banishment|PHB}",
-                                "{@spell Guardian of Faith|PHB}"
+                                "{@spell banishment|PHB}",
+                                "{@spell guardian of faith|PHB}"
                             ]
                         },
                         "5": {
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell Greater Restoration|PHB}"
+                                "{@spell greater restoration|PHB}"
                             ]
                         }
                     },
@@ -2604,8 +2604,8 @@
                         {
                             "spells":
                             [
-                                "{@spell Vicious Mockery|PHB}",
-                                "{@spell Friends|PHB}"
+                                "{@spell vicious mockery|PHB}",
+                                "{@spell friends|PHB}"
                             ]
                         },
                         "1":
@@ -2613,9 +2613,9 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell Healing Word|PHB}",
-                                "{@spell Heroism|PHB}",
-                                "{@spell Shield|PHB}"
+                                "{@spell healing word|PHB}",
+                                "{@spell heroism|PHB}",
+                                "{@spell shield|PHB}"
                             ]
                         },
                         "2":
@@ -2623,8 +2623,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Pyrotechnics|XGE}",
-                                "{@spell Suggestion|PHB}"
+                                "{@spell pyrotechnics|XGE}",
+                                "{@spell suggestion|PHB}"
                             ]
                         },
                         "3":
@@ -2632,8 +2632,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Leomund's Tiny Hut|PHB}",
-                                "{@spell Motivational Speech|PHB}"
+                                "{@spell leomund's tiny hut|PHB}",
+                                "{@spell motivational speech|PHB}"
                             ]
                         },
                         "4":
@@ -2641,15 +2641,15 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell Dimension Door|PHB}",
-                                "{@spell Polymorph|PHB}"
+                                "{@spell dimension door|PHB}",
+                                "{@spell polymorph|PHB}"
                             ]
                         },
                         "5": {
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell Animate Objects|PHB}"
+                                "{@spell animate objects|PHB}"
                             ]
                         }
                     },
@@ -2832,9 +2832,9 @@
                         {
                             "spells":
                             [
-                                "{@spell Chill Touch|PHB}",
-                                "{@spell Eldritch Blast|PHB}",
-                                "{@spell Mage Hand|PHB}"
+                                "{@spell chill touch|PHB}",
+                                "{@spell eldritch blast|PHB}",
+                                "{@spell mage hand|PHB}"
                             ]
                         },
                         "5":
@@ -2843,9 +2843,9 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell Conjure Animals|PHB} (spiders only)",
-                                "{@spell Dimension Door|PHB}",
-                                "{@spell Invisibility|PHB}"
+                                "{@spell conjure animals|PHB} (spiders only)",
+                                "{@spell dimension door|PHB}",
+                                "{@spell invisibility|PHB}"
                             ]
                         }
                     },
@@ -3028,8 +3028,8 @@
                         {
                             "spells":
                             [
-                                "{@spell Fire Bolt|PHB}",
-                                "{@spell Prestidigitation|PHB}"
+                                "{@spell fire bolt|PHB}",
+                                "{@spell prestidigitation|PHB}"
                             ]
                         },
                         "1":
@@ -3037,9 +3037,9 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell Mage Armor|PHB}",
-                                "{@spell Magic Missile|PHB}",
-                                "{@spell Shield|PHB}"
+                                "{@spell mage armor|PHB}",
+                                "{@spell magic missile|PHB}",
+                                "{@spell shield|PHB}"
                             ]
                         },
                         "2":
@@ -3047,8 +3047,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Detect Thoughts|PHB}",
-                                "{@spell Misty Step|PHB}"
+                                "{@spell detect thoughts|PHB}",
+                                "{@spell misty step|PHB}"
                             ]
                         },
                         "3":
@@ -3056,8 +3056,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Counterspell|PHB}",
-                                "{@spell Fireball|PHB}"
+                                "{@spell counterspell|PHB}",
+                                "{@spell fireball|PHB}"
                             ]
                         },
                         "4":
@@ -3065,15 +3065,15 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell Stoneskin|PHB}",
-                                "{@spell Polymorph|PHB}"
+                                "{@spell stoneskin|PHB}",
+                                "{@spell polymorph|PHB}"
                             ]
                         },
                         "5": {
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell Conjure Elemental|PHB}"
+                                "{@spell conjure elemental|PHB}"
                             ]
                         }
                     },
@@ -3452,7 +3452,7 @@
             "hp":
             {
                 "average": 5,
-                "formula": "2d6-2"
+                "formula": "2d6 - 2"
             },
             "speed":
             {
@@ -3588,7 +3588,7 @@
                 12,
                 {
                     "ac": 15,
-                    "condition": "with {@spell Mage Armor|PHB}",
+                    "condition": "with {@spell mage armor|PHB}",
                     "braces": true
                 }
             ],
@@ -3637,47 +3637,47 @@
                     "spells": {
                         "0": {
                             "spells": [
-                                "{@spell fire bolt}",
-                                "{@spell light}",
-                                "{@spell mage hand}",
-                                "{@spell prestidigitation}"
+                                "{@spell fire bolt|PHB}",
+                                "{@spell light|PHB}",
+                                "{@spell mage hand|PHB}",
+                                "{@spell prestidigitation|PHB}"
                             ]
                         },
                         "1": {
                             "slots": 4,
                             "spells": [
-                                "{@spell Witch Bolt|PHB}",
-                                "{@spell mage armor}",
-                                "{@spell magic missile}",
-                                "{@spell shield}"
+                                "{@spell witch bolt|PHB}",
+                                "{@spell mage armor|PHB}",
+                                "{@spell magic missile|PHB}",
+                                "{@spell shield|PHB}"
                             ]
                         },
                         "2": {
                             "slots": 3,
                             "spells": [
-                                "{@spell misty step}",
-                                "{@spell suggestion}"
+                                "{@spell misty step|PHB}",
+                                "{@spell suggestion|PHB}"
                             ]
                         },
                         "3": {
                             "slots": 3,
                             "spells": [
-                                "{@spell counterspell}",
-                                "{@spell fireball}",
-                                "{@spell fly}"
+                                "{@spell counterspell|PHB}",
+                                "{@spell fireball|PHB}",
+                                "{@spell fly|PHB}"
                             ]
                         },
                         "4": {
                             "slots": 3,
                             "spells": [
-                                "{@spell greater invisibility}",
-                                "{@spell ice storm}"
+                                "{@spell greater invisibility|PHB}",
+                                "{@spell ice storm|PHB}"
                             ]
                         },
                         "5": {
                             "slots": 1,
                             "spells": [
-                                "{@spell cone of cold}"
+                                "{@spell cone of cold|PHB}"
                             ]
                         }
                     },
@@ -3804,7 +3804,7 @@
                     ]
                 },
                 {
-                    "name": "Acid Breath {@recharge 5} ([[1d6]])",
+                    "name": "Acid Breath {@recharge 5} [[1d6]]",
                     "entries":
                     [
                         "{@atk rw} {@hit 4} to hit, reach 15 ft., any target. {@h}22 ({@damage 5d8}) acid damage on a failed save, or half as much damage on a successful one."
@@ -4078,8 +4078,8 @@
                         {
                             "spells":
                             [
-                                "{@spell Light|PHB}",
-                                "{@spell Sacred Flame|PHB}"
+                                "{@spell light|PHB}",
+                                "{@spell sacred flame|PHB}"
                             ]
                         },
                         "1":
@@ -4087,8 +4087,8 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell Identify|PHB}",
-                                "{@spell Searing Smite|PHB}"
+                                "{@spell identify|PHB}",
+                                "{@spell searing smite|PHB}"
                             ]
                         },
                         "2":
@@ -4096,8 +4096,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Heat Metal|PHB}",
-                                "{@spell Magic Weapon|PHB}"
+                                "{@spell heat metal|PHB}",
+                                "{@spell magic meapon|PHB}"
                             ]
                         },
                         "3":
@@ -4105,8 +4105,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Elemental Weapon|PHB}",
-                                "{@spell Protection from Energy|PHB}"
+                                "{@spell elemental weapon|PHB}",
+                                "{@spell protection from energy|PHB}"
                             ]
                         },
                         "4":
@@ -4114,16 +4114,16 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell Fabricate|PHB}",
-                                "{@spell Wall of Fire|PHB}"
+                                "{@spell fabricate|PHB}",
+                                "{@spell wall of fire|PHB}"
                             ]
                         },
                         "5": {
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell Animate Objects|PHB}",
-                                "{@spell Creation|PHB}"
+                                "{@spell animate objects|PHB}",
+                                "{@spell creation|PHB}"
                             ]
                         }
                     },
@@ -4192,7 +4192,7 @@
             "hp":
             {
                 "average": 52,
-                "formula": "7d8+21"
+                "formula": "7d8 + 21"
             },
             "speed":
             {
@@ -4262,7 +4262,7 @@
                     ]
                 },
                 {
-                    "name": "Lava Spit {@recharge 5} ([[1d6]]",
+                    "name": "Lava Spit {@recharge 5} [[1d6]]",
                     "entries":
                     [
                         "Lava Drake spits out 1 foot thick molten rock-metal amalgam up to 60 feet. The lava stays hot for a minute, forcing each creature to make a Dexterity saving throw. On a failed save, a creature takes [[{@damage 2d8}]] fire damage, or half as much damage on a successful save. Lava on the ground keeps dealing [[{@damage 1d8}]] fire damage to each creature that ends its turn within. A creature takes the same damage when it enters for the first time on a turn or ends its turn there."
@@ -4338,7 +4338,7 @@
             "hp":
             {
                 "average": 85,
-                "formula": "10d8+60"
+                "formula": "10d8 + 60"
             },
             "speed":
             {
@@ -4435,12 +4435,12 @@
                         {
                             "spells":
                             [
-                                "{@spell Fire Bolt|PHB}",
-                                "{@spell Light|PHB}",
-                                "{@spell Mage Hand|PHB}",
-                                "{@spell Mending|PHB}",
-                                "{@spell Prestidigitation|PHB}",
-                                "{@spell Shocking Grasp|PHB}"
+                                "{@spell fire bolt|PHB}",
+                                "{@spell light|PHB}",
+                                "{@spell mage hand|PHB}",
+                                "{@spell mending|PHB}",
+                                "{@spell prestidigitation|PHB}",
+                                "{@spell shocking grasp|PHB}"
                             ]
                         },
                         "1":
@@ -4448,11 +4448,11 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell Expeditious Retreat|PHB}",
-                                "{@spell Feather Fall|PHB}",
-                                "{@spell Magic Missile|PHB}",
-                                "{@spell Shield|PHB}",
-                                "{@spell Thunderwave|PHB}"
+                                "{@spell expeditious retreat|PHB}",
+                                "{@spell feather fall|PHB}",
+                                "{@spell magic missile|PHB}",
+                                "{@spell shield|PHB}",
+                                "{@spell thunderwave|PHB}"
                             ]
                         },
                         "2":
@@ -4460,15 +4460,15 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Aganazzar's Scorcher|XGE}",
-                                "{@spell Darkness|PHB}",
-                                "{@spell Darkvision|PHB}",
-                                "{@spell Knock|PHB}",
-                                "{@spell Mental Barrier|UAFighterRogueWizard}",
-                                "{@spell Misty Step|PHB}",
-                                "{@spell See Invisibility|PHB}",
-                                "{@spell Shadow Blade|XGE}",
-                                "{@spell Thought Shield|PHB}"
+                                "{@spell aganazzar's scorcher|XGE}",
+                                "{@spell darkness|PHB}",
+                                "{@spell darkvision|PHB}",
+                                "{@spell knock|PHB}",
+                                "{@spell mental barrier|UAFighterRogueWizard}",
+                                "{@spell misty step|PHB}",
+                                "{@spell see invisibility|PHB}",
+                                "{@spell shadow blade|XGE}",
+                                "{@spell thought shield|PHB}"
                             ]
                         },
                         "3":
@@ -4476,14 +4476,14 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell Blink|PHB}",
-                                "{@spell Counterspell|PHB}",
-                                "{@spell Dispel Magic|PHB}",
-                                "{@spell Fireball|PHB}",
-                                "{@spell Haste|PHB}",
-                                "{@spell Lightning Bolt|PHB}",
-                                "{@spell Melf's Minute Meteors|PHB}",
-                                "{@spell Water Breathing|PHB}"
+                                "{@spell blink|PHB}",
+                                "{@spell counterspell|PHB}",
+                                "{@spell dispel magic|PHB}",
+                                "{@spell fireball|PHB}",
+                                "{@spell haste|PHB}",
+                                "{@spell lightning bolt|PHB}",
+                                "{@spell melf's minute meteors|PHB}",
+                                "{@spell water breathing|PHB}"
                             ]
                         },
                         "4":
@@ -4491,34 +4491,34 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell Dimension Door|PHB}",
-                                "{@spell Dominate Beast|PHB}",
-                                "{@spell Greater Invisibility|PHB}"
+                                "{@spell dimension door|PHB}",
+                                "{@spell dominate beast|PHB}",
+                                "{@spell hreater invisibility|PHB}"
                             ]
                         },
                         "5": {
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell Far Step|PHB}",
-                                "{@spell Immolation|XGE}",
-                                "{@spell Teleportation Circle|PHB}"
+                                "{@spell far step|PHB}",
+                                "{@spell immolation|XGE}",
+                                "{@spell teleportation circle|PHB}"
                             ]
                         },
                         "6": {
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell Investiture of Flame|XGE}",
-                                "{@spell True Seeing|PHB}"
+                                "{@spell investiture of flame|XGE}",
+                                "{@spell true seeing|PHB}"
                             ]
                         },
                         "7": {
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell Fire Storm|PHB}",
-                                "{@spell Plane Shift|PHB}"
+                                "{@spell fire storm|PHB}",
+                                "{@spell plane shift|PHB}"
                             ]
                         }
                     },
@@ -4605,7 +4605,7 @@
             "hp":
             {
                 "average": 76,
-                "formula": "8d8+40"
+                "formula": "8d8 + 40"
             },
             "speed":
             {
@@ -4866,7 +4866,7 @@
                     "entries":
                     [
                         "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d12 + 5}) piercing damage, and the target must make a {@dc 14} Constitution saving throw.",
-                        "On a failed save, the target takes ([[{@damage 4d10}]]) poison damage and is {@condition poisoned} for 1 hour. On a successful save, the target takes half as much damage and is not {@condition poisoned}. A creature {@condition poisoned} by this attack has its movement speed halved and repeats its save at the end of each of its turns, ending the condition on a success.",
+                        "On a failed save, the target takes [[{@damage 4d10}]] poison damage and is {@condition poisoned} for 1 hour. On a successful save, the target takes half as much damage and is not {@condition poisoned}. A creature {@condition poisoned} by this attack has its movement speed halved and repeats its save at the end of each of its turns, ending the condition on a success.",
                         "If the poison damage from this attack reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 },
@@ -4881,19 +4881,19 @@
                     "name": "Venom Spittle",
                     "entries":
                     [
-                        "Each creature in a 5-foot wide, 30-foot long line must make a DC14 Dexterity saving throw.",
-                        "On a failed save, a creature takes 18 ({@damage 4d8}) poison damage and is {@condition blinded} until the end of its next turn. On a successful save, a creature takes half as much poison damage and is not {@condition blinded}."
+                        "Each creature in a 5-foot wide, 30-foot long line must make a {@dc 14} Dexterity saving throw.",
+                        "On a failed save, a creature takes [[{@damage 4d8}]] poison damage and is {@condition blinded} until the end of its next turn. On a successful save, a creature takes half as much poison damage and is not {@condition blinded}."
                     ]
                 },
                 {
                     "name": "Summon Brood (1/Day)",
                     "entries":
                     [
-                        "The venom queen magically calls {@dice 1d4} venom crawler hatchlings and {@dice 1d4} venom crawlers. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the venom queen and obeying its telepathic commands. The beasts remain for 1 hour, until the venom queen dies, or until the venom queen dismisses them as a bonus action."
+                        "The venom queen magically calls [[{@dice 1d4}]] venom crawler hatchlings and [[{@dice 1d4}]] venom crawlers. The called creatures arrive in [[{@dice 1d4}]] rounds, acting as allies of the venom queen and obeying its telepathic commands. The beasts remain for 1 hour, until the venom queen dies, or until the venom queen dismisses them as a bonus action."
                     ]
                 },
                 {
-                    "name": "Web {@recharge 4} ([[1d6]])",
+                    "name": "Web {@recharge 4} [[1d6]]",
                     "entries":
                     [
                         "The venom queen uses one of the following web effects."
@@ -4903,16 +4903,14 @@
                     "name": "Binding Web",
                     "entries":
                     [
-                        "{@atk rw} {@hit 6} to hit, range",
-                        "40/80 ft., one creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 14} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 12; hp 15; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage). If the target is already {@condition restrained} by webbing, then until freed, it also becomes {@condition blinded} and {@condition deafened}, it can't make attacks, and the DC to burst the webbing increases to 16."
+                        "{@atk rw} {@hit 6} to hit, range 40/80 ft., one creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 14} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 12; hp 15; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage). If the target is already {@condition restrained} by webbing, then until freed, it also becomes {@condition blinded} and {@condition deafened}, it can't make attacks, and the DC to burst the webbing increases to 16."
                     ]
                 },
                 {
                     "name": "Snaring Strand",
                     "entries":
                     [
-                        "{@atk rw} {@hit 6} to hit, range 40 ft., one creature. {@h}A tough, rubbery strand of webbing attaches to the target in a straight line. While this strand is attached, the creature can't move further from the venom queen than the length of the strand, the venom queen can't use its web action on another target, and as a bonus action on each of the venom queen's turns, it can force the target to make a",
-                        "{@dc 15} Strength saving throw. On a failed save, the target is pulled up to 20 feet closer to the venom queen, simultaneously shortening the length of the attached web strand by the same distance. The web strand can be attacked and destroyed (AC 13; hp 15; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage), or the venom queen can choose to detach it at any point on each of its turns (no action)."
+                        "{@atk rw} {@hit 6} to hit, range 40 ft., one creature. {@h}A tough, rubbery strand of webbing attaches to the target in a straight line. While this strand is attached, the creature can't move further from the venom queen than the length of the strand, the venom queen can't use its web action on another target, and as a bonus action on each of the venom queen's turns, it can force the target to make a {@dc 15} Strength saving throw. On a failed save, the target is pulled up to 20 feet closer to the venom queen, simultaneously shortening the length of the attached web strand by the same distance. The web strand can be attacked and destroyed (AC 13; hp 15; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage), or the venom queen can choose to detach it at any point on each of its turns (no action)."
                     ]
                 }
             ],
@@ -4940,7 +4938,7 @@
                     "name": "Skitter (Costs 2 Actions)",
                     "entries":
                     [
-                        "The venom queen moves up to its speed, not provoking opportunity attacks. While doing so, it can enter the spaces of any Large or smaller creatures. The first time on a turn that the venom queen enters the space of a creature that isn't a spider, the creature must succeed on a {@dc 12} Dexterity saving throw or take 9 ({@damage 2d8}) piercing damage."
+                        "The venom queen moves up to its speed, not provoking opportunity attacks. While doing so, it can enter the spaces of any Large or smaller creatures. The first time on a turn that the venom queen enters the space of a creature that isn't a spider, the creature must succeed on a {@dc 12} Dexterity saving throw or take 9 [[{@damage 2d8}]] piercing damage."
                     ]
                 }
             ],
@@ -4951,25 +4949,30 @@
                 "Web Sense",
                 "Web Walker"
             ],
-            "senseTags": [
+            "senseTags":
+            [
                 "B",
                 "SD"
             ],
-            "actionTags": [
+            "actionTags":
+            [
                 "Multiattack"
             ],
-            "languageTags": [
+            "languageTags":
+            [
                 "C",
                 "CS",
                 "E",
                 "TP"
             ],
-            "damageTags": [
+            "damageTags":
+            [
                 "P",
                 "I",
                 "S"
             ],
-            "miscTags": [
+            "miscTags":
+            [
                 "MW",
                 "RCH",
                 "RW"
@@ -4985,6 +4988,592 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/dwSijV9.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Venom Crawler",
+            "source": "Canbrew",
+            "size": "L",
+            "type": "beast",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 30,
+                "formula": "4d10 + 8"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "climb": 30
+            },
+            "str": 15,
+            "dex": 17,
+            "con": 15,
+            "int": 2,
+            "wis": 12,
+            "cha": 5,
+            "skill":
+            {
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "blindsight 10 ft.",
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries":
+                    [
+                        "The spider's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Web Sense",
+                    "entries":
+                    [
+                        "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+                    ]
+                },
+                {
+                    "name": "Web Walker",
+                    "entries":
+                    [
+                        "The spider ignores movement restrictions caused by webbing."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must make a {@dc 13} Constitution saving throw. On a failed save, the target takes [[{@damage 2d8}]] poison damage and is {@condition poisoned} for 10 minutes. On a successful save, the target takes half as much damage and is not {@condition poisoned}. A creature {@condition poisoned} by this attack has its movement speed halved and repeats its save at the end of each of its turns, ending the condition on a success.",
+                        "If the poison damage from this attack reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+                    ]
+                },
+                {
+                    "name": "Venom Spit (2/Day)",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}5 ({@damage 2d4}) poison damage and if the target is a creature, it must succeed on a {@dc 13} Dexterity saving throw or be {@condition blinded} until the end of its next turn."
+                    ]
+                },
+                {
+                    "name": "Web {@recharge 5} [[1d6]]",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 5} to hit, range 30/60 ft., one creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 12} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Save the Queen",
+                    "entries":
+                    [
+                        "While the spider is within 5 feet of the venom queen, whenever the venom queen would be hit by a ranged attack, the a spider can make a {@dc 14} Dexterity check. On a success, the spider becomes the target of the attack instead. In order to do so, the spider must see the attacker and the venom queen. No more than one spider can use this reaction against any single attack."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Spider Climb",
+                "Web Sense",
+                "Web Walker"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "P",
+                "I"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW"
+            ],
+            "tokenUrl": "https://i.imgur.com/9dfcR28.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/hIaO6Cj.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Venom Crawler Hatchling",
+            "source": "Canbrew",
+            "size": "S",
+            "type": "beast",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac":
+            [
+                13
+            ],
+            "hp":
+            {
+                "average": 4,
+                "formula": "1d6 + 1"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "climb": 30
+            },
+            "str": 9,
+            "dex": 17,
+            "con": 12,
+            "int": 1,
+            "wis": 10,
+            "cha": 3,
+            "skill":
+            {
+                "stealth": "+5"
+            },
+            "senses":
+            [
+                "blindsight 10 ft.",
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "cr":"1/4",
+            "trait":
+            [
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries":
+                    [
+                        "the spider's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Web Sense",
+                    "entries":
+                    [
+                        "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+                    ]
+                },
+                {
+                    "name": "Web Walker",
+                    "entries":
+                    [
+                        "The spider ignores movement restrictions caused by webbing."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking [[{@damage 1d6}]] poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Spider Climb",
+                "Web Sense",
+                "Web Walker"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "P",
+                "I"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/1nq8g7r.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/hIaO6Cj.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Sand Yuan-ti",
+            "size": "M",
+            "type":
+            {
+                "type": "monstrosity",
+                "tags":
+                [
+                    "shapechanger",
+                    "yuan-ti"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 13,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 65,
+                "formula": "10d8 + 20"
+            },
+            "speed":
+            {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 15,
+            "int": 14,
+            "wis": 13,
+            "cha": 15,
+            "save":
+            {
+                "wis": "+3"
+            },
+            "skill":
+            {
+                "perception": "+3",
+                "stealth": "+4"
+            },
+            "immune":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "poisoned",
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 13,
+            "languages":
+            [
+                "Abyssal",
+                "Common",
+                "Draconic"
+            ],
+            "cr": "4",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "The yuan-ti can use its action to polymorph into a Large snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The yuan-ti makes three melee attacks, but can use its bite and constrict attacks only once each."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage.",
+                        "The target takes [[{@damage 3d6}]] poison damage an becomes poisoned until the end of its next turn on a failed {@dc 13} Constitution save."
+                    ]
+                },
+                {
+                    "name": "Constrict",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}, and the yuan-ti can't constrict another target."
+                    ]
+                },
+                {
+                    "name": "Glaive",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Shapechanger"
+            ],
+            "languageTags":
+            [
+                "AB",
+                "C",
+                "DR"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "I",
+                "P",
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RCH"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/UvnPu8i.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/OVMdXSq.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Aben'nate ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "monstrosity",
+                "tags":
+                [
+                    "shapechanger",
+                    "yuan-ti"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 13,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 65,
+                "formula": "10d8 + 20"
+            },
+            "speed":
+            {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 16,
+            "int": 20,
+            "wis": 13,
+            "cha": 15,
+            "save":
+            {
+                "wis": "+3"
+            },
+            "skill":
+            {
+                "perception": "+3",
+                "stealth": "+4"
+            },
+            "immune":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "poisoned",
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 13,
+            "languages":
+            [
+                "Abyssal",
+                "Common",
+                "Draconic"
+            ],
+            "cr": "4",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "The yuan-ti can use its action to polymorph into a Large snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The yuan-ti makes three melee attacks, but can use its bite and constrict attacks only once each."
+                    ]
+                },
+                {
+                    "name": "Poison Spit",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 5} to hit, reach 20/40 ft., one creature. {@h}6 ({@damage 1d6 + 3}) acid damage.",
+                        "The target takes [[{@damage 3d6}]] poison damage an becomes {@condition paralyzed} for 1 minute on a failed {@dc 13} Constitution save. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Constrict",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}, and the yuan-ti can't constrict another target."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if wielded with two hands."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Shapechanger"
+            ],
+            "languageTags":
+            [
+                "AB",
+                "C",
+                "DR"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "A",
+                "B",
+                "I",
+                "P",
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RCH"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/VqTBC8K.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/lD52n5I.jpg"
                         }
                     }
                 ]
