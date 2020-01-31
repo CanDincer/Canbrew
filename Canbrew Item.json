@@ -3216,30 +3216,6 @@
         {
             "name": "Rat Statuette",
             "rarity": "Rare",
-            "weight": 0.5,
-            "curse": true,
-            "source": "Canbrew",
-            "entries":
-            [
-                "A rat statuette. The rat is posed standing up, trying to smell something.",
-                "If you lick it, roll a Performance check. On a success, you gain the ability to change your voice to someone you have heard before.",
-                {
-                    "type": "entries",
-                    "name": "Curse",
-                    "entries":
-                    [
-                        "If you pay for this statuette willingly, you are cursed.",
-                        "As soon as you start fiddling with it, the statuette animates and bites you.",
-                        "When bitten you are affected with {@spell bane|PHB} and the rat runs away.",
-                        "To get rid of the curse, you must find the rat, petrify it back to a statuette and sell it.",
-                        "For the curse to transfer to another, the creature buying it must pay at least 1 copper piece for it."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Rat Statuette",
-            "rarity": "Rare",
             "weight": 1,
             "curse": true,
             "source": "Canbrew",
