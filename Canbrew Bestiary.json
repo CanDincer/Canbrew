@@ -5634,19 +5634,19 @@
             [
                 "U"
             ],
-            "ac": 13,
+            "ac": 10,
             "hp":
             {
-                "average": 171,
-                "formula": "18d10 + 72"
+                "average": 153,
+                "formula": "18d10 + 54"
             },
             "speed":
             {
                 "walk": 5,
                 "swim": 20,
             },
-            "str": 21,
-            "dex": 17,
+            "str": 17,
+            "dex": 10,
             "con": 17,
             "int": 4,
             "wis": 10,
@@ -5661,7 +5661,7 @@
                 "darkvision 60 ft."
             ],
             "passive": 16,
-            "cr": "7",
+            "cr": "5",
             "trait":
             [
                 {
@@ -5689,10 +5689,17 @@
             "action":
             [
                 {
+                    "name": "Dreadful Anticipation",
+                    "entries":
+                    [
+                        "Glasseye makes an attack every 2 turns but the anticipation and thrill are unbearable. Each creature that can see Glasseye must succeed on a DC 16 Charisma saving throw. On a failed save, a target takes [[{@damage 3d6}]] psychic damage."
+                    ]
+                },
+                {
                     "name": "Tentacles",
                     "entries":
                     [
-                        "{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the target is {@condition restrained}, and the octopus can't use its tentacles on another target."
+                        "{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}38 ({@damage 10d6 + 3}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the octopus can't use its tentacles on another target."
                     ]
                 },
                 {
@@ -5746,5 +5753,950 @@
                 ]
             }
         },
+        {
+            "name": "Colossal Crab",
+            "size": "H",
+            "type": "beast",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac": 
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 171,
+                "formula": "18d10 + 72"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "swim": 30
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 17,
+            "int": 4,
+            "wis": 10,
+            "cha": 4,
+            "skill":
+            {
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "blindsight 60 ft."
+            ],
+            "passive": 16,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Amphibious",
+                    "entries":
+                    [
+                        "The crab can breathe air and water."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "coastal"
+            ],
+            "traitTags":
+            [
+                "Amphibious"
+            ],
+            "senseTags":
+            [
+                "B"
+            ],
+            "damageTags":
+            [
+                "B"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/CdJJdel.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/V3CjvzB.png"
+                        }
+                    }
+                ]
+            }
+        }
+        {
+            "name": "Lamprey ogd",
+            "size": "T",
+            "type": "beast",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac": 
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 171,
+                "formula": "18d10 + 72"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "swim": 30
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 17,
+            "int": 4,
+            "wis": 10,
+            "cha": 4,
+            "skill":
+            {
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "blindsight 60 ft."
+            ],
+            "passive": 16,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Amphibious",
+                    "entries":
+                    [
+                        "The crab can breathe air and water."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underwater",
+                "swamp"
+            ],
+            "traitTags":
+            [
+                "Amphibious"
+            ],
+            "senseTags":
+            [
+                "B"
+            ],
+            "damageTags":
+            [
+                "B"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/twrULdL.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/DwKAucp.png"
+                        }
+                    }
+                ]
+            }
+        }
+        {
+            "name": "Halocline Shrimp ogd",
+            "size": "M",
+            "type": "monstrosity",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac": 
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 171,
+                "formula": "18d10 + 72"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "swim": 30
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 17,
+            "int": 4,
+            "wis": 10,
+            "cha": 4,
+            "skill":
+            {
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "blindsight 60 ft."
+            ],
+            "passive": 16,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Amphibious",
+                    "entries":
+                    [
+                        "The crab can breathe air and water."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underwater"
+            ],
+            "traitTags":
+            [
+                "Amphibious"
+            ],
+            "senseTags":
+            [
+                "B"
+            ],
+            "damageTags":
+            [
+                "B"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/U2KLiBO.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/fj3SPnG.jpg"
+                        }
+                    }
+                ]
+            }
+        }
+        {
+            "name": "Abyss Grappler ogd",
+            "size": "S",
+            "type": "aberration",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac": 
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 171,
+                "formula": "18d10 + 72"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "swim": 30
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 17,
+            "int": 4,
+            "wis": 10,
+            "cha": 4,
+            "skill":
+            {
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "blindsight 60 ft."
+            ],
+            "passive": 16,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Amphibious",
+                    "entries":
+                    [
+                        "The crab can breathe air and water."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underwater"
+            ],
+            "traitTags":
+            [
+                "Amphibious"
+            ],
+            "senseTags":
+            [
+                "B"
+            ],
+            "damageTags":
+            [
+                "B"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/WYnIYej.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/LVMeqBN.jpg"
+                        }
+                    }
+                ]
+            }
+        }
+        {
+            "name": "Dragon Leviathan ogd",
+            "size": "G",
+            "type": "dragon",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac": 
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 171,
+                "formula": "18d10 + 72"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "swim": 30
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 17,
+            "int": 4,
+            "wis": 10,
+            "cha": 4,
+            "skill":
+            {
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "blindsight 60 ft."
+            ],
+            "passive": 16,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Amphibious",
+                    "entries":
+                    [
+                        "The crab can breathe air and water."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underwater"
+            ],
+            "traitTags":
+            [
+                "Amphibious"
+            ],
+            "senseTags":
+            [
+                "B"
+            ],
+            "damageTags":
+            [
+                "B"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/RPHGdRe.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/qnL3faM.jpg"
+                        }
+                    }
+                ]
+            }
+        }
+        {
+            "name": "Angler Fish ogd",
+            "size": "T",
+            "type": "beast",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac": 
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 171,
+                "formula": "18d10 + 72"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "swim": 30
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 17,
+            "int": 4,
+            "wis": 10,
+            "cha": 4,
+            "skill":
+            {
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "blindsight 60 ft."
+            ],
+            "passive": 16,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Amphibious",
+                    "entries":
+                    [
+                        "The crab can breathe air and water."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underwater"
+            ],
+            "traitTags":
+            [
+                "Amphibious"
+            ],
+            "senseTags":
+            [
+                "B"
+            ],
+            "damageTags":
+            [
+                "B"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/ldkfwdo.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/S1tBxaa.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Drowned Metamorph ogd",
+            "size": "M",
+            "type": "monstrosity",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "C",
+                "E"
+            ],
+            "ac": 9,
+            "hp":
+            {
+                "average": 171,
+                "formula": "18d10 + 72"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "swim": 30
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 17,
+            "int": 4,
+            "wis": 10,
+            "cha": 4,
+            "skill":
+            {
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "blindsight 60 ft."
+            ],
+            "passive": 16,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Amphibious",
+                    "entries":
+                    [
+                        "The crab can breathe air and water."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underwater"
+            ],
+            "traitTags":
+            [
+                "Amphibious"
+            ],
+            "senseTags":
+            [
+                "B"
+            ],
+            "damageTags":
+            [
+                "B"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/4343yW1.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/TjTGReS.jpg"
+                        }
+                    }
+                ]
+            }
+        }
+        {
+            "name": "Pirate Chain Swinger",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "NX",
+                "C",
+                "G",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 66,
+                "formula": "12d8 + 12"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 16,
+            "con": 12,
+            "int": 11,
+            "wis": 11,
+            "cha": 10,
+            "skill":
+            {
+                "athletics": "+5",
+                "acrobatics": "+5"
+            },
+            "languages":
+            [
+                "any two languages"
+            ],
+            "passive": 10,
+            "cr": "3",
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The pirate makes three attacks: two with its chain and one with its hook."
+                    ]
+                },
+                {
+                    "name": "Chain",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. Instead of dealing damage, the pirate can attempt to trip the target. The target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Hook",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage. Instead of dealing damage, the pirate can attempt to disarm the target, forcing it to drop one item of the pirate's choice that it's holding. The target must make a {@dc 13} Strength saving throw. On a failed save, it drops the chosen object. The object lands at its feet."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "coastal"
+            ],
+            "languageTags":
+            [
+                "X"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RCH"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/vFg8SDj.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Gsljomv.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Pirate Axe Thrower",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "NX",
+                "C",
+                "G",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 13,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 55,
+                "formula": "10d8 + 10"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 15,
+            "con": 12,
+            "int": 11,
+            "wis": 11,
+            "cha": 10,
+            "skill":
+            {
+                "athletics": "+5",
+                "acrobatics": "+4"
+            },
+            "languages":
+            [
+                "any two languages"
+            ],
+            "passive": 10,
+            "cr": "2",
+            "trait":
+            [
+                {
+                    "name": "Nimble Action",
+                    "entries":
+                    [
+                        "On each of its turns, the pirate can use a bonus action to take the Dash or Disengage action."
+                    ]
+                },
+                {
+                    "name": "Weapon Juggler",
+                    "entries":
+                    [
+                        "The pirate can draw and wield up to three onehanded weapons."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The pirate makes two melee attacks or three ranged attacks with thrown weapons."
+                    ]
+                },
+                {
+                    "name": "Handaxe",
+                    "entries":
+                    [
+                        "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "coastal"
+            ],
+            "languageTags":
+            [
+                "X"
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/6psRjYF.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/g7XdJTQ.jpg"
+                        }
+                    }
+                ]
+            }
+        }
     ]
 }
