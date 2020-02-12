@@ -558,6 +558,11 @@
                 }
             ],
             "legendaryActions": 1,
+            "environment":
+            [
+                "forest",
+                "swamp"
+            ],
             "traitTags":
             [
                 "Boss Fight",
@@ -1205,6 +1210,10 @@
                         "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}13 ({@damage 4d4 + 3}) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a {@dc 12} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "underwater"
             ],
             "languageTags":
             [
@@ -3946,6 +3955,10 @@
                     ]
                 }
             ],
+            "environment":
+            [
+                "desert"
+            ],
             "traitTags":
             [
                 "Pounce",
@@ -4914,6 +4927,13 @@
                     ]
                 }
             ],
+            "environment":
+            [
+                "forest",
+                "mountain",
+                "swamp",
+                "urban"
+            ],
             "legendaryGroup":
             {
                 "name": "Venom Queen"
@@ -5103,6 +5123,13 @@
                     ]
                 }
             ],
+            "environment":
+            [
+                "forest",
+                "mountain",
+                "swamp",
+                "urban"
+            ],
             "traitTags":
             [
                 "Spider Climb",
@@ -5220,6 +5247,13 @@
                         "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking [[{@damage 1d6}]] poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "forest",
+                "mountain",
+                "swamp",
+                "urban"
             ],
             "traitTags":
             [
@@ -5371,6 +5405,12 @@
                         "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) slashing damage."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "desert",
+                "coastal",
+                "urban"
             ],
             "traitTags":
             [
@@ -5533,6 +5573,12 @@
                     ]
                 }
             ],
+            "environment":
+            [
+                "desert",
+                "coastal",
+                "urban"
+            ],
             "traitTags":
             [
                 "Shapechanger"
@@ -5578,6 +5624,127 @@
                     }
                 ]
             }
-        }
+        },
+        {
+            "name": "Glasseye",
+            "size": "L",
+            "type": "beast",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac": 13,
+            "hp":
+            {
+                "average": 171,
+                "formula": "18d10 + 72"
+            },
+            "speed":
+            {
+                "walk": 5,
+                "swim": 20,
+            },
+            "str": 21,
+            "dex": 17,
+            "con": 17,
+            "int": 4,
+            "wis": 10,
+            "cha": 4,
+            "skill":
+            {
+                "perception": "+6",
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "cr": "7",
+            "trait":
+            [
+                {
+                    "name": "Hold Breath",
+                    "entries":
+                    [
+                        "While out of water, the octopus can hold its breath for 1 hour."
+                    ]
+                },
+                {
+                    "name": "Underwater Camouflage",
+                    "entries":
+                    [
+                        "The octopus has advantage on Dexterity ({@skill Stealth}) checks made while underwater."
+                    ]
+                },
+                {
+                    "name": "Water Breathing",
+                    "entries":
+                    [
+                        "The octopus can breathe only underwater."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Tentacles",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 18}). Until this grapple ends, the target is {@condition restrained}, and the octopus can't use its tentacles on another target."
+                    ]
+                },
+                {
+                    "name": "Ink Cloud (Recharges after a Short or Long Rest)",
+                    "entries":
+                    [
+                        "A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underwater"
+            ],
+            "traitTags":
+            [
+                "Hold Breath",
+                "Water Breathing"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "B"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RCH",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Tentacles"
+            ],
+            "tokenUrl": "https://i.imgur.com/u0gkHNS.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/QfN7EZ2.jpg"
+                        }
+                    }
+                ]
+            }
+        },
     ]
 }

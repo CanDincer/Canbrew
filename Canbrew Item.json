@@ -376,7 +376,7 @@
                             "name": "0 cultists",
                             "entries":
                             [
-                                "You can infuse a spell attack with the Great Annihilator's shadow. With a cost of 1 runic charge, you add your spell attack bonus to the damage of a spell attack."
+                                "You can infuse a spell attack with the Great Annihilator's shadow. With a cost of 1 runic charge, you add your spellcasting modifier to the damage of a spell attack."
                             ]
                         },
                         {
@@ -481,6 +481,26 @@
             "entries":
             [
                 "A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell shocking grasp|PHB}."
+            ]
+        },
+        {
+            "name": "Gloves of Amphibios",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "1d4",
+            "dmgType": "I",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L",
+            ],
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "These gloves have 4 fingers but meld seamlessly into your hands when you don them. While wearing these gloves, climbing doesn't cost you extra movement, you gain a +1 bonus to Strength (Athletics) checks made to grapple a creature, you have swimming speed of 20 ft., and any creature grappled by you that is not wearing armor takes {@damage 1d4} poison damage at the end of each of your turns."
             ]
         },
         {
@@ -2670,7 +2690,7 @@
             ]
         },
         {
-            "name": "Eye of the Fiendlord",
+            "name": "Eye of the Fiendlord ogd",
             "rarity": "Very Rare",
             "weight": 0.05,
             "reqAttune": true,
@@ -2705,7 +2725,7 @@
             ]
         },
         {
-            "name": "Red Claw's Regalia",
+            "name": "Red Claw's Regalia ogd",
             "rarity": "Very Rare",
             "weight": 3,
             "reqAttune": true,
