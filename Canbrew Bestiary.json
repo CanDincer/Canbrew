@@ -5598,7 +5598,7 @@
                 "A",
                 "B",
                 "I",
-                "P",
+                "P"
             ],
             "miscTags":
             [
@@ -5634,7 +5634,10 @@
             [
                 "U"
             ],
-            "ac": 10,
+            "ac":
+            [
+                10
+            ],
             "hp":
             {
                 "average": 153,
@@ -5643,7 +5646,7 @@
             "speed":
             {
                 "walk": 5,
-                "swim": 20,
+                "swim": 20
             },
             "str": 17,
             "dex": 10,
@@ -5660,7 +5663,7 @@
             [
                 "darkvision 60 ft."
             ],
-            "passive": 16,
+            "passive": 10,
             "cr": "5",
             "trait":
             [
@@ -5853,11 +5856,11 @@
                     }
                 ]
             }
-        }
+        },
         {
-            "name": "Lamprey ogd",
-            "size": "T",
-            "type": "beast",
+            "name": "Giant Lamprey",
+            "size": "S",
+            "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
             [
@@ -5865,57 +5868,70 @@
             ],
             "ac": 
             [
-                {
-                    "ac": 18,
-                    "from":
-                    [
-                        "natural armor"
-                    ]
-                }
+                18
             ],
             "hp":
             {
-                "average": 171,
-                "formula": "18d10 + 72"
+                "average": 35,
+                "formula": "14d6 - 14"
             },
             "speed":
             {
                 "walk": 40,
-                "swim": 30
+                "swim": 40,
+                "climb": 30
             },
-            "str": 21,
-            "dex": 10,
-            "con": 17,
-            "int": 4,
-            "wis": 10,
-            "cha": 4,
+            "str": 8,
+            "dex": 21,
+            "con": 9,
+            "int": 3,
+            "wis": 9,
+            "cha": 10,
             "skill":
             {
                 "stealth": "+7"
             },
+            "vulnerable":
+            [
+                "fire"
+            ],
             "senses":
             [
-                "blindsight 60 ft."
+                "blindsight 30 ft."
             ],
-            "passive": 16,
-            "cr": "9",
+            "passive": 9,
+            "cr": "2",
             "trait":
             [
                 {
                     "name": "Amphibious",
                     "entries":
                     [
-                        "The crab can breathe air and water."
+                        "The lamprey can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Slithery",
+                    "entries":
+                    [
+                        "The lamprey has advantage on rolls made to escape {@condition grappled} and {@condition restrained} conditions."
+                    ]
+                },
+                {
+                    "name": "Blood Leech",
+                    "entries":
+                    [
+                        "The lamprey regains temporary hit points equal to the necrotic damage it deals."
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "Claw",
+                    "name": "Latch",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage plus 7 ({@damage 2d6}) necrotic damage."
                     ]
                 }
             ],
@@ -5926,7 +5942,9 @@
             ],
             "traitTags":
             [
-                "Amphibious"
+                "Amphibious",
+                "Slithery",
+                "Blood Sucker"
             ],
             "senseTags":
             [
@@ -5934,7 +5952,8 @@
             ],
             "damageTags":
             [
-                "B"
+                "P",
+                "N"
             ],
             "miscTags":
             [
@@ -5955,7 +5974,7 @@
                     }
                 ]
             }
-        }
+        },
         {
             "name": "Halocline Shrimp ogd",
             "size": "M",
@@ -5985,12 +6004,12 @@
                 "walk": 40,
                 "swim": 30
             },
-            "str": 21,
-            "dex": 10,
-            "con": 17,
-            "int": 4,
-            "wis": 10,
-            "cha": 4,
+            "str": 12,
+            "dex": 16,
+            "con": 10,
+            "int": 2,
+            "wis": 8,
+            "cha": 6,
             "skill":
             {
                 "stealth": "+7"
@@ -6056,7 +6075,7 @@
                     }
                 ]
             }
-        }
+        },
         {
             "name": "Abyss Grappler ogd",
             "size": "S",
@@ -6157,7 +6176,7 @@
                     }
                 ]
             }
-        }
+        },
         {
             "name": "Dragon Leviathan ogd",
             "size": "G",
@@ -6170,7 +6189,7 @@
             "ac": 
             [
                 {
-                    "ac": 18,
+                    "ac": 14,
                     "from":
                     [
                         "natural armor"
@@ -6197,9 +6216,22 @@
             {
                 "stealth": "+7"
             },
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
             "senses":
             [
-                "blindsight 60 ft."
+                "tremorsense 60 ft.",
+                "darkvision 120 ft."
             ],
             "passive": 16,
             "cr": "9",
@@ -6233,7 +6265,8 @@
             ],
             "senseTags":
             [
-                "B"
+                "D",
+                "T"
             ],
             "damageTags":
             [
@@ -6258,7 +6291,7 @@
                     }
                 ]
             }
-        }
+        },
         {
             "name": "Angler Fish ogd",
             "size": "T",
@@ -6370,7 +6403,10 @@
                 "C",
                 "E"
             ],
-            "ac": 9,
+            "ac":
+            [
+                9
+            ],
             "hp":
             {
                 "average": 171,
@@ -6452,7 +6488,7 @@
                     }
                 ]
             }
-        }
+        },
         {
             "name": "Pirate Chain Swinger",
             "size": "M",
