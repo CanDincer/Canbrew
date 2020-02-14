@@ -5799,7 +5799,7 @@
             [
                 "blindsight 60 ft."
             ],
-            "passive": 16,
+            "passive": 10,
             "cr": "9",
             "trait":
             [
@@ -5899,7 +5899,7 @@
             [
                 "blindsight 30 ft."
             ],
-            "passive": 9,
+            "passive": 8,
             "cr": "2",
             "trait":
             [
@@ -5976,8 +5976,8 @@
             }
         },
         {
-            "name": "Halocline Shrimp ogd",
-            "size": "M",
+            "name": "Halocline Shrimp",
+            "size": "S",
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -5987,7 +5987,7 @@
             "ac": 
             [
                 {
-                    "ac": 18,
+                    "ac": 16,
                     "from":
                     [
                         "natural armor"
@@ -5996,12 +5996,11 @@
             ],
             "hp":
             {
-                "average": 171,
-                "formula": "18d10 + 72"
+                "average": 70,
+                "formula": "20d6"
             },
             "speed":
             {
-                "walk": 40,
                 "swim": 30
             },
             "str": 12,
@@ -6012,31 +6011,53 @@
             "cha": 6,
             "skill":
             {
-                "stealth": "+7"
+                "stealth": "+5"
             },
+            "resist":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
             "senses":
             [
-                "blindsight 60 ft."
+                "darkvision 60 ft."
             ],
-            "passive": 16,
-            "cr": "9",
+            "passive": 8,
+            "cr": "3",
             "trait":
             [
                 {
-                    "name": "Amphibious",
+                    "name":"Water Breathing",
                     "entries":
                     [
-                        "The crab can breathe air and water."
+                        "The halocline shrimp can only breath underwater."
+                    ]
+                },
+                {
+                    "name": "Poisonous Tendrils",
+                    "entries":
+                    [
+                        "The shrimp has poison tendrils that carry a neurotoxin. A creature that touches the shrimp or that hits it with a melee attack while within 5 feet of it must make a DC 15 Constitution saving throw. On a failure, the creature takes {@damage 1d6} poison damage and is poisoned until the end of its next turn."
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "Claw",
+                    "name": "Thunder Claw",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                        "The shrimp makes a claw attack and a 30-foot cone blast travels. Each creature in that area must make a {@dc 15} Constitution saving throw, taking [[{@damage 2d8 + 5}]] bludgeoning damage on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "Superior Invisibility",
+                    "entries":
+                    [
+                        "The shrimp magically turns transparent and is considered {@condition invisible} until its concentration ends (as if concentrating on a spell)."
                     ]
                 }
             ],
@@ -6046,11 +6067,11 @@
             ],
             "traitTags":
             [
-                "Amphibious"
+                "Water Breathing"
             ],
             "senseTags":
             [
-                "B"
+                "D"
             ],
             "damageTags":
             [
@@ -6058,7 +6079,8 @@
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "AOE"
             ],
             "tokenUrl": "https://i.imgur.com/U2KLiBO.png",
             "fluff":
@@ -6077,7 +6099,7 @@
             }
         },
         {
-            "name": "Abyss Grappler ogd",
+            "name": "Abyss Grappler",
             "size": "S",
             "type": "aberration",
             "source": "Canbrew",
@@ -6088,7 +6110,7 @@
             "ac": 
             [
                 {
-                    "ac": 18,
+                    "ac": 12,
                     "from":
                     [
                         "natural armor"
@@ -6102,8 +6124,7 @@
             },
             "speed":
             {
-                "walk": 40,
-                "swim": 30
+                "swim": 25
             },
             "str": 21,
             "dex": 10,
@@ -6113,31 +6134,35 @@
             "cha": 4,
             "skill":
             {
-                "stealth": "+7"
+                "stealth": "+2"
             },
+            "resist":
+            [
+                "acid"
+            ],
             "senses":
             [
-                "blindsight 60 ft."
+                "darkvision 120 ft."
             ],
-            "passive": 16,
-            "cr": "9",
+            "passive": 10,
+            "cr": "3",
             "trait":
             [
                 {
-                    "name": "Amphibious",
+                    "name":"Water Breathing",
                     "entries":
                     [
-                        "The crab can breathe air and water."
+                        "The abyss grappler can only breath underwater."
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "Claw",
+                    "name": "Clench",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                        "The abyss grappler clenches onto the target's face. The target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the abyss grappler can't use its clench on another target. While grappled in this way, the abyss grappler injects its acid to liquefy the target's insides and the target takes {@damage 5d6} acid damage at the start of each of its turns. Attempting to remove the abyss grappler, agitates it to release more acid."
                     ]
                 }
             ],
@@ -6147,19 +6172,15 @@
             ],
             "traitTags":
             [
-                "Amphibious"
+                "Water Breathing"
             ],
             "senseTags":
             [
-                "B"
+                "D"
             ],
             "damageTags":
             [
-                "B"
-            ],
-            "miscTags":
-            [
-                "MW"
+                "A"
             ],
             "tokenUrl": "https://i.imgur.com/WYnIYej.png",
             "fluff":
@@ -6178,7 +6199,7 @@
             }
         },
         {
-            "name": "Dragon Leviathan ogd",
+            "name": "Dragon Leviathan",
             "size": "G",
             "type": "dragon",
             "source": "Canbrew",
@@ -6203,10 +6224,9 @@
             },
             "speed":
             {
-                "walk": 40,
                 "swim": 30
             },
-            "str": 21,
+            "str": 25,
             "dex": 10,
             "con": 17,
             "int": 4,
@@ -6230,28 +6250,34 @@
             ],
             "senses":
             [
-                "tremorsense 60 ft.",
-                "darkvision 120 ft."
+                "tremorsense 60 ft."
             ],
-            "passive": 16,
+            "passive": 10,
             "cr": "9",
             "trait":
             [
                 {
-                    "name": "Amphibious",
+                    "name": "Water Breathing",
                     "entries":
                     [
-                        "The crab can breathe air and water."
+                        "The dragon leviathan can only breath underwater."
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "Claw",
+                    "name": "Bite",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                        "{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}42 ({@damage 10d6 + 7}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the dragon leviathan can't use its bite on another target."
+                    ]
+                },
+                {
+                    "name": "Volcanic Rock",
+                    "entries":
+                    [
+                        "The dragon leviathan spits lava that solidifies into a spherical rock with molten core. Upon impact it shatters. Each creature within 10 feet of impact point must make a {@dc 13} Dexterity saving throw, taking [[{@damage 6d8}]] fire damage on a failed save, or half as much damage on a successful one."
                     ]
                 }
             ],
@@ -6261,7 +6287,7 @@
             ],
             "traitTags":
             [
-                "Amphibious"
+                "Water Breathing"
             ],
             "senseTags":
             [
@@ -6270,11 +6296,13 @@
             ],
             "damageTags":
             [
-                "B"
+                "B",
+                "F"
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "AOE"
             ],
             "tokenUrl": "https://i.imgur.com/RPHGdRe.png",
             "fluff":
@@ -6293,7 +6321,7 @@
             }
         },
         {
-            "name": "Angler Fish ogd",
+            "name": "Angler Fish",
             "size": "T",
             "type": "beast",
             "source": "Canbrew",
@@ -6304,7 +6332,7 @@
             "ac": 
             [
                 {
-                    "ac": 18,
+                    "ac": 10,
                     "from":
                     [
                         "natural armor"
@@ -6313,47 +6341,53 @@
             ],
             "hp":
             {
-                "average": 171,
-                "formula": "18d10 + 72"
+                "average": 18,
+                "formula": "12d4 - 12"
             },
             "speed":
             {
-                "walk": 40,
-                "swim": 30
+                "swim": 25
             },
-            "str": 21,
+            "str": 11,
             "dex": 10,
-            "con": 17,
+            "con": 8,
             "int": 4,
             "wis": 10,
-            "cha": 4,
+            "cha": 2,
             "skill":
             {
-                "stealth": "+7"
+                "stealth": "+4"
             },
             "senses":
             [
-                "blindsight 60 ft."
+                "darkvision 60 ft."
             ],
-            "passive": 16,
-            "cr": "9",
+            "passive": 10,
+            "cr": "1/2",
             "trait":
             [
                 {
-                    "name": "Amphibious",
+                    "name": "Water Breathing",
                     "entries":
                     [
-                        "The crab can breathe air and water."
+                        "The angler fish can only breath underwater."
+                    ]
+                },
+                {
+                    "name": "Bioluminescence",
+                    "entries":
+                    [
+                        "The angler fish has an antler which bioluminescent bacteria attaches and sheds dim light in a 5-foot radius."
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "Claw",
+                    "name": "Bite",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}10 ({@damage 10d6 + 5}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 19}). Until this grapple ends, the target is {@condition restrained}, and the crab can't use its claw on another target."
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
                     ]
                 }
             ],
@@ -6363,15 +6397,16 @@
             ],
             "traitTags":
             [
-                "Amphibious"
+                "Water Breathing",
+                "Bioluminescence"
             ],
             "senseTags":
             [
-                "B"
+                "D"
             ],
             "damageTags":
             [
-                "B"
+                "P"
             ],
             "miscTags":
             [
@@ -6414,7 +6449,7 @@
             },
             "speed":
             {
-                "walk": 40,
+                "walk": 20,
                 "swim": 30
             },
             "str": 21,
@@ -6429,7 +6464,7 @@
             },
             "senses":
             [
-                "blindsight 60 ft."
+                "darkvision 60 ft."
             ],
             "passive": 16,
             "cr": "9",
@@ -6439,7 +6474,7 @@
                     "name": "Amphibious",
                     "entries":
                     [
-                        "The crab can breathe air and water."
+                        "The drowned metamorph can breathe air and water."
                     ]
                 }
             ],
@@ -6463,7 +6498,7 @@
             ],
             "senseTags":
             [
-                "B"
+                "D"
             ],
             "damageTags":
             [
