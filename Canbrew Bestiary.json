@@ -5778,7 +5778,7 @@
             "hp":
             {
                 "average": 171,
-                "formula": "18d10 + 72"
+                "formula": "18d12 + 54"
             },
             "speed":
             {
@@ -6099,7 +6099,7 @@
             }
         },
         {
-            "name": "Abyss Grappler",
+            "name": "Abyssal Grappler",
             "size": "S",
             "type": "aberration",
             "source": "Canbrew",
@@ -6119,16 +6119,16 @@
             ],
             "hp":
             {
-                "average": 171,
-                "formula": "18d10 + 72"
+                "average": 49,
+                "formula": "14d6"
             },
             "speed":
             {
                 "swim": 25
             },
-            "str": 21,
+            "str": 15,
             "dex": 10,
-            "con": 17,
+            "con": 10,
             "int": 4,
             "wis": 10,
             "cha": 4,
@@ -6152,7 +6152,7 @@
                     "name":"Water Breathing",
                     "entries":
                     [
-                        "The abyss grappler can only breath underwater."
+                        "The abyssal grappler can only breath underwater."
                     ]
                 }
             ],
@@ -6162,7 +6162,7 @@
                     "name": "Clench",
                     "entries":
                     [
-                        "The abyss grappler clenches onto the target's face. The target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the abyss grappler can't use its clench on another target. While grappled in this way, the abyss grappler injects its acid to liquefy the target's insides and the target takes {@damage 5d6} acid damage at the start of each of its turns. Attempting to remove the abyss grappler, agitates it to release more acid."
+                        "The abyssal grappler clenches onto the target's face. The target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the abyssal grappler can't use its clench on another target. While grappled in this way, the abyssal grappler injects its acid to liquefy the target's insides and the target takes [[{@damage 5d6}]] acid damage at the start of each of its turns. Attempting to remove the abyssal grappler, agitates it to release more acid."
                     ]
                 }
             ],
@@ -6219,8 +6219,8 @@
             ],
             "hp":
             {
-                "average": 171,
-                "formula": "18d10 + 72"
+                "average": 189,
+                "formula": "14d20 + 42"
             },
             "speed":
             {
@@ -6378,6 +6378,13 @@
                     "entries":
                     [
                         "The angler fish has an antler which bioluminescent bacteria attaches and sheds dim light in a 5-foot radius."
+                    ]
+                },
+                {
+                    "name": "Ambusher",
+                    "entries":
+                    [
+                        "In the first round of a combat, the angler fish has advantage on attack rolls against any creature it surprised."
                     ]
                 }
             ],
