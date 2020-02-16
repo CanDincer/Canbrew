@@ -705,28 +705,28 @@
                     "name": "Shapechanger",
                     "entries":
                     [
-                        "Werewolf ALpha can use its action to polymorph into a wolf-humanoid hybrid or a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                        "The werewolf alpha can use its action to polymorph into a wolf-humanoid hybrid or a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
                     ]
                 },
                 {
                     "name": "Legendary Resistance (3/Day)",
                     "entries":
                     [
-                        "If the Werewolf ALpha fails a saving throw, it can choose to succeed instead."
+                        "If the werewolf alpha fails a saving throw, it can choose to succeed instead."
                     ]
                 },
                 {
                     "name": "Keen Hearing and Smell",
                     "entries":
                     [
-                        "The Werewolf ALpha has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                        "The werewolf alpha has advantage on Wisdom (Perception) checks that rely on hearing or smell."
                     ]
                 },
                 {
                     "name": "Pack Leader",
                     "entries":
                     [
-                        "The Werewolf ALpha's allies have advantage on melee attack rolls against any hostile creature within 5 feet of the Werewolf ALpha."
+                        "The werewolf alpha's allies have advantage on melee attack rolls against any hostile creature within 5 feet of the werewolf alpha."
                     ]
                 }
             ],
@@ -736,7 +736,7 @@
                     "name": "Multiattack (Hybrid Form Only)",
                     "entries":
                     [
-                        "The Werewolf ALpha makes three attacks: one with its bite and two with its claws."
+                        "The werewolf alpha makes three attacks: one with its bite and two with its claws."
                     ]
                 },
                 {
@@ -756,7 +756,7 @@
             ],
             "legendaryGroup":
             {
-                "name": "Werewolf Alpha"
+                "name": "werewolf alpha"
             },
             "legendary":
             [
@@ -5695,7 +5695,7 @@
                     "name": "Dreadful Anticipation",
                     "entries":
                     [
-                        "Glasseye makes an attack every 2 turns but the anticipation and thrill are unbearable. Each creature that can see Glasseye must succeed on a DC 16 Charisma saving throw. On a failed save, a target takes [[{@damage 3d6}]] psychic damage."
+                        "Glasseye makes an attack every 2 turns but the anticipation and thrill are unbearable. Each creature that can see Glasseye must succeed on a {@dc 16} Charisma saving throw. On a failed save, a target takes [[{@damage 3d6}]] psychic damage, or half as much damage on a successful one."
                     ]
                 },
                 {
@@ -6040,7 +6040,7 @@
                     "name": "Poisonous Tendrils",
                     "entries":
                     [
-                        "The shrimp has poison tendrils that carry a neurotoxin. A creature that touches the shrimp or that hits it with a melee attack while within 5 feet of it must make a DC 15 Constitution saving throw. On a failure, the creature takes {@damage 1d6} poison damage and is poisoned until the end of its next turn."
+                        "The halocline shrimp has poison tendrils that carry a neurotoxin. A creature that touches the shrimp or that hits it with a melee attack while within 5 feet of it must make a DC 15 Constitution saving throw. On a failure, the creature takes [[{@damage 1d6}]] poison damage and is poisoned until the end of its next turn."
                     ]
                 }
             ],
@@ -6050,14 +6050,14 @@
                     "name": "Thunder Claw",
                     "entries":
                     [
-                        "The shrimp makes a claw attack and a 30-foot cone blast travels. Each creature in that area must make a {@dc 15} Constitution saving throw, taking [[{@damage 2d8 + 5}]] bludgeoning damage on a failed save, or half as much damage on a successful one."
+                        "The halocline shrimp makes a claw attack and a 30-foot cone blast travels. Each creature in that area must make a {@dc 15} Constitution saving throw, taking [[{@damage 2d8 + 5}]] bludgeoning damage on a failed save, or half as much damage on a successful one."
                     ]
                 },
                 {
                     "name": "Superior Invisibility",
                     "entries":
                     [
-                        "The shrimp magically turns transparent and is considered {@condition invisible} until its concentration ends (as if concentrating on a spell)."
+                        "The halocline shrimp magically turns transparent and is considered {@condition invisible} until its concentration ends (as if concentrating on a spell)."
                     ]
                 }
             ],

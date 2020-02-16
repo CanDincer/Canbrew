@@ -1406,6 +1406,38 @@
             ]
         },
         {
+            "name": "Agr'waendil ",
+            "baseItem": "Longsword|PHB",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 3,
+            "dmg1": "1d10",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "2H" 
+            ],
+            "rarity": "Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This sword belonged to Agr'waendil, the worldwide champion of arenas, a peerles elf-goliath woman.",
+                "When you're holding this weapon with two hands and make an attack with it, choose any target within 5 feet, and it takes {@damage 1d6} slashing damage. This damage is considered magical in purpose of overcoming resistances.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries":
+                    [
+                        "Agr'waendil was killed iniquitously and she craves revenge. When you attune to this item, your mind is driven by vengeance.",
+                        "If you can sate her vengeance, the extra damage increases to as many {@damage d4} dice as your proficiency bonus.",
+                        "When you witness an unjust death, make an Intelligence saving throw. On a fail your are bound to avenge them.",
+                        "Take vigilance in your hands"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Half-forged Longsword",
             "baseItem": "Shortsword|PHB",
             "type": "M",
@@ -1423,7 +1455,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "In an attempt to create a sentient Longsword. A powerful wizard and a renowned blacksmith got together. While being forged it kept yelling \"Harder!\", \"Right there!\", and other kinky stuff. The blacksmith couldn't handle hearing it every time he hammered the sword and gave up. Deals {@damage 1d6} bludgeoning + {@damage 1d4} psychic damage. If you can please it enough it has +1 magic for a day hours."
+                "In an attempt to create a sentient Longsword. A powerful wizard and a renowned blacksmith got together. While being forged it kept yelling \"Harder!\", \"Right there!\", and other kinky stuff. The blacksmith couldn't handle hearing it every time he hammered the sword and gave up. Deals {@damage 1d6} bludgeoning + {@damage 1d4} psychic damage. If you can please it enough it has +1 magic for a day."
             ]
         },
         {
