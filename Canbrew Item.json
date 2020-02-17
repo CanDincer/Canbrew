@@ -1406,7 +1406,7 @@
             ]
         },
         {
-            "name": "Agr'waendil ",
+            "name": "Agr'waendil",
             "baseItem": "Longsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
@@ -1431,11 +1431,40 @@
                     [
                         "Agr'waendil was killed iniquitously and she craves revenge. When you attune to this item, your mind is driven by vengeance.",
                         "If you can sate her vengeance, the extra damage increases to as many {@damage d4} dice as your proficiency bonus.",
-                        "When you witness an unjust death, make an Intelligence saving throw. On a fail your are bound to avenge them.",
-                        "Take vigilance in your hands"
+                        "When you witness an unjust death, make an Intelligence saving throw. On a fail, your are bound to avenge them.",
+                        ""
+                    ]
+                },
+                {
+                    "type": "quote",
+                    "entries":
+                    [
+                        "Take vigilance in your hands."
                     ]
                 }
-            ]
+            ],
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/rFDgw1k.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/XgNtV7B.jpg"
+                        }
+                    }
+                ]
+            }
         },
         {
             "name": "Half-forged Longsword",
