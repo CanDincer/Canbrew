@@ -3179,6 +3179,28 @@
             ]
         },
         {
+            "name": "Golden Scarab Pendant",
+            "rarity": "Very Rare",
+            "weight": 0.05,
+            "reqAttune": "by multiple people",
+            "source": "Canbrew",
+            "entries":
+            [
+                "The pendants is stunning in its craftmanship, with twisting golden arcs forming the curvature of its body and head and delicately set sapphires in its eyes.",
+                "Multiple creatures can be attuned to the same pendant. Anyone attuned to the pendant is in its favor unless they do something directly destructive to nature or do something truly evil in its presence, at which time the attunement is lost.",
+                {
+                    "type": "entries",
+                    "name": "Lifegiver",
+                    "entries":
+                    [
+                        "When anyone attuned to the pendant dies within 60 feet of it, the scarab unhooks itself from its chain and flies to them instantly, spreading its wings with brilliant flash of green that heals them for a number of d4s equal to the number of creatures attuned to it within 60 feet",
+                        "Once this ability has been used, the beetle must spend an hour under direct sunlight to recharge this ability."
+                    ]
+                },
+                "When left unchecked in shadows at day time, animates and crawls towards sunlight. Then, petrifies back under sunlight."
+            ]
+        },
+        {
             "name": "Liquid Focus",
             "rarity": "Legendary",
             "type": "SCF",
