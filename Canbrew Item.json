@@ -504,14 +504,14 @@
             ]
         },
         {
-            "name": "Gloves of Storing",
+            "name": "Glove of Storing",
             "weight": 1,
             "reqAttune": true,
             "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
-                "This device is a simple leather glove. On command, an item held in the hand wearing the glove disappearsand and a crystal gem appears on one of the empty knuckles. The item can weigh no more than 10 pounds and must be able to be held in one hand. While stored, the item has negligible weight. With a snap of the fingers wearing the glove, an item of your choice reappears. A glove can only store 5 items that weigh 20 pounds in total. Storing or retrieving an item is a free action."
+                "This device is a simple leather glove. On command, an item held in the hand wearing the glove disappears and and a crystal gem appears on one of the empty knuckles. The item can weigh no more than 10 pounds and must be able to be held in one hand. While stored, the item has negligible weight. With a snap of the fingers wearing the glove, an item of your choice reappears. A glove can only store 5 items that weigh 20 pounds in total. Storing or retrieving an item is a free action."
             ]
         },
         {
@@ -651,13 +651,13 @@
             [
                 "F"
             ],
-            "rarity": "Rare",
+            "rarity": "Very Rare",
             "source": "Canbrew",
             "entries":
             [
                 "An elegant rapier, inlaid with elven engravings.",
-                "Whenever you're about to make an attack, you can dash 5 feet towards your target to close the distance, as a free action. You have to make an attack roll with the rapier after dashing to be able to use it. To the untrained eye, it looks like you've teleported. If you are dashing away from another foe, you have +1 AC against opportunity attacks from that foe.",
-                "Glows dimly when used in this way and deals an extra {@damage 1d4} force damage."
+                "Whenever you're about to make an attack, you can dash 5 feet towards your target to close the distance, as a free action. You have to make an attack roll with the rapier after dashing to be able to do this. To the untrained eye, it looks like you've teleported. If you are directly dashing away from another foe, it has disadvantage on his opportunity attack.",
+                "Glows dimly green when used in this way and deals an extra {@damage 1d4} force damage."
             ]
         },
         {

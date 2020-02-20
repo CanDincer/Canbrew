@@ -347,23 +347,13 @@
                 "Goblin"
             ],
             "cr": "4",
-            "trait":
-            [
-                {
-                    "name": "Boss Fight",
-                    "entries":
-                    [
-                        "At the start of combat, the goblin warlord rolls twice for initiative, taking two turns per round of combat. At the start of each round, the goblin warlord must reroll for initiative once and replace one of its turns with the new result."
-                    ]
-                }
-            ],
             "action":
             [
                 {
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The Goblin warlord makes two attacks with its Spiked Chain."
+                        "The Goblin warlord makes four attacks with its Spiked Chain."
                     ]
                 },
                 {
@@ -373,10 +363,6 @@
                         "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage. The goblin warlord can force the target to make a contested Athletics ([[@{npc_athletics}+1d20]]) check. On a failed saving throw, the target is grappled and pulled towards the goblin warlord up 5 ft."
                     ]
                 }
-            ],
-            "traitTags":
-            [
-                "Boss Fight"
             ],
             "languageTags":
             [
@@ -416,7 +402,7 @@
             }
         },
         {
-            "name": "Cursed Tree",
+            "name": "Cursed Tree ogd",
             "size": "H",
             "type": "plant",
             "source": "Canbrew",
@@ -490,13 +476,6 @@
             "trait":
             [
                 {
-                    "name": "Boss Fight",
-                    "entries":
-                    [
-                        "At the start of combat, the cursed tree rolls twice for initiative, taking two turns per round of combat. At the start of each round, the cursed tree must reroll for initiative once and replace one of its turns with the new result."
-                    ]
-                },
-                {
                     "name": "False Appearance (Cursed Tree only)",
                     "entries":
                     [
@@ -556,7 +535,7 @@
                     ]
                 }
             ],
-            "legendaryActions": 1,
+            "legendaryActions": 2,
             "environment":
             [
                 "forest",
@@ -564,7 +543,6 @@
             ],
             "traitTags":
             [
-                "Boss Fight",
                 "False Appearance"
             ],
             "languageTags":
@@ -792,7 +770,6 @@
             "legendaryActions": 3,
             "traitTags":
             [
-                "Boss",
                 "Shapechanger",
                 "Keen Senses",
                 "Legendary Resistances"
@@ -1373,9 +1350,6 @@
             ],
             "legendaryActions": 2,
             "traitTags":
-            [
-                "Boss"
-            ],
             "languageTags":
             [
                 "C",
@@ -1666,7 +1640,7 @@
                     "name": "Allflame",
                     "entries":
                     [
-                        "Ifrit has a 300-foot bright light aura around it. Inside the aura, any spell has double the amount of dice it normally has. "
+                        "Ifrit has a 300-foot bright light aura around it. Inside the aura, any spell has double the amount of dice it normally has."
                     ]
                 },
                 {
@@ -3435,7 +3409,6 @@
             ],
             "traitTags":
             [
-                "Boss",
                 "Siege Monster"
             ],
             "senseTags":
@@ -4891,9 +4864,12 @@
                     ]
                 }
             ],
+            "legendaryGroup":
+            {
+                ""
+            },
             "traitTags":
             [
-                "Boss",
                 "Aggressive"
             ],
             "languageTags":
