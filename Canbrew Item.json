@@ -504,6 +504,17 @@
             ]
         },
         {
+            "name": "Gloves of Storing",
+            "weight": 1,
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This device is a simple leather glove. On command, an item held in the hand wearing the glove disappearsand and a crystal gem appears on one of the empty knuckles. The item can weigh no more than 10 pounds and must be able to be held in one hand. While stored, the item has negligible weight. With a snap of the fingers wearing the glove, an item of your choice reappears. A glove can only store 5 items that weigh 20 pounds in total. Storing or retrieving an item is a free action."
+            ]
+        },
+        {
             "name": "Repulsor Gauntlet",
             "type": "R",
             "weight": 2,
@@ -635,7 +646,7 @@
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "P",
-            "reqAttune": true,
+            "reqAttune": "by a spellcaster with a Dexterity score of at least 13",
             "property":
             [
                 "F"
