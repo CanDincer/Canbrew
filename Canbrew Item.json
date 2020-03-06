@@ -261,6 +261,63 @@
             ]
         },
         {
+            "name": "Titanfell",
+            "baseItem": "Dagger|PHB",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "rarity": "Artifact",
+            "source": "Canbrew",
+            "entries":
+            [
+                "An adamantine dagger with an onyx blade. It was crafted in Kravenforge, in an era where the titans were roaming the material plane, wrecking havoc. For once, in the entire history of existance, dwarves and giants worked together to forge this dagger.",
+                "It looks cool and that's it. It has no magic properties, detect magic has no effect on it, and identify reveals nothing. Until it's within 15 feet of a Large or larger creature. Then, the onxy grows. Depending on the size of the creature it grows to different sizes and deals different damage.",
+                {
+                    "type": "table",
+                    "colLabels":
+                    [
+                        "Creature Size",
+                        "Weapon",
+                        "Damage"
+                    ],
+                    "colStyles":
+                    [
+                        "col-4",
+                        "col-4",
+                        "col-4"
+                    ],
+                    "rows":
+                    [
+                        [
+                            "Large",
+                            "{@item Shortsword|PHB}",
+                            "{@damage 2d6}"
+                        ],
+                        [
+                            "Huge",
+                            "{@item Longsword|PHB}",
+                            "{@damage 3d8} ({@damage 3d10})"
+                        ],
+                        [
+                            "Gargantuan",
+                            "{@item Greatsword|PHB}",
+                            "{@damage 8d6}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Betrayer's Blade",
             "baseItem": "Dagger|PHB",
             "type": "M",
@@ -282,6 +339,28 @@
             [
                 "A small dagger with a jagged black blade. You have proficiency(expertise if you're already proficient) on any stealth/sleight of hand check to hide it, and get a surprise round when attacking any non-hostile character.",
                 "The location of this dagger is currently unknown, but it is being sought in connection with the murder of a Count. If you have any information regarding its whereabouts, report to your nearest guard post for a reward of 20 gold pieces."
+            ]
+        },
+        {
+            "name": "Haruspex's Blade",
+            "baseItem": "Dagger|PHB",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "property":
+            [
+                "F",
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "As an action you can pierce your hand with this dagger for {@damage 1d4} piercing damage. You pick a type of saving throw and your blood sacrifice grants you a {@dice 2d4} bonus to that saving throw once in the next 10 minutes. You must use the bonus before you make the saving throw. You can't use this feature for 1 hour after you've cut yourself."
             ]
         },
         {
@@ -430,7 +509,23 @@
                             "name": "60 cultists",
                             "entries":
                             [
-                                "You have +1 bonus to your spell attack rolls"
+                                "You have +1 bonus to your spell attack rolls and spell save DC."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "70 cultists",
+                            "entries":
+                            [
+                                "Serrations grow on the fang, increasing its die to a {@damage d6}"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "80 cultists",
+                            "entries":
+                            [
+                                "The fang twists and takes a slight helicoidal shape. Hits made with it initiate a bleeding effect. On a failed {@dc 12} Constitution saving throw, target takes {@damage 1d4} bleeding damage at the start of its turn until the creature succeeds, ending the effect"
                             ]
                         }
                     ]
@@ -455,7 +550,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. A minimum of 14 Strength is required to lift it. Roll and add another {@damage 1d20} damage if you roll a 20 on a damage roll. If your size is larger than Medium, you only get -3 penalty."
+                "A ludicrously oversized and unwieldy axe. You get -5 on attack rolls. It ignores AC from shields. A minimum of 14 Strength is required to lift it. If your size is larger than Medium, you only get -3 penalty."
             ]
         },
         {
@@ -501,6 +596,19 @@
             "entries":
             [
                 "These gloves have 4 fingers but meld seamlessly into your hands when you don them. While wearing these gloves, climbing doesn't cost you extra movement, you gain a +1 bonus to Strength (Athletics) checks made to grapple a creature, you have swimming speed of 20 ft., and any creature grappled by you that is not wearing armor takes {@damage 1d4} poison damage at the end of each of your turns."
+            ]
+        },
+        {
+            "name": "Spellscripter's Brace",
+            "weight": 1,
+            "reqAttune": "by a Wizard",
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "A long brown leather and blue cloth brace with cut fingers. When you attune to it two blue magical signs appear on your thumb and index finger.",
+                "This scripter's hand brace allows you to ditch your spell book. Instead, you can activate it to conjure a visual archive of spells which you can scroll through with your thumb and add or remove with your index finger.",
+                "As long as the brace is intact, your archive cannot be harmed."
             ]
         },
         {
@@ -590,7 +698,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                            "Ensnaring Strike"
+                "Ensnaring Strike"
             ],
             "property":
             [
@@ -930,7 +1038,7 @@
             ]
         },
         {
-            "name": "Angel's Will (od)",
+            "name": "Angel's Will (ogd)",
             "baseItem": "Greatsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
@@ -1250,6 +1358,27 @@
             ]
         },
         {
+            "name": "Faran",
+            "baseItem": "Shortsword|PHB",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "1d6",
+            "dmgType": "O",
+            "reqAttune": true,
+            "property":
+            [
+                "F",
+                "L"
+            ],
+            "rarity": "Very Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "When drawn out of its Burns dimly with purple fire. You can charge this weapon to create a crescent-shaped beam of force energy that travels for 15 feet in a 0.5 rad. cone."
+            ]
+        },
+        {
             "name": "Denier",
             "baseItem": "Scimitar|PHB",
             "type": "M",
@@ -1433,7 +1562,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "This sword belonged to Agr'waendil, the worldwide champion of arenas, a peerles elf-goliath woman.",
+                "This silver sword belonged to Agr'waendil, the worldwide champion of arenas, a peerles elf-goliath woman.",
                 "When you're holding this weapon with two hands and make an attack with it, choose any target within 5 feet, and it takes {@damage 1d6} slashing damage. This damage is considered magical in purpose of overcoming resistances.",
                 {
                     "type": "entries",
@@ -1655,13 +1784,12 @@
                 "V"
             ],
             "range": "20/60",
-            "bonus": "+5",
             "rarity": "Legendary",
             "source": "Canbrew",
             "entries":
             [
-                "A legendary +5 spear with a shaft hewn from the wood of an ancient tree at the foot of Mount Celestia, and a head said to be forged by Hephaestus himself, this is a weapon for victorious heroes - and yet it has been responsible for as many terrible defeats.",
-                "Critical hits against you force a Constitution save, with a DC of the damage taken. Failure on this save reduces you to 0hp. Fatal damage still kills you."
+                "A legendary spear with a shaft hewn from the wood of an ancient tree at the foot of Mount Celestia, and a head said to be forged by Hephaestus himself, this is a weapon for victorious heroes - and yet it has been responsible for as many terrible defeats.",
+                "The geometry and the material of this spear allows for a special stance. As a free action, you can assume this stance to get a +6 bonus to your attack and damage rolls until the start of your next turn. This stance requires you to expose critical points of your body. During this time window, any hit you receive is considered critical hit."
             ]
         },
         {
@@ -1784,13 +1912,14 @@
             "source": "Canbrew",
             "entries":
             [
-                "Crafted from the chitin of a giant scorpion. Your maximum Constitution increases by 2. When you take a critical hit, your blood splatters and deals the damage you took as acid damage to all enemies adjacent to you.",
+                "Crafted from the chitin of a giant scorpion. Your maximum Constitution increases by 2. When you take a critical hit from a mundane attack, your blood splatters and deals the damage you took as acid damage to all enemies adjacent to you.",
+                "You gain resistance to poison damage.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "Once you wear this armor, you are cursed. It corrupts your blood with the venom of the scorpion. Dark green veins show under your skin. Healing potions deal damage to you. You can instead drink poison potions to recover. Your AC is 15 + your Dexterity modifier (max 2)."
+                        "While you wear this armor, it corrupts your blood with the venom of scorpion. Dark green veins show under your skin. Healing potions deal damage to you. You can instead drink poison potions to recover."
                     ]
                 }
             ]
@@ -1868,7 +1997,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "When an incoming attack misses by between 1 to 4 points, tries to “eat” the metal weapon with an opposed attack roll (magic weapons add their enhancement bonus squared). If it succeeds, the weapon is destroyed and the armor gains +3 magic bonus for 1 minute. The armor must be “fed” daily or else it may try to eat nearby metal objects at random."
+                "This armor is an enhanced mimic. When an incoming attack misses by between 1 to 4 points, tries to \"eat\" the metal weapon with an opposed attack roll against a DC equal to 10 + creature's proficiency bonus (magic weapons add their enhancement bonus squared to the DC). If a roll of {@dice d20} succeeds, the weapon is destroyed and the armor gains +3 magic bonus for 1 minute. The armor must be “fed” daily or else it may try to eat nearby metal objects at random."
             ]
         },
         {
@@ -1958,7 +2087,7 @@
             ]
         },
         {
-            "name": "Mirage Shield",      
+            "name": "Mirage Shield",
             "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
@@ -1977,7 +2106,7 @@
             ]
         },
         {
-            "name": "Templar's Shield",      
+            "name": "Templar's Shield",
             "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
@@ -2001,7 +2130,7 @@
             ]
         },
         {
-            "name": "Anvil Plate Shield",      
+            "name": "Anvil Plate Shield",
             "baseItem": "Shield|PHB",
             "type": "S",
             "weight": 6,
@@ -2068,7 +2197,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A brass armband that projects a disk of force, giving +2AC, but leaving your hand free enough to still take the 'use an object' action."
+                "A brass armband that projects a disk of force, giving +2 AC, but leaving your hand free enough to still take the 'use an object' action."
             ]
         },
         {
@@ -2304,7 +2433,8 @@
             "source": "Canbrew",
             "entries":
             [
-                "This ring has {@spell nondetection|PHB} spell cast on it by itself continuously."
+                "This ring has {@spell nondetection|PHB} spell cast on it by itself continuously.",
+                "Once a day you redirect {@spell nondetection|PHB} on your self."
             ]
         },
         {
@@ -2510,17 +2640,6 @@
             ]
         },
         {
-            "name": "Eyes of Minute Seeing",
-            "rarity": "Uncommon",
-            "weight": 0.05,
-            "reqAttune": true,
-            "source": "Canbrew",
-            "entries":
-            [
-                "These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have proficiency(expertise if you're already proficient) on intelligence (Investigation) checks that rely on sight while searching an area or studying an object within that range."
-            ]
-        },
-        {
             "name": "Mask of Confidence",
             "rarity": "Uncommon",
             "weight": 0.5,
@@ -2602,7 +2721,7 @@
             ]
         },
         {
-            "name": "Mirror of Imprisonment (od, too op, too boring, can be salvaged)",
+            "name": "Mirror of Imprisonment (ogd, too op, too boring, can be salvaged)",
             "rarity": "Artifact",
             "weight": 0.5,
             "reqAttune": true,
@@ -2691,6 +2810,19 @@
             ]
         },
         {
+            "name": "Ratskin Cape",
+            "rarity": "Common",
+            "weight": 4,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "A long cape seemingly made of rat fur, secured around the neck with a rat skull clasp. It's quite warm but also disgusting. It seems to wriggle and writhe of its own accord, and no matter how often it is washed, it reeks of... well... rat.",
+                "Once per long rest, you can throw it on the ground and it turns into a {@creature swarm of rats|MM} that will attack whatever creature is in the space it landed in. The rats revert to cape form if the target creature dies or leaves the space. There are 24 rats in the swarm, one for every hit point; for every point of damage taken, a rat is killed. When the swarm reverts to cape form, it is reduced in size (for example, if half the rats are killed, the cape is now half the length it was before). If all the rats are killed, all that will remain is the clasp.",
+                "If the cape (or clasp) is left out with a lump of cheese in an area frequented by rats, it will add one new rat every hour, until it is restored to its 24-rat maximum."
+            ]
+        },
+        {
             "name": "Pouch of Replenishment",
             "rarity": "Very Rare",
             "weight": 0.5,
@@ -2732,6 +2864,56 @@
                     ]
                 },
                 "Any goblinoid type creature lowers listed DCs by 2 and only adds +1 for each additional usage due to familiarity and use."
+            ]
+        },
+        {
+            "name": "Potion of Shadow Form",
+            "rarity": "Rare",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This potion's container seems to hold a black fog that moves and pours like water.",
+                "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being grappled and restrained, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain Darkvision to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
+            ]
+        },
+        {
+            "name": "Potion of Minor Errands",
+            "rarity": "Rare",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "It's a very clear looking liquid. Tiny sparks are seen inside frequently",
+                "When you drink this potion, you gain an additional bonus action on each of your turns for a minute."
+            ]
+        },
+        {
+            "name": "Potion of Sight",
+            "rarity": "Common",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This potion's container seems to hold a very thick black goo. Drinking it gives you black eyes.",
+                "When you drink this potion, you gain {@sense darkvision} out to a range of 30 ft. for 1 hour."
+            ]
+        },
+        {
+            "name": "Kraken Blood",
+            "rarity": "Rare",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "Actually, made from mushed Juvenile Kraken eye but \"Kraken Blood\" sells better.",
+                "When you drink this potion, your eyes glow with a bright orange for the duration.",
+                "You receive a total of 3 Legendary Actions which can be used within the next minute, all unused Legendary Actions fade away after this time.",
+                "You can use a Legendary Action at the end of the turn of any other creature in the initiative order. You can use a maximum of one Legendary Action each round. To spend a Legendary Action you can do anything which would require a single Bonus Action or an Action to perform."
             ]
         },
         {
@@ -2979,6 +3161,17 @@
             ]
         },
         {
+            "name": "Blessed Coin",
+            "rarity": "Rare",
+            "weight": 0.05,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "A bronze colored coin. Flipping the coin causes it to disappear, turning into dust. If it lands on heads, you may add 1 to any roll you take in the next 10 minutes. You may only do this to one roll. The \"charge\" is stored in the character for 10 minutes, similar to a bardic inspiration. You can not stack this ability on more than one roll at once, but you may hold more than one charge at once."
+            ]
+        },
+        {
             "name": "Hymn of Zeus",
             "rarity": "Rare",
             "weight": 1,
@@ -3016,7 +3209,7 @@
             [
                 "Written by Poseidon himself. First users of the tidal magic were taught by this book. Generations have practiced these spells to carry Poseidon's will.",
                 "It needs to be soaked in saltwater regularly or the pages will dry out and fall, losing spells.",
-                "It has 8 charges and regains 1 charge on each ebb and flow.",
+                "It has 8 charges and regains 1 charge on each ebb and flow cycle.",
                 {
                     "type": "table",
                     "caption": "Spells Contained in Opus of Poseidon",
@@ -3070,56 +3263,6 @@
                         ]
                     ]
                 }
-            ]
-        },
-        {
-            "name": "Potion of Shadow Form",
-            "rarity": "Rare",
-            "type": "P",
-            "weight": 0.5,
-            "source": "Canbrew",
-            "entries":
-            [
-                "This potion's container seems to hold a black fog that moves and pours like water.",
-                "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being grappled and restrained, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain Darkvision to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
-            ]
-        },
-        {
-            "name": "Potion of Minor Errands",
-            "rarity": "Rare",
-            "type": "P",
-            "weight": 0.5,
-            "source": "Canbrew",
-            "entries":
-            [
-                "It's a very clear looking liquid. Tiny sparks are seen inside frequently",
-                "When you drink this potion, you gain an additional bonus action on each of your turns for a minute."
-            ]
-        },
-        {
-            "name": "Potion of Sight",
-            "rarity": "Common",
-            "type": "P",
-            "weight": 0.5,
-            "source": "Canbrew",
-            "entries":
-            [
-                "This potion's container seems to hold a very thick black goo. Drinking it gives you black eyes.",
-                "When you drink this potion, you gain {@sense darkvision} out to a range of 30 ft. for 1 hour."
-            ]
-        },
-        {
-            "name": "Kraken Blood",
-            "rarity": "Rare",
-            "type": "P",
-            "weight": 0.5,
-            "source": "Canbrew",
-            "entries":
-            [
-                "Actually, made from mushed Juvenile Kraken eye but \"Kraken Blood\" sells better.",
-                "When you drink this potion, your eyes glow with a bright orange for the duration.",
-                "You receive a total of 3 Legendary Actions which can be used within the next minute, all unused Legendary Actions fade away after this time.",
-                "You can use a Legendary Action at the end of the turn of any other creature in the initiative order. You can use a maximum of one Legendary Action each round. To spend a Legendary Action you can do anything which would require a single Bonus Action or an Action to perform."
             ]
         },
         {
@@ -3178,6 +3321,19 @@
             ]
         },
         {
+            "name": "Consolation Medallion",
+            "rarity": "Common",
+            "weight": 0.5,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "charges": 20,
+            "entries":
+            [
+                "A bronze medallion with red and white strap.",
+                "You can expend any number of charges it has to increase your roll by that much. It recharges 1 charge when you roll 1 on a die up to 20 charges."
+            ]
+        },
+        {
             "name": "Blood Pact Pendants",
             "rarity": "Rare",
             "weight": 0.05,
@@ -3224,6 +3380,18 @@
             ]
         },
         {
+            "name": "Accelerator Gem ogd",
+            "rarity": "Legendary",
+            "type": "SCF",
+            "weight": 0.05,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "Increases the range of your spells by 15 feet with the exception of spells with the range of touch."
+            ]
+        },
+        {
             "name": "Academic Focus",
             "rarity": "Legendary",
             "type": "SCF",
@@ -3261,7 +3429,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Amplifies your spells. When used; the level of the spell you are casting doubles but strains your physical form and you gain 1 exhaustion."
+                "Amplifies your spells. When used; the level of the spell you are casting doubles but strains your physical and spiritual form. With each use, a part of your soul is consumed. You gain 1 exhaustion and your maximum hit points are reduced by 1."
             ]
         },
         {
@@ -3276,6 +3444,16 @@
                 "If you touch any item to one of its sides, the item is diffused into it. You have one minute to insert the rest of the items. Otherwise, all items are ejected from it.",
                 "The time required for this process is equal to the rarity level x 10 hours. Place 5 of the same item inside the cube, lock the cube and then wait.",
                 "Some examples include: 5 +1 Longwords can be merged into a +2 Longsword within 20 hours, 5 Potions of Healing can be merged to a Potion of Greater Healing within 10 hours."
+            ]
+        },
+        {
+            "name": "Instant Trap Tube",
+            "rarity": "Very Rare",
+            "weight": 1,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This small cylinder seemingly has no bottom if viewed from its openings. If the owner stuffs a disassembled trap and a copper piece (it expects labor compensation for some reason) into an open end a small ball pops out from the opposite end. The traps appear as palm sized balls that can be thrown (20ft) and adhere to the surface they land on before melding almost perfectly and blending in with the environment."
             ]
         },
         {
@@ -3366,6 +3544,27 @@
             ]
         },
         {
+            "name": "Earring of Whispers",
+            "rarity": "Rare",
+            "weight": 0.05,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "While attuned to this earring, you can use an action to send a telepathic message to another creature with another earring of whispers attuned similar to the {@spell sending|PHB} spell with the exceptions:",
+                {
+                    "type": "list",
+                    "entries":
+                    [
+                        "You can send up to ten words.",
+                        "You cannot send messages across planes.",
+                        "Using this item does not require visual, somatic, or material components.",
+                        "Using this item requires concentration for 1 turn."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Brass Centipede",
             "rarity": "Rare",
             "weight": 2,
@@ -3380,7 +3579,7 @@
                     "name": "Curse",
                     "entries":
                     [
-                        "You have to fend for two minds at the same time. You have disadvantage on saving throws against spell effects and magic.",
+                        "You have to fend for two minds at the same time. You have disadvantage on Intelligence, Wisdom and, Charisma saving throws.",
                         "You need surgical tools and a surgeon to remove this centipede from your brain without killing yourself."
                     ]
                 }

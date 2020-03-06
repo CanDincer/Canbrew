@@ -162,6 +162,134 @@
             }
         },
         {
+            "name": "Book Mimic",
+            "size": "T",
+            "type":
+            {
+                "type": "monstrosity",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "C",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 13,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 3,
+                "formula": "2d4-2"
+            },
+            "speed":
+            {
+                "walk": 5
+            },
+            "str": 6,
+            "dex": 11,
+            "con": 9,
+            "int": 5,
+            "wis": 7,
+            "cha": 8,
+            "skill":
+            {
+                "stealth": "+2"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "immune":
+            [
+                "acid"
+            ],
+            "senses":
+            [
+                "blindsight 30 ft."
+            ],
+            "passive": 9,
+            "cr": "1/8",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Adhesive (Object Form Only)",
+                    "entries":
+                    [
+                        "The mimic adheres to anything that touches it. A Medium or smaller creature adhered to the mimic is also {@condition grappled} by it (escape {@dc 8}). Ability checks made to escape this grapple have disadvantage."
+                    ]
+                },
+                {
+                    "name": "False Appearance (Object Form Only)",
+                    "entries":
+                    [
+                        "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage plus 2 ({@damage 1d4}) acid damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Shapechanger"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "P",
+                "A"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/TUxXu3s.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/YXmlOt6.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "name": "Goblin Totem",
             "size": "S",
             "type":
@@ -1349,7 +1477,6 @@
                 }
             ],
             "legendaryActions": 2,
-            "traitTags":
             "languageTags":
             [
                 "C",
@@ -4736,7 +4863,7 @@
             }
         },
         {
-            "name": "Shabeshta",
+            "name": "Orc War Baron",
             "size": "M",
             "type":
             {
@@ -4755,7 +4882,7 @@
             "ac":
             [
                 {
-                    "ac": 16,
+                    "ac": 20,
                     "from":
                     [
                         "unarmored defense"
@@ -4764,24 +4891,23 @@
             ],
             "hp":
             {
-                "average": 76,
-                "formula": "8d8 + 40"
+                "average": 105,
+                "formula": "11d8 + 55"
             },
             "speed":
             {
                 "walk": 30
             },
-            "str": 20,
+            "str": 21,
             "dex": 13,
             "con": 20,
-            "int": 9,
+            "int": 12,
             "wis": 14,
             "cha": 17,
             "save":
             {
                 "str": "+8",
-                "con": "+8",
-                "wis": "+5"
+                "con": "+8"
             },
             "skill":
             {
@@ -4822,14 +4948,21 @@
                     "name": "Agressive",
                     "entries":
                     [
-                        "As a bonus action, Shabeshta can move up to its speed toward a hostile creature it can see."
+                        "As a bonus action, the orc can move up to its speed toward a hostile creature it can see."
+                    ]
+                },
+                {
+                    "name": "Primal Rage",
+                    "entries":
+                    [
+                        "The orc has advantage on Strength checks and Strength saving throws and has resistance to bludgeoning, piercing, and slashing damage.."
                     ]
                 },
                 {
                     "name": "Crushing Build",
                     "entries":
                     [
-                        "Shabeshta deals an extra 4 ({@damage 1d8}) damage when she hits with a weapon attack (included in the attacks)."
+                        "The orc deals an extra 4 ({@damage 1d8}) damage when she hits with a weapon attack (included in the attacks)."
                     ]
                 }
             ],
@@ -4839,7 +4972,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "Shabeshta makes two attacks with her greatclub or her Javelin."
+                        "The orc makes two attacks with its greatclub or its Javelin."
                     ]
                 },
                 {
@@ -4857,17 +4990,83 @@
                     ]
                 },
                 {
+                    "name": "Unarmed Strike",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 1 + 5}) bludgeoning damage."
+                    ]
+                },
+                {
                     "name": "Battle Cry (1/Day)",
                     "entries":
                     [
-                        "Each creature of the Shabeshta's choice that is within 30 feet of her, can hear her, and not already affected by Battle Cry gain advantage on attack rolls until the start of the Shabeshta's next turn. Shabeshta can then make one attack as a bonus action."
+                        "Each creature of the orc's choice that is within 30 feet of her, can hear her, and not already affected by Battle Cry gain advantage on attack rolls until the start of the orc's next turn. The orc can then make one attack as a bonus action."
                     ]
                 }
             ],
             "legendaryGroup":
             {
-                ""
+                "name": "Orc War Baron",
+                "source": "Canbrew",
+                "lairActions":
+                [
+                    "On Initiative count 20 (losing initiative ties), the orc can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "[[1d2]] orcs come rushing to aid the orc from up to 60 feet close to the orc."
+                        ]
+                    }
+                ],
+                "regionalEffects":
+                [
+                    "The region containing the dragon's lair is warped by its magic, creating one or more of the following effects:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "A regional effect"
+                        ]
+                    },
+                    "If the Oaken Bolter is destroyed, these effects fade over the course of 1d10 days."
+                ]
             },
+            "legendary":
+            [
+                {
+                    "name": "Command",
+                    "entries":
+                    [
+                        "One orc within 120 feet of the orc can either move up to half its speed or make a single weapon attack."
+                    ]
+                },
+                {
+                    "name": "Collateral Damage",
+                    "entries":
+                    [
+                        "The orc makes an attack towards a target withing 5 feet that it had not attacked in its last turn."
+                    ]
+                },
+                {
+                    "name": "Menacing Stance",
+                    "entries":
+                    [
+                        "The orc makes an intimidating pose and attempts to frighten the target. The target must make a {@dc 16} Wisdom saving throw. On a failed save, it is frightened of the orc until the end of the orc's next turn."
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "reaction":
+            [
+                {
+                    "name": "Enduring Disarm",
+                    "entries":
+                    [
+                        "When the orc is hit by a melee attack, it can choose to turn it into a critical hit and use its reaction to grab the weapon from its attacker's hand on a failed contested Athletics check ([[[[2d20kh1]]+8]]). The weapon is thrown 10 feet away from the orc in the direction of the orc's choice."
+                    ]
+                }
+            ],
             "traitTags":
             [
                 "Aggressive"
@@ -6429,6 +6628,14 @@
                     [
                         "The dragon leviathan spits lava that solidifies into a spherical rock with molten core. Upon impact it shatters. Each creature within 10 feet of impact point must make a {@dc 13} Dexterity saving throw, taking [[{@damage 6d8}]] fire damage on a failed save, or half as much damage on a successful one."
                     ]
+                },
+                {
+                    "name": "Swallow",
+                    "entries":
+                    [
+                        "The dragon leviathan makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the sea dragon, and it takes [[{@damage 6d6}]] acid damage at the start of each of the dragon leviathan's turns.",
+                        "If the dragon leviathan takes 30 damage or more on a single turn from a creature inside it, the dragon leviathan must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the dragon leviathan. If the dragon leviathan dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 feet of movement, exiting prone."
+                    ]
                 }
             ],
             "environment":
@@ -6921,6 +7128,708 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/g7XdJTQ.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Snow Grappler ogd",
+            "size": "L",
+            "type": "monstrosity",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "NX",
+                "C",
+                "G",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 13,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 55,
+                "formula": "10d8 + 10"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 15,
+            "con": 12,
+            "int": 11,
+            "wis": 11,
+            "cha": 10,
+            "skill":
+            {
+                "athletics": "+5",
+                "acrobatics": "+4"
+            },
+            "languages":
+            [
+                "any two languages"
+            ],
+            "passive": 10,
+            "cr": "2",
+            "trait":
+            [
+                {
+                    "name": "Nimble Action",
+                    "entries":
+                    [
+                        "On each of its turns, the pirate can use a bonus action to take the Dash or Disengage action."
+                    ]
+                },
+                {
+                    "name": "Weapon Juggler",
+                    "entries":
+                    [
+                        "The pirate can draw and wield up to three onehanded weapons."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The pirate makes two melee attacks or three ranged attacks with thrown weapons."
+                    ]
+                },
+                {
+                    "name": "Handaxe",
+                    "entries":
+                    [
+                        "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "arctic"
+            ],
+            "languageTags":
+            [
+                "X"
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/JHtyqMP.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/dIxjYxr.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Fey Beekeeper",
+            "size": "M",
+            "type": "fey",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "C",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 71,
+                "formula": "13d8 + 13"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 12,
+            "int": 14,
+            "wis": 17,
+            "cha": 16,
+            "save":
+            {
+                "wis": "+6",
+                "cha": "+6"
+            },
+            "skill":
+            {
+                "perception": "+6"
+            },
+            "immune":
+            [
+                "piercing",
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
+            "languages":
+            [
+                "Common",
+                "Sylvan",
+                "telepathy 60 ft."
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "cr": "6",
+            "trait":
+            [
+                {
+                    "name": "Hive Mind",
+                    "entries":
+                    [
+                        "The beekeeper can use its telepathy to initiate and maintain telepathic conversations with up to ten creatures at a time. The beekeeper can let those creatures telepathically hear each other while connected in this way."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries":
+                    [
+                        "The beekeeper's innate spellcasting ability is Charisma (spell save {@dc 14}). The beekeeper can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will":
+                    [
+                        "{@spell detect poison and disease}",
+                        "{@spell faerie fire}",
+                        "{@spell gust}",
+                        "{@spell mage hand}"
+                    ],
+                    "daily":
+                    {
+                        "1e":
+                        [
+                            "{@spell cloudkill}",
+                            "{@spell insect plague}"
+                        ],
+                        "2e":
+                        [
+                            "{@spell fog cloud}",
+                            "{@spell giant insect}",
+                            "{@spell misty step}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The beekeeper makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Scimitar",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Longbow",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Honey Bomb (1/Day)",
+                    "entries":
+                    [
+                        "The beekeeper hurls a magical honeycomb at a point it can see within 120 feet of it. The honeycomb explodes on impact, releasing a swarm of bees. Each creature in a 20-foot-radius sphere around corners. A creature takes [[{@damage 10d6}]] magical piercing damage on a failed save, or half as much damage on a successful one. The swarm of bees remains once released and attacks any creature hostile to the fey beekeeper."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Scatter",
+                    "entries":
+                    [
+                        "When the beekeeper is hit with an attack, it can momentarily transform into a scattering swarm of bees, taking only half as much damage. The beekeeper can then magically teleport up to 30 feet to an unoccupied space it can see."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "forest",
+                "grassland"
+            ],
+            "languageTags":
+            [
+                "C",
+                "S",
+                "TP"
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/EMbjAeb.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/G5hvbSK.jpg"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/LFomDa4.png"
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/EMbjAeb.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Polebeak ogd",
+            "size": "L",
+            "type": "monstrosity",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "NX",
+                "C",
+                "G",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 13,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 55,
+                "formula": "10d8 + 10"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 15,
+            "con": 12,
+            "int": 11,
+            "wis": 11,
+            "cha": 10,
+            "skill":
+            {
+                "athletics": "+5",
+                "acrobatics": "+4"
+            },
+            "languages":
+            [
+                "any two languages"
+            ],
+            "passive": 10,
+            "cr": "2",
+            "trait":
+            [
+                {
+                    "name": "Nimble Action",
+                    "entries":
+                    [
+                        "On each of its turns, the pirate can use a bonus action to take the Dash or Disengage action."
+                    ]
+                },
+                {
+                    "name": "Weapon Juggler",
+                    "entries":
+                    [
+                        "The pirate can draw and wield up to three onehanded weapons."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The pirate makes two melee attacks or three ranged attacks with thrown weapons."
+                    ]
+                },
+                {
+                    "name": "Handaxe",
+                    "entries":
+                    [
+                        "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "arctic"
+            ],
+            "languageTags":
+            [
+                "X"
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/idxYDMv.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/idxYDMv.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Tremor Bison ogd",
+            "size": "L",
+            "type": "beast",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 20,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 69,
+                "formula": "6d10 + 36"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 22,
+            "dex": 15,
+            "con": 23,
+            "int": 4,
+            "wis": 14,
+            "cha": 12,
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "senses":
+            [
+                "tremorsense 30 ft."
+            ],
+            "passive": 11,
+            "cr": "7",
+            "trait":
+            [
+                {
+                    "name": "Charge",
+                    "entries":
+                    [
+                        "If the bison moves at least 20 ft. straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra {[[2d10]]} bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked prone."
+                    ]
+                },
+                {
+                    "name": "Fear of Fire",
+                    "entries":
+                    [
+                        "If the bison takes fire damage, it's frightened until the start of its next turn."
+                    ]
+                },
+                {
+                    "name": "Sure-Footed",
+                    "entries": [
+                        "The bison has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Gore",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}31 ({@damage 6d8 + 6}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Tremor",
+                    "entries":
+                    [
+                        "The bison jumps and sends a wave of tremor in a 20-foot radius sphere. On a failed {@dc 17} Dexterity saving throw, creatures take [[{@damage 6d6}]] bludgeoning damage and be knocked {@condition prone}. On a success, creatures only take half the damage."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "arctic",
+                "hill",
+                "mountain"
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "traitTags":
+            [
+                "Charge"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "tokenUrl": "https://i.imgur.com/wT8Cc72.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Q35Ahp1.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Leechmere ogd",
+            "size": "S",
+            "type": "monstrosity",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 55,
+                "formula": "2d6 + 10"
+            },
+            "speed":
+            {
+                "walk": 35
+            },
+            "str": 8,
+            "dex": 23,
+            "con": 13,
+            "int": 6,
+            "wis": 7,
+            "cha": 17,
+            "skill":
+            {
+                "stealth":"+8"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "cr": "4",
+            "trait":
+            [
+                {
+                    "name": "Feeder",
+                    "entries":
+                    [
+                        "The leechmere regains the necrotic damage it deals as temporary hit ponits."
+                    ]
+                },
+                {
+                    "name": "Pounce",
+                    "entries":
+                    [
+                        "If the lichmere moves at least 20 ft. straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a {@dc 9} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the leechmere can make one claw attack against it as a bonus action."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The leechmere makes four attacks. Only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d4 + 6}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d4 + 6}) piercing plus 3 ({@damage 1d6}) necrotic damage."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "arctic"
+            ],
+            "languageTags":
+            [
+                "X"
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/mR5BOJD.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/xHyNKvt.png"
                         }
                     }
                 ]
