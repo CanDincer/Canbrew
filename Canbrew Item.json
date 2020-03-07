@@ -747,6 +747,61 @@
             ]
         },
         {
+            "name": "Chromatic Obsidian Handaxe",
+            "baseItem": "Handaxe|PHB",
+            "type": "M",
+            "weaponCategory": "Simple",
+            "weight": 2,
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "reqAttune": true,
+            "property":
+            [
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "rarity": "Uncommon",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This prismatic handaxe is made using chromatic obsidian, a dazzling type of stone found where several Elemental Planes meet. When you roll a 20 on an attack roll made with his magic weapon, the target takes {@damage 1d6} cold damage, {@damage 1d6} fire damage, {@damage 1d6} lightning damage, and {@damage 1d6} radiant damage. For each 6 you roll in this way, use the table below to determine which of the following effects happen.",
+                {
+                    "type": "table",
+                    "colLabels":
+                    [
+                        "Damage Type",
+                        "Effect"
+                    ],
+                    "colStyles":
+                    [
+                        "col-4",
+                        "col-6"
+                    ],
+                    "rows":
+                    [
+                        [
+                            "Cold",
+                            "The target's speed is halved until the end of your next turn"
+                        ],
+                        [
+                            "Fire",
+                            "The target takes an extra 6 fire damage at the end of its next turn"
+                        ],
+                        [
+                            "Lightning",
+                            "The target can't take reactions until the end of your next turn"
+                        ],
+                        [
+                            "Radiant",
+                            "The next attack roll made against this target before the end of your next turn has advantage."
+                        ]
+                    ]
+                },
+                "If you roll a 1 on an attack roll, the obsidian handaxe shatters and deals damage as if you rolled a 20"
+            ]
+        },
+        {
             "name": "Flashstep Rapier",
             "baseItem": "Rapier|PHB",
             "type": "M",
@@ -1060,7 +1115,7 @@
             ]
         },
         {
-            "name": "Repeating Crossbow",
+            "name": "Heavy Repeating Crossbow",
             "baseItem": "Heavy Crossbow|PHB",
             "type": "R",
             "weaponCategory": "Martial",
@@ -1076,6 +1131,7 @@
                 "2H"
             ],
             "rarity": "Rare",
+            "range":"25/100",
             "source": "Canbrew",
             "entries":
             [
@@ -1531,7 +1587,8 @@
             "dmgType": "B",
             "attachedSpells":
             [
-                "Sacred Flame"
+                "Sacred Flame",
+                "Vicious Mockery"
             ],
             "reqAttune": true,
             "property":
@@ -1542,7 +1599,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Hits from this weapon cast {@spell sacred flame|PHB} upon the hit enemy. If you roll a 1 on an attack roll Vicious Mockery is cast on you."
+                "Hits from this weapon cast {@spell sacred flame|PHB} upon the hit enemy. If you roll a 1 on an attack roll {@spell vicious mockery} is cast on you."
             ]
         },
         {
