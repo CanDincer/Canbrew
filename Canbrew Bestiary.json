@@ -869,7 +869,7 @@
             ],
             "legendaryGroup":
             {
-                "name": "werewolf alpha"
+                "name": "Werewolf Alpha"
             },
             "legendary":
             [
@@ -1926,7 +1926,7 @@
                     "name": "Avoidance",
                     "entries":
                     [
-                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half as much damage, it instead takes no  damage if it succeeds on the saving throw, and only half as much damage if it fails."
                     ]
                 },
                 {
@@ -2094,7 +2094,7 @@
                     "name": "Avoidance",
                     "entries":
                     [
-                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half as much damage, it instead takes no  damage if it succeeds on the saving throw, and only half as much damage if it fails."
                     ]
                 },
                 {
@@ -2258,7 +2258,7 @@
                     "name": "Avoidance",
                     "entries":
                     [
-                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half as much damage, it instead takes no  damage if it succeeds on the saving throw, and only half as much damage if it fails."
                     ]
                 },
                 {
@@ -2423,7 +2423,7 @@
                     "name": "Avoidance",
                     "entries":
                     [
-                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half as much damage, it instead takes no  damage if it succeeds on the saving throw, and only half as much damage if it fails."
                     ]
                 },
                 {
@@ -2598,7 +2598,7 @@
                     "name": "Avoidance",
                     "entries":
                     [
-                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half as much damage, it instead takes no  damage if it succeeds on the saving throw, and only half as much damage if it fails."
                     ]
                 },
                 {
@@ -2832,7 +2832,7 @@
                     "name": "Avoidance",
                     "entries":
                     [
-                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half as much damage, it instead takes no  damage if it succeeds on the saving throw, and only half as much damage if it fails."
                     ]
                 },
                 {
@@ -3060,7 +3060,7 @@
                     "name": "Avoidance",
                     "entries":
                     [
-                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half as much damage, it instead takes no  damage if it succeeds on the saving throw, and only half as much damage if it fails."
                     ]
                 },
                 {
@@ -3256,7 +3256,7 @@
                     "name": "Avoidance",
                     "entries":
                     [
-                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no  damage if it succeeds on the saving throw, and only half damage if it fails."
+                        "If the squirrel is subjected to an effect that allows it to make a saving throw to take only half as much damage, it instead takes no  damage if it succeeds on the saving throw, and only half as much damage if it fails."
                     ]
                 },
                 {
@@ -5007,7 +5007,6 @@
             "legendaryGroup":
             {
                 "name": "Orc War Baron",
-                "source": "Canbrew",
                 "lairActions":
                 [
                     "On Initiative count 20 (losing initiative ties), the orc can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
@@ -7830,6 +7829,2532 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/xHyNKvt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Apprentice Marauder",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item Half Plate Armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 156,
+                "formula": "24d8+48"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 15,
+            "dex": 20,
+            "con": 15,
+            "int": 10,
+            "wis": 7,
+            "cha": 16,
+            "skill":
+            {
+                "acrobatics":"+10",
+                "athletics":"+7",
+                "intimidation": "+10"
+            },
+            "senses":
+            [
+                "blindsight 15 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 8,
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread makes six attacks, but can use its lunge only once."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the dread with a melee attack, the dread can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                },
+                {
+                    "name": "Parry",
+                    "entries":
+                    [
+                        "The dread parries one ranged or melee attack that would hit."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/Xk464Q5.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/5Mk0wfn.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Apprentice Inquisitor",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 14,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 108,
+                "formula": "24d8"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 11,
+            "dex": 15,
+            "con": 11,
+            "int": 14,
+            "wis": 14,
+            "cha": 22,
+            "skill":
+            {
+                "arcana":"+5",
+                "deception":"+10",
+                "intimidation": "+10",
+                "persuasion":"+10",
+                "insight":"+8"
+            },
+            "senses":
+            [
+                "blindsight 30 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 12,
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread uses its Storm of Midnight. It then makes two attacks, but can use its lunge once."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 4}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                },
+                {
+                    "name": "Storm of Midnight",
+                    "entries":
+                    [
+                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take [[{@damage 6d10}]] lightning damage. On a success, creatures take half as much damage."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Force Field",
+                    "entries":
+                    [
+                        "The dread concentrates a force field around itself. Once breached, the force field is dispersed. While the force field is erect, the dread gains +3 bonus to its AC."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 18} Strength saving throw. On a failed save, it takes {@damage 2d10} force damage and is pushed 25 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for [[{@damage 10d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/N7o4rmd.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/elgwyvy.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Apprentice Assassin",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 110,
+                "formula": "20d8+20"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 13,
+            "dex": 20,
+            "con": 12,
+            "int": 10,
+            "wis": 8,
+            "cha": 16,
+            "skill":
+            {
+                "acrobatics": "+10",
+                "intimidation": "+10",
+                "stealth": "+10"
+            },
+            "senses":
+            [
+                "blindsight 15 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 9,
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Reactive Momentum",
+                    "entries":
+                    [
+                        "The dread has three reactions."
+                    ]
+                },
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread either uses its Superior Invisibility or makes four attacks, but can use its lunge once."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage plus 2 ({@damage 1d4}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                },
+                {
+                    "name": "Superior Invisibility",
+                    "entries":
+                    [
+                        "The dread magically turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dread wears or carries is {@condition invisible} with it."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the dread with a melee attack, the dread can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                },
+                {
+                    "name": "Parry",
+                    "entries":
+                    [
+                        "The dread parries one ranged or melee attack that would hit."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/tGOr2eN.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/NfJu66B.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Apprentice Juggernaut",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "{@item Plate Armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 228,
+                "formula": "24d8+120"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 10,
+            "con": 20,
+            "int": 10,
+            "wis": 7,
+            "cha": 14,
+            "skill":
+            {
+                "athletics": "+10",
+                "intimidation": "+7",
+                "survival": "+3"
+            },
+            "senses":
+            [
+                "blindsight 15 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 8,
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "While the dread is holding the Iuz Stone, it regains half of its missing hit points at the start of its turn. If the stone is taken from the dread, the stone turns to ash and the dread loses the hit points it recovered during the combat. The dread dies only if it starts its turn with 0 hit points."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread makes two attacks, but can use its lunge only once."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the dread with a melee attack, the dread can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                },
+                {
+                    "name": "Parry",
+                    "entries":
+                    [
+                        "The dread parries one ranged or melee attack that would hit."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage d10} force damage and is pushed 5 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances",
+                "Regeneration"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/aJfxwYZ.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/1mxESKS.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Overseer Marauder ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item Half Plate Armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 225,
+                "formula": "30d8+90"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 22,
+            "con": 17,
+            "int": 10,
+            "wis": 10,
+            "cha": 18,
+            "skill":
+            {
+                "acrobatics": "+12",
+                "athletics": "+10",
+                "intimidation": "+10"
+            },
+            "senses":
+            [
+                "blindsight 30 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 10,
+            "cr": "18",
+            "trait":
+            [
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread makes eight attacks, but can use its lunge once and its whirling blade twice."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Whirling Blade",
+                    "entries":
+                    [
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+8} radiant damage. On a success, creatures take half as much damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the dread with a melee attack, the dread can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                },
+                {
+                    "name": "Parry",
+                    "entries":
+                    [
+                        "The dread parries one ranged or melee attack that would hit."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 18} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 10d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "AOE"
+            ],
+            "tokenUrl": "https://i.imgur.com/Xk464Q5.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/5Mk0wfn.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Overseer Inquisitor ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 108,
+                "formula": "24d8"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 16,
+            "wis": 16,
+            "cha": 22,
+            "skill":
+            {
+                "arcana":"+5",
+                "deception":"+10",
+                "intimidation": "+10",
+                "persuasion":"+10",
+                "insight":"+8"
+            },
+            "senses":
+            [
+                "blindsight 30 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 13,
+            "cr": "18",
+            "trait":
+            [
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread uses its Storm of Midnight and Fury Blast. It then makes three attacks, but can use its lunge and whirling blade once each."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 4}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                },
+                {
+                    "name": "Storm of Midnight",
+                    "entries":
+                    [
+                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take [[{@damage 10d10}]] lightning damage. On a success, creatures take half as much damage."
+                    ]
+                },
+                {
+                    "name": "Whirling Blade",
+                    "entries":
+                    [
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+8} radiant damage. On a success, creatures take half as much damage."
+                    ]
+                },
+                {
+                    "name": "Fury Blast {@recharge 5} [[1d6]]",
+                    "entries":
+                    [
+                        "The dread rises 5 feet up in the air and releases a spherical shock wave blast. Creatures within 30 feet must make a Constitution saving throw. On a fail creatures take [[{@damage 6d10}]] thunder damage. On a success, creatures take half as much damage."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Force Field",
+                    "entries":
+                    [
+                        "The dread concentrates a force field around itself. Once breached, the force field is dispersed. While the force field is erect, the dread gains +4 bonus to its AC."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 18} Strength saving throw. On a failed save, it takes {@damage 2d10} force damage and is pushed 25 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for [[{@damage 10d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/N7o4rmd.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/elgwyvy.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Overseer Assassin ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 110,
+                "formula": "20d8+20"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 15,
+            "dex": 22,
+            "con": 14,
+            "int": 12,
+            "wis": 11,
+            "cha": 18,
+            "skill":
+            {
+                "acrobatics": "+12",
+                "intimidation": "+10",
+                "stealth": "+12"
+            },
+            "senses":
+            [
+                "blindsight 30 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 9,
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Reactive Momentum",
+                    "entries":
+                    [
+                        "The dread has three reactions."
+                    ]
+                },
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread makes either six sun blade attacks, three whirling blade attacks, or three lounge attacks."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) radiant damage plus 2 ({@damage 1d4}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                },
+                {
+                    "name": "Superior Invisibility",
+                    "entries":
+                    [
+                        "The dread magically turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dread wears or carries is {@condition invisible} with it."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the dread with a melee attack, the dread can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                },
+                {
+                    "name": "Parry",
+                    "entries":
+                    [
+                        "The dread parries one ranged or melee attack that would hit."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/tGOr2eN.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/NfJu66B.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Overseer Juggernaut ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "{@item Plate Armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 228,
+                "formula": "24d8+120"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 10,
+            "con": 20,
+            "int": 10,
+            "wis": 7,
+            "cha": 14,
+            "skill":
+            {
+                "athletics": "+10",
+                "intimidation": "+7",
+                "survival": "+3"
+            },
+            "senses":
+            [
+                "blindsight 30 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 8,
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "While the dread is holding the Iuz Stone, it regains half of its missing hit points at the start of its turn. If the stone is taken from the dread, the stone turns to ash and the dread loses the hit points it recovered during the combat. The dread dies only if it starts its turn with 0 hit points."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread makes either two weapon attacks, or one lounge attack."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the dread with a melee attack, the dread can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                },
+                {
+                    "name": "Parry",
+                    "entries":
+                    [
+                        "The dread parries one ranged or melee attack that would hit."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage d10} force damage and is pushed 5 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances",
+                "Regeneration"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/aJfxwYZ.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/1mxESKS.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Lord Marauder ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item Half Plate Armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 156,
+                "formula": "24d8+48"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 24,
+            "con": 15,
+            "int": 10,
+            "wis": 7,
+            "cha": 16,
+            "skill":
+            {
+                "acrobatics":"+10",
+                "athletics":"+7",
+                "intimidation": "+10"
+            },
+            "senses":
+            [
+                "blindsight 60 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 8,
+            "cr": "21",
+            "trait":
+            [
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread makes either six weapon attacks or one lounge attack."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the darkness inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                },
+                {
+                    "name": "Hatred Incarnate {@recharge 5} [[1d6]]",
+                    "entries":
+                    [
+                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take [[{@damage 6d6}]] psychic damage. On a success, creatures take half as much damage."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the dread with a melee attack, the dread can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                },
+                {
+                    "name": "Parry",
+                    "entries":
+                    [
+                        "The dread parries one ranged or melee attack that would hit."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/Xk464Q5.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/5Mk0wfn.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Lord Inquisitor ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 14,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 108,
+                "formula": "24d8"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 15,
+            "dex": 15,
+            "con": 11,
+            "int": 10,
+            "wis": 16,
+            "cha": 20,
+            "skill":
+            {
+                "arcana":"+5",
+                "deception":"+10",
+                "intimidation": "+10",
+                "persuasion":"+10",
+                "insight":"+8"
+            },
+            "senses":
+            [
+                "blindsight 60 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 9,
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread makes either two weapon attacks, one storm of midnight attack, or one lounge attack."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 4}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the darkness inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make one attack with sun blade as a part of this action."
+                    ]
+                },
+                {
+                    "name": "Storm of Midnight",
+                    "entries":
+                    [
+                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take [[{@damage 6d10}]] lightning damage. On a success, creatures take half as much damage."
+                    ]
+                },
+                {
+                    "name": "Hatred Incarnate {@recharge 5} [[1d6]]",
+                    "entries":
+                    [
+                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take [[{@damage 6d6}]] psychic damage. On a success, creatures take half as much damage."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Force Field",
+                    "entries":
+                    [
+                        "The dread concentrates a force field around itself. Once breached, the force field is dispersed. While the force field is erect, the dread gains +3 bonus to its AC."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 18} Strength saving throw. On a failed save, it takes {@damage 2d10} force damage and is pushed 25 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for [[{@damage 10d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/N7o4rmd.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/elgwyvy.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Lord Assassin ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 110,
+                "formula": "20d8+20"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 15,
+            "dex": 20,
+            "con": 12,
+            "int": 10,
+            "wis": 8,
+            "cha": 16,
+            "skill":
+            {
+                "acrobatics": "+10",
+                "intimidation": "+10",
+                "stealth": "+10"
+            },
+            "senses":
+            [
+                "blindsight 60 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 9,
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Reactive Momentum",
+                    "entries":
+                    [
+                        "The dread has three reactions."
+                    ]
+                },
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread makes either four weapon attacks or one lounge attack."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage plus 2 ({@damage 1d4}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                },
+                {
+                    "name": "Superior Invisibility",
+                    "entries":
+                    [
+                        "The dread magically turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dread wears or carries is {@condition invisible} with it."
+                    ]
+                },
+                {
+                    "name": "Hatred Incarnate {@recharge 5} [[1d6]]",
+                    "entries":
+                    [
+                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take [[{@damage 6d6}]] psychic damage. On a success, creatures take half as much damage."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the dread with a melee attack, the dread can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                },
+                {
+                    "name": "Parry",
+                    "entries":
+                    [
+                        "The dread parries one ranged or melee attack that would hit."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/tGOr2eN.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/NfJu66B.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dread Lord Juggernaut ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "{@item Plate Armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 228,
+                "formula": "24d8+120"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 10,
+            "con": 20,
+            "int": 10,
+            "wis": 7,
+            "cha": 14,
+            "skill":
+            {
+                "athletics": "+10",
+                "intimidation": "+7",
+                "survival": "+3"
+            },
+            "senses":
+            [
+                "blindsight 60 ft.",
+                "darkvision 60 ft. ({@item sun blade|dmg})"
+            ],
+            "passive": 8,
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Martial Advantage",
+                    "entries":
+                    [
+                        "Once per turn, the dread can deal an extra 7 ({@dice 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the dread that isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the dread fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "While the dread is holding the Iuz Stone, it regains half of its missing hit points at the start of its turn. If the stone is taken from the dread, the stone turns to ash and the dread loses the hit points it recovered during the combat. The dread dies only if it starts its turn with 0 hit points."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dread uses its Hatred Incarnate. It then makes four attacks, but can use its lunge attack only once."
+                    ]
+                },
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Lunge",
+                    "entries":
+                    [
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                },
+                {
+                    "name": "Hatred Incarnate {@recharge 5} [[1d6]]",
+                    "entries":
+                    [
+                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take [[{@damage 6d6}]] psychic damage. On a success, creatures take half as much damage."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the dread with a melee attack, the dread can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                },
+                {
+                    "name": "Parry",
+                    "entries":
+                    [
+                        "The dread parries one ranged or melee attack that would hit."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Dread"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Push",
+                    "entries":
+                    [
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage d10} force damage and is pushed 5 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                    ]
+                },
+                {
+                    "name": "Pull",
+                    "entries":
+                    [
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                    ]
+                },
+                {
+                    "name": "Grasp",
+                    "entries":
+                    [
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Martial Advantage",
+                "Legendary Resistances",
+                "Regeneration"
+            ],
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "O",
+                "R"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/aJfxwYZ.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/1mxESKS.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Percy ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "tiefling"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item studded leather armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 3,
+                "formula": "2d4-2"
+            },
+            "speed":
+            {
+                "walk": 10
+            },
+            "str": 9,
+            "dex": 20,
+            "con": 14,
+            "int": 17,
+            "wis": 12,
+            "cha": 14,
+            "skill":
+            {
+                "athletics":"+7",
+                "stealth": "+9"
+            },
+            "resist":
+            [
+                "fire"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "cr": "15",
+            "trait":
+            [
+                {
+                    "name": "False Appearance (Object Form Only)",
+                    "entries":
+                    [
+                        "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Sun Blade",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage plus 2 ({@damage 1d4}) acid damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries":
+                    [
+                        "The dread's innate spellcasting ability is Charisma (spell save {@dc 18}). The dread can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will":
+                    [
+                        "{@spell detect poison and disease}",
+                        "{@spell faerie fire}",
+                        "{@spell gust}",
+                        "{@spell mage hand}"
+                    ],
+                    "daily":
+                    {
+                        "1e":
+                        [
+                            "{@spell cloudkill}",
+                            "{@spell insect plague}"
+                        ],
+                        "2e":
+                        [
+                            "{@spell fog cloud}",
+                            "{@spell giant insect}",
+                            "{@spell misty step}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Shapechanger"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "P",
+                "A"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RW"
+            ],
+            "tokenUrl": "https://i.imgur.com/oLXCAvb.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/U8PwAYx.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Troopers ogd",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "{@item full plate armor|phb}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 9,
+                "formula": "2d8"
+            },
+            "speed":
+            {
+                "walk": 10
+            },
+            "str": 10,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "languages":
+            [
+                "Common, any one language"
+            ],
+            "passive": 10,
+            "cr": "1/4",
+            "action":
+            [
+                {
+                    "name": "Heavy Crossbow",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 0} to hit, range 100/400 ft., one target. {@h}5 ({@damage 1d10}) piercing damage."
+                    ]
+                }
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "RW"
+            ],
+            "tokenUrl": "https://i.imgur.com/oLXCAvb.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/U8PwAYx.jpg"
                         }
                     }
                 ]

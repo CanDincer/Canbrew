@@ -1029,7 +1029,6 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Misty Step",
                 "Haste"
             ],
             "property":
@@ -1044,8 +1043,7 @@
             "entries":
             [
                 "A curved kukri, given to an elite group of soldiers who defend the royal family.",
-                "Ranged hits with this kukri grant you {@spell misty step|PHB} spell. You can use your object interaction to teleport to the location of your dagger. If you teleport at least 10 feet, you deal extra {@damage 1d4} lightning damage and acquire the dagger.",
-                "If you kill an enemy with this weapon's lightning damage, you are under the effect of {@spell haste|PHB} spell until the start of your next turn. You do not suffer the lethargic consequences."
+                "After a ranged hit with this kukri, you can use your object interaction to teleport to the location of your dagger. If you teleport to a distance at least 10 feet away, you deal extra {@damage 1d8} lightning damage and acquire the dagger."
             ]
         },
         {
@@ -3415,6 +3413,27 @@
                 {
                     "type": "entries",
                     "name": "Lifegiver",
+                    "entries":
+                    [
+                        "When anyone attuned to the pendant dies within 60 feet of it, the scarab unhooks itself from its chain and flies to them instantly, spreading its wings with brilliant flash of green that heals them for a number of d4s equal to the number of creatures attuned to it within 60 feet",
+                        "Once this ability has been used, the beetle must spend an hour under direct sunlight to recharge this ability."
+                    ]
+                },
+                "When left unchecked in shadows at day time, animates and crawls towards sunlight. Then, petrifies back under sunlight."
+            ]
+        },
+        {
+            "name": "Iuz Stone ogd",
+            "rarity": "Very Rare",
+            "weight": 0.05,
+            "reqAttune": "by multiple people",
+            "source": "Canbrew",
+            "entries":
+            [
+                "Dark crimson crystal, looks as if it is almost bleeding.",
+                {
+                    "type": "entries",
+                    "name": "Hatred Fuel - temp hp",
                     "entries":
                     [
                         "When anyone attuned to the pendant dies within 60 feet of it, the scarab unhooks itself from its chain and flies to them instantly, spreading its wings with brilliant flash of green that heals them for a number of d4s equal to the number of creatures attuned to it within 60 feet",
