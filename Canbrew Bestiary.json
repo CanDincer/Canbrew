@@ -7880,7 +7880,7 @@
             {
                 "acrobatics":"+10",
                 "athletics":"+7",
-                "intimidation": "+10"
+                "intimidation": "+8"
             },
             "senses":
             [
@@ -8059,14 +8059,12 @@
             "con": 11,
             "int": 14,
             "wis": 14,
-            "cha": 22,
+            "cha": 20,
             "skill":
             {
-                "arcana":"+5",
                 "deception":"+10",
                 "intimidation": "+10",
-                "persuasion":"+10",
-                "insight":"+8"
+                "insight":"+7"
             },
             "senses":
             [
@@ -8250,7 +8248,7 @@
             "skill":
             {
                 "acrobatics": "+10",
-                "intimidation": "+10",
+                "intimidation": "+8",
                 "stealth": "+10"
             },
             "senses":
@@ -8596,7 +8594,7 @@
             }
         },
         {
-            "name": "Dread Overseer Marauder ogd",
+            "name": "Dread Overseer Marauder",
             "size": "M",
             "type":
             {
@@ -8784,7 +8782,7 @@
             }
         },
         {
-            "name": "Dread Overseer Inquisitor ogd",
+            "name": "Dread Overseer Inquisitor",
             "size": "M",
             "type":
             {
@@ -8827,11 +8825,9 @@
             "cha": 22,
             "skill":
             {
-                "arcana":"+5",
-                "deception":"+10",
-                "intimidation": "+10",
-                "persuasion":"+10",
-                "insight":"+8"
+                "deception":"+12",
+                "intimidation": "+12",
+                "insight":"+9"
             },
             "senses":
             [
@@ -8984,7 +8980,7 @@
             }
         },
         {
-            "name": "Dread Overseer Assassin ogd",
+            "name": "Dread Overseer Assassin",
             "size": "M",
             "type":
             {
@@ -9198,7 +9194,7 @@
             }
         },
         {
-            "name": "Dread Overseer Juggernaut ogd",
+            "name": "Dread Overseer Juggernaut",
             "size": "M",
             "type":
             {
@@ -9241,9 +9237,9 @@
             "cha": 16,
             "skill":
             {
-                "athletics": "+10",
-                "intimidation": "+7",
-                "survival": "+3"
+                "athletics": "+12",
+                "intimidation": "+9",
+                "survival": "+5"
             },
             "senses":
             [
@@ -9405,7 +9401,7 @@
             }
         },
         {
-            "name": "Dread Lord Marauder ogd",
+            "name": "Dread Lord Marauder",
             "size": "M",
             "type":
             {
@@ -9448,9 +9444,9 @@
             "cha": 20,
             "skill":
             {
-                "acrobatics":"+10",
-                "athletics":"+7",
-                "intimidation": "+10"
+                "acrobatics":"+14",
+                "athletics":"+12",
+                "intimidation": "+12"
             },
             "senses":
             [
@@ -9604,7 +9600,7 @@
             }
         },
         {
-            "name": "Dread Lord Inquisitor ogd",
+            "name": "Dread Lord Inquisitor",
             "size": "M",
             "type":
             {
@@ -9647,9 +9643,9 @@
             "cha": 24,
             "skill":
             {
-                "deception":"+10",
-                "intimidation": "+10",
-                "insight":"+8"
+                "deception":"+14",
+                "intimidation": "+14",
+                "insight":"+10"
             },
             "senses":
             [
@@ -9810,7 +9806,7 @@
             }
         },
         {
-            "name": "Dread Lord Assassin ogd",
+            "name": "Dread Lord Assassin",
             "size": "M",
             "type":
             {
@@ -9853,9 +9849,9 @@
             "cha": 20,
             "skill":
             {
-                "acrobatics": "+10",
-                "intimidation": "+10",
-                "stealth": "+10"
+                "acrobatics": "+14",
+                "intimidation": "+12",
+                "stealth": "+14"
             },
             "senses":
             [
@@ -10030,7 +10026,7 @@
             }
         },
         {
-            "name": "Dread Lord Juggernaut ogd",
+            "name": "Dread Lord Juggernaut",
             "size": "M",
             "type":
             {
@@ -10073,9 +10069,9 @@
             "cha": 18,
             "skill":
             {
-                "athletics": "+10",
-                "intimidation": "+7",
-                "survival": "+3"
+                "athletics": "+14",
+                "intimidation": "+11",
+                "survival": "+7"
             },
             "senses":
             [
