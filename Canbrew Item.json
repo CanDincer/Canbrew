@@ -2934,6 +2934,18 @@
             ]
         },
         {
+            "name": "Aged Goodberry Wine",
+            "rarity": "Common",
+            "type": "P",
+            "weight": 2,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This bottle of thick red wine is miraculously made from magical goodberries and peonies using a closely-kept family recipe. It tastes fruity and floral, with notes of honey and the feeling of a fresh breeze, and is deeply rejuvenating. The bottle comes with 7 servings of the syrupy potion. A serving takes 1 minute to drink.",
+                "When you drink this wine, you can regain hit points by spending one Hit Die per shot, as if you'd finished a short rest."
+            ]
+        },
+        {
             "name": "Potion of Minor Errands",
             "rarity": "Rare",
             "type": "P",

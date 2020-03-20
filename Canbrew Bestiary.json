@@ -8290,7 +8290,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dread either uses its Superior Invisibility or makes four attacks, but can use its lunge once."
+                        "The dread either uses its Superior Invisibility or makes four attacks, but can use its lunge once. The dread can forgo all of its actions to use its Superior Invisibility instead."
                     ]
                 },
                 {
@@ -8533,21 +8533,21 @@
                     "name": "Push",
                     "entries":
                     [
-                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage d10} force damage and is pushed 5 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 15} Strength saving throw. On a failed save, it takes {@damage d10} force damage and is pushed 5 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
                     ]
                 },
                 {
                     "name": "Pull",
                     "entries":
                     [
-                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 15} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
                     ]
                 },
                 {
                     "name": "Grasp",
                     "entries":
                     [
-                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 15} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
                         "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
                     ]
@@ -8673,7 +8673,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dread makes eight attacks, but can use its lunge once and its whirling blade twice."
+                        "The dread makes six attacks, but can use its lunge once and its whirling blade twice."
                     ]
                 },
                 {
@@ -8687,7 +8687,7 @@
                     "name": "Whirling Blade",
                     "entries":
                     [
-                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+8} radiant damage. On a success, creatures take half as much damage."
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
@@ -8812,8 +8812,8 @@
             ],
             "hp":
             {
-                "average": 108,
-                "formula": "24d8"
+                "average": 195,
+                "formula": "30d8+60"
             },
             "speed":
             {
@@ -8863,14 +8863,14 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dread uses its Storm of Midnight and Fury Blast. It then makes three attacks, but can use its lunge and whirling blade once each."
+                        "The dread uses its Storm of Midnight and Fury Blast. It then makes two attacks, but can use its lunge and whirling blade once each."
                     ]
                 },
                 {
                     "name": "Sun Blade",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 4}) radiant damage."
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) radiant damage."
                     ]
                 },
                 {
@@ -8884,7 +8884,7 @@
                     "name": "Storm of Midnight",
                     "entries":
                     [
-                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take [[{@damage 10d10}]] lightning damage. On a success, creatures take half as much damage."
+                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take [[{@damage 8d10}]] lightning damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
@@ -8898,7 +8898,7 @@
                     "name": "Fury Blast {@recharge 5} [[1d6]]",
                     "entries":
                     [
-                        "The dread rises 5 feet up in the air and releases a spherical shock wave blast. Creatures within 30 feet must make a Constitution saving throw. On a fail creatures take [[{@damage 6d10}]] thunder damage. On a success, creatures take half as much damage."
+                        "The dread rises 5 feet up in the air and releases a spherical shock wave blast. Creatures within 30 feet must make a Constitution saving throw. On a fail creatures take [[{@damage 8d10}]] thunder damage. On a success, creatures take half as much damage."
                     ]
                 }
             ],
@@ -8963,6 +8963,10 @@
             [
                 "MW"
             ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
             "tokenUrl": "https://i.imgur.com/N7o4rmd.png",
             "fluff":
             {
@@ -8999,7 +9003,7 @@
             "ac":
             [
                 {
-                    "ac": 17,
+                    "ac": 18,
                     "from":
                     [
                         "{@item studded leather armor|phb}"
@@ -9008,8 +9012,8 @@
             ],
             "hp":
             {
-                "average": 110,
-                "formula": "20d8+20"
+                "average": 182,
+                "formula": "28d8+56"
             },
             "speed":
             {
@@ -9032,8 +9036,8 @@
                 "blindsight 30 ft.",
                 "darkvision 60 ft. ({@item sun blade|dmg})"
             ],
-            "passive": 9,
-            "cr": "13",
+            "passive": 10,
+            "cr": "18",
             "trait":
             [
                 {
@@ -9064,7 +9068,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dread makes either six sun blade attacks, three whirling blade attacks, or three lounge attacks."
+                        "The dread uses its Shadow Step. It then makes four attacks, but can use its lunge and whirling blade once each. The dread can forgo all of its actions to use its Superior Invisibility instead."
                     ]
                 },
                 {
@@ -9079,6 +9083,20 @@
                     "entries":
                     [
                         "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                    ]
+                },
+                {
+                    "name": "Whirling Blade",
+                    "entries":
+                    [
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
+                    ]
+                },
+                {
+                    "name": "Shadow Step",
+                    "entries":
+                    [
+                        "The dread magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see. Doing so reveals its previous and current location momentarily."
                     ]
                 },
                 {
@@ -9116,21 +9134,21 @@
                     "name": "Push",
                     "entries":
                     [
-                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 18} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
                     ]
                 },
                 {
                     "name": "Pull",
                     "entries":
                     [
-                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
                     ]
                 },
                 {
                     "name": "Grasp",
                     "entries":
                     [
-                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
                         "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
                     ]
@@ -9140,6 +9158,7 @@
             "traitTags":
             [
                 "Martial Advantage",
+                "Teleport",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -9155,7 +9174,12 @@
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/tGOr2eN.png",
             "fluff":
@@ -9202,19 +9226,19 @@
             ],
             "hp":
             {
-                "average": 228,
-                "formula": "24d8+120"
+                "average": 315,
+                "formula": "30d8+180"
             },
             "speed":
             {
                 "walk": 30
             },
-            "str": 20,
-            "dex": 10,
-            "con": 20,
-            "int": 10,
-            "wis": 7,
-            "cha": 14,
+            "str": 22,
+            "dex": 12,
+            "con": 22,
+            "int": 11,
+            "wis": 9,
+            "cha": 16,
             "skill":
             {
                 "athletics": "+10",
@@ -9226,8 +9250,8 @@
                 "blindsight 30 ft.",
                 "darkvision 60 ft. ({@item sun blade|dmg})"
             ],
-            "passive": 8,
-            "cr": "13",
+            "passive": 9,
+            "cr": "18",
             "trait":
             [
                 {
@@ -9258,14 +9282,28 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dread makes either two weapon attacks, or one lounge attack."
+                        "The dread uses its Implosion. It then makes two attacks, but can use its lunge and whirling blade once each."
                     ]
                 },
                 {
                     "name": "Sun Blade",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage."
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}12 ({@damage 1d8 + 8}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Whirling Blade",
+                    "entries":
+                    [
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+5} radiant damage. On a success, creatures take half damage."
+                    ]
+                },
+                {
+                    "name": "Implosion",
+                    "entries":
+                    [
+                        "The dread draws its enemies in a 60-foot radius sphere centered on it closer. Each creature inside the are must make a Strength saving throw. On a fail, creatures are pulled up to 30 feet towards the dread. On a success, creatures are pulled 5 feet."
                     ]
                 },
                 {
@@ -9303,21 +9341,21 @@
                     "name": "Push",
                     "entries":
                     [
-                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage d10} force damage and is pushed 5 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 17} Strength saving throw. On a failed save, it takes {@damage d10} force damage and is pushed 5 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
                     ]
                 },
                 {
                     "name": "Pull",
                     "entries":
                     [
-                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 17} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
                     ]
                 },
                 {
                     "name": "Grasp",
                     "entries":
                     [
-                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 17} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
                         "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
                     ]
@@ -9343,7 +9381,12 @@
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/aJfxwYZ.png",
             "fluff":
@@ -9390,8 +9433,8 @@
             ],
             "hp":
             {
-                "average": 156,
-                "formula": "24d8+48"
+                "average": 306,
+                "formula": "36d8+144)"
             },
             "speed":
             {
@@ -9399,10 +9442,10 @@
             },
             "str": 20,
             "dex": 24,
-            "con": 15,
-            "int": 10,
-            "wis": 7,
-            "cha": 16,
+            "con": 18,
+            "int": 12,
+            "wis": 12,
+            "cha": 20,
             "skill":
             {
                 "acrobatics":"+10",
@@ -9439,21 +9482,28 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dread makes either six weapon attacks or one lounge attack."
+                        "The dread uses its Hatred Incarnate. It then makes six attacks, but can use its lunge once and its whirling blade twice."
                     ]
                 },
                 {
                     "name": "Sun Blade",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage."
+                        "{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d8 + 9}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Whirling Blade",
+                    "entries":
+                    [
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
                     "name": "Lunge",
                     "entries":
                     [
-                        "The dread taps into the darkness inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
+                        "The dread taps into the hatred inside, releasing a crimson fog around. For the turn, the dread's speed is doubled. The dread does not provoke opportunity attacks while moving in this manner and can make an attack with sun blade as a part of this action."
                     ]
                 },
                 {
@@ -9491,21 +9541,21 @@
                     "name": "Push",
                     "entries":
                     [
-                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 20} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
                     ]
                 },
                 {
                     "name": "Pull",
                     "entries":
                     [
-                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 20} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
                     ]
                 },
                 {
                     "name": "Grasp",
                     "entries":
                     [
-                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 20} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
                         "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
                     ]
@@ -9530,7 +9580,12 @@
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/Xk464Q5.png",
             "fluff":
@@ -9577,25 +9632,23 @@
             ],
             "hp":
             {
-                "average": 108,
-                "formula": "24d8"
+                "average": 273,
+                "formula": "42d8+84"
             },
             "speed":
             {
                 "walk": 30
             },
-            "str": 15,
-            "dex": 15,
-            "con": 11,
-            "int": 10,
+            "str": 13,
+            "dex": 16,
+            "con": 16,
+            "int": 18,
             "wis": 16,
-            "cha": 20,
+            "cha": 24,
             "skill":
             {
-                "arcana":"+5",
                 "deception":"+10",
                 "intimidation": "+10",
-                "persuasion":"+10",
                 "insight":"+8"
             },
             "senses":
@@ -9603,8 +9656,8 @@
                 "blindsight 60 ft.",
                 "darkvision 60 ft. ({@item sun blade|dmg})"
             ],
-            "passive": 9,
-            "cr": "13",
+            "passive": 13,
+            "cr": "21",
             "trait":
             [
                 {
@@ -9628,14 +9681,14 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dread makes either two weapon attacks, one storm of midnight attack, or one lounge attack."
+                        "The dread uses its Storm of Midnight, Hatred Incarnate, and Fury Blast. It then makes two attacks, but can use its lunge and whirling blade once each."
                     ]
                 },
                 {
                     "name": "Sun Blade",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 4}) radiant damage."
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) radiant damage."
                     ]
                 },
                 {
@@ -9653,6 +9706,20 @@
                     ]
                 },
                 {
+                    "name": "Whirling Blade",
+                    "entries":
+                    [
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+9} radiant damage. On a success, creatures take half as much damage."
+                    ]
+                },
+                {
+                    "name": "Fury Blast {@recharge 5} [[1d6]]",
+                    "entries":
+                    [
+                        "The dread rises 5 feet up in the air and releases a spherical shock wave blast. Creatures within 30 feet must make a Constitution saving throw. On a fail creatures take [[{@damage 8d10}]] thunder damage. On a success, creatures take half as much damage."
+                    ]
+                },
+                {
                     "name": "Hatred Incarnate {@recharge 5} [[1d6]]",
                     "entries":
                     [
@@ -9666,7 +9733,7 @@
                     "name": "Force Field",
                     "entries":
                     [
-                        "The dread concentrates a force field around itself. Once breached, the force field is dispersed. While the force field is erect, the dread gains +3 bonus to its AC."
+                        "The dread concentrates a force field around itself. Once breached, the force field is dispersed. While the force field is erect, the dread gains +5 bonus to its AC."
                     ]
                 }
             ],
@@ -9680,21 +9747,21 @@
                     "name": "Push",
                     "entries":
                     [
-                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 18} Strength saving throw. On a failed save, it takes {@damage 2d10} force damage and is pushed 25 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 22} Strength saving throw. On a failed save, it takes {@damage 2d10} force damage and is pushed 25 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
                     ]
                 },
                 {
                     "name": "Pull",
                     "entries":
                     [
-                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 22} Strenght saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
                     ]
                 },
                 {
                     "name": "Grasp",
                     "entries":
                     [
-                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 22} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
                         "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for [[{@damage 10d10}]] force damage"
                     ]
@@ -9719,7 +9786,12 @@
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/N7o4rmd.png",
             "fluff":
@@ -9757,7 +9829,7 @@
             "ac":
             [
                 {
-                    "ac": 17,
+                    "ac": 19,
                     "from":
                     [
                         "{@item studded leather armor|phb}"
@@ -9766,19 +9838,19 @@
             ],
             "hp":
             {
-                "average": 110,
-                "formula": "20d8+20"
+                "average": 221,
+                "formula": "34d8+68"
             },
             "speed":
             {
                 "walk": 30
             },
-            "str": 15,
-            "dex": 20,
-            "con": 12,
-            "int": 10,
-            "wis": 8,
-            "cha": 16,
+            "str": 16,
+            "dex": 24,
+            "con": 15,
+            "int": 13,
+            "wis": 11,
+            "cha": 20,
             "skill":
             {
                 "acrobatics": "+10",
@@ -9790,8 +9862,8 @@
                 "blindsight 60 ft.",
                 "darkvision 60 ft. ({@item sun blade|dmg})"
             ],
-            "passive": 9,
-            "cr": "13",
+            "passive": 10,
+            "cr": "21",
             "trait":
             [
                 {
@@ -9822,14 +9894,14 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dread makes either four weapon attacks or one lounge attack."
+                        "The dread uses its Hatred Incarnate and Shadow Step. It then makes four attacks, but can use its lunge and whirling blade once each. The dread can forgo all of its actions to use its Superior Invisibility instead."
                     ]
                 },
                 {
                     "name": "Sun Blade",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage plus 2 ({@damage 1d4}) radiant damage."
+                        "{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d8 + 9}) radiant damage plus 2 ({@damage 1d4}) radiant damage."
                     ]
                 },
                 {
@@ -9840,10 +9912,24 @@
                     ]
                 },
                 {
+                    "name": "Whirling Blade",
+                    "entries":
+                    [
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half damage."
+                    ]
+                },
+                {
                     "name": "Superior Invisibility",
                     "entries":
                     [
                         "The dread magically turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the dread wears or carries is {@condition invisible} with it."
+                    ]
+                },
+                {
+                    "name": "Shadow Step",
+                    "entries":
+                    [
+                        "The dread magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see. Doing so reveals its previous and current location momentarily."
                     ]
                 },
                 {
@@ -9881,21 +9967,21 @@
                     "name": "Push",
                     "entries":
                     [
-                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 20} Strength saving throw. On a failed save, it takes {@damage 1d10} force damage and is pushed 15 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
                     ]
                 },
                 {
                     "name": "Pull",
                     "entries":
                     [
-                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 20} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
                     ]
                 },
                 {
                     "name": "Grasp",
                     "entries":
                     [
-                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 20} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
                         "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
                     ]
@@ -9920,7 +10006,12 @@
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/tGOr2eN.png",
             "fluff":
@@ -9967,19 +10058,19 @@
             ],
             "hp":
             {
-                "average": 228,
-                "formula": "24d8+120"
+                "average": 368,
+                "formula": "32d8+224"
             },
             "speed":
             {
                 "walk": 30
             },
-            "str": 20,
-            "dex": 10,
-            "con": 20,
-            "int": 10,
-            "wis": 7,
-            "cha": 14,
+            "str": 25,
+            "dex": 12,
+            "con": 25,
+            "int": 12,
+            "wis": 10,
+            "cha": 18,
             "skill":
             {
                 "athletics": "+10",
@@ -9991,8 +10082,8 @@
                 "blindsight 60 ft.",
                 "darkvision 60 ft. ({@item sun blade|dmg})"
             ],
-            "passive": 8,
-            "cr": "13",
+            "passive": 10,
+            "cr": "21",
             "trait":
             [
                 {
@@ -10023,14 +10114,28 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dread uses its Hatred Incarnate. It then makes four attacks, but can use its lunge attack only once."
+                        "The dread uses its Hatred Incarnate and Implosion. It then makes two attacks, but can use its lunge and whirling blade once each."
                     ]
                 },
                 {
                     "name": "Sun Blade",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) radiant damage."
+                        "{@atk mw} {@hit 16} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d8 + 9}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Whirling Blade",
+                    "entries":
+                    [
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
+                    ]
+                },
+                {
+                    "name": "Implosion",
+                    "entries":
+                    [
+                        "The dread draws its enemies in a 60-foot radius sphere centered on it closer. Each creature inside the are must make a Strength saving throw. On a fail, creatures are pulled up to 30 feet towards the dread. On a success, creatures are pulled 5 feet."
                     ]
                 },
                 {
@@ -10075,21 +10180,21 @@
                     "name": "Push",
                     "entries":
                     [
-                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 16} Strength saving throw. On a failed save, it takes {@damage d10} force damage and is pushed 5 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
+                        "The dread extends his hand to release a shock wave. A target within 60 feet must make a {@dc 19} Strength saving throw. On a failed save, it takes {@damage d10} force damage and is pushed 5 feet away from the dread in a straight line. On a successful save, it takes half as much damage and is pushed 5 feet."
                     ]
                 },
                 {
                     "name": "Pull",
                     "entries":
                     [
-                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+                        "The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 19} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
                     ]
                 },
                 {
                     "name": "Grasp",
                     "entries":
                     [
-                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
+                        "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 19} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
                         "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
                     ]
@@ -10115,7 +10220,12 @@
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/aJfxwYZ.png",
             "fluff":
