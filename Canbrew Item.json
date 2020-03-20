@@ -2943,7 +2943,21 @@
             [
                 "This bottle of thick red wine is miraculously made from magical goodberries and peonies using a closely-kept family recipe. It tastes fruity and floral, with notes of honey and the feeling of a fresh breeze, and is deeply rejuvenating. The bottle comes with 7 servings of the syrupy potion. A serving takes 1 minute to drink.",
                 "When you drink this wine, you can regain hit points by spending one Hit Die per shot, as if you'd finished a short rest."
-            ]
+            ],
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/gZnF2IB.png"
+                        }
+                    }
+                ]
+            }
         },
         {
             "name": "Potion of Minor Errands",
@@ -3435,24 +3449,39 @@
             ]
         },
         {
-            "name": "Iuz Stone ogd",
-            "rarity": "Very Rare",
+            "name": "Iuz Stone",
+            "rarity": "Artifact",
             "weight": 0.05,
-            "reqAttune": "by multiple people",
             "source": "Canbrew",
             "entries":
             [
                 "Dark crimson crystal, looks as if it is almost bleeding.",
                 {
                     "type": "entries",
-                    "name": "Hatred Fuel - temp hp",
+                    "name": "Curse",
                     "entries":
                     [
-                        "When anyone attuned to the pendant dies within 60 feet of it, the scarab unhooks itself from its chain and flies to them instantly, spreading its wings with brilliant flash of green that heals them for a number of d4s equal to the number of creatures attuned to it within 60 feet",
-                        "Once this ability has been used, the beetle must spend an hour under direct sunlight to recharge this ability."
+                        "For each round it is held, holder is shown a different flash and it drains 1 maximum Hit Point permenantly.",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "First round, Graz'zt and Iggwilv together.",
+                                "Second round, visual incarnation of pain and suffering.",
+                                "Third round, Iuz's old human form.",
+                                "Fourth round, Iuz's seven feet tall demonic form.",
+                                "Fifth round, an empire of slaves.",
+                                "Sixth round, a lich-god with a partially shattered eye",
+                                "Seventh round, a war of empires",
+                                "Eighth round, Iuz's empire's demise.",
+                                "Ninth round, a city of skulls.",
+                                "Tenth round, Iuz slaughtering traitors.",
+                                "Eleventh round, Iuz ploting from the shadows.",
+                                "Twelfth round, Iuz corrupts humanoids with hatred."
+                            ]
+                        }
                     ]
-                },
-                "When left unchecked in shadows at day time, animates and crawls towards sunlight. Then, petrifies back under sunlight."
+                }
             ]
         },
         {
@@ -3642,7 +3671,7 @@
                 "While attuned to this earring, you can use an action to send a telepathic message to another creature with another earring of whispers attuned similar to the {@spell sending|PHB} spell with the exceptions:",
                 {
                     "type": "list",
-                    "entries":
+                    "items":
                     [
                         "You can send up to ten words.",
                         "You cannot send messages across planes.",
