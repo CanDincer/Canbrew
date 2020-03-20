@@ -1156,7 +1156,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Its tip is lined with teeth. When you hit a living creature with this weapon, you can use a bonus action to deal additional {@damage 1d4} necrotic damage, as the weapon bites into the target. You have to make a Charisma check against the target's Charisma Saving Throw. After this, you gain temporary Hit Points equal to half of the extra damage dealt."
+                "Its tip is lined with teeth. When you hit a living creature with this weapon, you can use a bonus action to deal additional {@damage 1d4} necrotic damage, as the weapon bites into the target. You have to make a Charisma check against the target's Charisma Saving Throw. After this, you gain temporary hit points equal to half of the extra damage dealt."
             ]
         },
         {
@@ -1529,7 +1529,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A Shortsword with a blade of silver that critically hits on a 1. You have a +3 bonus to your attack rolls while you have under 1/2 of your maximum Hit Points.",
+                "A Shortsword with a blade of silver that critically hits on a 1. You have a +3 bonus to your attack rolls while you have under 1/2 of your maximum hit points.",
                 "Those who wield this sword tend to discover a latent love for games of chance."
             ]
         },
@@ -3456,12 +3456,13 @@
             "entries":
             [
                 "Dark crimson crystal, looks as if it is almost bleeding.",
+                "When simply held by a dread, it rejuvenates half of its missing hit points.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "For each round it is held, holder is shown a different flash and it drains 1 maximum Hit Point permenantly.",
+                        "For each round it is held, holder is shown a different flash and it drains 1 maximum hit point permenantly.",
                         {
                             "type": "list",
                             "items":
