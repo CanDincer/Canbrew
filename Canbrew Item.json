@@ -1091,7 +1091,7 @@
             ]
         },
         {
-            "name": "Angel's Will (ogd)",
+            "name": "Angel's Will",
             "baseItem": "Greatsword|PHB",
             "type": "M",
             "weaponCategory": "Martial",
@@ -1109,6 +1109,7 @@
             "source": "Canbrew",
             "entries":
             [
+                "It's but a metal hilt which when you twist feather like plate metals align to make up the blade.",
                 "This greatsword was forged from an angel's left wing. It leaves a dim light where it cuts."
             ]
         },
@@ -1279,6 +1280,22 @@
                 "A flail with runes on its head.",
                 "When you hit with this weapon, you can use a bonus action to suck the living force out of your target. The target loses two ability score modifiers of your choice that you gain until the end of your next turn.",
                 "It has 5 charges and regains {@dice 1d4+1} charges at dawn."
+            ]
+        },
+        {
+            "name": "Hydra Flail",
+            "baseItem": "Flail|PHB",
+            "type": "M",
+            "weaponCategory": "Martial",
+            "weight": 2,
+            "dmg1": "1d8",
+            "dmgType": "B",
+            "reqAttune": true,
+            "rarity": "Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This flail's spiked head is held in the jaws of a metal hydra figurehead. Whenever you take a critical hit, the weapon magically grows another spiked head. You gain a +2 bonus to damage rolls made with this magic weapon for each extra head the flail has, up to +6 bludgeoning damage. After 1 hour, any head the flail grows in this way falls off and disappears."
             ]
         },
         {
@@ -1572,6 +1589,29 @@
             "entries":
             [
                 "+100 damage on a hit against any creature larger than you, 5 non-replenishing charges."
+            ]
+        },
+        {
+            "name": "Blowgun of Eternal Sight",
+            "baseItem": "Blowgun|PHB",
+            "type": "R",
+            "weaponCategory": "Simple",
+            "weight": 1,
+            "dmg1": "1",
+            "dmgType": "P",
+            "reqAttune": true,
+            "property":
+            [
+                "A",
+                "LD"
+            ],
+            "range": "25/100",
+            "rarity": "Artifact",
+            "source": "Canbrew",
+            "entries":
+            [
+                "When you use a bonus action to awaken the magic inside this ancient blowgun, this powerful magic weapon gains 120 feet blindsight. It also knows the location of every creature and magical item inside the range. This effect lasts for 1 minute or until you lose your concentration.",
+                "You can use crushed pieces of paper instead of darts as ammunition."
             ]
         },
         {
@@ -1963,12 +2003,12 @@
             "reqAttune": true,
             "curse": true,
             "stealth": true,
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "source": "Canbrew",
             "entries":
             [
-                "Crafted from the chitin of a giant scorpion. Your maximum Constitution increases by 2. When you take a critical hit from a mundane attack, your blood splatters and deals the damage you took as acid damage to all enemies adjacent to you.",
-                "You gain resistance to poison damage.",
+                "Crafted from the chitin of a giant scorpion. When you take a critical hit from a mundane attack, your blood splatters and deals the damage you took as acid damage to all enemies adjacent to you.",
+                "You are immune to poison damage.",
                 {
                     "type": "entries",
                     "name": "Curse",
@@ -1977,6 +2017,29 @@
                         "While you wear this armor, it corrupts your blood with the venom of scorpion. Dark green veins show under your skin. Healing potions deal damage to you. You can instead drink poison potions to recover."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Bulette Armor",
+            "baseItem": "Plate Armor|PHB",
+            "type": "HA",
+            "armor": true,
+            "weight": 65,
+            "ac": 18,
+            "reqAttune": true,
+            "stealth": true,
+            "rarity": "Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This massive armor is composed of several layers of hide and armor pulled from its iconic namesake.",
+                "The massive upper skull of the beast acts as a hardened carapace over your head. The plating from the creature's exoskeleton forms a layer of armor across your body.",
+                "While unarmed and wearing this armor, you can take an action to assume the form of a bulette hybrid.",
+                "The armor grows down your arms, engulfing your arms as the skull lowers over your face.",
+                "While in this form, you gains a burrowing speed of 20 ft. and a tremorsense of 30 ft.",
+                "You can take the attack action with your new clawed hands but cannot grasp weapons or items. These claws do 1d10 slashing damage (you use your Strength modifier for attack and damage rolls), and these attacks are considered magical.",
+                "It takes an action to leave this form.",
+                "While attuned to this item, the user gains advantage on checks to know their direcion of travel and depth in subterranean environments."
             ]
         },
         {
@@ -2096,7 +2159,7 @@
             ]
         },
         {
-            "name": "Tabula Rasa",
+            "name": "Tabula Rasa ogd cold elemental?",
             "baseItem": "Plate Armor|PHB",
             "type": "HA",
             "armor": true,
@@ -2108,7 +2171,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A clean, white, adamantine plate armor. When you kill an elemental, a rune engraving related to the type of the elemental appears on the armor, giving you permanent resistance to the type of the elemental while you're donned."
+                "A white adamantine plate armor, fused with dragon bones which give it its color. When you kill an elemental of CR 5 or higher, a rune engraving related to the type of the elemental appears on the armor, giving you permanent resistance to the type of the elemental while you're donned."
             ]
         },
         {
@@ -2931,6 +2994,16 @@
             [
                 "This potion's container seems to hold a black fog that moves and pours like water.",
                 "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being grappled and restrained, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain Darkvision to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
+            ]
+        },
+        {
+            "name": "Potion of Hydrate Person",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This potion has no color, smell, or taste. It is not magical."
             ]
         },
         {

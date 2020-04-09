@@ -10465,6 +10465,1152 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Dust Mephit of the Elementalist",
+            "size": "S",
+            "type": "elemental",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                14
+            ],
+            "hp":
+            {
+                "average": 17,
+                "formula": "5d6"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 30
+            },
+            "str": 5,
+            "dex": 16,
+            "con": 10,
+            "int": 9,
+            "wis": 11,
+            "cha": 10,
+            "skill":
+            {
+                "perception": "+2",
+                "stealth": "+4"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "immune":
+            [
+                "poison",
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "languages":
+            [
+                "Auran",
+                "Terran"
+            ],
+            "passive": 12,
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Death Burst",
+                    "entries":
+                    [
+                        "When the mephit dies, it explodes in a burst of dust. Each creature within 5 feet of it must then succeed on a {@dc 14} Constitution saving throw or be {@condition blinded} for 1 minute. A {@condition blinded} creature can repeat the saving throw on each of its turns, ending the effect on itself on a success."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The mephit uses its blinding breath. It then makes a claw attack"
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d4 + 4}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Blinding Breath {@recharge}",
+                    "entries":
+                    [
+                        "The mephit exhales a 15-foot cone of blinding dust. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw or be {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting (1/Day)",
+                    "headerEntries":
+                    [
+                        "The mephit can innately cast {@spell sleep}, requiring no material components. Its innate spellcasting ability is Charisma."
+                    ],
+                    "will":
+                    [
+                        "{@spell sleep}"
+                    ],
+                    "hidden":
+                    [
+                        "will"
+                    ],
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Death Burst"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AU",
+                "T"
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "AOE",
+                "RW"
+            ],
+            "conditionInflict":
+            [
+                "blinded"
+            ],
+            "conditionInflictSpell":
+            [
+                "unconscious"
+            ],
+            "tokenUrl": "https://5e.tools/img/MM/Dust%20Mephit.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://5e.tools/img/bestiary/MM/Dust%20Mephit.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ice Mephit of the Elementalist",
+            "size": "S",
+            "type": "elemental",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                13
+            ],
+            "hp":
+            {
+                "average": 21,
+                "formula": "6d6"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 30
+            },
+            "str": 7,
+            "dex": 15,
+            "con": 10,
+            "int": 9,
+            "wis": 11,
+            "cha": 10,
+            "skill":
+            {
+                "perception": "+2",
+                "stealth": "+3"
+            },
+            "vulnerable":
+            [
+                "bludgeoning",
+                "fire"
+            ],
+            "immune":
+            [
+                "cold",
+                "poison",
+                {
+                    "immune":
+                    [
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "languages":
+            [
+                "Aquan",
+                "Auran"
+            ],
+            "passive": 12,
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Death Burst",
+                    "entries":
+                    [
+                        "When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it must make a {@dc 14} Dexterity saving throw, taking [[{@damage 2d8}]] slashing damage on a failed save, or half as much damage on a successful one.."
+                    ]
+                },
+                {
+                    "name": "False Appearance",
+                    "entries":
+                    [
+                        "While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The mephit uses its frost breath. It then makes a claw attack"
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) slashing damage plus 3 ({@damage 1d6}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Frost Breath {@recharge 5}",
+                    "entries":
+                    [
+                        "The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw, taking [[{@damage 3d4}]] cold damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting (1/Day)",
+                    "headerEntries":
+                    [
+                        "The mephit can innately cast {@spell fog cloud}, requiring no material components. Its innate spellcasting ability is Charisma."
+                    ],
+                    "will":
+                    [
+                        "{@spell fog cloud}"
+                    ],
+                    "hidden":
+                    [
+                        "will"
+                    ],
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Death Burst"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AQ",
+                "AU"
+            ],
+            "damageTags":
+            [
+                "C",
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "AOE",
+                "RW"
+            ],
+            "tokenUrl": "https://5e.tools/img/MM/Ice%20Mephit.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://5e.tools/img/bestiary/MM/Ice%20Mephit.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Magma Mephit of the Elementalist",
+            "size": "S",
+            "type": "elemental",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                13
+            ],
+            "hp":
+            {
+                "average": 22,
+                "formula": "5d6 + 5"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 30
+            },
+            "str": 8,
+            "dex": 14,
+            "con": 12,
+            "int": 7,
+            "wis": 10,
+            "cha": 10,
+            "skill":
+            {
+                "stealth": "+3"
+            },
+            "vulnerable":
+            [
+                "cold"
+            ],
+            "immune":
+            [
+                "fire",
+                "poison",
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "languages":
+            [
+                "Ignan",
+                "Terran"
+            ],
+            "passive": 10,
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Death Burst",
+                    "entries":
+                    [
+                        "When the mephit dies, it explodes in a burst of lava. Each creature within 5 feet of it must make a {@dc 14} Dexterity saving throw, taking [[{@damage 2d8}]] fire damage on a failed save, or half as much damage on a successful one."
+                    ]
+                },
+                {
+                    "name": "False Appearance",
+                    "entries":
+                    [
+                        "While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The mephit uses its fire breath. It then makes a claw attack"
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) slashing damage plus 3 ({@damage 1d6}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Fire Breath {@recharge}",
+                    "entries":
+                    [
+                        "The mephit exhales a 15-foot cone of fire. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking [[{@damage 3d4}]] fire damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting (1/Day)",
+                    "headerEntries":
+                    [
+                        "The mephit can innately cast {@spell heat metal} (spell save {@dc 13}), requiring no material components. Its innate spellcasting ability is Charisma."
+                    ],
+                    "will":
+                    [
+                        "{@spell heat metal}"
+                    ],
+                    "hidden":
+                    [
+                        "will"
+                    ],
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Death Burst",
+                "False Appearance"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "IG",
+                "T"
+            ],
+            "damageTags":
+            [
+                "F",
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "AOE",
+                "RW"
+            ],
+            "tokenUrl": "https://5e.tools/img/MM/Magma%20Mephit.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://5e.tools/img/bestiary/MM/Magma%20Mephit.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mud Mephit of the Elementalist",
+            "size": "S",
+            "type": "elemental",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                13
+            ],
+            "hp":
+            {
+                "average": 27,
+                "formula": "6d6 + 6"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "fly": 20,
+                "swim": 20
+            },
+            "str": 8,
+            "dex": 14,
+            "con": 12,
+            "int": 9,
+            "wis": 11,
+            "cha": 7,
+            "skill":
+            {
+                "stealth": "+3"
+            },
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "immune":
+            [
+                "poison",
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "languages":
+            [
+                "Aquan",
+                "Terran"
+            ],
+            "passive": 12,
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Death Burst",
+                    "entries":
+                    [
+                        "When the mephit dies, it explodes in a burst of sticky mud. Each Medium or smaller creature within 5 feet of it must succeed on a {@dc 14 Dexterity saving throw or be {@condition restrained} until the end of the creature's next turn."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The mephit uses its mud breath. It then makes a fist attack"
+                    ]
+                },
+                {
+                    "name": "Fist",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d6 + 2}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Mud Breath {@recharge}",
+                    "entries":
+                    [
+                        "The mephit belches viscid mud onto one creature within 5 feet of it. If the target is Medium or smaller, it must succeed on a {@dc 13} Dexterity saving throw or be {@condition restrained} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting (1/Day)",
+                    "headerEntries":
+                    [
+                        "The mephit can innately cast {@spell grease} (spell save {@dc 13}), requiring no material components. Its innate spellcasting ability is Charisma."
+                    ],
+                    "will":
+                    [
+                        "{@spell grease}"
+                    ],
+                    "hidden":
+                    [
+                        "will"
+                    ],
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Death Burst",
+                "False Appearance"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AQ",
+                "T"
+            ],
+            "damageTags":
+            [
+                "B"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "AOE",
+                "RW"
+            ],
+            "conditionInflict":
+            [
+                "restrained"
+            ],
+            "tokenUrl": "https://5e.tools/img/MM/Mud%20Mephit.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://5e.tools/img/bestiary/MM/Mud%20Mephit.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Smoke Mephit of the Elementalist",
+            "size": "S",
+            "type": "elemental",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                14
+            ],
+            "hp":
+            {
+                "average": 22,
+                "formula": "5d6 + 5"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 30
+            },
+            "str": 6,
+            "dex": 16,
+            "con": 12,
+            "int": 10,
+            "wis": 10,
+            "cha": 11,
+            "skill":
+            {
+                "perception": "+2",
+                "stealth": "+4"
+            },
+            "immune":
+            [
+                "fire",
+                "poison",
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "languages":
+            [
+                "Auran",
+                "Ignan"
+            ],
+            "passive": 12,
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Death Burst",
+                    "entries":
+                    [
+                        "When the mephit dies, it leaves behind a cloud of smoke that fills a 5-foot-radius sphere centered on its space. The sphere is heavily obscured. Wind disperses the cloud, which otherwise lasts for 1 minute."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The mephit uses its cinder breath. It then makes a claw attack"
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Cinder Breath {@recharge 5}",
+                    "entries":
+                    [
+                        "The mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw or be {@condition blinded} until the end of the mephit's next turn."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting (1/Day)",
+                    "headerEntries":
+                    [
+                        "The mephit can innately cast {@spell dancing lights}, requiring no material components. Its innate spellcasting ability is Charisma."
+                    ],
+                    "will":
+                    [
+                        "{@spell dancing lights}"
+                    ],
+                    "hidden":
+                    [
+                        "will"
+                    ],
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Death Burst"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AU",
+                "IG"
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "AOE",
+                "MW"
+            ],
+            "tokenUrl": "https://5e.tools/img/MM/Smoke%20Mephit.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://5e.tools/img/bestiary/MM/Smoke%20Mephit.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Steam Mephit of the Elementalist",
+            "size": "S",
+            "type": "elemental",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                12
+            ],
+            "hp":
+            {
+                "average": 21,
+                "formula": "6d6"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 30
+            },
+            "str": 5,
+            "dex": 13,
+            "con": 10,
+            "int": 11,
+            "wis": 10,
+            "cha": 12,
+            "immune":
+            [
+                "fire",
+                "poison",
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "conditionImmune":
+            [
+                "poisoned",
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "languages":
+            [
+                "Aquan",
+                "Ignan"
+            ],
+            "passive": 10,
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Death Burst",
+                    "entries":
+                    [
+                        "When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a {@dc 14} Dexterity saving throw or take [[{@damage 2d8}]] fire damage."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The mephit uses its steam breath. It then makes a claw attack"
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d4+1}) slashing damage plus 3 ({@damage 1d6) fire damage."
+                    ]
+                },
+                {
+                    "name": "Steam Breath {@recharge 5}",
+                    "entries":
+                    [
+                        "The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw, taking [[{@damage 3d4})]] fire damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting (1/Day)",
+                    "headerEntries":
+                    [
+                        "The mephit can innately cast {@spell blur}, requiring no material components. Its innate spellcasting ability is Charisma."
+                    ],
+                    "will":
+                    [
+                        "{@spell blur}"
+                    ],
+                    "hidden":
+                    [
+                        "will"
+                    ],
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Death Burst"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AQ",
+                "IG"
+            ],
+            "damageTags":
+            [
+                "F",
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "AOE",
+                "MW"
+            ],
+            "tokenUrl": "https://5e.tools/img/MM/Steam%20Mephit.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://5e.tools/img/bestiary/MM/Steam%20Mephit.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Nothidra",
+            "source": "Canbrew",
+            "size": "M",
+            "type": "aberration",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 45,
+                "formula": "6d8 + 18"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 16,
+            "int": 13,
+            "wis": 10,
+            "cha": 8,
+            "skill":
+            {
+                "arcana": "+3",
+                "insight": "+4",
+                "perception": "+2",
+                "stealth": "+5"
+            },
+            "senses":
+            [
+                "truesight 120 ft."
+            ],
+            "passive": 12,
+            "languages":
+            [
+                "Undercommon"
+            ],
+            "cr": "2",
+            "trait":
+            [
+                {
+                    "name": "Keen Sight",
+                    "entries":
+                    [
+                        "The nothic has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The nothic makes two claw attacks."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Rotting Gaze",
+                    "entries":
+                    [
+                        "The nothic targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 12} Constitution saving throw against this magic or take 10 ({@damage 3d6}) necrotic damage."
+                    ]
+                },
+                {
+                    "name": "Weird Insight",
+                    "entries":
+                    [
+                        "The nothic targets one creature it can see within 30 feet of it. The target must contest its Charisma (Deception) check against the nothic's Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being {@condition charmed}."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underdark"
+            ],
+            "traitTags":
+            [
+                "Keen Senses"
+            ],
+            "senseTags":
+            [
+                "U"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "U"
+            ],
+            "damageTags":
+            [
+                "N",
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://5e.tools/img/MM/Nothic.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "hhttps://5e.tools/img/bestiary/MM/Nothic.jpg"
+                        }
+                    }
+                ]
+            }
         }
     ]
 }
