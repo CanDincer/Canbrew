@@ -12443,14 +12443,14 @@
                     "name": "Flyby",
                     "entries":
                     [
-                        "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+                        "The healerbee doesn't provoke opportunity attacks when it flies out of an enemy's reach."
                     ]
                 },
                 {
                     "name": "Recharge",
                     "entries":
                     [
-                        "The bee has 8 charges and regains [[{@dice 1d6+2}]] expended charges daily at dawn."
+                        "The healerbee has 8 charges and regains [[{@dice 1d6+2}]] expended charges daily at dawn."
                     ]
                 }
             ],
@@ -12545,7 +12545,7 @@
                     "name": "Flyby",
                     "entries":
                     [
-                        "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+                        "The faefly doesn't provoke opportunity attacks when it flies out of an enemy's reach."
                     ]
                 }
             ],
