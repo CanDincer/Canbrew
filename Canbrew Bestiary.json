@@ -12400,7 +12400,7 @@
             }
         },
         {
-            "name": "Clockwork Healerbee ogd",
+            "name": "Clockwork Healerbee",
             "source": "Canbrew",
             "size": "T",
             "type": "construct",
@@ -12410,36 +12410,23 @@
             ],
             "ac":
             [
-                {
-                    "ac": 15,
-                    "from":
-                    [
-                        "natural armor"
-                    ]
-                }
+                15
             ],
             "hp":
             {
-                "average": 45,
-                "formula": "6d8 + 18"
+                "average": 10,
+                "formula": "4d4"
             },
             "speed":
             {
                 "walk": 30
             },
-            "str": 14,
-            "dex": 16,
-            "con": 16,
-            "int": 13,
+            "str": 1,
+            "dex": 20,
+            "con": 10,
+            "int": 10,
             "wis": 10,
-            "cha": 8,
-            "skill":
-            {
-                "arcana": "+3",
-                "insight": "+4",
-                "perception": "+2",
-                "stealth": "+5"
-            },
+            "cha": 10,
             "senses":
             [
                 "truesight 120 ft."
@@ -12447,80 +12434,58 @@
             "passive": 12,
             "languages":
             [
-                "Undercommon"
+                "understands Common but can't speak"
             ],
-            "cr": "2",
+            "cr": "0",
             "trait":
             [
                 {
-                    "name": "Keen Sight",
+                    "name": "Flyby",
                     "entries":
                     [
-                        "The nothicdra has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+                        "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+                    ]
+                },
+                {
+                    "name": "Recharge",
+                    "entries":
+                    [
+                        "The bee has 8 charges and regains [[{@dice 1d6+2}]] expended charges daily at dawn."
                     ]
                 }
             ],
-            "action":
+            "spellcasting":
             [
                 {
-                    "name": "Multiattack",
-                    "entries":
+                    "name": "Innate Spellcasting",
+                    "headerEntries":
                     [
-                        "The nothicdra makes two claw attacks."
-                    ]
-                },
-                {
-                    "name": "Claw",
-                    "entries":
-                    [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Rotting Gaze",
-                    "entries":
-                    [
-                        "The nothicdra targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 12} Constitution saving throw against this magic or take 10 ({@damage 3d6}) necrotic damage."
-                    ]
-                },
-                {
-                    "name": "Weird Insight",
-                    "entries":
-                    [
-                        "The nothicdra targets one creature it can see within 30 feet of it. The target must contest its Charisma (Deception) check against the nothicdra's Wisdom (Insight) check. If the nothicdra wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being {@condition charmed}."
-                    ]
+                        "The healerbee's innate spellcasting ability is Wisdom (spell save {@dc 10}). The healerbee can innately cast the following spells, requiring no material components:"
+                    ],
+                    "daily":
+                    {
+                        "8e":
+                        [
+                            "{@spell healing word}"
+                        ]
+                    },
+                    "ability": "Wis",
+                    "type": "spellcasting"
                 }
-            ],
-            "environment":
-            [
-                "underdark"
             ],
             "traitTags":
             [
-                "Keen Senses"
+                "Flyby"
             ],
             "senseTags":
             [
                 "U"
             ],
-            "actionTags":
-            [
-                "Multiattack"
-            ],
             "languageTags":
-            [
-                "U"
+            [   "C",
+                "CS"
             ],
-            "damageTags":
-            [
-                "N",
-                "S"
-            ],
-            "miscTags":
-            [
-                "MW"
-            ],
-            "tokenUrl": "https://5e.tools/img/MM/Nothic.png",
+            "tokenUrl": "https://i.imgur.com/jAuHOX7.png",
             "fluff":
             {
                 "images":
@@ -12530,14 +12495,14 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "https://5e.tools/img/bestiary/MM/Nothic.jpg"
+                            "url": "https://i.imgur.com/jAuHOX7.png"
                         }
                     }
                 ]
             }
         },
         {
-            "name": "Clockwork Faefly ogd",
+            "name": "Clockwork Faefly",
             "source": "Canbrew",
             "size": "T",
             "type": "construct",
@@ -12547,36 +12512,23 @@
             ],
             "ac":
             [
-                {
-                    "ac": 15,
-                    "from":
-                    [
-                        "natural armor"
-                    ]
-                }
+                15
             ],
             "hp":
             {
-                "average": 45,
-                "formula": "6d8 + 18"
+                "average": 10,
+                "formula": "4d4"
             },
             "speed":
             {
                 "walk": 30
             },
-            "str": 14,
-            "dex": 16,
-            "con": 16,
-            "int": 13,
+            "str": 1,
+            "dex": 20,
+            "con": 10,
+            "int": 10,
             "wis": 10,
-            "cha": 8,
-            "skill":
-            {
-                "arcana": "+3",
-                "insight": "+4",
-                "perception": "+2",
-                "stealth": "+5"
-            },
+            "cha": 10,
             "senses":
             [
                 "truesight 120 ft."
@@ -12584,80 +12536,49 @@
             "passive": 12,
             "languages":
             [
-                "Undercommon"
+                "understands Common but can't speak"
             ],
-            "cr": "2",
+            "cr": "0",
             "trait":
             [
                 {
-                    "name": "Keen Sight",
+                    "name": "Flyby",
                     "entries":
                     [
-                        "The nothicdra has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+                        "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach."
                     ]
                 }
             ],
-            "action":
+            "spellcasting":
             [
                 {
-                    "name": "Multiattack",
-                    "entries":
+                    "name": "Innate Spellcasting",
+                    "headerEntries":
                     [
-                        "The nothicdra makes two claw attacks."
-                    ]
-                },
-                {
-                    "name": "Claw",
-                    "entries":
+                        "The faefly's innate spellcasting ability is Charisma (spell save {@dc 10}). The faefly can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will":
                     [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Rotting Gaze",
-                    "entries":
-                    [
-                        "The nothicdra targets one creature it can see within 30 feet of it. The target must succeed on a {@dc 12} Constitution saving throw against this magic or take 10 ({@damage 3d6}) necrotic damage."
-                    ]
-                },
-                {
-                    "name": "Weird Insight",
-                    "entries":
-                    [
-                        "The nothicdra targets one creature it can see within 30 feet of it. The target must contest its Charisma (Deception) check against the nothicdra's Wisdom (Insight) check. If the nothicdra wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being {@condition charmed}."
-                    ]
+                        "{@spell light}"
+                    ],
+                    "ability": "Cha",
+                    "type": "spellcasting"
                 }
-            ],
-            "environment":
-            [
-                "underdark"
             ],
             "traitTags":
             [
-                "Keen Senses"
+                "Flyby"
             ],
             "senseTags":
             [
                 "U"
             ],
-            "actionTags":
-            [
-                "Multiattack"
-            ],
             "languageTags":
             [
-                "U"
+                "C",
+                "CS"
             ],
-            "damageTags":
-            [
-                "N",
-                "S"
-            ],
-            "miscTags":
-            [
-                "MW"
-            ],
-            "tokenUrl": "https://5e.tools/img/MM/Nothic.png",
+            "tokenUrl": "https://i.imgur.com/gB6EpC2.png",
             "fluff":
             {
                 "images":
@@ -12667,7 +12588,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "https://5e.tools/img/bestiary/MM/Nothic.jpg"
+                            "url": "https://i.imgur.com/gB6EpC2.png"
                         }
                     }
                 ]
