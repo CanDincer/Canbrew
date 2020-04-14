@@ -10402,14 +10402,14 @@
             }
         },
         {
-            "name": "Percy ogd",
+            "name": "Arcane Gunslinger ogd",
             "size": "M",
             "type":
             {
                 "type": "humanoid",
                 "tags":
                 [
-                    "tiefling"
+                    "any race"
                 ]
             },
             "source": "Canbrew",
@@ -10448,13 +10448,9 @@
                 "athletics":"+7",
                 "stealth": "+9"
             },
-            "resist":
+            "languages":
             [
-                "fire"
-            ],
-            "senses":
-            [
-                "darkvision 60 ft."
+                "Common and any two languages"
             ],
             "passive": 11,
             "cr": "15",
@@ -10471,10 +10467,42 @@
             "action":
             [
                 {
-                    "name": "Sun Blade",
+                    "name": "Multiattack",
                     "entries":
                     [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage plus 2 ({@damage 1d4}) acid damage."
+                        "The arcane gunslinger makes two pistol attacks."
+                    ]
+                }
+                {
+                    "name": "Pistol",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 5}) piercing damage plus 11 ({@damage 2d10}) force damage.",
+                        "The target is pushed 5 feet away on hit."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Riposte",
+                    "entries":
+                    [
+                        "When a creature misses the arcane gunslinger with a melee attack, it can use a reaction to make a melee weapon attack against the creature."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Arcane Gunslinger"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Fire in the hole!",
+                    "entries":
+                    [
+                        "The arcane gunslinger throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take [[{@dice 3d6}]] fire damage."
                     ]
                 }
             ],

@@ -2043,6 +2043,21 @@
             ]
         },
         {
+            "name": "Plate Armor of ogd",
+            "weight": 65,
+            "ac": 18,
+            "reqAttune": true,
+            "stealth": true,
+            "rarity": "Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This armor is but a single small shoulder plate.",
+                "As soon as you place it on your shoulder, flames of ... extends through your veins. It ataches itself by cauterizing your skin. Your fiery veins reach your neck and elbow.",
+                ""
+            ]
+        },
+        {
             "name": "Venombane Armor",
             "baseItem": "Hide Armor|PHB",
             "type": "MA",
