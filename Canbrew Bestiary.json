@@ -10443,6 +10443,12 @@
             "int": 17,
             "wis": 12,
             "cha": 14,
+            "save":
+            {
+                "dex": "+6",
+                "con": "+4",
+                "wis": "+3"
+            },
             "skill":
             {
                 "athletics":"+7",
@@ -10457,10 +10463,10 @@
             "trait":
             [
                 {
-                    "name": "False Appearance (Object Form Only)",
+                    "name": "Gunslinger",
                     "entries":
                     [
-                        "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+                        "Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on the gunslinger's ranged attack rolls with a pistol. In addition, the gunslinger ignores half cover and three-quarters cover when making ranged attacks with a pistol."
                     ]
                 }
             ],
@@ -10470,9 +10476,9 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The arcane gunslinger makes two pistol attacks."
+                        "The gunslinger makes two pistol attacks."
                     ]
-                }
+                },
                 {
                     "name": "Pistol",
                     "entries":
@@ -10488,7 +10494,7 @@
                     "name": "Riposte",
                     "entries":
                     [
-                        "When a creature misses the arcane gunslinger with a melee attack, it can use a reaction to make a melee weapon attack against the creature."
+                        "When a creature misses the gunslinger with a melee attack, it can use a reaction to make a melee weapon attack against the creature."
                     ]
                 }
             ],
@@ -10541,7 +10547,7 @@
             ],
             "traitTags":
             [
-                "Shapechanger"
+                "Gunslinger"
             ],
             "senseTags":
             [
