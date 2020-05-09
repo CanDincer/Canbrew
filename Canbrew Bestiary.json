@@ -12801,6 +12801,117 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Giant Shark",
+            "source": "MM",
+            "page": 328,
+            "srd": true,
+            "otherSources": [
+                {
+                    "source": "SKT"
+                },
+                {
+                    "source": "ToA"
+                },
+                {
+                    "source": "GoS"
+                },
+                {
+                    "source": "DIP"
+                },
+                {
+                    "source": "SDW"
+                },
+                {
+                    "source": "LR"
+                }
+            ],
+            "size": "H",
+            "type": "beast",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 126,
+                "formula": "11d12 + 55"
+            },
+            "speed": {
+                "swim": 50
+            },
+            "str": 23,
+            "dex": 10,
+            "con": 21,
+            "int": 1,
+            "wis": 10,
+            "cha": 5,
+            "skill":
+            {
+                "perception": "+3"
+            },
+            "senses":
+            [
+                "blindsight 60 ft."
+            ],
+            "passive": 13,
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Blood Frenzy",
+                    "entries":
+                    [
+                        "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+                    ]
+                },
+                {
+                    "name": "Water Breathing",
+                    "entries":
+                    [
+                        "The shark can breathe only underwater."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underwater"
+            ],
+            "traitTags":
+            [
+                "Undead Fortitude",
+                "Water Breathing"
+            ],
+            "senseTags": [
+                "B"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ]
         }
     ]
 }
