@@ -415,7 +415,7 @@
                     "name": "Curse",
                     "entries":
                     [
-                        "It channels The Annihilator's shadow to you, a shadow incarnate being, created to purge the material plane from its corruption. Wolven in shape with green flames for eyes, an unending tongue and seven chains attached to piercings on its body. After completing its purpose, it was chained inside the material plane's depths by three powerful {@creature solar|MM}s. The Annihilator attaches to you in your dreams, either trying to consume you or trying to make you spread its shadows to gain its strength back.",
+                        "It channels The Annihilator's shadow to you, a shadow incarnate being, created to purge the material plane from its corruption. Wolven in shape with green flames for eyes, an unending tongue, and seven chains attached to piercings on its body. After completing its purpose, it was chained inside the material plane's depths by three powerful {@creature solar|MM}s. The Annihilator attaches to you in your dreams, either trying to consume you or trying to make you spread its shadows to gain its strength back.",
                         "If you accept to become his prophet, a sigil appears on your chest."
                     ]
                 },
@@ -486,7 +486,7 @@
                                     "You can travel up to 30 ft. through shadows and darkness to a place you can see at the location you've started.",
                                     "You do not provoke opportunity attacks while you travel in this manner.",
                                     "You cannot attack or take any other actions until you emerge from the shadows.",
-                                    "To the untrained eye, it looks like as if you had teleported."
+                                    "To the untrained eye, it looks as if you had teleported."
                             ]
                         },
                         {
@@ -528,7 +528,7 @@
                             "name": "80 cultists",
                             "entries":
                             [
-                                "The fang twists and takes a slight helicoidal shape. Hits made with it initiate a bleeding effect. On a failed {@dc 12} Constitution saving throw, target takes {@damage 1d4} bleeding damage at the beginning of its turns until the creature succeeds, ending the effect."
+                                "The fang twists and takes a slight helicoidal shape. Hits made with it initiate a bleeding effect. On a failed {@dc 12} Constitution saving throw, the target takes {@damage 1d4} bleeding damage at the beginning of its turns until the creature succeeds, ending the effect."
                             ]
                         },
                         {
@@ -536,7 +536,7 @@
                             "name": "90 cultists",
                             "entries":
                             [
-                                "The Annihilator provides shelter when you need. You can take 1 minute to create a fane of the Annihilator. Doing so requires 10 runic charges.",
+                                "The Annihilator provides shelter when you need one. You can take 1 minute to create a fane of the Annihilator. Doing so requires 10 runic charges.",
                                 "The fane is a small temple. From outside it looks like a building made out of billowing shadows. The inside is an extradimensional dwelling that is 20-foot wide, 10-foot high, and 40-foot long, furnished with an altar of sacrifice, a large marble table, six alabaster chairs, an elevated brass brazier, and four torches to light the otherwise dark space.",
                                 "An unwilling creature stabbed with the fang while laying on the altar must succeed on a Constitution saving throw or be consumed. The creature has disadvantage on this saving throw.",
                                 "You and any creature you designate when you conjure the fane can enter the extradimensional dwelling as long as its door remains open. You can open or close the door if you are within 30 feet of it.",
