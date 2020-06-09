@@ -389,7 +389,7 @@
             ]
         },
         {
-            "name": "The Great Annihilator's Fang",
+            "name": "The Annihilator's Fang",
             "baseItem": "Dagger|PHB",
             "type": "M",
             "weaponCategory": "Simple",
@@ -409,13 +409,13 @@
             [
                 "A very large fang with a slight curve. In darkness, you can see shadows bend towards it.",
                 "If you try to throw it, it hangs in the air in front of you.",
-                "You can use your bonus action to command it with your mind. It has a flying speed of up to 40 feet, but it can only travel in a straight line that you can see during a turn and it can't go through creatures. It deals {@damage 1d4} force damage. You add your spellcasting modifier to both attack and damage rolls.",
+                "You can use your bonus action to command it with your mind. It has a flying speed of up to 40 feet, but it can only travel in a straight line that you can see during a turn and it can't go through creatures. It deals {@damage 1d4} force damage. You use your spellcasting modifier for both attack and damage rolls.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "It channels The Great Annihilator's shadow to you. The Great Annihilator comes to you in your dreams, either trying to consume you or trying to make you spread his shadows.",
+                        "It channels The Annihilator's shadow to you, a shadow incarnate being, created to purge the material plane from its corruption. Wolven in shape with green flames for eyes, an unending tongue and seven chains attached to piercings on its body. After completing its purpose, it was chained inside the material plane's depths by three powerful {@creature solar|MM}s. The Annihilator attaches to you in your dreams, either trying to consume you or trying to make you spread its shadows to gain its strength back.",
                         "If you accept to become his prophet, a sigil appears on your chest."
                     ]
                 },
@@ -429,11 +429,13 @@
                 },
                 {
                     "type": "entries",
-                    "name": "Cult of Annihilator",
+                    "name": "Cult of Annihilaton",
                     "entries":
                     [
-                        "You can turn a willing creature to cult worshipper by extending your shadow. A small part of the sigil appears on their chest and their skin color darkens.",
-                        "For each sentient being you convince to join the cult, the sigil spreads with new runes."
+                        "You can turn a willing creature to a cult worshipper by extending your shadow. A small part of the sigil appears on their chest and their skin color darkens slightly.",
+                        "For each sentient being you convince to join the cult, the sigil on your chest spreads with new runes.",
+                        "The Annihilator is as strong as it has followers.",
+                        "You are the prophet and don't count as a cultist."
                     ]
                 },
                 {
@@ -442,10 +444,10 @@
                     "entries":
                     [
                         "Sacrificing worthy (living creatures with CR over 1) creatures with the fang activates the runes on your sigil. Activated runes glow dimly.",
-                        "You can have maximum runic charges active equal to the cultists you have (i.e. runes you have)."
+                        "The maximum active runic charges you can have is equal to the cultists you have (i.e. runes you have)."
                     ]
                 },
-                "You can use active runes to conjure special powers granted by the Great Annihilator. A used rune deactivates. Powers you can conjure are listed below.",
+                "You can use active runes to conjure special powers granted by the Annihilator. A used rune deactivates. Powers you can conjure are listed below.",
                 {
                     "type": "list",
                     "items":
@@ -455,7 +457,7 @@
                             "name": "0 cultists",
                             "entries":
                             [
-                                "You can infuse a spell attack with the Great Annihilator's shadow. With a cost of 1 runic charge, you add your spellcasting modifier to the damage of a spell attack."
+                                "You can infuse a spell attack with the Annihilator's shadow. With a cost of 1 runic charge, you add your spellcasting modifier to the damage of a spell attack."
                             ]
                         },
                         {
@@ -463,7 +465,7 @@
                             "name": "10 cultists",
                             "entries":
                             [
-                                "As an action, you can summon up to two {@creature shadow mastiff|VGM}s (5 charges each). They stay with you for an hour, unless they drop to zero hit points, or unless you lose your concentration on this power. You mentally guide the summoned mastiffs"
+                                "As an action, you can summon up to two {@creature shadow mastiff|VGM}s (5 charges each). They stay with you for an hour, unless they drop to zero hit points, or unless you lose your concentration on this power. You mentally guide the summoned mastiffs, and they take actions in their own initiative together."
                             ]
                         },
                         {
@@ -472,7 +474,7 @@
                             "entries":
                             [
                                 "You can expend 2 runic charges and use your enemy's shadow against it.",
-                                "You reach a creature's shadows with yours and grapple it until the start of your next turn. The creature can try to resist this effect with Strength or Intelligence saving throw, once when you first grapple it and again at the end of each of its turns."
+                                "You reach a creature's shadows with yours and grapple it until the start of your next turn. The creature can try to resist this effect with a Strength saving throw or an Intelligence saving throw (its choice), once when you first grapple it and again at the end of each of its turns."
                             ]
                         },
                         {
@@ -481,9 +483,10 @@
                             "entries":
                             [
                                 "While you're inside shadows or at most a dimly lighted area, as a bonus action, you can \"{@spell blink|PHB} teleport\". Doing so expends 3 runic charges.",
-                                    "You can travel up to 60 ft. through shadows and darkness to a place you can see at the location you've started.",
+                                    "You can travel up to 30 ft. through shadows and darkness to a place you can see at the location you've started.",
                                     "You do not provoke opportunity attacks while you travel in this manner.",
-                                    "You cannot attack or take any other actions until you emerge from the shadows."
+                                    "You cannot attack or take any other actions until you emerge from the shadows.",
+                                    "To the untrained eye, it looks like as if you had teleported."
                             ]
                         },
                         {
@@ -491,8 +494,8 @@
                             "name": "40 cultists",
                             "entries":
                             [
-                                "You can detach your shadow from your body using a bonus action. Doing so expends 10 runic charges.",
-                                "Your shadow clone has half your maximum hit points and a shadow copy of everything you had equipped at the time of detachment. It can only make weapon attacks and deals half damage. You can use an action to see through its eyes. After a minute or when called, shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the minute. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so exerts the shadow clone immediately."
+                                "You can take a minute to detach your shadow from your body using a bonus action, creating a shadow clone. Doing so expends 10 runic charges.",
+                                "Your shadow clone has half your maximum hit points and a shadow copy of everything you had equipped at the time of detachment. It can only make weapon attacks and deals half damage. You can use an action to see through its eyes. After 10 minutes or when called, your shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the 10 minutes. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so exerts the shadow clone immediately and restores you to the hit points your shadow clone had."
                             ]
                         },
                         {
@@ -500,7 +503,7 @@
                             "name": "50 cultists",
                             "entries":
                             [
-                                "The Great Annihilator grants you a part of his own shadow",
+                                "The Annihilator grants you a part of his own shadow",
                                 "When you're mortally wounded you can forego 50 runic charges to become a shadow with 1 hit point for one minute. You're not invisible but cannot be interacted with. At the end of your reformation, you are fully healed and your spell slots and traits are restored as if you had completed a long rest."
                             ]
                         },
@@ -525,9 +528,37 @@
                             "name": "80 cultists",
                             "entries":
                             [
-                                "The fang twists and takes a slight helicoidal shape. Hits made with it initiate a bleeding effect. On a failed {@dc 12} Constitution saving throw, target takes {@damage 1d4} bleeding damage at the start of its turn until the creature succeeds, ending the effect"
+                                "The fang twists and takes a slight helicoidal shape. Hits made with it initiate a bleeding effect. On a failed {@dc 12} Constitution saving throw, target takes {@damage 1d4} bleeding damage at the beginning of its turns until the creature succeeds, ending the effect."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "90 cultists",
+                            "entries":
+                            [
+                                "The Annihilator provides shelter when you need. You can take 1 minute to create a fane of the Annihilator. Doing so requires 10 runic charges.",
+                                "The fane is a small temple. From outside it looks like a building made out of billowing shadows. The inside is an extradimensional dwelling that is 20-foot wide, 10-foot high, and 40-foot long, furnished with an altar of sacrifice, a large marble table, six alabaster chairs, an elevated brass brazier, and four torches to light the otherwise dark space.",
+                                "An unwilling creature stabbed with the fang while laying on the altar must succeed on a Constitution saving throw or be consumed. The creature has disadvantage on this saving throw.",
+                                "You and any creature you designate when you conjure the fane can enter the extradimensional dwelling as long as its door remains open. You can open or close the door if you are within 30 feet of it.",
+                                "The fane is immune to any damage.",
+                                "After 24 hours the fane disappears, ejecting any creature still inside to the closest unoccupied space near its door.",
+                                "When you conjure the fane again, you will always find it as you left it (i.e. if you leave an object inside, it will be there the next time you conjure the fane)."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "100 cultists",
+                            "entries":
+                            [
+                                "The Annihilator is unchained and set free, ready to  dissolve the material plane in its shadows and regain its might."
                             ]
                         }
+                    ]
+                },
+                {
+                    "type": "quote",
+                    "entries": [
+                        "Unchain this creature to let it run its natural course and devour the plane, again!"
                     ]
                 }
             ]
