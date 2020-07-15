@@ -11,7 +11,7 @@
                 [
                     "Can Dinçer"
                 ],
-                "version": "2020.01.09",
+                "version": "2020.07.15",
                 "url": "https://github.com/CanDincer/Canbrew",
                 "targetSchema": "1.0.0"
             }
@@ -19392,7 +19392,7 @@
                             "wis",
                             "cha"
                         ],
-                        "count":1
+                        "count":2
                     },
                     "dex": 1
                 }
