@@ -415,8 +415,8 @@
                     "name": "Curse",
                     "entries":
                     [
-                        "It channels The Annihilator's shadow to you, a shadow incarnate being, created to purge the material plane from its corruption. Wolven in shape with green flames for eyes, an unending tongue, and seven chains attached to piercings on its body. After completing its purpose, it was chained inside the material plane's depths by three powerful {@creature solar|MM}s. The Annihilator attaches to you in your dreams, either trying to consume you or trying to make you spread its shadows to gain its strength back.",
-                        "If you accept to become his prophet, a sigil appears on your chest."
+                        "It channels The Annihilator's shadow to you, a shadow incarnate being, created to purge the material plane from its corruption. Wolven in form a gargantuan creature with green flames for eyes, an unending tongue, and seven chains attached to piercings on its body. After completing its purpose, it was chained in the material plane's depths by three {@creature solar|MM}s. The Annihilator attaches to you in your dreams, either trying to consume you or force you into spreading its shadows to gain its strength back.",
+                        "If you accept to become its prophet, a sigil appears on your chest."
                     ]
                 },
                 {
@@ -495,7 +495,7 @@
                             "entries":
                             [
                                 "You can take a minute to detach your shadow from your body using a bonus action, creating a shadow clone. Doing so expends 10 runic charges.",
-                                "Your shadow clone has half your maximum hit points and a shadow copy of everything you had equipped at the time of detachment. It can only make weapon attacks and deals half damage. You can use an action to see through its eyes. After 10 minutes or when called, your shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the 10 minutes. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so exerts the shadow clone immediately and restores you to the hit points your shadow clone had."
+                                "Your shadow clone has the statistics of an {@spell Unseen Servant|PHB} and a shadow copy of everything you had equipped at the time of detachment, with two exceptions; the shadow clone can make weapon attacks with a bonus of +0 and the spell does not end when the shadow clone is 60 feet away from you. You can use an action to see through its eyes. After 10 minutes or when called, your shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the 10 minutes. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so exerts the shadow clone immediately and restores you to the hit points your shadow clone had."
                             ]
                         },
                         {
@@ -2335,20 +2335,6 @@
             ]
         },
         {
-            "name": "Eladrian Shield",       
-            "baseItem": "Shield|PHB",
-            "type": "S",
-            "weight": 6,
-            "ac": 2,
-            "reqAttune": true,
-            "rarity": "Common",
-            "source": "Canbrew",
-            "entries":
-            [
-                "A wooden shield inlaid with mithril ornaments. Slightly pulls any projectile towards it. Provides +3 AC against projectiles and +2 AC to the rest of the attacks."
-            ]
-        },
-        {
             "name": "Twitcher's Shield",
             "baseItem": "Shield|PHB",
             "type": "S",
@@ -3020,6 +3006,18 @@
             "entries":
             [
                 "This potion has no color, smell, or taste. It is not magical."
+            ]
+        },
+        {
+            "name": "Potion of Nightshade",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This purple potion is the bane of vampires. When you drink this potion, your blood becomes toxic to vampires. Any vampire drinking your blood takes 3d6 acid damage or half as much damage on a successful DC 20 Constitution saving throw.",
+                "A vampire can drink this to commit suicide. It deals 20d20 poison damage or half as much damage on a successful DC 20 Constitution saving throw.",
+                "The potion can also be applied to weapons and ammunation as oil. A weapon coated in Nightshade oil deals an extra 3d6 poison damage to vampires."
             ]
         },
         {

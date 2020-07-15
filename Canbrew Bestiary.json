@@ -488,7 +488,7 @@
                     "name": "Spiked Chain",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage. The goblin warlord can force the target to make a contested Athletics ([[@{npc_athletics}+1d20]]) check. On a failed saving throw, the target is grappled and pulled towards the goblin warlord up 5 ft."
+                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage. The goblin warlord can force the target to make a contested Athletics check. On a failed saving throw, the target is grappled and pulled towards the goblin warlord up 5 ft."
                     ]
                 }
             ],
@@ -652,14 +652,14 @@
                     "name": "Summon (Cursed Tree only)",
                     "entries":
                     [
-                        "The cursed tree summons [[{@dice 1d2+1}]] Vine Blights."
+                        "The cursed tree summons {@dice 1d2+1} Vine Blights."
                     ]
                 },
                 {
                     "name": "Summon (Rot Tree only)",
                     "entries":
                     [
-                        "The cursed tree summons [[{@dice 1d2+1}]] Needle Blights."
+                        "The cursed tree summons {@dice 1d2+1} Needle Blights."
                     ]
                 }
             ],
@@ -1634,7 +1634,7 @@
                     "name": "Fire in the hole!",
                     "entries":
                     [
-                        "The mongolian pirate hunter swashbuckler throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take [[{@dice 3d6}]] fire damage."
+                        "The mongolian pirate hunter swashbuckler throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take {@dice 3d6} fire damage."
                     ]
                 }
             ],
@@ -3682,7 +3682,7 @@
                     "name": "Disintegration Ray",
                     "entries":
                     [
-                        "If the target is a creature, it must succeed on a {@dc 16} Dexterity saving throw or take [[{@damage 10d6}]] radiant damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust."
+                        "If the target is a creature, it must succeed on a {@dc 16} Dexterity saving throw or take {@damage 10d6} radiant damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust."
                     ]
                 }
             ],
@@ -3692,7 +3692,7 @@
                     "name": "Retaliating Blast",
                     "entries":
                     [
-                        "Atlantis Sentinel uses a charge in its Pearl Core to retaliate a magical attack. A wave of thunderous force sweeps out from it. Each creature in a 90-foot sphere originating from it must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes [[{@damage 2d8}]] thunder damage and is pushed 10 feet away from it. On a successful save, the creature takes half as much damage and isn't pushed. Creatures at least 60-foot away from it make the saving throw with advantage."
+                        "Atlantis Sentinel uses a charge in its Pearl Core to retaliate a magical attack. A wave of thunderous force sweeps out from it. Each creature in a 90-foot sphere originating from it must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes {@damage 2d8} thunder damage and is pushed 10 feet away from it. On a successful save, the creature takes half as much damage and isn't pushed. Creatures at least 60-foot away from it make the saving throw with advantage."
                     ]
                 }
             ],
@@ -3809,7 +3809,7 @@
                     "entries":
                     [
                         "The kobold carries a cask of flammable alcohol on its back. While it does so, the kobold can't use its hands to make attacks or use actions, and fire damage the kobold takes is also taken by the cask.",
-                        "When the cask takes fire damage, roll a [[{@damage 1d10}]]. If the result is less than the fire damage dealt, the cask erupts in a 10-foot radius explosion. Each creature in the area must make a DC 13 Dexterity saving throw, taking [[{@damage 4d6}]] fire damage on a failed save, or half as much on a successful one. Flammable objects in the area not being worn or carried ignite."
+                        "When the cask takes fire damage, roll a {@damage 1d10}. If the result is less than the fire damage dealt, the cask erupts in a 10-foot radius explosion. Each creature in the area must make a DC 13 Dexterity saving throw, taking {@damage 4d6} fire damage on a failed save, or half as much on a successful one. Flammable objects in the area not being worn or carried ignite."
                     ]
                 }
             ],
@@ -3827,8 +3827,8 @@
                     "entries":
                     [
                         "The Kobold rolls its carried cask in a straight line 15 feet in a direction of its choice. The cask then continues to roll 15 feet at the start of each of the kobold's turns, accelerating, decelerating, or changing direction with the terrain at the GM's discretion.",
-                        "The cask is an object with an AC of 10 and 10 hit points (immunity to poison and psychic damage, vulnerability to fire damage), and which retains the applicable portion of the Volatile Cask trait above. If the cask collides with a creature or a solid surface, both it and what it collides with take [[{@damage 1d10}]] bludgeoning damage for every 10 feet it moved this turn.",
-                        "If the cask is destroyed by fire damage, the Volatile Cask trait is triggered automatically. If it is destroyed by damage of a different type, it creates a 5-foot radius pool of flammable alcohol on the ground where it was destroyed. Any fire damage dealt in the pool's area ignites it, forcing each creature in the area to succeed on a DC 13 Dexterity saving throw or take [[{@damage 2d6}]] fire damage as the alcohol burns up."
+                        "The cask is an object with an AC of 10 and 10 hit points (immunity to poison and psychic damage, vulnerability to fire damage), and which retains the applicable portion of the Volatile Cask trait above. If the cask collides with a creature or a solid surface, both it and what it collides with take {@damage 1d10} bludgeoning damage for every 10 feet it moved this turn.",
+                        "If the cask is destroyed by fire damage, the Volatile Cask trait is triggered automatically. If it is destroyed by damage of a different type, it creates a 5-foot radius pool of flammable alcohol on the ground where it was destroyed. Any fire damage dealt in the pool's area ignites it, forcing each creature in the area to succeed on a DC 13 Dexterity saving throw or take {@damage 2d6} fire damage as the alcohol burns up."
                     ]
                 }
             ],
@@ -3965,8 +3965,8 @@
                     "name": "Hurl Bottle",
                     "entries":
                     [
-                        "If the bottle was not ignited, the target is soaked in flammable alcohol. The next time a soaked target takes any fire damage, that fire damage is increased by [[{@damage 1d6}]] as the alcohol burns away. If not ignited, the alcohol evaporates harmlessly after 1 minute.",
-                        "If the bottle was ignited, hit or miss, it shatters in a fiery explosion. The target and each creature within 5 feet of it must make a DC 13 Dexterity saving throw. A creature takes [[{@damage 2d4}]] fire damage and is ignited on a failed save, or takes half as much fire damage and is not ignited on a successful one. An ignited target takes [[{@damage 1d4}]] fire damage at the start of each of its turns, and can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+                        "If the bottle was not ignited, the target is soaked in flammable alcohol. The next time a soaked target takes any fire damage, that fire damage is increased by {@damage 1d6} as the alcohol burns away. If not ignited, the alcohol evaporates harmlessly after 1 minute.",
+                        "If the bottle was ignited, hit or miss, it shatters in a fiery explosion. The target and each creature within 5 feet of it must make a DC 13 Dexterity saving throw. A creature takes {@damage 2d4} fire damage and is ignited on a failed save, or takes half as much fire damage and is not ignited on a successful one. An ignited target takes {@damage 1d4} fire damage at the start of each of its turns, and can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
                         "A flammable object in the area ignites if it isn't being worn or carried."
                     ]
                 }
@@ -4249,7 +4249,7 @@
                     ]
                 },
                 {
-                    "name": "Acid Breath {@recharge 5} [[1d6]]",
+                    "name": "Acid Breath {@recharge 5}",
                     "entries":
                     [
                         "{@atk rw} {@hit 4} to hit, reach 15 ft., any target. {@h}22 ({@damage 5d8}) acid damage on a failed save, or half as much damage on a successful one."
@@ -4711,10 +4711,10 @@
                     ]
                 },
                 {
-                    "name": "Lava Spit {@recharge 5} [[1d6]]",
+                    "name": "Lava Spit {@recharge 5}",
                     "entries":
                     [
-                        "Lava Drake spits out 1 foot thick molten rock-metal amalgam up to 60 feet. The lava stays hot for a minute, forcing each creature to make a Dexterity saving throw. On a failed save, a creature takes [[{@damage 2d8}]] fire damage, or half as much damage on a successful save. Lava on the ground keeps dealing [[{@damage 1d8}]] fire damage to each creature that ends its turn within. A creature takes the same damage when it enters for the first time on a turn or ends its turn there."
+                        "Lava Drake spits out 1 foot thick molten rock-metal amalgam up to 60 feet. The lava stays hot for a minute, forcing each creature to make a Dexterity saving throw. On a failed save, a creature takes {@damage 2d8} fire damage, or half as much damage on a successful save. Lava on the ground keeps dealing {@damage 1d8} fire damage to each creature that ends its turn within. A creature takes the same damage when it enters for the first time on a turn or ends its turn there."
                     ]
                 }
             ],
@@ -5117,7 +5117,7 @@
                     "name": "Primal Rage",
                     "entries":
                     [
-                        "The orc has advantage on Strength checks and Strength saving throws and has resistance to bludgeoning, piercing, and slashing damage.."
+                        "The orc has advantage on Strength checks and Strength saving throws and has resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
                     ]
                 },
                 {
@@ -5176,7 +5176,7 @@
                         "type": "list",
                         "items":
                         [
-                            "[[1d2]] orcs come rushing to aid the orc from up to 60 feet close to the orc."
+                            "{@dice 1d2} orcs come rushing to aid the orc from up to 60 feet close to the orc."
                         ]
                     }
                 ],
@@ -5224,7 +5224,7 @@
                     "name": "Enduring Disarm",
                     "entries":
                     [
-                        "When the orc is hit by a melee attack, it can choose to turn it into a critical hit and use its reaction to grab the weapon from its attacker's hand on a failed contested Athletics check ([[[[2d20kh1]]+8]]). The weapon is thrown 10 feet away from the orc in the direction of the orc's choice."
+                        "When the orc is hit by a melee attack, it can choose to turn it into a critical hit and use its reaction to grab the weapon from its attacker's hand on a failed contested Athletics check. The weapon is thrown 10 feet away from the orc in the direction of the orc's choice."
                     ]
                 }
             ],
@@ -5389,7 +5389,7 @@
                     "entries":
                     [
                         "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d12 + 5}) piercing damage, and the target must make a {@dc 14} Constitution saving throw.",
-                        "On a failed save, the target takes [[{@damage 4d10}]] poison damage and is {@condition poisoned} for 1 hour. On a successful save, the target takes half as much damage and is not {@condition poisoned}. A creature {@condition poisoned} by this attack has its movement speed halved and repeats its save at the end of each of its turns, ending the condition on a success.",
+                        "On a failed save, the target takes {@damage 4d10} poison damage and is {@condition poisoned} for 1 hour. On a successful save, the target takes half as much damage and is not {@condition poisoned}. A creature {@condition poisoned} by this attack has its movement speed halved and repeats its save at the end of each of its turns, ending the condition on a success.",
                         "If the poison damage from this attack reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 },
@@ -5405,18 +5405,18 @@
                     "entries":
                     [
                         "Each creature in a 5-foot wide, 30-foot long line must make a {@dc 14} Dexterity saving throw.",
-                        "On a failed save, a creature takes [[{@damage 4d8}]] poison damage and is {@condition blinded} until the end of its next turn. On a successful save, a creature takes half as much poison damage and is not {@condition blinded}."
+                        "On a failed save, a creature takes {@damage 4d8} poison damage and is {@condition blinded} until the end of its next turn. On a successful save, a creature takes half as much poison damage and is not {@condition blinded}."
                     ]
                 },
                 {
                     "name": "Summon Brood (1/Day)",
                     "entries":
                     [
-                        "The venom queen magically calls [[{@dice 1d4}]] venom crawler hatchlings and [[{@dice 1d4}]] venom crawlers. The called creatures arrive in [[{@dice 1d4}]] rounds, acting as allies of the venom queen and obeying its telepathic commands. The beasts remain for 1 hour, until the venom queen dies, or until the venom queen dismisses them as a bonus action."
+                        "The venom queen magically calls {@dice 1d4} venom crawler hatchlings and {@dice 1d4} venom crawlers. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the venom queen and obeying its telepathic commands. The beasts remain for 1 hour, until the venom queen dies, or until the venom queen dismisses them as a bonus action."
                     ]
                 },
                 {
-                    "name": "Web {@recharge 4} [[1d6]]",
+                    "name": "Web {@recharge 4}",
                     "entries":
                     [
                         "The venom queen uses one of the following web effects."
@@ -5468,7 +5468,7 @@
                     "name": "Skitter (Costs 2 Actions)",
                     "entries":
                     [
-                        "The venom queen moves up to its speed, not provoking opportunity attacks. While doing so, it can enter the spaces of any Large or smaller creatures. The first time on a turn that the venom queen enters the space of a creature that isn't a spider, the creature must succeed on a {@dc 12} Dexterity saving throw or take 9 [[{@damage 2d8}]] piercing damage."
+                        "The venom queen moves up to its speed, not provoking opportunity attacks. While doing so, it can enter the spaces of any Large or smaller creatures. The first time on a turn that the venom queen enters the space of a creature that isn't a spider, the creature must succeed on a {@dc 12} Dexterity saving throw or take 9 {@damage 2d8} piercing damage."
                     ]
                 }
             ],
@@ -5604,7 +5604,7 @@
                     "name": "Bite",
                     "entries":
                     [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must make a {@dc 13} Constitution saving throw. On a failed save, the target takes [[{@damage 2d8}]] poison damage and is {@condition poisoned} for 10 minutes. On a successful save, the target takes half as much damage and is not {@condition poisoned}. A creature {@condition poisoned} by this attack has its movement speed halved and repeats its save at the end of each of its turns, ending the condition on a success.",
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must make a {@dc 13} Constitution saving throw. On a failed save, the target takes {@damage 2d8} poison damage and is {@condition poisoned} for 10 minutes. On a successful save, the target takes half as much damage and is not {@condition poisoned}. A creature {@condition poisoned} by this attack has its movement speed halved and repeats its save at the end of each of its turns, ending the condition on a success.",
                         "If the poison damage from this attack reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 },
@@ -5616,7 +5616,7 @@
                     ]
                 },
                 {
-                    "name": "Web {@recharge 5} [[1d6]]",
+                    "name": "Web {@recharge 5}",
                     "entries":
                     [
                         "{@atk rw} {@hit 5} to hit, range 30/60 ft., one creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 12} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
@@ -5754,7 +5754,7 @@
                     "name": "Bite",
                     "entries":
                     [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking [[{@damage 1d6}]] poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking {@damage 1d6} poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 }
             ],
@@ -5898,7 +5898,7 @@
                     "entries":
                     [
                         "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage.",
-                        "The target takes [[{@damage 3d6}]] poison damage an becomes poisoned until the end of its next turn on a failed {@dc 13} Constitution save."
+                        "The target takes {@damage 3d6} poison damage an becomes poisoned until the end of its next turn on a failed {@dc 13} Constitution save."
                     ]
                 },
                 {
@@ -6065,7 +6065,7 @@
                     "entries":
                     [
                         "{@atk rw} {@hit 5} to hit, reach 20/40 ft., one creature. {@h}6 ({@damage 1d6 + 3}) acid damage.",
-                        "The target takes [[{@damage 3d6}]] poison damage an becomes {@condition paralyzed} for 1 minute on a failed {@dc 13} Constitution save. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                        "The target takes {@damage 3d6} poison damage an becomes {@condition paralyzed} for 1 minute on a failed {@dc 13} Constitution save. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
                     ]
                 },
                 {
@@ -6205,7 +6205,7 @@
                     "name": "Dreadful Anticipation",
                     "entries":
                     [
-                        "Glasseye makes an attack every 2 turns but the anticipation and thrill are unbearable. Each creature that can see Glasseye must succeed on a {@dc 16} Charisma saving throw. On a failed save, a target takes [[{@damage 3d6}]] psychic damage, or half as much damage on a successful one."
+                        "Glasseye makes an attack every 2 turns but the anticipation and thrill are unbearable. Each creature that can see Glasseye must succeed on a {@dc 16} Charisma saving throw. On a failed save, a target takes {@damage 3d6} psychic damage, or half as much damage on a successful one."
                     ]
                 },
                 {
@@ -6550,7 +6550,7 @@
                     "name": "Poisonous Tendrils",
                     "entries":
                     [
-                        "The halocline shrimp has poison tendrils that carry a neurotoxin. A creature that touches the shrimp or that hits it with a melee attack while within 5 feet of it must make a DC 15 Constitution saving throw. On a failure, the creature takes [[{@damage 1d6}]] poison damage and is poisoned until the end of its next turn."
+                        "The halocline shrimp has poison tendrils that carry a neurotoxin. A creature that touches the shrimp or that hits it with a melee attack while within 5 feet of it must make a DC 15 Constitution saving throw. On a failure, the creature takes {@damage 1d6} poison damage and is poisoned until the end of its next turn."
                     ]
                 }
             ],
@@ -6560,7 +6560,7 @@
                     "name": "Thunder Claw",
                     "entries":
                     [
-                        "The halocline shrimp makes a claw attack and a 30-foot cone blast travels. Each creature in that area must make a {@dc 15} Constitution saving throw, taking [[{@damage 2d8 + 5}]] bludgeoning damage on a failed save, or half as much damage on a successful one."
+                        "The halocline shrimp makes a claw attack and a 30-foot cone blast travels. Each creature in that area must make a {@dc 15} Constitution saving throw, taking {@damage 2d8 + 5} bludgeoning damage on a failed save, or half as much damage on a successful one."
                     ]
                 },
                 {
@@ -6672,7 +6672,7 @@
                     "name": "Clench",
                     "entries":
                     [
-                        "The abyssal grappler clenches onto the target's face. The target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the abyssal grappler can't use its clench on another target. While grappled in this way, the abyssal grappler injects its acid to liquefy the target's insides and the target takes [[{@damage 5d6}]] acid damage at the start of each of its turns. Attempting to remove the abyssal grappler, agitates it to release more acid."
+                        "The abyssal grappler clenches onto the target's face. The target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the abyssal grappler can't use its clench on another target. While grappled in this way, the abyssal grappler injects its acid to liquefy the target's insides and the target takes {@damage 5d6} acid damage at the start of each of its turns. Attempting to remove the abyssal grappler, agitates it to release more acid."
                     ]
                 }
             ],
@@ -6787,14 +6787,14 @@
                     "name": "Volcanic Rock",
                     "entries":
                     [
-                        "The dragon leviathan spits lava that solidifies into a spherical rock with molten core. Upon impact it shatters. Each creature within 10 feet of impact point must make a {@dc 13} Dexterity saving throw, taking [[{@damage 6d8}]] fire damage on a failed save, or half as much damage on a successful one."
+                        "The dragon leviathan spits lava that solidifies into a spherical rock with molten core. Upon impact it shatters. Each creature within 10 feet of impact point must make a {@dc 13} Dexterity saving throw, taking {@damage 6d8} fire damage on a failed save, or half as much damage on a successful one."
                     ]
                 },
                 {
                     "name": "Swallow",
                     "entries":
                     [
-                        "The dragon leviathan makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the sea dragon, and it takes [[{@damage 6d6}]] acid damage at the start of each of the dragon leviathan's turns.",
+                        "The dragon leviathan makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the sea dragon, and it takes {@damage 6d6} acid damage at the start of each of the dragon leviathan's turns.",
                         "If the dragon leviathan takes 30 damage or more on a single turn from a creature inside it, the dragon leviathan must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the dragon leviathan. If the dragon leviathan dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 feet of movement, exiting prone."
                     ]
                 }
@@ -7550,7 +7550,7 @@
                     "name": "Honey Bomb (1/Day)",
                     "entries":
                     [
-                        "The beekeeper hurls a magical honeycomb at a point it can see within 120 feet of it. The honeycomb explodes on impact, releasing a swarm of bees. Each creature in a 20-foot-radius sphere around corners. A creature takes [[{@damage 10d6}]] magical piercing damage on a failed save, or half as much damage on a successful one. The swarm of bees remains once released and attacks any creature hostile to the fey beekeeper."
+                        "The beekeeper hurls a magical honeycomb at a point it can see within 120 feet of it. The honeycomb explodes on impact, releasing a swarm of bees. Each creature in a 20-foot-radius sphere around corners. A creature takes {@damage 10d6} magical piercing damage on a failed save, or half as much damage on a successful one. The swarm of bees remains once released and attacks any creature hostile to the fey beekeeper."
                     ]
                 }
             ],
@@ -7799,7 +7799,7 @@
                     "name": "Charge",
                     "entries":
                     [
-                        "If the bison moves at least 20 ft. straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra {[[2d10]]} bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked prone."
+                        "If the bison moves at least 20 ft. straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra {@damage 2d10} bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked prone."
                     ]
                 },
                 {
@@ -7829,7 +7829,7 @@
                     "name": "Tremor",
                     "entries":
                     [
-                        "The bison jumps and sends a wave of tremor in a 20-foot radius sphere. On a failed {@dc 17} Dexterity saving throw, creatures take [[{@damage 6d6}]] bludgeoning damage and be knocked {@condition prone}. On a success, creatures only take half the damage."
+                        "The bison jumps and sends a wave of tremor in a 20-foot radius sphere. On a failed {@dc 17} Dexterity saving throw, creatures take {@damage 6d6} bludgeoning damage and be knocked {@condition prone}. On a success, creatures only take half the damage."
                     ]
                 }
             ],
@@ -8135,7 +8135,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for {@damage 5d10} force damage"
                     ]
                 }
             ],
@@ -8279,7 +8279,7 @@
                     "name": "Storm of Midnight",
                     "entries":
                     [
-                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take [[{@damage 6d10}]] lightning damage. On a success, creatures take half as much damage."
+                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take {@damage 6d10} lightning damage. On a success, creatures take half as much damage."
                     ]
                 }
             ],
@@ -8319,7 +8319,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for [[{@damage 10d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for {@damage 10d10} force damage"
                     ]
                 }
             ],
@@ -8518,7 +8518,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 16} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for {@damage 5d10} force damage"
                     ]
                 }
             ],
@@ -8709,7 +8709,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 15} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for {@damage 5d10} force damage"
                     ]
                 }
             ],
@@ -8901,7 +8901,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 10d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for {@damage 10d10} force damage"
                     ]
                 }
             ],
@@ -9042,7 +9042,7 @@
                     "name": "Storm of Midnight",
                     "entries":
                     [
-                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take [[{@damage 8d10}]] lightning damage. On a success, creatures take half as much damage."
+                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take {@damage 8d10} lightning damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
@@ -9053,10 +9053,10 @@
                     ]
                 },
                 {
-                    "name": "Fury Blast {@recharge 5} [[1d6]]",
+                    "name": "Fury Blast {@recharge 5}",
                     "entries":
                     [
-                        "The dread rises 5 feet up in the air and releases a spherical shock wave blast. Creatures within 30 feet must make a Constitution saving throw. On a fail creatures take [[{@damage 8d10}]] thunder damage. On a success, creatures take half as much damage."
+                        "The dread rises 5 feet up in the air and releases a spherical shock wave blast. Creatures within 30 feet must make a Constitution saving throw. On a fail creatures take {@damage 8d10} thunder damage. On a success, creatures take half as much damage."
                     ]
                 }
             ],
@@ -9096,7 +9096,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for [[{@damage 10d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for {@damage 10d10} force damage"
                     ]
                 }
             ],
@@ -9308,7 +9308,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 18} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for {@damage 5d10} force damage"
                     ]
                 }
             ],
@@ -9515,7 +9515,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 17} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for {@damage 5d10} force damage"
                     ]
                 }
             ],
@@ -9665,10 +9665,10 @@
                     ]
                 },
                 {
-                    "name": "Hatred Incarnate {@recharge 5} [[1d6]]",
+                    "name": "Hatred Incarnate {@recharge 5}",
                     "entries":
                     [
-                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take [[{@damage 6d6}]] psychic damage. On a success, creatures take half as much damage."
+                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take {@damage 6d6} psychic damage. On a success, creatures take half as much damage."
                     ]
                 }
             ],
@@ -9715,7 +9715,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 20} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for {@damage 5d10} force damage"
                     ]
                 }
             ],
@@ -9860,7 +9860,7 @@
                     "name": "Storm of Midnight",
                     "entries":
                     [
-                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take [[{@damage 6d10}]] lightning damage. On a success, creatures take half as much damage."
+                        "Streaks of blue lightning discharge from the dread's hand in a 30-foot cone to inflict severe pain. Creatures inside the area must make a Dexterity saving throw. On a fail creatures take {@damage 6d10} lightning damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
@@ -9871,17 +9871,17 @@
                     ]
                 },
                 {
-                    "name": "Fury Blast {@recharge 5} [[1d6]]",
+                    "name": "Fury Blast {@recharge 5}",
                     "entries":
                     [
-                        "The dread rises 5 feet up in the air and releases a spherical shock wave blast. Creatures within 30 feet must make a Constitution saving throw. On a fail creatures take [[{@damage 8d10}]] thunder damage. On a success, creatures take half as much damage."
+                        "The dread rises 5 feet up in the air and releases a spherical shock wave blast. Creatures within 30 feet must make a Constitution saving throw. On a fail creatures take {@damage 8d10} thunder damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
-                    "name": "Hatred Incarnate {@recharge 5} [[1d6]]",
+                    "name": "Hatred Incarnate {@recharge 5}",
                     "entries":
                     [
-                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take [[{@damage 6d6}]] psychic damage. On a success, creatures take half as much damage."
+                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take {@damage 6d6} psychic damage. On a success, creatures take half as much damage."
                     ]
                 }
             ],
@@ -9921,7 +9921,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 22} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for [[{@damage 10d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 30 feet or crush the target for {@damage 10d10} force damage"
                     ]
                 }
             ],
@@ -10091,10 +10091,10 @@
                     ]
                 },
                 {
-                    "name": "Hatred Incarnate {@recharge 5} [[1d6]]",
+                    "name": "Hatred Incarnate {@recharge 5}",
                     "entries":
                     [
-                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take [[{@damage 6d6}]] psychic damage. On a success, creatures take half as much damage."
+                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take {@damage 6d6} psychic damage. On a success, creatures take half as much damage."
                     ]
                 }
             ],
@@ -10141,7 +10141,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 20} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for {@damage 5d10} force damage"
                     ]
                 }
             ],
@@ -10304,10 +10304,10 @@
                     ]
                 },
                 {
-                    "name": "Hatred Incarnate {@recharge 5} [[1d6]]",
+                    "name": "Hatred Incarnate {@recharge 5}",
                     "entries":
                     [
-                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take [[{@damage 6d6}]] psychic damage. On a success, creatures take half as much damage."
+                        "The dread unchains its fury, extending it to its enemies around. Each creature 30 feet close to the dread must make a Wisdom saving throw. On a failed save, creatures take {@damage 6d6} psychic damage. On a success, creatures take half as much damage."
                     ]
                 }
             ],
@@ -10354,7 +10354,7 @@
                     [
                         "The dread attempts to grasp a creature within 60 feet and hold it captive. The target must succeed on a {@dc 19} Strength saving throw or be {@condition grappled} until the dread's concentration ends or until the target leaves the dread's reach.",
                         "The {@condition grappled} target can escape by succeeding on a Strength (Athletics) or Dexterity (Acrobatics) check.",
-                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for [[{@damage 5d10}]] force damage"
+                        "While a target is {@condition grappled} in this manner, the dread can take an action to move the target 20 feet or crush the target for {@damage 5d10} force damage"
                     ]
                 }
             ],
@@ -10508,7 +10508,7 @@
                     "name": "Fire in the hole!",
                     "entries":
                     [
-                        "The arcane gunslinger throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take [[{@dice 3d6}]] fire damage."
+                        "The arcane gunslinger throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take {@dice 3d6} fire damage."
                     ]
                 }
             ],
@@ -10907,7 +10907,7 @@
                     "name": "Death Burst",
                     "entries":
                     [
-                        "When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it must make a {@dc 14} Dexterity saving throw, taking [[{@damage 2d8}]] slashing damage on a failed save, or half as much damage on a successful one.."
+                        "When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it must make a {@dc 14} Dexterity saving throw, taking {@damage 2d8} slashing damage on a failed save, or half as much damage on a successful one.."
                     ]
                 },
                 {
@@ -10938,7 +10938,7 @@
                     "name": "Frost Breath {@recharge 5}",
                     "entries":
                     [
-                        "The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw, taking [[{@damage 3d4}]] cold damage on a failed save, or half as much damage on a successful one."
+                        "The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw, taking {@damage 3d4} cold damage on a failed save, or half as much damage on a successful one."
                     ]
                 }
             ],
@@ -11078,7 +11078,7 @@
                     "name": "Death Burst",
                     "entries":
                     [
-                        "When the mephit dies, it explodes in a burst of lava. Each creature within 5 feet of it must make a {@dc 14} Dexterity saving throw, taking [[{@damage 2d8}]] fire damage on a failed save, or half as much damage on a successful one."
+                        "When the mephit dies, it explodes in a burst of lava. Each creature within 5 feet of it must make a {@dc 14} Dexterity saving throw, taking {@damage 2d8} fire damage on a failed save, or half as much damage on a successful one."
                     ]
                 },
                 {
@@ -11109,7 +11109,7 @@
                     "name": "Fire Breath {@recharge}",
                     "entries":
                     [
-                        "The mephit exhales a 15-foot cone of fire. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking [[{@damage 3d4}]] fire damage on a failed save, or half as much damage on a successful one."
+                        "The mephit exhales a 15-foot cone of fire. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking {@damage 3d4} fire damage on a failed save, or half as much damage on a successful one."
                     ]
                 }
             ],
@@ -11579,7 +11579,7 @@
                     "name": "Death Burst",
                     "entries":
                     [
-                        "When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a {@dc 14} Dexterity saving throw or take [[{@damage 2d8}]] fire damage."
+                        "When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a {@dc 14} Dexterity saving throw or take {@damage 2d8} fire damage."
                     ]
                 }
             ],
@@ -11603,7 +11603,7 @@
                     "name": "Steam Breath {@recharge 5}",
                     "entries":
                     [
-                        "The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw, taking [[{@damage 3d4})]] fire damage on a failed save, or half as much damage on a successful one."
+                        "The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw, taking {@damage 3d4}) fire damage on a failed save, or half as much damage on a successful one."
                     ]
                 }
             ],
@@ -11930,7 +11930,7 @@
                     "entries":
                     [
                         "The aquatic vampire has the following flaws:",
-                        "{@i Forbiddance.} The aquatic vampire can't enter a residence without an invitation from one of the occupants.",
+                        "{@i Forbiddance.} The aquatic vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
                         "{@i Harmed by Running Water.} The aquatic vampire takes 20 acid damage if it ends its turn in running water.",
                         "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the aquatic vampire's heart while the aquatic vampire is {@condition incapacitated} in its resting place, the aquatic vampire is {@condition paralyzed} until the stake is removed.",
                         "{@i Sunlight Hypersensitivity.} The aquatic vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
@@ -12010,7 +12010,7 @@
                         "type": "list",
                         "items":
                         [
-                            "[[1d2]] orcs come rushing to aid the orc from up to 60 feet close to the orc."
+                            "{@dice 1d2} orcs come rushing to aid the orc from up to 60 feet close to the orc."
                         ]
                     }
                 ],
@@ -12169,7 +12169,7 @@
                     "entries":
                     [
                         "The vampire has the following flaws:",
-                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants.",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
                         "{@i Harmed by Running Water.} The vampire takes 20 acid damage when it ends its turn in running water.",
                         "{@i Stake to the Heart.} The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place.",
                         "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
@@ -12484,7 +12484,7 @@
                     "name": "Recharge",
                     "entries":
                     [
-                        "The healerbee has 8 charges and regains [[{@dice 1d6+2}]] expended charges daily at dawn."
+                        "The healerbee has 8 charges and regains {@dice 1d6+2} expended charges daily at dawn."
                     ]
                 }
             ],
@@ -12803,30 +12803,8 @@
             }
         },
         {
-            "name": "Giant Shark",
-            "source": "MM",
-            "page": 328,
-            "srd": true,
-            "otherSources": [
-                {
-                    "source": "SKT"
-                },
-                {
-                    "source": "ToA"
-                },
-                {
-                    "source": "GoS"
-                },
-                {
-                    "source": "DIP"
-                },
-                {
-                    "source": "SDW"
-                },
-                {
-                    "source": "LR"
-                }
-            ],
+            "name": "Megalodon",
+            "source": "Canbrew",
             "size": "H",
             "type": "beast",
             "alignment":
@@ -12912,6 +12890,2602 @@
             [
                 "MW"
             ]
+        },
+        {
+            "name": "Vampire Count Template",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 144,
+                "formula": "17d8 + 68"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 18,
+            "int": 17,
+            "wis": 15,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+9",
+                "wis": "+7",
+                "cha": "+9"
+            },
+            "skill":
+            {
+                "perception": "+7",
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+                        "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries":
+                    [
+                        "The vampire makes one unarmed strike."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire",
+                "source": "MM"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Vampire Baron Template",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 144,
+                "formula": "17d8 + 68"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 18,
+            "int": 17,
+            "wis": 15,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+9",
+                "wis": "+7",
+                "cha": "+9"
+            },
+            "skill":
+            {
+                "perception": "+7",
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+                        "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries":
+                    [
+                        "The vampire makes one unarmed strike."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire",
+                "source": "MM"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Vampire Lord Template",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 144,
+                "formula": "17d8 + 68"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 18,
+            "int": 17,
+            "wis": 15,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+9",
+                "wis": "+7",
+                "cha": "+9"
+            },
+            "skill":
+            {
+                "perception": "+7",
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+                        "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries":
+                    [
+                        "The vampire makes one unarmed strike."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire",
+                "source": "MM"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Lady Meressie Wylop",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 144,
+                "formula": "17d8 + 68"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 18,
+            "int": 17,
+            "wis": 22,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+9",
+                "wis": "+7",
+                "cha": "+9"
+            },
+            "skill":
+            {
+                "insight":"+9",
+                "perception": "+7",
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "15",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+                        "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                    ]
+                },
+                {
+                    "name": "Glaive",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The vampire has the following wizard spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell comprehend languages}",
+                                "{@spell fog cloud}",
+                                "{@spell sleep}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell detect thoughts}",
+                                "{@spell gust of wind}",
+                                "{@spell mirror image}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell animate dead}",
+                                "{@spell bestow curse}",
+                                "{@spell nondetection}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell blight}",
+                                "{@spell greater invisibility}"
+                            ]
+                        },
+                        "5":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell dominate person}"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries":
+                    [
+                        "The vampire makes one unarmed strike."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire",
+                "source": "MM"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "spellcastingTags": [
+                "CC"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Vampire Master Template",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 144,
+                "formula": "17d8 + 68"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 18,
+            "int": 17,
+            "wis": 15,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+9",
+                "wis": "+7",
+                "cha": "+9"
+            },
+            "skill":
+            {
+                "perception": "+7",
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+                        "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries":
+                    [
+                        "The vampire makes one unarmed strike."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire",
+                "source": "MM"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Vampire Sir Template",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 144,
+                "formula": "17d8 + 68"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 18,
+            "int": 17,
+            "wis": 15,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+9",
+                "wis": "+7",
+                "cha": "+9"
+            },
+            "skill":
+            {
+                "perception": "+7",
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+                        "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries":
+                    [
+                        "The vampire makes one unarmed strike."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire",
+                "source": "MM"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Vampire Template",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 144,
+                "formula": "17d8 + 68"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 18,
+            "int": 17,
+            "wis": 15,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+9",
+                "wis": "+7",
+                "cha": "+9"
+            },
+            "skill":
+            {
+                "perception": "+7",
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+                        "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries":
+                    [
+                        "The vampire makes one unarmed strike."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire",
+                "source": "MM"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Heathen",
+            "source": "Canbrew",
+            "size": "M",
+            "type": "undead",
+            "alignment":
+            [
+                "C",
+                "E"
+            ],
+            "ac":
+            [
+                15
+            ],
+            "hp":
+            {
+                "average": 90,
+                "formula": "12d8+36"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 20,
+            "con": 16,
+            "int": 9,
+            "wis": 7,
+            "cha": 12,
+            "save":
+            {
+                "dex": "+9",
+                "str": "+9",
+                "wis": "+2"
+            },
+            "skill":
+            {
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Blood Frenzy",
+                    "entries":
+                    [
+                        "The vampire has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage when it ends its turn in running water.",
+                        "{@i Stake to the Heart.} The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The vampire makes four attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d4 + 5}) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underdark",
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire-spawn.mp3"
+            },
+            "traitTags":
+            [
+                "Regeneration",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "N",
+                "P",
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ]
+        },
+        {
+            "name": "Night Sycthe Blood Hunter",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "{@item half plate armor|PHB|half plate}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 65,
+                "formula": "10d8 + 20"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 15,
+            "int": 9,
+            "wis": 16,
+            "cha": 11,
+            "save":
+            {
+                "str": "+7",
+                "wis": "+6"
+            },
+            "skill":
+            {
+                "acrobatics": "+4",
+                "insight": "+6",
+                "perception": "+6"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "languages":
+            [
+                "any one language (usually Common)"
+            ],
+            "cr": "5",
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting (1/Day)",
+                    "headerEntries":
+                    [
+                        "The night scythe can innately cast {@spell hex}. Its innate spellcasting ability is Intelligence."
+                    ],
+                    "ability": "int",
+                    "will":
+                    [
+                        "{@spell hex}"
+                    ],
+                    "hidden":
+                    [
+                        "will"
+                    ],
+                    "type": "spellcasting"
+                }
+            ],
+            "trait":
+            [
+                {
+                    "name": "Blood Curse of Binding (1/Day)",
+                    "entries":
+                    [
+                        "As a bonus action, the night scythe targets one creature it has wounded within 30 feet of it. The target must succeed on a {@dc 14} Strength saving throw or have its speed reduced to 0 and be unable to take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Blood Frenzy",
+                    "entries":
+                    [
+                        "The night scythe has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries":
+                    [
+                        "The night scythe has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Nightshade Blood",
+                    "entries":
+                    [
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful DC 20 Constitution saving throw."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The night scythe makes two attacks with a weapon."
+                    ]
+                },
+                {
+                    "name": "Greatsword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 3 ({@damage 1d6}) fire damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                    ]
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.."
+                    ]
+                }
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Magic Resistance",
+                "Nightshade Blood"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "C",
+                "X"
+            ],
+            "damageTags":
+            [
+                "F",
+                "P",
+                "S",
+                "I"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RNG",
+                "RW"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Night Sycthe Eviscerator",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "{@item studded leather armor|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 65,
+                "formula": "10d8 + 20"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 12,
+            "wis": 12,
+            "cha": 10,
+            "save":
+            {
+                "dex": "+7",
+                "str": "+4"
+            },
+            "skill":
+            {
+                "acrobatics": "+7"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "languages":
+            [
+                "any one language (usually Common)"
+            ],
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Nightshade Blood",
+                    "entries":
+                    [
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful DC 20 Constitution saving throw."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The night scythe makes three attacks with its shortsword."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                    ]
+                }
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Nightshade Blood"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "C",
+                "X"
+            ],
+            "damageTags":
+            [
+                "P",
+                "I"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Night Sycthe Falcon",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "{@item studded leather armor|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 65,
+                "formula": "10d8 + 20"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 20,
+            "con": 14,
+            "int": 12,
+            "wis": 12,
+            "cha": 10,
+            "save":
+            {
+                "dex": "+8",
+                "str": "+4"
+            },
+            "skill":
+            {
+                "acrobatics": "+8",
+                "perception": "+4"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "languages":
+            [
+                "any one language (usually Common)"
+            ],
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Nightshade Blood",
+                    "entries":
+                    [
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful DC 20 Constitution saving throw."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The night scythe makes two attacks with its longbow."
+                    ]
+                },
+                {
+                    "name": "Longbow",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                    ]
+                }
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Nightshade Blood"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "C",
+                "X"
+            ],
+            "damageTags":
+            [
+                "P",
+                "I"
+            ],
+            "miscTags":
+            [
+                "RW",
+                "RNG"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Scarlet Sentinel Soldier",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item half plate armor|PHB}, {@item shield|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 65,
+                "formula": "10d8 + 20"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 10,
+            "con": 14,
+            "int": 10,
+            "wis": 10,
+            "cha": 10,
+            "save":
+            {
+                "con": "+5",
+                "str": "+6"
+            },
+            "skill":
+            {
+                "athletics": "+7"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "languages":
+            [
+                "any one language (usually Common)"
+            ],
+            "cr": "5",
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The scarlet sentinel makes two attacks with its longsword."
+                    ]
+                },
+                {
+                    "name": "Longsword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                    ]
+                }
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Nightshade Blood"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "C",
+                "X"
+            ],
+            "damageTags":
+            [
+                "P",
+                "I"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
         }
     ]
 }
