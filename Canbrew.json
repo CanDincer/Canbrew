@@ -17191,12 +17191,12 @@
                     [
                         "The vampire magically calls {@dice 4d4} swarms of {@creature swarm of bats||bats}, provided that the sun isn't up. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
                     ]
-                }
+                },
                 {
                     "name": "Sentinels of the Pharaoh",
                     "entries":
                     [
-                        "The vampire magically calls {@dice 4d4} swarms of {@creature jackal|CB||jackals}. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                        "The vampire summons {@dice 10d4} {@creature jackal|CB||jackals} from sand. The called creatures arrive immediately, acting as allies of the vampire and obeying its spoken commands. The creatures remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
                     ]
                 }
             ],
