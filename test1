@@ -1,0 +1,21 @@
+{
+    "_meta":
+    {
+        "sources":
+        [
+            {
+                "json": "Canbrew",
+                "abbreviation": "CB",
+                "full": "Canbrew",
+                "authors":
+                [
+                    "Can Dinçer"
+                ],
+                "version": "2020.07.16",
+                "url": "https://github.com/CanDincer/Canbrew",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 0
+    }
+}
