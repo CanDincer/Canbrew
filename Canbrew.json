@@ -17230,7 +17230,7 @@
                             [
                                 "{@spell detect thoughts}",
                                 "{@spell invisibility}",
-                                "{@spell Melf's acid arrow}",
+                                "{@spell Enhance Ability|PHB}",
                                 "{@spell mirror image}"
                             ]
                         },
@@ -17890,7 +17890,7 @@
                     "name": "Sentinels of the Pharaoh",
                     "entries":
                     [
-                        "The vampire summons {@dice 10d4} {@creature jackal|CB||jackals} from sand. The called creatures arrive immediately, acting as allies of the vampire and obeying its spoken commands. The creatures remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                        "The vampire summons {@dice 10d4} {@creature jackal|Canbrew|jackals} from sand. The called creatures arrive immediately, acting as allies of the vampire and obeying its spoken commands. The creatures remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
                     ]
                 }
             ],"spellcasting":
