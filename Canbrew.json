@@ -17413,10 +17413,10 @@
             "ac":
             [
                 {
-                    "ac": 18,
+                    "ac": 19,
                     "from":
                     [
-                        "{@item half plate armor|PHB}, {@item shield|PHB}"
+                        "{@item half plate armor|PHB}"
                     ]
                 }
             ],
