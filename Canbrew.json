@@ -17007,7 +17007,7 @@
             [
                 "charmed"
             ],
-            "tokenUrl": "https://i.imgur.com/lRXvr6S.png",
+            "tokenUrl": "ogd",
             "fluff":
             {
                 "images":
@@ -17017,7 +17017,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "https://i.imgur.com/B1TDGaD.jpg"
+                            "url": "ogd"
                         }
                     }
                 ]
@@ -17701,7 +17701,7 @@
             [
                 "charmed"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "https://i.imgur.com/lRXvr6S.png",
             "fluff":
             {
                 "images":
@@ -17711,7 +17711,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "https://i.imgur.com/B1TDGaD.jpg"
                         }
                     }
                 ]
