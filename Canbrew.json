@@ -20554,8 +20554,8 @@
             ],
             "hp":
             {
-                "average": 90,
-                "formula": "12d8+36"
+                "average": 253,
+                "formula": "22d12+110"
             },
             "speed":
             {
@@ -20570,19 +20570,19 @@
             "cha": 12,
             "save":
             {
-                "dex": "+9",
-                "str": "+9",
-                "wis": "+2"
+                "dex": "+8",
+                "str": "+13",
+                "wis": "+9"
             },
             "skill":
             {
-                "stealth": "+9"
+                "stealth": "+8"
             },
             "senses":
             [
                 "darkvision 60 ft."
             ],
-            "passive": 8,
+            "passive": 13,
             "resist":
             [
                 "necrotic",
@@ -20604,15 +20604,15 @@
             [
                 "the languages it knew in life"
             ],
-            "cr": "9",
+            "cr": "20",
             "trait":
             [
                 {
                     "name": "Wailing Aura",
                     "entries":
                     [
-                        "The vampire's hunger and agony becomes louder away from it.",
-                        "At the start of each of the vampire's turns, each creature not within 5 feet of it takes 14 ({@damage 4d6}) psychic damage."
+                        "The vampire's hunger and agony echoes louder away from it.",
+                        "At the start of each of the vampire's turns, each creature of the vampire's choice that is not within 5 feet of it (up to 300 feet) takes 21 ({@damage 6d6}) psychic damage and must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to being {@condition frightened}from the vampire for the next 24 hours"
                     ]
                 },
                 {
@@ -20667,14 +20667,14 @@
                     "name": "Bite",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one creature. {@h}39 ({@damage 5d12 + 7}) slashing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 20} Dexterity saving throw or it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}, and the vampire can't bite another target."
+                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}39 ({@damage 5d12 + 7}) slashing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 21} Dexterity saving throw or it is {@condition grappled} (escape {@dc 21}). Until this grapple ends, the target is {@condition restrained}, and the vampire can't bite another target."
                     ]
                 },
                 {
                     "name": "Claws",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one creature. {@h}25 ({@damage 4d8 + 7}) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 20})."
+                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}25 ({@damage 4d8 + 7}) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 21})."
                     ]
                 },
                 {
@@ -20689,11 +20689,11 @@
                     "name": "Tail",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one creature. {@h}25 ({@damage 4d8 + 7}) bludgeoning damage."
+                        "{@atk mw} {@hit 13} to hit, reach 10 ft., one creature. {@h}25 ({@damage 4d8 + 7}) bludgeoning damage."
                     ]
                 }
             ],
-            "legendaryActions": 3,
+            "legendaryActions": 2,
             "legendary":
             [
                 {
@@ -20727,7 +20727,8 @@
             "traitTags":
             [
                 "Regeneration",
-                "Spider Climb"
+                "Spider Climb",
+                "Magic Resistance"
             ],
             "senseTags":
             [
