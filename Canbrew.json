@@ -20453,7 +20453,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The vampire makes four attacks, only one of which can be a bite attack."
+                        "The vampire makes two attacks, only one of which can be a bite attack."
                     ]
                 },
                 {
@@ -20468,6 +20468,24 @@
                     "entries":
                     [
                         "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d4 + 5}) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The vampire makes one attack."
                     ]
                 }
             ],
@@ -20515,6 +20533,235 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/vFSYUyP.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Flesh Wailer",
+            "source": "Canbrew",
+            "size": "H",
+            "type": "undead",
+            "alignment":
+            [
+                "C",
+                "E"
+            ],
+            "ac":
+            [
+                12
+            ],
+            "hp":
+            {
+                "average": 90,
+                "formula": "12d8+36"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 24,
+            "dex": 14,
+            "con": 20,
+            "int": 5,
+            "wis": 16,
+            "cha": 12,
+            "save":
+            {
+                "dex": "+9",
+                "str": "+9",
+                "wis": "+2"
+            },
+            "skill":
+            {
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Wailing Aura",
+                    "entries":
+                    [
+                        "The vampire's hunger and agony becomes louder away from it.",
+                        "At the start of each of the vampire's turns, each creature not within 5 feet of it takes 14 ({@damage 4d6}) psychic damage."
+                    ]
+                },
+                {
+                    "name": "Death Throes",
+                    "entries":
+                    [
+                        "When the vampire dies, it explodes, and each creature within 30 feet of it must make a {@dc 20} Dexterity saving throw, taking 70 ({@damage 20d6}) necrotic damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the balor's weapons."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries":
+                    [
+                        "The balor has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 30 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage when it ends its turn in running water.",
+                        "{@i Stake to the Heart.} The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one creature. {@h}39 ({@damage 5d12 + 7}) slashing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 20} Dexterity saving throw or it is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}, and the vampire can't bite another target."
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one creature. {@h}25 ({@damage 4d8 + 7}) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 20})."
+                    ]
+                },
+                {
+                    "name": "Swallow",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the vampire, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the vampire's turns.",
+                        "If the vampire takes 50 damage or more on a single turn from a creature inside it, it must succeed on a {@dc 18} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of it. If the vampire dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one creature. {@h}25 ({@damage 4d8 + 7}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The vampire makes one attack."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underdark",
+                "urban"
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Regeneration",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "N",
+                "P",
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/qtmtgNk.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/49dzrqC.jpg"
                         }
                     }
                 ]
