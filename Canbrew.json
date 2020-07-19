@@ -16769,7 +16769,7 @@
             ]
         },
         {
-            "name": "Vampire Count Template",
+            "name": "Vampire Count",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -18097,7 +18097,7 @@
             }
         },
         {
-            "name": "Vampire Baron Template",
+            "name": "Vampire Baron",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -18352,7 +18352,7 @@
             }
         },
         {
-            "name": "Vampire Lord Template",
+            "name": "Vampire Lord",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -19018,7 +19018,7 @@
             }
         },
         {
-            "name": "Vampire Master Template",
+            "name": "Vampire Master",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -19586,7 +19586,7 @@
             }
         },
         {
-            "name": "Vampire Sir Template",
+            "name": "Vampire Sir",
             "source": "Canbrew",
             "size": "M",
             "type":
