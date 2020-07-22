@@ -1058,10 +1058,6 @@
             "dmg1": "1d4",
             "dmgType": "P",
             "reqAttune": true,
-            "attachedSpells":
-            [
-                "Haste"
-            ],
             "property":
             [
                 "F",
@@ -2999,6 +2995,22 @@
             ]
         },
         {
+            "name": "Hemoeus Injector",
+            "rarity": "Legendary",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "attachedSpells":
+            [
+                "Haste"
+            ],
+            "entries":
+            [
+                "Concentrated human blood in an inject-ready syringe.",
+                "If you are a vampire, injection of one of these increases your blood pool by two points, heals you for 4d4+4, and grants you the effects of the {@spell haste|PHB} spell for 1 minute."
+            ]
+        },
+        {
             "name": "Potion of Hydrate Person",
             "type": "P",
             "weight": 0.5,
@@ -3059,7 +3071,7 @@
             ]
         },
         {
-            "name": "Potion of Sight",
+            "name": "Potion of Low-light Vision",
             "rarity": "Common",
             "type": "P",
             "weight": 0.5,
