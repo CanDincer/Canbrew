@@ -19531,6 +19531,137 @@
             }
         },
         {
+            "name": "Niva",
+            "source": "Canbrew",
+            "size": "L",
+            "type": "undead",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac":
+            [
+                15
+            ],
+            "hp":
+            {
+                "average": 298,
+                "formula": "35d10+105"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "swim": 30
+            },
+            "str": 19,
+            "dex": 16,
+            "con": 16,
+            "int": 3,
+            "wis": 15,
+            "cha": 6,
+            "senses":
+            [
+                "blindsight 10 ft.",
+                "darkvision 60 ft."
+            ],
+            "save":
+            {
+                "dex": "+8",
+                "wis": "+7"
+            },
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "skill":
+            {
+                "perception": "+7",
+                "stealth": "+8",
+                "survival": "+7"
+            },
+            "passive": 17,
+            "cr": "13",
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The snake makes three attacks."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Constrict",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d8 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the creature is {@condition restrained}, and the snake can't constrict another target."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "desert",
+                "forest",
+                "swamp",
+                "underwater"
+            ],
+            "hasToken": true,
+            "senseTags":
+            [
+                "B",
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "grappled",
+                "restrained"
+            ],
+            "tokenUrl": "https://i.imgur.com/DsuhYDy.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/DsuhYDy.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "name": "Balih",
             "source": "Canbrew",
             "size": "M",
