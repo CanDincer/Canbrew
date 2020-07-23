@@ -16043,7 +16043,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -16889,7 +16889,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 80 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 80 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -17144,7 +17144,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 80 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 80 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -17514,7 +17514,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 80 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 80 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -17838,7 +17838,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 80 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 80 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -18217,7 +18217,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 40 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 40 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -18472,7 +18472,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 40 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 40 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -18727,7 +18727,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 40 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 40 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -18999,8 +18999,8 @@
             },
             "skill":
             {
-                "perception": "+12",
-                "stealth": "+14"
+                "perception": "+7",
+                "stealth": "+9"
             },
             "senses":
             [
@@ -19058,7 +19058,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -19117,78 +19117,6 @@
                     [
                         "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats}, provided that the sun isn't up. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
                     ]
-                }
-            ],
-            "spellcasting":
-            [
-                {
-                    "name": "Spellcasting",
-                    "headerEntries":
-                    [
-                        "The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). It has the following wizard spells prepared:"
-                    ],
-                    "spells":
-                    {
-                        "0":
-                        {
-                            "spells": [
-                                "{@spell mage hand}",
-                                "{@spell prestidigitation}",
-                                "{@spell ray of frost}"
-                            ]
-                        },
-                        "1":
-                        {
-                            "slots": 4,
-                            "spells":
-                            [
-                                "{@spell comprehend languages}",
-                                "{@spell fog cloud}",
-                                "{@spell sleep}"
-                            ]
-                        },
-                        "2":
-                        {
-                            "slots": 3,
-                            "spells":
-                            [
-                                "{@spell detect thoughts}",
-                                "{@spell gust of wind}",
-                                "{@spell mirror image}"
-                            ]
-                        },
-                        "3":
-                        {
-                            "slots": 3,
-                            "spells":
-                            [
-                                "{@spell animate dead}",
-                                "{@spell fireball}",
-                                "{@spell nondetection}"
-                            ]
-                        },
-                        "4":
-                        {
-                            "slots": 3,
-                            "spells":
-                            [
-                                "{@spell blight}",
-                                "{@spell greater invisibility}",
-                                "{@spell polymorph}"
-                            ]
-                        },
-                        "5":
-                        {
-                            "slots": 1,
-                            "spells":
-                            [
-                                "{@spell animate objects}",
-                                "{@spell scrying}"
-                            ]
-                        }
-                    },
-                    "ability": "int",
-                    "type": "spellcasting"
                 }
             ],
             "legendaryActions": 3,
@@ -19271,6 +19199,332 @@
                         {
                             "type": "external",
                             "url": "ogd"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shar-kali",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 144,
+                "formula": "17d8 + 68"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 18,
+            "int": 18,
+            "wis": 20,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+9",
+                "wis": "+10",
+                "cha": "+9"
+            },
+            "skill":
+            {
+                "perception": "+10",
+                "stealth": "+9"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "15",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Medium cloud of mist, or back into its true form.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes three attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
+                    ]
+                },
+                {
+                    "name": "Moon-Touched Hook Sword (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage. The vampire can grapple the target (escape {@dc 17})."
+                    ]
+                },
+                {
+                    "name": "Nightshade Dagger (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 10 ({@damage 3d6}) poison damage."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats}, provided that the sun isn't up. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The vampire is a 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The vampire has the following cleric spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell absorb elements|XGE}",
+                                "{@spell beast bond|PHB}",
+                                "{@spell ensnaring strike|PHB}",
+                                "{@spell hunter's mark|PHB}",
+                                "{@spell zephyr strile|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell beast sense|PHB}",   
+                                "{@spell healing spirit|PHB}",
+                                "{@spell pass without trace|PHB}",
+                                "{@spell silence|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell conjure animals|PHB}",
+                                "{@spell nondetection|PHB}",
+                                "{@spell plant growth|PHB}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell conjure woodland beings|PHB}",
+                                "{@spell locate creature|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "wis",
+                    "type": "spellcasting"
+                }
+            ],
+            "legendaryActions": 3,
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The vampire makes one attack."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire Lord",
+                "source": "Canbrew"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb",
+                "Spellcasting"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "spellcastingTags":
+            [
+                "CR"
+            ],
+            "tokenUrl": "https://i.imgur.com/h290p2w.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/1N929dZ.jpg"
                         }
                     }
                 ]
@@ -19385,7 +19639,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -19579,7 +19833,7 @@
             "dex": 18,
             "con": 18,
             "int": 18,
-            "wis": 22,
+            "wis": 20,
             "cha": 18,
             "save":
             {
@@ -19589,8 +19843,8 @@
             },
             "skill":
             {
-                "insight":"+11",
-                "perception": "+11",
+                "insight":"+10",
+                "perception": "+10",
                 "stealth": "+9"
             },
             "senses":
@@ -19610,10 +19864,6 @@
                     ],
                     "note": "from nonmagical attacks"
                 }
-            ],
-            "vulnerable":
-            [
-                "raidant"
             ],
             "languages":
             [
@@ -19649,7 +19899,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -19702,7 +19952,7 @@
                     ]
                 },
                 {
-                    "name": "Glaive",
+                    "name": "Moon-Touched Glaive",
                     "entries":
                     [
                         "{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage."
@@ -19737,7 +19987,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The vampire is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The vampire has the following cleric spells prepared:"
+                        "The vampire is a 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The vampire has the following cleric spells prepared:"
                     ],
                     "spells":
                     {
@@ -19986,7 +20236,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -20241,7 +20491,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -20554,7 +20804,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 5 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 5 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -20687,6 +20937,247 @@
             }
         },
         {
+            "name": "Javari Uwunade Sinenhlanhla Mzwakhle",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 90,
+                "formula": "12d8  +36"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 16,
+            "con": 16,
+            "int": 14,
+            "wis": 13,
+            "cha": 16,
+            "save":
+            {
+                "dex": "+7",
+                "wis": "+4",
+                "cha": "+7"
+            },
+            "skill":
+            {
+                "perception": "+4",
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 14,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "7",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Medium cloud of mist, or back into its true form.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (1/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 5 hit points at the start of its turn if it has at least 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 6 to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 15} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                }
+            ],
+            "legendaryActions": 1,
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The vampire makes one attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire Sir",
+                "source": "Canbrew"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "https://i.imgur.com/DolWIpI.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/EnZGghY.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "name": "Exallon",
             "source": "Canbrew",
             "size": "M",
@@ -20795,7 +21286,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 5 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 5 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -21043,7 +21534,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 5 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 5 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -21206,6 +21697,174 @@
                     }
                 ]
             }
+        },{
+            "name": "Throatseeker",
+            "source": "Canbrew",
+            "size": "M",
+            "type": "undead",
+            "alignment":
+            [
+                "C",
+                "E"
+            ],
+            "ac":
+             [
+                {
+                    "ac": 16,
+                    "from":
+                     [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 82,
+                "formula": "11d8 + 33"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 16,
+            "con": 16,
+            "int": 11,
+            "wis": 20,
+            "cha": 12,
+            "save":
+            {
+                "dex": "+6",
+                "wis": "+8"
+            },
+            "skill":
+            {
+                "perception": "+9",
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "blindsight 30 ft."
+            ],
+            "passive": 19,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "7",
+            "trait":
+            [
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage when it ends its turn in running water.",
+                        "{@i Stake to the Heart.} The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 7 ({@damage 2d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+                    ]
+                },
+                {
+                    "name": "Nightshade Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 2d4 + 3}) slashing damage, plus 7 ({@damage 2d6}) poison damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "underdark",
+                "urban"
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Regeneration",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "B"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "N",
+                "P",
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/yEcVUzU.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/neOdOKd.jpg"
+                        }
+                    }
+                ]
+            }
         },
         {
             "name": "Heathen",
@@ -21286,7 +21945,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -21493,7 +22152,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 30 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                        "The vampire regains 30 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
