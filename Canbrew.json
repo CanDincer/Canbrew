@@ -11390,22 +11390,22 @@
                     "will":
                     [
                         "{@spell detect poison and disease}",
-                        "{@spell faerie fire}",
+                        "{@spell faerie fire|PHB}",
                         "{@spell gust}",
-                        "{@spell mage hand}"
+                        "{@spell mage hand|PHB}"
                     ],
                     "daily":
                     {
                         "1e":
                         [
-                            "{@spell cloudkill}",
+                            "{@spell cloudkill|PHB}",
                             "{@spell insect plague}"
                         ],
                         "2e":
                         [
                             "{@spell fog cloud}",
                             "{@spell giant insect}",
-                            "{@spell misty step}"
+                            "{@spell misty step|PHB}"
                         ]
                     },
                     "ability": "cha",
@@ -14412,22 +14412,22 @@
                     "will":
                     [
                         "{@spell detect poison and disease}",
-                        "{@spell faerie fire}",
+                        "{@spell faerie fire|PHB}",
                         "{@spell gust}",
-                        "{@spell mage hand}"
+                        "{@spell mage hand|PHB}"
                     ],
                     "daily":
                     {
                         "1e":
                         [
-                            "{@spell cloudkill}",
+                            "{@spell cloudkill|PHB}",
                             "{@spell insect plague}"
                         ],
                         "2e":
                         [
                             "{@spell fog cloud}",
                             "{@spell giant insect}",
-                            "{@spell misty step}"
+                            "{@spell misty step|PHB}"
                         ]
                     },
                     "ability": "cha",
@@ -17219,9 +17219,9 @@
                         {
                             "spells":
                             [
-                                "{@spell mage hand}",
-                                "{@spell prestidigitation}",
-                                "{@spell ray of frost}"
+                                "{@spell mage hand|PHB}",
+                                "{@spell prestidigitation|PHB}",
+                                "{@spell ray of frost|PHB}"
                             ]
                         },
                         "1":
@@ -17229,10 +17229,10 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell detect magic}",
-                                "{@spell magic missile}",
-                                "{@spell shield}",
-                                "{@spell thunderwave}"
+                                "{@spell detect magic|PHB}",
+                                "{@spell magic missile|PHB}",
+                                "{@spell shield|PHB}",
+                                "{@spell thunderwave|PHB}"
                             ]
                         },
                         "2":
@@ -17240,10 +17240,10 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell detect thoughts}",
-                                "{@spell invisibility}",
+                                "{@spell detect thoughts|PHB}",
+                                "{@spell invisibility|PHB}",
                                 "{@spell Enhance Ability|PHB}",
-                                "{@spell mirror image}"
+                                "{@spell mirror image|PHB}"
                             ]
                         },
                         "3":
@@ -17251,10 +17251,10 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell animate dead}",
-                                "{@spell counterspell}",
-                                "{@spell dispel magic}",
-                                "{@spell fireball}"
+                                "{@spell animate dead|PHB}",
+                                "{@spell counterspell|PHB}",
+                                "{@spell dispel magic|PHB}",
+                                "{@spell fireball|PHB}"
                             ]
                         },
                         "4":
@@ -17262,8 +17262,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell blight}",
-                                "{@spell dimension door}"
+                                "{@spell blight|PHB}",
+                                "{@spell dimension door|PHB}"
                             ]
                         },
                         "5":
@@ -17271,8 +17271,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell cloudkill}",
-                                "{@spell scrying}"
+                                "{@spell cloudkill|PHB}",
+                                "{@spell scrying|PHB}"
                             ]
                         },
                         "6":
@@ -17280,8 +17280,8 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell disintegrate}",
-                                "{@spell globe of invulnerability}"
+                                "{@spell disintegrate|PHB}",
+                                "{@spell globe of invulnerability|PHB}"
                             ]
                         },
                         "7":
@@ -17289,8 +17289,8 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell finger of death}",
-                                "{@spell plane shift}"
+                                "{@spell finger of death|PHB}",
+                                "{@spell plane shift|PHB}"
                             ]
                         },
                         "8":
@@ -17298,8 +17298,8 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell dominate monster}",
-                                "{@spell power word stun}"
+                                "{@spell dominate monster|PHB}",
+                                "{@spell power word stun|PHB}"
                             ]
                         },
                         "9":
@@ -17307,7 +17307,7 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell power word kill}"
+                                "{@spell power word kill|PHB}"
                             ]
                         }
                     },
@@ -17911,7 +17911,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The vampire is an 20th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The lich has the following wizard spells prepared:"
+                        "The vampire is an 20th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The lich has the following bard spells prepared:"
                     ],
                     "spells":
                     {
@@ -17939,7 +17939,7 @@
                             "spells":
                             [
                                 "{@spell mental barrier|UAFRW}",
-                                "{@spell |PHB}"
+                                "{@spell crown of madness|PHB}"
                             ]
                         },
                         "3":
@@ -17947,8 +17947,8 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell animate dead}",
-                                "{@spell dispel magic}",
+                                "{@spell animate dead|PHB}",
+                                "{@spell dispel magic|PHB}",
                                 "{@spell revivify|PHB}",
                                 "{@spell speak with dead}"
                             ]
@@ -17958,7 +17958,7 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell blight}",
+                                "{@spell blight|PHB}",
                                 "{@spell charm monster|XGE}",
                                 "{@spell compulsion|PHB}",
                                 "{@spell confusion|PHB}"
@@ -17971,7 +17971,7 @@
                             [
                                 "{@spell contagion|PHB}",
                                 "{@spell dance macabre|PHB}",
-                                "{@spell mass cure wounds|PHB}",
+                                "{@spell geas|PHB}",
                                 "{@spell raise dead|PHB}"
                             ]
                         },
@@ -18103,6 +18103,342 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/RWZLj7u.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Nianzu",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 22,
+                    "from":
+                    [
+                        "natural armor, {@item mithral plate armor|DMG}, {@item spellguard shield|DMG}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 162,
+                "formula": "17d8 + 85"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 20,
+            "con": 20,
+            "int": 20,
+            "wis": 17,
+            "cha": 20,
+            "save":
+            {
+                "dex": "+11",
+                "con": "+11",
+                "wis": "+9",
+                "cha": "+11"
+            },
+            "skill":
+            {
+                "perception": "+9",
+                "stealth": "+11"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 19,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "19",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Medium cloud of mist, or back into its true form.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (4/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 40 hit points at the start of its turn if it has at least 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries":
+                    [
+                        "The balor has advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against it."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 19} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 3d4} swarms of {@creature swarm of bats||bats}, provided that the sun isn't up. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The vampire is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). The vampire has the following paladin spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell bane|PHB}",
+                                "{@spell ceramony|PHB}",
+                                "{@spell command|PHB}",
+                                "{@spell hunter's mark|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell branding smite|PHB}",
+                                "{@spell detect thoughts|PHB}",
+                                "{@spell hold person|PHB}",
+                                "{@spell misty step|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell blinding smite|PHB}",
+                                "{@spell remove curse|PHB}",
+                                "{@spell haste|PHB}",
+                                "{@spell protection from energy|PHB}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell banishment|PHB}",
+                                "{@spell death ward|PHB}",
+                                "{@spell dimension door|PHB}",
+                                "{@spell find greater steed|PHB}"
+                            ]
+                        },
+                        "5":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell destructive wave}",
+                                "{@spell hold monster|PHB}",
+                                "{@spell scrying|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "legendaryActions": 4,
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The vampire makes one attack."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire Baron",
+                "source": "Canbrew"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "spellcastingTags":
+            [
+                "CP"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "https://i.imgur.com/sBjuSZz.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/sm8Y73I.jpg"
                         }
                     }
                 ]
@@ -18353,7 +18689,7 @@
                 "images":
                 [
                     {
-                        "type": "image",
+                        "type": "ogd",
                         "href":
                         {
                             "type": "external",
@@ -18497,9 +18833,20 @@
                     "name": "Eldritch Invocations",
                     "entries":
                     [
-                        "{@ei Agonizing Blast}"
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "{@optfeature Agonizing Blast|PHB}",
+                                "{@optfeature Grasp of Hadar|XGE}",
+                                "{@optfeature Repelling Blast|PHB}",
+                                "{@optfeature Relentless Hex|XGE}",
+                                "{@optfeature Shroud of Shadow|XGE}",
+                                "{@optfeature Witch Sight|PHB}"
+                            ]
+                        }
                     ]
-                },
+                }
             ],
             "action":
             [
@@ -18566,31 +18913,38 @@
                     [
                         "The warlock is an 11th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
                     ],
-                    "spells": {
-                        "0": {
-                            "spells": [
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
                                 "{@spell dancing lights}",
                                 "{@spell eldritch blast}",
                                 "{@spell friends}",
-                                "{@spell mage hand}",
+                                "{@spell mage hand|PHB}",
                                 "{@spell minor illusion}",
-                                "{@spell prestidigitation}",
+                                "{@spell prestidigitation|PHB}",
                                 "{@spell vicious mockery}"
                             ]
                         },
-                        "5": {
+                        "5":
+                        {
                             "lower": 1,
-                            "slots": 3,
-                            "spells": [
-                                "{@spell blink}",
-                                "{@spell charm person}",
-                                "{@spell dimension door}",
-                                "{@spell dominate beast}",
-                                "{@spell faerie fire}",
-                                "{@spell fear}",
-                                "{@spell hold monster}",
-                                "{@spell misty step}",
-                                "{@spell phantasmal force}",
+                            "slots": 5,
+                            "spells":
+                            [
+                                "{@spell blink|PHB}",
+                                "{@spell charm person|PHB}",
+                                "{@spell darkness|PHB}",
+                                "{@spell dimension door|PHB}",
+                                "{@spell dominate beast|PHB}",
+                                "{@spell faerie fire|PHB}",
+                                "{@spell fear|PHB}",
+                                "{@spell hex|PHB}",
+                                "{@spell hold monster|PHB}",
+                                "{@spell misty step|PHB}",
+                                "{@spell phantasmal force|PHB}",
                                 "{@spell seeming}",
                                 "{@spell sleep}"
                             ]
@@ -18635,11 +18989,6 @@
                 "urban"
             ],
             "hasToken": true,
-            "soundClip":
-            {
-                "type": "internal",
-                "path": "bestiary/vampire.mp3"
-            },
             "traitTags":
             [
                 "Legendary Resistances",
@@ -18650,6 +18999,10 @@
             "senseTags":
             [
                 "SD"
+            ],
+            "spellcastingTags":
+            [
+                "CL"
             ],
             "languageTags":
             [
@@ -19177,7 +19530,7 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell bigby's haand|PHB}",
+                                "{@spell bigby's hand|PHB}",
                                 "{@spell creation|PHB}"
                             ]
                         }
@@ -20282,12 +20635,12 @@
             {
                 "walk": 30
             },
-            "str": 20,
+            "str": 18,
             "dex": 18,
             "con": 18,
             "int": 18,
-            "wis": 20,
-            "cha": 18,
+            "wis": 18,
+            "cha": 20,
             "save":
             {
                 "dex": "+9",
@@ -20401,14 +20754,14 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 5}) slashing damage, plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 4}) slashing damage, plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
                     ]
                 },
                 {
                     "name": "Moon-Touched Glaive",
                     "entries":
                     [
-                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) bludgeoning damage."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage."
                     ]
                 },
                 {
@@ -20422,7 +20775,7 @@
                     "name": "Charm",
                     "entries":
                     [
-                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 18} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
                         "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
                     ]
                 },
@@ -20440,7 +20793,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The vampire is a 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The vampire has the following cleric spells prepared:"
+                        "The vampire is a 8th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The vampire has the following paladin spells prepared:"
                     ],
                     "spells":
                     {
@@ -20449,10 +20802,10 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell compelled duel}",
-                                "{@spell guiding bolt}",
-                                "{@spell bless}",
-                                "{@spell heroism}"
+                                "{@spell bane|PHB}",
+                                "{@spell guiding bolt|PHB}",
+                                "{@spell bless|PHB}",
+                                "{@spell heroism|PHB}"
                             ]
                         },
                         "2":
@@ -20460,10 +20813,10 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell branding smite}",   
-                                "{@spell calm emotions}",
-                                "{@spell detect thoughts}",
-                                "{@spell zone of truth}"
+                                "{@spell branding smite|PHB}",   
+                                "{@spell calm emotions|PHB}",
+                                "{@spell detect thoughts|PHB}",
+                                "{@spell zone of truth|PHB}"
                             ]
                         },
                         "3":
@@ -20471,9 +20824,9 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell dispel magic}",
-                                "{@spell daylight}",
-                                "{@spell elementl weapon}"
+                                "{@spell dispel magic|PHB}",
+                                "{@spell daylight|PHB}",
+                                "{@spell elementl weapon|PHB}"
                             ]
                         },
                         "4":
@@ -20481,12 +20834,12 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell aura of purity}",
-                                "{@spell freedom of movement}"
+                                "{@spell aura of purity|PHB}",
+                                "{@spell freedom of movement|PHB}"
                             ]
                         }
                     },
-                    "ability": "wis",
+                    "ability": "charisma",
                     "type": "spellcasting"
                 }
             ],
@@ -20554,7 +20907,7 @@
                 "R"
             ],
             "spellcastingTags": [
-                "CC"
+                "CP"
             ],
             "miscTags":
             [
@@ -20836,7 +21189,387 @@
             }
         },
         {
-            "name": "Vampire Master",
+            "name": "Shivynara",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "natural armor, {@spell mage armor|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 119,
+                "formula": "14d8 + 56"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 18,
+            "int": 20,
+            "wis": 15,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+8",
+                "wis": "+6",
+                "cha": "+8"
+            },
+            "skill":
+            {
+                "perception": "+6",
+                "stealth": "+8"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "11",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Medium cloud of mist, or back into its true form.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (2/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                },
+                {
+                    "name": "Spell Sniper",
+                    "entries":
+                    [
+                        "When the vampire cast a spell that requires an attack roll, the spell's range is doubled.",
+                        "The vampire ignores half cover and three-quarters cover."
+                    ]
+                },
+                {
+                    "name": "Sculpt Spells",
+                    "entries":
+                    [
+                        "The vampire can spare up to 3 creatures from its area of effect spells."
+                    ]
+                },
+                {
+                    "name": "Potent Cantrip",
+                    "entries":
+                    [
+                        "When a creature succeeds on a saving throw against the vampire's cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
+                    ]
+                },
+                {
+                    "name": "Empowered Evocation",
+                    "entries":
+                    [
+                        "The vampire adds its Intelligence modifier to one damage roll of any evocation spell it cast."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 16} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 1d4} swarms of {@creature swarm of bats||bats}, provided that the sun isn't up. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The vampire is a 11th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It has the following wizard spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell firebolt|PHB}",
+                                "{@spell light|PHB}",
+                                "{@spell mage hand|PHB}",
+                                "{@spell shocking grasp|PHB}",
+                                "{@spell thunderclap|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell burning hands|PHB}",
+                                "{@spell detect magic|PHB}",
+                                "{@spell mage armor|PHB}",
+                                "{@spell magic missile|PHB}",
+                                "{@spell abzorb elements|XGE}",
+                                "{@spell shield|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell blur|PHB}",
+                                "{@spell hold person|PHB}",
+                                "{@spell scorching ray|PHB}",
+                                "{@spell see invisibility|PHB}",
+                                "{@spell shatter|PHB}",
+                                "{@spell warding wind|XGE}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell blink|PHB}",
+                                "{@spell counterspell|PHB}",
+                                "{@spell fireball|PHB}",
+                                "{@spell dispel magic|PHB}",
+                                "{@spell haste|PHB}",
+                                "{@spell melf's minute meteors|XGE}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell fire shield|PHB}",
+                                "{@spell locate creature|PHB}",
+                                "{@spell mordenkainen's faithful Hound|PHB}",
+                                "{@spell sickening radiance|XGE",
+                                "{@spell wall of fire|PHB}"
+                            ]
+                        },
+                        "5":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell cone of cold|PHB}",
+                                "{@spell dawn|XGE}",
+                                "{@spell immolation|XGE}",
+                                "{@spell wall of force|PHB}"
+                            ]
+                        },
+                        "6":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell chain lightning|PHB}",
+                                "{@spell contingency|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "legendaryActions": 2,
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The vampire makes one attack."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire Master",
+                "source": "Canbrew"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "spellcastingTags":
+            [
+                "CW"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "https://i.imgur.com/FMmlv8C.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/MJga6As.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Theron Kuzani",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -23403,12 +24136,12 @@
                     "name": "Innate Spellcasting (1/Day)",
                     "headerEntries":
                     [
-                        "The night scythe can innately cast {@spell hex}. Its innate spellcasting ability is Intelligence."
+                        "The night scythe can innately cast {@spell hex|PHB}. Its innate spellcasting ability is Intelligence."
                     ],
                     "ability": "int",
                     "will":
                     [
-                        "{@spell hex}"
+                        "{@spell hex|PHB}"
                     ],
                     "hidden":
                     [
