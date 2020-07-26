@@ -24,7 +24,7 @@
             "name": "Ki-rin's Guidance",
             "baseItem": "Longbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "4d6",
             "dmgType": "R",
@@ -52,7 +52,7 @@
             "name": "Spirit String Bow",
             "baseItem": "Longbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "O",
@@ -75,7 +75,7 @@
             "name": "Bow of the Twilight Valkyrie (ogd)",
             "baseItem": "Longbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -120,7 +120,7 @@
             "name": "Razorwind",
             "baseItem": "Longbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -143,7 +143,7 @@
             "name": "Rifling Bow",
             "baseItem": "Longbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -166,7 +166,7 @@
             "name": "Bastilla",
             "baseItem": "Heavy Crossbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 18,
             "dmg1": "1d10",
             "dmgType": "P",
@@ -190,7 +190,7 @@
             "name": "Rich Man's Crossbow",
             "baseItem": "Heavy Crossbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 18,
             "dmg1": "1d10",
             "dmgType": "P",
@@ -224,7 +224,7 @@
             "name": "Venomous Hand Crossbow",
             "baseItem": "Hand Crossbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 3,
             "dmg1": "1d6",
             "dmgType": "P",
@@ -567,7 +567,7 @@
             "name": "Giant Axe",
             "baseItem": "Greataxe|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 22,
             "dmg1": "1d20",
             "dmgType": "S",
@@ -706,7 +706,7 @@
             "name": "Morningstar of the Dawn",
             "baseItem": "Morningstar|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 4,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -836,7 +836,7 @@
             "name": "Flashstep Rapier",
             "baseItem": "Rapier|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -959,7 +959,7 @@
             "name": "Hammer of the Farseer",
             "baseItem": "Warhammer|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmg2": "1d10",
@@ -980,7 +980,7 @@
             "name": "Grasping Whip",
             "baseItem": "Whip|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d4",
             "dmgType": "B",
@@ -1002,7 +1002,7 @@
             "name": "Glaive of Atlas",
             "baseItem": "Glaive|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 6,
             "dmg1": "1d10",
             "dmgType": "S",
@@ -1100,7 +1100,7 @@
             "name": "Orcish Falx",
             "baseItem": "Greatsword|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 1,
             "dmg1": "1d12",
             "dmgType": "S",
@@ -1121,7 +1121,7 @@
             "name": "Angel's Will",
             "baseItem": "Greatsword|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 1,
             "dmg1": "2d6",
             "dmg2": "2d8",
@@ -1144,7 +1144,7 @@
             "name": "Heavy Repeating Crossbow",
             "baseItem": "Heavy Crossbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 18,
             "dmg1": "3d4",
             "dmgType": "P",
@@ -1168,7 +1168,7 @@
             "name": "Vampiric Trident",
             "baseItem": "Trident|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 4,
             "dmg1": "1d6",
             "dmg2": "1d8",
@@ -1191,7 +1191,7 @@
             "name": "Galepierce Trident",
             "baseItem": "Trident|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 4,
             "dmg1": "1d6",
             "dmg2": "1d8",
@@ -1214,7 +1214,7 @@
             "name": "Clockwork Bow",
             "baseItem": "Longbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -1238,7 +1238,7 @@
             "name": "Spiked Chain",
             "baseItem": "Dagger|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 8,
             "dmg1": "2d4",
             "dmgType": "P",
@@ -1271,7 +1271,7 @@
             "name": "Double Knock Bow",
             "baseItem": "Longbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -1294,7 +1294,7 @@
             "name": "Unzest",
             "baseItem": "Flail|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "B",
@@ -1313,7 +1313,7 @@
             "name": "Hydra Flail",
             "baseItem": "Flail|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "B",
@@ -1329,7 +1329,7 @@
             "name": "Inevitable Bow",
             "baseItem": "Longbow|PHB",
             "type": "R",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -1425,7 +1425,7 @@
             "name": "Blade of Selves",
             "baseItem": "Shortsword|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d6",
             "dmgType": "S",
@@ -1459,7 +1459,7 @@
             "name": "Faran",
             "baseItem": "Shortsword|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d6",
             "dmgType": "O",
@@ -1480,7 +1480,7 @@
             "name": "Denier",
             "baseItem": "Scimitar|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d6",
             "dmgType": "S",
@@ -1559,7 +1559,7 @@
             "name": "Lady Luck",
             "baseItem": "Shortsword|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d6",
             "dmgType": "S",
@@ -1645,7 +1645,7 @@
             "name": "The Judge",
             "baseItem": "Warhammer|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmg2": "1d10",
@@ -1671,7 +1671,7 @@
             "name": "Agr'waendil",
             "baseItem": "Longsword|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 3,
             "dmg1": "1d10",
             "dmgType": "S",
@@ -1732,7 +1732,7 @@
             "name": "Half-forged Longsword",
             "baseItem": "Shortsword|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 3,
             "dmg1": "1d6",
             "dmgType": "B",
@@ -1753,7 +1753,7 @@
             "name": "Sword of the Defeated",
             "baseItem": "Shortsword|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d6",
             "dmgType": "B",
@@ -1791,7 +1791,7 @@
             "name": "Akkadian Warhammer",
             "baseItem": "Warhammer|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 2,
             "dmg1": "1d8",
             "dmg2": "1d10",
@@ -1817,7 +1817,7 @@
             "name": "Everglacier's Cold Fury",
             "baseItem": "Pike|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 18,
             "dmg1": "1d10",
             "dmgType": "C",
@@ -1850,7 +1850,7 @@
         {
             "name": "Chain of Reckoning",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 8,
             "dmg1": "1d4",
             "dmgType": "F",
@@ -1967,7 +1967,7 @@
             "name": "Mage Guardian's Greatsword",
             "baseItem": "Greatsword|PHB",
             "type": "M",
-            "weaponCategory": "Martial",
+            "weaponCategory": "martial",
             "weight": 6,
             "dmg1": "3d6",
             "dmgType": "T",
@@ -18364,6 +18364,328 @@
             }
         },
         {
+            "name": "Caedmon",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 162,
+                "formula": "17d8 + 85"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 20,
+            "con": 20,
+            "int": 20,
+            "wis": 17,
+            "cha": 22,
+            "save":
+            {
+                "dex": "+11",
+                "wis": "+9",
+                "cha": "+11"
+            },
+            "skill":
+            {
+                "perception": "+9",
+                "stealth": "+11"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 19,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "19",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Medium cloud of mist, or back into its true form.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (4/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 40 hit points at the start of its turn if it has at least 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                },
+                {
+                    "name": "Eldritch Invocations",
+                    "entries":
+                    [
+                        "{@ei Agonizing Blast}"
+                    ]
+                },
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 19} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 3d4} swarms of {@creature swarm of bats||bats}, provided that the sun isn't up. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The vampire's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 120), requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell disguise self}",
+                        "{@spell mage armor} (self only)",
+                        "{@spell silent image}",
+                        "{@spell speak with animals}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell conjure fey}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                },
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The warlock is an 11th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 20}, {@hit 12} to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "spells": [
+                                "{@spell dancing lights}",
+                                "{@spell eldritch blast}",
+                                "{@spell friends}",
+                                "{@spell mage hand}",
+                                "{@spell minor illusion}",
+                                "{@spell prestidigitation}",
+                                "{@spell vicious mockery}"
+                            ]
+                        },
+                        "5": {
+                            "lower": 1,
+                            "slots": 3,
+                            "spells": [
+                                "{@spell blink}",
+                                "{@spell charm person}",
+                                "{@spell dimension door}",
+                                "{@spell dominate beast}",
+                                "{@spell faerie fire}",
+                                "{@spell fear}",
+                                "{@spell hold monster}",
+                                "{@spell misty step}",
+                                "{@spell phantasmal force}",
+                                "{@spell seeming}",
+                                "{@spell sleep}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "legendaryActions": 4,
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The vampire makes one attack."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire Baron",
+                "source": "Canbrew"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "soundClip":
+            {
+                "type": "internal",
+                "path": "bestiary/vampire.mp3"
+            },
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "https://i.imgur.com/6RB9EoR.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/TazCpgc.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "name": "Khufut",
             "source": "Canbrew",
             "size": "M",
@@ -20302,14 +20624,14 @@
             "cha": 18,
             "save":
             {
-                "dex": "+9",
-                "wis": "+7",
-                "cha": "+9"
+                "dex": "+8",
+                "wis": "+6",
+                "cha": "+8"
             },
             "skill":
             {
-                "perception": "+7",
-                "stealth": "+9"
+                "perception": "+6",
+                "stealth": "+8"
             },
             "senses":
             [
@@ -20514,7 +20836,7 @@
             }
         },
         {
-            "name": "Vinma'al Ceregin",
+            "name": "Vampire Master",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -20549,6 +20871,263 @@
             {
                 "walk": 30
             },
+            "str": 18,
+            "dex": 18,
+            "con": 18,
+            "int": 17,
+            "wis": 15,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+8",
+                "wis": "+6",
+                "cha": "+8"
+            },
+            "skill":
+            {
+                "perception": "+6",
+                "stealth": "+8"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                "necrotic",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "11",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Medium cloud of mist, or back into its true form.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (2/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes three attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
+                    ]
+                },
+                {
+                    "name": "Wolf's Bane (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d10 + 5}) slashing damage, plus 3 ({@damage 1d6}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 16} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically calls {@dice 1d4} swarms of {@creature swarm of bats||bats}, provided that the sun isn't up. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The vampire makes one attack."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire Master",
+                "source": "Canbrew"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "https://i.imgur.com/IFJ27VV.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/PLu5uSk.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Vinma'al Ceregin",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item Molten Bronze Skin (Half Plate)|MOT}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 119,
+                "formula": "14d8 + 56"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
             "str": 20,
             "dex": 18,
             "con": 18,
@@ -20557,12 +21136,13 @@
             "cha": 18,
             "save":
             {
-                "dex": "+9",
-                "wis": "+7",
-                "cha": "+9"
+                "dex": "+8",
+                "wis": "+6",
+                "cha": "+8"
             },
             "skill":
             {
+                "arcana":"9",
                 "perception": "+7",
                 "stealth": "+9"
             },
@@ -20661,10 +21241,10 @@
                     ]
                 },
                 {
-                    "name": "Longsword",
+                    "name": "Moon-Touched Longsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d10 + 5}) slashing damage."
                     ]
                 },
                 {
@@ -20870,14 +21450,14 @@
             "cha": 16,
             "save":
             {
-                "dex": "+7",
-                "wis": "+4",
-                "cha": "+7"
+                "dex": "+6",
+                "wis": "+3",
+                "cha": "+6"
             },
             "skill":
             {
-                "perception": "+4",
-                "stealth": "+7"
+                "perception": "+3",
+                "stealth": "+6"
             },
             "senses":
             [
@@ -20984,7 +21564,7 @@
                     "name": "Charm",
                     "entries":
                     [
-                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 15} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 14} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
                         "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
                     ]
                 }
