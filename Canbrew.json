@@ -21205,7 +21205,8 @@
             ],
             "languages":
             [
-                "the languages it knew in life"
+                "the languages it knew in life",
+                "telepathy 120 ft."
             ],
             "cr": "11",
             "trait":
@@ -21359,11 +21360,13 @@
             [
                 "B",
                 "N",
-                "P"
+                "P",
+                "Y"
             ],
             "miscTags":
             [
-                "MW"
+                "MW",
+                "THW"
             ],
             "conditionInflict":
             [
