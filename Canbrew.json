@@ -4625,7 +4625,7 @@
             }
         },
         {
-            "name": "Werewolf Alpha",
+            "name": "Werewolf Chieftain",
             "size": "M",
             "type":
             {
@@ -4766,7 +4766,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Werewolf Alpha"
+                "name": "Werewolf Chieftain",
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -4827,6 +4828,171 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/JHHmZYi.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Werewolf Cub",
+            "group": "Lycanthropes",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human",
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "C",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 11,
+                    "condition": "in humanoid form"
+                },
+                {
+                    "ac": 12,
+                    "from":
+                    [
+                        "natural armor"
+                    ],
+                    "condition": "in hybrid form"
+                }
+            ],
+            "hp":
+            {
+                "average": 58,
+                "formula": "9d8 + 18"
+            },
+            "speed":
+            {
+                "walk":
+                {
+                    "number": 30,
+                    "condition": " (40 ft. in hybrid form)"
+                }
+            },
+            "str": 15,
+            "dex": 13,
+            "con": 14,
+            "int": 10,
+            "wis": 11,
+            "cha": 10,
+            "skill":
+            {
+                "perception": "+4"
+            },
+            "passive": 14,
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from weapons that aren't silvered"
+                }
+            ],
+            "languages":
+            [
+                "Common"
+            ],
+            "cr": "3",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "The werewolf can use its action to polymorph into a wolf-humanoid hybrid, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The werewolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Humanoid or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "The werewolf makes two attacks: two with its spear (humanoid form) or one with its bite and one with its claws (hybrid form)."
+                    ]
+                },
+                {
+                    "name": "Bite (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with werewolf lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Claws (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}7 ({@damage 2d4 + 2}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Spear (Humanoid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
+                    ]
+                }
+            ],
+            "environment": [
+                "forest",
+                "hill"
+            ],
+            "hasToken": true,
+            "soundClip": {
+                "type": "internal",
+                "path": "bestiary/werewolf.mp3"
+            },
+            "traitTags": [
+                "Keen Senses",
+                "Shapechanger"
+            ],
+            "languageTags": [
+                "C",
+                "CS"
+            ],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "tokenUrl": "https://5e.tools/img/PSI/Werewolf (Krallenhorde).png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://5e.tools/img/PSI/Werewolf (Krallenhorde).png"
                         }
                     }
                 ]
@@ -24848,6 +25014,80 @@
             ]
 		},
 		{
+			"name": "Werewolf Chieftain",
+			"source": "Canbrew",
+            "lairActions":
+            [
+                "While the werewolf is in its lair, it can take lair actions as long as it isn't incapacitated.",
+                "On initiative count 20 (losing initiative ties), the werewolf can take one of the following lair action options, or forgo using any of them in that round:",
+				{
+					"type": "list",
+                    "items":
+                    [
+						"Until initiative count 20 of the next round, the werewolf doesn't provoke opportunity attacks.",
+                        "The werewolf can extinguish all nonmagical lights in the area and any magical light has its dim and bright radii halved"
+					]
+				}
+			],
+            "regionalEffects":
+            [
+				"The region surrounding a werewolf's lair is warped by the creature's unnatural presence, creating any of the following effects:",
+				{
+					"type": "list",
+                    "items":
+                    [
+						"There's a noticeable increase in the populations of wolves in the region.",
+                        "Moonlight cast within 500 feet of the lair seem abnormally intense and sometimes moon rays are visible."
+					]
+				},
+				"If the werewolf is destroyed, these effects end after {@dice 2d6} days."
+			]
+		},
+		{
+			"name": "Werewolf Leader",
+			"source": "Canbrew",
+            "lairActions":
+            [
+                "While the werewolf is in its lair, it can take lair actions as long as it isn't incapacitated.",
+                "On initiative count 20 (losing initiative ties), the werewolf can take one of the following lair action options, or forgo using any of them in that round:",
+				{
+					"type": "list",
+                    "items":
+                    [
+						"Until initiative count 20 of the next round, the werewolf doesn't provoke opportunity attacks."
+					]
+				}
+			],
+            "regionalEffects":
+            [
+				"The region surrounding a werewolf's lair is warped by the creature's unnatural presence, creating any of the following effects:",
+				{
+					"type": "list",
+                    "items":
+                    [
+						"There's a noticeable increase in the populations of wolves in the region."
+					]
+				},
+				"If the werewolf is destroyed, these effects end after {@dice 2d6} days."
+			]
+		},
+		{
+			"name": "Werewolf Chieftain",
+			"source": "Canbrew",
+            "regionalEffects":
+            [
+				"The region surrounding a werewolf's lair is warped by the creature's unnatural presence, creating any of the following effects:",
+				{
+					"type": "list",
+                    "items":
+                    [
+						"There's a noticeable increase in the populations of wolves in the region."
+					]
+				},
+				"If the werewolf is destroyed, these effects end after {@dice 2d6} days."
+			]
+		},
+		{
 			"name": "Vampire Count",
 			"source": "Canbrew",
             "lairActions":
@@ -24907,8 +25147,7 @@
                     [
 						"There's a noticeable increase in the populations of bats in the region.",
 						"Plants within 500 feet of the lair wither, and their stems and branches become twisted and thorny.",
-                        "Shadows cast within 500 feet of the lair seem abnormally gaunt and sometimes move as though alive.",
-                        "A creeping fog clings to the ground within 500 feet of the vampire's lair. The fog occasionally takes eerie forms, such as grasping claws and writhing serpents."
+                        "Shadows cast within 500 feet of the lair seem abnormally gaunt and sometimes move as though alive."
 					]
 				},
 				"If the vampire is destroyed, these effects end after {@dice 2d6} days."
