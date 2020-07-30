@@ -4625,7 +4625,7 @@
             }
         },
         {
-            "name": "Werewolf Chieftain",
+            "name": "Maul Darkmane",
             "size": "M",
             "type":
             {
@@ -4645,11 +4645,11 @@
             "ac":
             [
                 {
-                    "ac": 12,
+                    "ac": 15,
                     "condition": "in humanoid form"
                 },
                 {
-                    "ac": 16,
+                    "ac": 22,
                     "from":
                     [
                         "natural armor"
@@ -4659,29 +4659,33 @@
             ],
             "hp":
             {
-                "average": 119,
-                "formula": "14d8 + 56"
+                "average": 190,
+                "formula": "20d8+100"
             },
             "speed":
             {
-                "walk": 30
+                "walk":
+                {
+                    "number": 30,
+                    "condition": " (40 ft. in hybrid form)"
+                }
             },
-            "str": 20,
-            "dex": 15,
-            "con": 18,
-            "int": 11,
-            "wis": 14,
-            "cha": 15,
+            "str": 22,
+            "dex": 21,
+            "con": 20,
+            "int": 14,
+            "wis": 18,
+            "cha": 19,
             "save":
             {
-                "dex": "+9",
-                "con": "+8",
-                "wis": "+6"
+                "str": "+12",
+                "dex": "+11",
+                "con":" +11"
             },
             "skill":
             {
-                "acrobatics": "+9",
-                "perception": "+6"
+                "acrobatics": "+11",
+                "perception": "+10"
             },
             "immune":
             [
@@ -4692,7 +4696,7 @@
                         "piercing",
                         "slashing"
                     ],
-                    "note": "from nonmagical attacks that aren't silvered"
+                    "note": "from weapon attacks that aren't silvered"
                 }
             ],
             "conditionImmune":
@@ -4708,35 +4712,35 @@
             [
                 "Common"
             ],
-            "cr": "9",
+            "cr": "18",
             "trait":
             [
                 {
                     "name": "Shapechanger",
                     "entries":
                     [
-                        "The werewolf alpha can use its action to polymorph into a wolf-humanoid hybrid or a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                        "The werewolf can use its action to polymorph into a wolf-humanoid hybrid or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
                     ]
                 },
                 {
                     "name": "Legendary Resistance (3/Day)",
                     "entries":
                     [
-                        "If the werewolf alpha fails a saving throw, it can choose to succeed instead."
+                        "If the werewolf fails a saving throw, it can choose to succeed instead."
                     ]
                 },
                 {
                     "name": "Keen Hearing and Smell",
                     "entries":
                     [
-                        "The werewolf alpha has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                        "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
                     ]
                 },
                 {
-                    "name": "Pack Leader",
+                    "name": "Pack Tactics",
                     "entries":
                     [
-                        "The werewolf alpha's allies have advantage on melee attack rolls against any hostile creature within 5 feet of the werewolf alpha."
+                        "The werewolf has advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 }
             ],
@@ -4746,21 +4750,21 @@
                     "name": "Multiattack (Hybrid Form Only)",
                     "entries":
                     [
-                        "The werewolf alpha makes three attacks: one with its bite and two with its claws."
+                        "The werewolf makes three attacks: one with its bite and two with its claws."
                     ]
                 },
                 {
                     "name": "Bite (Wolf or Hybrid Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 20} Constitution saving throw or be cursed with werewolf lycanthropy."
                     ]
                 },
                 {
                     "name": "Claws (Wolf or Hybrid Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage."
                     ]
                 }
             ],
@@ -4775,21 +4779,28 @@
                     "name": "Leap",
                     "entries":
                     [
-                        "The werewolf alpha moves up to its speed without provoking opportunity attacks."
+                        "The werewolf moves up to its speed without provoking opportunity attacks."
                     ]
                 },
                 {
                     "name": "Bark Orders",
                     "entries":
                     [
-                        "The werewolf alpha chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
+                        "The werewolf chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
                     ]
                 },
                 {
                     "name": "Frenzy (Costs 2 Actions)",
                     "entries":
                     [
-                        "The werewolf alpha can make one claw attack against each creature within 5 feet of it."
+                        "The werewolf can make one claw attack against each creature within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The werewolf makes one attack."
                     ]
                 }
             ],
@@ -4798,7 +4809,8 @@
             [
                 "Shapechanger",
                 "Keen Senses",
-                "Legendary Resistances"
+                "Legendary Resistances",
+                "Pack Tactics"
             ],
             "languageTags":
             [
@@ -4827,7 +4839,1176 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "https://i.imgur.com/JHHmZYi.jpg"
+                            "url": "https://i.imgur.com/zwDRrTM.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ulfgaard Ingvarsson",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human",
+                    "shapechanger"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "condition": "in humanoid form"
+                },
+                {
+                    "ac": 22,
+                    "from":
+                    [
+                        "natural armor"
+                    ],
+                    "condition": "in hybrid form"
+                }
+            ],
+            "hp":
+            {
+                "average": 190,
+                "formula": "20d8+100"
+            },
+            "speed":
+            {
+                "walk":
+                {
+                    "number": 30,
+                    "condition": " (40 ft. in hybrid form)"
+                }
+            },
+            "str": 22,
+            "dex": 21,
+            "con": 20,
+            "int": 14,
+            "wis": 18,
+            "cha": 19,
+            "save":
+            {
+                "str": "+12",
+                "dex": "+11",
+                "con":" +11"
+            },
+            "skill":
+            {
+                "acrobatics": "+11",
+                "perception": "+10"
+            },
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from weapon attacks that aren't silvered"
+                }
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "languages":
+            [
+                "Common"
+            ],
+            "cr": "18",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "The werewolf can use its action to polymorph into a wolf-humanoid hybrid or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the werewolf fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The werewolf has advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "The werewolf makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 20} Constitution saving throw or be cursed with werewolf lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Claws (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Werewolf Chieftain",
+                "source": "Canbrew"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Leap",
+                    "entries":
+                    [
+                        "The werewolf moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Bark Orders",
+                    "entries":
+                    [
+                        "The werewolf chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Frenzy (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The werewolf can make one claw attack against each creature within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The werewolf makes one attack."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "traitTags":
+            [
+                "Shapechanger",
+                "Keen Senses",
+                "Legendary Resistances",
+                "Pack Tactics"
+            ],
+            "languageTags":
+            [
+                "C"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/fFtMzfg.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/2B0A59Y.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Werewolf Berserker",
+            "size": "L",
+            "type": "monstrosity",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 190,
+                "formula": "20d8+100"
+            },
+            "speed":
+            {
+                "walk":
+                {
+                    "number": 30,
+                    "condition": " (40 ft. in hybrid form)"
+                }
+            },
+            "str": 24,
+            "dex": 12,
+            "con": 20,
+            "int": 8,
+            "wis": 7,
+            "cha": 19,
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from weapon attacks that aren't silvered"
+                }
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 16,
+            "languages":
+            [
+                "understands Common but can't speak"
+            ],
+            "cr": "16",
+            "trait":
+            [
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries":
+                    [
+                        "If the werewolf moves at least 20 feet straight toward a target and then hits it with a claw attack on the same turn, the target takes an extra 10 ({@damage 3d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 18} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Relentless (Recharges after a Short or Long Rest)",
+                    "entries":
+                    [
+                        "If the werewolf takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+                    ]
+                },
+                {
+                    "name": "Horrifying Visage",
+                    "entries":
+                    [
+                        "Each enemy within 60 feet of the werewolf that can see it must succeed on a {@dc 18} Wisdom saving throw or be {@condition frightened} for 1 minute. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, with disadvantage if the werewolf is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the werewolf's Horrifying Visage for the next 24 hours."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries":
+                    [
+                        "The werewolf has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Spiked Hide",
+                    "entries":
+                    [
+                        "The werewolf has a damage threshold of 10, and any time the werewolf is targeted by a melee attack, the attacker takes {@damage 4d6} piercing damage."
+                    ]
+                },
+                {
+                    "name": "Aggressive",
+                    "entries":
+                    [
+                        "As a bonus action, the werewolf can move up to its speed toward a hostile creature that it can see."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The werewolf makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 7}) piercing damage, plus 16 ({@damage 3d10}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the creature is {@condition restrained}, and the werewolf can't bite another target."
+                    ]
+                },
+                {
+                    "name": "Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 7}) piercing damage, plus 16 ({@damage 3d10}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Aggressive",
+                "Charge",
+                "Horrifying Visage",
+                "Keen Senses",
+                "Relentless",
+                "Magic Resistance"
+            ],
+            "languageTags":
+            [
+                "CS"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/FFshn6N.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/atIoLju.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Werewolf Leader",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human",
+                    "shapechanger"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 14,
+                    "condition": "in humanoid form"
+                },
+                {
+                    "ac": 19,
+                    "from":
+                    [
+                        "natural armor"
+                    ],
+                    "condition": "in hybrid form"
+                }
+            ],
+            "hp":
+            {
+                "average": 136,
+                "formula": "16d8+64"
+            },
+            "speed":
+            {
+                "walk":
+                {
+                    "number": 30,
+                    "condition": " (40 ft. in hybrid form)"
+                }
+            },
+            "str": 20,
+            "dex": 19,
+            "con": 18,
+            "int": 12,
+            "wis": 16,
+            "cha": 17,
+            "save":
+            {
+                "str": "+10",
+                "dex": "+9",
+                "con":" +9"
+            },
+            "skill":
+            {
+                "acrobatics": "+9",
+                "perception": "+8"
+            },
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from weapon attacks that aren't silvered"
+                }
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 18,
+            "languages":
+            [
+                "Common"
+            ],
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "The werewolf can use its action to polymorph into a wolf-humanoid hybrid or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (2/Day)",
+                    "entries":
+                    [
+                        "If the werewolf fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The werewolf has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "The werewolf makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 18} Constitution saving throw or be cursed with werewolf lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Claws (Wolf or Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Werewolf Leader",
+                "source": "Canbrew"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Leap",
+                    "entries":
+                    [
+                        "The werewolf moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Bark Orders",
+                    "entries":
+                    [
+                        "The werewolf chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Frenzy (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The werewolf can make one claw attack against each creature within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The werewolf makes one attack."
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Shapechanger",
+                "Keen Senses",
+                "Legendary Resistances",
+                "Pack Tactics"
+            ],
+            "languageTags":
+            [
+                "C"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/dqdZTIh.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/FlPLmZR.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Genn Mara",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human",
+                    "shapechanger"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 14,
+                    "condition": "in humanoid form"
+                },
+                {
+                    "ac": 19,
+                    "from":
+                    [
+                        "natural armor"
+                    ],
+                    "condition": "in hybrid form"
+                }
+            ],
+            "hp":
+            {
+                "average": 136,
+                "formula": "16d8+64"
+            },
+            "speed":
+            {
+                "walk":
+                {
+                    "number": 30,
+                    "condition": " (40 ft. in hybrid form)"
+                },
+                "fly": 20
+            },
+            "str": 20,
+            "dex": 19,
+            "con": 18,
+            "int": 12,
+            "wis": 16,
+            "cha": 20,
+            "save":
+            {
+                "str": "+10",
+                "dex": "+9",
+                "con":" +9"
+            },
+            "skill":
+            {
+                "acrobatics": "+9",
+                "perception": "+8"
+            },
+            "resist":
+            [
+                "lightning",
+                "thunder"
+            ],
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from weapon attacks that aren't silvered"
+                }
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 18,
+            "languages":
+            [
+                "Common"
+            ],
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "The werewolf can use its action to polymorph into a wolf-humanoid hybrid or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (2/Day)",
+                    "entries":
+                    [
+                        "If the werewolf fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Wind Rider",
+                    "entries":
+                    [
+                        "The werewolf has flying speed of 20 ft. and doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+                    ]
+                },
+                {
+                    "name": "Heart of the Storm",
+                    "entries":
+                    [
+                        "The werewolf has resistance to lightning and thunder damage. In addition, each time the werewolf makes a claw attack, enemy creatures within 10 feet of it takes {@damage 2d6} lightning damage (included in the attack)."
+                    ]
+                },
+                {
+                    "name": "Storm's Fury",
+                    "entries":
+                    [
+                        "When the werewolf is hit by a melee attack, it can use its reaction to deal {@damage 4d6} lightning damage to the attacker. The attacker is also pushed 20 feet away from the werewolf on a failed {@dc 18} Strength saving throw."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The werewolf has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "The werewolf makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 18} Constitution saving throw or be cursed with werewolf lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Claws (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, plus 7 ({@damage 2d6}) lightning damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The werewolf is an 14th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). The werewolf has the following sorcerer spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell lightning lure|SCAG}",
+                                "{@spell message|PHB}",
+                                "{@spell shocking grasp|PHB}",
+                                "{@spell thunderclap|XGE}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell absorb elements|XGE}",
+                                "{@spell shield|PHB}",
+                                "{@spell thunderwave|PHB}",
+                                "{@spell witch bolt|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell dragon's breath|XGE}",
+                                "{@spell mirror image|PHB}",
+                                "{@spell shatter|PHB}",
+                                "{@spell warding wind|XGE}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell blink|PHB}",
+                                "{@spell counterspell|PHB}",
+                                "{@spell lightning bolt|PHB}",
+                                "{@spell thunder step|XGE}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell greater invisibility|PHB}",
+                                "{@spell storm sphere|XGE}"
+                            ]
+                        },
+                        "5":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell cone of cold|PHB}",
+                                "{@spell dominate person|PHB}"
+                            ]
+                        },
+                        "6":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell chain lightning|PHB}",
+                                "{@spell globe of invulnerability|PHB}"
+                            ]
+                        },
+                        "7":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell fire storm|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Werewolf Leader",
+                "source": "Canbrew"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Leap",
+                    "entries":
+                    [
+                        "The werewolf moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Bark Orders",
+                    "entries":
+                    [
+                        "The werewolf chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Frenzy (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The werewolf can make one claw attack against each creature within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The werewolf makes one attack."
+                    ]
+                }
+            ],
+            "legendaryActions": 2,
+            "traitTags":
+            [
+                "Shapechanger",
+                "Keen Senses",
+                "Legendary Resistances",
+                "Pack Tactics"
+            ],
+            "languageTags":
+            [
+                "C"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/zsOSh2V.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/aZfc6yd.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Werewolf Predator",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "human",
+                    "shapechanger"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 13,
+                    "condition": "in humanoid form"
+                },
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ],
+                    "condition": "in hybrid form"
+                }
+            ],
+            "hp":
+            {
+                "average": 98,
+                "formula": "13d8+39"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 17,
+            "con": 16,
+            "int": 11,
+            "wis": 14,
+            "cha": 15,
+            "save":
+            {
+                "str": "+7",
+                "dex": "+6",
+                "con":" +6"
+            },
+            "skill":
+            {
+                "acrobatics": "+6",
+                "perception": "+5"
+            },
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from weapon attacks that aren't silvered"
+                }
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 15,
+            "languages":
+            [
+                "Common"
+            ],
+            "cr": "8",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "The werewolf can use its action to polymorph into a wolf-humanoid hybrid or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (1/Day)",
+                    "entries":
+                    [
+                        "If the werewolf fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries":
+                    [
+                        "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The werewolf has advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "The werewolf makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage. If the target is a humanoid, they must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
+                    ]
+                },
+                {
+                    "name": "Claws (Hybrid Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Werewolf Predator",
+                "source": "Canbrew"
+            },
+            "legendary":
+            [
+                {
+                    "name": "Leap",
+                    "entries":
+                    [
+                        "The werewolf moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The werewolf makes one attack."
+                    ]
+                }
+            ],
+            "legendaryActions": 1,
+            "traitTags":
+            [
+                "Shapechanger",
+                "Keen Senses",
+                "Legendary Resistances",
+                "Pack Tactics"
+            ],
+            "languageTags":
+            [
+                "C"
+            ],
+            "damageTags":
+            [
+                "S",
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/Rjgee4s.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/tI4EBZd.jpg"
                         }
                     }
                 ]
@@ -4855,11 +6036,11 @@
             "ac":
             [
                 {
-                    "ac": 11,
+                    "ac": 12,
                     "condition": "in humanoid form"
                 },
                 {
-                    "ac": 12,
+                    "ac": 13,
                     "from":
                     [
                         "natural armor"
@@ -4881,14 +6062,21 @@
                 }
             },
             "str": 15,
-            "dex": 13,
+            "dex": 14,
             "con": 14,
             "int": 10,
             "wis": 11,
             "cha": 10,
+            "save":
+            {
+                "str": "+4",
+                "dex": "+3",
+                "con":" +4"
+            },
             "skill":
             {
-                "perception": "+4"
+                "acrobatics": "+3",
+                "perception": "+2"
             },
             "passive": 14,
             "immune":
@@ -4900,7 +6088,7 @@
                         "piercing",
                         "slashing"
                     ],
-                    "note": "from weapons that aren't silvered"
+                    "note": "from weapon attacks that aren't silvered"
                 }
             ],
             "languages":
@@ -4922,6 +6110,13 @@
                     "entries":
                     [
                         "The werewolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics",
+                    "entries":
+                    [
+                        "The werewolf has advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 }
             ],
@@ -4956,28 +6151,35 @@
                     ]
                 }
             ],
-            "environment": [
+            "environment":
+            [
                 "forest",
                 "hill"
             ],
             "hasToken": true,
-            "soundClip": {
+            "soundClip":
+            {
                 "type": "internal",
                 "path": "bestiary/werewolf.mp3"
             },
-            "traitTags": [
+            "traitTags":
+            [
                 "Keen Senses",
-                "Shapechanger"
+                "Shapechanger",
+                "Pack Tactics"
             ],
-            "languageTags": [
+            "languageTags":
+            [
                 "C",
                 "CS"
             ],
-            "damageTags": [
+            "damageTags":
+            [
                 "P",
                 "S"
             ],
-            "miscTags": [
+            "miscTags":
+            [
                 "MW",
                 "RW",
                 "THW"
@@ -8513,7 +9715,7 @@
             }
         },
         {
-            "name": "Raya Emberfist",
+            "name": "Raya Emberstone",
             "size": "M",
             "type":
             {
@@ -8560,7 +9762,8 @@
             "languages":
             [
                 "Common",
-                "Dwarvish"
+                "Dwarvish",
+                "Celestial"
             ],
             "cr": "1",
             "trait":
@@ -8596,7 +9799,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "Raya Emberfist is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Raya Emberfist has the following cleric spells prepared:"
+                        "Raya Emberstone is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Raya Emberstone has the following cleric spells prepared:"
                     ],
                     "spells":
                     {
@@ -8666,7 +9869,7 @@
             [
                 "C",
                 "CE",
-                "CS"
+                "D"
             ],
             "senseTags":
             [
@@ -17372,7 +18575,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The vampire is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The lich has the following wizard spells prepared:"
+                        "The vampire is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The vampire has the following wizard spells prepared:"
                     ],
                     "spells":
                     {
@@ -17733,7 +18936,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The vampire is an 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The lich has the following wizard spells prepared:"
+                        "The vampire is an 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). The vampire has the following wizard spells prepared:"
                     ],
                     "spells":
                     {
@@ -17751,7 +18954,7 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell abzorb elements|XGE}",
+                                "{@spell absorb elements|XGE}",
                                 "{@spell shield|PHB}",
                                 "{@spell zephyr strike|PHB}",
                                 "{@spell detect magic|PHB}"
@@ -18062,7 +19265,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The vampire is an 20th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The lich has the following bard spells prepared:"
+                        "The vampire is an 20th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 21}, {@hit 13} to hit with spell attacks). The vampire has the following bard spells prepared:"
                     ],
                     "spells":
                     {
@@ -21295,6 +22498,347 @@
             }
         },
         {
+            "name": "Anatu",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 16,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 119,
+                "formula": "14d8 + 56"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 18,
+            "int": 17,
+            "wis": 15,
+            "cha": 18,
+            "save":
+            {
+                "dex": "+8",
+                "wis": "+6",
+                "cha": "+8"
+            },
+            "skill":
+            {
+                "perception": "+6",
+                "stealth": "+8"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "immune":
+            [
+                "necrotic"
+            ],
+            "vulnerable":
+            [
+                "raidant"
+            ],
+            "languages":
+            [
+                "the languages it knew in life"
+            ],
+            "cr": "11",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Medium cloud of mist, or back into its true form.",
+                        "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (2/Day)",
+                    "entries":
+                    [
+                        "If the vampire fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Misty Escape",
+                    "entries":
+                    [
+                        "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+                        "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Regeneration",
+                    "entries":
+                    [
+                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries":
+                    [
+                        "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "entries":
+                    [
+                        "The vampire has the following flaws:",
+                        "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants. This flaw isn’t caused by its nature, rather by the accord among vampires.",
+                        "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+                        "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+                        "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack (Vampire Form Only)",
+                    "entries":
+                    [
+                        "The vampire makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Vampire Form Only)",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries":
+                    [
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 16} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Shadows of the Night (1/Day)",
+                    "entries":
+                    [
+                        "The vampire magically summons {@dice 1d4} {@creature shadow mastiff||shadow mastiffs}, provided that the sun isn't up. The called creatures arrive immediately, acting as allies of the vampire and obeying its spoken commands. The creatures remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The vampire is an 11th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The vampire has the following sorcerer spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell booming blade|SCAG}",
+                                "{@spell minor illusion|PHB}",
+                                "{@spell prestidigitation|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell absorb elements|XGE}",
+                                "{@spell color spray|PHB}",
+                                "{@spell mage armor|PHB}",
+                                "{@spell shield|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell blindness/deafness|PHB}",
+                                "{@spell darkness|PHB}",
+                                "{@spell mirror image|PHB}",
+                                "{@spell shadow blade|XGE}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell blink|PHB}",
+                                "{@spell counterspell|PHB}",
+                                "{@spell hypnotic pattern|PHB}",
+                                "{@spell major image|PHB}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell dimension door|PHB}",
+                                "{@spell greater invisibility|PHB}"
+                            ]
+                        },
+                        "5":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell seeming|PHB}",
+                                "{@spell telekinesis|PHB}"
+                            ]
+                        },
+                        "6":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell mental prison|XGE}",
+                                "{@spell psychic crush|UAFRW}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "legendaryActions": 2,
+            "legendary":
+            [
+                {
+                    "name": "Move",
+                    "entries":
+                    [
+                        "The vampire moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The vampire makes one attack."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The vampire makes one bite attack."
+                    ]
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Vampire Master",
+                "source": "Canbrew"
+            },
+            "environment":
+            [
+                "urban"
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Legendary Resistances",
+                "Regeneration",
+                "Shapechanger",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "languageTags":
+            [
+                "LF"
+            ],
+            "damageTags":
+            [
+                "B",
+                "N",
+                "P"
+            ],
+            "spellcastingTags":
+            [
+                "CS"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "conditionInflict":
+            [
+                "charmed"
+            ],
+            "tokenUrl": "https://i.imgur.com/81eOfGp.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/q0b6Bvu.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "name": "Morgomin \"Morgo\" Ilvasta",
             "source": "Canbrew",
             "size": "M",
@@ -21771,7 +23315,7 @@
                                 "{@spell light|PHB}",
                                 "{@spell mage hand|PHB}",
                                 "{@spell shocking grasp|PHB}",
-                                "{@spell thunderclap|PHB}"
+                                "{@spell thunderclap|XGE}"
                             ]
                         },
                         "1":
@@ -21783,7 +23327,7 @@
                                 "{@spell detect magic|PHB}",
                                 "{@spell mage armor|PHB}",
                                 "{@spell magic missile|PHB}",
-                                "{@spell abzorb elements|XGE}",
+                                "{@spell absorb elements|XGE}",
                                 "{@spell shield|PHB}"
                             ]
                         },
@@ -22393,7 +23937,7 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell abzorb elements|XGE}",
+                                "{@spell absorb elements|XGE}",
                                 "{@spell shield|PHB}",
                                 "{@spell find familiar|PHB}",
                                 "{@spell detect magic|PHB}"
@@ -25072,7 +26616,7 @@
 			]
 		},
 		{
-			"name": "Werewolf Chieftain",
+			"name": "Werewolf Predator",
 			"source": "Canbrew",
             "regionalEffects":
             [
@@ -26014,6 +27558,108 @@
                     "common": true,
                     "abyssal": true
                 }
+            ]
+        }
+    ],
+    "spell":
+    [
+        {
+            "name": "Permanency",
+            "source": "Canbrew",
+            "level": 5,
+            "school": "E",
+            "time":
+            [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range":
+            {
+                "type": "special"
+            },
+            "components":
+            {
+                "v": true,
+                "s": true,
+                "r": true,
+                "m":
+                {
+                    "text": "5000 gp per level of the spell being made permanent, which the spell consumes",
+                    "consumed": true
+                }
+            },
+            "duration":
+            [
+                {
+                    "type": "special"
+                }
+            ],
+            "entries":
+            [
+                "Choose a spell and appropriate target(s) from the list below. You must also already know the spell and/or have it prepared in order to choose it. You cas that spell and make it permanent as part of casting permanency, expending spell slots for both. The chosen spell lasts until dispelled (see below) instead of for its normal duration. If a spell would end for a reason other than its duration expiring (such as those listed for {@spell invisibility|PHB} spell) then spell ends as normal.",
+                "You must be of a certain level in your spellcasting class to make certain spells permanent. The minimum spellcaster level to make a spell permanent is equal to 8 + the spell's elvel. For example, you must be at least an 11th-level spellcaster to make the {@spell tongues|PHB} spell permanent.",
+                "Different spells have different allowable targets, either yourself, another willing creature, an object, an area, or some combination of those. Allowable targets for each spell are shown below",
+                "If the target affected by the permanent spell is targeted with a successful {@spell dispel magic|PHB} spell, the effect is suppressed for 24 hours, rather than being permanently dispelled. If the effect is dispelled every day 30 days, it is permanently dispelled. An affected target entering an {@spell antimagic field|PHB} has the ability suppressed as if it were one originating from a magic item.",
+                {
+                    "name": "Self Only",
+                    "type": "list",
+                    "items":
+                    [
+                        "{@spell comprehend languages|PHB}, {@spell detect magic|PHB}, {@spell expeditious retreat|PHB}, {@spell alter self|PHB}, {@spell see invisibility|PHB}, {@spell fly|PHB}, {@spell tongues|PHB}, {@spell true seeing|PHB}"
+                    ]
+                },
+                {
+                    "name": "Self or Other",
+                    "type": "list",
+                    "items":
+                    [
+                        "{@spell barkskin|PHB}, {@spell darkvision|PHB}, {@spell enlarge/reduce|PHB}, {@spell spider climb|PHB}, {@spell stoneskin|PHB}, {@spell rary's telepathic bond|PHB}"
+                    ]
+                },
+                {
+                    "name": "Self, Other, or Object",
+                    "type": "list",
+                    "items":
+                    [
+                        "{@spell invisibility|PHB}, {@spell nondetection|PHB}"
+                    ]
+                },
+                {
+                    "name": "Object Only",
+                    "type": "list",
+                    "items":
+                    [
+                        "{@spell illusory script|PHB}, {@spell magic weapon|PHB}, {@spell elemental weapon|PHB}, {@spell animate objects|PHB}"
+                    ]
+                },
+                {
+                    "name": "Area",
+                    "type": "list",
+                    "items":
+                    [
+                        "{@spell alarm|PHB}, {@spell fog cloud|PHB}, {@spell web|PHB}, {@spell stinking cloud|PHB}, {@spell wall of fire|PHB}, {@spell wall of force|PHB}, {@spell wall of stone|PHB}, {@spell arcane gate|PHB}, {@spell wall of thorns|PHB}, {@spell reverse gravity|PHB}, {@spell antimagic field|PHB}, {@spell prismatic wall|PHB}"
+                    ]
+                }
+            ],
+            "classes":
+            {
+                "fromClassList":
+                [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "ERLW"
+                    }
+                ]
+            },
+            "miscTags":
+            [
+                "PRM"
             ]
         }
     ]
