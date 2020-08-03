@@ -30,7 +30,7 @@
             "dmgType": "R",
             "attachedSpells":
             [
-                "Guiding Bolt"
+                "guiding bolt|PHB"
             ],
             "reqAttune": true,
             "property":
@@ -594,7 +594,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Shocking Grasp"
+                "shocking grasp|PHB"
             ],
             "property":
             [
@@ -729,7 +729,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Ensnaring Strike"
+                "ensnaring strike|PHB"
             ],
             "property":
             [
@@ -1390,7 +1390,7 @@
             "rarity": "Uncommon",
             "attachedSpells":
             [
-                "Control Weather"
+                "control weather|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -1432,7 +1432,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Mirror Image"
+                "mirror image|PHB"
             ],
             "curse": true,
             "property":
@@ -1652,8 +1652,8 @@
             "dmgType": "B",
             "attachedSpells":
             [
-                "Sacred Flame",
-                "Vicious Mockery"
+                "sacred flame|PHB",
+                "vicious mockery|PHB"
             ],
             "reqAttune": true,
             "property":
@@ -1799,7 +1799,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Erupting Earth"
+                "erupting earth|XGE"
             ],
             "property":
             [
@@ -2228,7 +2228,7 @@
             "source": "Canbrew",
             "attachedSpells":
             [
-                "Shield"
+                "shield|PHB"
             ],
             "entries":
             [
@@ -2247,7 +2247,7 @@
             "source": "Canbrew",
             "attachedSpells":
             [
-                "Identify"
+                "identify|PHB"
             ],
             "entries":
             [
@@ -2272,7 +2272,7 @@
             "source": "Canbrew",
             "attachedSpells":
             [
-                "Wall of Fire"
+                "wall of fire|PHB"
             ],
             "entries":
             [
@@ -2544,7 +2544,7 @@
             "rarity": "Uncommon",
             "attachedSpells":
             [
-                "Nondetection"
+                "nondetection|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -2599,7 +2599,7 @@
             "curse": true,
             "attachedSpells":
             [
-                "Banishment"
+                "banishment|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -2623,7 +2623,7 @@
             "rarity": "Uncommon",
             "attachedSpells":
             [
-                "Mage Hand"
+                "mage hand|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -2762,7 +2762,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Charm Person"
+                "charm person|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -3002,7 +3002,7 @@
             "source": "Canbrew",
             "attachedSpells":
             [
-                "Haste"
+                "haste|PHB"
             ],
             "entries":
             [
@@ -3131,7 +3131,7 @@
             "curse": true,
             "attachedSpells":
             [
-                "Find Familiar"
+                "find familiar|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -3187,7 +3187,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Thunderclap"
+                "thunderclap|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -3228,11 +3228,11 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Create Bonfire",
-                "Dancing Lights",
-                "Mending",
-                "Prestidigitation",
-                "Alarm"
+                "create bonfire|XGE",
+                "dancing lights|PHB",
+                "mending|PHB",
+                "prestidigitation|PHB",
+                "alarm|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -3285,7 +3285,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Magic Missile"
+                "magic missile|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -3300,7 +3300,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Light"
+                "light|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -3319,7 +3319,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Healing Word"
+                "healing word|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -3359,7 +3359,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Call Lightning"
+                "call lightning|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -3617,8 +3617,8 @@
             "source": "Canbrew",
             "attachedSpells":
             [
-                "Identify",
-                "Legend Lore"
+                "identify|PHB",
+                "legend lore|PHB"
             ],
             "entries":
             [
@@ -3702,7 +3702,7 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Identify"
+                "identify|PHB"
             ],
             "source": "Canbrew",
             "entries":
@@ -24907,7 +24907,7 @@
                     ]
                 },
                 {
-                    "name": "Longsword (Vampire Form Only)",
+                    "name": "Silvered Longsword (Vampire Form Only)",
                     "entries":
                     [
                         "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage."
