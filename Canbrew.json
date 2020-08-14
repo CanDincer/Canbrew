@@ -402,7 +402,7 @@
             [
                 "L",
                 "F"
-          ],
+            ],
             "rarity": "Artifact",
             "source": "Canbrew",
             "entries":
@@ -557,8 +557,89 @@
                 },
                 {
                     "type": "quote",
-                    "entries": [
+                    "entries":
+                    [
                         "Unchain this creature to let it run its natural course and devour the plane, again!"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Marks of the Horsemen (ogd)",
+            "tattoo": true,
+            "reqAttune": "true",
+            "curse": true,
+            "rarity": "Artifact",
+            "source": "Canbrew",
+            "entries":
+            [
+                "You can activate the tattoo using a bonus action. Its effect lasts until the start of your next turn.",
+                {
+                    "type": "entries",
+                    "name": "Conquest",
+                    "entries":
+                    [
+                        "blablabla",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "You unleash a commanding presence. Any creatures of your choice within 60 feet of you must make a Wisdom saving throw or be {@condition charmed} by you. DC for this effect is calculated from your Charisma score. "
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "War",
+                    "entries":
+                    [
+                        "blablabla",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "All your weapon attacks automatically hit.",
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Femine",
+                    "entries":
+                    [
+                        "blablabla",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "bla bla bla..."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Death",
+                    "entries":
+                    [
+                        "blablabla",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "For the duration of the effect, death is your slave. You are immune to all damage."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "quote",
+                    "entries":
+                    [
+                        "bla bla bla..."
                     ]
                 }
             ]
@@ -4919,6 +5000,10 @@
                     ],
                     "note": "from weapon attacks that aren't silvered"
                 }
+            ],
+            "resist":
+            [
+                "cold"
             ],
             "conditionImmune":
             [
@@ -26904,6 +26989,14 @@
                     ]
                 },
                 {
+                    "type": "entries",
+                    "name": "Sustained Metabolism",
+                    "entries":
+                    [
+                        "You can hold your breath for 1 hour plus 15 minutes for each constitution modifier points you have. You can expend a point from your blood pool to decrease your hunger for food for a day."
+                    ]
+                },
+                {
                     "name": "Darkvision",
                     "entries":
                     [
@@ -26964,7 +27057,7 @@
                                     "name": "Starving",
                                     "entries":
                                     [
-                                        "You have a blood pool of 10 of which you lose 1 every day. If it drops to 5, you have 1 extra level of exhaustion. If it drops to 3, you have 2 extra levels of exhaustion. If it drops to 1, you have 3 extra levels of exhaustion. At 5 points or below, you are considered starving. Each time you deal necrotic damage to a creature by drinking its blood, you regain one point of your blood pool. You can expend a point from your blood pool to decrease your hunger for food for a day."
+                                        "You have a blood pool of 10 of which you lose 1 every day. If it drops to 5, you have 1 extra level of exhaustion. If it drops to 3, you have 2 extra levels of exhaustion. If it drops to 1, you have 3 extra levels of exhaustion. At 5 points or below, you are considered starving. Each time you deal necrotic damage to a creature by drinking its blood, you regain one point of your blood pool."
                                     ],
                                     "type": "entries"
                                 }
