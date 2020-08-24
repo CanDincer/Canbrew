@@ -3121,8 +3121,8 @@
             "source": "Canbrew",
             "entries":
             [
-                "This bottle of thick red wine is miraculously made from magical goodberries and peonies using a closely-kept family recipe. It tastes fruity and floral, with notes of honey and the feeling of a fresh breeze, and is deeply rejuvenating. The bottle comes with 7 servings of the syrupy potion. A serving takes 1 minute to drink.",
-                "When you drink this wine, you can regain hit points by spending one Hit Die per shot, as if you'd finished a short rest."
+                "This bottle of thick red wine is miraculously made from magical goodberries and peonies using a closely-kept family recipe. It tastes fruity and floral, with notes of honey and the feeling of a fresh breeze, and is deeply rejuvenating. The bottle comes with 7 shots of the syrupy potion. A shot takes 1 minute to take effect.",
+                "When you drink this wine, you can regain hit points by spending one Hit Die per shot."
             ],
             "fluff":
             {
@@ -3284,7 +3284,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A full plate helmet without any openings. While you are wearing it, you are blinded, deafened, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Truesight. Provides resistance to psychic damage, {@spell charm person|PHB} and {@spell sleep|PHB}."
+                "A full plate helmet without any openings. While you are wearing it, you are blinded, deafened, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Blindsight. Provides resistance to psychic damage and you have advantage on saving throws against being  {@condition charmed} and any magical effect that puts you to sleep."
             ]
         },
         {
@@ -3762,7 +3762,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "This book is written in elder language and belongs to an over eight thousand year lineage of Mage Guardians, magically enhanced Eldritch Knights, Magi. They have been accompanying archmages for generations. When there are no archmages to protect and serve, they are sent into hibernation. Only the aura of a powerful mage can wake them up.",
+                "This book is written in elder language and belongs to an over eight thousand year lineage of Mage Guardians, magically enhanced Eldritch Knights. They have been accompanying archmages for generations. When there are no archmages to protect and serve, they are sent into hibernation. Only the aura of a powerful mage can wake them up.",
                 "The book has one purpose, passing ancestral knowledge and power of the guardians along. At least 14 Intelligence is required to understand it. Once you read this book, what you can make up of it grants you:",
                 {
                     "type": "list",
