@@ -40,7 +40,7 @@
                 "H"
             ],
             "range": "150/600",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "source": "Canbrew",
             "entries":
             [
@@ -64,7 +64,7 @@
                 "2H"
              ],
             "range": "150/600",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -88,7 +88,7 @@
                 "2H"
              ],
             "range": "150/600",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -132,7 +132,7 @@
                 "2H"
             ],
             "range": "150/600",
-            "rarity": "Common",
+            "rarity": "common",
             "source": "Canbrew",
             "entries":
             [
@@ -155,7 +155,7 @@
                 "2H"
             ],
             "range": "150/600",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -179,11 +179,11 @@
                 "LD"
             ],
             "range": "100/400",
-            "rarity": "Common",
+            "rarity": "common",
             "source": "Canbrew",
             "entries":
             [
-                "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack rolls. You can either deploy the Bastilla on a half cover sized object or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack rolls have -3 while moving with the standout."
+                "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack and damage rolls. You can either deploy the Bastilla on a half cover sized object or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack and damage rolls have -3 while moving with the standout."
             ]
         },
         {
@@ -203,7 +203,7 @@
                 "LD"
             ],
             "range": "100/400",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -236,7 +236,7 @@
                 "LD"
             ],
             "range": "30/120",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -251,7 +251,7 @@
             "type": "G",
             "weight": "1",
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -276,7 +276,7 @@
                 "T"
             ],
             "range": "20/60",
-            "rarity": "Artifact",
+            "rarity": "artifact",
             "source": "Canbrew",
             "entries":
             [
@@ -333,7 +333,7 @@
                 "T"
             ],
             "range": "20/60",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -356,7 +356,7 @@
                 "T"
             ],
             "range": "20/60",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -400,7 +400,7 @@
                 "L",
                 "F"
             ],
-            "rarity": "Artifact",
+            "rarity": "artifact",
             "source": "Canbrew",
             "entries":
             [
@@ -566,7 +566,7 @@
             "tattoo": true,
             "reqAttune": "true",
             "curse": true,
-            "rarity": "Artifact",
+            "rarity": "artifact",
             "source": "Canbrew",
             "entries":
             [
@@ -655,7 +655,7 @@
                 "H",
                 "2H"
             ],
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -680,7 +680,7 @@
                 "L",
                 "LD"
             ],
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -700,7 +700,7 @@
                 "F",
                 "L"
             ],
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -711,7 +711,7 @@
             "name": "Spellscripter's Brace",
             "weight": 1,
             "reqAttune": "by a Wizard",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -724,7 +724,7 @@
             "name": "Glove of Storing",
             "weight": 1,
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -742,7 +742,7 @@
             [
                 "L"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "range": "10/15",
             "entries":
@@ -765,7 +765,7 @@
             [
                 "L"
             ],
-            "rarity": "Common",
+            "rarity": "common",
             "source": "Canbrew",
             "entries":
             [
@@ -789,7 +789,7 @@
             "dmg1": "1d8",
             "dmgType": "P",
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -817,7 +817,7 @@
                 "S"
             ],
             "range": "20/60",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -848,7 +848,7 @@
                 "T"
             ],
             "range": "20/60",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -870,7 +870,7 @@
                 "T"
             ],
             "range": "20/60",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -923,7 +923,7 @@
             [
                 "F"
             ],
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
@@ -947,7 +947,7 @@
                 "2H"
             ],
             "range": "80/320",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -970,7 +970,7 @@
             [
                 "V"
             ],
-            "rarity": "Common",
+            "rarity": "common",
             "source": "Canbrew",
             "entries":
             [
@@ -991,7 +991,7 @@
             [
                 "V"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1021,7 +1021,7 @@
             "type": "RD",
             "weight": 2,
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "charges": 1,
             "source": "Canbrew",
             "entries":
@@ -1047,7 +1047,7 @@
             [
                 "V"
             ],
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -1068,7 +1068,7 @@
                 "F",
                 "R"
             ],
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -1093,7 +1093,7 @@
                 "2H",
                 "S"
             ],
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "source": "Canbrew",
             "entries":
             [
@@ -1143,7 +1143,7 @@
                 "T"
             ],
             "range": "20/60",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1167,7 +1167,7 @@
                 "T"
             ],
             "range": "20/60",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1188,7 +1188,7 @@
                 "H",
                 "2H"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1210,7 +1210,7 @@
                 "F",
                 "V"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1234,7 +1234,7 @@
                 "LD",
                 "2H"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "range":"25/100",
             "source": "Canbrew",
             "entries":
@@ -1258,7 +1258,7 @@
                 "T",
                 "V"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1281,7 +1281,7 @@
                 "T",
                 "V"
             ],
-            "rarity": "Common",
+            "rarity": "common",
             "source": "Canbrew",
             "entries":
             [
@@ -1303,7 +1303,7 @@
                 "2H"
             ],
             "range": "150/600",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1329,7 +1329,7 @@
                 "T"
             ],
             "range": "15",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1361,7 +1361,7 @@
                 "2H"
             ],
             "range": "150/600",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1378,7 +1378,7 @@
             "dmgType": "B",
             "reqAttune": true,
             "charges": 5,
-            "rarity": "Common",
+            "rarity": "common",
             "source": "Canbrew",
             "entries":
             [
@@ -1396,7 +1396,7 @@
             "dmg1": "1d8",
             "dmgType": "B",
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1419,7 +1419,7 @@
                 "2H"
             ],
             "range": "150/600",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1442,7 +1442,7 @@
             ],
             "range": "80/320",
             "charges": 1,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1465,7 +1465,7 @@
                 "2H"
             ],
             "range": "80/320",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "attachedSpells":
             [
                 "control weather|PHB"
@@ -1492,7 +1492,7 @@
             ],
             "range": "80/320",
             "charges": 3,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1518,7 +1518,7 @@
                 "F",
                 "L"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1547,7 +1547,7 @@
                 "F",
                 "L"
             ],
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1570,7 +1570,7 @@
                 "F",
                 "L"
             ],
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -1647,7 +1647,7 @@
                 "F",
                 "L"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1668,7 +1668,7 @@
             [
                 "L"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1689,7 +1689,7 @@
                 "A"
             ],
             "range": "30/120",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "source": "Canbrew",
             "entries":
             [
@@ -1711,7 +1711,7 @@
                 "LD"
             ],
             "range": "25/100",
-            "rarity": "Artifact",
+            "rarity": "artifact",
             "source": "Canbrew",
             "entries":
             [
@@ -1738,7 +1738,7 @@
             [
                 "V"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1758,21 +1758,19 @@
             [
                 "2H" 
             ],
-            "rarity": "Rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
                 "This silver sword belonged to Agr'waendil, the worldwide champion of arenas, a peerles elf-goliath woman.",
-                "When you're holding this weapon with two hands and make an attack with it, choose any target within 5 feet, and it takes {@damage 1d6} slashing damage. This damage is considered magical in purpose of overcoming resistances.",
+                "When you're holding this weapon with two hands and make an attack with it, choose any target within 5 feet, and it takes {@damage 1d10} psychic damage.",
                 {
                     "type": "entries",
                     "name": "Curse",
                     "entries":
                     [
-                        "Agr'waendil was killed iniquitously and she craves revenge. When you attune to this item, your mind is driven by vengeance.",
-                        "If you can sate her vengeance, the extra damage increases to as many {@damage d4} dice as your proficiency bonus.",
-                        "When you witness an unjust death, make an Intelligence saving throw. On a fail, your are bound to avenge them.",
-                        ""
+                        "Agr'waendil was killed iniquitously and she craves revenge. When you attune to this item, your mind is driven by vengeance. For you vengeance is justice.",
+                        "If you can sate her vengeance, the extra damage increases to as many {@damage d4} dice as your proficiency bonus."
                     ]
                 },
                 {
@@ -1820,7 +1818,7 @@
                 "F",
                 "L"
             ],
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1841,7 +1839,7 @@
                 "F",
                 "L"
             ],
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -1884,7 +1882,7 @@
                 "V"
             ],
             "charges": 5,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1907,7 +1905,7 @@
                 "2H"
             ],
             "charges": 2,
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1942,7 +1940,7 @@
                 "F"
             ],
             "charges": 10,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -1984,7 +1982,7 @@
                 "V"
             ],
             "range": "20/60",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "source": "Canbrew",
             "entries":
             [
@@ -2008,7 +2006,7 @@
                 "V"
             ],
             "range": "20/60",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2033,7 +2031,7 @@
                 "V"
             ],
             "range": "20/60",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "source": "Canbrew",
             "entries":
             [
@@ -2055,7 +2053,7 @@
                 "H",
                 "2H"
             ],
-            "rarity": "Artifact",
+            "rarity": "artifact",
             "source": "Canbrew",
             "entries":
             [
@@ -2074,7 +2072,7 @@
             "ac": 14,
             "reqAttune": true,
             "stealth": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2089,7 +2087,7 @@
             "weight": 12,
             "ac": 12,
             "reqAttune": true,
-            "rarity": "Common",
+            "rarity": "common",
             "source": "Canbrew",
             "entries":
             [
@@ -2108,7 +2106,7 @@
             "reqAttune": true,
             "curse": true,
             "stealth": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2133,7 +2131,7 @@
             "ac": 18,
             "reqAttune": true,
             "stealth": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2153,7 +2151,7 @@
             "ac": 18,
             "reqAttune": true,
             "stealth": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2170,7 +2168,7 @@
             "weight": 12,
             "ac": 12,
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2185,7 +2183,7 @@
             "weight": 20,
             "ac": 15,
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2200,7 +2198,7 @@
             "weight": 10,
             "ac": 14,
             "reqAttune": true,
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2215,7 +2213,7 @@
             "weight": 10,
             "ac": 13,
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2231,7 +2229,7 @@
             "ac": 15,
             "reqAttune": true,
             "stealth": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2246,7 +2244,7 @@
             "weight": 13,
             "ac": 12,
             "reqAttune": true,
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2262,7 +2260,7 @@
             "ac": 18,
             "reqAttune": true,
             "stealth": true,
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2287,7 +2285,7 @@
             "ac": 18,
             "reqAttune": true,
             "stealth": true,
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2302,7 +2300,7 @@
             "ac": 2,
             "charges": 2,
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "attachedSpells":
             [
@@ -2321,7 +2319,7 @@
             "ac": 2,
             "charges": 2,
             "reqAttune": "by a Cleric or a Paladin",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "attachedSpells":
             [
@@ -2346,7 +2344,7 @@
             "bonus": "+2",
             "charges": 4,
             "reqAttune": true,
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "source": "Canbrew",
             "attachedSpells":
             [
@@ -2384,7 +2382,7 @@
             "ac": 2,
             "charges": 3,
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2401,7 +2399,7 @@
             "weight": 1,
             "ac": 2,
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2415,7 +2413,7 @@
             "weight": 6,
             "ac": 2,
             "reqAttune": true,
-            "rarity": "Common",
+            "rarity": "common",
             "source": "Canbrew",
             "entries":
             [
@@ -2431,7 +2429,7 @@
             "ac": 2,
             "charges": 5,
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2465,7 +2463,7 @@
             "weight": 6,
             "ac": 2,
             "reqAttune": true,
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2479,7 +2477,7 @@
             "weight": 6,
             "ac": 2,
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2494,7 +2492,7 @@
             "weight": 6,
             "ac": 2,
             "reqAttune": true,
-            "rarity": "Artifact",
+            "rarity": "artifact",
             "source": "Canbrew",
             "entries":
             [
@@ -2506,7 +2504,7 @@
             "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Common",
+            "rarity": "common",
             "source": "Canbrew",
             "entries":
             [
@@ -2518,7 +2516,7 @@
             "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2530,7 +2528,7 @@
             "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2542,7 +2540,7 @@
             "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2554,7 +2552,7 @@
             "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2566,7 +2564,7 @@
             "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2579,11 +2577,11 @@
             "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
-                "if it hits on a surprise round it casts Sleep on that target."
+                "if it hits on a surprise round it casts {@spell sleep|PHB} on that target."
             ]
         },
         {
@@ -2591,7 +2589,7 @@
             "baseItem": "Arrow|PHB",
             "type": "A",
             "weight": 0.05,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2607,7 +2605,7 @@
             "weight": 0.05,
             "reqAttune": true,
             "bonus": "+2",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "source": "Canbrew",
             "entries":
             [
@@ -2619,7 +2617,7 @@
             "name": "What Ring?",
             "type": "RG",
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "attachedSpells":
             [
                 "nondetection|PHB"
@@ -2635,7 +2633,7 @@
             "name": "Ring of Entrance",
             "type": "RG",
             "reqAttune": true,
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "charges": 3,
             "source": "Canbrew",
             "entries":
@@ -2651,7 +2649,7 @@
             "name": "Ring of the Mimic",
             "type": "RG",
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2662,7 +2660,7 @@
             "name": "Ring of Shark Detection",
             "type": "RG",
             "reqAttune": true,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "source": "Canbrew",
             "entries":
             [
@@ -2673,7 +2671,7 @@
             "name": "Exile's Ring",
             "type": "RG",
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "curse": true,
             "attachedSpells":
             [
@@ -2698,7 +2696,7 @@
             "name": "Ring of Greater Mage Hand",
             "type": "RG",
             "reqAttune": "by a spellcaster",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "attachedSpells":
             [
                 "mage hand|PHB"
@@ -2744,7 +2742,7 @@
             "name": "Ring of Entropy",
             "type": "RG",
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2755,7 +2753,7 @@
             "name": "Ring of Elementalist (Fire)",
             "type": "RG",
             "reqAttune": true,
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "attachedSpells":
             [
                 "fire bolt|PHB",
@@ -2781,7 +2779,7 @@
             "name": "Heart of Hydra",
             "type": "RG",
             "reqAttune": true,
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2791,7 +2789,7 @@
         {
             "name": "Seal of Gal'badur",
             "type": "RG",
-            "rarity": "Rare",
+            "rarity": "rare",
             "source": "Canbrew",
             "entries":
             [
@@ -2802,7 +2800,7 @@
             "name": "Ring of Alucard",
             "type": "RG",
             "reqAttune": true,
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "charges": 10,
             "source": "Canbrew",
             "entries":
@@ -2812,8 +2810,8 @@
             ]
         },
         {
-            "name": "Bands of Amend",
-            "rarity": "Uncommon",
+            "name": "Bands of Amendment",
+            "rarity": "uncommon",
             "weight": 1,
             "source": "Canbrew",
             "entries":
@@ -2826,7 +2824,7 @@
         },
         {
             "name": "Band of Atonement",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.5,
             "curse": true,
             "reqAttune": "by a Creature of Chaotic Alignment",
@@ -2861,7 +2859,7 @@
         },
         {
             "name": "Mask of Confidence",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "weight": 0.5,
             "reqAttune": true,
             "attachedSpells":
@@ -2876,7 +2874,7 @@
         },
         {
             "name": "Mask of the Pact Bearer",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "weight": 0.5,
             "reqAttune": "by a Warlock",
             "source": "Canbrew",
@@ -2887,7 +2885,7 @@
         },
         {
             "name": "Dancing Shoes",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "weight": 1,
             "reqAttune": true,
             "source": "Canbrew",
@@ -2901,7 +2899,7 @@
             "name": "Achilles' Heal",
             "charges": 3,
             "weight": 1,
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "reqAttune": true,
             "source": "Canbrew",
             "entries":
@@ -2912,7 +2910,7 @@
         },
         {
             "name": "Babel’s Ornament",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.05,
             "reqAttune": true,
             "curse": true,
@@ -2932,7 +2930,7 @@
         },
         {
             "name": "Belt of the Last Man",
-            "rarity": "Rare",
+            "rarity": "rare",
             "reqAttune": true,
             "source": "Canbrew",
             "entries":
@@ -2942,7 +2940,7 @@
         },
         {
             "name": "Mirror of Imprisonment (ogd, too op, too boring, can be salvaged)",
-            "rarity": "Artifact",
+            "rarity": "artifact",
             "weight": 0.5,
             "reqAttune": true,
             "curse": true,
@@ -2986,7 +2984,7 @@
         },
         {
             "name": "Chalice of Hestia",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.5,
             "reqAttune": true,
             "curse": true,
@@ -3009,7 +3007,7 @@
         },
         {
             "name": "Cloak of the Matador",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 2,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3020,7 +3018,7 @@
         },
         {
             "name": "Mantle of Misfortune",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 2,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3031,7 +3029,7 @@
         },
         {
             "name": "Ratskin Cape",
-            "rarity": "Common",
+            "rarity": "common",
             "weight": 4,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3044,7 +3042,7 @@
         },
         {
             "name": "Pouch of Replenishment",
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "weight": 0.5,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3056,7 +3054,7 @@
         },
         {
             "name": "Goblin's Gourd",
-            "rarity": "Common",
+            "rarity": "common",
             "type": "P",
             "weight": 0.5,
             "reqAttune": true,
@@ -3088,7 +3086,7 @@
         },
         {
             "name": "Potion of Shadow Form",
-            "rarity": "Rare",
+            "rarity": "rare",
             "type": "P",
             "weight": 0.5,
             "source": "Canbrew",
@@ -3100,7 +3098,7 @@
         },
         {
             "name": "Hemoeus Injector",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "type": "P",
             "weight": 0.5,
             "source": "Canbrew",
@@ -3138,7 +3136,7 @@
         },
         {
             "name": "Aged Goodberry Wine",
-            "rarity": "Common",
+            "rarity": "common",
             "type": "P",
             "weight": 2,
             "source": "Canbrew",
@@ -3164,7 +3162,7 @@
         },
         {
             "name": "Potion of Minor Errands",
-            "rarity": "Rare",
+            "rarity": "rare",
             "type": "P",
             "weight": 0.5,
             "source": "Canbrew",
@@ -3176,7 +3174,7 @@
         },
         {
             "name": "Potion of Low-light Vision",
-            "rarity": "Common",
+            "rarity": "common",
             "type": "P",
             "weight": 0.5,
             "source": "Canbrew",
@@ -3188,7 +3186,7 @@
         },
         {
             "name": "Kraken Blood",
-            "rarity": "Rare",
+            "rarity": "rare",
             "type": "P",
             "weight": 0.5,
             "source": "Canbrew",
@@ -3202,7 +3200,7 @@
         },
         {
             "name": "Eldritch Scarf",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.5,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3216,7 +3214,7 @@
         },
         {
             "name": "Belt of Returning",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.5,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3229,7 +3227,7 @@
         },
         {
             "name": "Eye of the Fiendlord ogd",
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "weight": 0.05,
             "reqAttune": true,
             "curse": true,
@@ -3264,7 +3262,7 @@
         },
         {
             "name": "Red Claw's Regalia ogd",
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "weight": 3,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3286,7 +3284,7 @@
         },
         {
             "name": "Wrath of Zeus",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "weight": 1,
             "reqAttune": true,
             "attachedSpells":
@@ -3301,7 +3299,7 @@
         },
         {
             "name": "Mage Guardian's Helm",
-            "rarity": "Artifact",
+            "rarity": "artifact",
             "weight": 6,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3312,7 +3310,7 @@
         },
         {
             "name": "Webgrip Rucksack",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "weight": 3,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3325,7 +3323,7 @@
         },
         {
             "name": "Swiss Army Wand",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "type": "WD",
             "weight": 1,
             "charges": 10,
@@ -3382,7 +3380,7 @@
         },
         {
             "name": "Wand of Magic Missiles",
-            "rarity": "Rare",
+            "rarity": "rare",
             "type": "WD",
             "weight": 1,
             "charges": 7,
@@ -3399,7 +3397,7 @@
         },
         {
             "name": "Clockwork Faefly",
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "weight": 0.05,
             "reqAttune": true,
             "attachedSpells":
@@ -3417,7 +3415,7 @@
         },
         {
             "name": "Clockwork Healerbee",
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "weight": 0.05,
             "charges": 8,
             "reqAttune": true,
@@ -3435,7 +3433,7 @@
         },
         {
             "name": "All-In Coin",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3446,7 +3444,7 @@
         },
         {
             "name": "Blessed Coin",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3457,7 +3455,7 @@
         },
         {
             "name": "Hymn of Zeus",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 1,
             "charges": 1,
             "reqAttune": true,
@@ -3473,7 +3471,7 @@
         },
         {
             "name": "Opus of Poseidon",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "weight": 1,
             "charges": 8,
             "reqAttune": true,
@@ -3551,7 +3549,7 @@
         },
         {
             "name": "Wand of Secrets",
-            "rarity": "Rare",
+            "rarity": "rare",
             "type": "WD",
             "weight": 1,
             "charges": 3,
@@ -3564,7 +3562,7 @@
         },
         {
             "name": "Whistle of the Meadow Genie",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3583,7 +3581,7 @@
         },
         {
             "name": "Sheath of Bond",
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "weight": 1,
             "source": "Canbrew",
             "entries":
@@ -3595,7 +3593,7 @@
         },
         {
             "name": "Archmage Krylles’ Instant Campsite",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 4,
             "charges": 1,
             "source": "Canbrew",
@@ -3605,8 +3603,8 @@
             ]
         },
         {
-            "name": "Consolation Medallion",
-            "rarity": "Common",
+            "name": "Medallion of Silver Linings",
+            "rarity": "common",
             "weight": 0.5,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3614,12 +3612,12 @@
             "entries":
             [
                 "A bronze medallion with red and white strap.",
-                "You can expend any number of charges it has to increase your roll by that much. It recharges 1 charge when you roll 1 on a die up to 20 charges."
+                "You can expend any number of charges it has to increase your roll by that much. You must decide the number of charges you want to use before making the roll. It recharges 1 charge when you roll 1 on a die up to 20 charges."
             ]
         },
         {
             "name": "Blood Pact Pendants",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3631,7 +3629,7 @@
         },
         {
             "name": "Golden Scarab Pendant",
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "weight": 0.05,
             "reqAttune": "by multiple people",
             "source": "Canbrew",
@@ -3653,7 +3651,7 @@
         },
         {
             "name": "Iuz Stone",
-            "rarity": "Artifact",
+            "rarity": "artifact",
             "weight": 0.05,
             "source": "Canbrew",
             "entries":
@@ -3690,7 +3688,7 @@
         },
         {
             "name": "Liquid Focus",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
@@ -3702,7 +3700,7 @@
         },
         {
             "name": "Accelerator Gem ogd",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
@@ -3714,7 +3712,7 @@
         },
         {
             "name": "Academic Focus",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
@@ -3731,7 +3729,7 @@
         },
         {
             "name": "Adamantine Focus",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
@@ -3743,7 +3741,7 @@
         },
         {
             "name": "Pearl Focus",
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "type": "SCF",
             "weight": 0.05,
             "reqAttune": true,
@@ -3755,7 +3753,7 @@
         },
         {
             "name": "Horadric Cube ogd",
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "weight": 0.5,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3769,7 +3767,7 @@
         },
         {
             "name": "Instant Trap Tube",
-            "rarity": "Very Rare",
+            "rarity": "very rare",
             "weight": 1,
             "source": "Canbrew",
             "entries":
@@ -3779,7 +3777,7 @@
         },
         {
             "name": "Tome of Mage Guardian",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 1,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3801,7 +3799,7 @@
         },
         {
             "name": "Identifier Machine",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "weight": 62,
             "reqAttune": true,
             "attachedSpells":
@@ -3817,7 +3815,7 @@
         },
         {
             "name": "Beggar's Delight",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "weight": 0.05,
             "source": "Canbrew",
             "entries":
@@ -3828,7 +3826,7 @@
         },
         {
             "name": "Rat Statuette",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 1,
             "curse": true,
             "source": "Canbrew",
@@ -3852,7 +3850,7 @@
         },
         {
             "name": "Azuth Pearl Earring",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.5,
             "reqAttune": "by a spellcaster with a limited number of spells known",
             "source": "Canbrew",
@@ -3866,7 +3864,7 @@
         },
         {
             "name": "Earring of Whispers",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 0.05,
             "reqAttune": true,
             "source": "Canbrew",
@@ -3887,7 +3885,7 @@
         },
         {
             "name": "Brass Centipede",
-            "rarity": "Rare",
+            "rarity": "rare",
             "weight": 2,
             "curse": true,
             "reqAttune": true,
@@ -3908,7 +3906,7 @@
         },
         {
             "name": "Companion Coin",
-            "rarity": "Uncommon",
+            "rarity": "uncommon",
             "weight": 0.1,
             "source": "Canbrew",
             "entries":
@@ -3928,7 +3926,7 @@
         {
             "name": "Horn of Vulgrim",
             "weight": 2,
-            "rarity": "Legendary",
+            "rarity": "legendary",
             "source": "Canbrew",
             "entries":
             [
