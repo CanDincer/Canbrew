@@ -3945,6 +3945,29 @@
             ]
         },
         {
+            "name": "Insignia of Vigilance",
+            "rarity": "Rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "A dark, palm sized, brass pebble with depictions of an angel with bat wings, dragging monsters into the abyss. It doubles as a {@item sending stones|DMG|sending stone}."
+            ],
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/iDiFbHk.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "name": "Skinner's Tools",
             "source": "Canbrew",
             "type": "T",
