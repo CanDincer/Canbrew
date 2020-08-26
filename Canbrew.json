@@ -6330,6 +6330,215 @@
             }
         },
         {
+            "name": "Angel of Dusk",
+            "size": "M",
+            "type": "humanoid",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 247,
+                "formula": "26d8+130"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 40
+            },
+            "str": 10,
+            "dex": 11,
+            "con": 20,
+            "int": 9,
+            "wis": 8,
+            "cha": 20,
+            "save":
+            {
+                "con": "+8",
+                "cha": "+10"
+            },
+            "skill":
+            {
+                "insight": "+4",
+                "perception": "+4"
+            },
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from weapon attacks that aren't silvered"
+                }
+            ],
+            "conditionImmune":
+            [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "senses":
+            [
+                "truesight 120 ft."
+            ],
+            "passive": 14,
+            "languages":
+            [
+                "Celestial",
+                "telepathy 120 ft."
+            ],
+            "cr": "13",
+            "trait":
+            [
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If the angel of dusk fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Angelic Weapons",
+                    "entries":
+                    [
+                        "The angel of dusk's weapon attacks are magical. When the angel of dusk hits with any weapon, the weapon deals an extra {@dice 4d8} radiant damage (included in the attack)."
+                    ]
+                },
+                {
+                    "name": "Divine Awareness",
+                    "entries":
+                    [
+                        "The angel of dusk knows if it hears a lie."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries":
+                    [
+                        "The angel of dusk has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Angels of Dusk",
+                    "type": "list",
+                    "entries":
+                    [
+                        "Hamael, angel of order and integrity: Hamael's words are orders for others. It can use its action to {@spell command|PHB} one creature it can see.",
+                        "Xershal, angel of beauty and deception: As an action Xershal turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment Xershal wears or carries is {@condition invisible} with it.",
+                        "Zadkiel, angel of freedom and mercy: Zadkiel cannot be moved unwillingly and she is immune to these conditions: {@condition grappled}, {@condition incapacitated}, {@condition prone}, {@condition paralyzed}, {@condition petrified}, {@condition restrained}, {@condition stunned}. As an action Zadkiel can restore 50 Hit Points to a creature it touches, ending any ill conditions in the process.",
+                        "Semangelaf, angle of preservation and resistance: Semangelaf is immune to all magical effects."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The angel of dusk makes two attacks:."
+                    ]
+                },
+                {
+                    "name": "Greatsword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage plus 18 ({@damage 4d8}) radiant damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries":
+                    [
+                        "The angel of dusk's spellcasting ability is Charisma (spell save {@dc 18}). The angel of dusk can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will":
+                    [
+                        "{@spell detect evil and good}"
+                    ],
+                    "daily":
+                    {
+                        "3e":
+                        [
+                            "{@spell blade barrier|PHB}",
+                            "{@spell dispel evil and good|PHB}",
+                            "{@spell flame strike|PHB}",
+                            "{@spell raise dead|PHB}",
+                            "{@spell greater restoration|PHB}"
+                        ],
+                        "1e":
+                        [
+                            "{@spell control weather|PHB}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Magic Resistance"
+            ],
+            "languageTags":
+            [
+                "CE",
+                "TP"
+            ],
+            "damageTags":
+            [
+                "R",
+                "S"
+            ],
+            "senseTags":
+            [
+                "U"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/vVHMllK.png",
+            "altArt":
+            [
+                {
+                    "tokenUrl": "https://i.imgur.com/zioq5M9.png"
+                },
+                {
+                    "tokenUrl": "https://i.imgur.com/QMdM4py.png"
+                },
+                {
+                    "tokenUrl": "https://i.imgur.com/ztoeEpU.png"
+                }
+            ]
+        },
+        {
             "name": "Mongolian Pirate Hunter",
             "size": "M",
             "type":
