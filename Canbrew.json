@@ -6437,7 +6437,7 @@
                 {
                     "name": "Angels of Dusk",
                     "type": "list",
-                    "entries":
+                    "items":
                     [
                         "Hamael, angel of order and integrity: Hamael's words are orders for others. It can use its action to {@spell command|PHB} one creature it can see.",
                         "Xershal, angel of beauty and deception: As an action Xershal turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment Xershal wears or carries is {@condition invisible} with it.",
