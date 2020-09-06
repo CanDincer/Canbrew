@@ -717,6 +717,7 @@
             [
                 "A long brown leather and blue cloth brace with cut fingers. When you attune to it two blue magical signs appear on your thumb and index finger.",
                 "This scripter's hand brace allows you to ditch your spell book. Instead, you can activate it to conjure a visual archive of spells which you can scroll through with your thumb and add or remove with your index finger.",
+                "There is a small orafice under the brace, where you can plug an ink bottle to fil it. It uses stored ink to generate the visual archive. Therefore, you still need to pay the regular cost of copying spells.",
                 "As long as the brace is intact, your archive cannot be harmed."
             ]
         },
@@ -1192,7 +1193,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Does max damage against targets with under 11AC, or who are unarmored. Critical hits lop off limbs."
+                "Does max damage against targets with under 11 AC, or who are unarmored. Critical hits lop off limbs."
             ]
         },
         {
@@ -1551,7 +1552,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "When drawn out of its Burns dimly with purple fire. You can charge this weapon to create a crescent-shaped beam of force energy that travels for 15 feet in a 0.5 rad. cone."
+                "When drawn out of its sheat, burns dimly with purple fire. Inside its hilt is a slot. An amethyst worth 10 gp can be inserted to this slot. The amethyst grants 100 chargest to the sword. You can use a bonus action to activate the sword. While active, attacks made with this weapon create a crescent-shaped beam of force energy that travels for 15 feet in a 0.5 rad. cone."
             ]
         },
         {
@@ -1738,7 +1739,7 @@
             [
                 "V"
             ],
-            "rarity": "rare",
+            "rarity": "very rare",
             "source": "Canbrew",
             "entries":
             [
@@ -3018,13 +3019,13 @@
         },
         {
             "name": "Mantle of Misfortune",
-            "rarity": "rare",
+            "rarity": "very rare",
             "weight": 2,
             "reqAttune": true,
             "source": "Canbrew",
             "entries":
             [
-                "When you roll 1 on a {@dice d20}, your mantle spreads the effect. Until the start of your next turn, any creature within 60 feet must roll a {@dice d4} and subtract the result from any attack rolls, ability checks or saving throws."
+                "If you roll 1 on an attack roll or a saving throw, your mantle absorbs and spreads the effect. You make another roll and you have to use it. Until the start of your next turn, all creatures within 60 feet must roll a {@dice d6} and subtract the result from all attack rolls and saving throws, including you."
             ]
         },
         {
