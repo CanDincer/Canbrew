@@ -2099,7 +2099,7 @@
         },
         {
             "name": "Scorpion Armor",
-            "baseItem": "Half Plate Armor|PHB",
+            "baseItem": "half plate armor|PHB",
             "type": "MA",
             "armor": true,
             "weight": 40,
@@ -2162,6 +2162,23 @@
             ]
         },
         {
+            "name": "Armor of Myrmidon Lord ogd",
+            "baseItem": "half plate armor|PHB",
+            "type": "MA",
+            "armor": true,
+            "weight": 40,
+            "ac": 16,
+            "reqAttune": true,
+            "stealth": true,
+            "rarity": "legendary",
+            "source": "Canbrew",
+            "entries":
+            [
+                "",
+                "Once a day, you can speak the its command word to activate its power. When you do so, it casts polymorph on you to transform you into an {@creature air elemental myrmidon|MTF}, an {@creature earth elemental myrmidon|MTF}, a {@creature fire elemental myrmidon|MTF}, or a {@creature water elemental myrmidon|MTF} (your choice)."
+            ]
+        },
+        {
             "name": "Venombane Armor",
             "baseItem": "Hide Armor|PHB",
             "type": "MA",
@@ -2178,7 +2195,7 @@
         },
         {
             "name": "Darkwood Half Plate Armor",
-            "baseItem": "Half Plate Armor|PHB",
+            "baseItem": "half plate armor|PHB",
             "type": "MA",
             "armor": true,
             "weight": 20,
@@ -2223,7 +2240,7 @@
         },
         {
             "name": "Ravenous Sentinel",
-            "baseItem": "Half Plate Armor|PHB",
+            "baseItem": "half plate armor|PHB",
             "type": "MA",
             "armor": true,
             "weight": 40,
@@ -14214,7 +14231,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item Half Plate Armor|phb}"
+                        "{@item half plate armor|phb}"
                     ]
                 }
             ],
@@ -14973,7 +14990,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item Half Plate Armor|phb}"
+                        "{@item half plate armor|phb}"
                     ]
                 }
             ],
@@ -15780,7 +15797,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item Half Plate Armor|phb}"
+                        "{@item half plate armor|phb}"
                     ]
                 }
             ],
@@ -24695,7 +24712,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item Molten Bronze Skin (Half Plate)|MOT}"
+                        "{@item Molten Bronze Skin (half plate)|MOT}"
                     ]
                 }
             ],
