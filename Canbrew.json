@@ -4802,6 +4802,7 @@
         },
         {
             "name": "Maul Darkmane",
+            "isNpc": true,
             "size": "M",
             "type":
             {
@@ -5023,6 +5024,7 @@
         },
         {
             "name": "Ulfgaard Ingvarsson",
+            "isNpc": true,
             "size": "M",
             "type":
             {
@@ -5652,6 +5654,7 @@
         },
         {
             "name": "Genn Mara",
+            "isNpc": true,
             "size": "M",
             "type":
             {
@@ -6382,6 +6385,7 @@
         },
         {
             "name": "Hamael",
+            "isNpc": true,
             "size": "M",
             "type": "humanoid",
             "source": "Canbrew",
@@ -6576,6 +6580,7 @@
         },
         {
             "name": "Xershal",
+            "isNpc": true,
             "size": "M",
             "type": "humanoid",
             "source": "Canbrew",
@@ -6770,6 +6775,7 @@
         },
         {
             "name": "Zadkiel",
+            "isNpc": true,
             "size": "M",
             "type": "humanoid",
             "source": "Canbrew",
@@ -6963,6 +6969,7 @@
         },
         {
             "name": "Semangelaf",
+            "isNpc": true,
             "size": "M",
             "type": "humanoid",
             "source": "Canbrew",
@@ -7895,6 +7902,7 @@
         },
         {
             "name": "Succubus of Ifrit",
+            "isNpc": true,
             "size": "M",
             "type":
             {
@@ -8064,6 +8072,7 @@
         },
         {
             "name": "Ifrit ogd",
+            "isNpc": true,
             "size": "G",
             "type":
             {
@@ -8231,6 +8240,7 @@
         },
         {
             "name": "Sir James Bravebark",
+            "isNpc": true,
             "size": "T",
             "type":
             {
@@ -8399,6 +8409,7 @@
         },
         {
             "name": "Lady Aluna Flufftail",
+            "isNpc": true,
             "size": "T",
             "type":
             {
@@ -8563,6 +8574,7 @@
         },
         {
             "name": "William Branchstrider",
+            "isNpc": true,
             "size": "T",
             "type":
             {
@@ -8728,6 +8740,7 @@
         },
         {
             "name": "Russle Quickbottom",
+            "isNpc": true,
             "size": "T",
             "type":
             {
@@ -8903,6 +8916,7 @@
         },
         {
             "name": "Cedric Divineroot",
+            "isNpc": true,
             "size": "T",
             "type":
             {
@@ -9137,6 +9151,7 @@
         },
         {
             "name": "Fred Ticklestraw",
+            "isNpc": true,
             "size": "T",
             "type":
             {
@@ -9365,6 +9380,7 @@
         },
         {
             "name": "Trish Nutcrawler",
+            "isNpc": true,
             "size": "T",
             "type":
             {
@@ -9561,6 +9577,7 @@
         },
         {
             "name": "George Cuddlebelly",
+            "isNpc": true,
             "size": "T",
             "type":
             {
@@ -10232,6 +10249,7 @@
         },
         {
             "name": "Princess Nivim",
+            "isNpc": true,
             "size": "M",
             "type":
             {
@@ -10399,6 +10417,7 @@
         },
         {
             "name": "Scatha",
+            "isNpc": true,
             "size": "G",
             "type": "dragon",
             "source": "Canbrew",
@@ -10670,6 +10689,7 @@
         },
         {
             "name": "Raya Emberstone",
+            "isNpc": true,
             "size": "M",
             "type":
             {
@@ -10723,10 +10743,10 @@
             "trait":
             [
                 {
-                    "name": "Pounce",
+                    "name": "Dwarven Resilience.",
                     "entries":
                     [
-                        "If the jackal moves at least 20 ft. straight toward a creature and then hits it with a Khopesh attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action."
+                        "Raya Emberstone has advantage on saving throws against poison, and has resistance against poison damage."
                     ]
                 },
                 {
@@ -10993,6 +11013,7 @@
         },
         {
             "name": "Verazin Lemmad",
+            "isNpc": true,
             "size": "M",
             "type":
             {
@@ -12182,6 +12203,7 @@
         },
         {
             "name": "Aben'nate ogd",
+            "isNpc": true,
             "size": "M",
             "type":
             {
@@ -19355,6 +19377,7 @@
         },
         {
             "name": "Ishtar-rabi-at",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -19720,6 +19743,7 @@
         },
         {
             "name": "Carmilla",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -20039,6 +20063,7 @@
         },
         {
             "name": "Neferne-feruaten",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -20413,6 +20438,7 @@
         },
         {
             "name": "Nianzu",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -20994,6 +21020,7 @@
         },
         {
             "name": "Caedmon",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -21333,6 +21360,7 @@
         },
         {
             "name": "Khufut",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -21583,6 +21611,7 @@
         },
         {
             "name": "Dr. Fran Lieche",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -22159,6 +22188,7 @@
         },
         {
             "name": "Shar-kali",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -22485,6 +22515,7 @@
         },
         {
             "name": "Niva",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "L",
             "type": "undead",
@@ -22616,6 +22647,7 @@
         },
         {
             "name": "Balih",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -22874,7 +22906,7 @@
         {
             "name": "Meressie Wylop",
             "source": "Canbrew",
-            "isNamedCreature": true,
+            "isNpc": true,
             "size": "M",
             "type":
             {
@@ -23453,6 +23485,7 @@
         },
         {
             "name": "Anatu",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -23794,6 +23827,7 @@
         },
         {
             "name": "Morgomin \"Morgo\" Ilvasta",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -24054,6 +24088,7 @@
         },
         {
             "name": "Shivynara",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -24434,6 +24469,7 @@
         },
         {
             "name": "Theron Kuzani",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -24691,6 +24727,7 @@
         },
         {
             "name": "Vinma'al Ceregin",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -25236,6 +25273,7 @@
         },
         {
             "name": "Javari Uwunade Sinenhlanhla Mzwakhle",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -25715,6 +25753,7 @@
         },
         {
             "name": "Mir Enbee",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -26740,6 +26779,7 @@
         },
         {
             "name": "Nub-em-het",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "M",
             "type": "undead",
