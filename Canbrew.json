@@ -268,7 +268,6 @@
             "weight": 1,
             "dmg1": "1d4",
             "dmgType": "P",
-            "reqAttune": true,
             "property":
             [
                 "F",
@@ -276,11 +275,10 @@
                 "T"
             ],
             "range": "20/60",
-            "rarity": "artifact",
             "source": "Canbrew",
             "entries":
             [
-                "An adamantine dagger with an onyx blade. It was crafted in Kravenforge, in an era where the titans were roaming the material plane, wrecking havoc. For once, in the entire history of existance, dwarves and giants worked together to forge this dagger.",
+                "An adamantine dagger with an onyx blade. It was crafted in Kravenforge, in an era where the titans were roaming the material plane, wrecking havoc. For once, in the entire history of existance, mountain dwarves and fire giants worked together to forge this dagger.",
                 "It looks cool and that's it. It has no magic properties, detect magic has no effect on it, and identify reveals nothing. Until it's within 15 feet of a Large or larger creature. Then, the onxy grows. Depending on the size of the creature it grows to different sizes and deals different damage.",
                 {
                     "type": "table",
