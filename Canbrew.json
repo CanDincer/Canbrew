@@ -4601,7 +4601,7 @@
             }
         },
         {
-            "name": "Cursed Tree ogd",
+            "name": "Cursed Tree",
             "size": "H",
             "type": "plant",
             "source": "Canbrew",
@@ -4622,31 +4622,37 @@
             ],
             "hp":
             {
-                "average": 67,
-                "formula": "7d12 + 21"
+                "average": 127,
+                "formula": "11d12 + 55"
             },
             "speed":
             {
                 "walk": 10
             },
-            "str": 21,
+            "str": 23,
             "dex": 6,
-            "con": 17,
+            "con": 21,
             "int": 12,
-            "wis": 12,
-            "cha": 7,
+            "wis": 10,
+            "cha": 3,
             "vulnerable":
             [
-                "fire (Cursed only)"
+                {
+                    "vulnerable":
+                    [
+                        "fire"
+                    ],
+                    "note": "(Cursed Tree only)"
+                }
             ],
             "resist":
             [
                 {
-                    "resist":
+                    "vulnerable":
                     [
                         "fire"
                     ],
-                    "note": "(Burning Tree only)"
+                    "note": "(Cursed Tree only)"
                 },
                 {
                     "resist":
@@ -4658,20 +4664,32 @@
                     "note": "from nonmagical attacks"
                 }
             ],
+            "immune":
+            [
+                {
+                    "immune":
+                    [
+                        "fire"
+                    ],
+                    "note": "(Burning Tree only)"
+                }
+            ],
             "conditionImmune":
             [
+                "blinded",
+                "deafened",
                 "prone"
             ],
             "senses":
             [
-                "blindsight 60 ft."
+                "blindsight 60 ft. (blind beyond this radius)"
             ],
-            "passive": 12,
+            "passive": 10,
             "languages":
             [
-                "Infernal"
+                "Abyssal"
             ],
-            "cr": "5",
+            "cr": "9",
             "trait":
             [
                 {
@@ -4692,7 +4710,14 @@
                     "name": "Tactics Change",
                     "entries":
                     [
-                        "When Bloodied Resistance activates, the cursed tree becomes a Rot Tree, or if Bloodied Resistance is activated by fire damage it becomes a burning tree. This determines which abilities it uses."
+                        "When Bloodied Resistance activates, the cursed tree becomes a rot tree, or if Bloodied Resistance is activated by fire damage it becomes a burning tree. This determines which abilities it uses."
+                    ]
+                },
+                {
+                    "name": "Siege Monster",
+                    "entries":
+                    [
+                        "The cursed tree deals double damage to objects and structures."
                     ]
                 }
             ],
@@ -4709,7 +4734,7 @@
                     "name": "Slam",
                     "entries":
                     [
-                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage (Cursed Tree), poison damage (Rot Tree), or fire damage (Burning Tree)."
+                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 3d6 + 6}) bludgeoning damage (Cursed Tree), poison damage (Rot Tree), or fire damage (Burning Tree)."
                     ]
                 }
             ],
@@ -4723,14 +4748,14 @@
                     "name": "Summon (Cursed Tree only)",
                     "entries":
                     [
-                        "The cursed tree summons {@dice 1d2+1} Vine Blights."
+                        "The cursed tree summons {@dice 1d2+1} {@creature Vine Blight}s."
                     ]
                 },
                 {
                     "name": "Summon (Rot Tree only)",
                     "entries":
                     [
-                        "The cursed tree summons {@dice 1d2+1} Needle Blights."
+                        "The cursed tree summons {@dice 1d2+1} {@creature Needle Blight}s."
                     ]
                 }
             ],
@@ -4738,15 +4763,19 @@
             "environment":
             [
                 "forest",
+                "grassland",
+                "hill",
+                "mountain",
                 "swamp"
             ],
             "traitTags":
             [
-                "False Appearance"
+                "False Appearance",
+                "Siege Monster"
             ],
             "languageTags":
             [
-                "I"
+                "A"
             ],
             "damageTags":
             [
@@ -4767,6 +4796,15 @@
                 "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/1MsDa1F.png",
+            "altArt":
+            [
+                {
+                    "tokenUrl": "https://i.imgur.com/eRxgf2I.png"
+                },
+                {
+                    "tokenUrl": "https://i.imgur.com/rxt5bB4.png"
+                }
+            ],
             "fluff":
             {
                 "images":
