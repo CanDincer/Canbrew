@@ -2222,21 +2222,6 @@
             ]
         },
         {
-            "name": "Elven Chain",
-            "baseItem": "Chain Shirt|PHB",
-            "type": "LA",
-            "armor": true,
-            "weight": 10,
-            "ac": 13,
-            "reqAttune": true,
-            "rarity": "rare",
-            "source": "Canbrew",
-            "entries":
-            [
-                "Pinnacle of elven craftsmanship. You are considered proficient with this armor, even if you lack proficiency with medium armor. Your AC equals to 13 + your Dexterity modifier. This armor is concealed."
-            ]
-        },
-        {
             "name": "Ravenous Sentinel",
             "baseItem": "half plate armor|PHB",
             "type": "MA",
