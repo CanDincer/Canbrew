@@ -4637,7 +4637,7 @@
                     "ac": 15,
                     "from":
                     [
-                        "{@item chain shirt|phb}"
+                        "{@item chain shirt|PHB}"
                     ]
                 }
             ],
@@ -4721,6 +4721,191 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/XAYD6bJ.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mana Serpent ogd",
+            "size": "T",
+            "type": "aberration",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N",
+                "E"
+            ],
+            "ac":
+            [
+                13
+            ],
+            "hp":
+            {
+                "average": 127,
+                "formula": "11d12 + 55"
+            },
+            "speed":
+            {
+                "fly": 20
+            },
+            "str": 6,
+            "dex": 21,
+            "con": 10,
+            "int": 16,
+            "wis": 11,
+            "cha": 5,
+            "resist":
+            [
+                "acid",
+                "cold",
+                "fire",
+                "lightning",
+                "necrotic",
+                "poison",
+                "psychic",
+                "radiant",
+                "thunder"
+            ],
+            "immune":
+            [
+                "force"
+            ],
+            "conditionImmune":
+            [
+                "blinded",
+                "deafened",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 120 ft.",
+                "blindsight 60 ft."
+            ],
+            "passive": 10,
+            "languages":
+            [
+                "telepathy 120 ft. (only among themselves)",
+                "understands Deep Speech but can't speak"
+            ],
+            "cr": "4",
+            "trait":
+            [
+                {
+                    "name": "Antimagic Susceptibility",
+                    "entries":
+                    [
+                        "The mana serpent is {@condition unconscious} while in the area of an antimagic field. If targeted by dispel magic, the mana serpent must succeed on a Constitution saving throw against the caster's spell save DC or be destroyed."
+                    ]
+                },
+                {
+                    "name": "Force Absorbtion",
+                    "entries":
+                    [
+                        "Whenever the mana serpent is subjected to force damage, it takes no damage and instead regains a number of hit points equal to the force damage dealt."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries":
+                    [
+                        "Mana serpent has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Drain Mana",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) force damage. If the target is a spellcaster, it must succeed on a {@dc 15} Intelligence saving throw or lose one of the lowest spell slots it has available."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries":
+                    [
+                        "Mana serpent's spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will":
+                    [
+                        "{@spell detect magic|PHB}",
+                        "{@spell chaos bolt|XGE}"
+                    ],
+                    "daily":
+                    {
+                        "3e":
+                        [
+                            "{@spell blade barrier|PHB}",
+                            "{@spell dispel evil and good|PHB}",
+                            "{@spell flame strike|PHB}",
+                            "{@spell raise dead|PHB}",
+                            "{@spell greater restoration|PHB}"
+                        ],
+                        "1e":
+                        [
+                            "{@spell control weather|PHB}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "environment":
+            [
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "swamp"
+            ],
+            "traitTags":
+            [
+                "Antimagic Susceptibility",
+                "Damage Absorption",
+                "Magic Resistance",
+            ],
+            "languageTags":
+            [
+                "CS",
+                "DS",
+                "TP"
+            ],
+            "damageTags":
+            [
+                "O"
+            ],
+            "senseTags":
+            [
+                "B"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RNG"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/lmBmdRO.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/qTqwScM.jpg"
                         }
                     }
                 ]
@@ -4986,7 +5171,7 @@
                     "ac": 15,
                     "from":
                     [
-                        "chain shirt{@item chain shirt|phb}"
+                        "chain shirt{@item chain shirt|PHB}"
                     ]
                 }
             ],
@@ -7484,7 +7669,7 @@
                     "ac": 13,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -7910,7 +8095,7 @@
                     "ac": 16,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -8062,7 +8247,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -13610,7 +13795,7 @@
                     "ac": 15,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -13727,7 +13912,7 @@
                     "ac": 13,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -13848,7 +14033,7 @@
                     "ac": 13,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -14174,7 +14359,7 @@
                     "ac": 13,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -14554,7 +14739,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item half plate armor|phb}"
+                        "{@item half plate armor|PHB}"
                     ]
                 }
             ],
@@ -14738,7 +14923,7 @@
                     "ac": 14,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -14923,7 +15108,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -15121,7 +15306,7 @@
                     "ac": 18,
                     "from":
                     [
-                        "{@item Plate Armor|phb}"
+                        "{@item Plate Armor|PHB}"
                     ]
                 }
             ],
@@ -15313,7 +15498,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item half plate armor|phb}"
+                        "{@item half plate armor|PHB}"
                     ]
                 }
             ],
@@ -15501,7 +15686,7 @@
                     "ac": 15,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -15699,7 +15884,7 @@
                     "ac": 18,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -15913,7 +16098,7 @@
                     "ac": 18,
                     "from":
                     [
-                        "{@item Plate Armor|phb}"
+                        "{@item Plate Armor|PHB}"
                     ]
                 }
             ],
@@ -16120,7 +16305,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item half plate armor|phb}"
+                        "{@item half plate armor|PHB}"
                     ]
                 }
             ],
@@ -16319,7 +16504,7 @@
                     "ac": 14,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -16525,7 +16710,7 @@
                     "ac": 19,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -16745,7 +16930,7 @@
                     "ac": 18,
                     "from":
                     [
-                        "{@item Plate Armor|phb}"
+                        "{@item Plate Armor|PHB}"
                     ]
                 }
             ],
@@ -16959,7 +17144,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item studded leather armor|phb}"
+                        "{@item studded leather armor|PHB}"
                     ]
                 }
             ],
@@ -17138,7 +17323,7 @@
                     "ac": 18,
                     "from":
                     [
-                        "{@item full plate armor|phb}"
+                        "{@item full plate armor|PHB}"
                     ]
                 }
             ],
