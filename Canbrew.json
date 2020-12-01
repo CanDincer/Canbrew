@@ -4738,12 +4738,12 @@
             ],
             "ac":
             [
-                13
+                15
             ],
             "hp":
             {
-                "average": 127,
-                "formula": "11d12 + 55"
+                "average": 25,
+                "formula": "0d4"
             },
             "speed":
             {
