@@ -4839,22 +4839,7 @@
                         "{@spell detect magic|PHB}",
                         "{@spell chaos bolt|XGE}"
                     ],
-                    "daily":
-                    {
-                        "3e":
-                        [
-                            "{@spell blade barrier|PHB}",
-                            "{@spell dispel evil and good|PHB}",
-                            "{@spell flame strike|PHB}",
-                            "{@spell raise dead|PHB}",
-                            "{@spell greater restoration|PHB}"
-                        ],
-                        "1e":
-                        [
-                            "{@spell control weather|PHB}"
-                        ]
-                    },
-                    "ability": "cha",
+                    "ability": "int",
                     "type": "spellcasting"
                 }
             ],
