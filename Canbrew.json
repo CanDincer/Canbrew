@@ -4822,7 +4822,7 @@
                     "name": "Drain Mana",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) force damage. If the target is a spellcaster, it must succeed on a {@dc 15} Intelligence saving throw or lose one of the lowest spell slots it has available."
+                        "{@atk ms} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6}) force damage. If the target is a spellcaster, it must succeed on a {@dc 15} Intelligence saving throw or lose one of the lowest spell slots it has available."
                     ]
                 }
             ],
@@ -4845,11 +4845,13 @@
             ],
             "environment":
             [
+                "arctic",
                 "forest",
-                "grassland",
                 "hill",
                 "mountain",
-                "swamp"
+                "swamp",
+                "underdark",
+                "underwater"
             ],
             "traitTags":
             [
@@ -4869,12 +4871,11 @@
             ],
             "senseTags":
             [
-                "B"
+                "B",
+                "D"
             ],
             "miscTags":
             [
-                "MW",
-                "RNG"
             ],
             "actionTags":
             [
