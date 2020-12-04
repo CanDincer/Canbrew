@@ -1199,11 +1199,10 @@
             "baseItem": "Greatsword|PHB",
             "type": "M",
             "weaponCategory": "martial",
-            "weight": 1,
+            "weight": 3,
             "dmg1": "2d6",
             "dmg2": "2d8",
             "dmgType": "S",
-            "reqAttune": true,
             "property":
             [
                 "F",
@@ -1211,10 +1210,20 @@
             ],
             "rarity": "rare",
             "source": "Canbrew",
+            "charges": 3,
             "entries":
             [
-                "It's but a metal hilt which when you twist feather like plate metals align to make up the blade.",
-                "This greatsword was forged from an angel's left wing. It leaves a dim light where it cuts."
+                "It's but a metal hilt which when you twist feather like mithral plates align to make up the It is silvered blade.",
+                {
+                    "type": "entries",
+                    "name": "Light heart",
+                    "entries":
+                    [
+                        "It has 3 charges, and regains all of them at dawn.",
+                        " You can use an action to expend a charge and either end an effect that is causing you to be charmed or cast {@spell freedomg of movement|PHB} on your self.",
+                        "You can use this feature even while you are charmed or paralyzed."
+                    ]
+                }
             ]
         },
         {
@@ -4747,8 +4756,8 @@
             ],
             "hp":
             {
-                "average": 77,
-                "formula": "14d6 + 14"
+                "average": 178,
+                "formula": "17d10 + 85"
             },
             "speed":
             {
