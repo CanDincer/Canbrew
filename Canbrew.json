@@ -1219,7 +1219,7 @@
                     "entries":
                     [
                         "It has 3 charges, and regains all of them at dawn.",
-                        " You can use an action to expend a charge and either end an effect that is causing you to be charmed or cast {@spell freedomg of movement|PHB} on your self.",
+                        " You can use an action to expend a charge and either end an effect that is causing you to be charmed or cast {@spell freedom of movement|PHB} on your self.",
                         "You can use this feature even while you are charmed or paralyzed."
                     ]
                 }
