@@ -7514,7 +7514,8 @@
                     ],
                     "will":
                     [
-                        "{@spell detect evil and good}"
+                        "{@spell command|PHB}",
+                        "{@spell detect evil and good|PHB}"
                     ],
                     "daily":
                     {
@@ -7678,7 +7679,7 @@
                     "type": "list",
                     "items":
                     [
-                        "As an action Xershal turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment Xershal wears or carries is {@condition invisible} with it."
+                        "As an action Xershal can turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment Xershal wears or carries is {@condition invisible} with it."
                     ]
                 }
             ],
@@ -7709,7 +7710,8 @@
                     ],
                     "will":
                     [
-                        "{@spell detect evil and good}"
+                        "{@spell detect evil and good|PHB}",
+                        "{@spell greater invisibility|PHB}"
                     ],
                     "daily":
                     {
@@ -7825,7 +7827,14 @@
             [
                 "charmed",
                 "exhaustion",
-                "frightened"
+                "frightened",
+                "grappled",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "prone",
+                "restrained",
+                "stunned"
             ],
             "senses":
             [
@@ -8013,7 +8022,17 @@
                         "slashing"
                     ],
                     "note": "from weapon attacks that aren't silvered"
-                }
+                },
+                "acid",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "necrotic",
+                "poison",
+                "psychic",
+                "radiant",
+                "thunder"
             ],
             "conditionImmune":
             [
