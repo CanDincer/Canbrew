@@ -2649,7 +2649,7 @@
             [
                 "This ring looks like a spider's skeleton, its legs wrapped around your finger.",
                 "When you kiss the ring near a door, the Skeleton Spider animates. It climbs into the keyhole and tries to unlock the door.",
-                "Make a spell attack roll. On a success, the door is unlocked.",
+                "Make an Intelligence (Arcana) check. On a success, the door is unlocked.",
                 "It has 3 charges and replenishes {@dice 1d3} at dawn.",
                 "If you force the Skeleton Spider to unlock a door it has recently failed to, Skeleton Spider breaks."
             ]
