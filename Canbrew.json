@@ -1812,6 +1812,54 @@
             }
         },
         {
+            "name": "Void Blade",
+            "baseItem": "Longsword|PHB",
+            "type": "M",
+            "weaponCategory": "martial",
+            "weight": 3,
+            "dmg1": "1d8",
+            "dmg2": "1d10",
+            "dmgType": "O",
+            "bonusWeapon": "+2",
+            "reqAttune": true,
+            "property":
+            [
+                "V" 
+            ],
+            "rarity": "very rare",
+            "source": "Canbrew",
+            "entries":
+            [
+                "At first glance it apepars as only the hilt of a longsword. With the mental command of its wielder the sword will ignite in a brilliant flash of blue energy.",
+                "The Void Blade is a +2 longsword that deals force damage in place of its normal slashing damage. The blade has 3 charges which replenish each dawn. Once you have damaged a creature with the blade, you can expend a charge. The target must make a Constitution saving throw. If they fail, you pick one of the following effects to take effect on them. A creature can only have a single negative effect from this blade active on them at a time and they may remake their saving throw at the end of each of their turns. If they succeed, the effect ends.",
+                "The DC for the Constitution saving throw is equal to 8 + proficiency bonus + your CharismaQ modifier."
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "The creature loses the ability to regain hit points for 1 minute.",
+                        "The target creature becomes blind for 1 minute.",
+                        "The target cannot cast spells until the end of its next turn.",
+                        "The target is banished to Shadowfell until the end of your next turn."
+                    ]
+                }
+            ],
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/s4ofpGe.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "name": "Half-forged Longsword",
             "baseItem": "Shortsword|PHB",
             "type": "M",
