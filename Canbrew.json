@@ -241,8 +241,8 @@
             "entries":
             [
                 "This magic crossbow carries a small system of curious tubes and vessels. It deals an extra {@damage 1d4} poison damage.",
-                "The crossbow has 4 charges and regains {@dice 1d4} expended charges daily at dawn. You can expend 1 of the weapon's charges when you make an attack with it to coat the fired bolt with a unique, self-generating venom. If the attack hits, the target takes an extra {@damage 3d6} poison damage and must make a DC 13 Constitution saving throw. On a failed save, the target is poisoned until the end of its next turn",
-                "If you expend the crossbow's last charge, roll a d20. On a 1, the vessels attached to the crossbow shatter and spray poison in a 25-foot-radius sphere centered on your location. Creatures within the sphere take {@damage 1d12} poison damage and must succeed on a DC 15 Constitution saving throw or be poisoned for 1 minute. When this happens, the crossbow ceases to be magical and loses all of its additional properties."
+                "The crossbow has 4 charges and regains {@dice 1d4} expended charges daily at dawn. You can expend 1 of the weapon's charges when you make an attack with it to coat the fired bolt with a unique, self-generating venom. If the attack hits, the target takes an extra {@damage 3d6} poison damage and must make a {@dc 13} Constitution saving throw. On a failed save, the target is poisoned until the end of its next turn",
+                "If you expend the crossbow's last charge, roll a d20. On a 1, the vessels attached to the crossbow shatter and spray poison in a 25-foot-radius sphere centered on your location. Creatures within the sphere take {@damage 1d12} poison damage and must succeed on a {@dc 15} Constitution saving throw or be poisoned for 1 minute. When this happens, the crossbow ceases to be magical and loses all of its additional properties."
             ]
         },
         {
@@ -951,7 +951,7 @@
             "entries":
             [
                 "Used by the legendary wood-elf, Aela the Drow-Hunter, in her quest into the Underdark to retrieve her kidnapped husband. Nock an arrow and its head will ignite with brilliant radiance.",
-                "A Shortbow, doing {@damage 1d6} radiant damage, and casting Light wherever its arrow lands. On a critical hit, It blinds its target for 1 round, if the target fails DC 10 Constitution saving throw.",
+                "A Shortbow, doing {@damage 1d6} radiant damage, and casting Light wherever its arrow lands. On a critical hit, It blinds its target for 1 round, if the target fails {@dc 10} Constitution saving throw.",
                 "The creature can use their action to remove the arrow, or you may use a bonus action if you are within range. While the creature is under the magics effect, it cannot have any benefits from being invisible, hidden, or by being behind half cover."
             ]
         },
@@ -1170,7 +1170,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "These daggers are made using the harvested fangs of a large venomous spider. When you hit the same target on your turn with each dagger, that target must succeed on a DC 14 Constitution saving throw or take an extra {@damage 2d4} poison damage and become poisoned until the end of their next turn."
+                "These daggers are made using the harvested fangs of a large venomous spider. When you hit the same target on your turn with each dagger, that target must succeed on a {@dc 14} Constitution saving throw or take an extra {@damage 2d4} poison damage and become poisoned until the end of their next turn."
             ]
         },
         {
@@ -1454,7 +1454,7 @@
             "entries":
             [
                 "Magical short-bow. The bow does not require ammo. When the bow is drawn without ammo, a magical arrow appears knocked in the bow.",
-                "Anyone struck by the magical arrow becomes charmed with the first creature it sees after being struck (as charm person—the target must be a humanoid of Medium or smaller size, Wisdom DC 11 negates). The charm effects wear off after 1 minute. The magical arrow does not cause pain and is invisible unless detected by the Wisdom Save. The arrow disappears after the effect ends. The bow has 1 charge and recovers {@dice 1d2-1} charges at the end of a long rest."
+                "Anyone struck by the magical arrow becomes charmed with the first creature it sees after being struck (as charm person—the target must be a humanoid of Medium or smaller size, Wisdom {@dc 11} negates). The charm effects wear off after 1 minute. The magical arrow does not cause pain and is invisible unless detected by the Wisdom Save. The arrow disappears after the effect ends. The bow has 1 charge and recovers {@dice 1d2-1} charges at the end of a long rest."
             ]
         },
         {
@@ -1582,7 +1582,7 @@
             "entries":
             [
                 "This magic weapon comes from a clan of Githzerai that debilitate their foes with strange magic.",
-                "When you hit a creature with the sword, you can expend 1 of its charges as part of the attack to force that creature to make a DC 13 saving throw of your choice. On a failed save, a creature is subjected to an effect based on the kind of saving throw it made:",
+                "When you hit a creature with the sword, you can expend 1 of its charges as part of the attack to force that creature to make a {@dc 13} saving throw of your choice. On a failed save, a creature is subjected to an effect based on the kind of saving throw it made:",
                 "This sword has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
                 {
                     "type": "list",
@@ -1679,7 +1679,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "{@damage 1d4} slashing and {@damage 1d4} cold damage. On a hit, a target must succeed DC 10 Constitution to be able to use its reaction until the start of their turn. Its blade is a translucent shard of ice, and its handle is bone."
+                "{@damage 1d4} slashing and {@damage 1d4} cold damage. On a hit, a target must succeed on a {@dc 10} Constitution to be able to use its reaction until the start of their turn. Its blade is a translucent shard of ice, and its handle is bone."
             ]
         },
         {
@@ -1972,7 +1972,7 @@
                     "name": "Chillspike",
                     "entries":
                     [
-                        "As an action, you can plunge the pike into the ground at your feet. When you do, the blade of the pike magically vanishes into the earth and summons up to three icy spikes from the ground nearby. Choose up to 3 different targets on the ground you can see within 20 feet of you. An affected target must succeed on a DC 16 Dexterity saving throw or take {@damage 2d8} cold damage as a frozen spike erupts from the ground beneath them. Immediately after using this property, the spikes recede into the ground, and the icy blade of the pike reappears."
+                        "As an action, you can plunge the pike into the ground at your feet. When you do, the blade of the pike magically vanishes into the earth and summons up to three icy spikes from the ground nearby. Choose up to 3 different targets on the ground you can see within 20 feet of you. An affected target must succeed on a {@dc 16} Dexterity saving throw or take {@damage 2d8} cold damage as a frozen spike erupts from the ground beneath them. Immediately after using this property, the spikes recede into the ground, and the icy blade of the pike reappears."
                     ]
                 },
                 "It has 2 charges and replenishes {@dice 1d2-1} charges every day."
@@ -2066,7 +2066,7 @@
             "entries":
             [
                 "Its iron was mined from the Shale Cavern of Dolhiem. When the miners couldn't separate the block of steel from the diamond, they forged around it.",
-                "When you hit, you can use a bonus action turn the spear's handle to shatter the diamond. Each turn, you can use your bonus action to draw energy from the splinters left inside the creature. On a failed DC 20 Constitution saving throw, the creature has 3 levels of exhaustion until the end of your next turn. You can repeat this until the splinters are removed from the creature somehow.",
+                "When you hit, you can use a bonus action turn the spear's handle to shatter the diamond. Each turn, you can use your bonus action to draw energy from the splinters left inside the creature. On a failed {@dc 20} Constitution saving throw, the creature has 3 levels of exhaustion until the end of your next turn. You can repeat this until the splinters are removed from the creature somehow.",
                 "Once shattered, the diamond is no more. You can replace the diamond with a new one but the gem must be crafted into the spear."
             ]
         },
@@ -2428,7 +2428,7 @@
                         "This shield radiates fiery dim light for 5 feet from the outlines of the anvil engravings on it. You can use a bonus action to increase its radiance to bright light for 10 feet and dim light for an additional 20 feet."
                     ]
                 },
-                "The shield has 4 charges. You can use an action to expend 2 charges to cast {@spell wall of fire|PHB} from the shield (save DC 18). The {@spell wall of fire|PHB} spell lasts for 1 minute (no concentration required). The shield regains {@dice 1d4} expended charges daily at dawn."
+                "The shield has 4 charges. You can use an action to expend 2 charges to cast {@spell wall of fire|PHB} from the shield (save {@dc 18}). The {@spell wall of fire|PHB} spell lasts for 1 minute (no concentration required). The shield regains {@dice 1d4} expended charges daily at dawn."
             ]
         },
         {
@@ -2508,7 +2508,7 @@
                     "name": "In Flames",
                     "entries":
                     [
-                        "When melee attacked, as a reaction, you may expend 2 charges to attempt to ignite the attacking creature in flames. The attacking creature must make a DC 17 Intelligence saving throw. If they fail, they take {@damage 3d10} fire damage. If they are successful, nothing happens."
+                        "When melee attacked, as a reaction, you may expend 2 charges to attempt to ignite the attacking creature in flames. The attacking creature must make a {@dc 17} Intelligence saving throw. If they fail, they take {@damage 3d10} fire damage. If they are successful, nothing happens."
                     ]
                 }
             ]
@@ -2626,7 +2626,7 @@
             "entries":
             [
                 "These pale grey arrow tips are crafted from many {@creature Intellect Devourer|MM}'s spinal cartilage.",
-                "When you hit a creature with a ranged attack using this arrow, the target takes an extra {@damage 1d8} psychic damage and is forced to make a DC 15 Intelligence saving throw. On a failed save, the creature is dropped to 0 Intelligence and stunned until the end of their next turn. On a successful save, the creature is not stunned and is immune to these arrows for the next 24 hours. A construct or undead creature automatically succeeds on the saving throw."
+                "When you hit a creature with a ranged attack using this arrow, the target takes an extra {@damage 1d8} psychic damage and is forced to make a {@dc 15} Intelligence saving throw. On a failed save, the creature is dropped to 0 Intelligence and stunned until the end of their next turn. On a successful save, the creature is not stunned and is immune to these arrows for the next 24 hours. A construct or undead creature automatically succeeds on the saving throw."
             ]
         },
         {
@@ -2744,7 +2744,7 @@
                     "name": "Curse",
                     "entries":
                     [
-                        "It's cursed and cannot be removed. Once worn, whatever settlement you're in, you are magically exiled {@dice 1d6} days after from there. Reroll the die when you enter another settlement. You roll Wisdom Saving Throw with DC 10 to enter or stay in a settlement you're exiled. The DC increases each day by 1."
+                        "It's cursed and cannot be removed. Once worn, whatever settlement you're in, you are magically exiled {@dice 1d6} days after from there. Reroll the die when you enter another settlement. You must succeed on a {@dc 10} Wisdom Saving Throw to enter or stay in a settlement you're exiled. The DC increases each day by 1."
                     ]
                 }
             ]
@@ -3026,7 +3026,7 @@
                     "name": "Curse",
                     "entries":
                     [
-                        "This item is cursed. Upon attunement, you must look into the mirror at every dawn or take {@damage 12d10} magic damage. Every time you look into the mirror, you are shown how one of your friends or family member will die. The mirror, however, will sometimes show the truth or a false vision. At the end of every vision, you must make a Constitution saving throw (DC 19), if you fail, you take 3d10 psychic damage. The only way to unattune to this item is you must save someone from their deathly fate you have been shown."
+                        "This item is cursed. Upon attunement, you must look into the mirror at every dawn or take {@damage 12d10} magic damage. Every time you look into the mirror, you are shown how one of your friends or family member will die. The mirror, however, will sometimes show the truth or a false vision. At the end of every vision, you must make a {@dc 19} Constitution saving throw, if you fail, you take 3d10 psychic damage. The only way to unattune to this item is you must save someone from their deathly fate you have been shown."
                     ]
                 },
                 {
@@ -3124,7 +3124,7 @@
                     "name": "Ingestion",
                     "entries":
                     [
-                        "When consuming this potion, roll a Constitution saving throw with a DC 8. This DC increases by 2 for each consumption within a 24-hour span.",
+                        "When consuming this potion, roll a {@dc 8} Constitution saving throw. This DC increases by 2 for each consumption within a 24-hour span.",
                         "On a failure, you become {@condition poisoned} for {@dice 1d6} rounds.",
                         "On a success, you regain hit points equal to {@dice 1d6} + your Constitution modifier."
                     ]
@@ -3134,7 +3134,7 @@
                     "name": "Thrown",
                     "entries":
                     [
-                        "After a successful ranged attack, if the target is a Medium or smaller creature, it must make a Strength saving throw DC 10.",
+                        "After a successful ranged attack, if the target is a Medium or smaller creature, it must make a {@dc 10} Strength saving throw.",
                         "On a failure, the target is {@contidion restrained}. It can spend its action to attempt to break free by rerolling the save, this effect lasts {@dice 1d4} rounds."
                     ]
                 },
@@ -3186,8 +3186,8 @@
             "source": "Canbrew",
             "entries":
             [
-                "This purple potion is the bane of vampires. When you drink this potion, your blood becomes toxic to vampires. Any vampire drinking your blood takes 3d6 acid damage or half as much damage on a successful DC 20 Constitution saving throw.",
-                "A vampire can drink this to commit suicide. It deals 20d20 poison damage or half as much damage on a successful DC 20 Constitution saving throw.",
+                "This purple potion is the bane of vampires. When you drink this potion, your blood becomes toxic to vampires. Any vampire drinking your blood takes 3d6 acid damage or half as much damage on a successful {@dc 20} Constitution saving throw.",
+                "A vampire can drink this to commit suicide. It deals 20d20 poison damage or half as much damage on a successful {@dc 20} Constitution saving throw.",
                 "The potion can also be applied to weapons and ammunation as oil. A weapon coated in Nightshade oil deals an extra 3d6 poison damage to vampires."
             ]
         },
@@ -3302,7 +3302,7 @@
                     "name": "Curse",
                     "entries":
                     [
-                        "When you attune to the Eye of the Fiendlord, you are suddenly overcome with the urge to see what it sees. Make a DC 20 Wisdom saving throw. On a success, you're able to resist the enchantment and are aware of the curse's effects, but are not attuned to it. On a failure, you forcefully tear out one of your own eyes, taking {@damage 4d6} necrotic damage, allowing the Eye of the Fiendlord to crawl into its place. If you are already missing an eye, you are simply compelled to allow the eye to crawl into the empty socket.",
+                        "When you attune to the Eye of the Fiendlord, you are suddenly overcome with the urge to see what it sees. Make a {@dc 20} Wisdom saving throw. On a success, you're able to resist the enchantment and are aware of the curse's effects, but are not attuned to it. On a failure, you forcefully tear out one of your own eyes, taking {@damage 4d6} necrotic damage, allowing the Eye of the Fiendlord to crawl into its place. If you are already missing an eye, you are simply compelled to allow the eye to crawl into the empty socket.",
                         "You can see normally while the Eye of the Fiendlord remains in your socket, but you can choose to close your other eye to see through its magically enhanced lens using a bonus action. The eye moves slower than a normal eye, leaving slight trails and motion blurs behind it as you look through it. While looking only through the Eye of the Fiendlord, you have disadvantage on any attack you make as well as ability checks that rely on depth perception. You can open your other eye and regain your normal vision using another bonus action.",
                         {
                             "type": "entries",
@@ -8916,7 +8916,7 @@
                     "name": "Fire in the hole!",
                     "entries":
                     [
-                        "The mongolian pirate hunter swashbuckler throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take {@dice 3d6} fire damage."
+                        "The mongolian pirate hunter swashbuckler throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a {@dc 12} Dexterity saving throw or take {@dice 3d6} fire damage."
                     ]
                 }
             ],
@@ -11101,7 +11101,7 @@
                     "entries":
                     [
                         "The kobold carries a cask of flammable alcohol on its back. While it does so, the kobold can't use its hands to make attacks or use actions, and fire damage the kobold takes is also taken by the cask.",
-                        "When the cask takes fire damage, roll a {@damage 1d10}. If the result is less than the fire damage dealt, the cask erupts in a 10-foot radius explosion. Each creature in the area must make a DC 13 Dexterity saving throw, taking {@damage 4d6} fire damage on a failed save, or half as much on a successful one. Flammable objects in the area not being worn or carried ignite."
+                        "When the cask takes fire damage, roll a {@damage 1d10}. If the result is less than the fire damage dealt, the cask erupts in a 10-foot radius explosion. Each creature in the area must make a {@dc 13} Dexterity saving throw, taking {@damage 4d6} fire damage on a failed save, or half as much on a successful one. Flammable objects in the area not being worn or carried ignite."
                     ]
                 }
             ],
@@ -11120,7 +11120,7 @@
                     [
                         "The Kobold rolls its carried cask in a straight line 15 feet in a direction of its choice. The cask then continues to roll 15 feet at the start of each of the kobold's turns, accelerating, decelerating, or changing direction with the terrain at the GM's discretion.",
                         "The cask is an object with an AC of 10 and 10 hit points (immunity to poison and psychic damage, vulnerability to fire damage), and which retains the applicable portion of the Volatile Cask trait above. If the cask collides with a creature or a solid surface, both it and what it collides with take {@damage 1d10} bludgeoning damage for every 10 feet it moved this turn.",
-                        "If the cask is destroyed by fire damage, the Volatile Cask trait is triggered automatically. If it is destroyed by damage of a different type, it creates a 5-foot radius pool of flammable alcohol on the ground where it was destroyed. Any fire damage dealt in the pool's area ignites it, forcing each creature in the area to succeed on a DC 13 Dexterity saving throw or take {@damage 2d6} fire damage as the alcohol burns up."
+                        "If the cask is destroyed by fire damage, the Volatile Cask trait is triggered automatically. If it is destroyed by damage of a different type, it creates a 5-foot radius pool of flammable alcohol on the ground where it was destroyed. Any fire damage dealt in the pool's area ignites it, forcing each creature in the area to succeed on a {@dc 13} Dexterity saving throw or take {@damage 2d6} fire damage as the alcohol burns up."
                     ]
                 }
             ],
@@ -11258,7 +11258,7 @@
                     "entries":
                     [
                         "If the bottle was not ignited, the target is soaked in flammable alcohol. The next time a soaked target takes any fire damage, that fire damage is increased by {@damage 1d6} as the alcohol burns away. If not ignited, the alcohol evaporates harmlessly after 1 minute.",
-                        "If the bottle was ignited, hit or miss, it shatters in a fiery explosion. The target and each creature within 5 feet of it must make a DC 13 Dexterity saving throw. A creature takes {@damage 2d4} fire damage and is ignited on a failed save, or takes half as much fire damage and is not ignited on a successful one. An ignited target takes {@damage 1d4} fire damage at the start of each of its turns, and can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+                        "If the bottle was ignited, hit or miss, it shatters in a fiery explosion. The target and each creature within 5 feet of it must make a {@dc 13} Dexterity saving throw. A creature takes {@damage 2d4} fire damage and is ignited on a failed save, or takes half as much fire damage and is not ignited on a successful one. An ignited target takes {@damage 1d4} fire damage at the start of each of its turns, and can end this damage by using its action to make a {@dc 10} Dexterity check to extinguish the flames.",
                         "A flammable object in the area ignites if it isn't being worn or carried."
                     ]
                 }
@@ -13840,7 +13840,7 @@
                     "name": "Poisonous Tendrils",
                     "entries":
                     [
-                        "The halocline shrimp has poison tendrils that carry a neurotoxin. A creature that touches the shrimp or that hits it with a melee attack while within 5 feet of it must make a DC 15 Constitution saving throw. On a failure, the creature takes {@damage 1d6} poison damage and is poisoned until the end of its next turn."
+                        "The halocline shrimp has poison tendrils that carry a neurotoxin. A creature that touches the shrimp or that hits it with a melee attack while within 5 feet of it must make a {@dc 15} Constitution saving throw. On a failure, the creature takes {@damage 1d6} poison damage and is poisoned until the end of its next turn."
                     ]
                 }
             ],
@@ -17798,7 +17798,7 @@
                     "name": "Fire in the hole!",
                     "entries":
                     [
-                        "The arcane gunslinger throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take {@dice 3d6} fire damage."
+                        "The arcane gunslinger throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a {@dc 12} Dexterity saving throw or take {@dice 3d6} fire damage."
                     ]
                 }
             ],
@@ -26242,7 +26242,7 @@
                     "name": "Bite (Bat or Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6 to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
                     ]
                 },
                 {
@@ -26479,7 +26479,7 @@
                     "name": "Bite (Bat or Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6 to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
                     ]
                 },
                 {
@@ -28112,7 +28112,7 @@
                     "name": "Nightshade Blood",
                     "entries":
                     [
-                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful DC 20 Constitution saving throw."
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful {@dc 20} Constitution saving throw."
                     ]
                 }
             ],
@@ -28129,14 +28129,14 @@
                     "name": "Greatsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 3 ({@damage 1d6}) fire damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 3 ({@damage 1d6}) fire damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
                     ]
                 },
                 {
                     "name": "Heavy Crossbow",
                     "entries":
                     [
-                        "{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.."
+                        "{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.."
                     ]
                 }
             ],
@@ -28259,7 +28259,7 @@
                     "name": "Nightshade Blood",
                     "entries":
                     [
-                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful DC 20 Constitution saving throw."
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful {@dc 20} Constitution saving throw."
                     ]
                 }
             ],
@@ -28276,7 +28276,7 @@
                     "name": "Shortsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
                     ]
                 }
             ],
@@ -28391,7 +28391,7 @@
                     "name": "Nightshade Blood",
                     "entries":
                     [
-                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful DC 20 Constitution saving throw."
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful {@dc 20} Constitution saving throw."
                     ]
                 }
             ],
@@ -28408,7 +28408,7 @@
                     "name": "Longbow",
                     "entries":
                     [
-                        "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                        "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
                     ]
                 }
             ],
@@ -28530,7 +28530,7 @@
                     "name": "Longsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must make a DC 20 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
                     ]
                 }
             ],
@@ -28628,14 +28628,15 @@
             "skill":
             {
                 "deception": "+10",
-                "perception": "+4",
-                "stealth": "+7"
+                "perception": "+6",
+                "persuasion": "+10",
+                "stealth": "+9"
             },
             "senses":
             [
-                "darkvision 120 ft."
+                "darkvision 60 ft."
             ],
-            "passive": 14,
+            "passive": 16,
             "resist":
             [
                 "necrotic",
@@ -28657,7 +28658,7 @@
             [
                 "the languages it knew in life"
             ],
-            "cr": "7",
+            "cr": "9",
             "trait":
             [
                 {
@@ -28687,7 +28688,7 @@
                     "name": "Regeneration",
                     "entries":
                     [
-                        "The vampire regains 5 hit points at the start of its turn if it has at least 1 hit point."
+                        "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point."
                     ]
                 },
                 {
@@ -28707,6 +28708,13 @@
                         "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
                         "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
                     ]
+                },
+                {
+                    "name": "Superior Invisibility {@recharge 3}",
+                    "entries":
+                    [
+                        "The vampire magically turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the vampire wears or carries is {@condition invisible} with it."
+                    ]
                 }
             ],
             "action":
@@ -28715,29 +28723,43 @@
                     "name": "Multiattack (Vampire Form Only)",
                     "entries":
                     [
-                        "The vampire makes two attacks, only one of which can be a bite attack."
+                        "The vampire uses its Eerie Scream and makes two attacks, only one of which can be a bite attack."
                     ]
                 },
                 {
-                    "name": "Unarmed Strike (Vampire Form Only)",
+                    "name": "Claws (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}12 ({@damage 2d6 + 5}) slashing damage, plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 15})."
                     ]
                 },
                 {
-                    "name": "Bite (Bat or Vampire Form Only)",
+                    "name": "Bite (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6 to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
                     ]
                 },
                 {
-                    "name": "Charm",
+                    "name": "Charm (Humanoid Form Only)",
                     "entries":
                     [
-                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 15} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+                        "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 18} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
                         "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Modify Memory (Humanoid Form Only) {@recharge 6}",
+                    "entries":
+                    [
+                        "The vampire targets one creature it can see within 5 feet of it. The target must succeed on a {@dc 18} Wisdom saving throw or its memory is altered."
+                    ]
+                },
+                {
+                    "name": "Eerie Scream (Vampire Form Only) {@recharge 5}",
+                    "entries":
+                    [
+                        "The vampire releases an eerie scream, provided that it isn't in sunlight. This scream has no effect on construct and undead All other creatures within 30 feet of it must make a {@dc 15} Wisdom saving throw, taking {@damage 4d8} psychic damage on a failed save, or half as much damage on a successful one. If a creature fails the saving throw by 5 or more, its also firghtened until the end of the bruxa's next turn."
                     ]
                 }
             ],
@@ -28930,9 +28952,9 @@
                     "items":
                     [
 						"Until initiative count 20 of the next round, the vampire can pass through solid walls, doors, ceilings, and floors as if they weren't there.",
-						"The vampire targets any number of doors and windows that he can see, causing each one to either open or close as he wishes. Closed doors can be magically locked (needing a successful DC 20 Strength check to force open) until the vampire chooses to end the effect, or until the vampire uses this lair action again.",
+						"The vampire targets any number of doors and windows that he can see, causing each one to either open or close as he wishes. Closed doors can be magically locked (needing a successful {@dc 20} Strength check to force open) until the vampire chooses to end the effect, or until the vampire uses this lair action again.",
                         "The vampire summons the angry spirit of one who has died in the lair. The apparition appears next to a hostile creature that the vampire can see, makes an attack against that creature, and then disappears. The apparition has the statistics of a specter.",
-                        "The vampire targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to the vampire and within 30 feet of him. If the target fails a DC 21 Charisma saving throw, its shadow detaches from it and becomes a shadow that obeys the vampire's commands, acting on initiative count 20. A greater restoration spell or a remove curse spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
+                        "The vampire targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to the vampire and within 30 feet of him. If the target fails a {@dc 21} Charisma saving throw, its shadow detaches from it and becomes a shadow that obeys the vampire's commands, acting on initiative count 20. A greater restoration spell or a remove curse spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
 					]
 				}
 			],
@@ -28965,7 +28987,7 @@
                     [
 						"Until initiative count 20 of the next round, the vampire can pass through solid walls, doors, ceilings, and floors as if they weren't there.",
                         "The vampire summons the angry spirit of one who has died in the lair. The apparition appears next to a hostile creature that the vampire can see, makes an attack against that creature, and then disappears. The apparition has the statistics of a specter.",
-                        "The vampire targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to the vampire and within 30 feet of him. If the target fails a DC 19 Charisma saving throw, its shadow detaches from it and becomes a shadow that obeys the vampire's commands, acting on initiative count 20. A greater restoration spell or a remove curse spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
+                        "The vampire targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to the vampire and within 30 feet of him. If the target fails a {@dc 19} Charisma saving throw, its shadow detaches from it and becomes a shadow that obeys the vampire's commands, acting on initiative count 20. A greater restoration spell or a remove curse spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
 					]
 				}
 			],
@@ -28996,7 +29018,7 @@
                     "items":
                     [
 						"Until initiative count 20 of the next round, the vampire can pass through solid walls, doors, ceilings, and floors as if they weren't there.",
-                        "The vampire targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to the vampire and within 30 feet of him. If the target fails a DC 17 Charisma saving throw, its shadow detaches from it and becomes a shadow that obeys the vampire's commands, acting on initiative count 20. A greater restoration spell or a remove curse spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
+                        "The vampire targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to the vampire and within 30 feet of him. If the target fails a {@dc 17} Charisma saving throw, its shadow detaches from it and becomes a shadow that obeys the vampire's commands, acting on initiative count 20. A greater restoration spell or a remove curse spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
 					]
 				}
 			],
