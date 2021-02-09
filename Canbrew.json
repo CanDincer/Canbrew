@@ -28652,6 +28652,7 @@
             ],
             "vulnerable":
             [
+                "fire",
                 "raidant"
             ],
             "languages":
@@ -28715,6 +28716,13 @@
                     [
                         "The vampire magically turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the vampire wears or carries is {@condition invisible} with it."
                     ]
+                },
+                {
+                    "name": "Swiftness",
+                    "entries":
+                    [
+                        "The vampire can use its bonus action to take disengage, hide, or dash action. Additionally whenever an attack made against it misses, it can use her reaction to make an oportunity attack."
+                    ]
                 }
             ],
             "action":
@@ -28759,11 +28767,11 @@
                     "name": "Eerie Scream (Vampire Form Only) {@recharge 5}",
                     "entries":
                     [
-                        "The vampire releases an eerie scream, provided that it isn't in sunlight. This scream has no effect on construct and undead All other creatures within 30 feet of it must make a {@dc 15} Wisdom saving throw, taking {@damage 4d8} psychic damage on a failed save, or half as much damage on a successful one. If a creature fails the saving throw by 5 or more, its also firghtened until the end of the bruxa's next turn."
+                        "The vampire releases an eerie scream, provided that it isn't in sunlight. This scream has no effect on construct and undead. All other creatures within 30 feet of it must make a {@dc 15} Wisdom saving throw, taking {@damage 2d8} psychic damage on a failed save, or half as much damage on a successful one. If a creature fails the saving throw by 5 or more, its also firghtened until the end of the bruxa's next turn."
                     ]
                 }
             ],
-            "legendaryActions": 1,
+            "legendaryActions": 2,
             "legendary":
             [
                 {
