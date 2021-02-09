@@ -28578,7 +28578,7 @@
             }
         },
         {
-            "name": "Bruxa ogd",
+            "name": "Bruxa",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -28828,7 +28828,7 @@
             [
                 "charmed"
             ],
-            "tokenUrl": "https://i.imgur.com/DolWIpI.png",
+            "tokenUrl": "https://i.imgur.com/aFouzLs.png",
             "fluff":
             {
                 "images":
@@ -28838,7 +28838,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "https://i.imgur.com/EnZGghY.jpg"
+                            "url": "https://i.imgur.com/Odse3u1.png"
                         }
                     }
                 ]
