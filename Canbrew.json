@@ -4272,6 +4272,146 @@
                     }
                 ]
             }
+        },{
+            "name": "Coffin Mimic",
+            "size": "L",
+            "type":
+            {
+                "type": "monstrosity",
+                "tags":
+                [
+                    "shapechanger"
+                ]
+            },
+            "source": "Canbrew",
+            "alignment":
+            [
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 142,
+                "formula": "15d10 + 60"
+            },
+            "speed":
+            {
+                "walk": 5
+            },
+            "str": 21,
+            "dex": 18,
+            "con": 19,
+            "int": 5,
+            "wis": 13,
+            "cha": 8,
+            "skill":
+            {
+                "stealth": "+12"
+            },
+            "immune":
+            [
+                "acid"
+            ],
+            "conditionImmune":
+            [
+                "prone"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Shapechanger",
+                    "entries":
+                    [
+                        "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Adhesive (Object Form Only)",
+                    "entries":
+                    [
+                        "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition grappled} by it (escape {@dc 13}). Ability checks made to escape this grapple have disadvantage."
+                    ]
+                },
+                {
+                    "name": "False Appearance (Object Form Only)",
+                    "entries":
+                    [
+                        "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+                    ]
+                },
+                {
+                    "name": "Grappler",
+                    "entries":
+                    [
+                        "The mimic has advantage on attack rolls against any creature {@condition grappled} by it."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Pseudopod",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) piercing damage plus 14 ({@damage 2d8+5}) acid damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Shapechanger"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "B",
+                "P",
+                "A"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/00eQvmZ.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/3FO0g3W.jpg"
+                        }
+                    }
+                ]
+            }
         },
         {
             "name": "Nyarlathotep, The Crawling Chaos",
