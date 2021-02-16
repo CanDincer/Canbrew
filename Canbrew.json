@@ -789,10 +789,11 @@
             "dmgType": "P",
             "reqAttune": true,
             "rarity": "uncommon",
+            "charges": 4,
             "source": "Canbrew",
             "entries":
             [
-                "Can cast Searing Smite a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
+                "Can cast {@spell Searing Smite|PHB} a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
             ]
         },
         {
