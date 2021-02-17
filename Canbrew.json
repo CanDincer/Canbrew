@@ -3959,7 +3959,21 @@
                         "You need surgical tools and a surgeon to remove this centipede from your brain without killing yourself."
                     ]
                 }
-            ]
+            ],
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Qc2qqNh.png"
+                        }
+                    }
+                ]
+            }
         },
         {
             "name": "Companion Coin",
