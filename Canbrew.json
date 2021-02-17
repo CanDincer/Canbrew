@@ -3955,7 +3955,7 @@
                     "name": "Curse",
                     "entries":
                     [
-                        "You have to fend for two minds at the same time. You have disadvantage on Intelligence, Wisdom and, Charisma saving throws.",
+                        "You have to fend for two minds at the same time. You have -5 to Intelligence, Wisdom, and Charisma saving throws.",
                         "You need surgical tools and a surgeon to remove this centipede from your brain without killing yourself."
                     ]
                 }
