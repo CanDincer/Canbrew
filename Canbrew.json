@@ -3111,7 +3111,7 @@
             ]
         },
         {
-            "name": "Goblin's Gourd",
+            "name": "Goblin's Gourd ogd",
             "rarity": "common",
             "type": "P",
             "weight": 0.5,
@@ -3908,16 +3908,15 @@
         },
         {
             "name": "Azuth Pearl Earring",
-            "rarity": "rare",
+            "rarity": "uncommon",
             "weight": 0.5,
             "reqAttune": "by a spellcaster with a limited number of spells known",
             "source": "Canbrew",
             "entries":
             [
                 "During a long rest, you can take 1 hour to read a spell to the earring. The earring will memorise it and remind you if you ever need to.",
-                "The number of spells you know increases by 1.",
-                "You can cast the spell memorised by the earring once every day without expending a spell slot.",
-                "You have a +1 bonus to spell attack rolls."
+                "The spells doesn't count againts neither the number of spells you know bor the number of spells you can prepare.",
+                "You can cast the spell memorised by the earring once every day without expending a spell slot."
             ]
         },
         {
