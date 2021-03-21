@@ -21771,7 +21771,7 @@
                     "name": "Magic Resistance",
                     "entries":
                     [
-                        "The balor has advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against it."
+                        "The balrog has advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against it."
                     ]
                 },
                 {
@@ -27670,14 +27670,14 @@
                     "name": "Death Throes",
                     "entries":
                     [
-                        "When the vampire dies, it explodes, and each creature within 30 feet of it must make a {@dc 20} Dexterity saving throw, taking 70 ({@damage 20d6}) necrotic damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the balor's weapons."
+                        "When the vampire dies, it explodes, and each creature within 30 feet of it must make a {@dc 20} Dexterity saving throw, taking 70 ({@damage 20d6}) necrotic damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the balrog's weapons."
                     ]
                 },
                 {
                     "name": "Magic Resistance",
                     "entries":
                     [
-                        "The balor has advantage on saving throws against spells and other magical effects."
+                        "The balrog has advantage on saving throws against spells and other magical effects."
                     ]
                 },
                 {
@@ -28993,6 +28993,201 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/Odse3u1.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Balrog",
+            "source": "Canbrew",
+            "size": "H",
+            "type":
+            {
+                "type": "fiend",
+                "tags":
+                [
+                    "demon"
+                ]
+            },
+            "alignment":
+            [
+                "C",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 19,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 262,
+                "formula": "21d12 + 126"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "fly": 80
+            },
+            "str": 26,
+            "dex": 15,
+            "con": 22,
+            "int": 20,
+            "wis": 16,
+            "cha": 22,
+            "save":
+            {
+                "str": "+14",
+                "con": "+12",
+                "wis": "+9",
+                "cha": "+12"
+            },
+            "senses":
+            [
+                "truesight 120 ft."
+            ],
+            "passive": 13,
+            "resist":
+            [
+                "cold",
+                "lightning",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "fire",
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
+            "languages":
+            [
+                "Abyssal",
+                "telepathy 120 ft."
+            ],
+            "cr": "19",
+            "trait":
+            [
+                {
+                    "name": "Death Throes",
+                    "entries":
+                    [
+                        "When the balrog dies, it explodes, and each creature within 30 feet of it must make a {@dc 20} Dexterity saving throw, taking 70 ({@damage 20d6}) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the balrog's weapons."
+                    ]
+                },
+                {
+                    "name": "Fire Aura",
+                    "entries":
+                    [
+                        "At the start of each of the balrog's turns, each creature within 5 feet of it takes 10 ({@damage 3d6}) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the balrog or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries":
+                    [
+                        "The balrog has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Magic Weapons",
+                    "entries":
+                    [
+                        "The balrog's weapon attacks are magical."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The balrog makes two attacks: one with its longsword and one with its whip."
+                    ]
+                },
+                {
+                    "name": "Longsword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d8 + 8}) slashing damage plus 13 ({@damage 3d8}) lightning damage. If the balrog scores a critical hit, every creature within 30 feet takes {@damage 3d8} lightning damage."
+                    ]
+                },
+                {
+                    "name": "Whip",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 14} to hit, reach 30 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage plus 10 ({@damage 3d6}) fire damage, and the target must succeed on a {@dc 20} Strength saving throw or be pulled up to 25 feet toward the balrog."
+                    ]
+                },
+                {
+                    "name": "Teleport",
+                    "entries":
+                    [
+                        "The balrog magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+                    ]
+                }
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Death Burst",
+                "Magic Resistance",
+                "Magic Weapons"
+            ],
+            "senseTags":
+            [
+                "U"
+            ],
+            "actionTags":
+            [
+                "Multiattack",
+                "Teleport"
+            ],
+            "languageTags":
+            [
+                "AB",
+                "TP"
+            ],
+            "damageTags":
+            [
+                "F",
+                "L",
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RCH"
+            ],
+            "tokenUrl": "https://i.imgur.com/R0T5pkP.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/LPTGbVd.jpg"
                         }
                     }
                 ]
