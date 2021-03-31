@@ -29192,6 +29192,152 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Zombie Bear",
+            "source": "Canbrew",
+            "size": "L",
+            "type": "undead",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 9,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 68,
+                "formula": "8d10 + 24"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "climb": 30
+            },
+            "str": 22,
+            "dex": 6,
+            "con": 22,
+            "int": 2,
+            "wis": 9,
+            "cha": 7,
+            "skill":
+            {
+                "perception": "+2"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Keen Smell",
+                    "entries":
+                    [
+                        "The zombie has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+                    ]
+                },
+                {
+                    "name": "Undead Fortitude",
+                    "entries":
+                    [
+                        "If damage reduces the zombie to 0 hit points, unless the damage is radiant or from a critical hit, the zombie drops to 1 hit point instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The zombie makes three attacks: one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+                    ]
+                }
+            ],
+            "hasToken": true,
+            "traitTags":
+            [
+                "Keen Senses",
+                "Undead Fortitude"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "damageTags":
+            [
+                "P",
+                "S"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/YazHoDI.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/y6p29IQ.jpg"
+                        }
+                    }
+                ]
+            }
         }
     ],
     "legendaryGroup":
