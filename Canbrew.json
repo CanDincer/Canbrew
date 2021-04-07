@@ -29338,6 +29338,1122 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Fire Minimental",
+            "source": "Canbrew",
+            "size": "T",
+            "type": "elemental",
+            "alignment":
+            [
+                "L",
+                "NX",
+                "C",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                9
+            ],
+            "hp":
+            {
+                "average": 2,
+                "formula": "1d4"
+            },
+            "speed":
+            {
+                "walk": 40
+            },
+            "str": 6,
+            "dex": 8,
+            "con": 10,
+            "int": 6,
+            "wis": 6,
+            "cha": 10,
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "fire",
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "exhaustion",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "restrained",
+                "unconscious"
+            ],
+            "languages":
+            [
+                "Ignan"
+            ],
+            "cr": "1/8",
+            "trait":
+            [
+                {
+                    "name": "Fire Form",
+                    "entries":
+                    [
+                        "The fire minimental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the minimental or hits it with a melee attack while within 5 feet of it takes 1 fire damage. In addition, the minimental can enter a hostile creature's space and stop there. The first time it enters a creature's space in a turn, that creature takes 1 fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 1 fire damage at the start of each of its turns."
+                    ]
+                },
+                {
+                    "name": "Illumination",
+                    "entries":
+                    [
+                        "The minimental sheds bright light in a 15 foot radius and dim light an additional 15 feet."
+                    ]
+                },
+                {
+                    "name": "Water Susceptibility",
+                    "entries":
+                    [
+                        "For every 5 feet the minimental moves in water it takes 1 cold damage."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Touch",
+                    "entries":
+                    [
+                        "Melee Weapon attack: {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} fire damage. If the target is a creature or flammable object it ignites. Until a creature takes an action to douse the fire, the target takes 1 fire damage at the start of each of its turns"
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Illumination"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "IG"
+            ],
+            "damageTags":
+            [
+                "C",
+                "F"
+            ],
+            "tokenUrl": "https://i.imgur.com/Budlaf0.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "Fire minimentals have an innate desire to embrace  creatures and inanimate objects. Typically  encountered by themselves, they tend to be lonely  and will actively seek out contact. Due to their  flaming body, fire minimentals are the only minimental  that actively pose a constant threat to those around them, through no intent of their own. They are known to accidentally start fires by embracing flammable objects and living creatures. They have sometimes been sighted clinging to the limbs of creatures that are immune to fire, giving the creature the appearance of being engulfed in flames. Once fire minimentals find each other, they generally avoid parting, and sufficient numbers will act akin to a roaming fire."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/Budlaf0.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Water Minimental",
+            "source": "Canbrew",
+            "size": "T",
+            "type": "elemental",
+            "alignment":
+            [
+                "L",
+                "NX",
+                "C",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 10,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 1,
+                "formula": "1d4 - 1"
+            },
+            "speed":
+            {
+                "walk": 15,
+                "swim": 40
+            },
+            "str": 6,
+            "dex": 8,
+            "con": 8,
+            "int": 6,
+            "wis": 8,
+            "cha": 10,
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 9,
+            "resist":
+            [
+                "acid",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "exhaustion",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "restrained",
+                "unconscious"
+            ],
+            "languages":
+            [
+                "Aquan"
+            ],
+            "cr": "1/8",
+            "trait":
+            [
+                {
+                    "name": "Water Breathing",
+                    "entries":
+                    [
+                        "The Water Minimental can breathe underwater."
+                    ]
+                },
+                {
+                    "name": "Water Form",
+                    "entries":
+                    [
+                        "The Water Minimental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Slam",
+                    "entries":
+                    [
+                        "Melee Weapon attack: {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Water Breathing"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AQ"
+            ],
+            "tokenUrl": "https://i.imgur.com/6F56w8M.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "Water minimentals tend to be social and stay in groups, often taking up refuge in water sources where they are invisible unless disturbed. They generally despise temperature extremes, and will shy away from flame or cold. If a number of water minimentals gather in a town’s well or potable water source, they form invisible barriers that make it difficult to access the water underneath. Due to this trait, they can be a nuisance to towns that find themselves with an infestation. Water minimentals prefer to go with the flow, and tend to flow down towards sea level, as water is apt to do. It is unknown how many of these minimentals exist in the oceans of the material plane."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/6F56w8M.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Air Minimental",
+            "source": "Canbrew",
+            "size": "T",
+            "type": "elemental",
+            "alignment":
+            [
+                "L",
+                "NX",
+                "C",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                9
+            ],
+            "hp":
+            {
+                "average": 1,
+                "formula": "1d4 - 1"
+            },
+            "speed":
+            {
+                "walk": 0,
+                "fly":
+                {
+                    "number": 50,
+                    "condition": "(hover)"
+                },
+                "canHover": true
+            },
+            "str": 6,
+            "dex": 8,
+            "con": 9,
+            "int": 6,
+            "wis": 8,
+            "cha": 10,
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 9,
+            "resist":
+            [
+                "lightning",
+                "thunder",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "exhaustion",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "restrained",
+                "unconscious"
+            ],
+            "languages":
+            [
+                "Auran"
+            ],
+            "cr": "1/8",
+            "trait":
+            [
+                {
+                    "name": "Air Form",
+                    "entries":
+                    [
+                        "The Air minimental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Slam",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
+                    ]
+                }
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AU"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/iDbO7gB.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "Air minimentals are naturally moody but curious, plagued with a short attention span. These minimentals are most often observed in the form of small cloud formations of varying colour, which tend to change with their mood. They are light enough to fly, but risk getting carried away by gusts of wind if they stray too far from the ground, tending to stick to the gentler currents close to the earth. Due to their erratically nomadic nature, they are most often encountered alone. When upset, or even when simply sneezing, they can accidentally discharge a static shock. An individual air minimental’s shocks are not much of a threat, but large, grumpy groups of them can generate surprisingly intense thunderstorms that may pose a threat to less structurally sound buildings."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/iDbO7gB.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Earth Minimental",
+            "source": "Canbrew",
+            "size": "T",
+            "type": "elemental",
+            "alignment":
+            [
+                "L",
+                "NX",
+                "C",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 10,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 2,
+                "formula": "1d4"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "burrow": 20
+            },
+            "str": 8,
+            "dex": 6,
+            "con": 10,
+            "int": 6,
+            "wis": 6,
+            "cha": 10,
+            "senses":
+            [
+                "darkvision 60 ft.",
+                "tremorsense 60 ft."
+            ],
+            "passive": 8,
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "poison"
+            ],
+            "vulnerable":
+            [
+                "slashing"
+            ],
+            "conditionImmune":
+            [
+                "exhaustion",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "unconscious"
+            ],
+            "languages":
+            [
+                "Terran"
+            ],
+            "cr": "1/8",
+            "trait":
+            [
+                {
+                    "name": "Earth Glide",
+                    "entries":
+                    [
+                        "The Earth Minimental can burrow through nonmagical, unworked earth and stone.",
+                        "While doing so, the Earth Minimental doesn't disturb the material it moves through."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Slam",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
+                    ]
+                }
+            ],
+            "senseTags":
+            [
+                "D",
+                "T"
+            ],
+            "languageTags":
+            [
+                "T"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/18UUCNt.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "Earth minimentals are drawn towards movement of any kind. It will follow creatures for hours until it loses sight of them, just to observe what they do. Earth Minimentals are stubborn but fun loving, and when they have nothing to follow they will climb hills and mountains to roll down for their amusement. They are social by nature, and will happily form squads of other earth minimentals to travel with, though often break apart due to members tripping and rolling away from their kin. Large groups of them can create dangerous terrain, especially when rolling down slopes. Earth minimentals who have been on the material plane may go through a change similar to adolescence in humans, and small precious gems can grow on their face."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/18UUCNt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Smoke Minimental",
+            "source": "Canbrew",
+            "size": "T",
+            "type": "elemental",
+            "alignment":
+            [
+                "L",
+                "NX",
+                "C",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                9
+            ],
+            "hp":
+            {
+                "average": 1,
+                "formula": "1d4 - 1"
+            },
+            "speed":
+            {
+                "walk": 0,
+                "fly":
+                {
+                    "number": 40,
+                    "condition": "(hover)"
+                },
+                "canHover": true
+            },
+            "str": 6,
+            "dex": 8,
+            "con": 9,
+            "int": 6,
+            "wis": 8,
+            "cha": 10,
+            "skill":
+            {
+                "stealth": "+1"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 9,
+            "resist":
+            [
+                "fire",
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "exhaustion",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "restrained",
+                "unconscious"
+            ],
+            "languages":
+            [
+                "Auran",
+                "Ignan"
+            ],
+            "cr": "1/8",
+            "trait":
+            [
+                {
+                    "name": "Smoke Form",
+                    "entries":
+                    [
+                        "The Smoke minimental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. If the hostile creature is size Small or smaller, it is {@condition blinded} while the minimental is in its space."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Slam",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
+                    ]
+                }
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AU",
+                "IG"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/MyT1vys.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "Always following in the shadow of fire minimentals, smoke minimentals tend to be a little awkward around creatures and people. Despite this, it desires nothing more than to cling to people, engulfing them in its distinctive smell. Smoke minimentals love to hang out around fires, both while they're burning and after they're put out. They can often be hard to see, blending into the charred remains of buildings and forests with ease. Given their composition, they are able to flow under doors or through tiny openings, but they are easily dispersed by stronger winds."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/MyT1vys.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dust Minimental",
+            "source": "Canbrew",
+            "size": "T",
+            "type": "elemental",
+            "alignment":
+            [
+                "L",
+                "NX",
+                "C",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 9,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 1,
+                "formula": "1d4 - 1"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "fly":
+                {
+                    "number": 20,
+                    "condition": "(hover)"
+                },
+                "canHover": true
+            },
+            "str": 8,
+            "dex": 6,
+            "con": 9,
+            "int": 6,
+            "wis": 8,
+            "cha": 10,
+            "skill":
+            {
+                "stealth": "+0"
+            },
+            "senses":
+            [
+                "darkvision 60 ft.",
+                "tremorsense 15 ft."
+            ],
+            "passive": 9,
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "exhaustion",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "restrained",
+                "unconscious"
+            ],
+            "languages":
+            [
+                "Auran",
+                "Terran"
+            ],
+            "cr": "1/8",
+            "trait":
+            [
+                {
+                    "name": "Dust Body",
+                    "entries":
+                    [
+                        "The Dust minimental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. If the creature has a nose, it must make a {@dc 8} CON save, sneezing on a fail."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Slam",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
+                    ]
+                }
+            ],
+            "senseTags":
+            [
+                "D",
+                "T"
+            ],
+            "languageTags":
+            [
+                "AU",
+                "T"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/hdCuBe3.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "Nestled in quiet, forgotten corners of abandoned buildings and caves live the dust minimentals. They tend to be very wary of creatures, mostly keeping to themselves, and are usually shy if approached. Dust minimentals are sleepy and quite content to doze the day away with others of their kind in the quiet darkness, away from loud noises and wind. Once they find a suitable corner or neglected shelf, they rarely move unless disturbed. They are able to contort their body to fil natural crevices and escape predators through tiny openings."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/hdCuBe3.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ice Minimental",
+            "source": "",
+            "page": 0,
+            "size": "T",
+            "type": "elemental",
+            "alignment":
+            [
+                "L",
+                "NX",
+                "C",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 10,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 2,
+                "formula": "1d4"
+            },
+            "speed":
+            {
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 8,
+            "dex": 6,
+            "con": 10,
+            "int": 6,
+            "wis": 6,
+            "cha": 10,
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 8,
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "cold",
+                "poison"
+            ],
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "conditionImmune":
+            [
+                "exhaustion",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "unconscious"
+            ],
+            "languages":
+            [
+                "Aquan",
+                "Auran"
+            ],
+            "cr": "1/8",
+            "trait":
+            [
+                {
+                    "name": "False Appearance",
+                    "entries":
+                    [
+                        "While the minimental remains motionless, it is indistinguishable from a natural ice formation."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Slam",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Drop",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 1} to hit, one creature directly underneath the minimental. {@h}2 ({@damage 1d4}) piercing damage per 10 feet fallen, up to 6 ({@dice 3d4}).",
+                        "Miss: The minimental takes half the normal falling damage for the distance fallen."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "False Appearance"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AQ",
+                "AU"
+            ],
+            "damageTags":
+            [
+                "P"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/QshFq6O.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "In deep snow and frozen caves, ice minimentals make their homes. Some groups burrow underneath the snow, forming large and complex tunnel systems that travelers have found themselves falling into when traversing snowfields. Others prefer to cling to cave ceilings, and groups of them are often mistaken for natural ice stalactites. These hanging ice minimentals are particularly dangerous, as they can drop from the ceiling onto unaware explorers. Ice minimentals strictly stick to cold places and do everything they can to avoid fire."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/QshFq6O.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Magma Minimental",
+            "source": "Canbrew",
+            "size": "T",
+            "type": "elemental",
+            "alignment":
+            [
+                "L",
+                "NX",
+                "C",
+                "NY",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 10,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 2,
+                "formula": "1d4"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 8,
+            "dex": 6,
+            "con": 10,
+            "int": 6,
+            "wis": 6,
+            "cha": 10,
+            "senses":
+            [
+                "darkvision 60 ft.",
+                "tremorsense 30 ft."
+            ],
+            "passive": 8,
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune":
+            [
+                "fire",
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "exhaustion",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "restrained",
+                "unconscious"
+            ],
+            "languages":
+            [
+                "Ignan",
+                "Terran"
+            ],
+            "cr": "1/8",
+            "trait":
+            [
+                {
+                    "name": "Magma Body",
+                    "entries":
+                    [
+                        "A creature that touches the minimental or hits it with a melee attack while within 5 feet of it take 1 fire damage."
+                    ]
+                },
+                {
+                    "name": "Illumination",
+                    "entries":
+                    [
+                        "The minimental sheds bright light in a 15 foot radius and dim light an additional 15 feet."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bump",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Illumination"
+            ],
+            "senseTags":
+            [
+                "D",
+                "T"
+            ],
+            "languageTags":
+            [
+                "IG",
+                "T"
+            ],
+            "damageTags":
+            [
+                "F"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/LM6lmyA.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "Magma minimentals are typically found around active volcanoes, but a select few have been spotted far away from their usual fiery nests. These minimentals are grumpy and easily angered, prompting them to eject molten lava from their backs. Their bodies are very hot to the touch, and use this to their advantage when bumping into hostile creatures. As long as they are left alone, magma minimentals are generally not threatening. The light from their magma chamber makes them easily spottable from a distance, especially at night."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/LM6lmyA.png"
+                        }
+                    }
+                ]
+            }
         }
     ],
     "legendaryGroup":
