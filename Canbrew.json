@@ -3147,7 +3147,7 @@
             "entries":
             [
                 "This pouch holds a maximum of 3 potions. At the beginning of a long rest, you may choose to activate the pouch's magic. Should there be any empty common, uncommon or rare potions within the bag during a long rest, roll {@dice 1d4}. If you roll a 1-2, they are magically destroyed and the maximum number of potions the pouch can hold is lowered by 1. If you roll a 3-4, they are magically replenished.",
-                "Until the pouch is opened the potion is both full and destroyed."
+                "Until the pouch is opened at the end of the long rest, the potions are both full and destroyed."
             ]
         },
         {
