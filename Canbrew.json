@@ -31996,7 +31996,7 @@
 			]
 		},
 		{
-			"name": "Channel Divinity",
+			"name": "Channel Divinity: Frightening Presence",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -32006,7 +32006,6 @@
 			"header": 1,
 			"entries":
             [
-                "When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
                 {
                     "type": "entries",
                     "name": "Frightening Presence",
@@ -32014,7 +32013,20 @@
                     [
                         "As an action, you can use your Channel Divinity to exude a terrifying presence. As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
                     ]
-                },
+                }
+			]
+		},
+		{
+			"name": "Channel Divinity: Frightening Presence",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 3,
+			"header": 1,
+			"entries":
+            [
                 {
                     "type": "entries",
                     "name": "Wing Buffet",
@@ -32026,7 +32038,7 @@
 			]
 		},
 		{
-			"name": "Aura of the Dragon Queen",
+			"name": "Aura of the Dragon Queen (Chromatic Draconic Oath only)",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -32036,12 +32048,12 @@
 			"header": 2,
 			"entries":
             [
-                "Beginning at 7th level, you imbue your own weapons and those of your allies with the elemental fury of your Dragon Sovereign. When you or a friendly creature within 10 feet of you hits a creature with a melee weapon attack, it will deal an extra {@damage 1d8} damage of the damage type associated with your Draconic Oath. A creature may only deal this additional damage once per turn, and can benefit from this feature from only one paladin at a time. You must be conscious to grant this boon.",
+                "Beginning at 7th level, you imbue your own weapons and those of your allies with the elemental fury of your Dragon Sovereign. When you or a friendly creature within 10 feet of you hits a creature with a melee weapon attack, it will deal an extra {@damage 1d4} damage of the damage type associated with your Draconic Oath. A creature can benefit from this feature from only one paladin at a time. You must be conscious to grant this boon.",
                 "At 18th level, the range of this aura increases to 30 feet."
 			]
 		},
 		{
-			"name": "Aura of the Platinum Dragon",
+			"name": "Aura of the Platinum Dragon (Metallic Draconic Oath only)",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
