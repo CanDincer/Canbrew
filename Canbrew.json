@@ -32014,7 +32014,7 @@
 			"header": 1,
 			"entries":
             [
-                "As an action, you can use your Channel Divinity to exude a terrifying presence. As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
+                "As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
 			]
 		},
 		{
@@ -32028,7 +32028,7 @@
 			"header": 1,
 			"entries":
             [
-                "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take 2d6 bludgeoning damage. On a success, they are instead knocked back 5 feet."
+                "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take {@damage 2d6} bludgeoning damage. On a success, they are instead knocked back 5 feet."
 			]
 		},
 		{
