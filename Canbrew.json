@@ -30521,6 +30521,128 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Draconic Avatar",
+            "source": "Canbrew",
+            "size": "L",
+            "type": "dragon",
+            "ac":
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "special": "175"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "fly": 80
+            },
+            "str": 23,
+            "dex": 12,
+            "con": 22,
+            "int": "-",
+            "wis": "-",
+            "cha": "-",
+            "save":
+            {
+                "str":"+12",
+                "dex":"+7",
+                "con":"+12"
+            },
+            "skill":
+            {
+                "stealth": "+7"
+            },
+            "senses":
+            [
+                "darkvision 120 ft.",
+                "blindsight 30 ft."
+            ],
+            "immune":
+            [
+                "Same as the Damage Type of your Draconic Oath"
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "You can either use your breath weapon (if available), or make three attacks: one with your bite and two with your claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 {@damage 2d10 + 6} piercing damage plus 7 {@damage 2d6} damage of your Draconic Oath's Damage Type."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 {@damage 2d10 + 6} piercing damage plus 7 {@damage 2d6} damage of your Draconic Oath's Damage Type."
+                    ]
+                },
+                {
+                    "name": "Breath {@recharge 5}",
+                    "entries":
+                    [
+                        "You exhale elemental damage of your Draconic Oath's Damage Type in either a 30-foot cone or a 60-foot line that is 10 feet wide (depending on your type). Each creature in that area must make a Dexterity saving throw. Those affected take 56 (16d6) damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Illumination"
+            ],
+            "senseTags":
+            [
+                "D",
+                "T"
+            ],
+            "languageTags":
+            [
+                "IG",
+                "T"
+            ],
+            "damageTags":
+            [
+                "F"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/LM6lmyA.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "Magma minimentals are typically found around active volcanoes, but a select few have been spotted far away from their usual fiery nests. These minimentals are grumpy and easily angered, prompting them to eject molten lava from their backs. Their bodies are very hot to the touch, and use this to their advantage when bumping into hostile creatures. As long as they are left alone, magma minimentals are generally not threatening. The light from their magma chamber makes them easily spottable from a distance, especially at night."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/LM6lmyA.png"
+                        }
+                    }
+                ]
+            }
         }
     ],
     "legendaryGroup":
@@ -31665,5 +31787,328 @@
                 "PRM"
             ]
         }
+    ],
+    "subclass":
+    [
+        {
+			"name": "Oath of the Dragon Knight",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"shortName": "Dragon Knight",
+			"additionalSpells":
+            [
+				{
+					"prepared":
+                    {
+						"3":
+                        [
+							"spell create or destroy water",
+							"expeditious retreat"
+						],
+						"5":
+                        [
+							"augury",
+							"misty step"
+						],
+						"9":
+                        [
+							"call lightning",
+							"tidal wave|XGE"
+						],
+						"13":
+                        [
+							"control water",
+							"freedom of movement"
+						],
+						"17":
+                        [
+							"commune with nature",
+							"maelstrom|XGE"
+						]
+					}
+				}
+			],
+			"subclassFeatures":
+            [
+				"Oath of the Dragon Knight|Paladin||Dragon Knight|Canbrew|3",
+				"Aura of the Dragon Queen|Paladin||Dragon Knight|Canbrew|7",
+				"Aura of the Platinum Dragon|Paladin||Dragon Knight|Canbrew|7",
+				"Dragon Flight|Paladin||Dragon Knight|Canbrew|15",
+				"Draconic Avatar|Paladin||Dragon Knight|Canbrew|20"
+			]
+		}
+	],
+	"subclassFeature":
+    [
+		{
+			"name": "Oath of the Dragon Knight",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 3,
+			"entries":
+            [
+				"Dragons are some of the most powerful creatures in the multiverse, and you seek to emulate their majesty in all that you do. Whether you wish to use and exercise a dragon’s power, help it extend its influence and change the world, or simply fell in love with the mighty creature and its ideals, you agree that dragonkind has its role to play in the great battles of this world. You have made an oath with an ancient or older dragon that has become your sovereign. You may also choose Bahamut (for metallic dragons) or Tiamat (for chromatic dragons) as your Sovereign.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenents of the Dragon Knight|Paladin||Dragon Knight|Canbrew|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin||Dragon Knight|Canbrew|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin||Dragon Knight|Canbrew|3"
+				}
+			]
+		},
+		{
+			"name": "Tenents of the Dragon Knight",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 3,
+			"header": 1,
+			"entries":
+            [
+                "Though the exact words and strictures of the Oath of Dragons vary, paladins of this oath share the following tenets, with some based on your dragon sovereign.",
+				{
+					"type": "entries",
+					"name": "Majesty",
+					"entries":
+                    [
+						"I shall not bring shame to my sovereign, and I will behave in a way befitting of my status. I will be proud."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Treasure",
+					"entries":
+                    [
+						"I will gather wealth and unique items, both for my endeavors and for my sovereign. Regardless if they call me greedy. One never has enough riches."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Power",
+					"entries":
+                    [
+						"(Chromatic sovereign only) What good is power if it is not used? I shall use my power to advance the goals of my sovereign and myself, and remove those who oppose me."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Goodwill",
+					"entries":
+                    [
+						"(Metallic sovereign only) I shall not confuse arrogance and pride, nor shall I think myself above helping the weak and the weary."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 3,
+			"header": 1,
+			"entries":
+            [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of the Dragon Knight Spells",
+					"colLabels":
+                    [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles":
+                    [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows":
+                    [
+						[
+							"3rd",
+							"{@spell absorb elements|XGE}, {@spell ceremony|XGE}"
+						],
+						[
+							"5th",
+							"{@spell augury}, {@spell dragon's breath|XGE}"
+						],
+						[
+							"9th",
+							"{@spell fear}, {@spell fly|XGE}"
+						],
+						[
+							"13th",
+							"{@spell elemental bane|XGE}, {@spell leomund's secret chest}"
+						],
+						[
+							"17th",
+							"{@spell dominate person}, {@spell teleportation circle}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Oath",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 3,
+			"header": 1,
+			"entries":
+            [
+				"As an action, you can use your Channel Divinity to exude a terrifying presence. As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it.",
+                {
+					"type": "table",
+					"caption": "Draconic Oath",
+					"colLabels":
+                    [
+						"Metallic Dragon",
+						"Chromatic Dragon",
+                        "Damage Type"
+					],
+					"colStyles":
+                    [
+						"col-3 text-center",
+						"col-3 text-center",
+						"col-3"
+					],
+					"rows":
+                    [
+						[
+							"Copper",
+							"Black",
+                            "Acid"
+						],
+                        [
+							"Silver",
+							"White",
+                            "Cold"
+						],
+                        [
+							"Copper",
+							"Black",
+                            "Acid"
+						],
+                        [
+							"Copper",
+							"Black",
+                            "Acid"
+						],
+                        [
+							"Copper",
+							"Black",
+                            "Acid"
+						],
+                        [
+							"Copper",
+							"Black",
+                            "Acid"
+						],
+					]
+				},
+                "When you deal damage with your Divine Smite or Improved Divine Smite class features, you can now switch the damage type with the one associated with your Draconic Oath.",
+                "Additionally, when you suffer damage of the type associated with your Draconic Oath, you may now use the absorb elements spell once without expending a spell slot to gain resistance to that damage type. You regain the ability to cast it this way after finishing a short or long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Frightening Presence",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 3,
+			"header": 1,
+			"entries":
+            [
+				"As an action, you can use your Channel Divinity to exude a terrifying presence. As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
+			]
+		},
+		{
+			"name": "Channel Divinity: Wing Buffet",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 3,
+			"header": 1,
+			"entries":
+            [
+				"As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take 2d6 bludgeoning damage. On a success, they are instead knocked back 5 feet."
+			]
+		},
+		{
+			"name": "Aura of the Dragon Queen",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 7,
+			"header": 2,
+			"entries":
+            [
+				"Starting at 7th level, you emanate an aura while you're not {@condition incapacitated}. You and any creature of your choice within 10 feet of you cannot be {@condition grappled} or {@condition restrained}, as well as ignore penalties on movement or attacks while underwater. Creatures that are already {@condition grappled} or {@condition restrained} when they enter the aura can spend 5 feet of movement to automatically escape nonmagical restraints.",
+				"When you reach 18th level in this class, the range of the aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Stormy Waters",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 15,
+			"header": 2,
+			"entries":
+            [
+				"At 15th level, you can call crashing waters around you as a reaction whenever a creature enters or exits your melee range. The creature takes {@damage 1d12} bludgeoning damage and must succeed a Strength saving throw or be knocked {@condition prone}."
+			]
+		},
+		{
+			"name": "Mythic Swashbuckler",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 20,
+			"header": 2,
+			"entries":
+            [
+				"At 20th level, you learn to channel the spirits of historic sea captains to briefly become a paragon of heroic adventure. As an action, you embrace these spirits of the sea, gaining the following benefits for 1 minute:",
+				{
+					"type": "list",
+					"items":
+                    [
+						"Climbing costs no additional movement, and you have advantage on Strength ({@skill Athletics}) checks that involve climbing.",
+						"If you are within 5 feet of a creature, and no other creatures are within 5 feet of you, you have advantage on your attacks against that creature.",
+						"You can take the {@action Dodge} action as a bonus action.",
+						"You have advantage on all Dexterity ability checks and Dexterity saving throws against effects that you can see."
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
     ]
 }
