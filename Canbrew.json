@@ -30569,7 +30569,7 @@
             ],
             "immune":
             [
-                "Same as the Damage Type of your Draconic Oath"
+                "Same as the Damage Type of your sovereign"
             ],
             "action":
             [
@@ -30584,21 +30584,21 @@
                     "name": "Bite",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 {@damage 2d10 + 6} piercing damage plus 7 {@damage 2d6} damage of your Draconic Oath's Damage Type."
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 {@damage 2d10 + 6} piercing damage plus 7 {@damage 2d6} damage of your sovereign's Damage Type."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 {@damage 2d10 + 6} piercing damage plus 7 {@damage 2d6} damage of your Draconic Oath's Damage Type."
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 {@damage 2d10 + 6} piercing damage plus 7 {@damage 2d6} damage of your sovereign's Damage Type."
                     ]
                 },
                 {
                     "name": "Breath {@recharge 5}",
                     "entries":
                     [
-                        "You exhale elemental damage of your Draconic Oath's Damage Type in either a 30-foot cone or a 60-foot line that is 10 feet wide (depending on your type). Each creature in that area must make a Dexterity saving throw. Those affected take 56 (16d6) damage on a failed save, or half as much damage on a successful one."
+                        "You exhale elemental damage of your sovereign's Damage Type in either a 30-foot cone or a 60-foot line that is 10 feet wide (depending on your type). Each creature in that area must make a Dexterity saving throw. Those affected take 56 (16d6) damage on a failed save, or half as much damage on a successful one."
                     ]
                 }
             ],
@@ -31804,8 +31804,8 @@
 			"subclassFeatures":
             [
 				"Oath of the Dragon Knight|Paladin||Dragon Knight|Canbrew|3",
-				"Aura of the Dragon Queen|Paladin||Dragon Knight|Canbrew|7",
-				"Aura of the Platinum Dragon|Paladin||Dragon Knight|Canbrew|7",
+				"Aura of the Dragon Queen (Chromatic Sovereign only)|Paladin||Dragon Knight|Canbrew|7",
+				"Aura of the Platinum Dragon (Metallic Sovereign only)|Paladin||Dragon Knight|Canbrew|7",
 				"Dragon Flight|Paladin||Dragon Knight|Canbrew|15",
 				"Draconic Avatar|Paladin||Dragon Knight|Canbrew|20"
 			]
@@ -31834,7 +31834,15 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin||Dragon Knight|Canbrew|3"
+					"subclassFeature": "Draconic Sovereign|Paladin||Dragon Knight|Canbrew|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Frightening Presence|Paladin||Dragon Knight|Canbrew|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Wing Buffet|Paladin||Dragon Knight|Canbrew|3"
 				}
 			]
 		},
@@ -31849,7 +31857,7 @@
 			"header": 1,
 			"entries":
             [
-                "Though the exact words and strictures of the Oath of Dragons vary, paladins of this oath share the following tenets, with some based on your dragon sovereign.",
+                "Though the exact words and strictures of the Oath of Dragon Knight vary, paladins of this oath share the following tenets, with some based on your dragon sovereign.",
 				{
 					"type": "entries",
 					"name": "Majesty",
@@ -31936,7 +31944,7 @@
 			]
 		},
 		{
-			"name": "Draconic Oath",
+			"name": "Draconic Sovereign",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -31946,10 +31954,10 @@
 			"header": 1,
 			"entries":
             [
-				"As an action, you can use your Channel Divinity to exude a terrifying presence. As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it.",
+				"At 3rd level, when you choose this oath, you choose one type of dragon as your sovereign. The damage type associated with each dragon is used by features of this Oath. If you choose Bahamut as your Sovereign you may choose any Metallic dragon, and if you choose Tiamat you may choose any Chromatic dragon. Additionally, you have learned to speak, read and write Draconic.",
                 {
 					"type": "table",
-					"caption": "Draconic Oath",
+					"caption": "Sovereign",
 					"colLabels":
                     [
 						"Metallic Dragon",
@@ -31991,8 +31999,8 @@
 						]
 					]
 				},
-                "When you deal damage with your Divine Smite or Improved Divine Smite class features, you can now switch the damage type with the one associated with your Draconic Oath.",
-                "Additionally, when you suffer damage of the type associated with your Draconic Oath, you may now use the absorb elements spell once without expending a spell slot to gain resistance to that damage type. You regain the ability to cast it this way after finishing a short or long rest."
+                "When you deal damage with your Divine Smite or Improved Divine Smite class features, you can now switch the damage type with the one associated with your Sovereign.",
+                "Additionally, when you suffer damage of the type associated with your Sovereign, you may now use the absorb elements spell once without expending a spell slot to gain resistance to that damage type. You regain the ability to cast it this way after finishing a short or long rest."
 			]
 		},
 		{
@@ -32006,18 +32014,11 @@
 			"header": 1,
 			"entries":
             [
-                {
-                    "type": "entries",
-                    "name": "Frightening Presence",
-                    "entries":
-                    [
-                        "As an action, you can use your Channel Divinity to exude a terrifying presence. As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
-                    ]
-                }
+                "As an action, you can use your Channel Divinity to exude a terrifying presence. As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
 			]
 		},
 		{
-			"name": "Channel Divinity: Frightening Presence",
+			"name": "Channel Divinity: Wing Buffet",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -32027,18 +32028,11 @@
 			"header": 1,
 			"entries":
             [
-                {
-                    "type": "entries",
-                    "name": "Wing Buffet",
-                    "entries":
-                    [
-                        "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take 2d6 bludgeoning damage. On a success, they are instead knocked back 5 feet."
-                    ]
-                }
+                "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take 2d6 bludgeoning damage. On a success, they are instead knocked back 5 feet."
 			]
 		},
 		{
-			"name": "Aura of the Dragon Queen (Chromatic Draconic Oath only)",
+			"name": "Aura of the Dragon Queen (Chromatic sovereign only)",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -32048,12 +32042,12 @@
 			"header": 2,
 			"entries":
             [
-                "Beginning at 7th level, you imbue your own weapons and those of your allies with the elemental fury of your Dragon Sovereign. When you or a friendly creature within 10 feet of you hits a creature with a melee weapon attack, it will deal an extra {@damage 1d4} damage of the damage type associated with your Draconic Oath. A creature can benefit from this feature from only one paladin at a time. You must be conscious to grant this boon.",
+                "Beginning at 7th level, you imbue your own weapons and those of your allies with the elemental fury of your Dragon Sovereign. When you or a friendly creature within 10 feet of you hits a creature with a melee weapon attack, it will deal an extra {@damage 1d4} damage of the damage type associated with your Sovereign. A creature can benefit from this feature from only one paladin at a time. You must be conscious to grant this boon.",
                 "At 18th level, the range of this aura increases to 30 feet."
 			]
 		},
 		{
-			"name": "Aura of the Platinum Dragon (Metallic Draconic Oath only)",
+			"name": "Aura of the Platinum Dragon (Metallic sovereign only)",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -32092,17 +32086,17 @@
 			"header": 2,
 			"entries":
             [
-				"At 20th level you can, as an action, transform yourself into a dragon for 1 minute. Afterwards you must finish a long rest before you can transform this way again. You count as under the effect of a {@spell polymorph} spell for the duration, as you change into a {@creature Draconic Avatar|CB} matching the type chosen with your Draconic Oath. You abide by the limitations of the spell, with the following exceptions: While polymorphed you use the game statistics portrayed to the right, and your breath weapon's shape and damage type are determined by your Draconic Oath's chosen dragon. In addition, your mental ability scores remain the same, and you do not need to maintain concentration to keep the spell active. However, you may not use nor benefit from your class features and spells.",
+				"At 20th level you can, as an action, transform yourself into a dragon for 1 minute. Afterwards you must finish a long rest before you can transform this way again. You count as under the effect of a {@spell polymorph} spell for the duration, as you change into a {@creature Draconic Avatar|Canbrew} matching the type chosen with your Sovereign. You abide by the limitations of the spell, with the following exceptions: While polymorphed you use the game statistics portrayed to the right, and your breath weapon's shape and damage type are determined by your Sovereign. In addition, your mental ability scores remain the same, and you do not need to maintain concentration to keep the spell active. However, you may not use nor benefit from your class features and spells.",
                 "If your original form had a breath weapon, then it is temporary replaced by your new breath weapon. You may end your transformation early by using a bonus action on your turn. Additionally, you gain the following benefits:",
 				{
 					"type": "list",
 					"items":
                     [
-						"If you chose Gold, Green, Red, Silver or White dragon for your Draconic Oath, then your breath weapon becomes a cone. If you chose a Black, Blue, Brass, Bronze or Copper dragon for your Draconic Oath, then your breath weapon becomes a line.",
-						"You gain a climb speed of 40 feet if you chose Copper or Red dragon for your Draconic Oath. In addition, your blindsight increases to 60 feet.",
-						"You gain a swim speed of 40 feet if you chose Black, Bronze, Gold or Green dragon for your Draconic Oath. In addition, you can breath both air and water while in this form.",
-						"You gain a burrow speed of 20 feet if you chose Brass, Blue or White dragon for your Draconic Oath. When you use your burrow speed, you clear the path behind you.",
-                        "Your flying speed increases to 100 feet if you chose Silver dragon for your Draconic Oath."
+						"If you chose Gold, Green, Red, Silver or White dragon as your Sovereign, then your breath weapon becomes a cone. If you chose a Black, Blue, Brass, Bronze or Copper dragon for as Sovereign, then your breath weapon becomes a line.",
+						"You gain a climb speed of 40 feet if you chose Copper or Red dragon as your Sovereign. In addition, your blindsight increases to 60 feet.",
+						"You gain a swim speed of 40 feet if you chose Black, Bronze, Gold or Green dragon as your Sovereign. In addition, you can breath both air and water while in this form.",
+						"You gain a burrow speed of 20 feet if you chose Brass, Blue or White dragon as your Sovereign. When you use your burrow speed, you clear the path behind you.",
+                        "Your flying speed increases to 100 feet if you chose Silver dragon as your Sovereign."
 					]
 				},
 				"Once you use this feature, you can't use it again until you finish a long rest."
