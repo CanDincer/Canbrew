@@ -32109,7 +32109,7 @@
 			"entries":
             [
 				"At 20th level you can, as an action, transform yourself into a dragon for 1 minute. Afterwards you must finish a long rest before you can transform this way again. You count as under the effect of a {@spell polymorph} spell for the duration, as you change into a {@creature Draconic Avatar|CB} matching the type chosen with your Draconic Oath. You abide by the limitations of the spell, with the following exceptions: While polymorphed you use the game statistics portrayed to the right, and your breath weapon's shape and damage type are determined by your Draconic Oath's chosen dragon. In addition, your mental ability scores remain the same, and you do not need to maintain concentration to keep the spell active. However, you may not use nor benefit from your class features and spells.",
-                "If your original form had a breath weapon, then it is temporary replaced by your new breath weapon. You may end your transformation early by using a bonus action on your turn. Additionally, you gain the following benefits:"
+                "If your original form had a breath weapon, then it is temporary replaced by your new breath weapon. You may end your transformation early by using a bonus action on your turn. Additionally, you gain the following benefits:",
 				{
 					"type": "list",
 					"items":
