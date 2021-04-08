@@ -30602,19 +30602,10 @@
                     ]
                 }
             ],
-            "traitTags":
-            [
-                "Illumination"
-            ],
             "senseTags":
             [
                 "D",
-                "T"
-            ],
-            "languageTags":
-            [
-                "IG",
-                "T"
+                "B"
             ],
             "damageTags":
             [
@@ -30623,26 +30614,7 @@
             "miscTags":
             [
                 "MW"
-            ],
-            "tokenUrl": "https://i.imgur.com/LM6lmyA.png",
-            "fluff":
-            {
-                "entries":
-                [
-                    "Magma minimentals are typically found around active volcanoes, but a select few have been spotted far away from their usual fiery nests. These minimentals are grumpy and easily angered, prompting them to eject molten lava from their backs. Their bodies are very hot to the touch, and use this to their advantage when bumping into hostile creatures. As long as they are left alone, magma minimentals are generally not threatening. The light from their magma chamber makes them easily spottable from a distance, especially at night."
-                ],
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "https://i.imgur.com/LM6lmyA.png"
-                        }
-                    }
-                ]
-            }
+            ]
         }
     ],
     "legendaryGroup":
