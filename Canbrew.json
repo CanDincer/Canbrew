@@ -31823,10 +31823,10 @@
 			"level": 3,
 			"entries":
             [
-				"Dragons are some of the most powerful creatures in the multiverse, and you seek to emulate their majesty in all that you do. Whether you wish to use and exercise a dragon’s power, help it extend its influence and change the world, or simply fell in love with the mighty creature and its ideals, you agree that dragonkind has its role to play in the great battles of this world. You have made an oath with an ancient or older dragon that has become your sovereign. You may also choose Bahamut (for metallic dragons) or Tiamat (for chromatic dragons) as your Sovereign.",
+				"Dragons are some of the most powerful creatures in the multiverse, and you seek to emulate their majesty in all that you do. Whether you wish to use and exercise a dragon’s power, help it extend its influence and change the world, or simply fell in love with the mighty creature and its ideals, you agree that dragonkind has its role to play in the great battles of this world. You have made an oath with an ancient or older dragon that has become your sovereign.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenents of the Dragon Knight|Paladin||Dragon Knight|Canbrew|3"
+					"subclassFeature": "Tenets of the Dragon Knight|Paladin||Dragon Knight|Canbrew|3"
 				},
 				{
 					"type": "refSubclassFeature",
@@ -31847,7 +31847,7 @@
 			]
 		},
 		{
-			"name": "Tenents of the Dragon Knight",
+			"name": "Tenets of the Dragon Knight",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -31954,7 +31954,7 @@
 			"header": 1,
 			"entries":
             [
-				"At 3rd level, when you choose this oath, you choose one type of dragon as your sovereign. The damage type associated with each dragon is used by features of this Oath. If you choose Bahamut as your Sovereign you may choose any Metallic dragon, and if you choose Tiamat you may choose any Chromatic dragon. Additionally, you have learned to speak, read and write Draconic.",
+				"At 3rd level, when you choose this oath, you choose one type of dragon as your sovereign. The damage type associated with each dragon is used by features of this Oath. Additionally, you have learned to speak, read and write Draconic.",
                 {
 					"type": "table",
 					"caption": "Sovereign",
@@ -31999,7 +31999,7 @@
 						]
 					]
 				},
-                "When you deal damage with your Divine Smite or Improved Divine Smite class features, you can now switch the damage type with the one associated with your Sovereign.",
+                "When you deal damage with your Divine Smite or Improved Divine Smite class features, the damage type is the one associated with your Sovereign.",
                 "Additionally, when you suffer damage of the type associated with your Sovereign, you may now use the absorb elements spell once without expending a spell slot to gain resistance to that damage type. You regain the ability to cast it this way after finishing a short or long rest."
 			]
 		},
@@ -32028,7 +32028,7 @@
 			"header": 1,
 			"entries":
             [
-                "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take {@damage 2d6} bludgeoning damage. On a success, they are instead knocked back 5 feet."
+                "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take {@damage 2d6} bludgeoning damage. On a success, they are instead knocked back 5 feet. Also, as part of this action, you can choose to ride the wind you have created and move backwards 15 feet."
 			]
 		},
 		{
@@ -32057,12 +32057,12 @@
 			"header": 2,
 			"entries":
             [
-                "Beginning at 7th level, your devotion grants you and those around you the divine protection of your Dragon Sovereign. You reduce incoming non-magical physical damage to yourself and friendly creatures within 10 feet of you by an amount equal to your Charisma modifier (minimum of 1). Creatures may only reduce damage this way once per turn. A creature can benefit from this feature from only one paladin at a time. You must be conscious to grant this boon.",
+                "Beginning at 7th level, your devotion grants you and those around you the divine protection of your dragon Sovereign. You reduce incoming non-magical physical damage to yourself and friendly creatures within 10 feet of you by an amount equal to your Charisma modifier (minimum of 1). Creatures may only reduce damage this way once per turn. A creature can benefit from this feature from only one paladin at a time. You must be conscious to grant this boon.",
                 "At 18th level, the range of this aura increases to 30 feet."
 			]
 		},
 		{
-			"name": "Dragon Flight",
+			"name": "Dragon Blood",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -32072,7 +32072,7 @@
 			"header": 2,
 			"entries":
             [
-				"At 15th level, you gain the ability to sprout a pair of spectral dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn. Your wings are automatically dismissed when you lose consciousness."
+				"At 15th level, you gain resistance to the damage type of your Sovereign. If you couple this resistance with {@spell absorb elements|XGE} spell, you take no damage from the effect. Also, when you deal that type of damage, you ignore resistances."
 			]
 		},
 		{
