@@ -32028,7 +32028,7 @@
 			"header": 1,
 			"entries":
             [
-                "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take {@damage 2d6} bludgeoning damage. On a success, they are instead knocked back 5 feet. Also, as part of this action, you can choose to ride the wind you have created and move backwards 15 feet."
+                "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take {@damage 2d6} bludgeoning damage. On a success, they are instead knocked back 5 feet. Also, as part of this action, you can choose to ride the wind you have created and move 15 feet in any single direction."
 			]
 		},
 		{
