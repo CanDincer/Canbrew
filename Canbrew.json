@@ -31803,28 +31803,28 @@
                     {
 						"3":
                         [
-							"spell create or destroy water",
-							"expeditious retreat"
+							"absorb elements",
+							"ceremony"
 						],
 						"5":
                         [
 							"augury",
-							"misty step"
+							"dragon's breath"
 						],
 						"9":
                         [
-							"call lightning",
-							"tidal wave|XGE"
+							"fear",
+							"fly|XGE"
 						],
 						"13":
                         [
-							"control water",
-							"freedom of movement"
+							"elemental bane",
+							"leomund's secret chest"
 						],
 						"17":
                         [
-							"commune with nature",
-							"maelstrom|XGE"
+							"dominate person",
+							"teleportation circle|XGE"
 						]
 					}
 				}
@@ -32003,25 +32003,20 @@
                             "Cold"
 						],
                         [
-							"Copper",
-							"Black",
-                            "Acid"
+							"Gold, Brass",
+							"Red",
+                            "Fire"
 						],
                         [
-							"Copper",
-							"Black",
-                            "Acid"
+							"Bronze",
+							"Blue",
+                            "Lightning"
 						],
                         [
-							"Copper",
-							"Black",
-                            "Acid"
-						],
-                        [
-							"Copper",
-							"Black",
-                            "Acid"
-						],
+							"none",
+							"Green",
+                            "Poison"
+						]
 					]
 				},
                 "When you deal damage with your Divine Smite or Improved Divine Smite class features, you can now switch the damage type with the one associated with your Draconic Oath.",
@@ -32029,7 +32024,7 @@
 			]
 		},
 		{
-			"name": "Channel Divinity: Frightening Presence",
+			"name": "Channel Divinity",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -32039,21 +32034,23 @@
 			"header": 1,
 			"entries":
             [
-				"As an action, you can use your Channel Divinity to exude a terrifying presence. As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
-			]
-		},
-		{
-			"name": "Channel Divinity: Wing Buffet",
-			"source": "Canbrew",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Dragon Knight",
-			"subclassSource": "Canbrew",
-			"level": 3,
-			"header": 1,
-			"entries":
-            [
-				"As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take 2d6 bludgeoning damage. On a success, they are instead knocked back 5 feet."
+                "When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+                {
+                    "type": "entries",
+                    "name": "Frightening Presence",
+                    "entries":
+                    [
+                        "As an action, you can use your Channel Divinity to exude a terrifying presence. As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Wing Buffet",
+                    "entries":
+                    [
+                        "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take 2d6 bludgeoning damage. On a success, they are instead knocked back 5 feet."
+                    ]
+                }
 			]
 		},
 		{
@@ -32067,12 +32064,27 @@
 			"header": 2,
 			"entries":
             [
-				"Starting at 7th level, you emanate an aura while you're not {@condition incapacitated}. You and any creature of your choice within 10 feet of you cannot be {@condition grappled} or {@condition restrained}, as well as ignore penalties on movement or attacks while underwater. Creatures that are already {@condition grappled} or {@condition restrained} when they enter the aura can spend 5 feet of movement to automatically escape nonmagical restraints.",
-				"When you reach 18th level in this class, the range of the aura increases to 30 feet."
+                "Beginning at 7th level, you imbue your own weapons and those of your allies with the elemental fury of your Dragon Sovereign. When you or a friendly creature within 10 feet of you hits a creature with a melee weapon attack, it will deal an extra {@damage 1d8} damage of the damage type associated with your Draconic Oath. A creature may only deal this additional damage once per turn, and can benefit from this feature from only one paladin at a time. You must be conscious to grant this boon.",
+                "At 18th level, the range of this aura increases to 30 feet."
 			]
 		},
 		{
-			"name": "Stormy Waters",
+			"name": "Aura of the Platinum Dragon",
+			"source": "Canbrew",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon Knight",
+			"subclassSource": "Canbrew",
+			"level": 7,
+			"header": 2,
+			"entries":
+            [
+                "Beginning at 7th level, your devotion grants you and those around you the divine protection of your Dragon Sovereign. You reduce incoming non-magical physical damage to yourself and friendly creatures within 10 feet of you by an amount equal to your Charisma modifier (minimum of 1). Creatures may only reduce damage this way once per turn. A creature can benefit from this feature from only one paladin at a time. You must be conscious to grant this boon.",
+                "At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Dragon Flight",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -32082,11 +32094,11 @@
 			"header": 2,
 			"entries":
             [
-				"At 15th level, you can call crashing waters around you as a reaction whenever a creature enters or exits your melee range. The creature takes {@damage 1d12} bludgeoning damage and must succeed a Strength saving throw or be knocked {@condition prone}."
+				"At 15th level, you gain the ability to sprout a pair of spectral dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn. Your wings are automatically dismissed when you lose consciousness."
 			]
 		},
 		{
-			"name": "Mythic Swashbuckler",
+			"name": "Draconic Avatar",
 			"source": "Canbrew",
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -32096,15 +32108,17 @@
 			"header": 2,
 			"entries":
             [
-				"At 20th level, you learn to channel the spirits of historic sea captains to briefly become a paragon of heroic adventure. As an action, you embrace these spirits of the sea, gaining the following benefits for 1 minute:",
+				"At 20th level you can, as an action, transform yourself into a dragon for 1 minute. Afterwards you must finish a long rest before you can transform this way again. You count as under the effect of a {@spell polymorph} spell for the duration, as you change into a {@creature Draconic Avatar|CB} matching the type chosen with your Draconic Oath. You abide by the limitations of the spell, with the following exceptions: While polymorphed you use the game statistics portrayed to the right, and your breath weapon's shape and damage type are determined by your Draconic Oath's chosen dragon. In addition, your mental ability scores remain the same, and you do not need to maintain concentration to keep the spell active. However, you may not use nor benefit from your class features and spells.",
+                "If your original form had a breath weapon, then it is temporary replaced by your new breath weapon. You may end your transformation early by using a bonus action on your turn. Additionally, you gain the following benefits:"
 				{
 					"type": "list",
 					"items":
                     [
-						"Climbing costs no additional movement, and you have advantage on Strength ({@skill Athletics}) checks that involve climbing.",
-						"If you are within 5 feet of a creature, and no other creatures are within 5 feet of you, you have advantage on your attacks against that creature.",
-						"You can take the {@action Dodge} action as a bonus action.",
-						"You have advantage on all Dexterity ability checks and Dexterity saving throws against effects that you can see."
+						"If you chose Gold, Green, Red, Silver or White dragon for your Draconic Oath, then your breath weapon becomes a cone. If you chose a Black, Blue, Brass, Bronze or Copper dragon for your Draconic Oath, then your breath weapon becomes a line.",
+						"You gain a climb speed of 40 feet if you chose Copper or Red dragon for your Draconic Oath. In addition, your blindsight increases to 60 feet.",
+						"You gain a swim speed of 40 feet if you chose Black, Bronze, Gold or Green dragon for your Draconic Oath. In addition, you can breath both air and water while in this form.",
+						"You gain a burrow speed of 20 feet if you chose Brass, Blue or White dragon for your Draconic Oath. When you use your burrow speed, you clear the path behind you.",
+                        "Your flying speed increases to 100 feet if you chose Silver dragon for your Draconic Oath."
 					]
 				},
 				"Once you use this feature, you can't use it again until you finish a long rest."
