@@ -3116,6 +3116,20 @@
                     30
                 ],
                 "weightless": true
+            },
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/y4Qfimi.jpg"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3136,6 +3150,20 @@
                     500
                 ],
                 "weightless": true
+            },
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://5e.tools/img/items%2FDMG%2FBag%20of%20Holding.jpg"
+                        }
+                    }
+                ]
             }
         },
         {
