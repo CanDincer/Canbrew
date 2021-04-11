@@ -3325,6 +3325,82 @@
             ]
         },
         {
+            "name": "Colocasia Leaves",
+            "rarity": "common",
+            "type": "G",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "A hydrophobic plant. A while after it's eaten, it leaves the body through the sweat glands and creates a waterproof coating on the surface of the skin."
+            ],
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/LopFDIM.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Colocasia Potion",
+            "rarity": "uncommon",
+            "type": "P",
+            "weight": 0.5,
+            "source": "Canbrew",
+            "entries":
+            [
+                "Made from Colocasia leaves, a hydrophobic plant. It leaves the body through the sweat glands and creates a waterproof coating on the surface of the skin. Works immediatley after drinking, and lasts for 8 hours."
+            ],
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/LopFDIM.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Sun Mask",
+            "rarity": "uncommon",
+            "type": "RG",
+            "weight": 2,
+            "value": 200,
+            "source": "Canbrew",
+            "entries":
+            [
+                "A Bronze mask, extended with black cloths to block the sunlight. You have -2 to attack rolls made while wearing it."
+            ],
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/JDUjLY7.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "name": "Eldritch Scarf",
             "rarity": "rare",
             "weight": 0.5,
@@ -24409,7 +24485,7 @@
                             [
                                 "{@spell dispel magic|PHB}",
                                 "{@spell daylight|PHB}",
-                                "{@spell elementl weapon|PHB}"
+                                "{@spell elemental weapon|PHB}"
                             ]
                         },
                         "4":
@@ -26054,9 +26130,9 @@
             },
             "skill":
             {
-                "arcana":"9",
-                "perception": "+7",
-                "stealth": "+9"
+                "arcana":"+8",
+                "perception": "+6",
+                "stealth": "+8"
             },
             "senses":
             [
@@ -26358,12 +26434,12 @@
             "save":
             {
                 "dex": "+6",
-                "wis": "+3",
+                "wis": "+4",
                 "cha": "+6"
             },
             "skill":
             {
-                "perception": "+3",
+                "perception": "+4",
                 "stealth": "+6"
             },
             "senses":
@@ -26594,14 +26670,14 @@
             "cha": 16,
             "save":
             {
-                "dex": "+7",
+                "dex": "+6",
                 "wis": "+4",
-                "cha": "+7"
+                "cha": "+6"
             },
             "skill":
             {
                 "perception": "+4",
-                "stealth": "+7"
+                "stealth": "+6"
             },
             "senses":
             [
@@ -26830,14 +26906,14 @@
             "cha": 16,
             "save":
             {
-                "dex": "+7",
+                "dex": "+6",
                 "wis": "+4",
-                "cha": "+7"
+                "cha": "+6"
             },
             "skill":
             {
                 "perception": "+4",
-                "stealth": "+7"
+                "stealth": "+6"
             },
             "senses":
             [
@@ -27074,14 +27150,14 @@
             "cha": 16,
             "save":
             {
-                "dex": "+7",
+                "dex": "+6",
                 "wis": "+4",
-                "cha": "+7"
+                "cha": "+6"
             },
             "skill":
             {
                 "perception": "+4",
-                "stealth": "+7"
+                "stealth": "+6"
             },
             "senses":
             [
@@ -27330,7 +27406,7 @@
             "dex": 16,
             "con": 16,
             "int": 11,
-            "wis": 20,
+            "wis": 12,
             "cha": 12,
             "save":
             {
@@ -27339,8 +27415,8 @@
             },
             "skill":
             {
-                "perception": "+9",
-                "stealth": "+7"
+                "perception": "+4",
+                "stealth": "+6"
             },
             "senses":
             [
@@ -27372,6 +27448,12 @@
                     "entries":
                     [
                         "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point."
+                    ]
+                },{
+                    "name": "Keen Senses",
+                    "entries":
+                    [
+                        "The vampire has advantage on Wisdom (Perception) checks that rely on hearing or smell."
                     ]
                 },
                 {
