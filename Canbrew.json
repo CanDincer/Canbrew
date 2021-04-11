@@ -4616,9 +4616,9 @@
             "cha": 25,
             "save":
             {
-                "dexterity": "+13",
-                "charisma": "+15",
-                "intelligence": "+17"
+                "dex": "+13",
+                "cha": "+15",
+                "int": "+17"
             },
             "skill":
             {
@@ -24498,7 +24498,7 @@
                             ]
                         }
                     },
-                    "ability": "charisma",
+                    "ability": "cha",
                     "type": "spellcasting"
                 }
             ],
