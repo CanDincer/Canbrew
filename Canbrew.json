@@ -16,6 +16,9 @@
                 "targetSchema": "1.0.0"
             }
         ],
+        "convertedBy": [
+            "Can"
+        ],
         "dateAdded": 0
     },
     "item":
@@ -32158,6 +32161,10 @@
                         "When  you cast this spell using a spell slot of 9th level , the damage increases by {@dice 1d12}."
                     ]
                 }
+            ],
+            "damageInflict":
+            [
+                "force"
             ],
             "classes":
             {
