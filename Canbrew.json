@@ -32032,6 +32032,151 @@
             [
                 "PRM"
             ]
+        },
+        {
+            "name": "Yalen's Yester Yank (ogd)",
+            "source": "Canbrew",
+            "level": 5,
+            "school": "T",
+            "time":
+            [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range":
+            {
+                "type": "point",
+                "distance":
+                {
+                    "type": "touch"
+                }
+            },
+            "components":
+            {
+                "v": true,
+                "m":
+                {
+                    "text": "A seal emblazoned with tiny gems worth 350 gp in total.",
+                    "consumed": false
+                }
+            },
+            "duration":
+            [
+                {
+                    "type": "special"
+                }
+            ],
+            "entries":
+            [
+                "You choose one object that you must touch throughout the casting of the spell and mark it with the seal. The object must be no larger than a 1-foot cube. For 24 hours, you can summon the object magically back to you as an action, and the spell ends if you do so."
+            ],
+            "entriesHigherLevel":
+            [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries":
+                    [
+                        "When you cast this spell using a spell slot of 6th level or higher, the duration of the spell tenfolds for each slot level above 5th."
+                    ]
+                }
+            ],
+            "classes":
+            {
+                "fromClassList":
+                [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "ERLW"
+                    }
+                ]
+            },
+        	"areaTags":
+            [
+                "ST"
+            ]
+        },
+        {
+            "name": "Spinning Blade Swarm",
+            "source": "Canbrew",
+            "level": 8,
+            "school": "T",
+            "time":
+            [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range":
+            {
+                "type": "point",
+                "distance":
+                {
+                    "type": "feet",
+                    "ammount": 40
+                }
+            },
+            "components":
+            {
+                "v": true,
+                "m":
+                {
+                    "text": "Four metal coins",
+                    "consumed": false
+                }
+            },
+            "duration":
+            [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries":
+            [
+                "You toss four metal coins in to the air, turning each into a spinning blade with 1 foot radius in an unoccupied space you can see within 5-feet range. Unless yuo give them a command, they hover and follow you around. The blades lasts for the duration. When you cast this spell, you can make a ranged spell attack with each blade, each one against a creature, loose object, or structure within the range. On a hit, the target takes {@damage 1d12} force damage. The blades then stop at the loacation of their target. This attack scores a critical hit if the number on the {@dice 1d20} is 18 or higher.",
+                "As an action on your turn, you can make a ranged spell attack with each again. The target must be within 40 feet of the blade's last location."
+            ],
+            "entriesHigherLevel":
+            [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries":
+                    [
+                        "When  you cast this spell using a spell slot of 9th level , the damage increases by {@dice 1d12}."
+                    ]
+                }
+            ],
+            "classes":
+            {
+                "fromClassList":
+                [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "ERLW"
+                    }
+                ]
+            },
+        	"areaTags":
+            [
+                "ST"
+            ]
         }
     ],
     "subclass":
