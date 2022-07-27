@@ -15088,9 +15088,9 @@
                     ],
                     "will":
                     [
-                        "{@spell detect poison and disease}",
+                        "{@spell detect poison and disease|PHB}",
                         "{@spell faerie fire|PHB}",
-                        "{@spell gust}",
+                        "{@spell gust|XGE}",
                         "{@spell mage hand|PHB}"
                     ],
                     "daily":
@@ -15098,12 +15098,12 @@
                         "1e":
                         [
                             "{@spell cloudkill|PHB}",
-                            "{@spell insect plague}"
+                            "{@spell insect plague|PHB}"
                         ],
                         "2e":
                         [
-                            "{@spell fog cloud}",
-                            "{@spell giant insect}",
+                            "{@spell fog cloud|PHB}",
+                            "{@spell giant insect|PHB}",
                             "{@spell misty step|PHB}"
                         ]
                     },
@@ -18110,9 +18110,9 @@
                     ],
                     "will":
                     [
-                        "{@spell detect poison and disease}",
+                        "{@spell detect poison and disease|PHB}",
                         "{@spell faerie fire|PHB}",
-                        "{@spell gust}",
+                        "{@spell gust|XGE}",
                         "{@spell mage hand|PHB}"
                     ],
                     "daily":
@@ -18120,12 +18120,12 @@
                         "1e":
                         [
                             "{@spell cloudkill|PHB}",
-                            "{@spell insect plague}"
+                            "{@spell insect plague|PHB}"
                         ],
                         "2e":
                         [
-                            "{@spell fog cloud}",
-                            "{@spell giant insect}",
+                            "{@spell fog cloud|PHB}",
+                            "{@spell giant insect|PHB}",
                             "{@spell misty step|PHB}"
                         ]
                     },
@@ -18361,7 +18361,7 @@
                     ],
                     "will":
                     [
-                        "{@spell sleep}"
+                        "{@spell sleep|PHB}"
                     ],
                     "hidden":
                     [
@@ -18540,7 +18540,7 @@
                     ],
                     "will":
                     [
-                        "{@spell fog cloud}"
+                        "{@spell fog cloud|PHB}"
                     ],
                     "hidden":
                     [
@@ -18876,7 +18876,7 @@
                     ],
                     "will":
                     [
-                        "{@spell grease}"
+                        "{@spell grease|PHB}"
                     ],
                     "hidden":
                     [
@@ -19041,7 +19041,7 @@
                     ],
                     "will":
                     [
-                        "{@spell dancing lights}"
+                        "{@spell dancing lights|PHB}"
                     ],
                     "hidden":
                     [
@@ -20088,7 +20088,7 @@
                     {
                         "8e":
                         [
-                            "{@spell healing word}"
+                            "{@spell healing word|PHB}"
                         ]
                     },
                     "ability": "Wis",
@@ -30697,6 +30697,198 @@
             [
                 "MW"
             ]
+        },
+        {
+            "name": "Moss Kitten",
+            "source": "Canbrew",
+            "size": "T",
+            "type": "fey",
+            "alignment":
+            [
+                "N",
+                "G"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp":
+            {
+                "special": "10",
+                "formula": "3d4 + 3"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "climb": 30
+            },
+            "str": 2,
+            "dex": 16,
+            "con": 12,
+            "int": "8",
+            "wis": "14",
+            "cha": "13",
+            "save":
+            {
+                "dex":"+5"
+            },
+            "skill":
+            {
+                "stealth": "+7",
+                "survival": "+5"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 12,
+            "resist":
+            [
+                {
+                    "resist":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "vulnerable":
+            [
+                "fire"
+            ],
+            "languages":
+            [
+                "understands Sylvan but cannot speak"
+            ],
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Camouflage",
+                    "entries":
+                    [
+                        "The moss kitten has advantage on Dexterity (Stealth) checks made to hide in terrain made of plants."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Ensnaring Claws",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 {@damage 1d4 + 3} slashing damage. If the target is a creature the moss kitten can cause vines to grow from the wound reducing the creatures speed by 10 feet for one minute or until it receives magical healing."
+                    ]
+                },
+                {
+                    "name": "Verdant Blessing",
+                    "entries":
+                    [
+                        "As an action, the moss kitten can touch another creature to give it a random minor boon of its choice from the options below until the creature finishes a long rest or the moss kitten is reduced to 0 hit points.",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "Feywild Feet: The creature's speed increases by 5 feet.",
+                                "Forest's Shroud: The creature's AC increased by 1.",
+                                "Wild Strength: The creature gains [[/r 1d4]] temporary hit points and adds  [[/r 1d4]] to Strength checks."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries":
+                    [
+                        "moss kitten's spellcasting ability is Wisdom (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will":
+                    [
+                        "{@spell druidcraft|PHB}"
+                    ],
+                    "daily":
+                    {
+                        "1e":
+                        [
+                            "{@spell detect poison and disease|PHB}",
+                            "{@spell entangle|PHB}"
+                        ]
+                    },
+                    "ability": "wis",
+                    "type": "spellcasting"
+                }
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "languageTags":
+            [
+                "CS",
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/oXRCHyT.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "Playful and mischievous, moss kittens are small fey which resemble house cats. But their fur is covered in a soft, green moss. They can often be found lounging in the branches of dryads' trees, soaking up the sun's rays. Moss kittens eat fruits and nuts. However, they appear to eat much less than the house cats, suggesting they absorb energy from sunlight in a similar manner to plants. As they age, green stems grow from underneath their fur and bloom into a rainbow of different flowers.",
+                    "Symbiotic Tree Dwellers. Moss Kittens use fey magic to strengthen their home trees. In return, the trees provide shelter, safe perches, and food. You can often tell when a tree is home to a nest of kittens by looking for blooms and fruits out of season. Dryads, pixies, and other woodland fey often encourage moss kittens to live in or near their homes.",
+                    {
+                        "type": "table",
+                        "caption": "Plot Hooks",
+                        "colLabels":
+                        [
+                            "1d4",
+                            "Plot Hook"
+                        ],
+                        "colStyles":
+                        [
+                            "col-3 text-center",
+                            "col-9"
+                        ],
+                        "rows":
+                        [
+                            [
+                                "1",
+                                "A nest of moss kittens has taken up residence in the village's sacred tree and are causing all kinds of mischief throughout the town. The party is hired to remove them."
+                            ],
+                            [
+                                "2",
+                                "A dryad's nest of moss kittens was taken by poachers and she asks the characters to save them."
+                            ],
+                            [
+                                "3",
+                                "Goblins have captured a family of pixies and a moss 3 kitten tries desperately to get the characters' attention so they can help the kitten save her friends."
+                            ],
+                            [
+                                "4",
+                                "Goblins have captured a family of pixies and a moss 3 kitten tries desperately to get the characters' attention so they can help the kitten save her friends."
+                            ]
+                        ]
+                    }
+                ]
+            }
         }
     ],
     "legendaryGroup":
