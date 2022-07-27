@@ -11,7 +11,7 @@
                 [
                     "Can Dinçer"
                 ],
-                "version": "2022.07.27.17:40",
+                "version": "2022.07.27",
                 "url": "https://github.com/CanDincer/Canbrew",
                 "targetSchema": "1.0.0"
             }
@@ -19,7 +19,8 @@
         "convertedBy": [
             "Can"
         ],
-        "dateAdded": 0
+        "dateAdded": 1658932920,
+		"dateLastModified": 1658932990
     },
     "item":
     [
