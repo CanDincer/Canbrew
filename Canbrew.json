@@ -31286,14 +31286,6 @@
                                     ]
                                 },
                                 {
-                                    "name": "Dazing Shot",
-                                    "type": "entries",
-                                    "entries":
-                                    [
-                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to dizzy its opponent. On a hit, the creature suffers normal damage and must make a Constitution saving throw or suffer disadvantage on attacks until the end of its next turn."
-                                    ]
-                                },
-                                {
                                     "name": "Disarming Shot",
                                     "type": "entries",
                                     "entries":
@@ -31504,6 +31496,22 @@
                                     "entries":
                                     [
                                         "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to trip them up and force them back. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or be pushed 5 feet away from the wandslinger."
+                                    ]
+                                },
+                                {
+                                    "name": "Hindering Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to hinder the target. On a hit, the creature suffers normal damage and must make a Dexterity saving throw or have its speed is reduced by 10 feet until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Menacing Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to threaten the target, potentially forcing them into a defensive state. On a hit, the creature suffers normal damage and must make a Charisma saving throw or become incapacitated until the end of its next turn. While incapacitated in this way, the creature has half cover."
                                     ]
                                 },
                                 {
