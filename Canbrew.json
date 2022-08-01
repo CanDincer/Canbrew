@@ -30800,7 +30800,7 @@
                             [
                                 "Feywild Feet: The creature's speed increases by 5 feet.",
                                 "Forest's Shroud: The creature's AC increased by 1.",
-                                "Wild Strength: The creature gains [[/r 1d4]] temporary hit points and adds  [[/r 1d4]] to Strength checks."
+                                "Wild Strength: The creature gains {@dice 1d4} temporary hit points and adds  {@dice 1d4} to Strength checks."
                             ]
                         }
                     ]
@@ -30896,6 +30896,7 @@
         },
         {
             "name": "Sirzamon (ogd)",
+            "isNpc": true,
             "source": "Canbrew",
             "size": "L",
             "type":
@@ -31067,7 +31068,7 @@
             }
         },
         {
-            "name": "Apprentice Wand Slinger (ogd)",
+            "name": "Apprentice Wandslinger (ogd)",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -31080,163 +31081,504 @@
             },
             "alignment":
             [
-                "L",
-                "N"
+                "NX",
+                "NY",
+                "G",
+                "E",
+                "L"
             ],
             "ac":
             [
                 {
-                    "ac": 13
+                    "ac": 15,
+                    "from": [
+                        "{@item chain shirt|PHB}"
+                    ]
                 }
             ],
             "hp":
             {
-                "average": "10",
-                "formula": "3d4 + 3"
+                "average": "78",
+                "formula": "12d8 + 24"
             },
             "speed":
             {
-                "walk": 30,
-                "climb": 30
+                "walk": 30
             },
-            "str": 2,
-            "dex": 16,
-            "con": 12,
-            "int": "8",
-            "wis": "14",
-            "cha": "13",
+            "str": 11,
+            "dex": 14,
+            "con": 14,
+            "int": "13",
+            "wis": "13",
+            "cha": "12",
             "save":
             {
-                "dex":"+5"
+                "int":"+3",
+                "wis":"+5"
             },
             "skill":
             {
-                "stealth": "+7",
-                "survival": "+5"
+                "acrobatics": "+4",
+                "arcana": "+3"
             },
-            "senses":
-            [
-                "darkvision 60 ft."
-            ],
-            "passive": 12,
-            "resist":
-            [
-                {
-                    "resist":
-                    [
-                        "bludgeoning",
-                        "piercing",
-                        "slashing"
-                    ],
-                    "note": "from nonmagical attacks",
-                    "cond": true
-                }
-            ],
-            "vulnerable":
-            [
-                "fire"
-            ],
+            "passive": 11,
             "languages":
             [
-                "understands Sylvan but cannot speak"
+                "Common",
+                "any two languages"
             ],
             "cr": "1",
             "trait":
             [
                 {
-                    "name": "Camouflage",
+                    "name": "Apprentice Wandslinging",
                     "entries":
                     [
-                        "The moss kitten has advantage on Dexterity (Stealth) checks made to hide in terrain made of plants."
+                        "Wandslinger is a broad term for any wizard who trains to use a wand in the manner of a martial application. This training grants them profound mastery over a few devastating effects, precision and potency with their wands, and the ability to wield and even recharge them. Instead of relying on cantrips, wandslingers can channel raw magic through their wands.",
+                        "Wandslingers do not require verbal or material components when casting through their wands. A swing of their wand is enough to channel magical power through it quickly. A wandslinger can cast their known cantrips as a bonus action.",
+                        "Wandslingers are known to perform powerful trick shots to disable or damage their opponents using their wand.",
+                        "Apprentice wandslingers create 3 missiles.", 
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "Ensnaring Claws",
+                    "name": "Wand Strike",
                     "entries":
                     [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 {@damage 1d4 + 3} slashing damage. If the target is a creature the moss kitten can cause vines to grow from the wound reducing the creatures speed by 10 feet for one minute or until it receives magical healing."
-                    ]
-                },
-                {
-                    "name": "Verdant Blessing",
-                    "entries":
-                    [
-                        "As an action, the moss kitten can touch another creature to give it a random minor boon of its choice from the options below until the creature finishes a long rest or the moss kitten is reduced to 0 hit points.",
-                        {
-                            "type": "list",
-                            "items":
-                            [
-                                "Feywild Feet: The creature's speed increases by 5 feet.",
-                                "Forest's Shroud: The creature's AC increased by 1.",
-                                "Wild Strength: The creature gains [[/r 1d4]] temporary hit points and adds  [[/r 1d4]] to Strength checks."
-                            ]
-                        }
+                        "{@atk rs} {@hit 3} to hit, reach 120 ft., one target. {@h}14 ({@damage 1d4+1}) force damage."
                     ]
                 }
             ],
             "spellcasting":
             [
                 {
-                    "name": "Innate Spellcasting",
+                    "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "moss kitten's spellcasting ability is Wisdom (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+                        "The wandslinger is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The wandslinger has the following wizard spells prepared:"
                     ],
-                    "will":
-                    [
-                        "{@spell druidcraft|PHB}"
-                    ],
-                    "daily":
+                    "spells":
                     {
-                        "1e":
-                        [
-                            "{@spell detect poison and disease|PHB}",
-                            "{@spell entangle|PHB}"
-                        ]
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell fire bolt|PHB}",
+                                "{@spell ray of frost|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell magic missile|PHB}",
+                                "{@spell shield|PHB}"
+                            ]
+                        }
                     },
-                    "ability": "wis",
+                    "ability": "int",
                     "type": "spellcasting"
                 }
             ],
-            "senseTags":
-            [
-                "D"
-            ],
             "damageTags":
             [
-                "S"
+                "O"
             ],
             "languageTags":
             [
-                "CS",
-                "S"
+                "C",
+                "X"
             ],
             "spellcastingTags":
             [
-                "I"
+                "CW"
             ],
             "miscTags":
             [
-                "MW"
+                "RNG"
             ],
-            "tokenUrl": "https://i.imgur.com/B9IWkEZ.png",
-            "fluff":
+            "tokenUrl": "https://i.imgur.com/uKvPldi.png"
+        },
+        {
+            "name": "Wandslinger (ogd)",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
             {
-                "images":
+                "type": "humanoid",
+                "tags":
                 [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "https://i.imgur.com/1aELG8s.jpg"
-                        }
-                    }
+                    "any race"
                 ]
-            }
+            },
+            "alignment":
+            [
+                "NX",
+                "NY",
+                "G",
+                "E",
+                "L"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item chain shirt|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": "78",
+                "formula": "12d8 + 24"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 11,
+            "dex": 14,
+            "con": 14,
+            "int": "13",
+            "wis": "13",
+            "cha": "12",
+            "save":
+            {
+                "int":"+3",
+                "wis":"+5"
+            },
+            "skill":
+            {
+                "acrobatics": "+4",
+                "arcana": "+3"
+            },
+            "passive": 11,
+            "languages":
+            [
+                "Common",
+                "any two languages"
+            ],
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Wandslinging",
+                    "entries":
+                    [
+                        "Wandslinger is a broad term for any wizard who trains to use a wand in the manner of a martial application. This training grants them profound mastery over a few devastating effects, precision and potency with their wands, and the ability to wield and even recharge them. Instead of relying on cantrips, wandslingers can channel raw magic through their wands.",
+                        "Wandslingers do not require verbal or material components when casting through their wands. A swing of their wand is enough to channel magical power through it quickly. A wandslinger can cast their known cantrips as a bonus action.",
+                        "Wandslingers are known to perform powerful trick shots to disable or damage their opponents using their wand.",
+                        "Wandslingers create 3 missiles and have access to trick shots.",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                {
+                                    "name": "Confusing Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to discombobulate the creature. On a hit, the creature must succeed on an Intelligence saving throw or become unable to cast spells or use magical items until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Dazing Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to dizzy its opponent. On a hit, the creature suffers normal damage and must make a Constitution saving throw or suffer disadvantage on attacks until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Disarming Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to shoot an object from its hands. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or drop 1 held object of the wandslinger's choice and have that object be pushed 10 feet away from the wandslinger."
+                                    ]
+                                },
+                                {
+                                    "name": "Distracting Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can distract the creature, giving its allies an opening. On a hit, the creature must succeed on a Wisdom saving throw or the next attack roll against the target by an attacker other than the wandslinger has advantage if the attack is made before the start of the wandslinger's next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Forceful Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to trip them up and force them back. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or be pushed 5 feet away from the wandslinger."
+                                    ]
+                                },
+                                {
+                                    "name": "Winging Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked prone."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Wand Strike",
+                    "entries":
+                    [
+                        "{@atk rs} {@hit 3} to hit, reach 120 ft., one target. {@h}14 ({@damage 1d4+1}) force damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The wandslinger is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The wandslinger has the following wizard spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell fire bolt|PHB}",
+                                "{@spell ray of frost|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell magic missile|PHB}",
+                                "{@spell shield|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "damageTags":
+            [
+                "O"
+            ],
+            "languageTags":
+            [
+                "C",
+                "X"
+            ],
+            "spellcastingTags":
+            [
+                "CW"
+            ],
+            "miscTags":
+            [
+                "RNG"
+            ],
+            "tokenUrl": "https://i.imgur.com/64xmIOW.png"
+        },
+        {
+            "name": "Master Wandslinger (ogd)",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "any race"
+                ]
+            },
+            "alignment":
+            [
+                "NX",
+                "NY",
+                "G",
+                "E",
+                "L"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item chain shirt|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": "78",
+                "formula": "12d8 + 24"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 11,
+            "dex": 14,
+            "con": 14,
+            "int": "13",
+            "wis": "13",
+            "cha": "12",
+            "save":
+            {
+                "int":"+3",
+                "wis":"+5"
+            },
+            "skill":
+            {
+                "acrobatics": "+4",
+                "arcana": "+3"
+            },
+            "passive": 11,
+            "languages":
+            [
+                "Common",
+                "any two languages"
+            ],
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Apprentice Wandslinging",
+                    "entries":
+                    [
+                        "Wandslinger is a broad term for any wizard who trains to use a wand in the manner of a martial application. This training grants them profound mastery over a few devastating effects, precision and potency with their wands, and the ability to wield and even recharge them. Instead of relying on cantrips, wandslingers can channel raw magic through their wands.",
+                        "Wandslingers do not require verbal or material components when casting through their wands. A swing of their wand is enough to channel magical power through it quickly. A wandslinger can cast their known cantrips as a bonus action.",
+                        "Wandslingers are known to perform powerful trick shots to disable or damage their opponents using their wand.",
+                        "Master wandslingers create 5 missiles and have access to trick shots.",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                {
+                                    "name": "Confusing Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to discombobulate the creature. On a hit, the creature must succeed on an Intelligence saving throw or become unable to cast spells or use magical items until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Dazing Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to dizzy its opponent. On a hit, the creature suffers normal damage and must make a Constitution saving throw or suffer disadvantage on attacks until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Disarming Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to shoot an object from its hands. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or drop 1 held object of the wandslinger's choice and have that object be pushed 10 feet away from the wandslinger."
+                                    ]
+                                },
+                                {
+                                    "name": "Distracting Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can distract the creature, giving its allies an opening. On a hit, the creature must succeed on a Wisdom saving throw or the next attack roll against the target by an attacker other than the wandslinger has advantage if the attack is made before the start of the wandslinger's next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Forceful Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to trip them up and force them back. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or be pushed 5 feet away from the wandslinger."
+                                    ]
+                                },
+                                {
+                                    "name": "Winging Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked prone."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Wand Strike",
+                    "entries":
+                    [
+                        "{@atk rs} {@hit 3} to hit, reach 120 ft., one target. {@h}14 ({@damage 1d4+1}) force damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The wandslinger is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The wandslinger has the following wizard spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell fire bolt|PHB}",
+                                "{@spell ray of frost|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell magic missile|PHB}",
+                                "{@spell shield|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "damageTags":
+            [
+                "O"
+            ],
+            "languageTags":
+            [
+                "C",
+                "X"
+            ],
+            "spellcastingTags":
+            [
+                "CW"
+            ],
+            "miscTags":
+            [
+                "RNG"
+            ],
+            "tokenUrl": "https://i.imgur.com/HtY4voO.png"
         }
     ],
     "legendaryGroup":
