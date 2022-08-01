@@ -4691,7 +4691,7 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell charm person}",
+                                "{@spell charm person|PHB}",
                                 "{@spell expeditious retreat}",
                                 "{@spell illusory script}",
                                 "{@spell unseen servant}"
@@ -4713,7 +4713,7 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell counterspell}",
+                                "{@spell counterspell|PHB}",
                                 "{@spell hypnotic pattern}",
                                 "{@spell fear}",
                                 "{@spell vampiric touch}"
@@ -22597,7 +22597,7 @@
                         {
                             "spells":
                             [
-                                "{@spell dancing lights}",
+                                "{@spell dancing lights|PHB}",
                                 "{@spell eldritch blast}",
                                 "{@spell friends}",
                                 "{@spell mage hand|PHB}",
@@ -31114,7 +31114,7 @@
             "save":
             {
                 "int":"+3",
-                "wis":"+5"
+                "wis":"+3"
             },
             "skill":
             {
@@ -31233,8 +31233,8 @@
             ],
             "hp":
             {
-                "average": "78",
-                "formula": "12d8 + 24"
+                "average": "104",
+                "formula": "16d8 + 32"
             },
             "speed":
             {
@@ -31243,18 +31243,18 @@
             "str": 11,
             "dex": 14,
             "con": 14,
-            "int": "13",
+            "int": "15",
             "wis": "13",
             "cha": "12",
             "save":
             {
-                "int":"+3",
-                "wis":"+5"
+                "int":"+4",
+                "wis":"+3"
             },
             "skill":
             {
                 "acrobatics": "+4",
-                "arcana": "+3"
+                "arcana": "+4"
             },
             "passive": 11,
             "languages":
@@ -31262,7 +31262,7 @@
                 "Common",
                 "any two languages"
             ],
-            "cr": "1",
+            "cr": "3",
             "trait":
             [
                 {
@@ -31328,7 +31328,7 @@
                     "name": "Wand Strike",
                     "entries":
                     [
-                        "{@atk rs} {@hit 3} to hit, reach 120 ft., one target. {@h}14 ({@damage 1d4+1}) force damage."
+                        "{@atk rs} {@hit 4} to hit, reach 120 ft., one target. {@h}4 ({@damage 1d4+2}) force damage."
                     ]
                 }
             ],
@@ -31338,7 +31338,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The wandslinger is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The wandslinger has the following wizard spells prepared:"
+                        "The wandslinger is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). The wandslinger has the following wizard spells prepared:"
                     ],
                     "spells":
                     {
@@ -31352,11 +31352,19 @@
                         },
                         "1":
                         {
-                            "slots": 2,
+                            "slots": 4,
                             "spells":
                             [
                                 "{@spell magic missile|PHB}",
                                 "{@spell shield|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell knock|PHB}"
                             ]
                         }
                     },
@@ -31414,8 +31422,8 @@
             ],
             "hp":
             {
-                "average": "78",
-                "formula": "12d8 + 24"
+                "average": "143",
+                "formula": "22d8 + 44"
             },
             "speed":
             {
@@ -31424,18 +31432,18 @@
             "str": 11,
             "dex": 14,
             "con": 14,
-            "int": "13",
+            "int": "18",
             "wis": "13",
             "cha": "12",
             "save":
             {
-                "int":"+3",
-                "wis":"+5"
+                "int":"+7",
+                "wis":"+4"
             },
             "skill":
             {
-                "acrobatics": "+4",
-                "arcana": "+3"
+                "acrobatics": "+5",
+                "arcana": "+7"
             },
             "passive": 11,
             "languages":
@@ -31443,11 +31451,11 @@
                 "Common",
                 "any two languages"
             ],
-            "cr": "1",
+            "cr": "5",
             "trait":
             [
                 {
-                    "name": "Apprentice Wandslinging",
+                    "name": "Master Wandslinging",
                     "entries":
                     [
                         "Wandslinger is a broad term for any wizard who trains to use a wand in the manner of a martial application. This training grants them profound mastery over a few devastating effects, precision and potency with their wands, and the ability to wield and even recharge them. Instead of relying on cantrips, wandslingers can channel raw magic through their wands.",
@@ -31533,7 +31541,7 @@
                     "name": "Wand Strike",
                     "entries":
                     [
-                        "{@atk rs} {@hit 3} to hit, reach 120 ft., one target. {@h}14 ({@damage 1d4+1}) force damage."
+                        "{@atk rs} {@hit 7} to hit, reach 120 ft., one target. {@h}6 ({@damage 1d4+4}) force damage."
                     ]
                 }
             ],
@@ -31543,7 +31551,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The wandslinger is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The wandslinger has the following wizard spells prepared:"
+                        "The wandslinger is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The wandslinger has the following wizard spells prepared:"
                     ],
                     "spells":
                     {
@@ -31557,11 +31565,27 @@
                         },
                         "1":
                         {
-                            "slots": 2,
+                            "slots": 4,
                             "spells":
                             [
                                 "{@spell magic missile|PHB}",
                                 "{@spell shield|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell knock|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell counterspell|PHB}"
                             ]
                         }
                     },
