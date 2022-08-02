@@ -20,7 +20,7 @@
             "Can"
         ],
         "dateAdded": 1658932920,
-		"dateLastModified": 1659376860
+		"dateLastModified": 1659424500
     },
     "item":
     [
@@ -1754,7 +1754,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Hits from this weapon cast {@spell sacred flame|PHB} upon the hit enemy. If you roll a 1 on an attack roll {@spell vicious mockery} is cast on you."
+                "Hits from this weapon cast {@spell sacred flame|PHB} upon the hit enemy. If you roll a 1 on an attack roll {@spell vicious mockery|PHB}} is cast on you."
             ]
         },
         {
@@ -4681,9 +4681,9 @@
                         {
                             "spells":
                             [
-                                "{@spell eldritch blast}",
-                                "{@spell minor illusion}",
-                                "{@spell prestidigitation}"
+                                "{@spell eldritch blast|PHB}",
+                                "{@spell minor illusion|PHB}",
+                                "{@spell prestidigitation|PHB}"
                             ]
                         },
                         "1":
@@ -4692,9 +4692,9 @@
                             "spells":
                             [
                                 "{@spell charm person|PHB}",
-                                "{@spell expeditious retreat}",
-                                "{@spell illusory script}",
-                                "{@spell unseen servant}"
+                                "{@spell expeditious retreat|PHB}",
+                                "{@spell illusory script|PHB}",
+                                "{@spell unseen servant|PHB}"
                             ]
                         },
                         "2":
@@ -4702,10 +4702,10 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell suggestion}",
-                                "{@spell darkness}",
-                                "{@spell misty step}",
-                                "{@spell hold person}"
+                                "{@spell suggestion|PHB}",
+                                "{@spell darkness|PHB}",
+                                "{@spell misty step|PHB}",
+                                "{@spell hold person|PHB}"
                             ]
                         },
                         "3":
@@ -4714,9 +4714,9 @@
                             "spells":
                             [
                                 "{@spell counterspell|PHB}",
-                                "{@spell hypnotic pattern}",
-                                "{@spell fear}",
-                                "{@spell vampiric touch}"
+                                "{@spell hypnotic pattern|PHB}",
+                                "{@spell fear|PHB}",
+                                "{@spell vampiric touch|PHB}"
                             ]
                         },
                         "4":
@@ -4724,9 +4724,9 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell banishment}",
-                                "{@spell hallucinatory terrain}",
-                                "{@spell dimension door}"
+                                "{@spell banishment|PHB}",
+                                "{@spell hallucinatory terrain|PHB}",
+                                "{@spell dimension door|PHB}"
                             ]
                         },
                         "5":
@@ -4734,9 +4734,9 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell contact other plane}",
-                                "{@spell dream}",
-                                "{@spell scrying}"
+                                "{@spell contact other plane|PHB}",
+                                "{@spell dream|PHB}",
+                                "{@spell scrying|PHB}"
                             ]
                         },
                         "6":
@@ -4744,8 +4744,8 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell mass suggestion}",
-                                "{@spell eyebite}"
+                                "{@spell mass suggestion|PHB}",
+                                "{@spell eyebite|PHB}"
                             ]
                         },
                         "7":
@@ -4753,8 +4753,8 @@
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell plane shift}",
-                                "{@spell etherealness}"
+                                "{@spell plane shift|PHB}",
+                                "{@spell etherealness|PHB}"
                             ]
                         },
                         "8":
@@ -4762,8 +4762,8 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell power word stun}",
-                                "{@spell feeblemind}"
+                                "{@spell power word stun|PHB}",
+                                "{@spell feeblemind|PHB}"
                             ]
                         },
                         "9":
@@ -4771,7 +4771,7 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell true polymorph}"
+                                "{@spell true polymorph|PHB}"
                             ]
                         }
                     },
@@ -12526,7 +12526,7 @@
                                 "{@spell darkness|PHB}",
                                 "{@spell darkvision|PHB}",
                                 "{@spell knock|PHB}",
-                                "{@spell mental barrier|UAFighterRogueWizard}",
+                                "{@spell mental barrier|UAFRW}",
                                 "{@spell misty step|PHB}",
                                 "{@spell see invisibility|PHB}",
                                 "{@spell shadow blade|XGE}",
@@ -19409,7 +19409,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -19675,7 +19676,14 @@
             "name": "Aquatic Vampire Spawn",
             "source": "Canbrew",
             "size": "M",
-            "type": "undead",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "vampire"
+                ]
+            },
             "alignment":
             [
                 "N",
@@ -20185,7 +20193,7 @@
                     ],
                     "will":
                     [
-                        "{@spell light}"
+                        "{@spell light|PHB}"
                     ],
                     "ability": "Cha",
                     "type": "spellcasting"
@@ -20492,7 +20500,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -20743,7 +20752,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -21109,7 +21119,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -21322,7 +21333,8 @@
                             "spells":
                             [
                                 "{@spell banishment|PHB}",
-                                "{@spell dimension door|PHB}","{@spell fire shield|PHB}"
+                                "{@spell dimension door|PHB}",
+                                "{@spell fire shield|PHB}"
                             ]
                         },
                         "5":
@@ -21429,7 +21441,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -21804,7 +21817,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -22135,7 +22149,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -22386,7 +22401,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -22572,14 +22588,14 @@
                         "The vampire's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 120), requiring no material components:"
                     ],
                     "will": [
-                        "{@spell disguise self}",
-                        "{@spell mage armor} (self only)",
-                        "{@spell silent image}",
-                        "{@spell speak with animals}"
+                        "{@spell disguise self|PHB}",
+                        "{@spell mage armor|PHB} (self only)",
+                        "{@spell silent image|PHB}",
+                        "{@spell speak with animals|PHB}"
                     ],
                     "daily": {
                         "1": [
-                            "{@spell conjure fey}"
+                            "{@spell conjure fey|PHB}"
                         ]
                     },
                     "ability": "cha",
@@ -22598,12 +22614,12 @@
                             "spells":
                             [
                                 "{@spell dancing lights|PHB}",
-                                "{@spell eldritch blast}",
-                                "{@spell friends}",
+                                "{@spell eldritch blast|PHB}",
+                                "{@spell friends|PHB}",
                                 "{@spell mage hand|PHB}",
-                                "{@spell minor illusion}",
+                                "{@spell minor illusion|PHB}",
                                 "{@spell prestidigitation|PHB}",
-                                "{@spell vicious mockery}"
+                                "{@spell vicious mockery|PHB}"
                             ]
                         },
                         "5":
@@ -22623,8 +22639,8 @@
                                 "{@spell hold monster|PHB}",
                                 "{@spell misty step|PHB}",
                                 "{@spell phantasmal force|PHB}",
-                                "{@spell seeming}",
-                                "{@spell sleep}"
+                                "{@spell seeming|PHB}",
+                                "{@spell sleep|PHB}"
                             ]
                         }
                     },
@@ -22726,7 +22742,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -22977,7 +22994,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -23303,7 +23321,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -23554,7 +23573,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -23876,7 +23896,14 @@
             "isNpc": true,
             "source": "Canbrew",
             "size": "L",
-            "type": "undead",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "vampire"
+                ]
+            },
             "alignment":
             [
                 "U"
@@ -24013,7 +24040,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -24271,7 +24299,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -24600,7 +24629,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -24851,7 +24881,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -25193,7 +25224,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -25454,7 +25486,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -25835,7 +25868,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -26093,7 +26127,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -26402,7 +26437,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -26639,7 +26675,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -26875,7 +26912,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -27119,7 +27157,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -27381,7 +27420,14 @@
             "name": "Throatseeker",
             "source": "Canbrew",
             "size": "M",
-            "type": "undead",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "vampire"
+                ]
+            },
             "alignment":
             [
                 "C",
@@ -27556,7 +27602,14 @@
             "name": "Heathen",
             "source": "Canbrew",
             "size": "M",
-            "type": "undead",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "vampire"
+                ]
+            },
             "alignment":
             [
                 "C",
@@ -27747,7 +27800,14 @@
             "name": "Flesh Wailer",
             "source": "Canbrew",
             "size": "H",
-            "type": "undead",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "vampire"
+                ]
+            },
             "alignment":
             [
                 "C",
@@ -27977,7 +28037,14 @@
             "name": "Nosferatu",
             "source": "Canbrew",
             "size": "M",
-            "type": "undead",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "vampire"
+                ]
+            },
             "alignment":
             [
                 "N",
@@ -28146,7 +28213,14 @@
             "isNpc": true,
             "source": "Canbrew",
             "size": "M",
-            "type": "undead",
+            "type":
+            {
+                "type": "undead",
+                "tags":
+                [
+                    "vampire"
+                ]
+            },
             "alignment":
             [
                 "N",
@@ -28894,7 +28968,8 @@
                 "type": "undead",
                 "tags":
                 [
-                    "shapechanger"
+                    "shapechanger",
+                    "vampire"
                 ]
             },
             "alignment":
@@ -31091,7 +31166,8 @@
             [
                 {
                     "ac": 15,
-                    "from": [
+                    "from":
+                    [
                         "{@item chain shirt|PHB}"
                     ]
                 }
@@ -31226,7 +31302,8 @@
             [
                 {
                     "ac": 15,
-                    "from": [
+                    "from":
+                    [
                         "{@item chain shirt|PHB}"
                     ]
                 }
@@ -31415,7 +31492,8 @@
             [
                 {
                     "ac": 15,
-                    "from": [
+                    "from":
+                    [
                         "{@item chain shirt|PHB}"
                     ]
                 }
