@@ -16,7 +16,8 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "convertedBy": [
+        "convertedBy":
+        [
             "Can"
         ],
         "dateAdded": 1658932920,
@@ -31606,6 +31607,14 @@
                                     "entries":
                                     [
                                         "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked prone."
+                                    ]
+                                },
+                                {
+                                    "name": "Split Fire",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can make another attack against another creature within range."
                                     ]
                                 }
                             ]
