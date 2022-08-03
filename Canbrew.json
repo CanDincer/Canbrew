@@ -21,7 +21,7 @@
             "Can"
         ],
         "dateAdded": 1658932920,
-		"dateLastModified": 1659515831
+		"dateLastModified": 1659537519
     },
     "item":
     [
@@ -2207,7 +2207,7 @@
             ]
         },
         {
-            "name": "Plate Armor of ogd",
+            "name": "Plate Armor of (ogd)",
             "weight": 65,
             "ac": 18,
             "reqAttune": true,
@@ -2222,7 +2222,7 @@
             ]
         },
         {
-            "name": "Armor of Myrmidon Lord ogd",
+            "name": "Armor of Myrmidon Lord (ogd)",
             "baseItem": "half plate armor|PHB",
             "type": "MA",
             "armor": true,
@@ -2340,7 +2340,7 @@
             ]
         },
         {
-            "name": "Tabula Rasa ogd cold elemental?",
+            "name": "Tabula Rasa (ogd) cold elemental?",
             "baseItem": "Plate Armor|PHB",
             "type": "HA",
             "armor": true,
@@ -3184,7 +3184,7 @@
             ]
         },
         {
-            "name": "Goblin's Gourd ogd",
+            "name": "Goblin's Gourd (ogd)",
             "rarity": "common",
             "type": "P",
             "weight": 0.5,
@@ -3433,7 +3433,7 @@
             ]
         },
         {
-            "name": "Eye of the Fiendlord ogd",
+            "name": "Eye of the Fiendlord (ogd)",
             "rarity": "very rare",
             "weight": 0.05,
             "reqAttune": true,
@@ -3468,7 +3468,7 @@
             ]
         },
         {
-            "name": "Red Claw's Regalia ogd",
+            "name": "Red Claw's Regalia (ogd)",
             "rarity": "very rare",
             "weight": 3,
             "reqAttune": true,
@@ -3906,7 +3906,7 @@
             ]
         },
         {
-            "name": "Accelerator Gem ogd",
+            "name": "Accelerator Gem (ogd)",
             "rarity": "legendary",
             "type": "SCF",
             "weight": 0.05,
@@ -3959,7 +3959,7 @@
             ]
         },
         {
-            "name": "Horadric Cube ogd",
+            "name": "Horadric Cube (ogd)",
             "rarity": "very rare",
             "weight": 0.5,
             "reqAttune": true,
@@ -4926,7 +4926,7 @@
             }
         },
         {
-            "name": "Oblex Spawn ogd",
+            "name": "Oblex Spawn (ogd)",
             "size": "M",
             "type": "monstrosity",
             "source": "Canbrew",
@@ -9430,7 +9430,7 @@
             }
         },
         {
-            "name": "Ifrit ogd",
+            "name": "Ifrit (ogd)",
             "isNpc": true,
             "size": "G",
             "type":
@@ -13561,7 +13561,7 @@
             }
         },
         {
-            "name": "Aben'nate ogd",
+            "name": "Aben'nate (ogd)",
             "isNpc": true,
             "size": "M",
             "type":
@@ -14547,7 +14547,7 @@
             }
         },
         {
-            "name": "Drowned Metamorph ogd",
+            "name": "Drowned Metamorph (ogd)",
             "size": "M",
             "type": "monstrosity",
             "source": "Canbrew",
@@ -14888,7 +14888,7 @@
             }
         },
         {
-            "name": "Snow Grappler ogd",
+            "name": "Snow Grappler (ogd)",
             "size": "L",
             "type": "monstrosity",
             "source": "Canbrew",
@@ -15214,7 +15214,7 @@
             }
         },
         {
-            "name": "Polebeak ogd",
+            "name": "Polebeak (ogd)",
             "size": "L",
             "type": "monstrosity",
             "source": "Canbrew",
@@ -15463,7 +15463,7 @@
             }
         },
         {
-            "name": "Leechmere ogd",
+            "name": "Leechmere (ogd)",
             "size": "S",
             "type": "monstrosity",
             "source": "Canbrew",
@@ -17995,7 +17995,7 @@
             }
         },
         {
-            "name": "Arcane Gunslinger ogd",
+            "name": "Arcane Gunslinger (ogd)",
             "size": "M",
             "type":
             {
@@ -18174,7 +18174,7 @@
             }
         },
         {
-            "name": "Troopers ogd",
+            "name": "Troopers (ogd)",
             "size": "M",
             "type":
             {
@@ -19264,7 +19264,7 @@
             }
         },
         {
-            "name": "Nothidra ogd",
+            "name": "Nothidra (ogd)",
             "source": "Canbrew",
             "size": "M",
             "type": "aberration",
@@ -31698,6 +31698,232 @@
                 "RNG"
             ],
             "tokenUrl": "https://i.imgur.com/HtY4voO.png"
+        },
+        {
+            "name": "Orc Gliding Falcon (ogd)",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "orc"
+                ]
+            },
+            "alignment":
+            [
+                "X"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 12,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": "143",
+                "formula": "22d8 + 44"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 11,
+            "dex": 14,
+            "con": 14,
+            "int": "18",
+            "wis": "13",
+            "cha": "12",
+            "save":
+            {
+                "int":"+7",
+                "wis":"+4"
+            },
+            "skill":
+            {
+                "acrobatics": "+5",
+                "arcana": "+7"
+            },
+            "passive": 11,
+            "languages":
+            [
+                "Common",
+                "any two languages"
+            ],
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Master Wandslinging",
+                    "entries":
+                    [
+                        "Wandslinger is a broad term for any wizard who trains to use a wand in the manner of a martial application. This training grants them profound mastery over a few devastating effects, precision and potency with their wands, and the ability to wield and even recharge them. Instead of relying on cantrips, wandslingers can channel raw magic through their wands.",
+                        "Wandslingers do not require verbal or material components when casting through their wands. A swing of their wand is enough to channel magical power through it quickly. A wandslinger can cast their known cantrips as a bonus action.",
+                        "Wandslingers are known to perform powerful trick shots to disable or damage their opponents using their wand.",
+                        "Master wandslingers create 5 missiles and have access to trick shots.",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                {
+                                    "name": "Confusing Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to discombobulate the creature. On a hit, the creature must succeed on an Intelligence saving throw or become unable to cast spells or use magical items until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Dazing Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to dizzy its opponent. On a hit, the creature suffers normal damage and must make a Constitution saving throw or suffer disadvantage on attacks until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Disarming Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to shoot an object from its hands. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or drop 1 held object of the wandslinger's choice and have that object be pushed 10 feet away from the wandslinger."
+                                    ]
+                                },
+                                {
+                                    "name": "Distracting Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can distract the creature, giving its allies an opening. On a hit, the creature must succeed on a Wisdom saving throw or the next attack roll against the target by an attacker other than the wandslinger has advantage if the attack is made before the start of the wandslinger's next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Forceful Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to trip them up and force them back. On a hit, the creature suffers normal damage and must succeed on a Strength saving throw or be pushed 5 feet away from the wandslinger."
+                                    ]
+                                },
+                                {
+                                    "name": "Hindering Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to hinder the target. On a hit, the creature suffers normal damage and must make a Dexterity saving throw or have its speed is reduced by 10 feet until the end of its next turn."
+                                    ]
+                                },
+                                {
+                                    "name": "Menacing Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to threaten the target, potentially forcing them into a defensive state. On a hit, the creature suffers normal damage and must make a Charisma saving throw or become incapacitated until the end of its next turn. While incapacitated in this way, the creature has half cover."
+                                    ]
+                                },
+                                {
+                                    "name": "Winging Shot",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked prone."
+                                    ]
+                                },
+                                {
+                                    "name": "Split Fire",
+                                    "type": "entries",
+                                    "entries":
+                                    [
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can make another attack against another creature within range."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Wand Strike",
+                    "entries":
+                    [
+                        "{@atk rs} {@hit 7} to hit, reach 120 ft., one target. {@h}6 ({@damage 1d4+4}) force damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The wandslinger is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The wandslinger has the following wizard spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell fire bolt|PHB}",
+                                "{@spell ray of frost|PHB}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell magic missile|PHB}",
+                                "{@spell shield|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell knock|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell counterspell|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "damageTags":
+            [
+                "O"
+            ],
+            "languageTags":
+            [
+                "C",
+                "O"
+            ],
+            "spellcastingTags":
+            [
+                "CW"
+            ],
+            "miscTags":
+            [
+                "RNG"
+            ],
+            "tokenUrl": "ogd"
         }
     ],
     "legendaryGroup":
