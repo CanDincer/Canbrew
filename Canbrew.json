@@ -21,7 +21,7 @@
             "Can"
         ],
         "dateAdded": 1658932920,
-		"dateLastModified": 1659537519
+		"dateLastModified": 1659625800
     },
     "item":
     [
@@ -3224,7 +3224,7 @@
             "entries":
             [
                 "This potion's container seems to hold a black fog that moves and pours like water.",
-                "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being grappled and restrained, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain Darkvision to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
+                "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being grappled and restrained, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain {@sense darkvision} to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
             ]
         },
         {
@@ -3446,7 +3446,7 @@
             "entries":
             [
                 "While you are attuned to the eye, once a day, you can cast see invisibility on yourself at will. You can choose to see through its magically enhanced lens using a bonus action.",
-                "Looking through the eye grants you darkvision of up to 120 feet, and are able to peer through both magical and nonmagical darkness using it.",
+                "Looking through the eye grants you {@sense darkvision} of up to 120 feet, and are able to peer through both magical and nonmagical darkness using it.",
                 {
                     "type": "entries",
                     "name": "Curse",
@@ -29674,6 +29674,11 @@
                     ]
                 }
             ],
+            "environment":
+            [
+                "coastal",
+                "desert"
+            ],
             "traitTags":
             [
                 "Illumination"
@@ -29816,6 +29821,11 @@
                     ]
                 }
             ],
+            "environment":
+            [
+                "underwater",
+                "swamp"
+            ],
             "traitTags":
             [
                 "Water Breathing"
@@ -29945,6 +29955,11 @@
                         "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "grassland",
+                "mountain"
             ],
             "senseTags":
             [
@@ -30077,6 +30092,11 @@
                         "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "hill",
+                "underdark"
             ],
             "senseTags":
             [
@@ -30211,6 +30231,11 @@
                         "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "forest",
+                "urban"
             ],
             "senseTags":
             [
@@ -30353,6 +30378,11 @@
                     ]
                 }
             ],
+            "environment":
+            [
+                "coastal",
+                "desert"
+            ],
             "senseTags":
             [
                 "D",
@@ -30494,6 +30524,11 @@
                         "Miss: The minimental takes half the normal falling damage for the distance fallen."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "arctic",
+                "mountain"
             ],
             "traitTags":
             [
@@ -30641,6 +30676,11 @@
                         "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}{@damage 1d4 - 1} bludgeoning damage."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "desert",
+                "underdark"
             ],
             "traitTags":
             [
@@ -30807,9 +30847,9 @@
             "str": 2,
             "dex": 16,
             "con": 12,
-            "int": "8",
-            "wis": "14",
-            "cha": "13",
+            "int": 8,
+            "wis": 14,
+            "cha": 13,
             "save":
             {
                 "dex":"+5"
@@ -30881,6 +30921,12 @@
                         }
                     ]
                 }
+            ],
+            "environment":
+            [
+                "forest",
+                "grassland",
+                "swamp"
             ],
             "spellcasting":
             [
@@ -31007,9 +31053,9 @@
             "str": 2,
             "dex": 16,
             "con": 12,
-            "int": "8",
-            "wis": "14",
-            "cha": "13",
+            "int": 8,
+            "wis": 14,
+            "cha": 13,
             "save":
             {
                 "dex":"+5"
@@ -31185,9 +31231,9 @@
             "str": 11,
             "dex": 14,
             "con": 14,
-            "int": "13",
-            "wis": "13",
-            "cha": "12",
+            "int": 13,
+            "wis": 13,
+            "cha": 12,
             "save":
             {
                 "int":"+3",
@@ -31227,6 +31273,10 @@
                         "{@atk rs} {@hit 3} to hit, reach 120 ft., one target. {@h}14 ({@damage 1d4+1}) force damage."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "urban"
             ],
             "spellcasting":
             [
@@ -31321,9 +31371,9 @@
             "str": 11,
             "dex": 14,
             "con": 14,
-            "int": "15",
-            "wis": "13",
-            "cha": "12",
+            "int": 15,
+            "wis": 13,
+            "cha": 12,
             "save":
             {
                 "int":"+4",
@@ -31409,6 +31459,10 @@
                         "{@atk rs} {@hit 4} to hit, reach 120 ft., one target. {@h}4 ({@damage 1d4+2}) force damage."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "urban"
             ],
             "spellcasting":
             [
@@ -31511,9 +31565,9 @@
             "str": 11,
             "dex": 14,
             "con": 14,
-            "int": "18",
-            "wis": "13",
-            "cha": "12",
+            "int": 18,
+            "wis": 13,
+            "cha": 12,
             "save":
             {
                 "int":"+7",
@@ -31631,6 +31685,10 @@
                         "{@atk rs} {@hit 7} to hit, reach 120 ft., one target. {@h}6 ({@damage 1d4+4}) force damage."
                     ]
                 }
+            ],
+            "environment":
+            [
+                "urban"
             ],
             "spellcasting":
             [
@@ -31737,9 +31795,9 @@
             "str": 11,
             "dex": 14,
             "con": 14,
-            "int": "18",
-            "wis": "13",
-            "cha": "12",
+            "int": 18,
+            "wis": 13,
+            "cha": 12,
             "save":
             {
                 "int":"+7",
@@ -31858,6 +31916,12 @@
                     ]
                 }
             ],
+            "environment":
+            [
+                "desert",
+                "grassland",
+                "hill"
+            ],
             "spellcasting":
             [
                 {
@@ -31924,6 +31988,142 @@
                 "RNG"
             ],
             "tokenUrl": "ogd"
+        },
+        {
+            "name": "Secluded (ogd)",
+            "source": "Canbrew",
+            "size": "L",
+            "type":
+            {
+                "type": "fiend",
+                "tags":
+                [
+                    "devil"
+                ]
+            },
+            "alignment":
+            [
+                "NX",
+                "E"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 18,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": "152",
+                "formula": "16d8 + 80"
+            },
+            "speed":
+            {
+                "walk": 60
+            },
+            "str": 22,
+            "dex": 17,
+            "con": 21,
+            "int": 12,
+            "wis": 16,
+            "cha": 17,
+            "save":
+            {
+                "str": "+10",
+                "con":"+9",
+                "wis":"+4",
+                "cha": "+7"
+            },
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 13,
+            "languages":
+            [
+                "Infernal",
+                "telepathy 120 ft."
+            ],
+            "cr": "11",
+            "trait":
+            [
+                {
+                    "name": "Devil's Sight",
+                    "entries":
+                    [
+                        "Magical darkness doesn't impede the secluded's {@sense darkvision}."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries":
+                    [
+                        "The secluded has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Shadow Weapons",
+                    "entries":
+                    [
+                        "The Secluded's weapon attacks are magical. When the secluded hits with any weapon, the weapon deals an extra {@damage 3d8} poison damage (included in the attack)."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The secluded makes a 3 war scythe attacks in one action."
+                    ]
+                },
+                {
+                    "name": "War Scythe",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit +10} to hit, reach 10 ft., one creature. {@h}11 ({@damage 2d4 + 6}) slashing damage plus 13 ({@damage 3d8}) poison damage.",
+                        "Special. This weapon has the heavy property and requires Strength of 19 to use as a one-handed weapon."
+                    ]
+                }
+            ],
+            "damageTags":
+            [
+                "S"
+            ],
+            "languageTags":
+            [
+                "I",
+                "TP"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RCH"
+            ],
+            "senseTags":
+            [
+                "SD"
+            ],
+            "tokenUrl": "https://i.imgur.com/novTD9t.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/HPoV26v.jpg"
+                        }
+                    }
+                ]
+            }
         }
     ],
     "legendaryGroup":
