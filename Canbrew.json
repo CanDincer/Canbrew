@@ -21,7 +21,7 @@
             "Can"
         ],
         "dateAdded": 1658932920,
-		"dateLastModified": 1661027940
+		"dateLastModified": 1661028660
     },
     "item":
     [
@@ -12033,6 +12033,10 @@
             "tokenUrl": "https://i.imgur.com/ihyZC0x.png",
             "fluff":
             {
+                "entries":
+                [
+                    "Na'arn are born from sand that has blood dried on it."
+                ],
                 "images":
                 [
                     {
