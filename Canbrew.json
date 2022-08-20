@@ -11974,21 +11974,21 @@
                     "name": "Pounce",
                     "entries":
                     [
-                        "If the jackal moves at least 20 ft. straight toward a creature and then hits it with a Khopesh attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action."
+                        "If the na'arn moves at least 20 ft. straight toward a creature and then hits it with a Khopesh attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action."
                     ]
                 },
                 {
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The jackal has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                        "The na'arn has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
                     "name": "Sand Structure",
                     "entries":
                     [
-                        "If the jackal takes fire damage equal to half of its remaining hit points, it solidifies into glass."
+                        "If the na'arn takes fire damage equal to half of its remaining hit points, it solidifies into glass."
                     ]
                 }
             ],
@@ -12106,13 +12106,6 @@
                     "entries":
                     [
                         "Raya Emberstone has advantage on saving throws against poison, and has resistance against poison damage."
-                    ]
-                },
-                {
-                    "name": "Pack Tactics",
-                    "entries":
-                    [
-                        "The jackal has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 }
             ],
