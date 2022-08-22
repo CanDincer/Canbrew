@@ -31988,6 +31988,131 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Thunderherder",
+            "source": "Canbrew",
+            "size": "L",
+            "type": "monstrosity",
+            "alignment":
+            [
+                "U"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": "45",
+                "formula": "6d10 + 12"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "burrow": 30,
+                "climb": 5
+            },
+            "str": 14,
+            "dex": 17,
+            "con": 14,
+            "int": 2,
+            "wis": 10,
+            "cha": 4,
+            "senses":
+            [
+                "darkvision 120 ft."
+            ],
+            "passive": 13,
+            "languages":
+            [
+                "Infernal",
+                "telepathy 120 ft."
+            ],
+            "cr": "2",
+            "trait":
+            [
+                {
+                    "name": "Evasive Diver",
+                    "entries":
+                    [
+                        "While in areas of sand (not packed earth or stone), if the thunderherder makes a successful Dexterity saving throw that normally deals half damage on a successful saving throw, the thunderherder instead manages to instantly dive below the protective sand or earth and takes no damage.",
+                        "When the thunderherder dives below the sand. If the rider fails a DC 15 Dexterity saving throw, it is swept from the thunderherder's back."
+                    ]
+                },
+                {
+                    "name": "Exotic Mount",
+                    "entries":
+                    [
+                        "These creatures can be domesticated and trained to become mounts. The poison stingers of most domesticated ashworms are clipped.",
+                        "A tamed thunderherder is suitable as a mount for a Medium humanoid. However, the rider must succeed on a DC 15 Wisdom (Animal Handling) check once every 24 hours if in a sandy environment or be swept off the back of the thunderherder as it dives below the surface for {@dice 1d4} rounds before returning to its rider. A thunderherder is hard to control in combat.",
+                        "A thunderherder mount requires an exotic saddle, benefits from stabling, can wear custom barding (specially constructed, adding an additional 50% to the price), and requires feed like a normal mount."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Sting",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must make a {@dc 14} Constitution saving throw or , taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "damageTags":
+            [
+                "P",
+                "I"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "RCH"
+            ],
+            "senseTags":
+            [
+                "T"
+            ],
+            "environment":
+            [
+                "desert",
+                "underdark"
+            ],
+            "tokenUrl": "https://i.imgur.com/gvmbcbf.png",
+            "fluff":
+            {
+                "entries":
+                [
+                    "On average, the body of a thunderherder grows to be 3 to 5 feet (0.91 to 1.5 meters) wide and 5 to 10 feet (1.5 to 3 meters) in length. Their bodies are covered in a thin layer of chitinous, pale purple plates. On one end of their body is a large stinger.",
+                    "Unlike their cousin, the purple worm, thunderherders are relatively non-aggressive creatures.",
+                    "Thunderherders secret a substance from their bodies that allow them to stick to vertical surfaces. Their large stinger is poisonous."
+                ],
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/cE9QSVv.png"
+                        }
+                    }
+                ]
+            }
         }
     ],
     "legendaryGroup":
