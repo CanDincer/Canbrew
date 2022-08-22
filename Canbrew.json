@@ -32027,7 +32027,8 @@
             "cha": 4,
             "senses":
             [
-                "darkvision 120 ft."
+                "blindsight 30 ft.",
+                "tremorsense 60 ft."
             ],
             "passive": 13,
             "languages":
@@ -32085,6 +32086,7 @@
             ],
             "senseTags":
             [
+                "B",
                 "T"
             ],
             "environment":
