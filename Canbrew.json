@@ -32052,7 +32052,7 @@
                     "entries":
                     [
                         "These creatures can be domesticated and trained to become mounts. The poison stingers of most domesticated ashworms are clipped.",
-                        "A tamed thunderherder is suitable as a mount for a Medium humanoid. However, the rider must succeed on a DC 15 Wisdom (Animal Handling) check once every 24 hours if in a sandy environment or be swept off the back of the thunderherder as it dives below the surface for {@dice 1d4} rounds before returning to its rider. A thunderherder is hard to control in combat.",
+                        "A tamed thunderherder is suitable as a mount for a Medium humanoid. However, the rider must succeed on a {@dc 15} Wisdom (Animal Handling) check once every 24 hours if in a sandy environment or be swept off the back of the thunderherder as it dives below the surface for {@dice 1d4} rounds before returning to its rider. A thunderherder is hard to control in combat.",
                         "A thunderherder mount requires an exotic saddle, benefits from stabling, can wear custom barding (specially constructed, adding an additional 50% to the price), and requires feed like a normal mount."
                     ]
                 }
