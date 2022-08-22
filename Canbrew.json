@@ -21,7 +21,7 @@
             "Can"
         ],
         "dateAdded": 1658932920,
-		"dateLastModified": 1661170320
+		"dateLastModified": 1661170680
     },
     "item":
     [
@@ -32031,11 +32031,6 @@
                 "tremorsense 60 ft."
             ],
             "passive": 13,
-            "languages":
-            [
-                "Infernal",
-                "telepathy 120 ft."
-            ],
             "cr": "2",
             "trait":
             [
@@ -32044,7 +32039,7 @@
                     "entries":
                     [
                         "While in areas of sand (not packed earth or stone), if the thunderherder makes a successful Dexterity saving throw that normally deals half damage on a successful saving throw, the thunderherder instead manages to instantly dive below the protective sand or earth and takes no damage.",
-                        "When the thunderherder dives below the sand. If the rider fails a DC 15 Dexterity saving throw, it is swept from the thunderherder's back."
+                        "When the thunderherder dives below the sand. If the rider fails a {@dc 15} Dexterity saving throw, it is swept from the thunderherder's back."
                     ]
                 },
                 {
@@ -32091,8 +32086,7 @@
             ],
             "environment":
             [
-                "desert",
-                "underdark"
+                "desert"
             ],
             "tokenUrl": "https://i.imgur.com/gvmbcbf.png",
             "fluff":
