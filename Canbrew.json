@@ -32147,8 +32147,12 @@
             "cha": 16,
             "save":
             {
-                "str": "+6",
-                "cha": "+6"
+                "str": "+9",
+                "con": "+6",
+                "dex": "+4",
+                "int": "+3",
+                "wis": "+3",
+                "cha": "+9"
             },
             "skill":
             {
@@ -32170,7 +32174,7 @@
                 "darkvision 60 ft."
             ],
             "passive": 10,
-            "cr": "5",
+            "cr": "6",
             "trait":
             [
                 {
@@ -32185,6 +32189,13 @@
                     "entries":
                     [
                         "The dragon knight channels its faith to recover hit points. The dragon knight can regain 25 hit points using an action. Once used it cannot use this feature again before taking a long rest."
+                    ]
+                },
+                {
+                    "name": "Draconic Shield",
+                    "entries":
+                    [
+                        "The dragon knight adds its Charisma modifier to the saving throws (included in the saving throws)."
                     ]
                 }
             ],
