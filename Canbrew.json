@@ -33449,7 +33449,7 @@
 				"Oath of the Dragon Knight|Paladin||Dragon Knight|Canbrew|3",
 				"Aura of the Dragon Queen (Chromatic Sovereign only)|Paladin||Dragon Knight|Canbrew|7",
 				"Aura of the Platinum Dragon (Metallic Sovereign only)|Paladin||Dragon Knight|Canbrew|7",
-				"Dragon Flight|Paladin||Dragon Knight|Canbrew|15",
+				"Dragon Blood|Paladin||Dragon Knight|Canbrew|15",
 				"Draconic Avatar|Paladin||Dragon Knight|Canbrew|20"
 			]
 		}
@@ -33715,7 +33715,7 @@
 			"header": 2,
 			"entries":
             [
-				"At 15th level, you gain resistance to the damage type of your Sovereign. If you couple this resistance with {@spell absorb elements|XGE} spell, you take no damage from the effect. Also, when you deal that type of damage, you ignore resistances."
+				"At 15th level, you gain resistance to the damage type of your Sovereign. If you couple this resistance with {@spell absorb elements|XGE} spell, you take no damage from the damaging effect. Also, when you deal that type of damage, you ignore resistances."
 			]
 		},
 		{
