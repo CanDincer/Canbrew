@@ -32159,20 +32159,32 @@
             [
                 "Same as its draconic type"
             ],
+            "conditionImmune":
+            [
+                "diseased",
+                "frightened",
+                "poisoned"
+            ],
             "senses":
             [
-                "darkvision 60 ft.",
-                "blindsight 10 ft."
+                "darkvision 60 ft."
             ],
             "passive": 10,
             "cr": "5",
             "trait":
             [
                 {
-                    "name": "Divine Smite",
+                    "name": "Divine Strike",
                     "entries":
                     [
-                        "The dragon knight's weapon attacks are magical. When the dragon knight hits with any weapon, the weapon deals an extra 1d8 radiant damage (included in the attack)."
+                        "The dragon knight's melee weapon attacks are magical. When the dragon knight hits with any melee weapon, the weapon deals an extra {@damage 1d8} radiant damage (included in the attack)."
+                    ]
+                },
+                {
+                    "name": "Blessed Restoration",
+                    "entries":
+                    [
+                        "The dragon knight channels its faith to recover hit points. The dragon knight can regain 25 hit points using an action. Once used it cannot use this feature again before taking a long rest."
                     ]
                 }
             ],
@@ -32186,14 +32198,14 @@
                     ]
                 },
                 {
-                    "name": "Bite",
+                    "name": "Longsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 7 ({@damage 2d6}) damage of your sovereign's Damage Type."
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 4 ({@damage 1d8}) radiant damage."
                     ]
                 },
                 {
-                    "name": "Draconic Breath",
+                    "name": "Draconic Breath {@recharge 4}",
                     "type": "entries",
                     "entries":
                     [
@@ -32264,8 +32276,45 @@
                                 ]
                             ]
                         },
-                        "When the dragon knight uses its draconic breath, each creature in the area of the exhalation must make a {@dc 14} saving throw, the type of which is determined by its draconic type. A creature takes {@dice 4d12} damage on a failed save, and half as much damage on a successful one."
+                        "When the dragon knight uses its draconic breath, each creature in the area of the exhalation must make a {@dc 14} saving throw, the type of which is determined by its draconic type. A creature takes 26 ({@damage 4d12}) damage on a failed save, and half as much damage on a successful one."
                     ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The dragon knight is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following paladin spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell command|PHB}",
+                                "{@spell compelled duel|PHB}",
+                                "{@spell searing smite|PHB}",
+                                "{@spell thunderous smite|PHB}",
+                                "{@spell wrathful smite|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell branding smite|PHB}",
+                                "{@spell find steed|PHB}",
+                                "{@spell zone of truth|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
                 }
             ],
             "senseTags":
@@ -32290,6 +32339,10 @@
             [
                 "MW",
                 "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
             ],
             "tokenUrl": "ogd",
             "fluff":
