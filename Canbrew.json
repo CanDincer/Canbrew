@@ -1034,7 +1034,7 @@
                 "An adamantine rod with a pointy tip on one end and a pearl on the other end.",
                 "You can jam it on the ground using an action and activate it using another action. It stays active for a minute or until you deactivate it using an action.",
                 "While it is active, any spell cast in the 60-foot radius below 4th-level disperses in the air and has no effect. It also disrupts all concentrations on spells. Creatures in the area of effect lose the effect of the concentrated spell. Creatures regain concentration at the end of the rod's effect or if they move out of the area of effect.",
-                "A creature who is about to cast a spell must roll an Arcana check (DC 15) to notice the jammer effect. On a success, the creature can forego casting it.",
+                "A creature who is about to cast a spell must roll an Arcana check ({@dc 15}) to notice the jammer effect. On a success, the creature can forego casting it.",
                 "It has 1 charge and you can replenish it by expending a 3rd-level or higher spell slot. Doing so costs an action"
             ]
         },
