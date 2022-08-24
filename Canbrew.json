@@ -32365,6 +32365,518 @@
                 "Multiattack"
             ],
             "tokenUrl": "https://i.imgur.com/u6cC83Z.png"
+        },
+        {
+            "name": "Efsunkapan Cengaver",
+            "source": "Canbrew",
+            "size": "M",
+            "type": "humanoid",
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 20,
+                    "from":
+                    [
+                        "{@item half plate armor|PHB}, {@item shield|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": "135",
+                "formula": "18d8 + 54"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 12,
+            "con": 16,
+            "int": 10,
+            "wis": 10,
+            "cha": 16,
+            "save":
+            {
+                "str": "+10",
+                "con": "+7",
+                "dex": "+5",
+                "int": "+4",
+                "wis": "+4",
+                "cha": "+10"
+            },
+            "skill":
+            {
+                "athletics": "+7",
+                "intimidation": "+7"
+            },
+            "immune":
+            [
+                "Same as its draconic type"
+            ],
+            "conditionImmune":
+            [
+                "diseased",
+                "frightened",
+                "poisoned"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Divine Strike",
+                    "entries":
+                    [
+                        "The dragon knight's melee weapon attacks are magical. When the dragon knight hits with any melee weapon, the weapon deals an extra {@damage 1d8} radiant damage (included in the attack)."
+                    ]
+                },
+                {
+                    "name": "Blessed Restoration",
+                    "entries":
+                    [
+                        "The dragon knight channels its faith to recover hit points. The dragon knight can regain 45 hit points using an action. Once used it cannot use this feature again before taking a long rest."
+                    ]
+                },
+                {
+                    "name": "Draconic Shield",
+                    "entries":
+                    [
+                        "The dragon knight adds its Charisma modifier to the saving throws (included in the saving throws)."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dragon knight makes either two longsword attacks or uses its draconic breath."
+                    ]
+                },
+                {
+                    "name": "Longsword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 4 ({@damage 1d8}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Draconic Breath {@recharge 4}",
+                    "type": "entries",
+                    "entries":
+                    [
+                        "The dragon knight exhales destructive energy. Its damage is determined by the draconic type, as shown in the table.",
+                        {
+                            "type": "table",
+                            "caption": "Draconic Type",
+                            "colLabels": [
+                                "Dragon",
+                                "Damage Type",
+                                "Breath Weapon"
+                            ],
+                            "colStyles": [
+                                "col-3 text-center",
+                                "col-3 text-center",
+                                "col-6"
+                            ],
+                            "rows": [
+                                [
+                                    "Black",
+                                    "Acid",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Blue",
+                                    "Lightning",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Brass",
+                                    "Fire",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Bronze",
+                                    "Lightning",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Copper",
+                                    "Acid",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Gold",
+                                    "Fire",
+                                    "15 ft. cone (Dex. save)"
+                                ],
+                                [
+                                    "Green",
+                                    "Poison",
+                                    "15 ft. cone (Con. save)"
+                                ],
+                                [
+                                    "Red",
+                                    "Fire",
+                                    "15 ft. cone (Dex. save)"
+                                ],
+                                [
+                                    "Silver",
+                                    "Cold",
+                                    "15 ft. cone (Con. save)"
+                                ],
+                                [
+                                    "White",
+                                    "Cold",
+                                    "15 ft. cone (Con. save)"
+                                ]
+                            ]
+                        },
+                        "When the dragon knight uses its draconic breath, each creature in the area of the exhalation must make a {@dc 15} saving throw, the type of which is determined by its draconic type. A creature takes 26 ({@damage 4d12}) damage on a failed save, and half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The dragon knight is a 5rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following paladin spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell command|PHB}",
+                                "{@spell compelled duel|PHB}",
+                                "{@spell searing smite|PHB}",
+                                "{@spell thunderous smite|PHB}",
+                                "{@spell wrathful smite|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell branding smite|PHB}",
+                                "{@spell find steed|PHB}",
+                                "{@spell zone of truth|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell blinding smite|PHB}",
+                                "{@spell magic circle|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "A",
+                "C",
+                "F",
+                "I",
+                "L",
+                "R",
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "CP"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/enaqYox.png"
+        },
+        {
+            "name": "Efsunkapan Sahir (ogd)",
+            "source": "Canbrew",
+            "size": "M",
+            "type": "humanoid",
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 20,
+                    "from":
+                    [
+                        "{@item half plate armor|PHB}, {@item shield|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": "135",
+                "formula": "18d8 + 54"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 12,
+            "con": 16,
+            "int": 10,
+            "wis": 10,
+            "cha": 16,
+            "save":
+            {
+                "str": "+10",
+                "con": "+7",
+                "dex": "+5",
+                "int": "+4",
+                "wis": "+4",
+                "cha": "+10"
+            },
+            "skill":
+            {
+                "athletics": "+7",
+                "intimidation": "+7"
+            },
+            "immune":
+            [
+                "Same as its draconic type"
+            ],
+            "conditionImmune":
+            [
+                "diseased",
+                "frightened",
+                "poisoned"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 10,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Divine Strike",
+                    "entries":
+                    [
+                        "The dragon knight's melee weapon attacks are magical. When the dragon knight hits with any melee weapon, the weapon deals an extra {@damage 1d8} radiant damage (included in the attack)."
+                    ]
+                },
+                {
+                    "name": "Blessed Restoration",
+                    "entries":
+                    [
+                        "The dragon knight channels its faith to recover hit points. The dragon knight can regain 45 hit points using an action. Once used it cannot use this feature again before taking a long rest."
+                    ]
+                },
+                {
+                    "name": "Draconic Shield",
+                    "entries":
+                    [
+                        "The dragon knight adds its Charisma modifier to the saving throws (included in the saving throws)."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dragon knight makes either two longsword attacks or uses its draconic breath."
+                    ]
+                },
+                {
+                    "name": "Longsword",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 4 ({@damage 1d8}) radiant damage."
+                    ]
+                },
+                {
+                    "name": "Draconic Breath {@recharge 4}",
+                    "type": "entries",
+                    "entries":
+                    [
+                        "The dragon knight exhales destructive energy. Its damage is determined by the draconic type, as shown in the table.",
+                        {
+                            "type": "table",
+                            "caption": "Draconic Type",
+                            "colLabels": [
+                                "Dragon",
+                                "Damage Type",
+                                "Breath Weapon"
+                            ],
+                            "colStyles": [
+                                "col-3 text-center",
+                                "col-3 text-center",
+                                "col-6"
+                            ],
+                            "rows": [
+                                [
+                                    "Black",
+                                    "Acid",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Blue",
+                                    "Lightning",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Brass",
+                                    "Fire",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Bronze",
+                                    "Lightning",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Copper",
+                                    "Acid",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Gold",
+                                    "Fire",
+                                    "15 ft. cone (Dex. save)"
+                                ],
+                                [
+                                    "Green",
+                                    "Poison",
+                                    "15 ft. cone (Con. save)"
+                                ],
+                                [
+                                    "Red",
+                                    "Fire",
+                                    "15 ft. cone (Dex. save)"
+                                ],
+                                [
+                                    "Silver",
+                                    "Cold",
+                                    "15 ft. cone (Con. save)"
+                                ],
+                                [
+                                    "White",
+                                    "Cold",
+                                    "15 ft. cone (Con. save)"
+                                ]
+                            ]
+                        },
+                        "When the dragon knight uses its draconic breath, each creature in the area of the exhalation must make a {@dc 15} saving throw, the type of which is determined by its draconic type. A creature takes 26 ({@damage 4d12}) damage on a failed save, and half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "The dragon knight is a 5rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following paladin spells prepared:"
+                    ],
+                    "spells":
+                    {
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell command|PHB}",
+                                "{@spell compelled duel|PHB}",
+                                "{@spell searing smite|PHB}",
+                                "{@spell thunderous smite|PHB}",
+                                "{@spell wrathful smite|PHB}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell branding smite|PHB}",
+                                "{@spell find steed|PHB}",
+                                "{@spell zone of truth|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell blinding smite|PHB}",
+                                "{@spell magic circle|PHB}"
+                            ]
+                        }
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "A",
+                "C",
+                "F",
+                "I",
+                "L",
+                "R",
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "CP"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "AOE"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "tokenUrl": "https://i.imgur.com/QtzCw7S.png"
         }
     ],
     "legendaryGroup":
