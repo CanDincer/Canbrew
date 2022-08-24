@@ -32344,21 +32344,7 @@
             [
                 "Multiattack"
             ],
-            "tokenUrl": "ogd",
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "ogd"
-                        }
-                    }
-                ]
-            }
+            "tokenUrl": "https://i.imgur.com/u6cC83Z.png"
         }
     ],
     "legendaryGroup":
