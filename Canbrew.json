@@ -3159,7 +3159,7 @@
             [
                 "This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the pouch requires 1 minute of digging through it. Alternatively, you can roll according to the number of the items inside. On a roll of 1, you grasp what you've been searching for.",
                 "If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
-                "Placing a Bag of Holding inside an extradimensional space created by a {@item pouch of poor paul|CB}, {@item portable hole}, {@item Heward's handy haversack}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+                "Placing a Bag of Holding inside an extradimensional space created by a {@item pouch of poor paul|canbrew}, {@item portable hole}, {@item Heward's handy haversack}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
             ],
             "containerCapacity":
             {
@@ -4208,7 +4208,7 @@
             [
                 "This pouch has an interior space considerably larger than its outside dimensions, roughly half a foot in diameter and depth. The puch can hold up to 30 pounds, not exceeding a volume of 3 cubic feet. The puch weighs 5 pounds, regardless of its contents. Retrieving an item from the pouch requires 1 minute of digging through it. Alternatively, you can roll according to the number of the items inside. On a roll of 1, you grasp what you've been searching for.",
                 "If the pouch is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the pouch is turned inside out, its contents spill forth, unharmed, but the pouch must be put right before it can be used again. Breathing creatures inside the pouch can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
-                "Placing a Pouch of Poor Paul inside an extradimensional space created by a {@item Heward's handy haversack}, {@item Bag of Holding}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+                "Placing a Pouch of Poor Paul inside an extradimensional space created by a {@item Heward's handy haversack}, {@item Bag of Holding|canbrew}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
             ],
             "containerCapacity":
             {
@@ -32490,7 +32490,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The spellsnare fighter makes either three battleaxe attacks or uses its {@item spell jammer manacle|CB}."
+                        "The spellsnare fighter makes either three battleaxe attacks or uses its {@item spell jammer manacle|canbrew}."
                     ]
                 },
                 {
@@ -32670,7 +32670,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The spellsnare mage makes either an attack with its dagger or uses its {@item spell jammer|CB}."
+                        "The spellsnare mage makes either an attack with its dagger or uses its {@item spell jammer|canbrew}."
                     ]
                 },
                 {
