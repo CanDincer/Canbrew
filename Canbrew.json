@@ -32385,7 +32385,7 @@
             "tokenUrl": "https://i.imgur.com/u6cC83Z.png"
         },
         {
-            "name": "Spellsnare Fighter (ogd)",
+            "name": "Spellsnare Fighter",
             "source": "Canbrew",
             "size": "M",
             "type": "humanoid",
@@ -32490,7 +32490,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The spellsnare fighter makes either three battleaxe attacks or uses its spelljammer."
+                        "The spellsnare fighter makes either three battleaxe attacks or uses its {@item spell jammer manacle|CB}."
                     ]
                 },
                 {
@@ -32581,7 +32581,7 @@
             "tokenUrl": "https://i.imgur.com/enaqYox.png"
         },
         {
-            "name": "Spellsnare Mage (ogd)",
+            "name": "Spellsnare Mage",
             "source": "Canbrew",
             "size": "M",
             "type": "humanoid",
@@ -32602,8 +32602,8 @@
             ],
             "hp":
             {
-                "average": "",
-                "formula": ""
+                "average": "52",
+                "formula": "8d8 + 16"
             },
             "speed":
             {
@@ -32639,7 +32639,7 @@
                 "Common, any one language"
             ],
             "passive": 13,
-            "cr": "5",
+            "cr": "7",
             "trait":
             [
                 {
@@ -32670,14 +32670,14 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The dragon knight makes either two longsword attacks or uses its draconic breath."
+                        "The spellsnare mage makes either an attack with its dagger or uses its {@item spell jammer|CB}."
                     ]
                 },
                 {
-                    "name": "Longsword",
+                    "name": "Dagger",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 4 ({@damage 1d8}) radiant damage."
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 2}) slashing damage."
                     ]
                 }
             ],
