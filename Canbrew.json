@@ -32109,6 +32109,203 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "Dragon Knight",
+            "source": "Canbrew",
+            "size": "M",
+            "type": "humanoid",
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 20,
+                    "from":
+                    [
+                        "{@item half plate armor|PHB}, {@item shield|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": "97",
+                "formula": "13d8 + 39"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 12,
+            "con": 16,
+            "int": 10,
+            "wis": 10,
+            "cha": 16,
+            "save":
+            {
+                "str": "+6",
+                "cha": "+6"
+            },
+            "skill":
+            {
+                "athletics": "+6",
+                "intimidation": "+6"
+            },
+            "immune":
+            [
+                "Same as its draconic type"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft.",
+                "blindsight 10 ft."
+            ],
+            "passive": 10,
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Divine Smite",
+                    "entries":
+                    [
+                        "The dragon knight's weapon attacks are magical. When the dragon knight hits with any weapon, the weapon deals an extra 1d8 radiant damage (included in the attack)."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The dragon knight makes either two longsword attacks or uses its draconic breath."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 7 ({@damage 2d6}) damage of your sovereign's Damage Type."
+                    ]
+                },
+                {
+                    "name": "Draconic Breath",
+                    "type": "entries",
+                    "entries":
+                    [
+                        "The dragon knight exhales destructive energy. Its damage is determined by the draconic type, as shown in the table.",
+                        {
+                            "type": "table",
+                            "caption": "Draconic Type",
+                            "colLabels": [
+                                "Dragon",
+                                "Damage Type",
+                                "Breath Weapon"
+                            ],
+                            "colStyles": [
+                                "col-3 text-center",
+                                "col-3 text-center",
+                                "col-6"
+                            ],
+                            "rows": [
+                                [
+                                    "Black",
+                                    "Acid",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Blue",
+                                    "Lightning",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Brass",
+                                    "Fire",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Bronze",
+                                    "Lightning",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Copper",
+                                    "Acid",
+                                    "5 by 30 ft. line (Dex. save)"
+                                ],
+                                [
+                                    "Gold",
+                                    "Fire",
+                                    "15 ft. cone (Dex. save)"
+                                ],
+                                [
+                                    "Green",
+                                    "Poison",
+                                    "15 ft. cone (Con. save)"
+                                ],
+                                [
+                                    "Red",
+                                    "Fire",
+                                    "15 ft. cone (Dex. save)"
+                                ],
+                                [
+                                    "Silver",
+                                    "Cold",
+                                    "15 ft. cone (Con. save)"
+                                ],
+                                [
+                                    "White",
+                                    "Cold",
+                                    "15 ft. cone (Con. save)"
+                                ]
+                            ]
+                        },
+                        "When the dragon knight uses its draconic breath, each creature in the area of the exhalation must make a {@dc 14} saving throw, the type of which is determined by its draconic type. A creature takes {@dice 4d12} damage on a failed save, and half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "damageTags":
+            [
+                "A",
+                "C",
+                "F",
+                "I",
+                "L",
+                "R",
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "CP"
+            ],
+            "miscTags":
+            [
+                "MW",
+                "AOE"
+            ],
+            "tokenUrl": "ogd",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "ogd"
+                        }
+                    }
+                ]
+            }
         }
     ],
     "legendaryGroup":
