@@ -32132,8 +32132,8 @@
             ],
             "hp":
             {
-                "average": "97",
-                "formula": "13d8 + 39"
+                "average": "135",
+                "formula": "18d8 + 54"
             },
             "speed":
             {
@@ -32147,17 +32147,17 @@
             "cha": 16,
             "save":
             {
-                "str": "+9",
-                "con": "+6",
-                "dex": "+4",
-                "int": "+3",
-                "wis": "+3",
-                "cha": "+9"
+                "str": "+10",
+                "con": "+7",
+                "dex": "+5",
+                "int": "+4",
+                "wis": "+4",
+                "cha": "+10"
             },
             "skill":
             {
-                "athletics": "+6",
-                "intimidation": "+6"
+                "athletics": "+7",
+                "intimidation": "+7"
             },
             "immune":
             [
@@ -32174,7 +32174,7 @@
                 "darkvision 60 ft."
             ],
             "passive": 10,
-            "cr": "6",
+            "cr": "9",
             "trait":
             [
                 {
@@ -32188,7 +32188,7 @@
                     "name": "Blessed Restoration",
                     "entries":
                     [
-                        "The dragon knight channels its faith to recover hit points. The dragon knight can regain 25 hit points using an action. Once used it cannot use this feature again before taking a long rest."
+                        "The dragon knight channels its faith to recover hit points. The dragon knight can regain 45 hit points using an action. Once used it cannot use this feature again before taking a long rest."
                     ]
                 },
                 {
@@ -32212,7 +32212,7 @@
                     "name": "Longsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 4 ({@damage 1d8}) radiant damage."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 4 ({@damage 1d8}) radiant damage."
                     ]
                 },
                 {
@@ -32287,7 +32287,7 @@
                                 ]
                             ]
                         },
-                        "When the dragon knight uses its draconic breath, each creature in the area of the exhalation must make a {@dc 14} saving throw, the type of which is determined by its draconic type. A creature takes 26 ({@damage 4d12}) damage on a failed save, and half as much damage on a successful one."
+                        "When the dragon knight uses its draconic breath, each creature in the area of the exhalation must make a {@dc 15} saving throw, the type of which is determined by its draconic type. A creature takes 26 ({@damage 4d12}) damage on a failed save, and half as much damage on a successful one."
                     ]
                 }
             ],
@@ -32297,7 +32297,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The dragon knight is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It has the following paladin spells prepared:"
+                        "The dragon knight is a 5rd-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following paladin spells prepared:"
                     ],
                     "spells":
                     {
@@ -32315,12 +32315,21 @@
                         },
                         "2":
                         {
-                            "slots": 2,
+                            "slots": 3,
                             "spells":
                             [
                                 "{@spell branding smite|PHB}",
                                 "{@spell find steed|PHB}",
                                 "{@spell zone of truth|PHB}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 2,
+                            "spells":
+                            [
+                                "{@spell blinding smite|PHB}",
+                                "{@spell magic circle|PHB}"
                             ]
                         }
                     },
