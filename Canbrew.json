@@ -3620,9 +3620,8 @@
         },
         {
             "name": "Clockwork Faefly",
-            "rarity": "very rare",
+            "rarity": "uncommon",
             "weight": 0.05,
-            "reqAttune": true,
             "attachedSpells":
             [
                 "light|PHB"
@@ -3638,7 +3637,7 @@
         },
         {
             "name": "Clockwork Healerbee",
-            "rarity": "very rare",
+            "rarity": "rare",
             "weight": 0.05,
             "charges": 8,
             "reqAttune": true,
@@ -3651,7 +3650,91 @@
             [
                 "This pill-shaped magical mechanism is 2 inches long and made of brass. It has a pair of tiny wings that silently keep it aloft. It hovers up to 5 feet above the ground and does its best to stay at your side within your space.",
                 "The bee has 8 charges and regains {@dice 1d6+2} expended charges daily at dawn. While the bee is within your space, you can speak its command word and expend up to 3 of its charges as a bonus action to command the bee to heal a creature that you can see within 20 feet of you. The bee flies to the creature's space and stings the creature, casting a {@spell healing word|PHB} for each expended charge. After healing the creature, the bee returns to your space.",
-                "It has AC 15, 10 hit points, and has resistance to all damage types. If the {@spell mending|PHB} spell is cast on the bee while it has at least 1 hit point, it regains 2d6 hit points. If the bee drops to 0 hit points, it can't be used again."
+                "It has AC 15, 10 hit points, and has resistance to all damage types. If the {@spell mending|PHB} spell is cast on the bee while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the bee drops to 0 hit points, it can't be used again."
+            ]
+        },
+        {
+            "name": "Clockwork Inkbeetle",
+            "rarity": "common",
+            "weight": 0.05,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This minuscule, mechanical beetle is 1 inch long and quietly whirs with a mix of magical and mechanical forces. Placing the beetle on a piece of parchment you hold or carry causes it to spring to life and begin tracking your travels. As you move, so does the beetle. It leaves behind a small line of ink that it generates. The ink immediately dries and doesn't dissolve in water. In addition. the beetle's small frame allows it to move even while enclosed in a book or similar enclosure without losing its sense of movement or direction.",
+                "The beetle has a dial on its underside. A creature can use the dial to select the scale in which the beetle moves. For each option, the beetle moves 1 inch in the same direction as you for every amount you move as shown on the dial, creating a map of your journey: 20 feet, 200 feet, 2 miles, or 20 miles. The beetle is immune to magical effects that would otherwise alter its sense of direction.",
+                "The beetle always knows which direction is North. When placed on a piece of parchment for the first time, it crouches down to stamp a small compass rose on the sheet before beginning to move. If the beetle runs out of space on the parchment to travel, it stops moving in that direction and emits a clicking sound that can be heard by creatures within 5 feet of it.",
+                "Attaching one {@item bands of the found and lost|canbrew|band of the found and lost} to the beetle while you wear the other allows the beetle to move and trace your movements in this way from afar so long as you are both on the same place of existence.",
+                "The Cartographer's Guild would hire small bands of adventurers to test their mettle on new and exciting expeditions provided they wear a single {@item bands of the found and lost|canbrew|band of the found and lost}."
+            ]
+        },
+        {
+            "name": "Clockwork Mend-A-Pillar",
+            "rarity": "uncommon",
+            "weight": 1,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This segmented mechanical caterpillar is 5 inches long, weighs 1 pound, and is made of copper. It has several tiny copper legs that give it a 5-foot walking speed. Within it are multiple containers filled with silk filaments, spools of thread, dyes, and an incredibly strong adhesive. Each of these materials is expelled through a tube in its mouth, and it is equipped with a transmutation lens in its head that allows it to change the adhesive to various kinds of wood, metal, stone, or crystal.",
+                "As an action, you can speak the caterpillar's command phrase to cause it to repair a broken or torn object or area that it's set upon. As long as the break or tear is no larger than 1 foot across in more than 1 dimension, the caterpillar can create the material to repair it. The caterpillar then begins crawling over and repairing the object or area, taking 10 minutes for every cubic foot it repairs (minimum of 1 minute). The caterpillar can physically repair a magic item or construct, but can't restore magic to such an object. After the caterpillar finishes repairing an object or area, it stops moving and makes a soft chirping sound audible out to 30 feet. Once the caterpillar repairs 10 cubic feet of material, it can't be used again until 24 hours have passed.",
+                "The caterpillar is considered a magical object and is not a creature. It has AC 10, 15 hit points, and has resistance to all damage types. If the {@spell mending|PHB} spell is cast on the caterpillar while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the caterpillar drops to 0 hit points, it can't be used again for 24 hours, at which point it regains all its hit points."
+            ]
+        },
+        {
+            "name": "Syrinquito",
+            "rarity": "rare",
+            "weight": 0.05,
+            "charges": 10,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This mechanical insect is three inches long and has the resemblance of a mosquito. It has a pair of tiny wings that silently keep it aloft. It hovers up to 5 feet above the ground and does its best to stay at your side within your space. The syrisquito can enter and pass through another creature's space and doesn't provoke opportunity attacks.",
+                "The syrisquito has a glass vial at its end that holds up to one ounce of liquid. You can use an action to command the syrisquito to ingest a potion or poison you provide, such as a potion of healing or basic poison, which is then stored in the attached vial. You can use another action to remove the glass vial from the syrisquito to retrieve its held contents or replace the vial.",
+                "The syrisquito has 10 charges and regains all expended charges daily at dawn. While the syrisquito is within your space, you can use a bonus action to speak its command word to expend 1 of its charges and cause it to fly to a creature's space within 60 feet of you and inject the target with the entirety of the contents from the vial. If there are no contents in the vial, it siphons one ounce of the creature's blood instead. If the target is unwilling, it must succeed on a {@dc 15} Dexterity saving throw to avoid the syrisquito. The syrisquito then returns to your space.",
+                "If the syrisquito injects the target with something such as a potion or poison, the creature gains the effects of those contents.",
+                "If the syrisquito holds a creature's blood for at least 1 minute, it can determine and magically share with you the following properties about that creature:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "Its creature type",
+                        "Any poison or disease already affecting the creature",
+                        "Any resistance or immunity to poison or disease it has"
+                    ]
+                },
+                "The syrisquito is considered a magical object and is not a creature. It has AC 15, 20 hit points, and resistance to all damage. If the {@spell mending|PHB} spell is cast on the syrisquito while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the syrisquito drops to 0 hit points, it can’t be used again for 24 hours, at which point it regains all its hit points."
+            ]
+        },
+        {
+            "name": "Clockwork Earwig",
+            "rarity": "uncommon",
+            "weight": 0.05,
+            "charges": 10,
+            "reqAttune": true,
+            "source": "Canbrew",
+            "entries":
+            [
+                "This 1-inch-long copper mechanism magically coils around and clasps to the side of your ear, fitting as a functional ear cuff. It can be worn or removed using an action. When worn in this way, the mechanism can magically process any sound you hear, granting you the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "You have advantage on Wisdom (Perception) checks you make that rely on sound.",
+                        "You can tap the earwig twice to record up to 1 minute of sound, tapping it twice again to stop recording early. You can tap the earwig once to replay the recording in your ear, tapping it a second time to stop it early. Pressing and holding your finger to the earwig while it's replaying the recording will pause the recording until you release your finger from it. Creating a new recording in this way erases any previous one stored.",
+                        "You can speak the earwig's command word as an action to cast the {@spell comprehend languages|PHB} spell from it. The spell ends early if you remove the earwig. This property of the earwig can't be used again until the next dawn."
+                    ]
+                },
+                "The syrisquito is considered a magical object and is not a creature. It has AC 15, 20 hit points, and resistance to all damage. If the {@spell mending|PHB} spell is cast on the syrisquito while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the syrisquito drops to 0 hit points, it can’t be used again for 24 hours, at which point it regains all its hit points."
+            ]
+        },
+        {
+            "name": "Bands of the Found and Lost",
+            "rarity": "common",
+            "weight": 0.05,
+            "source": "Canbrew",
+            "entries":
+            [
+                "The compass-like mechanisms adorning the tops of these seemingly ordinary matching leather bracelets remain motionless until each bracelet is worn by a different creature. Once they're worn, the compass' arrows point rigidly in the direction of the matching band, without indicating height or depth. The arrows spin wildly if the bands are worn on different planes of existence."
             ]
         },
         {
