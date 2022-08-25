@@ -3657,9 +3657,10 @@
         {
             "name": "Mercury (flask)",
             "type": "G",
-            "rarity": "none",
+            "rarity": "common",
             "weight": 18,
             "value": 100,
+            "source": "Canbrew",
             "entries":
             [
                 "Mercury usually comes in a glass flask holds 1 pint as it is rarely stable in any other container. Exposure to mercury can poison.  A creature that comes in contact with mercury extensively shows symptoms of poisoning such as; tremors, headaches, difficulty sleeping, impaired senses, physical weakness, breathing difficulties, and even death.",
