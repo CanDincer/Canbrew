@@ -175,7 +175,6 @@
             "weight": 18,
             "dmg1": "1d10",
             "dmgType": "P",
-            "reqAttune": true,
             "property":
             [
                 "A",
@@ -188,7 +187,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack and damage rolls. You can either deploy the Bastilla on a half cover sized object or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack and damage rolls have -3 while moving with the stand out."
+                "Using a bonus action, you can deploy the Bastilla's stand to gain +2 on your attack and damage rolls. You can either deploy the Bastilla on a half cover sized object or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack and damage rolls have -2 while moving with the stand out."
             ]
         },
         {
