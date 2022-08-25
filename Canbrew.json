@@ -188,7 +188,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack and damage rolls. You can either deploy the Bastilla on a half cover sized object or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack and damage rolls have -3 while moving with the standout."
+                "Using a bonus action, you can deploy the Bastilla's stand to gain +3 on your attack and damage rolls. You can either deploy the Bastilla on a half cover sized object or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack and damage rolls have -3 while moving with the stand out."
             ]
         },
         {
@@ -1329,12 +1329,12 @@
                 "2H"
             ],
             "range": "150/600",
-            "rarity": "rare",
+            "rarity": "artifact",
             "source": "Canbrew",
             "entries":
             [
                 "This longbow has an assortment of gears and pulleys attached to it. Near the handle of the bow, there is a scope and a dial. This dial has three settings, Small, Medium, and Large.",
-                "If you are a creature who's size is the one the dial is set to, you have automatic proficiency with the bow. Additionally, you can use the scope to perfect your aim and spend a bonus action lining up your shot. You transfer your AC from your Dexterity modifier to your attack and damage rolls until the start of your next turn.",
+                "If you are a creature who's size is the one the dial is set to, you have automatic proficiency with the bow. Additionally, you can use the scope to perfect your aim and spend a bonus action lining up your shot. You transfer your AC from your Dexterity modifier to your attack and damage rolls until the start of your next turn. You can only use this feature if you haven't used your movement in that turn, and your speed is reduced to 0 until the start of your next turn.",
                 "The bow can be folded up to be concealed as a bonus action, and you have proficiency (expertise if you're already proficient) on sleight of hand checks to hide the weapon when it is in this state."
             ]
         },
@@ -1391,7 +1391,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "You can choose to fire two arrows simultaneously as if you were firing one, you fire with a -4 penalty but the damage is calculated for the arrows separately (both hit or both miss). You can target 2 adjacent creatures or one creature for both arrows."
+                "You can choose to fire two arrows simultaneously as if you were firing one, you fire with a -4 penalty but the damage is calculated for the arrows separately. You can target 2 adjacent creatures or one creature for both arrows."
             ]
         },
         {
