@@ -3655,6 +3655,18 @@
             ]
         },
         {
+            "name": "Mercury (flask)",
+            "type": "G",
+            "rarity": "none",
+            "weight": 18,
+            "value": 100,
+            "entries":
+            [
+                "Mercury usually comes in a glass flask holds 1 pint as it is rarely stable in any other container. Exposure to mercury can poison.  A creature that comes in contact with mercury extensively shows symptoms of poisoning such as; tremors, headaches, difficulty sleeping, impaired senses, physical weakness, breathing difficulties, and even death.",
+                "Mercury poisoning requires chelation therapy to cure."
+            ]
+        },
+        {
             "name": "All-In Coin",
             "rarity": "rare",
             "weight": 0.05,
