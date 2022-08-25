@@ -32473,7 +32473,7 @@
                     "name": "Trained Mind and Body",
                     "entries":
                     [
-                        "The spellsnare fighter's extensive training against spells has made it immune to being {@condition charmed} and resistant to magic."
+                        "The spellsnare fighter's extensive training against spells has made it immune to being {@condition charmed} and resistant to magic. Additionally, the spellsnare fighter can keep concentrating on a spell while under the effect of a {@item spell jammer|canbrew}, if it succeeds on a concentration check at the start of its turn."
                     ]
                 },
                 {
@@ -32660,7 +32660,7 @@
                     "name": "Trained Mind and Body",
                     "entries":
                     [
-                        "The spellsnare mage's extensive training against spells has made it immune to being {@condition charmed} and resistant to magic."
+                        "The spellsnare mage's extensive training against spells has made it immune to being {@condition charmed} and resistant to magic. Additionally, the spellsnare mage can keep concentrating on a spell while under the effect of a {@item spell jammer|canbrew}, if it succeeds on a concentration check at the start of its turn."
                     ]
                 }
             ],
