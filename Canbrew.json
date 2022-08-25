@@ -3059,7 +3059,7 @@
             ]
         },
         {
-            "name": "Chalice of Hestia",
+            "name": "Chalice of Hestia (ogd)",
             "rarity": "rare",
             "weight": 0.5,
             "reqAttune": true,
@@ -3069,6 +3069,9 @@
             [
                 "Whitish gold chalice inlaid with red gems. Red gems are carved to resemble flames.",
                 "The chalice imprints on you. It only works while you are holding it.",
+                "Unable to unattune while cursed",
+                "Must be used as a spell focus to work",
+                "Works only for bards",
                 "Whatever liquid you fill it with turns into wine. If you sing love songs or read love poems to it while filling it, the quality of the wine increases. While you drink from the chalice, you can taste her lips. If you go to bed drunk with the wine, Hestia, the virgin goddess of the hearth comes to you in your dreams.",
                 "You have +2 bonus to your spell attacks.",
                 {
