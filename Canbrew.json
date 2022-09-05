@@ -21815,7 +21815,8 @@
                             "spells":
                             [
                                 "{@spell maze|PHB}",
-                                "{@spell feeblemind|PHB}"
+                                "{@spell feeblemind|PHB}",
+                                "{@spell control water|PHB}"
                             ]
                         },
                         "9":
