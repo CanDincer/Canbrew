@@ -21,7 +21,7 @@
             "Can"
         ],
         "dateAdded": 1658932920,
-		"dateLastModified": 1663067340
+		"dateLastModified": 1663071780
     },
     "item":
     [
@@ -32842,7 +32842,7 @@
             "tokenUrl": "https://i.imgur.com/QtzCw7S.png"
         },
         {
-            "name": "Tiefling Slashtail ogd",
+            "name": "Tiefling Slashtail",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -32861,7 +32861,7 @@
             "ac":
             [
                 {
-                    "ac": 17,
+                    "ac": 16,
                     "from":
                     [
                         "{@item studded leather armor|PHB}"
@@ -32870,8 +32870,8 @@
             ],
             "hp":
             {
-                "average": "52",
-                "formula": "8d8 + 16"
+                "average": "55",
+                "formula": "10d8 + 10"
             },
             "speed":
             {
@@ -32911,28 +32911,14 @@
                 "Infernal"
             ],
             "passive": 10,
-            "cr": "7",
+            "cr": "3",
             "trait":
             [
                 {
-                    "name": "Magic Enhanced",
+                    "name": "Nimble Escape",
                     "entries":
                     [
-                        "The spellsnare mage's body has been altered via magic. It has darkvision out to a range of 60 feet. and advantage on Constitution saving throws that the spellsnare mage makes to maintain its concentration on a spell when it takes damage."
-                    ]
-                },
-                {
-                    "name": "Magic Resistance",
-                    "entries":
-                    [
-                        "The spellsnare mage has advantage on saving throws against spells and other magical effects."
-                    ]
-                },
-                {
-                    "name": "Trained Mind and Body",
-                    "entries":
-                    [
-                        "The spellsnare mage's extensive training against spells has made it immune to being {@condition charmed} and resistant to magic. Additionally, the spellsnare mage can keep concentrating on a spell while under the effect of a {@item spell jammer|canbrew}, if it succeeds on a concentration check at the start of its turn."
+                        "The tiefling slashtail can take the Disengage or Hide action as a bonus action on each of its turns."
                     ]
                 }
             ],
@@ -32957,6 +32943,16 @@
                     "entries":
                     [
                         "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Damage Redirection",
+                    "entries":
+                    [
+                        "When the tiefling slashtail is hit by a melee attack, it can use its reaction to take only half damage dealt to it (rounded down) and a creature of the tiefling slashtail's choice that is within 5 ft. takes the rest of the damage."
                     ]
                 }
             ],
@@ -33005,7 +33001,7 @@
             [
                 "AOE"
             ],
-            "tokenUrl": "ogd"
+            "tokenUrl": "https://i.imgur.com/AxxSTDf.png"
         }
     ],
     "legendaryGroup":
