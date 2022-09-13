@@ -302,17 +302,17 @@
                     [
                         [
                             "Large",
-                            "{@item Shortsword|PHB}",
+                            "{@item shortsword|PHB}",
                             "{@damage 2d6}"
                         ],
                         [
                             "Huge",
-                            "{@item Longsword|PHB}",
+                            "{@item longsword|PHB}",
                             "{@damage 3d8} ({@damage 3d10})"
                         ],
                         [
                             "Gargantuan",
-                            "{@item Greatsword|PHB}",
+                            "{@item greatsword|PHB}",
                             "{@damage 8d6}"
                         ]
                     ]
@@ -494,7 +494,7 @@
                             "entries":
                             [
                                 "You can take a minute to detach your shadow from your body using a bonus action, creating a shadow clone. Doing so expends 10 runic charges.",
-                                "Your shadow clone has the statistics of an {@spell Unseen Servant|PHB} and a shadow copy of everything you had equipped at the time of detachment, with two exceptions; the shadow clone can make weapon attacks with a bonus of +0 and the spell does not end when the shadow clone is 60 feet away from you. You can use an action to see through its eyes. After 10 minutes or when called, your shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the 10 minutes. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so exerts the shadow clone immediately and restores you to the hit points your shadow clone had."
+                                "Your shadow clone has the statistics of an {@spell unseen servant|PHB} and a shadow copy of everything you had equipped at the time of detachment, with two exceptions; the shadow clone can make weapon attacks with a bonus of +0 and the spell does not end when the shadow clone is 60 feet away from you. You can use an action to see through its eyes. After 10 minutes or when called, your shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the 10 minutes. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so exerts the shadow clone immediately and restores you to the hit points your shadow clone had."
                             ]
                         },
                         {
@@ -797,7 +797,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Can cast {@spell Searing Smite|PHB} a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
+                "Can cast {@spell searing smite|PHB} a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
             ]
         },
         {
@@ -1007,12 +1007,12 @@
                     "type": "list",
                     "items":
                     [
-                        "Fire + Water = {@creature Steam Mephit}",
-                        "Water + Water = {@creature Ice Mephit}",
-                        "Air + Fire = {@creature Smoke Mephit}",
-                        "Earth + Air = {@creature Dust Mephit}",
-                        "Water + Earth = {@creature Mud Mephit}",
-                        "Fire + Earth = {@creature Magma Mephit}"
+                        "Fire + Water = {@creature steam mephit}",
+                        "Water + Water = {@creature ice mephit}",
+                        "Air + Fire = {@creature smoke mephit}",
+                        "Earth + Air = {@creature dust mephit}",
+                        "Water + Earth = {@creature mud mephit}",
+                        "Fire + Earth = {@creature magma mephit}"
 
                     ]
                 },
@@ -1068,7 +1068,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "When you kill a monster with this weapon, you glimpse a random moment from its past. You may cast Augury once per day."
+                "When you kill a monster with this weapon, you glimpse a random moment from its past. You may cast {@spell augury|PHB} once per day."
             ]
         },
         {
@@ -2267,7 +2267,7 @@
         },
         {
             "name": "Darkwood Half Plate Armor",
-            "baseItem": "half plate armor|PHB",
+            "baseItem": "Half Plate Armor|PHB",
             "type": "MA",
             "armor": true,
             "weight": 20,
@@ -2643,7 +2643,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "These pale grey arrow tips are crafted from many {@creature Intellect Devourer|MM}'s spinal cartilage.",
+                "These pale grey arrow tips are crafted from many {intellect devourer|MM}'s spinal cartilage.",
                 "When you hit a creature with a ranged attack using this arrow, the target takes an extra {@damage 1d8} psychic damage and is forced to make a {@dc 15} Intelligence saving throw. On a failed save, the creature is dropped to 0 Intelligence and stunned until the end of their next turn. On a successful save, the creature is not stunned and is immune to these arrows for the next 24 hours. A construct or undead creature automatically succeeds on the saving throw."
             ]
         },
@@ -3127,7 +3127,7 @@
             [
                 "This pouch has an interior space considerably larger than its outside dimensions, roughly half a foot in diameter and depth. The puch can hold up to 30 pounds, not exceeding a volume of 3 cubic feet. The puch weighs 5 pounds, regardless of its contents. Retrieving an item from the pouch requires 1 minute of digging through it. Alternatively, you can roll according to the number of the items inside. On a roll of 1, you grasp what you've been searching for.",
                 "If the pouch is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the pouch is turned inside out, its contents spill forth, unharmed, but the pouch must be put right before it can be used again. Breathing creatures inside the pouch can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
-                "Placing a Pouch of Poor Paul inside an extradimensional space created by a {@item bag of holding}, {@item portable hole}, {@item Heward's handy haversack}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+                "Placing a pouch of poor paul inside an extradimensional space created by a {@item bag of holding}, {@item portable hole}, {@item heward's handy haversack}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
             ],
             "containerCapacity":
             {
@@ -3161,7 +3161,7 @@
             [
                 "This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the pouch requires 1 minute of digging through it. Alternatively, you can roll according to the number of the items inside. On a roll of 1, you grasp what you've been searching for.",
                 "If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
-                "Placing a Bag of Holding inside an extradimensional space created by a {@item pouch of poor paul|canbrew}, {@item portable hole}, {@item Heward's handy haversack}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+                "Placing a bag of holding inside an extradimensional space created by a {@item pouch of poor paul|canbrew}, {@item portable hole}, {@item heward's handy haversack}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
             ],
             "containerCapacity":
             {
@@ -3577,23 +3577,23 @@
                     "rows":
                     [
                         [
-                            "{@spell Create Bonfire|XGE}",
+                            "{@spell create bonfire|XGE}",
                             "1"
                         ],
                         [
-                            "{@spell Dancing Lights|PHB}",
+                            "{@spell dancing lights|PHB}",
                             "1"
                         ],
                         [
-                            "{@spell Mending|PHB}",
+                            "{@spell mending|PHB}",
                             "1"
                         ],
                         [
-                            "{@spell Prestidigitation|PHB}",
+                            "{@spell prestidigitation|PHB}",
                             "1"
                         ],
                         [
-                            "{@spell Alarm|PHB}",
+                            "{@spell alarm|PHB}",
                             "2"
                         ]
                     ]
@@ -3796,14 +3796,16 @@
             "reqAttune": true,
             "attachedSpells":
             [
-                "Shape Water",
-                "Ice Knife",
-                "Augury",
-                "Call Lightning",
-                "Tidal Wave",
-                "Control Water",
-                "Maelstrom",
-                "Tsunami"
+                "shape water",
+                "ice knife",
+                "augury",
+                "call lightning",
+                "tidal wave",
+                "control water",
+                "maelstrom",
+                "move earth",
+                "temple of the gods",
+                "tsunami"
             ],
             "source": "Canbrew",
             "entries":
@@ -3827,39 +3829,39 @@
                     "rows":
                     [
                         [
-                            "{@spell Shape Water|XGE}",
+                            "{@spell shape water|XGE}",
                             "0"
                         ],
                         [
-                            "{@spell Ice Knife|XGE}",
+                            "{@spell ice knife|XGE}",
                             "1"
                         ],
                         [
-                            "{@spell Augury|PHB}",
+                            "{@spell augury|PHB}",
                             "2"
                         ],
                         [
-                            "{@spell Tidal Wave|XGE}",
+                            "{@spell tidal wave|XGE}",
                             "3"
                         ],
                         [
-                            "{@spell Control Water|PHB}",
+                            "{@spell control water|PHB}",
                             "4"
                         ],
                         [
-                            "{@spell Maelstrom|XGE}",
+                            "{@spell maelstrom|XGE}",
                             "5"
                         ],
                         [
-                            "{@spell Move Earth|PHB}",
+                            "{@spell move earth|PHB}",
                             "6"
                         ],
                         [
-                            "{@spell Temple of the Gods|XGE}",
+                            "{@spell temple of the gods|XGE}",
                             "7"
                         ],
                         [
-                            "{@spell Tsunami|PHB}",
+                            "{@spell tsunami|PHB}",
                             "8"
                         ]
                     ]
@@ -4294,39 +4296,6 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/iDiFbHk.jpg"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Pouch of Poor Paul",
-            "rarity": "common",
-            "source": "Canbrew",
-            "entries":
-            [
-                "This pouch has an interior space considerably larger than its outside dimensions, roughly half a foot in diameter and depth. The puch can hold up to 30 pounds, not exceeding a volume of 3 cubic feet. The puch weighs 5 pounds, regardless of its contents. Retrieving an item from the pouch requires 1 minute of digging through it. Alternatively, you can roll according to the number of the items inside. On a roll of 1, you grasp what you've been searching for.",
-                "If the pouch is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the pouch is turned inside out, its contents spill forth, unharmed, but the pouch must be put right before it can be used again. Breathing creatures inside the pouch can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
-                "Placing a Pouch of Poor Paul inside an extradimensional space created by a {@item Heward's handy haversack}, {@item Bag of Holding|canbrew}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
-            ],
-            "containerCapacity":
-            {
-                "weight":
-                [
-                    30
-                ],
-                "weightless": true
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "https://i.imgur.com/y4Qfimi.jpg"
                         }
                     }
                 ]
@@ -6025,14 +5994,14 @@
                     "name": "Summon (Cursed Tree only)",
                     "entries":
                     [
-                        "The cursed tree summons {@dice 1d2+1} {@creature Vine Blight}s."
+                        "The cursed tree summons {@dice 1d2+1} {@creature vine blight}s."
                     ]
                 },
                 {
                     "name": "Summon (Rot Tree only)",
                     "entries":
                     [
-                        "The cursed tree summons {@dice 1d2+1} {@creature Needle Blight}s."
+                        "The cursed tree summons {@dice 1d2+1} {@creature needle blight}s."
                     ]
                 }
             ],
@@ -6137,7 +6106,7 @@
                     "ac": 15,
                     "from":
                     [
-                        "chain shirt{@item chain shirt|PHB}"
+                        "{@item chain shirt|PHB}"
                     ]
                 }
             ],
@@ -10546,7 +10515,7 @@
                             "spells":
                             [
                                 "{@spell lesser restoration|PHB}",
-                                "{@spell Detect magic|PHB}"
+                                "{@spell detect magic|PHB}"
                             ]
                         },
                         "3":
@@ -16288,7 +16257,7 @@
                     "ac": 18,
                     "from":
                     [
-                        "{@item Plate Armor|PHB}"
+                        "{@item plate armor|PHB}"
                     ]
                 }
             ],
@@ -17080,7 +17049,7 @@
                     "ac": 18,
                     "from":
                     [
-                        "{@item Plate Armor|PHB}"
+                        "{@item plate armor|PHB}"
                     ]
                 }
             ],
@@ -17912,7 +17881,7 @@
                     "ac": 18,
                     "from":
                     [
-                        "{@item Plate Armor|PHB}"
+                        "{@item plate armor|PHB}"
                     ]
                 }
             ],
@@ -21061,7 +21030,7 @@
                             [
                                 "{@spell detect thoughts|PHB}",
                                 "{@spell invisibility|PHB}",
-                                "{@spell Enhance Ability|PHB}",
+                                "{@spell enhance ability|PHB}",
                                 "{@spell mirror image|PHB}"
                             ]
                         },
@@ -26253,7 +26222,7 @@
                     "ac": 17,
                     "from":
                     [
-                        "{@item Molten Bronze Skin (half plate)|MOT}"
+                        "{@item molten bronze skin (half plate)|MOT}"
                     ]
                 }
             ],
@@ -32871,6 +32840,172 @@
                 "AOE"
             ],
             "tokenUrl": "https://i.imgur.com/QtzCw7S.png"
+        },
+        {
+            "name": "Tiefling Slashtail ogd",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "tiefling"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 17,
+                    "from":
+                    [
+                        "{@item studded leather armor|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": "52",
+                "formula": "8d8 + 16"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 12,
+            "int": 10,
+            "wis": 10,
+            "cha": 12,
+            "save":
+            {
+                "dex": "+6"
+            },
+            "skill":
+            {
+                "acrobatics": "+6",
+                "stealth": "+6"
+            },
+            "resist":
+            [
+                "fire"
+            ],
+            "conditionImmune":
+            [
+                "charmed",
+                "frightened"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "languages":
+            [
+                "Common",
+                "Infernal"
+            ],
+            "passive": 10,
+            "cr": "7",
+            "trait":
+            [
+                {
+                    "name": "Magic Enhanced",
+                    "entries":
+                    [
+                        "The spellsnare mage's body has been altered via magic. It has darkvision out to a range of 60 feet. and advantage on Constitution saving throws that the spellsnare mage makes to maintain its concentration on a spell when it takes damage."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries":
+                    [
+                        "The spellsnare mage has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Trained Mind and Body",
+                    "entries":
+                    [
+                        "The spellsnare mage's extensive training against spells has made it immune to being {@condition charmed} and resistant to magic. Additionally, the spellsnare mage can keep concentrating on a spell while under the effect of a {@item spell jammer|canbrew}, if it succeeds on a concentration check at the start of its turn."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The tiefling slashtail makes two dagger attacks and one tail attack."
+                    ]
+                },
+                {
+                    "name": "Dagger",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries":
+                    [
+                        "The tiefling slashtail's innate spellcasting ability is Charisma (spell save {@dc 15}, {@hit 7} to hit with spell attacks). IThe tiefling slashtail can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will":
+                    [
+                        "{@spell thaumaturgy|PHB}"
+                    ],
+                    "daily":
+                    {
+                        "1e":
+                        [
+                            "{@spell hellish rebuke|PHB}",
+                            "{@spell searing smite|PHB}"
+                        ]
+                    },
+                "ability": "cha",
+                "type": "spellcasting"
+                }
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "C",
+                "I"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "damageTagsSpells":
+            [
+                "F"
+            ],
+            "miscTags":
+            [
+                "AOE"
+            ],
+            "tokenUrl": "ogd"
         }
     ],
     "legendaryGroup":
@@ -33852,7 +33987,7 @@
                     "name": "Piercing Thought",
                     "entries":
                     [
-                        "You know the {@spell Mind Sliver|UAFighterRogueWizard} cantrip. Intelligence is your spellcasting ability for it."
+                        "You know the {@spell mind sliver|TCE} cantrip. Intelligence is your spellcasting ability for it."
                     ]
                 },
                 {
@@ -34491,7 +34626,7 @@
 			"header": 2,
 			"entries":
             [
-				"At 20th level you can, as an action, transform yourself into a dragon for 1 minute. You count as under the effect of a {@spell polymorph} spell for the duration, as you change into a {@creature Draconic Avatar|Canbrew} matching the type chosen with your Sovereign. You abide by the limitations of the spell, with the following exceptions: While polymorphed you use the game statistics portrayed to the right, and your breath weapon's shape and damage type are determined by your Sovereign. In addition, your mental ability scores remain the same, and you do not need to maintain concentration to keep the spell active. However, you may not use nor benefit from your class features and spells.",
+				"At 20th level you can, as an action, transform yourself into a dragon for 1 minute. You count as under the effect of a {@spell polymorph} spell for the duration, as you change into a {@creature draconic avatar|Canbrew} matching the type chosen with your Sovereign. You abide by the limitations of the spell, with the following exceptions: While polymorphed you use the game statistics portrayed to the right, and your breath weapon's shape and damage type are determined by your Sovereign. In addition, your mental ability scores remain the same, and you do not need to maintain concentration to keep the spell active. However, you may not use nor benefit from your class features and spells.",
                 "If your original form had a breath weapon, then it is temporarily replaced by your new breath weapon. You may end your transformation early by using a bonus action on your turn. Additionally, you gain the following benefits:",
 				{
 					"type": "list",
