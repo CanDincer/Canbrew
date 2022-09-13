@@ -32896,11 +32896,6 @@
             [
                 "fire"
             ],
-            "conditionImmune":
-            [
-                "charmed",
-                "frightened"
-            ],
             "senses":
             [
                 "darkvision 60 ft."
