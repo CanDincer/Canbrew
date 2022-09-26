@@ -2387,30 +2387,6 @@
             ]
         },
         {
-            "name": "Templar's Shield",
-            "baseItem": "Shield|PHB",
-            "type": "S",
-            "weight": 6,
-            "ac": 2,
-            "charges": 2,
-            "reqAttune": "by a Cleric or a Paladin",
-            "rarity": "uncommon",
-            "source": "Canbrew",
-            "attachedSpells":
-            [
-                "identify|PHB"
-            ],
-            "entries":
-            [
-                "This is a gold metal book, forged in the mines of Gal'badur.",
-                "The mines were overtaken by an undead plague. A cleric who was seeking shelter was tasked by Tharmekhûl himself to clense the mines. Tharmekhûl landed his light and knowledge to the cleric.",
-                "Upon repenting to Tharmekhûl, the book melts and attaches itself to your shield.",
-                "You are attuned to the shield at union spontaneously.",
-                "The shield grants you two extra Turn Undead casts per rest.",
-                "You know the {@spell identify} spell and can cast it as a ritual."
-            ]
-        },
-        {
             "name": "Anvil Plate Shield",
             "baseItem": "Shield|PHB",
             "type": "S",
