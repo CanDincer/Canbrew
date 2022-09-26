@@ -4155,7 +4155,7 @@
             [
                 "During a long rest, you can take 1 hour to read a spell to the earring. The earring will memorise it and remind you if you ever need to.",
                 "The spells doesn't count againts neither the number of spells you know bor the number of spells you can prepare.",
-                "You can cast the spell memorised by the earring once every day without expending a spell slot."
+                "You can cast the spell memorised by the earring once every day without expending a spell slot, if the spell is 4th-level or lower."
             ]
         },
         {
