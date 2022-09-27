@@ -21,7 +21,7 @@
             "Can"
         ],
         "dateAdded": 1658932920,
-		"dateLastModified": 1664304900
+		"dateLastModified": 1664305260
     },
     "item":
     [
@@ -33018,7 +33018,10 @@
                 "L",
                 "N"
             ],
-            "ac": 12,
+            "ac":
+            [
+                12
+            ],
             "hp":
             {
                 "average": "55",
@@ -33363,13 +33366,6 @@
                     [
                         "{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d10+1}) slashing damage plus 3 ({@damage 1d6) fire damage."
                     ]
-                },
-                {
-                    "name": "Steam Breath {@recharge 5}",
-                    "entries":
-                    [
-                        "The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw, taking {@damage 3d4}) fire damage on a failed save, or half as much damage on a successful one."
-                    ]
                 }
             ],
             "spellcasting":
@@ -33429,6 +33425,352 @@
                         {
                             "type": "external",
                             "url": "https://i.imgur.com/OVMdXSq.jpg"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Storm Naga",
+            "size": "L",
+            "type": "monstrosity",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                {
+                    "ac": 15,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 135,
+                "formula": "18d10+36"
+            },
+            "speed":
+            {
+                "walk": 40,
+                "swim": 30
+            },
+            "str": 16,
+            "dex": 15,
+            "con": 14,
+            "int": 20,
+            "wis": 15,
+            "cha": 16,
+            "immune":
+            [
+                "poison"
+            ],
+            "conditionImmune":
+            [
+                "charmed",
+                "poisoned"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "languages":
+            [
+                "Aquan",
+                "Common"
+            ],
+            "passive": 12,
+            "cr": "9",
+            "trait":
+            [
+                {
+                    "name": "Amphibious",
+                    "entries":
+                    [
+                        "The storm naga can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Cold Susceptibility",
+                    "entries":
+                    [
+                        "If the storm naga takes cold damage, it suffers two effects until the end of its next turn: its speed is halved, and it has disadvantage on Dexterity saving throws."
+                    ]
+                },
+                {
+                    "name": "Magical Resistance",
+                    "entries":
+                    [
+                        "The naga has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Rejuvenation",
+                    "entries":
+                    [
+                        "If it dies, the naga returns to life in {@dice 1d6} days and regains all its hit points. Only a {@spell wish} spell can prevent this trait from functioning."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Bite",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d6+3}) piercing damage plus 10 ({@damage 3d6) poison damage."
+                    ]
+                },
+                {
+                    "name": "Electric Grasp",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}18 ({@damage 4d8) lightning damage, and the target can't take reactions until the start of its next turn."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries":
+                    [
+                        "The storm naga's spellcasting ability is Intelligence (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will":
+                    [
+                        "{@spell mage hand|PHB}",
+                        "{@spell message|PHB}",
+                        "{@spell prestidigitation|PHB}"
+                    ],
+                    "daily":
+                    {
+                        "2e":
+                        [
+                            "{@spell call lightning|PHB}",
+                            "{@spell dimension door|PHB}",
+                            "{@spell hold person|PHB}",
+                            "{@spell lightning bolt|PHB}",
+                            "{@spell thunderwave|PHB}"
+                        ],
+                        "1e":
+                        [
+                            "{@spell arcane eye|PHB}",
+                            "{@spell chain lightning|PHB}",
+                            "{@spell legend lore|PHB}"
+                        ]
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "legendaryGroup":
+            {
+                "name": "Storm Naga",
+                "lairActions":
+                [
+                    "A storm naga encountered in its lair has a challenge rating of 10 (5,900 XP). On Initiative count 20 (losing initiative ties), the naga can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "The storm naga instantly inscribes a glyph (as if by the {@spell glyph of warding|PHB} spell) on the surface of an unoccupied 10-foot-squared area within its lair. If the glyph is a spell glyph, it consumes one use of the spell from the storm naga’s Spellcasting. If the glyph is an explosive rune, it deals 13 ({@damage 3d8}) lightning damage.",
+                            "The storm naga calls forth three guards that appear from the entrance nearest to the storm naga. The guards flee if the storm naga dies.",
+                            "A thin blue streak of lightning springs from the storm naga’s pointing finger to a creature the storm naga can see within 60 feet of it. That creature must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of its next turn. If the save fails by 5 or more, the creature is {@condition paralyzed} until the end of its next turn instead."
+                        ]
+                    }
+                ]
+            },
+            "traitTags":
+            [
+                "Rejuvenation"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AU",
+                "C"
+            ],
+            "damageTags":
+            [
+                "I",
+                "P"
+            ],
+            "damageTagsSpells":
+            [
+                "L",
+                "T"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/Mp5I3wW.png"
+        },
+        {
+            "name": "Flame Legionnaire",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "sun elf"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+             [
+                {
+                    "ac": 17,
+                    "from":
+                     [
+                        "{@item half plate armor of fire resistance|DMG}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 91,
+                "formula": "14d8 + 28"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 15,
+            "int": 11,
+            "wis": 12,
+            "cha": 16,
+            "save":
+            {
+                "cha": "+6",
+                "con": "+5"
+            },
+            "skill":
+            {
+                "intimidation": "+6",
+                "perception": "+4"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "resist":
+            [
+                "fire"
+            ],
+            "conditionImmune":
+            [
+                "charmed"
+            ],
+            "languages":
+            [
+                "Common",
+                "Elvish"
+            ],
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Fey Ancestry",
+                    "entries":
+                    [
+                        "The elf has advantage on saving throws against being {@condition charmed}, and magic can't put the elf to sleep."
+                    ]
+                },
+                {
+                    "name": "Flaming Conjuration",
+                    "entries":
+                    [
+                        "The flame legionnaire can conjure two flaming battleaxes as a bonus action. It must concentrate as if concentrating on a spell. If the flame legionnaire lets go of the battleaxe, it disappears. Each flaming battle axe sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The flame legionnaire makes three attacks with its flame battleaxes or one attack with its blowgun."
+                    ]
+                },
+                {
+                    "name": "Flame Battleaxe",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}13 ({@damage 3d6+3}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Flame Battleaxe",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 6} to hit, range 25/100 ft., one creature. {@h}1 piercing damage. On a hit, the target must make a {@dc 10} Constitution saving throw or be put to sleep for 1 hour. A creature can use its action to wake the target up."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "urban"
+            ],
+            "traitTags":
+            [
+                "Fey Ancestry"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "C",
+                "E"
+            ],
+            "damageTags":
+            [
+                "F"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/93JIqrg.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/nUgRyQs.jpg"
                         }
                     }
                 ]
