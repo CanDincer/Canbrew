@@ -33434,7 +33434,7 @@
             }
         },
         {
-            "name": "Storm Naga ogd",
+            "name": "Storm Naga",
             "size": "L",
             "type": "monstrosity",
             "source": "Canbrew",
@@ -33565,9 +33565,26 @@
                     "type": "spellcasting"
                 }
             ],
+            "legendaryGroup":
+            {
+                "name": "Storm Naga",
+                "lairActions":
+                [
+                    "A storm naga encountered in its lair has a challenge rating of 10 (5,900 XP). On Initiative count 20 (losing initiative ties), the naga can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "The storm naga instantly inscribes a glyph (as if by the {@spell glyph of warding|PHB} spell) on the surface of an unoccupied 10-foot-squared area within its lair. If the glyph is a spell glyph, it consumes one use of the spell from the storm naga’s Spellcasting. If the glyph is an explosive rune, it deals 13 ({@damage 3d8}) lightning damage.",
+                            "The storm naga calls forth three guards that appear from the entrance nearest to the storm naga. The guards flee if the storm naga dies.",
+                            "A thin blue streak of lightning springs from the storm naga’s pointing finger to a creature the storm naga can see within 60 feet of it. That creature must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of its next turn. If the save fails by 5 or more, the creature is {@condition paralyzed} until the end of its next turn instead."
+                        ]
+                    }
+                ]
+            },
             "traitTags":
             [
-                "Death Burst"
+                "Rejuvenation"
             ],
             "senseTags":
             [
@@ -33575,13 +33592,18 @@
             ],
             "languageTags":
             [
-                "AQ",
-                "IG"
+                "AU",
+                "C"
             ],
             "damageTags":
             [
-                "F",
-                "S"
+                "I",
+                "P"
+            ],
+            "damageTagsSpells":
+            [
+                "L",
+                "T"
             ],
             "spellcastingTags":
             [
