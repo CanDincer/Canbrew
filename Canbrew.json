@@ -5737,7 +5737,7 @@
                     "name": "Magic Resistance",
                     "entries":
                     [
-                        "Mana serpent has advantage on saving throws against spells and other magical effects."
+                        "The mana serpent has advantage on saving throws against spells and other magical effects."
                     ]
                 }
             ],
@@ -5757,7 +5757,7 @@
                     "name": "Innate Spellcasting",
                     "headerEntries":
                     [
-                        "Mana serpent's spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+                        "The mana serpent's spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
                     ],
                     "will":
                     [
@@ -19218,16 +19218,7 @@
             ],
             "conditionImmune":
             [
-                "poisoned",
-                {
-                    "immune":
-                    [
-                        "bludgeoning",
-                        "piercing",
-                        "slashing"
-                    ],
-                    "note": "from nonmagical attacks"
-                }
+                "poisoned"
             ],
             "senses":
             [
@@ -33333,16 +33324,7 @@
             ],
             "conditionImmune":
             [
-                "poisoned",
-                {
-                    "immune":
-                    [
-                        "bludgeoning",
-                        "piercing",
-                        "slashing"
-                    ],
-                    "note": "from nonmagical attacks"
-                }
+                "poisoned"
             ],
             "senses":
             [
@@ -33463,50 +33445,38 @@
             ],
             "ac":
             [
-                12
+                {
+                    "ac": 15,
+                    "from":
+                    [
+                        "natural armor"
+                    ]
+                }
             ],
             "hp":
             {
-                "average": 21,
-                "formula": "6d6"
+                "average": 135,
+                "formula": "18d10+36"
             },
             "speed":
             {
-                "walk": 30,
-                "fly": 30
+                "walk": 40,
+                "swim": 30
             },
-            "str": 5,
-            "dex": 13,
-            "con": 10,
-            "int": 11,
-            "wis": 10,
-            "cha": 12,
+            "str": 16,
+            "dex": 15,
+            "con": 14,
+            "int": 20,
+            "wis": 15,
+            "cha": 16,
             "immune":
             [
-                "fire",
-                "poison",
-                {
-                    "immune":
-                    [
-                        "bludgeoning",
-                        "piercing",
-                        "slashing"
-                    ],
-                    "note": "from nonmagical attacks"
-                }
+                "poison"
             ],
             "conditionImmune":
             [
-                "poisoned",
-                {
-                    "immune":
-                    [
-                        "bludgeoning",
-                        "piercing",
-                        "slashing"
-                    ],
-                    "note": "from nonmagical attacks"
-                }
+                "charmed",
+                "poisoned"
             ],
             "senses":
             [
@@ -33515,61 +33485,83 @@
             "languages":
             [
                 "Aquan",
-                "Ignan"
+                "Common"
             ],
-            "passive": 10,
-            "cr": "1",
+            "passive": 12,
+            "cr": "9",
             "trait":
             [
                 {
-                    "name": "Death Burst",
+                    "name": "Amphibious",
                     "entries":
                     [
-                        "When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a {@dc 14} Dexterity saving throw or take {@damage 2d8} fire damage."
+                        "The storm naga can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Cold Susceptibility",
+                    "entries":
+                    [
+                        "If the storm naga takes cold damage, it suffers two effects until the end of its next turn: its speed is halved, and it has disadvantage on Dexterity saving throws."
+                    ]
+                },
+                {
+                    "name": "Rejuvenation",
+                    "entries":
+                    [
+                        "If it dies, the naga returns to life in {@dice 1d6} days and regains all its hit points. Only a {@spell wish} spell can prevent this trait from functioning."
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "Multiattack",
+                    "name": "Bite",
                     "entries":
                     [
-                        "The mephit uses its steam breath. It then makes a claw attack"
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d6+3}) piercing damage plus 10 ({@damage 3d6) poison damage."
                     ]
                 },
                 {
-                    "name": "Glaive",
+                    "name": "Electric Grasp",
                     "entries":
                     [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d10+1}) slashing damage plus 3 ({@damage 1d6) fire damage."
-                    ]
-                },
-                {
-                    "name": "Steam Breath {@recharge 5}",
-                    "entries":
-                    [
-                        "The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw, taking {@damage 3d4}) fire damage on a failed save, or half as much damage on a successful one."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}18 ({@damage 4d8) lightning damage, and the target can't take reactions until the start of its next turn."
                     ]
                 }
             ],
             "spellcasting":
             [
                 {
-                    "name": "Innate Spellcasting (1/Day)",
+                    "name": "Innate Spellcasting",
                     "headerEntries":
                     [
-                        "The mephit can innately cast {@spell blur}, requiring no material components. Its innate spellcasting ability is Charisma."
+                        "The storm naga's spellcasting ability is Intelligence (spell save {@dc 17}). It can innately cast the following spells, requiring no material components:"
                     ],
                     "will":
                     [
-                        "{@spell blur}"
+                        "{@spell mage hand|PHB}",
+                        "{@spell message|PHB}",
+                        "{@spell prestidigitation|PHB}"
                     ],
-                    "hidden":
-                    [
-                        "will"
-                    ],
-                    "ability": "cha",
+                    "daily":
+                    {
+                        "2e":
+                        [
+                            "{@spell call lightning|PHB}",
+                            "{@spell dimension door|PHB}",
+                            "{@spell hold person|PHB}",
+                            "{@spell lightning bolt|PHB}",
+                            "{@spell thunderwave|PHB}"
+                        ],
+                        "1e":
+                        [
+                            "{@spell arcane eye|PHB}",
+                            "{@spell chain lightning|PHB}",
+                            "{@spell legend lore|PHB}"
+                        ]
+                    },
+                    "ability": "int",
                     "type": "spellcasting"
                 }
             ],
