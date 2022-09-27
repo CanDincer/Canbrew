@@ -33005,6 +33005,434 @@
                 "AOE"
             ],
             "tokenUrl": "https://i.imgur.com/AxxSTDf.png"
+        },
+        {
+            "name": "Sophos ogd",
+            "isNpc": true,
+            "isNamedCreature": true,
+            "source": "Canbrew",
+            "size": "L",
+            "type": "monstrosity",
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac": 12,
+            "hp":
+            {
+                "average": "55",
+                "formula": "10d10 + 10"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 14,
+            "dex": 15,
+            "con": 13,
+            "int": 22,
+            "wis": 19,
+            "cha": 15,
+            "save":
+            {
+                "int": "+6",
+                "wis": "+6"
+            },
+            "skill":
+            {
+                "arcana": "+6",
+                "history": "+6",
+                "insight": "+10",
+                "perception": "+10"
+            },
+            "senses":
+            [
+                "truesight 120 ft."
+            ],
+            "languages":
+            [
+                "is able to converse in all known languages"
+            ],
+            "passive": 10,
+            "cr": "3",
+            "trait":
+            [
+                {
+                    "name": "Keen Hearing and Sight",
+                    "entries":
+                    [
+                        "Sophos has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries":
+                    [
+                        "If Sophos fails a saving throw, he can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "Sophos makes one talon attack and one wing attack."
+                    ]
+                },
+                {
+                    "name": "Talons",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 4}) slashing damage."
+                    ]
+                }
+            ],
+            "reaction":
+            [
+                {
+                    "name": "Damage Redirection",
+                    "entries":
+                    [
+                        "When the tiefling slashtail is hit by a melee attack, it can use its reaction to take only half damage dealt to it (rounded down) and a creature of the tiefling slashtail's choice that is within 5 ft. takes the rest of the damage."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries":
+                    [
+                        "Sophos is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Sophos has all the wizard spells prepared but it favors the following:"
+                    ],
+                    "spells":
+                    {
+                        "0":
+                        {
+                            "spells":
+                            [
+                                "{@spell mage hand}",
+                                "{@spell prestidigitation}",
+                                "{@spell ray of frost}"
+                            ]
+                        },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell detect magic}",
+                                "{@spell magic missile}",
+                                "{@spell shield}",
+                                "{@spell thunderwave}"
+                            ]
+                        },
+                        "2":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell detect thoughts}",
+                                "{@spell invisibility}",
+                                "{@spell Melf's acid arrow}",
+                                "{@spell mirror image}"
+                            ]
+                        },
+                        "3":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell animate dead}",
+                                "{@spell counterspell}",
+                                "{@spell dispel magic}",
+                                "{@spell fireball}"
+                            ]
+                        },
+                        "4":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell blight}",
+                                "{@spell dimension door}"
+                            ]
+                        },
+                        "5":
+                        {
+                            "slots": 3,
+                            "spells":
+                            [
+                                "{@spell cloudkill}",
+                                "{@spell scrying}"
+                            ]
+                        },
+                        "6":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell disintegrate}",
+                                "{@spell globe of invulnerability}"
+                            ]
+                        },
+                        "7":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell finger of death}",
+                                "{@spell plane shift}"
+                            ]
+                        },
+                        "8":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell dominate monster}",
+                                "{@spell power word stun}"
+                            ]
+                        },
+                        "9":
+                        {
+                            "slots": 1,
+                            "spells":
+                            [
+                                "{@spell power word kill}"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "legendary":
+            [
+                {
+                    "name": "Cantrip",
+                    "entries":
+                    [
+                        "Sophos casts a cantrip."
+                    ]
+                },
+                {
+                    "name": "Dispell",
+                    "entries":
+                    [
+                        "Sophos casts {@spell dispell magic|PHB}."
+                    ]
+                },
+                {
+                    "name": "Detect",
+                    "entries":
+                    [
+                        "Sophos uses its centeral eye to detect magical effects and items within its sight."
+                    ]
+                },
+                {
+                    "name": "Wing Attack (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "Sophos beats its wings. Each creature within 10 feet of Sophos must succeed on a {@dc 20} Dexterity saving throw or take 14 ({@damage 2d6 + 7}) bludgeoning damage and be knocked {@condition prone}. Sophos can then fly up to half its flying speed."
+                    ]
+                }
+            ],
+            "traitTags":
+            [
+                "Keen Senses",
+                "Legendary Resistances"
+            ],
+            "senseTags":
+            [
+                "U"
+            ],
+            "languageTags":
+            [
+                "XX"
+            ],
+            "spellcastingTags":
+            [
+                "CW"
+            ],
+            "miscTags":
+            [
+                "AOE"
+            ],
+            "tokenUrl": "https://i.imgur.com/TDg8mm2.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/HlrLotI.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Sand Naga ogd",
+            "size": "L",
+            "type": "monstrosity",
+            "source": "Canbrew",
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+            [
+                12
+            ],
+            "hp":
+            {
+                "average": 21,
+                "formula": "6d6"
+            },
+            "speed":
+            {
+                "walk": 30,
+                "fly": 30
+            },
+            "str": 5,
+            "dex": 13,
+            "con": 10,
+            "int": 11,
+            "wis": 10,
+            "cha": 12,
+            "immune":
+            [
+                "fire",
+                "poison",
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks"
+                }
+            ],
+            "conditionImmune":
+            [
+                "poisoned"
+            ],
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "languages":
+            [
+                "Aquan",
+                "Ignan"
+            ],
+            "passive": 10,
+            "cr": "1",
+            "trait":
+            [
+                {
+                    "name": "Death Burst",
+                    "entries":
+                    [
+                        "When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a {@dc 14} Dexterity saving throw or take {@damage 2d8} fire damage."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The mephit uses its steam breath. It then makes a claw attack"
+                    ]
+                },
+                {
+                    "name": "Glaive",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d10+1}) slashing damage plus 3 ({@damage 1d6) fire damage."
+                    ]
+                },
+                {
+                    "name": "Steam Breath {@recharge 5}",
+                    "entries":
+                    [
+                        "The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a {@dc 13} Dexterity saving throw, taking {@damage 3d4}) fire damage on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "spellcasting":
+            [
+                {
+                    "name": "Innate Spellcasting (1/Day)",
+                    "headerEntries":
+                    [
+                        "The mephit can innately cast {@spell blur}, requiring no material components. Its innate spellcasting ability is Charisma."
+                    ],
+                    "will":
+                    [
+                        "{@spell blur}"
+                    ],
+                    "hidden":
+                    [
+                        "will"
+                    ],
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "traitTags":
+            [
+                "Death Burst"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "languageTags":
+            [
+                "AQ",
+                "IG"
+            ],
+            "damageTags":
+            [
+                "F",
+                "S"
+            ],
+            "spellcastingTags":
+            [
+                "I"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/nOAgWVc.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/OVMdXSq.jpg"
+                        }
+                    }
+                ]
+            }
         }
     ],
     "legendaryGroup":
