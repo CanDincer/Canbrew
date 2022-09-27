@@ -3503,7 +3503,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A full plate helmet without any openings. While you are wearing it, you are blinded, deafened, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Blindsight. Provides resistance to psychic damage and you have advantage on saving throws against being  {@condition charmed} and any magical effect that puts you to sleep."
+                "A full plate armor helmet without any openings. While you are wearing it, you are blinded, deafened, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Blindsight. Provides resistance to psychic damage and you have advantage on saving throws against being  {@condition charmed} and any magical effect that puts you to sleep."
             ]
         },
         {
@@ -18270,7 +18270,7 @@
                     "ac": 18,
                     "from":
                     [
-                        "{@item full plate armor|PHB}"
+                        "{@item plate armor|PHB}"
                     ]
                 }
             ],
@@ -27501,7 +27501,8 @@
                     }
                 ]
             }
-        },{
+        },
+        {
             "name": "Throatseeker",
             "source": "Canbrew",
             "size": "M",
@@ -33614,6 +33615,146 @@
                 "MW"
             ],
             "tokenUrl": "https://i.imgur.com/Mp5I3wW.png"
+        },
+        {
+            "name": "Flame Legionnaire ogd",
+            "source": "Canbrew",
+            "size": "M",
+            "type":
+            {
+                "type": "humanoid",
+                "tags":
+                [
+                    "sun elf"
+                ]
+            },
+            "alignment":
+            [
+                "L",
+                "N"
+            ],
+            "ac":
+             [
+                {
+                    "ac": 17,
+                    "from":
+                     [
+                        "{@item half plate armor|PHB}"
+                    ]
+                }
+            ],
+            "hp":
+            {
+                "average": 82,
+                "formula": "11d8 + 33"
+            },
+            "speed":
+            {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 15,
+            "int": 11,
+            "wis": 12,
+            "cha": 18,
+            "save":
+            {
+                "cha": "+7",
+                "con": "+5"
+            },
+            "skill":
+            {
+                "intimidation": "+7",
+                "perception": "+4"
+            },
+            "senses":
+            [
+                "darkvision 60 ft."
+            ],
+            "passive": 14,
+            "resist":
+            [
+                "fire"
+            ],
+            "languages":
+            [
+                "Common",
+                "Elvish"
+            ],
+            "cr": "5",
+            "trait":
+            [
+                {
+                    "name": "Flaming Conjuration",
+                    "entries":
+                    [
+                        "The flame legionnaire can conjure two flaming battleaxes as a bonus action. It must concentrate as if concentrating on a spell. If the flame legionnaire lets go of the battleaxe, it disappears. Each flaming battle axe sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+                    ]
+                }
+            ],
+            "action":
+            [
+                {
+                    "name": "Multiattack",
+                    "entries":
+                    [
+                        "The flame legionnaire makes two attacks with its flame battleaxes."
+                    ]
+                },
+                {
+                    "name": "Flame Battleaxe",
+                    "entries":
+                    [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}14 ({@damage 3d6+4}) fire damage."
+                    ]
+                }
+            ],
+            "environment":
+            [
+                "urban"
+            ],
+            "traitTags":
+            [
+                "Regeneration",
+                "Spider Climb"
+            ],
+            "senseTags":
+            [
+                "D"
+            ],
+            "actionTags":
+            [
+                "Multiattack"
+            ],
+            "languageTags":
+            [
+                "C",
+                "E"
+            ],
+            "damageTags":
+            [
+                "F"
+            ],
+            "miscTags":
+            [
+                "MW"
+            ],
+            "tokenUrl": "https://i.imgur.com/93JIqrg.png",
+            "fluff":
+            {
+                "images":
+                [
+                    {
+                        "type": "image",
+                        "href":
+                        {
+                            "type": "external",
+                            "url": "https://i.imgur.com/nUgRyQs.jpg"
+                        }
+                    }
+                ]
+            }
         }
     ],
     "legendaryGroup":
