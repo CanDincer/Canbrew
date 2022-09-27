@@ -33088,14 +33088,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The tiefling slashtail makes two dagger attacks and one tail attack."
-                    ]
-                },
-                {
-                    "name": "Beak",
-                    "entries":
-                    [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 4}) piercing damage."
+                        "Sophos makes one talon attack and one wing attack."
                     ]
                 },
                 {
@@ -33103,13 +33096,6 @@
                     "entries":
                     [
                         "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 4}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Wing",
-                    "entries":
-                    [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
                     ]
                 }
             ],
@@ -33243,17 +33229,24 @@
                     ]
                 },
                 {
-                    "name": "Dispell (Costs 2 Actions)",
+                    "name": "Dispell",
                     "entries":
                     [
                         "Sophos casts {@spell dispell magic|PHB}."
                     ]
                 },
                 {
-                    "name": "Detect (Costs 2 Actions)",
+                    "name": "Detect",
                     "entries":
                     [
                         "Sophos uses its centeral eye to detect magical effects and items within its sight."
+                    ]
+                },
+                {
+                    "name": "Wing Attack (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "Sophos beats its wings. Each creature within 10 feet of Sophos must succeed on a {@dc 20} Dexterity saving throw or take 14 ({@damage 2d6 + 7}) bludgeoning damage and be knocked {@condition prone}. Sophos can then fly up to half its flying speed."
                     ]
                 }
             ],
