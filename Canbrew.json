@@ -5083,14 +5083,14 @@
                     "name": "Bite",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 7}) piercing damage, plus 16 ({@damage 3d10}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the creature is {@condition restrained}, and the werewolf can't bite another target."
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 7}) piercing damage plus 16 ({@damage 3d10}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the creature is {@condition restrained}, and the werewolf can't bite another target."
                     ]
                 },
                 {
                     "name": "Claws",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 7}) piercing damage, plus 16 ({@damage 3d10}) bludgeoning damage."
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 7}) piercing damage plus 16 ({@damage 3d10}) bludgeoning damage."
                     ]
                 }
             ],
@@ -5596,7 +5596,7 @@
                     "name": "Claw",
                     "entries":
                     [
-                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage, plus 9 ({@damage 2d8}) necrotic damage."
+                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage plus 9 ({@damage 2d8}) necrotic damage."
                     ]
                 },
                 {
@@ -6777,14 +6777,14 @@
                     "name": "Bite",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 7}) piercing damage, plus 16 ({@damage 3d10}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the creature is {@condition restrained}, and the werewolf can't bite another target."
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 7}) piercing damage plus 16 ({@damage 3d10}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the creature is {@condition restrained}, and the werewolf can't bite another target."
                     ]
                 },
                 {
                     "name": "Claws",
                     "entries":
                     [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 7}) piercing damage, plus 16 ({@damage 3d10}) bludgeoning damage."
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 7}) piercing damage plus 16 ({@damage 3d10}) bludgeoning damage."
                     ]
                 }
             ],
@@ -7220,7 +7220,7 @@
                     "name": "Claws (Hybrid Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage, plus 7 ({@damage 2d6}) lightning damage."
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage plus 7 ({@damage 2d6}) lightning damage."
                     ]
                 }
             ],
@@ -12821,7 +12821,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The orc makes two attacks with its greatclub or its Javelin."
+                        "The orc makes two attacks with its greatclub or its javelin."
                     ]
                 },
                 {
@@ -20702,7 +20702,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d8 + 6}) slashing damage, plus 17 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 21})."
+                        "{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d8 + 6}) slashing damage plus 17 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 21})."
                     ]
                 },
                 {
@@ -20955,7 +20955,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d8 + 6}) slashing damage, plus 17 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 21})."
+                        "{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d8 + 6}) slashing damage plus 17 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 21})."
                     ]
                 },
                 {
@@ -21312,14 +21312,14 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one creature. {@h}11 ({@damage 1d8 + 7}) slashing damage, plus 17 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 22})."
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one creature. {@h}11 ({@damage 1d8 + 7}) slashing damage plus 17 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 22})."
                     ]
                 },
                 {
                     "name": "Alucard's Heirloom (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one creature. {@h}11 ({@damage 1d8 + 7}) slashing damage, plus 10 ({@damage 3d6}) psychic damage."
+                        "{@atk mw} {@hit 14} to hit, reach 5 ft., one creature. {@h}11 ({@damage 1d8 + 7}) slashing damage plus 10 ({@damage 3d6}) psychic damage."
                     ]
                 },
                 {
@@ -21646,7 +21646,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d8 + 6}) slashing damage, plus 17 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 21})."
+                        "{@atk mw} {@hit 13} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d8 + 6}) slashing damage plus 17 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 21})."
                     ]
                 },
                 {
@@ -22032,7 +22032,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
                     ]
                 },
                 {
@@ -22356,7 +22356,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
                     ]
                 },
                 {
@@ -22627,7 +22627,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
                     ]
                 },
                 {
@@ -22951,7 +22951,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19})."
                     ]
                 },
                 {
@@ -23204,7 +23204,7 @@
                     "name": "Draining Claw Contraption (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19}). The vampire gains hit points equal to the necrotic damage it does."
+                        "{@atk mw} {@hit 11} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 14 ({@damage 4d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 19}). The vampire gains hit points equal to the necrotic damage it does."
                     ]
                 },
                 {
@@ -23531,7 +23531,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
                     ]
                 },
                 {
@@ -23784,7 +23784,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
                     ]
                 },
                 {
@@ -23798,7 +23798,7 @@
                     "name": "Nightshade Dagger (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 10 ({@damage 3d6}) poison damage."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 10 ({@damage 3d6}) poison damage."
                     ]
                 },
                 {
@@ -24253,7 +24253,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
                     ]
                 },
                 {
@@ -24524,7 +24524,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 4}) slashing damage, plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 4}) slashing damage plus 10 ({@damage 3d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
                     ]
                 },
                 {
@@ -24843,7 +24843,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
                     ]
                 },
                 {
@@ -25099,7 +25099,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
                     ]
                 },
                 {
@@ -25441,7 +25441,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
                     ]
                 },
                 {
@@ -25732,7 +25732,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
                     ]
                 },
                 {
@@ -26086,14 +26086,14 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 17})."
                     ]
                 },
                 {
                     "name": "Wolf's Bane (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d10 + 5}) slashing damage, plus 3 ({@damage 1d6}) bludgeoning damage."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}10 ({@damage 1d10 + 5}) slashing damage plus 3 ({@damage 1d6}) bludgeoning damage."
                     ]
                 },
                 {
@@ -26347,7 +26347,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage, plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}9 ({@damage 1d8 + 5}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
                     ]
                 },
                 {
@@ -26656,7 +26656,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
                     ]
                 },
                 {
@@ -26895,7 +26895,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
                     ]
                 },
                 {
@@ -27132,7 +27132,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage, plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 15})."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) slashing damage plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 15})."
                     ]
                 },
                 {
@@ -27378,7 +27378,7 @@
                     "name": "Unarmed Strike (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage, plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) slashing damage plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
                     ]
                 },
                 {
@@ -27631,7 +27631,7 @@
                     "name": "Nightshade Claws",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 2d4 + 3}) slashing damage, plus 7 ({@damage 2d6}) poison damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}8 ({@damage 2d4 + 3}) slashing damage plus 7 ({@damage 2d6}) poison damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 14})."
                     ]
                 }
             ],
@@ -29208,7 +29208,7 @@
                     "name": "Claws (Vampire Form Only)",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}12 ({@damage 2d6 + 5}) slashing damage, plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 15})."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}12 ({@damage 2d6 + 5}) slashing damage plus 3 ({@damage 1d6}) necrotic damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 15})."
                     ]
                 },
                 {
@@ -33507,6 +33507,13 @@
                     ]
                 },
                 {
+                    "name": "Magical Resistance",
+                    "entries":
+                    [
+                        "The naga has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
                     "name": "Rejuvenation",
                     "entries":
                     [
@@ -33617,7 +33624,7 @@
             "tokenUrl": "https://i.imgur.com/Mp5I3wW.png"
         },
         {
-            "name": "Flame Legionnaire ogd",
+            "name": "Flame Legionnaire",
             "source": "Canbrew",
             "size": "M",
             "type":
@@ -33639,14 +33646,14 @@
                     "ac": 17,
                     "from":
                      [
-                        "{@item half plate armor|PHB}"
+                        "{@item half plate armor of fire resistance|DMG}"
                     ]
                 }
             ],
             "hp":
             {
-                "average": 82,
-                "formula": "11d8 + 33"
+                "average": 91,
+                "formula": "14d8 + 28"
             },
             "speed":
             {
@@ -33657,15 +33664,15 @@
             "con": 15,
             "int": 11,
             "wis": 12,
-            "cha": 18,
+            "cha": 16,
             "save":
             {
-                "cha": "+7",
+                "cha": "+6",
                 "con": "+5"
             },
             "skill":
             {
-                "intimidation": "+7",
+                "intimidation": "+6",
                 "perception": "+4"
             },
             "senses":
@@ -33677,6 +33684,10 @@
             [
                 "fire"
             ],
+            "conditionImmune":
+            [
+                "charmed"
+            ],
             "languages":
             [
                 "Common",
@@ -33685,6 +33696,13 @@
             "cr": "5",
             "trait":
             [
+                {
+                    "name": "Fey Ancestry",
+                    "entries":
+                    [
+                        "The elf has advantage on saving throws against being {@condition charmed}, and magic can't put the elf to sleep."
+                    ]
+                },
                 {
                     "name": "Flaming Conjuration",
                     "entries":
@@ -33699,14 +33717,21 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The flame legionnaire makes two attacks with its flame battleaxes."
+                        "The flame legionnaire makes three attacks with its flame battleaxes or one attack with its blowgun."
                     ]
                 },
                 {
                     "name": "Flame Battleaxe",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}14 ({@damage 3d6+4}) fire damage."
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}13 ({@damage 3d6+3}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Flame Battleaxe",
+                    "entries":
+                    [
+                        "{@atk rw} {@hit 6} to hit, range 25/100 ft., one creature. {@h}1 piercing damage. On a hit, the target must make a {@dc 10} Constitution saving throw or be put to sleep for 1 hour. A creature can use its action to wake the target up."
                     ]
                 }
             ],
@@ -33716,8 +33741,7 @@
             ],
             "traitTags":
             [
-                "Regeneration",
-                "Spider Climb"
+                "Fey Ancestry"
             ],
             "senseTags":
             [
