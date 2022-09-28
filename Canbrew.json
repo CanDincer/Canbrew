@@ -33527,6 +33527,7 @@
                             "slots": 1,
                             "spells":
                             [
+                                "{@spell sequester|PHB}",
                                 "{@spell symbol|PHB}"
                             ]
                         },
