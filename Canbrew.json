@@ -29245,10 +29245,6 @@
                 }
             ],
             "hasToken": true,
-            "traitTags":
-            [
-                "Nightshade Blood"
-            ],
             "senseTags":
             [
                 "D"
@@ -29370,7 +29366,6 @@
                 }
             ],
             "hasToken": true,
-            ],
             "senseTags":
             [
                 "D"
@@ -31207,103 +31202,6 @@
             }
         },
         {
-            "name": "Draconic Avatar",
-            "source": "Canbrew",
-            "size":
-            [
-                "L"
-            ],
-            "type": "dragon",
-            "ac":
-            [
-                {
-                    "ac": 18,
-                    "from":
-                    [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp":
-            {
-                "special": "175"
-            },
-            "speed":
-            {
-                "walk": 40,
-                "fly": 80
-            },
-            "str": 23,
-            "dex": 12,
-            "con": 22,
-            "int": "-",
-            "wis": "-",
-            "cha": "-",
-            "save":
-            {
-                "str":"+12",
-                "dex":"+7",
-                "con":"+12"
-            },
-            "skill":
-            {
-                "stealth": "+7"
-            },
-            "senses":
-            [
-                "darkvision 120 ft.",
-                "blindsight 30 ft."
-            ],
-            "immune":
-            [
-                "Same as the Damage Type of your sovereign"
-            ],
-            "action":
-            [
-                {
-                    "name": "Multiattack",
-                    "entries":
-                    [
-                        "You can either use your breath weapon (if available), or make three attacks: one with your bite and two with your claws."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries":
-                    [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 7 ({@damage 2d6}) damage of your sovereign's Damage Type."
-                    ]
-                },
-                {
-                    "name": "Claw",
-                    "entries":
-                    [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 7 ({@damage 2d6}) damage of your sovereign's Damage Type."
-                    ]
-                },
-                {
-                    "name": "Breath {@recharge 5}",
-                    "entries":
-                    [
-                        "You exhale elemental damage of your sovereign's Damage Type in either a 30-foot cone or a 60-foot line that is 10 feet wide (depending on your type). Each creature in that area must make a Dexterity saving throw. Those affected take 56 ({@damage 16d6}) damage on a failed save, or half as much damage on a successful one."
-                    ]
-                }
-            ],
-            "senseTags":
-            [
-                "D",
-                "B"
-            ],
-            "damageTags":
-            [
-                "F"
-            ],
-            "miscTags":
-            [
-                "MW"
-            ]
-        },
-        {
             "name": "Moss Kitten",
             "source": "Canbrew",
             "size":
@@ -32676,10 +32574,6 @@
                 "athletics": "+7",
                 "intimidation": "+7"
             },
-            "immune":
-            [
-                "Same as its draconic type"
-            ],
             "conditionImmune":
             [
                 "diseased",
@@ -32714,6 +32608,13 @@
                     ]
                 },
                 {
+                    "name": "Draconic Immunity",
+                    "entries":
+                    [
+                        "The dragon knight is immune to damage from its draconic type."
+                    ]
+                },
+                {
                     "name": "Draconic Shield",
                     "entries":
                     [
@@ -32739,7 +32640,6 @@
                 },
                 {
                     "name": "Draconic Breath {@recharge 4}",
-                    "type": "entries",
                     "entries":
                     [
                         "The dragon knight exhales destructive energy. Its damage is determined by the draconic type, as shown in the table.",
@@ -34502,7 +34402,6 @@
             "darkvision": 60,
             "traitTags":
             [
-                "Damage Resistance",
                 "Skill Proficiency",
 		        "Natural Weapon"
             ],
@@ -35852,19 +35751,7 @@
 			"header": 2,
 			"entries":
             [
-				"At 20th level you can, as an action, transform yourself into a dragon for 1 minute. You count as under the effect of a {@spell polymorph} spell for the duration, as you change into a {@creature draconic avatar|Canbrew} matching the type chosen with your Sovereign. You abide by the limitations of the spell, with the following exceptions: While polymorphed you use the game statistics portrayed to the right, and your breath weapon's shape and damage type are determined by your Sovereign. In addition, your mental ability scores remain the same, and you do not need to maintain concentration to keep the spell active. However, you may not use nor benefit from your class features and spells.",
-                "If your original form had a breath weapon, then it is temporarily replaced by your new breath weapon. You may end your transformation early by using a bonus action on your turn. Additionally, you gain the following benefits:",
-				{
-					"type": "list",
-					"items":
-                    [
-						"If you chose Gold, Green, Red, Silver or White dragon as your Sovereign, then your breath weapon becomes a cone. If you chose a Black, Blue, Brass, Bronze or Copper dragon for as Sovereign, then your breath weapon becomes a line.",
-						"You gain a climb speed of 40 feet if you chose Copper or Red dragon as your Sovereign. In addition, your blindsight increases to 60 feet.",
-						"You gain a swim speed of 40 feet if you chose Black, Bronze, Gold or Green dragon as your Sovereign. In addition, you can breathe both air and water while in this form.",
-						"You gain a burrow speed of 20 feet if you chose Brass, Blue or White dragon as your Sovereign. When you use your burrow speed, you clear the path behind you.",
-                        "Your flying speed increases to 100 feet if you chose Silver dragon as your Sovereign."
-					]
-				},
+				"At 20th level you can, as an action, transform yourself into an {@5etools adult dragon|https://5e.tools/bestiary.html#adult%20red%20dracolich_tce,flstsource:ai=0~bgdia=0~bam=0~canbrew=0~cm=0~crcotn=0~cos=0~dc=0~dip=0~dmg=0~erlw=0~esk=0~egw=0~ftd=0~gos=0~ggr=0~hotdq=0~hftt=0~idrotf=0~jttrc=0~kkw=0~lox=0~lmop=0~mpmm=0~mtf=0~mot=0~oota=0~phb=0~pota=0~sdw=0~sja=0~skt=0~slw=0~scc=0~tftyp=0~tce=0~hol=0~rmbre=0~oow=0~rot=0~wbtw=0~toa=0~tod=0~vrgr=0~vgm=0~wdh=0~wdmm=0~xge=0,flopsource:extend,flstdragon%20age:adult=1,flopdragon%20age:extend,sublistselected:%7b%22items%22%3a%5b%5d%2c%22sources%22%3a%5b%5d%2c%22saveid%22%3a%222e913123-55a0-45bf-b59b-07ef2fb3e31f%22%7d} matching the type of your Sovereign for 1 minute. You count as under the effect of a {@spell polymorph|PHB} spell for the duration but you retain Intelligence, Wizdom, and Charisma scores. You may end your transformation early by using a bonus action on your turn.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
