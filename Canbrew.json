@@ -4715,8 +4715,16 @@
             [
                 "psychic",
                 "necrotic",
-                "nonmagical bludgeoning",
-                "slashing  piercing damage"
+                {
+                    "immune":
+                    [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
             ],
             "vulnerable":
             [
@@ -5110,9 +5118,7 @@
             [
                 "Aggressive",
                 "Charge",
-                "Horrifying Visage",
                 "Keen Senses",
-                "Relentless",
                 "Magic Resistance"
             ],
             "languageTags":
@@ -5900,13 +5906,6 @@
             "resist":
             [
                 {
-                    "vulnerable":
-                    [
-                        "fire"
-                    ],
-                    "note": "(Cursed Tree only)"
-                },
-                {
                     "resist":
                     [
                         "bludgeoning",
@@ -6027,7 +6026,7 @@
             ],
             "languageTags":
             [
-                "A"
+                "AB"
             ],
             "damageTags":
             [
@@ -6127,10 +6126,7 @@
             },
             "speed":
             {
-                "walk":
-                {
-                    "number": 30
-                }
+                "walk": 30
             },
             "str": 20,
             "dex": 16,
@@ -6170,13 +6166,6 @@
                     "entries":
                     [
                         "When Dragoslava hits a creature with a weapon attack, she can expend one superiority die to attempt to goad the target into attacking her. She adds the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than her until the end of her next turn."
-                    ]
-                },
-                {
-                    "name": "Keen Hearing and Smell",
-                    "entries":
-                    [
-                        "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
                     ]
                 },
                 {
@@ -6234,6 +6223,11 @@
         {
             "name": "Maul Darkmane",
             "isNpc": true,
+            "isNamedCreature": true,
+            "group":
+            [
+                "Lycanthropes"
+            ],
             "size":
             [
                 "M"
@@ -6460,6 +6454,10 @@
             "name": "Ulfgaard Ingvarsson",
             "isNpc": true,
             "isNamedCreature": true,
+            "group":
+            [
+                "Lycanthropes"
+            ],
             "size":
             [
                 "M"
@@ -6834,9 +6832,7 @@
             [
                 "Aggressive",
                 "Charge",
-                "Horrifying Visage",
                 "Keen Senses",
-                "Relentless",
                 "Magic Resistance"
             ],
             "languageTags":
@@ -6874,6 +6870,10 @@
         },
         {
             "name": "Werewolf Leader",
+            "group":
+            [
+                "Lycanthropes"
+            ],
             "size":
             [
                 "M"
@@ -7100,6 +7100,10 @@
             "name": "Genn Mara",
             "isNpc": true,
             "isNamedCreature": true,
+            "group":
+            [
+                "Lycanthropes"
+            ],
             "size":
             [
                 "M"
@@ -7444,6 +7448,10 @@
         },
         {
             "name": "Werewolf Predator",
+            "group":
+            [
+                "Lycanthropes"
+            ],
             "size":
             [
                 "M"
@@ -7650,7 +7658,10 @@
         },
         {
             "name": "Werewolf Cub",
-            "group": "Lycanthropes",
+            "group":
+            [
+                "Lycanthropes"
+            ],
             "source": "Canbrew",
             "size":
             [
@@ -7930,7 +7941,7 @@
                     "name": "Angelic Weapons",
                     "entries":
                     [
-                        "The angel of dusk's weapon attacks are magical. When the angel of dusk hits with any weapon, the weapon deals an extra {@dice 4d8} radiant damage (included in the attack)."
+                        "The angel of dusk's weapon attacks are magical. When the angel of dusk hits with any weapon, the weapon deals an extra {@damage 4d8} radiant damage (included in the attack)."
                     ]
                 },
                 {
@@ -7949,8 +7960,8 @@
                 },
                 {
                     "name": "Angel of Order and Integrity",
-                    "type": "list",
-                    "items":
+                    "type": "entries",
+                    "entries":
                     [
                         "Hamael's words are orders for others. It can use its action to {@spell command|PHB} one creature it can see."
                     ]
@@ -8149,8 +8160,8 @@
                 },
                 {
                     "name": "Angel of Beauty and Deception",
-                    "type": "list",
-                    "items":
+                    "type": "entries",
+                    "entries":
                     [
                         "As an action Xershal can turn {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment Xershal wears or carries is {@condition invisible} with it."
                     ]
@@ -8978,7 +8989,10 @@
         },
         {
             "name": "Aquatic Ghoul",
-            "group": "undead",
+            "group":
+            [
+                "undead"
+            ],
             "size":
             [
                 "M"
@@ -12800,11 +12814,6 @@
                     "type": "spellcasting"
                 }
             ],
-            "traitTags":
-            [
-                "Brave",
-                "Sense Magic"
-            ],
             "languageTags":
             [
                 "C",
@@ -14284,9 +14293,7 @@
             ],
             "traitTags":
             [
-                "Amphibious",
-                "Slithery",
-                "Blood Sucker"
+                "Amphibious"
             ],
             "senseTags":
             [
@@ -14766,8 +14773,7 @@
             ],
             "traitTags":
             [
-                "Water Breathing",
-                "Bioluminescence"
+                "Water Breathing"
             ],
             "senseTags":
             [
@@ -18442,10 +18448,6 @@
                     "type": "spellcasting"
                 }
             ],
-            "traitTags":
-            [
-                "Gunslinger"
-            ],
             "senseTags":
             [
                 "D"
@@ -20435,7 +20437,7 @@
                             "{@spell healing word|PHB}"
                         ]
                     },
-                    "ability": "Wis",
+                    "ability": "wis",
                     "type": "spellcasting"
                 }
             ],
@@ -20530,7 +20532,7 @@
                     [
                         "{@spell light|PHB}"
                     ],
-                    "ability": "Cha",
+                    "ability": "cha",
                     "type": "spellcasting"
                 }
             ],
@@ -20909,7 +20911,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -21165,7 +21167,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -21412,8 +21414,7 @@
                 "Legendary Resistances",
                 "Regeneration",
                 "Shapechanger",
-                "Spider Climb",
-                "Spellcasting"
+                "Spider Climb"
             ],
             "senseTags":
             [
@@ -21536,7 +21537,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -21862,7 +21863,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -22119,8 +22120,7 @@
                 "Legendary Resistances",
                 "Regeneration",
                 "Shapechanger",
-                "Spider Climb",
-                "Spellcasting"
+                "Spider Climb"
             ],
             "senseTags":
             [
@@ -22244,7 +22244,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -22578,7 +22578,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -22834,7 +22834,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -23179,7 +23179,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -23435,7 +23435,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -23765,7 +23765,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -24021,7 +24021,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -24229,8 +24229,7 @@
                 "Legendary Resistances",
                 "Regeneration",
                 "Shapechanger",
-                "Spider Climb",
-                "Spellcasting"
+                "Spider Climb"
             ],
             "senseTags":
             [
@@ -24496,7 +24495,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -24970,8 +24969,7 @@
                 "Legendary Resistances",
                 "Regeneration",
                 "Shapechanger",
-                "Spider Climb",
-                "Spellcasting"
+                "Spider Climb"
             ],
             "senseTags":
             [
@@ -25092,7 +25090,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -25351,7 +25349,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -25695,7 +25693,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -25961,7 +25959,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -26347,7 +26345,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -26611,7 +26609,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -26799,8 +26797,7 @@
                 "Legendary Resistances",
                 "Regeneration",
                 "Shapechanger",
-                "Spider Climb",
-                "Spellcasting"
+                "Spider Climb"
             ],
             "senseTags":
             [
@@ -26923,7 +26920,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -27165,7 +27162,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -27405,7 +27402,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -27654,7 +27651,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -28103,7 +28100,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -28305,7 +28302,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
@@ -28977,8 +28974,7 @@
             "hasToken": true,
             "traitTags":
             [
-                "Magic Resistance",
-                "Nightshade Blood"
+                "Magic Resistance"
             ],
             "senseTags":
             [
@@ -29118,10 +29114,6 @@
                 }
             ],
             "hasToken": true,
-            "traitTags":
-            [
-                "Nightshade Blood"
-            ],
             "senseTags":
             [
                 "D"
@@ -29378,9 +29370,6 @@
                 }
             ],
             "hasToken": true,
-            "traitTags":
-            [
-                "Nightshade Blood"
             ],
             "senseTags":
             [
@@ -29500,7 +29489,7 @@
             "vulnerable":
             [
                 "fire",
-                "raidant"
+                "radiant"
             ],
             "languages":
             [
