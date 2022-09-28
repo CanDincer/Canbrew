@@ -33029,7 +33029,7 @@
             },
             "speed":
             {
-                "walk": 30,
+                "walk": 10,
                 "fly": 60
             },
             "str": 14,
@@ -33074,6 +33074,13 @@
                     "entries":
                     [
                         "If Sophos fails a saving throw, he can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Reactive Eye",
+                    "entries":
+                    [
+                        "Sophos does not use its reaction to cast {@ counterspell|PHB}."
                     ]
                 }
             ],
@@ -33197,8 +33204,8 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell dominate monster}",
-                                "{@spell power word stun}"
+                                "{@spell }",
+                                "{@spell mind blank|PHB}"
                             ]
                         },
                         "9":
@@ -33206,7 +33213,7 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell power word kill}"
+                                "{@spell foresight|PHB}"
                             ]
                         }
                     },
