@@ -4354,7 +4354,10 @@
     [
         {
             "name": "Door Mimic",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type":
             {
                 "type": "monstrosity",
@@ -4494,7 +4497,10 @@
             }
         },{
             "name": "Coffin Mimic",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type":
             {
                 "type": "monstrosity",
@@ -5130,7 +5136,10 @@
         },
         {
             "name": "Book Mimic",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type":
             {
                 "type": "monstrosity",
@@ -5258,7 +5267,10 @@
         },
         {
             "name": "Goblin Totem",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -5387,7 +5399,10 @@
         },
         {
             "name": "Goblin Warlord",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -5499,7 +5514,10 @@
         },
         {
             "name": "Tree Golem",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "construct",
             "source": "Canbrew",
             "alignment":
@@ -5659,7 +5677,10 @@
         },
         {
             "name": "Mana Serpent",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "aberration",
             "source": "Canbrew",
             "alignment":
@@ -6664,7 +6685,10 @@
         },
         {
             "name": "Werewolf Berserker",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -9553,7 +9577,10 @@
         {
             "name": "Ifrit (ogd)",
             "isNpc": true,
-            "size": "G",
+            "size":
+            [
+                "G"
+            ],
             "type":
             {
                 "type": "fiend",
@@ -9722,7 +9749,10 @@
             "name": "Sir James Bravebark",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type":
             {
                 "type": "beast",
@@ -9892,7 +9922,10 @@
             "name": "Lady Aluna Flufftail",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type":
             {
                 "type": "beast",
@@ -10058,7 +10091,10 @@
             "name": "William Branchstrider",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type":
             {
                 "type": "beast",
@@ -10225,7 +10261,10 @@
             "name": "Russle Quickbottom",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type":
             {
                 "type": "beast",
@@ -10402,7 +10441,10 @@
             "name": "Cedric Divineroot",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type":
             {
                 "type": "beast",
@@ -10638,7 +10680,10 @@
             "name": "Fred Ticklestraw",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type":
             {
                 "type": "beast",
@@ -10868,7 +10913,10 @@
             "name": "Trish Nutcrawler",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type":
             {
                 "type": "beast",
@@ -11066,7 +11114,10 @@
             "name": "George Cuddlebelly",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type":
             {
                 "type": "beast",
@@ -11459,7 +11510,10 @@
         },
         {
             "name": "Kobold Cask Hauler",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -11599,7 +11653,10 @@
         },
         {
             "name": "Kobold Booze Server",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -11911,7 +11968,10 @@
             "name": "Scatha",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "G",
+            "size":
+            [
+                "G"
+            ],
             "type": "dragon",
             "source": "Canbrew",
             "alignment":
@@ -13013,7 +13073,10 @@
         {
             "name": "Venom Queen",
             "source": "Canbrew",
-            "size": "G",
+            "size":
+            [
+                "G"
+            ],
             "type": "monstrosity",
             "alignment":
             [
@@ -13266,7 +13329,10 @@
         {
             "name": "Venom Crawler",
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "beast",
             "alignment":
             [
@@ -13420,7 +13486,10 @@
         {
             "name": "Venom Crawler Hatchling",
             "source": "Canbrew",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "beast",
             "alignment":
             [
@@ -13885,7 +13954,10 @@
         },
         {
             "name": "Glasseye",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "beast",
             "source": "Canbrew",
             "alignment":
@@ -14117,7 +14189,10 @@
         },
         {
             "name": "Giant Lamprey",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -14235,7 +14310,10 @@
         },
         {
             "name": "Halocline Shrimp",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -14358,7 +14436,10 @@
         },
         {
             "name": "Abyssal Grappler",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "aberration",
             "source": "Canbrew",
             "alignment":
@@ -14458,7 +14539,10 @@
         },
         {
             "name": "Dragon Leviathan",
-            "size": "G",
+            "size":
+            [
+                "G"
+            ],
             "type": "dragon",
             "source": "Canbrew",
             "alignment":
@@ -14588,7 +14672,10 @@
         },
         {
             "name": "Angler Fish",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "beast",
             "source": "Canbrew",
             "alignment":
@@ -15053,7 +15140,10 @@
         },
         {
             "name": "Snow Grappler (ogd)",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -15382,7 +15472,10 @@
         },
         {
             "name": "Polebeak (ogd)",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -15503,7 +15596,10 @@
         },
         {
             "name": "Tremor Bison",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "beast",
             "source": "Canbrew",
             "alignment":
@@ -15631,7 +15727,10 @@
         },
         {
             "name": "Leechmere (ogd)",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -18466,7 +18565,10 @@
         },
         {
             "name": "Dust Mephit of the Elementalist",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "elemental",
             "source": "Canbrew",
             "alignment":
@@ -18637,7 +18739,10 @@
         },
         {
             "name": "Ice Mephit of the Elementalist",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "elemental",
             "source": "Canbrew",
             "alignment":
@@ -18809,7 +18914,10 @@
         },
         {
             "name": "Magma Mephit of the Elementalist",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "elemental",
             "source": "Canbrew",
             "alignment":
@@ -18981,7 +19089,10 @@
         },
         {
             "name": "Mud Mephit of the Elementalist",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "elemental",
             "source": "Canbrew",
             "alignment":
@@ -19149,7 +19260,10 @@
         },
         {
             "name": "Smoke Mephit of the Elementalist",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "elemental",
             "source": "Canbrew",
             "alignment":
@@ -19309,7 +19423,10 @@
         },
         {
             "name": "Steam Mephit of the Elementalist",
-            "size": "S",
+            "size":
+            [
+                "S"
+            ],
             "type": "elemental",
             "source": "Canbrew",
             "alignment":
@@ -20060,7 +20177,10 @@
         {
             "name": "Rusted Iron Golem",
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "construct",
             "alignment":
             [
@@ -20246,7 +20366,10 @@
         {
             "name": "Clockwork Healerbee",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "construct",
             "alignment":
             [
@@ -20348,7 +20471,10 @@
         {
             "name": "Clockwork Faefly",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "construct",
             "alignment":
             [
@@ -20441,7 +20567,10 @@
         {
             "name": "Samurai Golem",
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "construct",
             "alignment":
             [
@@ -24148,7 +24277,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type":
             {
                 "type": "undead",
@@ -29752,7 +29884,10 @@
         {
             "name": "Bear Zombie",
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "undead",
             "alignment":
             [
@@ -29898,7 +30033,10 @@
         {
             "name": "Fire Minimental",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "elemental",
             "alignment":
             [
@@ -30045,7 +30183,10 @@
         {
             "name": "Water Minimental",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "elemental",
             "alignment":
             [
@@ -30187,7 +30328,10 @@
         {
             "name": "Air Minimental",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "elemental",
             "alignment":
             [
@@ -30322,7 +30466,10 @@
         {
             "name": "Earth Minimental",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "elemental",
             "alignment":
             [
@@ -30460,7 +30607,10 @@
         {
             "name": "Smoke Minimental",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "elemental",
             "alignment":
             [
@@ -30599,7 +30749,10 @@
         {
             "name": "Dust Minimental",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "elemental",
             "alignment":
             [
@@ -30746,7 +30899,10 @@
         {
             "name": "Ice Minimental",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "elemental",
             "alignment":
             [
@@ -30900,7 +31056,10 @@
         {
             "name": "Magma Minimental",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "elemental",
             "alignment":
             [
@@ -31053,7 +31212,10 @@
         {
             "name": "Draconic Avatar",
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "dragon",
             "ac":
             [
@@ -31147,7 +31309,10 @@
         {
             "name": "Moss Kitten",
             "source": "Canbrew",
-            "size": "T",
+            "size":
+            [
+                "T"
+            ],
             "type": "fey",
             "alignment":
             [
@@ -31347,7 +31512,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type":
             {
                 "type": "fiend",
@@ -32198,7 +32366,10 @@
         {
             "name": "Secluded",
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type":
             {
                 "type": "fiend",
@@ -32334,7 +32505,10 @@
         {
             "name": "Thunderherder",
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "monstrosity",
             "alignment":
             [
@@ -33275,7 +33449,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "monstrosity",
             "alignment":
             [
@@ -33548,7 +33725,10 @@
         },
         {
             "name": "Sand Naga ogd",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -33696,7 +33876,10 @@
         },
         {
             "name": "Storm Naga",
-            "size": "L",
+            "size":
+            [
+                "L"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -34332,7 +34515,8 @@
                     "other": true
                 }
             ],
-            "skillProficiencies": [
+            "skillProficiencies":
+            [
                 {
                     "perception": true
                 }
@@ -34928,7 +35112,6 @@
                 "Natural Weapon",
                 "Uncommon Race",
                 "Skill Proficiency",
-                "Spellcasting",
                 "Monstrous Race"
             ],
             "entries":
