@@ -16,10 +16,6 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "convertedBy":
-        [
-            "Can"
-        ],
         "dateAdded": 1658932920,
 		"dateLastModified": 1664305260
     },
@@ -253,7 +249,7 @@
             "name": "Tethervine Quiver",
             "baseItem": "Quiver|PHB",
             "type": "G",
-            "weight": "1",
+            "weight": 1,
             "reqAttune": true,
             "rarity": "uncommon",
             "source": "Canbrew",
@@ -279,6 +275,7 @@
                 "T"
             ],
             "range": "20/60",
+            "rarity": "artifact",
             "source": "Canbrew",
             "entries":
             [
@@ -380,10 +377,11 @@
                 "T"
             ],
             "range": "20/60",
+            "rarity": "none",
             "source": "Canbrew",
             "entries":
             [
-                "A dagger, has a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object interaction.",
+                "A dagger with a hidden compartment in the handle, in which 4 doses of poison can be stored. A small button secretes poison on to the blade as an object interaction.",
                 "Once applied, the poison retains potency for 1 minute before drying."
             ]
         },
@@ -2816,7 +2814,7 @@
                 "You gain the following benefits:",
                 {
                     "type": "list",
-                    "entries":
+                    "items":
                     [
                         "You can cast the {@spell fire bolt|PHB} spell as a bonus action.",
                         "You know the {@spell fire bolt} and the {@spell fireball} spells and once a day, you can cast the {@spell fireball} spell without using a spell slot.",
@@ -3239,6 +3237,7 @@
             "type": "P",
             "weight": 0.5,
             "source": "Canbrew",
+            "rarity": "none",
             "entries":
             [
                 "This potion has no color, smell, or taste. It is not magical."
@@ -3248,12 +3247,13 @@
             "name": "Potion of Nightshade",
             "type": "P",
             "weight": 0.5,
+            "rarity":"very rare",
             "source": "Canbrew",
             "entries":
             [
-                "This purple potion is the bane of vampires. When you drink this potion, your blood becomes toxic to vampires. Any vampire drinking your blood takes 3d6 acid damage or half as much damage on a successful {@dc 20} Constitution saving throw.",
-                "A vampire can drink this to commit suicide. It deals 20d20 poison damage or half as much damage on a successful {@dc 20} Constitution saving throw.",
-                "The potion can also be applied to weapons and ammunation as oil. A weapon coated in Nightshade oil deals an extra 3d6 poison damage to vampires."
+                "This purple potion is the bane of vampires. When you drink this potion, your blood becomes toxic to vampires. Any vampire drinking your blood takes {@damage 3d6} acid damage or half as much damage on a successful {@dc 20} Constitution saving throw.",
+                "A vampire can drink this to commit suicide. It deals {@damage 20d20} poison damage or half as much damage on a successful {@dc 20} Constitution saving throw.",
+                "The potion can also be applied to weapons and ammunation as oil. A weapon coated in Nightshade oil deals an extra {@damage 3d6} poison damage to vampires."
             ]
         },
         {
@@ -5851,7 +5851,10 @@
         },
         {
             "name": "Cursed Tree",
-            "size": "H",
+            "size":
+            [
+                "H"
+            ],
             "type": "plant",
             "source": "Canbrew",
             "alignment":
@@ -11345,7 +11348,10 @@
         },
         {
             "name": "Atlantis Sentinel",
-            "size": "H",
+            "size":
+            [
+                "H"
+            ],
             "type": "construct",
             "source": "Canbrew",
             "alignment":
@@ -14088,7 +14094,10 @@
         },
         {
             "name": "Colossal Crab",
-            "size": "H",
+            "size":
+            [
+                "H"
+            ],
             "type": "beast",
             "source": "Canbrew",
             "alignment":
@@ -15436,7 +15445,8 @@
             ],
             "actionTags":
             [
-                "Multiattack"
+                "Multiattack",
+                "Teleport"
             ],
             "tokenUrl": "https://i.imgur.com/EMbjAeb.png",
             "fluff":
@@ -16004,7 +16014,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -16191,7 +16200,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -16393,7 +16401,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -16587,7 +16594,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances",
                 "Regeneration"
             ],
@@ -16782,7 +16788,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -16980,7 +16985,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -17195,8 +17199,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
-                "Teleport",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -17217,7 +17219,8 @@
             ],
             "actionTags":
             [
-                "Multiattack"
+                "Multiattack",
+                "Teleport"
             ],
             "tokenUrl": "https://i.imgur.com/tGOr2eN.png",
             "fluff":
@@ -17405,7 +17408,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances",
                 "Regeneration"
             ],
@@ -17608,7 +17610,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -17817,7 +17818,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -18040,7 +18040,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances"
             ],
             "senseTags":
@@ -18061,7 +18060,8 @@
             ],
             "actionTags":
             [
-                "Multiattack"
+                "Multiattack",
+                "Teleport"
             ],
             "tokenUrl": "https://i.imgur.com/tGOr2eN.png",
             "fluff":
@@ -18256,7 +18256,6 @@
             "legendaryActions": 2,
             "traitTags":
             [
-                "Martial Advantage",
                 "Legendary Resistances",
                 "Regeneration"
             ],
@@ -20744,7 +20743,10 @@
         {
             "name": "Megalodon",
             "source": "Canbrew",
-            "size": "H",
+            "size":
+            [
+                "H"
+            ],
             "type": "beast",
             "alignment":
             [
@@ -28236,7 +28238,10 @@
         {
             "name": "Flesh Wailer",
             "source": "Canbrew",
-            "size": "H",
+            "size":
+            [
+                "H"
+            ],
             "type":
             {
                 "type": "undead",
@@ -29689,7 +29694,10 @@
         {
             "name": "Balrog",
             "source": "Canbrew",
-            "size": "H",
+            "size":
+            [
+                "H"
+            ],
             "type":
             {
                 "type": "fiend",
@@ -31327,7 +31335,7 @@
             ],
             "hp":
             {
-                "average": "10",
+                "average": 10,
                 "formula": "3d4 + 3"
             },
             "speed":
@@ -31537,7 +31545,7 @@
             ],
             "hp":
             {
-                "average": "10",
+                "average": 10,
                 "formula": "3d4 + 3"
             },
             "speed":
@@ -31719,7 +31727,7 @@
             ],
             "hp":
             {
-                "average": "78",
+                "average": 78,
                 "formula": "12d8 + 24"
             },
             "speed":
@@ -31862,7 +31870,7 @@
             ],
             "hp":
             {
-                "average": "104",
+                "average": 104,
                 "formula": "16d8 + 32"
             },
             "speed":
@@ -32059,7 +32067,7 @@
             ],
             "hp":
             {
-                "average": "143",
+                "average": 143,
                 "formula": "22d8 + 44"
             },
             "speed":
@@ -32278,7 +32286,8 @@
             },
             "alignment":
             [
-                "X"
+                "L",
+                "NY"
             ],
             "ac":
             [
@@ -32292,7 +32301,7 @@
             ],
             "hp":
             {
-                "average": "143",
+                "average": 143,
                 "formula": "22d8 + 44"
             },
             "speed":
@@ -32395,7 +32404,7 @@
             ],
             "hp":
             {
-                "average": "152",
+                "average": 152,
                 "formula": "16d8 + 80"
             },
             "speed":
@@ -32526,7 +32535,7 @@
             ],
             "hp":
             {
-                "average": "45",
+                "average": 45,
                 "formula": "6d10 + 12"
             },
             "speed":
@@ -32651,7 +32660,7 @@
             ],
             "hp":
             {
-                "average": "135",
+                "average": 135,
                 "formula": "18d8 + 54"
             },
             "speed":
@@ -32915,7 +32924,7 @@
             ],
             "hp":
             {
-                "average": "105",
+                "average": 105,
                 "formula": "14d8 + 42"
             },
             "speed":
@@ -33114,7 +33123,7 @@
             ],
             "hp":
             {
-                "average": "52",
+                "average": 52,
                 "formula": "8d8 + 16"
             },
             "speed":
@@ -33316,7 +33325,7 @@
             ],
             "hp":
             {
-                "average": "55",
+                "average": 55,
                 "formula": "10d8 + 10"
             },
             "speed":
@@ -33434,7 +33443,7 @@
             [
                 "I"
             ],
-            "damageTagsSpells":
+            "damageTagsSpell":
             [
                 "F"
             ],
@@ -33465,7 +33474,7 @@
             ],
             "hp":
             {
-                "average": "55",
+                "average": 55,
                 "formula": "10d10 + 10"
             },
             "speed":
@@ -34051,7 +34060,7 @@
                 "I",
                 "P"
             ],
-            "damageTagsSpells":
+            "damageTagsSpell":
             [
                 "L",
                 "T"
@@ -34723,7 +34732,6 @@
             },
             "traitTags":
             [
-                "Amorphous",
                 "Natural Weapon",
                 "Uncommon Race",
                 "Skill Proficiency",
@@ -34916,7 +34924,6 @@
             },
             "traitTags":
             [
-                "Amorphous",
                 "Natural Weapon",
                 "Uncommon Race",
                 "Skill Proficiency",
@@ -35108,7 +35115,6 @@
             },
             "traitTags":
             [
-                "Amorphous",
                 "Natural Weapon",
                 "Uncommon Race",
                 "Skill Proficiency",
