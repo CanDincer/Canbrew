@@ -33419,7 +33419,7 @@
                     "name": "Fluid Magic",
                     "entries":
                     [
-                        "Sophos can use spell points instead of spell slots."
+                        "Sophos can use {@5etools spell points|https://5e.tools/variantrules.html#spell%20points_dmg} instead of spell slots."
                     ]
                 },
                 {
@@ -33519,7 +33519,9 @@
                             "slots": 1,
                             "spells":
                             [
-
+                                "{@spell contingency|PHB}",
+                                "{@spell mental prison|XGE}",
+                                "{@spell yalen's yester yank|canbrew}"
                             ]
                         },
                         "7":
