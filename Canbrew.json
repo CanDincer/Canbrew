@@ -33203,7 +33203,7 @@
                             "spells":
                             [
                                 "{@spell finger of death}",
-                                "{@spell symbol}"
+                                "{@spell symbol|PHB}"
                             ]
                         },
                         "8":
