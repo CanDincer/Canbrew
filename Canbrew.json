@@ -33204,7 +33204,8 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell }",
+                                "{@spell feeblemind|PHB}",
+                                "{@spell maze|PHB}",
                                 "{@spell mind blank|PHB}"
                             ]
                         },
