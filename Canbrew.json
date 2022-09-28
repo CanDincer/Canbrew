@@ -4637,7 +4637,10 @@
             "name": "Nyarlathotep, The Crawling Chaos",
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "aberration",
@@ -4984,7 +4987,10 @@
         },
         {
             "name": "Oblex Spawn (ogd)",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -6062,7 +6068,10 @@
             "name": "Dragoslava Wolonoff",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -6201,7 +6210,10 @@
         {
             "name": "Maul Darkmane",
             "isNpc": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -6424,7 +6436,10 @@
             "name": "Ulfgaard Ingvarsson",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -6832,7 +6847,10 @@
         },
         {
             "name": "Werewolf Leader",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -7055,7 +7073,10 @@
             "name": "Genn Mara",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -7396,7 +7417,10 @@
         },
         {
             "name": "Werewolf Predator",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -7601,7 +7625,10 @@
             "name": "Werewolf Cub",
             "group": "Lycanthropes",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -7787,7 +7814,10 @@
             "name": "Hamael",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "humanoid",
             "source": "Canbrew",
             "alignment":
@@ -7984,7 +8014,10 @@
             "name": "Xershal",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "humanoid",
             "source": "Canbrew",
             "alignment":
@@ -8181,7 +8214,10 @@
             "name": "Zadkiel",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "humanoid",
             "source": "Canbrew",
             "alignment":
@@ -8383,7 +8419,10 @@
             "name": "Semangelaf",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "humanoid",
             "source": "Canbrew",
             "alignment":
@@ -8586,7 +8625,10 @@
         },
         {
             "name": "Mongolian Pirate Hunter",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -8715,7 +8757,10 @@
         },
         {
             "name": "Mongolian Pirate Hunter Shaman",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -8907,7 +8952,10 @@
         {
             "name": "Aquatic Ghoul",
             "group": "undead",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "undead",
             "source": "Canbrew",
             "alignment":
@@ -9011,7 +9059,10 @@
         },
         {
             "name": "Mongolian Pirate Hunter Captain",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -9163,7 +9214,10 @@
         },
         {
             "name": "Mongolian Pirate Hunter Swashbuckler",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -9326,7 +9380,10 @@
         {
             "name": "Succubus of Ifrit",
             "isNpc": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "fiend",
@@ -11682,7 +11739,10 @@
             "name": "Princess Nivim",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -11983,7 +12043,10 @@
         },
         {
             "name": "Na'arn",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "undead",
             "source": "Canbrew",
             "alignment":
@@ -12128,7 +12191,10 @@
             "name": "Raya Emberstone",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -12306,7 +12372,10 @@
         },
         {
             "name": "Lava Drake",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "dragon",
             "source": "Canbrew",
             "alignment":
@@ -12446,7 +12515,10 @@
             "name": "Verazin Lemmad",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -12618,7 +12690,7 @@
                                 "{@spell fireball|PHB}",
                                 "{@spell haste|PHB}",
                                 "{@spell lightning bolt|PHB}",
-                                "{@spell melf's minute meteors|PHB}",
+                                "{@spell melf's minute meteors|XGE}",
                                 "{@spell water breathing|PHB}"
                             ]
                         },
@@ -12713,7 +12785,10 @@
         },
         {
             "name": "Orc War Baron",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -13468,7 +13543,10 @@
         },
         {
             "name": "Sand Yuan-ti",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "monstrosity",
@@ -13637,7 +13715,10 @@
             "name": "Aben'nate (ogd)",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "monstrosity",
@@ -14622,7 +14703,10 @@
         },
         {
             "name": "Drowned Metamorph (ogd)",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "monstrosity",
             "source": "Canbrew",
             "alignment":
@@ -14718,7 +14802,10 @@
         },
         {
             "name": "Pirate Chain Swinger",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -14835,7 +14922,10 @@
         },
         {
             "name": "Pirate Axe Thrower",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -15084,7 +15174,10 @@
         },
         {
             "name": "Fey Beekeeper",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "fey",
             "source": "Canbrew",
             "alignment":
@@ -15665,7 +15758,10 @@
         },
         {
             "name": "Dread Apprentice Marauder",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -15849,7 +15945,10 @@
         },
         {
             "name": "Dread Apprentice Inquisitor",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -16034,7 +16133,10 @@
         },
         {
             "name": "Dread Apprentice Assassin",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -16232,7 +16334,10 @@
         },
         {
             "name": "Dread Apprentice Juggernaut",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -16424,7 +16529,10 @@
         },
         {
             "name": "Dread Overseer Marauder",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -16612,7 +16720,10 @@
         },
         {
             "name": "Dread Overseer Inquisitor",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -16810,7 +16921,10 @@
         },
         {
             "name": "Dread Overseer Assassin",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -17024,7 +17138,10 @@
         },
         {
             "name": "Dread Overseer Juggernaut",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -17231,7 +17348,10 @@
         },
         {
             "name": "Dread Lord Marauder",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -17430,7 +17550,10 @@
         },
         {
             "name": "Dread Lord Inquisitor",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -17636,7 +17759,10 @@
         },
         {
             "name": "Dread Lord Assassin",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -17856,7 +17982,10 @@
         },
         {
             "name": "Dread Lord Juggernaut",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -18070,7 +18199,10 @@
         },
         {
             "name": "Arcane Gunslinger (ogd)",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -18249,7 +18381,10 @@
         },
         {
             "name": "Troopers (ogd)",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -19331,7 +19466,10 @@
         {
             "name": "Nothidra (ogd)",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "aberration",
             "alignment":
             [
@@ -19469,7 +19607,10 @@
         {
             "name": "Aquatic Vampire",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -19741,7 +19882,10 @@
         {
             "name": "Aquatic Vampire Spawn",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -20560,7 +20704,10 @@
         {
             "name": "Vampire Count",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -20813,7 +20960,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -21181,7 +21331,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -21504,7 +21657,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -21723,7 +21879,7 @@
                                 "{@spell animate dead|PHB}",
                                 "{@spell dispel magic|PHB}",
                                 "{@spell revivify|PHB}",
-                                "{@spell speak with dead}"
+                                "{@spell speak with dead|PHB}"
                             ]
                         },
                         "4":
@@ -21882,7 +22038,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -22214,7 +22373,10 @@
         {
             "name": "Vampire Baron",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -22467,7 +22629,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -22809,7 +22974,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -23062,7 +23230,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -23389,7 +23560,10 @@
         {
             "name": "Vampire Lord",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -23642,7 +23816,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -23843,7 +24020,7 @@
                                 "{@spell beast bond|PHB}",
                                 "{@spell ensnaring strike|PHB}",
                                 "{@spell hunter's mark|PHB}",
-                                "{@spell zephyr strile|PHB}"
+                                "{@spell zephyr strike|PHB}"
                             ]
                         },
                         "2":
@@ -23852,7 +24029,7 @@
                             "spells":
                             [
                                 "{@spell beast sense|PHB}",   
-                                "{@spell healing spirit|PHB}",
+                                "{@spell healing spirit|XGE}",
                                 "{@spell pass without trace|PHB}",
                                 "{@spell silence|PHB}"
                             ]
@@ -24029,7 +24206,7 @@
             ],
             "vulnerable":
             [
-                "raidant"
+                "radiant"
             ],
             "skill":
             {
@@ -24111,7 +24288,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -24371,7 +24551,10 @@
             "source": "Canbrew",
             "isNpc": true,
             "isNamedCreature": true,
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -24701,7 +24884,10 @@
         {
             "name": "Vampire Master",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -24954,7 +25140,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -25298,7 +25487,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -25561,7 +25753,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -25944,7 +26139,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -26204,7 +26402,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -26514,7 +26715,10 @@
         {
             "name": "Vampire Sir",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -26753,7 +26957,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -26990,7 +27197,10 @@
         {
             "name": "Exallon",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -27236,7 +27446,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -27505,7 +27718,10 @@
         {
             "name": "Throatseeker",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -27687,7 +27903,10 @@
         {
             "name": "Heathen",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -28122,7 +28341,10 @@
         {
             "name": "Nosferatu",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -28299,7 +28521,10 @@
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -28474,7 +28699,10 @@
         {
             "name": "Night Sycthe Blood Hunter",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -28664,7 +28892,10 @@
         {
             "name": "Night Sycthe Eviscerator",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -28795,7 +29026,10 @@
         {
             "name": "Night Sycthe Falcon",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -28928,7 +29162,10 @@
         {
             "name": "Scarlet Sentinel Soldier",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -29049,7 +29286,10 @@
         {
             "name": "Bruxa",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "undead",
@@ -31279,7 +31519,10 @@
         {
             "name": "Apprentice Wandslinger",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -31419,7 +31662,10 @@
         {
             "name": "Wandslinger",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -31613,7 +31859,10 @@
         {
             "name": "Master Wandslinger",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -31847,7 +32096,10 @@
         {
             "name": "Orc Gliding Falcon (ogd)",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -32203,7 +32455,10 @@
         {
             "name": "Dragon Knight",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "humanoid",
             "alignment":
             [
@@ -32464,7 +32719,10 @@
         {
             "name": "Spellsnare Fighter",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "humanoid",
             "alignment":
             [
@@ -32660,7 +32918,10 @@
         {
             "name": "Spellsnare Mage",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type": "humanoid",
             "alignment":
             [
@@ -32852,7 +33113,10 @@
         {
             "name": "Tiefling Slashtail",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -33132,9 +33396,7 @@
                         {
                             "spells":
                             [
-                                "{@spell mage hand}",
-                                "{@spell prestidigitation}",
-                                "{@spell ray of frost}"
+                                "{@spell dimension door|PHB}"
                             ]
                         },
                         "1":
@@ -33142,10 +33404,7 @@
                             "slots": 4,
                             "spells":
                             [
-                                "{@spell detect magic}",
-                                "{@spell magic missile}",
-                                "{@spell shield}",
-                                "{@spell thunderwave}"
+                                
                             ]
                         },
                         "2":
@@ -33153,10 +33412,7 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell detect thoughts}",
-                                "{@spell invisibility}",
-                                "{@spell Melf's acid arrow}",
-                                "{@spell mirror image}"
+                                
                             ]
                         },
                         "3":
@@ -33164,10 +33420,7 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell animate dead}",
-                                "{@spell counterspell}",
-                                "{@spell dispel magic}",
-                                "{@spell fireball}"
+                                
                             ]
                         },
                         "4":
@@ -33175,8 +33428,7 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell blight}",
-                                "{@spell dimension door}"
+                                
                             ]
                         },
                         "5":
@@ -33184,8 +33436,7 @@
                             "slots": 3,
                             "spells":
                             [
-                                "{@spell cloudkill}",
-                                "{@spell scrying}"
+                                
                             ]
                         },
                         "6":
@@ -33193,8 +33444,7 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell disintegrate}",
-                                "{@spell globe of invulnerability}"
+
                             ]
                         },
                         "7":
@@ -33202,7 +33452,6 @@
                             "slots": 1,
                             "spells":
                             [
-                                "{@spell finger of death}",
                                 "{@spell symbol|PHB}"
                             ]
                         },
@@ -33637,7 +33886,10 @@
         {
             "name": "Flame Legionnaire",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "type":
             {
                 "type": "humanoid",
@@ -34041,7 +34293,10 @@
         {
             "name": "Vampire",
             "source": "Canbrew",
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "speed": 30,
             "ability":
             [
@@ -34068,7 +34323,7 @@
             [
                 "Damage Resistance",
                 "Skill Proficiency",
-		        "Natural Weapons"
+		        "Natural Weapon"
             ],
             "languageProficiencies":
             [
@@ -34274,7 +34529,10 @@
                     "wis": -2
                 }
             ],
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "speed":
             {
                 "walk": 30
@@ -34282,7 +34540,7 @@
             "traitTags":
             [
                 "Amorphous",
-                "Unarmed Strike",
+                "Natural Weapon",
                 "Uncommon Race",
                 "Skill Proficiency",
                 "Monstrous Race"
@@ -34463,7 +34721,10 @@
                     "wis": -2
                 }
             ],
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "speed":
             {
                 "walk": 30,
@@ -34472,7 +34733,7 @@
             "traitTags":
             [
                 "Amorphous",
-                "Unarmed Strike",
+                "Natural Weapon",
                 "Uncommon Race",
                 "Skill Proficiency",
                 "Monstrous Race"
@@ -34653,7 +34914,10 @@
                     "cha": -2
                 }
             ],
-            "size": "M",
+            "size":
+            [
+                "M"
+            ],
             "speed":
             {
                 "walk": 30
@@ -34661,7 +34925,7 @@
             "traitTags":
             [
                 "Amorphous",
-                "Unarmed Strike",
+                "Natural Weapon",
                 "Uncommon Race",
                 "Skill Proficiency",
                 "Spellcasting",
@@ -34859,7 +35123,7 @@
                 "m":
                 {
                     "text": "5000 gp per level of the spell being made permanent, which the spell consumes",
-                    "consumed": true
+                    "consume": true
                 }
             },
             "duration":
@@ -34960,7 +35224,7 @@
                 "m":
                 {
                     "text": "A seal emblazoned with tiny gems worth 350 gp in total.",
-                    "consumed": false
+                    "consume": false
                 }
             },
             "duration":
@@ -35021,7 +35285,7 @@
                 "distance":
                 {
                     "type": "feet",
-                    "ammount": 40
+                    "amount": 40
                 }
             },
             "components":
@@ -35030,7 +35294,7 @@
                 "m":
                 {
                     "text": "Four metal coins",
-                    "consumed": false
+                    "consume": false
                 }
             },
             "duration":
