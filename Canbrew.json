@@ -33077,6 +33077,13 @@
                     ]
                 },
                 {
+                    "name": "Fluid Magic",
+                    "entries":
+                    [
+                        "Sophos can use spell points instead of spell slots."
+                    ]
+                },
+                {
                     "name": "Reactive Eye",
                     "entries":
                     [
@@ -33196,7 +33203,7 @@
                             "spells":
                             [
                                 "{@spell finger of death}",
-                                "{@spell plane shift}"
+                                "{@spell symbol}"
                             ]
                         },
                         "8":
