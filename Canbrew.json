@@ -33426,7 +33426,7 @@
                     "name": "Reactive Eye",
                     "entries":
                     [
-                        "Sophos does not use its reaction to cast {@spell counterspell|PHB}."
+                        "Sophos does not need to expend its reaction to cast {@spell counterspell|PHB}."
                     ]
                 }
             ],
