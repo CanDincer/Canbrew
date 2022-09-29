@@ -33978,7 +33978,7 @@
             "tokenUrl": "https://i.imgur.com/Mp5I3wW.png"
         },
         {
-            "name": "Flame Legionnaire",
+            "name": "Flashblade Legionnaire",
             "source": "Canbrew",
             "size":
             [
@@ -34064,7 +34064,7 @@
                     "name": "Flaming Conjuration",
                     "entries":
                     [
-                        "The flame legionnaire can conjure two flaming battleaxes as a bonus action. It must concentrate as if concentrating on a spell. If the flame legionnaire lets go of the battleaxe, it disappears. Each flaming battle axe sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+                        "The flashblade legionnaire can conjure two flaming battleaxes as a bonus action. It must concentrate as if concentrating on a spell. If the flashblade legionnaire lets go of the battleaxe, it disappears. Each flaming battle axe sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
                     ]
                 }
             ],
@@ -34074,7 +34074,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The flame legionnaire makes three attacks with its flame battleaxes or one attack with its blowgun."
+                        "The flashblade legionnaire makes three attacks with its flame battleaxes or one attack with its blowgun."
                     ]
                 },
                 {
@@ -34085,7 +34085,7 @@
                     ]
                 },
                 {
-                    "name": "Flame Battleaxe",
+                    "name": "Tranquiling Blowgun",
                     "entries":
                     [
                         "{@atk rw} {@hit 6} to hit, range 25/100 ft., one creature. {@h}1 piercing damage. On a hit, the target must make a {@dc 10} Constitution saving throw or be put to sleep for 1 hour. A creature can use its action to wake the target up."
