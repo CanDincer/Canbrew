@@ -33343,7 +33343,7 @@
             "tokenUrl": "https://i.imgur.com/AxxSTDf.png"
         },
         {
-            "name": "Sophos ogd",
+            "name": "Sophos",
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
@@ -33363,8 +33363,8 @@
             ],
             "hp":
             {
-                "average": 55,
-                "formula": "10d10 + 10"
+                "average": 255,
+                "formula": "34d10 + 68"
             },
             "speed":
             {
@@ -33379,13 +33379,13 @@
             "cha": 15,
             "save":
             {
-                "int": "+6",
-                "wis": "+6"
+                "int": "+12",
+                "wis": "+11"
             },
             "skill":
             {
-                "arcana": "+6",
-                "history": "+6",
+                "arcana": "+12",
+                "history": "+12",
                 "insight": "+10",
                 "perception": "+10"
             },
@@ -33397,8 +33397,8 @@
             [
                 "is able to converse in all known languages"
             ],
-            "passive": 10,
-            "cr": "3",
+            "passive": 20,
+            "cr": "18",
             "trait":
             [
                 {
@@ -33471,7 +33471,8 @@
                         {
                             "spells":
                             [
-                                "{@spell dimension door|PHB}"
+                                "{@spell mage hand|PHB}",
+                                "{@spell message|PHB}"
                             ]
                         },
                         "1":
@@ -33479,7 +33480,10 @@
                             "slots": 4,
                             "spells":
                             [
-                                
+                                "{@spell dimension door|PHB}",
+                                "{@spell shield|PHB}",
+                                "{@spell tenser's floating disk|PHB}",
+                                "{@spell unseen servant|PHB}"
                             ]
                         },
                         "2":
@@ -33487,7 +33491,9 @@
                             "slots": 3,
                             "spells":
                             [
-                                
+                                "{@spell locate object|PHB}",
+                                "{@spell nystul's magic aura|PHB}",
+                                "{@spell phantasmal force|PHB}"
                             ]
                         },
                         "3":
@@ -33495,7 +33501,9 @@
                             "slots": 3,
                             "spells":
                             [
-                                
+                                "{@spell nondetection|PHB}",
+                                "{@spell sending|PHB}",
+                                "{@spell tiny servant|XGE}"
                             ]
                         },
                         "4":
@@ -33503,7 +33511,9 @@
                             "slots": 3,
                             "spells":
                             [
-                                
+                                "{@spell fabricate|PHB}",
+                                "{@spell locate creature|PHB}",
+                                "{@spell polymorph|PHB}"
                             ]
                         },
                         "5":
@@ -33511,7 +33521,9 @@
                             "slots": 3,
                             "spells":
                             [
-                                
+                                "{@spell scrying|PHB}",
+                                "{@spell telekinesis|PHB}",
+                                "{@spell yalen's yester yank|Canbrew}"
                             ]
                         },
                         "6":
@@ -33520,8 +33532,7 @@
                             "spells":
                             [
                                 "{@spell contingency|PHB}",
-                                "{@spell mental prison|XGE}",
-                                "{@spell yalen's yester yank|Canbrew}"
+                                "{@spell mental prison|XGE}"
                             ]
                         },
                         "7":
