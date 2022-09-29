@@ -33419,14 +33419,14 @@
                     "name": "Fluid Magic",
                     "entries":
                     [
-                        "Sophos can use spell points instead of spell slots."
+                        "Sophos can use {@5etools spell points|https://5e.tools/variantrules.html#spell%20points_dmg} instead of spell slots."
                     ]
                 },
                 {
                     "name": "Reactive Eye",
                     "entries":
                     [
-                        "Sophos does not use its reaction to cast {@ counterspell|PHB}."
+                        "Sophos does not use its reaction to cast {@spell counterspell|PHB}."
                     ]
                 }
             ],
