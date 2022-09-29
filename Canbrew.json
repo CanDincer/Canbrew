@@ -33433,17 +33433,10 @@
             "action":
             [
                 {
-                    "name": "Multiattack",
-                    "entries":
-                    [
-                        "Sophos makes one talon attack and one wing attack."
-                    ]
-                },
-                {
                     "name": "Talons",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 4}) slashing damage."
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
                     ]
                 }
             ],
