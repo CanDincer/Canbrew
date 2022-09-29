@@ -17,7 +17,7 @@
             }
         ],
         "dateAdded": 1658932920,
-		"dateLastModified": 1664440680
+		"dateLastModified": 1664441460
     },
     "item":
     [
@@ -21644,7 +21644,7 @@
                         {
                             "spells":
                             [
-                                "{@spell booming blade|SCAG}",
+                                "{@spell booming blade|TCE}",
                                 "{@spell mage hand|PHB}",
                                 "{@spell ray of frost|PHB}"
                             ]
@@ -25460,7 +25460,7 @@
                         {
                             "spells":
                             [
-                                "{@spell booming blade|SCAG}",
+                                "{@spell booming blade|TCE}",
                                 "{@spell minor illusion|PHB}",
                                 "{@spell prestidigitation|PHB}"
                             ]
@@ -26727,7 +26727,7 @@
                         {
                             "spells":
                             [
-                                "{@spell booming blade|SCAG}",
+                                "{@spell booming blade|TCE}",
                                 "{@spell mage hand|PHB}",
                                 "{@spell ray of frost|PHB}"
                             ]
@@ -33464,8 +33464,13 @@
                         {
                             "spells":
                             [
+                                "{@spell blade ward|PHB}",
+                                "{@spell booming blade|TCE}",
                                 "{@spell mage hand|PHB}",
-                                "{@spell message|PHB}"
+                                "{@spell mending|PHB}",
+                                "{@spell message|PHB}",
+                                "{@spell mind sliver|TCE}",
+                                "{@spell prestidigitation|PHB}"
                             ]
                         },
                         "1":
@@ -33473,6 +33478,7 @@
                             "slots": 4,
                             "spells":
                             [
+                                "{@spell absorb elements|XGE}",
                                 "{@spell dimension door|PHB}",
                                 "{@spell shield|PHB}",
                                 "{@spell tenser's floating disk|PHB}",
