@@ -5293,12 +5293,12 @@
             ],
             "ac":
             [
-                10
+                11
             ],
             "hp":
             {
-                "average": 35,
-                "formula": "10d6"
+                "average": 17,
+                "formula": "5d6"
             },
             "speed":
             {
@@ -5339,15 +5339,24 @@
                                 "{@spell blade ward|PHB}"
                             ]
                         },
+                        "1":
+                        {
+                            "slots": 4,
+                            "spells":
+                            [
+                                "{@spell chaos bolt|XGE}",
+                                "{@spell hex|PHB}",
+                                "{@spell witch bolt|PHB}"
+                            ]
+                        },
                         "2":
                         {
-                            "lower": 1,
                             "slots": 2,
                             "spells":
                             [
-                                "{@spell hex|PHB}",
-                                "{@spell armor of agathys|PHB}",
-                                "{@spell misty step|PHB}"
+                                "{@spell augury|PHB}",
+                                "{@spell misty step|PHB}",
+                                "{@spell wither and bloom|SCC}"
                             ]
                         }
                     },
@@ -35453,28 +35462,28 @@
                     {
 						"3":
                         [
-							"absorb elements",
-							"ceremony"
+							"{@spell absorb elements|XGE}",
+							"{@spell ceremony|PHB}"
 						],
 						"5":
                         [
-							"augury",
-							"dragon's breath"
+							"{@spell augury|PHB}",
+							"{@spell dragon's breath|XGE}"
 						],
 						"9":
                         [
-							"fear",
-							"fly|XGE"
+							"{@spell fear|PHB}",
+							"{@spell fly|XGE}"
 						],
 						"13":
                         [
-							"elemental bane",
-							"leomund's secret chest"
+							"{@spell elemental bane|XGE}",
+							"{@spell leomund's secret chest|PHB}"
 						],
 						"17":
                         [
-							"dominate person",
-							"teleportation circle|XGE"
+							"{@spell dominate person|PHB}",
+							"{@spell teleportation circle|XGE}"
 						]
 					}
 				}
@@ -35603,7 +35612,7 @@
 						],
 						[
 							"5th",
-							"{@spell augury}, {@spell dragon's breath|XGE}"
+							"{@spell augury|PHB}, {@spell dragon's breath|XGE}"
 						],
 						[
 							"9th",
@@ -35611,11 +35620,11 @@
 						],
 						[
 							"13th",
-							"{@spell elemental bane|XGE}, {@spell leomund's secret chest}"
+							"{@spell elemental bane|XGE}, {@spell leomund's secret chest|PHB}"
 						],
 						[
 							"17th",
-							"{@spell dominate person}, {@spell teleportation circle}"
+							"{@spell dominate person|PHB}, {@spell teleportation circle|PHB}"
 						]
 					]
 				}
