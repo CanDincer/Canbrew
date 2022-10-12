@@ -3099,7 +3099,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "This pouch has an interior space considerably larger than its outside dimensions, roughly half a foot in diameter and depth. The puch can hold up to 30 pounds, not exceeding a volume of 3 cubic feet. The puch weighs 5 pounds, regardless of its contents. Retrieving an item from the pouch requires 1 minute of digging through it. Alternatively, you can roll according to the number of the items inside. On a roll of 1, you grasp what you've been searching for.",
+                "This pouch has an interior space considerably larger than its outside dimensions, roughly half a foot in diameter and depth. The puch can hold up to 30 pounds, not exceeding a volume of 3 cubic feet. The puch weighs 5 pounds, regardless of its contents. Retrieving an item from the pouch requires 1 minute of digging through it. Alternatively, you can roll according to the number of the items inside which takes one action. On a roll of 1, you grasp what you've been searching for.",
                 "If the pouch is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the pouch is turned inside out, its contents spill forth, unharmed, but the pouch must be put right before it can be used again. Breathing creatures inside the pouch can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
                 "Placing a pouch of poor paul inside an extradimensional space created by a {@item bag of holding}, {@item portable hole}, {@item heward's handy haversack}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
             ],
@@ -3145,6 +3145,26 @@
                     20,
                     20,
                     80
+                ],
+                "weightless": true
+            }
+        },
+        {
+            "name": "Clanod's Coin Condenser",
+            "rarity": "rare",
+            "weight": 1,
+            "source": "Canbrew",
+            "entries":
+            [
+                "A tiny container with a slit large enough for a coin to pass through. There are 4 dials with different colors on it. From left to right; platinum, gold, silver, and copper. Each dial can go from 0 to 9. On the bottom of the container, there are four sections of flip-numbers for the corresponding coins. Each section contains one digit flip-number except the platinum section. You can insert coins through the slit.  As you do so the container condences the coins to higher grade whenever the amount is available. The container can hold 100 lbs of coins. As an action you can adjust all four dials and tap on the top of the container to withdraw the amount of coins set on the dials assuming it's available. The container always weighs 1 pound, regardless of its contents.",
+                "The container has a few limitations. If it is overloaded, or if a sharp object pierces it or brakes it, the container ruptures and is destroyed. If the container is destroyed, its contents are lost forever.",
+                "Placing the container inside an extradimensional space created by a {@item bag of holding}, {@item portable hole}, {@item pouch of poor paul|canbrew}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10-feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+            ],
+            "containerCapacity":
+            {
+                "weight":
+                [
+                    100
                 ],
                 "weightless": true
             }
