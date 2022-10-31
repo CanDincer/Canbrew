@@ -35308,8 +35308,8 @@
         {
             "name": "Yalen's Yester Yank",
             "source": "Canbrew",
-            "level": 5,
-            "school": "T",
+            "level": 3,
+            "school": "C",
             "time":
             [
                 {
@@ -35330,7 +35330,8 @@
                 "v": true,
                 "m":
                 {
-                    "text": "A seal emblazoned with tiny gems worth 350 gp in total.",
+                    "text": "A seal emblazoned with tiny gems worth 3500 gp in total.",
+                    "cost": 350000,
                     "consume": false
                 }
             },
@@ -35340,9 +35341,14 @@
                     "type": "special"
                 }
             ],
+            "meta":
+            {
+                "ritual": true
+            },
             "entries":
             [
-                "You choose one object that you must touch throughout the casting of the spell and mark it with the seal. The object must be no larger than a 1-foot cube. For 24 hours, you can summon the object magically back to you as an action, and the spell ends if you do so."
+                "You choose one object that you must touch throughout the casting of the spell and mark it with the seal. The object must be no larger than a 1-foot cube and it must have a minimum of 3-inch diameter flat surface on which the seal can leave its mark. The seal glows with feint yellow light.",
+                "Once For 24 hours, you can summon the object magically back to you as an action, and the spell ends if you do so."
             ],
             "entriesHigherLevel":
             [
@@ -35351,7 +35357,7 @@
                     "name": "At Higher Levels",
                     "entries":
                     [
-                        "When you cast this spell using a spell slot of 6th level or higher, the duration of the spell tenfolds for each slot level above 5th."
+                        "When you cast this spell using a spell slot of 3rd or 4th level, the duration of the spell increases to 10 days. When you use a spell slot of 5th or 6th level, the duration of the spell increases to 100 days. When you use a spell slot of 7th level or higher, the duration of the spell increases to 1000 days."
                     ]
                 }
             ],
