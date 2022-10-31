@@ -35357,7 +35357,7 @@
                         "name": "At Higher Levels",
                         "entries":
                         [
-                            "When you cast this spell using a spell slot of 3rd or 4th level, the duration of the spell increases to 10 days. When you use a spell slot of 5th or 6th level, the duration of the spell increases to 100 days. When you use a spell slot of 7th level or higher, the duration of the spell increases to 1000 days."
+                            "When you cast this spell using a spell slot of 3rd level or higher, the duration is multiplied by 10 for every two slot levels above 1st."
                         ]
                     }
                 ],
