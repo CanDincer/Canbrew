@@ -8679,7 +8679,7 @@
             "tokenUrl": "https://i.imgur.com/ztoeEpU.png"
         },
         {
-            "name": "Mongolian Pirate Hunter",
+            "name": "Pirate Hunter",
             "size":
             [
                 "M"
@@ -8740,14 +8740,14 @@
                     "name": "Flourish",
                     "entries":
                     [
-                        "The mongolian pirate hunter adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
+                        "The pirate hunter adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
                     ]
                 },
                 {
                     "name": "Sea Legs",
                     "entries":
                     [
-                        "The mongolian pirate hunter has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                        "The pirate hunter has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
@@ -8757,7 +8757,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The mongolian pirate hunter makes two attacks with its scimitar or two attacks with its Shortbow."
+                        "The pirate hunter makes two attacks with its scimitar or two attacks with its Shortbow."
                     ]
                 },
                 {
@@ -8811,7 +8811,7 @@
             }
         },
         {
-            "name": "Mongolian Pirate Hunter Shaman",
+            "name": "Pirate Hunter Shaman",
             "size":
             [
                 "M"
@@ -8880,14 +8880,14 @@
                     "name": "Flourish",
                     "entries":
                     [
-                        "The mongolian pirate hunter shaman adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
+                        "The pirate hunter shaman adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
                     ]
                 },
                 {
                     "name": "Sea Legs",
                     "entries":
                     [
-                        "The mongolian pirate hunter shaman has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                        "The pirate hunter shaman has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
@@ -8914,7 +8914,7 @@
                     "name": "Spellcasting",
                     "headerEntries":
                     [
-                        "The mongolian pirate hunter shaman is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 6} to hit with spell attacks). The mongolian pirate hunter shaman has the following druid spells prepared:"
+                        "The pirate hunter shaman is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 6} to hit with spell attacks). The pirate hunter shaman has the following druid spells prepared:"
                     ],
                     "spells":
                     {
@@ -9116,7 +9116,7 @@
             }
         },
         {
-            "name": "Mongolian Pirate Hunter Captain",
+            "name": "Pirate Hunter Captain",
             "size":
             [
                 "M"
@@ -9178,14 +9178,14 @@
                     "name": "Flourish",
                     "entries":
                     [
-                        "The mongolian pirate hunter captain adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
+                        "The pirate hunter captain adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
                     ]
                 },
                 {
                     "name": "Sea Legs",
                     "entries":
                     [
-                        "The mongolian pirate hunter captain has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                        "The pirate hunter captain has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
@@ -9195,7 +9195,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The mongolian pirate hunter captain makes four attacks with its scimitars or two attacks with its shortbow."
+                        "The pirate hunter captain makes four attacks with its scimitars or two attacks with its shortbow."
                     ]
                 },
                 {
@@ -9215,7 +9215,7 @@
             ],
             "legendaryGroup":
             {
-                "name": "Mongolian Pirate Hunter Captain"
+                "name": "Pirate Hunter Captain"
             },
             "legendary":
             [
@@ -9223,14 +9223,14 @@
                     "name": "Heave ho, scallywag",
                     "entries":
                     [
-                        "The mongolian pirate hunter captain orders an ally to run up to its speed and make an attack."
+                        "The pirate hunter captain orders an ally to run up to its speed and make an attack."
                     ]
                 },
                 {
                     "name": "Shiver me timbers",
                     "entries":
                     [
-                        "The mongolian pirate hunter captain takes a step back and all negative effects and conditions on it ends." 
+                        "The pirate hunter captain takes a step back and all negative effects and conditions on it ends." 
                     ]
                 }
             ],
@@ -9271,7 +9271,7 @@
             }
         },
         {
-            "name": "Mongolian Pirate Hunter Swashbuckler",
+            "name": "Pirate Hunter Swashbuckler",
             "size":
             [
                 "M"
@@ -9333,14 +9333,14 @@
                     "name": "Flourish",
                     "entries":
                     [
-                        "The mongolian pirate hunter adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
+                        "The pirate hunter adds its Charisma modifier to the damage roll for its scimitar attacks (included in the attack)."
                     ]
                 },
                 {
                     "name": "Sea Legs",
                     "entries":
                     [
-                        "The mongolian pirate hunter has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+                        "The pirate hunter has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
                     ]
                 }
             ],
@@ -9350,7 +9350,7 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The mongolian pirate hunter makes two attacks with its scimitar It then makes two attacks with its pistol."
+                        "The pirate hunter makes two attacks with its scimitar It then makes two attacks with its pistol."
                     ]
                 },
                 {
@@ -9374,20 +9374,20 @@
                     "name": "Riposte",
                     "entries":
                     [
-                        "When a creature misses the mongolian pirate hunter with a melee attack, it can use a reaction to make a melee weapon attack against the creature."
+                        "When a creature misses the pirate hunter with a melee attack, it can use a reaction to make a melee weapon attack against the creature."
                     ]
                 },
                 {
                     "name": "Parry",
                     "entries":
                     [
-                        "The mongolian pirate hunter parries one ranged or melee attack that would hit."
+                        "The pirate hunter parries one ranged or melee attack that would hit."
                     ]
                 }
             ],
             "legendaryGroup":
             {
-                "name": "Mongolian Pirate Hunter Swashbuckler"
+                "name": "Pirate Hunter Swashbuckler"
             },
             "legendary":
             [
@@ -9395,7 +9395,7 @@
                     "name": "Fire in the hole!",
                     "entries":
                     [
-                        "The mongolian pirate hunter swashbuckler throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a {@dc 12} Dexterity saving throw or take {@dice 3d6} fire damage."
+                        "The pirate hunter swashbuckler throws a bomb at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a {@dc 12} Dexterity saving throw or take {@dice 3d6} fire damage."
                     ]
                 }
             ],
