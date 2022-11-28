@@ -16750,7 +16750,7 @@
                     "name": "Whirling Blade",
                     "entries":
                     [
-                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half as much damage."
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
@@ -16954,7 +16954,7 @@
                     "name": "Whirling Blade",
                     "entries":
                     [
-                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+8} radiant damage. On a success, creatures take half as much damage."
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+8} radiant damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
@@ -17154,7 +17154,7 @@
                     "name": "Whirling Blade",
                     "entries":
                     [
-                        "The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
                     ]
                 },
                 {
@@ -17363,7 +17363,7 @@
                     "name": "Whirling Blade",
                     "entries":
                     [
-                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+5} radiant damage. On a success, creatures take half damage."
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+5} radiant damage. On a success, creatures take half damage."
                     ]
                 },
                 {
@@ -17565,7 +17565,7 @@
                     "name": "Whirling Blade",
                     "entries":
                     [
-                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half as much damage."
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
@@ -17780,7 +17780,7 @@
                     "name": "Whirling Blade",
                     "entries":
                     [
-                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+9} radiant damage. On a success, creatures take half as much damage."
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+9} radiant damage. On a success, creatures take half as much damage."
                     ]
                 },
                 {
@@ -17988,7 +17988,7 @@
                     "name": "Whirling Blade",
                     "entries":
                     [
-                        "The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half damage."
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half damage."
                     ]
                 },
                 {
@@ -18204,7 +18204,7 @@
                     "name": "Whirling Blade",
                     "entries":
                     [
-                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the are must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
+                        "The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
                     ]
                 },
                 {
