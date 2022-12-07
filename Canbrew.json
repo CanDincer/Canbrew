@@ -11,11 +11,13 @@
                 [
                     "Can Dinçer"
                 ],
-                "version": "2022.07.27",
+                "version": "2022.12.07",
                 "url": "https://github.com/CanDincer/Canbrew",
                 "targetSchema": "1.0.0"
             }
-        ]
+        ],
+        "dateAdded": 1546862880,
+        "dateLastUpdated": 1670414880
     },
     "item":
     [
