@@ -4856,7 +4856,8 @@
                             ]
                         }
                     },
-                    "ability": "int"
+                    "ability": "int",
+                    "type": "spellcasting"
                 }
             ],
             "trait":
