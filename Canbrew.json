@@ -17,7 +17,7 @@
             }
         ],
         "dateAdded": 1546862880,
-        "dateLastModified": 1670414880
+        "dateLastModified": 1673962080
     },
     "item":
     [
@@ -35358,7 +35358,7 @@
                         "name": "At Higher Levels",
                         "entries":
                         [
-                            "When you cast this spell using a spell slot of 3rd level or higher, the duration is multiplied by 10 for every two slot levels above 1st."
+                            "When you cast this spell using a spell slot of 3rd level or higher, the duration is multiplied by 10 for every two slot levels above 3rd."
                         ]
                     }
                 ],
