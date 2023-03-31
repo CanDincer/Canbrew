@@ -34154,7 +34154,137 @@
                     }
                 ]
             }
-        }
+        },
+        {
+			"name": "Magma Weird",
+			"source": "Canbrew",
+			"size":
+			[
+				"L"
+			],
+			"type": "ooze",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				8
+			],
+			"hp":
+			{
+				"average": 51,
+				"formula": "6d10 + 18"
+			},
+			"speed":
+			{
+				"walk": 10,
+				"climb": 10
+			},
+			"str": 12,
+			"dex": 6,
+			"con": 16,
+			"int": 1,
+			"wis": 6,
+			"cha": 2,
+			"senses":
+			[
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"resist":
+			[
+				"acid",
+				"cold"
+			],
+			"immune":
+			[
+				"fire",
+				"lightning",
+				"slashing"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"cr": "2",
+			"trait":
+			[
+				{
+					"name": "Invisible in Magma",
+					"entries":
+					[
+						"The water weird is {@condition invisible} while fully immersed in lava or magma."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries":
+					[
+						"While the weird remains motionless, it is indistinguishable from a pool or lava or magma."
+					]
+				},
+				{
+					"name": "Heated Body",
+					"entries":
+					[
+						"A creature that touches the weird or hits it with a melee attack while within 5 feet of it takes 3 ({@damage 1d6}) fire damage. Additionally, the weird's heat ignites flammable objects within 5 feet of it that aren't being worn or carried."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries":
+					[
+						"The weird sheds bright light in a 20-foot radius and dim light in an additional 20 feet."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Pseudopod",
+					"entries":
+					[
+						"Melee Weapon Attack {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage plus 7 ({@damage 2d6}) fire damage."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Split",
+					"entries":
+					[
+						"When a weird that is Medium or larger is subjected to lightning or slashing damage, it splits into two new weird if it has at least 10 hit points. Each new weird has hit points equal to half the original weird's, rounded down. New weird are one size smaller than the original weird."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"False Appearance",
+				"Illumination"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"damageTags":
+			[
+				"B",
+				"F"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+            "tokenUrl": "https://i.imgur.com/rCZuDIQ.png"
+		}
     ],
     "legendaryGroup":
     [
