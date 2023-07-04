@@ -4356,6 +4356,17 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Mage-King's Diadem",
+            "rarity": "artifact",
+            "weight": 1,
+            "reqAttune": "by a spellcaster",
+            "source": "Canbrew",
+            "entries":
+            [
+                "This platinum circlet can be used as a spell focus. While casting through this focus, it reduces the spell slot requirement by one, except for 1st and 9th level spells and when higher-than-default level spell slot is used for a spell."
+            ]
         }
     ],
     "monster":
