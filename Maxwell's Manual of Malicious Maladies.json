@@ -1,0 +1,132 @@
+{
+	"_meta":
+	{
+		"sources":
+		[
+			{
+				"json": "MaxwellsManualofMaliciousMaladies",
+				"abbreviation": "MMMM",
+				"full": "Maxwell's Manual of Malicious Maladies",
+				"url": "https://drive.google.com/file/d/1z_oTJvusofehZoFKp8iDhRdZlMjWVxa_/view",
+				"authors":
+				[
+					"Thomas Pfeifer"
+				],
+				"convertedBy":
+				[
+					"Can"
+				],
+				"color": "#8b1010"
+			}
+		]
+	},
+	"table":
+	[
+		{
+			"name": "Aarakocra",
+			"source": "MMMM",
+			"page": 8,
+			"colLabels": [
+				"DC",
+				"Item",
+				"Description",
+				"Value",
+				"Weight",
+				"Crafting"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-2 text-center",
+				"col-6",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-2 text-center"
+			],
+			"rows": [
+				[
+					"5",
+					"Aarakocra Feathers (small pouch)",
+					"The large feathers of an aarakocra are enjoyed among some of the more ostentatious members of society as fun accessories and fashion highlights. If you can find a tailor willing to take them, you are sure to be able to earn at least a few silver for a good amount of them.",
+					"8 sp",
+					"2 lb",
+					"—"
+				],
+				[
+					"10",
+					"Aarakocra Heart",
+					{
+						"type": "entries",
+						"entries": [
+							"Aarakocra have an innate connection to the elemental planes that allows them to summon air elementals when enough of them gather together. Burning their hearts in an offering can achieve much of the same effect but with less control over the temperament of the summoned elemental.",
+							{
+								"type": "entries",
+								"name": "Use:",
+								"entries": [
+									"When 5 different creatures within 30 feet of each other hold 5 different aarakocra hearts and spend their actions on three consecutive turns to burn the hearts, they may summon an {@creature air elemental|MM} in an unoccupied space within 60 feet of them. The burners must remain still while burning the hearts. This elemental is hostile to all creatures it can see around it, but any of the 5 creatures that summoned it can spend their action to try and succeed on a {@dc 15} Charisma ({@skill Persuasion}) check to direct the air elemental's hostility at a creature they can both see within 60 feet. The {@creature air elemental|MM} remains for 1 hour."
+								]
+							}
+						]
+					},
+					"2 gp",
+					"5 lb",
+					"—"
+				]
+			]
+		},
+		{
+			"name": "Aboleth",
+			"source": "HHHVI",
+			"page": 8,
+			"colLabels": [
+				"DC",
+				"Item",
+				"Description",
+				"Value",
+				"Weight",
+				"Crafting"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-2 text-center",
+				"col-6",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-2 text-center"
+			],
+			"rows": [
+				[
+					"10",
+					"Aboleth Teeth (large bag)",
+					"The razor sharp teeth that line the stinking maw of the aboleth are each as large as a human's forearm and twice as thick. While too unwieldy and crooked to turn into a weapon, more exotic merchants would pay a tidy sum to turn them into decorations and trinkets.",
+					"20 gp",
+					"15 lb",
+					"—"
+				],
+				[
+					"15",
+					"Aboleth Mucus (3 vials)",
+					"Aboleths demand service and obsequience, even going so far as to warp the creatures around themselves to suit their domain. While the transformative mucus that surrounds the aboleth tends to dissipate quickly after their death, swift harvesters can bottle some of it for use in alchemy projects later.",
+					"20 gp",
+					"1 lb",
+					"{@item Potion of Water Breathing|DMG}"
+				],
+				[
+					"20",
+					"Aboleth Eye",
+					"Larger than a normal creature's head. Removed from its skull and ever unblinking, it still seems to see more than most mortals ever will.",
+					"375 gp",
+					"45 lb",
+					"{@item Lens of Forgotten History|HHHVI}"
+				],
+				[
+					"25",
+					"Aboleth Brain Lobe",
+					"The power of the aboleth lies not in its many tentacles, but in its brain. Even now and then, when you hold it long enough, you swear you can hear whispers of forgotten history in the corner of your mind.",
+					"1,600 gp",
+					"30 lb",
+					"{@item Aboleth Amulet|HHHVI}"
+				]
+			]
+		}
+	]
+}
