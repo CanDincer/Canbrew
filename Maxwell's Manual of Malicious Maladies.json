@@ -144,7 +144,8 @@
 			"name": "Bludgeoning Damage",
 			"source": "MMMM",
 			"page": 11,
-			"colLabels": [
+			"colLabels":
+			[
 				"DC",
 				"Item",
 				"Description",
@@ -152,7 +153,8 @@
 				"Weight",
 				"Crafting"
 			],
-			"colStyles": [
+			"colStyles":
+			[
 				"col-1 text-center",
 				"col-2 text-center",
 				"col-6",
@@ -160,7 +162,8 @@
 				"col-1 text-center",
 				"col-2 text-center"
 			],
-			"rows": [
+			"rows":
+			[
 				[
 					"10",
 					"Aboleth Teeth (large bag)",
