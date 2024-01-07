@@ -23,34 +23,108 @@
 	"table":
 	[
 		{
-			"name": "Aarakocra",
+			"name": "Acid Damage",
 			"source": "MMMM",
-			"page": 8,
+			"page": 10,
 			"colLabels": [
-				"DC",
-				"Item",
+				"3d6",
+				"Injury",
 				"Description",
-				"Value",
-				"Weight",
-				"Crafting"
+				"Treatment"
 			],
 			"colStyles": [
 				"col-1 text-center",
 				"col-2 text-center",
 				"col-6",
-				"col-1 text-center",
-				"col-1 text-center",
-				"col-2 text-center"
+				"col-2"
 			],
 			"rows": [
 				[
-					"5",
-					"Aarakocra Feathers (small pouch)",
-					"The large feathers of an aarakocra are enjoyed among some of the more ostentatious members of society as fun accessories and fashion highlights. If you can find a tailor willing to take them, you are sure to be able to earn at least a few silver for a good amount of them.",
-					"8 sp",
-					"2 lb",
-					"—"
+					"3",
+					"Ocular Corrosion",
+					"Acid has splashed over both of your eyes. You are blinded and both your eyes are nonfunctional. If you do not receive treatment within 30 minutes your vision will be permanently missing.",
+					"A DC 20 Save Sense Surgery."
 				],
+				[
+					"4",
+					"Dissolved Limb",
+					"Roll on the Large Limb Table. Acid coats your limb, and you hear the sizzle as it starts to dissolve. This limb is nonfunctional. If you do not receive treatment within 30 minutes, the limb dissolves away and is missing.",
+					"A DC 20 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the limb is lost."
+				],
+				[
+					"5",
+					"Dissolved Appendage",
+					"Roll on the Small Appendage Table. Acid splashes over your appendage and sizzles as it begins to dissolve. This appendage is nonfunctional. If you do not receive treatment within 30 minutes, the appendage dissolves away and is missing.",
+					"A DC 20 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the appendage is lost."
+				],
+				[
+					"6",
+					"Corroded Weapon",
+					"Your weapon has been coated in corrosive acid and is getting duller by the second. Each round your weapon takes a cumulative -1 to Damage Rolls. When a mundane weapon reaches a -5 penalty it is destroyed. When a magic weapon reaches a -5 penalty all magical effects are suppressed for 1d4 days (after which the penalty disappears and the weapon functions normally).",
+					"-"
+				],
+					
+
+"7",
+"Caustic Coating",
+"Any friendly character you touch or otherwise interact with physically takes acid damage equal to your level. Creatures you grapple take this damage at the beginning of their turn. This effect lasts 1 minute.",
+"A DC 15 Wisdom (Medicine) check ends this effect. You may reattempt this check."
+
+"8",
+"Caustic Burn",
+"The acid has left you with a superficial, but painful burn. You take 1 point of acid damage per 5 feet of movement while on initiative.",
+"A DC 13 Wisdom (Medicine) check ends this effect."
+
+"9",
+"Dissolved Arcane Medium",
+"Your arcane focus or spell component pouch is dissolved and destroyed. If your arcane focus is magical, it instead has its magical effects supressed for 1d4 days and is unusable during that time.",
+"-"
+
+"10",
+"Dissolved Shield",
+"Your shield is dissolved and destroyed. If your shield is magical, it instead has its magical effects supressed for 1d4 days and is unusable during that time.",
+"-"
+
+"11",
+"Dappled Scar",
+"Roll on the Scar Chart. You have a silvery white speckled scar as a result of acid splashing on that area of your body.",
+"-"
+
+"12",
+"Corroded Clothes",
+"Your clothes have been corroded to the point of uselessness. If they are magic, they instead have any magical effects supressed for 1d4 days. You are luckily unharmed, apart from a potentially awkward situation with your party members.",
+"-"
+
+"13",
+"Toxic Inhalation",
+"You've inhaled the acid's toxic fumes causing you to cough and hack violently. You are incapacitated until the end of your next turn.",
+"-"
+
+"14",
+"Caustic Lung",
+"You've deeply inhaled the acid's toxic fumes causing you to go into a coughing fit. You are incapacitated for 1d4 rounds.",
+"-"
+
+"15",
+"Scaly Scar",
+"Roll on the Scar Chart. The acid injury has resulted in a scar that is gnarled and scaly with a light sheen the same color as the acid that damaged you. You gain +2 Natural Armor from it, or +1 if you already have a Natural Armor bonus.",
+"-"
+
+"16",
+"Corroded Armor",
+"The acid has covered your armor, slowly eating away at it. Each turn your armor takes a cumulative -1 penalty to AC. When the armor's AC reaches 10, it is destroyed. If the armor is magical, its magical effects are instead suppressed for 1d6 days and it is unusable during this time (after which the penalty disappears and the armor functions normally).",
+"-"
+
+"17",
+"Dissolved Magic",
+"Acid has eaten into the essence of one of your magic items, expelling its arcane energy and rendering it mundane. Choose a magic item on your person at random. That item loses all magical effects permanently. If the item's rarity is Legendary or Artifact, its magical effects are instead supressed for 3d6 days (and return to normal after this period).",
+"-"
+
+"18",
+"Vocal Cord Damage",
+"The acid's caustic fumes have wreaked havoc on your vocal cords. Your voice is nonfunctional and you are mute. If you do not receive treatment within 30 minutes it will be permanently missing.",
+"A DC 19 Save Sense Surgery."
+				]
 				[
 					"10",
 					"Aarakocra Heart",
