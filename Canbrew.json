@@ -6019,10 +6019,6 @@
                     ]
                 }
             ],
-            "legendaryGroup":
-            {
-                "name": "Cursed Tree"
-            },
             "legendary":
             [
                 {
@@ -9226,10 +9222,6 @@
                     ]
                 }
             ],
-            "legendaryGroup":
-            {
-                "name": "Pirate Hunter Captain"
-            },
             "legendary":
             [
                 {
@@ -9398,10 +9390,6 @@
                     ]
                 }
             ],
-            "legendaryGroup":
-            {
-                "name": "Pirate Hunter Swashbuckler"
-            },
             "legendary":
             [
                 {
@@ -13033,11 +13021,6 @@
                     ]
                 }
             ],
-            "legendaryGroup":
-            {
-                "name": "Orc War Baron",
-                "source": "Canbrew"
-            },
             "legendary":
             [
                 {
@@ -13072,6 +13055,28 @@
                         "When the orc is hit by a melee attack, it can choose to turn it into a critical hit and use its reaction to grab the weapon from its attacker's hand on a failed contested Athletics check. The weapon is thrown 10 feet away from the orc in the direction of the orc's choice."
                     ]
                 }
+            ],"lairActions":
+            [
+                "On Initiative count 20 (losing initiative ties), the orc can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "{@dice 1d2} orcs come rushing to aid the orc from up to 60 feet close to the orc."
+                    ]
+                }
+            ],
+            "regionalEffects":
+            [
+                "The region containing the orc war baron's lair is warped by its magic, creating one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "A regional effect"
+                    ]
+                },
+                "If the orc war baron is destroyed, these effects fade over the course of 1d10 days."
             ],
             "traitTags":
             [
@@ -13292,10 +13297,6 @@
                 "swamp",
                 "urban"
             ],
-            "legendaryGroup":
-            {
-                "name": "Venom Queen"
-            },
             "legendary":
             [
                 {
@@ -16017,10 +16018,6 @@
                     ]
                 }
             ],
-            "legendaryGroup":
-            {
-                "name": "Dread"
-            },
             "legendary":
             [
                 {
@@ -34170,33 +34167,6 @@
     "legendaryGroup":
     [
 		{
-			"name": "Orc War Baron",
-			"source": "Canbrew",
-            "lairActions":
-            [
-                "On Initiative count 20 (losing initiative ties), the orc can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "{@dice 1d2} orcs come rushing to aid the orc from up to 60 feet close to the orc."
-                    ]
-                }
-            ],
-            "regionalEffects":
-            [
-                "The region containing the orc war baron's lair is warped by its magic, creating one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "A regional effect"
-                    ]
-                },
-                "If the orc war baron is destroyed, these effects fade over the course of 1d10 days."
-            ]
-		},
-		{
 			"name": "Werewolf Chieftain",
 			"source": "Canbrew",
             "lairActions":
@@ -34804,6 +34774,7 @@
                         ]
                     },
                     {
+                        "type": "entires",
                         "name": "Klyntar Names",
                         "entries":
                         [
