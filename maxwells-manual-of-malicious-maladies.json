@@ -398,7 +398,101 @@
 			],
 			"rows":
 			[
-				
+				[
+					"3",
+					"Heat Intolerance",
+					"You just can't take the heat. Any exposure causes you to sweat, turn beet red, and become quickly atigued. You have disadvantage on Constitution checks and saving throws made to resist the nvironmental effects of heat.",
+					"-"
+				],
+				[
+					"4",
+					"Immolated Limb",
+					"Roll on the Large Limb Table. The limb is charred black, completely covered in extensive burns, and onfunctional. If untreated within 24 hours the limb will necrotize and fall off in 1d4 days (after which it s missing).",
+					"Treatment - A DC 21 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on he first check, the limb is lost."
+				],
+				[
+					"5",
+					"Immolated Appendage",
+					"Roll on the Small Appendage Table. The appendage is charred black, completely covered in extensive urns, and nonfunctional. If untreated within 24 hours the appendage will necrotize and fall off in 1d4 ays (after which it is missing).",
+					"Treatment - A DC 21 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on he first check, the appendage is lost."
+				],
+				[
+					"6",
+					"Third Degree Burn",
+					"You have a deep burn penetrating through your skin, resulting in a cracked, red wound. While on nitiative you take 1 fire damage for every 5 feet of movement. In addition, you take 1d4 fire damage very time you take an action or bonus action. This injury lasts 1d8 days.",
+					"Treatment - A DC 16 Wisdom (Medicine) check reduces the duration of this injury by 1d8 days."
+				],
+				[
+					"7",
+					"Heat Exhaustion",
+					"Sweat breaks out on your brow, your pulse is thready, and your muscles feel weak. You take 1 level of xhaustion.",
+					"Treatment - A long rest or the Greater Restoration spell removes this exhaustion as usual."
+				],
+				[
+					"8",
+					"First Degree Burn",
+					"An angry red burn flashes over your skin. It's tender and painful to move. While on initiative you take 1 ire damage per 10 feet of movement. This injury heals in 1d6 days.",
+					"Treatment - A DC 10 Wisdom (Medicine) check reduces the duration of this injury by 1d6 days."
+				],
+				[
+					"9",
+					"Heat Stroke",
+					"It's so hot you feel faint. Your muscles are cramping. It feels as if your blood is about to boil in your body. You take 2 levels of exhaustion.",
+					"Treatment - A long rest or the Greater Restoration spell removes this exhaustion as usual."
+				],
+				[
+					"10",
+					"Second Degree Burn",
+					"Your skin bubbles and blisters as the burning flashes over it. While on initiative you take 1 fire damage er 5 feet of movement. This injury heals in 1d8 days.",
+					"Treatment - A DC 12 Wisdom (Medicine) check reduces the duration of this injury by 1d8 days."
+				],
+				[
+					"11",
+					"Burn Scar",
+					"Roll on the Scar Chart. This area of your body is left with a creased and wrinkled burn scar.",
+					"-"
+				],
+				[
+					"12",
+					"Branded",
+					"Roll on the Scar Chart. This area of your body is left with a defined, slightly depressed branding scar.",
+					"-"
+				],
+				[
+					"13",
+					"Ignited",
+					"You. Are. On. Fire. Dancing flames lick around your body. At the beginning of your turn, you take fire amage scaled to the damage that caused the lingering injury: 1-10 damage (1d2), 11-20 damage (1d4), 21-30 damage (1d6), 31-40 damage (1d8), >40 damage (1d10).",
+					"Treatment - You may use an action to extinguish the flames."
+				],
+				[
+					"14",
+					"Searing Temperatures",
+					"The temperature around you skyrockets, flash-heating everything nearby. Any flammable objects being orn or wielded are ignited. You drop anything metal you are carrying in sudden shock.",
+					"Treatment - You may extinguish any worn or wielded items that were ignited with a bonus action. If you ttempt to pick up any dropped items, make a Constitution saving throw (DC equals half the damage that aused the lingering injury or 10, whichever number is higher) to brave the heat and retrieve them."
+				],
+				[
+					"15",
+					"Inner Fire Roll on the Scar Chart. In a freak instance of chance, the heat has interacted with a thread of natural agic within you. This area of your body is permanently hot (though to you it feels pleasantly warm) and adiates a faint aura of Transmutation. You have advantage on Constitution checks and saving throws ade to resist the environmental effects of heat. You may supress this effect by maintaining oncentration.",
+					"-"
+				],
+				[
+					"16",
+					"Incinerated Appendage",
+					"Roll on the Small Appendage Table. The blazing fires have scoured through until nothing but ash remains. The appendage is missing and the resulting wound is cauterized.",
+					"-"
+				],
+				[
+					"17",
+					"Incinerated Limb",
+					"Roll on the Large Limb Table. The voracious fire has devoured your limb, leaving nothing but smoking inders in its wake. The limb is missing, and the resulting wound is cauterized.",
+					"-"
+				],
+				[
+					"18",
+					"Airway Burn",
+					"You inhale the scorching air around you and it burns a path straight down to your lungs. Your sense of aste and smell are nonfunctional If not treated within 24 hours they will be permanently missing.",
+					"Treatment - A DC20 Save Sense Surgery."
+				]
             ]
         }
 	]
