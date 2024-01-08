@@ -286,22 +286,19 @@
 				],
 				[
 					"4",
-					"Frozen",
-					"Cornea",
+					"Frozen Cornea",
 					"Roll to randomly determine the right or left eye. The frigid air has frozen over the surface layer of your eye. The eye is nonfunctional. If not treated within 12 hours, your vision will be permanently missing.",
 					"A DC 20 Save Sense Surgery. If the player spends a short rest rewarming the area within 15 inutes of the injury occurring, this DC is decreased to 10."
 				],
 				[
 					"5",
-					"Extensive",
-					"Frostbite",
+					"Extensive Frostbite",
 					"Roll twice on the Small Appendage Table. These appendages are firm, frigid, pale, and nonfunctional. If not treated within 15 minutes they will necrotize and fall off in 1d4 days (after which they are missing).",
 					"A short rest slowly rewarming the appendages."
 				],
 				[
 					"6",
-					"Severe",
-					"Hypothermia",
+					"Severe Hypothermia",
 					"Your core body temperature has plummeted dangerously low. While on initiative you function as if affected by both the Slow and Confusion spells. If untreated for one hour, you fall unconscious.",
 					"A short rest slowly rewarming yourself ends this effect."
 				],
@@ -472,7 +469,8 @@
 				],
 				[
 					"15",
-					"Inner Fire Roll on the Scar Chart. In a freak instance of chance, the heat has interacted with a thread of natural magic within you. This area of your body is permanently hot (though to you it feels pleasantly warm) and radiates a faint aura of Transmutation. You have advantage on Constitution checks and saving throws made to resist the environmental effects of heat. You may supress this effect by maintaining concentration.",
+					"Inner Fire",
+					"Roll on the Scar Chart. In a freak instance of chance, the heat has interacted with a thread of natural magic within you. This area of your body is permanently hot (though to you it feels pleasantly warm) and radiates a faint aura of Transmutation. You have advantage on Constitution checks and saving throws made to resist the environmental effects of heat. You may supress this effect by maintaining concentration.",
 					"-"
 				],
 				[
@@ -495,27 +493,1060 @@
 				]
             ]
         },
-		{
-			"name": "Force Damage",
-			"source": "MMMM",
-			"page": 14,
-			"colLabels":
-			[
-				"3d6",
-				"Injury",
-				"Description",
-				"Treatment"
-			],
-			"colStyles":
-			[
-				"col-1 text-center",
-				"col-1 text-center",
-				"col-6",
-				"col-2"
-			],
-			"rows":
-			[
-				
+        {
+            "name": "Force Damage",
+            "source": "MMMM",
+            "page": 14,
+            "colLabels":
+            [
+                "3d6",
+                "Injury",
+                "Description",
+                "Treatment"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-6",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "3",
+                    "Third Eye Blinded",
+                    "Something vital, yet intangible within you falls deathly silent. You feel...disconnected. You lose the ability to communicate telepathically. All magical communication that specifically targets you fails (such as the Message, Sending, and Telepathic Bond spells). Your mind cannot be read or detected.",
+                    "-"
+                ],
+                [
+                    "4",
+                    "Pertinax Machina",
+                    "Your spells struggle to take and always seem like they need a little something extra. Any spell with a material component cost requires double that cost to cast. If the spell consumes the components, double the cost in components are consumed.",
+                    "-"
+                ],
+                [
+                    "5",
+                    "Null Arcana",
+                    "As the arcane energy strikes you, you feel something within you sputter and fizzle. You lose the ability to cast spells through any means (including class features, racial traits, or magical items) for 1d4 days.",
+                    "-"
+                ],
+                [
+                    "6",
+                    "Ligo Secare",
+                    "You feel the abrupt and disconcerting recoil of a severed connection. You lose attunement to anything you are currently attuned to. You may not attune to anything for 1d4 days.",
+                    "-"
+                ],
+                [
+                    "7",
+                    "Wild Magic Feedback",
+                    "An errant thread of magic comes loose, slipping away from you and causing havoc. The creature or source of the damage rolls on the Wild Magic Surge Table (PHB pg.104).",
+                    "-"
+                ],
+                [
+                    "8",
+                    "Wild Magic Surge",
+                    "An errant thread of magic comes loose, slipping towards you and causing chaos. Roll on the Wild Magic",
+                    "Surge Table (PHB pg.104).",
+                    "-"
+                ],
+                [
+                    "9",
+                    "Null Scola",
+                    "You can feel the magic pulse and resonate with the arcane residue that clings to you from the last spell you cast. There's a searing feeling deep in your mind. You lose the ability to cast spells from the same school of magic as the most recent spell you've cast for 1d4 days.",
+                    "-"
+                ],
+                [
+                    "10",
+                    "Mana Discharge",
+                    "You feel an almost anticlimactic pop and then, nothing. All your spell slots are harmlessly expended. You may reprepare spells as usual after a long rest or as your class dictates.",
+                    "-"
+                ],
+                [
+                    "11",
+                    "Lingering Aura",
+                    "Roll on the Scar Chart. Sometimes there are strange side effects when you deal with raw magical energy. This body part emits faint, misty whisps of arcane energy with the following color and faint magical aura (roll 1d4): 1) Orange, Conjuration, 2) Red, Evocation, 3) Blue, Abjuration, 4) Green, Transmutation.",
+                    "-"
+                ],
+                [
+                    "12",
+                    "Lingering Aura",
+                    "Roll on the Scar Chart. Sometimes there are strange side effects when you deal with raw magical energy. This body part emits faint, misty whisps of arcane energy with the following color and faint magical aura (roll 1d4): 1) Black, Necromancy, 2) White, Enchantment, 3) Yellow, Illusion, 4) Violet, Divination.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "Mana Burn",
+                    "You feel the energy tug violently at your arcane essence until a portion of it tears loose. One of the highest level spell slots you have available to cast is harmless expended. You may reprepare this spell slot as usual after a long rest or as your class dictates.",
+                    "-"
+                ],
+                [
+                    "14",
+                    "Mana Syphon",
+                    "You feel the energy suck away your arcane essence and are left with a lingering feeling of emptiness. Two of the highest level spell slots you have available to cast are harmless expended. You may reprepare these spell slots as usual after a long rest or as your class dictates.",
+                    "-"
+                ],
+                [
+                    "15",
+                    "Imbuant Artus",
+                    "Roll on the Large Limb Table. When the arcane energy has been expelled and the pain recedes, you flex your limb and find some of that energy has decided to stick with you. Unarmed strikes and weapons wielded by this limb count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+                    "-"
+                ],
+                [
+                    "16",
+                    "Dessico Vis",
+                    "Your magical equipment fizzles and starts to emit a high-pitch whine. You're pretty sure it's not supposed to do that... Choose one of your magical items that has charges at random and roll 1d4. That many charges are immediately expended (targets chosen at random, if necessary) and the item's maximum charges are permanently reduced by that amount (to a minimum of 1).",
+                    "-"
+                ],
+                [
+                    "17",
+                    "Anathema Magicka",
+                    "You shake your head from the force of the arcane blow and, it's gone. The knowledge, that is, not your head. You lose the ability to cast your most recently cast spell permanently. You can never cast this spell again by any means (including class features, racial traits, or magical items). If your class allows you to replace spells on your spell list when leveling up, you may replace this spell normally.",
+                    "-"
+                ],
+                [
+                    "18",
+                    "En Vivo Reincarnem",
+                    "You experience the feeling of something unlocking, something leaving, something returning, and then grinding bones, stretching muscles, and sliding viscera. When it's all over you're left gasping for breath, and you're different. You change race as if the Reincarnate spell had been cast on you.",
+                    "-"
+                ]
+            ]
+        },
+        {
+            "name": "Lightning Damage",
+            "source": "MMMM",
+            "page": 15,
+            "colLabels":
+            [
+                "3d6",
+                "Injury",
+                "Description",
+                "Treatment"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-6",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "3",
+                    "Arrhythmia",
+                    "Electricity surges into the core of your being, causing your heart to stutter. It is far more difficult for you to handle physical activity without becoming greatly fatigued. Any time you would take levels of exhaustion you take one additional level.",
+                    "A DC25 General Surgery."
+                ],
+                [
+                    "4",
+                    "Cardiac Arrest",
+                    "As the electricity leaves your heart, it beats one last time before silence. You are unconscious and dying, your hit points drop to 0.",
+                    "If you are stabilized your heart gallops back to life, you are no longer unconscious, and your hit points return to the total they were at before they dropped to 0."
+                ],
+                [
+                    "5",
+                    "Muscle Avulsion",
+                    "Roll on the Large Limb Table. Your muscle has contracted so strongly that its been torn free of the bone. Your limb is nonfunctional and will not properly heal without surgery.",
+                    "A DC 20 Save Limb Surgery."
+                ],
+                [
+                    "6",
+                    "Personality Change",
+                    "Your brain has been damaged by the electrical surge and you're not acting like yourself. You take a flaw chosen randomly or by the DM.",
+                    "After each long rest roll a d20. On a 19 or 20, the flaw disappears."
+                ],
+                [
+                    "7",
+                    "Muscle Spasms",
+                    "Your muscles twitch in repetitive patterns and you have difficulty coordinating your movement. You have disadvantage on all Dexterity based attacks, checks, and saves for 1d4 turns.",
+                    "-"
+                ],
+                [
+                    "8",
+                    "Electrocution",
+                    "Your muscles seize, your eyes roll back, and you cannot seem to force your body to function. You are paralyzed until the end of your next turn. Critical hits as the result of your paralysis do not cause you to roll another lingering injury.",
+                    "The Lesser Restoration spell removes this paralysis as usual."
+                ],
+                [
+                    "9",
+                    "True Electrocution",
+                    "Your body convulses and seizes, you can hardly even think, much less move it. You are paralyzed for 1d2 rounds. Critical hits as the result of your paralysis do not cause you to roll another lingering injury.",
+                    "The Lesser Restoration spell removes this paralysis as usual."
+                ],
+                [
+                    "10",
+                    "Numbed Nerves",
+                    "Your nerves are shot, you feel numb, and you're having trouble making your body respond with the speed you need it to. You cannot take reactions for 1d4 days.",
+                    "A DC 14 Wisdom (Medicine) check reduces the duration of this injury by 1d4 days."
+                ],
+                [
+                    "11",
+                    "Grounding Scar",
+                    "Roll twice on the Scar Chart. Each area of your body is left with a round scar, one where the electricity entered, and one where the electricity left.",
+                    "-"
+                ],
+                [
+                    "12",
+                    "Lictenburg Figure",
+                    "Roll on the Scar Chart. This area of your body is left with a Lictenburg Figure, a scar resembling lightning that runs along the path the current took through your body.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "Arc Flash",
+                    "The electricity's current has ignited you aflame. At the beginning of your turn, you take fire damage scaled to the damage that caused the lingering injury: 1-10 damage (1d2), 11-20 damage (1d4), 21-30 damage (1d6), 31-40 damage (1d8), >40 damage (1d10).",
+                    "You may use an action to extinguish the flames."
+                ],
+                [
+                    "14",
+                    "Lightning Rod",
+                    "The electricity crackles around your body for a second, looking for the closest thing to discharge to. The electricity then arcs from you to the nearest creature carrying metal weapons or wearing metal armor. This creature takes lightning damage equal to half the damage that caused the lingering injury.",
+                    "-"
+                ],
+                [
+                    "15",
+                    "Static Arc",
+                    "Roll on the Scar Chart. In a freak instance of chance, the electricity has interacted with a thread of natural magic within you. This body part emits a small electrical arc of energy every few minutes. If you use an action to touch this body part to a character with 0 hit points they become stable in the same manner as the Spare the Dying cantrip. You may suppress the arcing effect by maintaining concentration. The limb emits a faint aura of Evocation.",
+                    "-"
+                ],
+                [
+                    "16",
+                    "Destructive Grounding",
+                    "Roll on the Small Appendage Table. The electricity has violently exited your body at this point, charring it to the point of being nonfunctional. If not treated with 24 hours, the appendage will necrotize and fall off in 1d4 days (after which it is missing).",
+                    "A DC 21 Save Limb Surgery."
+                ],
+                [
+                    "17",
+                    "Heart Palpitations",
+                    "Shocked through the heart, and you're to blame. Any time you are charmed or frightened you take 1 level of exhaustion.",
+                    "A DC25 General Surgery."
+                ],
+                [
+                    "18",
+                    "Brain Injury",
+                    "The electricity lances across the wiring of your brain, short circuiting your neurons and changing you permanently. Your alignment shifts one step towards neutral on the law/chaos axis. If it is already neutral, treat this roll as a 15.",
+                    "-"
+                ]
+            ]
+        },
+        {
+            "name": "Necrotic Damage",
+            "source": "MMMM",
+            "page": 16,
+            "colLabels":
+            [
+                "3d6",
+                "Injury",
+                "Description",
+                "Treatment"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-6",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "3",
+                    "Corrupted Soul",
+                    "You've bore witness to a deep darkness and even now you can feel its touch lingering on your soul. Your alignment shifts one step towards evil. If you are already evil, treat this roll as a 15.",
+                    "-"
+                ],
+                [
+                    "4",
+                    "Tenuous Grip on Life",
+                    "You feel like you've seen the face of death and can recall its grim visage with ease. You require one less failed death saving throw before you die.",
+                    "-"
+                ],
+                [
+                    "5",
+                    "Necrotic Wound",
+                    "Your wound festers with a dark energy. It resists both magical and natural healing. Your maximum hit points are reduced by the amount of damage that caused the lingering injury.",
+                    "A DC 18 General Surgery check or the Greater Restoration spell."
+                ],
+                [
+                    "6",
+                    "Withered Away",
+                    "You feel frail, drained, as if your life's very essence has been stolen away from you. You have disadvantage on Strength (Athletics) checks and both Strength and Constitution saving throws for 1d4 days.",
+                    "-"
+                ],
+                [
+                    "7",
+                    "Malicious Outburst",
+                    "You are filled with a blind rage and an overwhelming violent compulsion. You immediately use your reaction to make a melee attack against the nearest creature (at random). You spend the next 1d4 turns pursuing and attacking whatever creature is closest to you, regardless of if they are friendly or not.",
+                    "Any spell or effect that would end a Barbarian's rage also ends this effect."
+                ],
+                [
+                    "8",
+                    "Sorrow",
+                    "All positive emotion within you shatters like a mirror are you are left only with painful, distracting shards. If you have Inspiration, you lose it. You lose any nonmagical effect granting you a temporary bonus or advantage (such as Bardic Inspiration, Barbarian Rage, the Dodge action, or the Help action).",
+                    "-"
+                ],
+                [
+                    "9",
+                    "The Stench of Decay",
+                    "Your are plagued by the lingering stench of rotting flesh. It clings to you and is perceivable by anyone within 5 feet of you. For 1d6 days you have disadvantage on all Charisma based checks.",
+                    "Scouring clean in a long, hot bath will reduce the duration of this effect by 1d6 days."
+                ],
+                [
+                    "10",
+                    "Cursed",
+                    "You feel the negative energy latching on to you, actively working against you. You are afflicted as if by the Bestow Curse spell, with the specific curse chosen at random, or by the DM. For the purpose of identifying targets, the source of the damage is assumed to be the caster of the curse. The curse lasts until the next sunrise.",
+                    "A Remove Curse spell will end this effect, as usual."
+                ],
+                [
+                    "11",
+                    "Shadow Scar",
+                    "Roll on the Scar Chart. You are left with a curious scar that appears to be a shadow over the wounded area. No amount of light seems to be able to eliminate this shadow.",
+                    "12 Dark Vessels Roll on the Scar Chart. You are left with a lingering blackness along the veins in this area of your body.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "Mitotic Rejection",
+                    "You cannot be magically healed for 1d6 turns. This includes spells which restore hit points, cure conditions, and raise the dead.",
+                    "-"
+                ],
+                [
+                    "14",
+                    "Path to Your Grave",
+                    "You are struck by a short, traumatic vision of your own demise, and your heart is filled with dread at this portent. You have vulnerability to the next source of damage that harms you, after which this effect ends.",
+                    "The Remove Curse spell ends this effect."
+                ],
+                [
+                    "15",
+                    "Phantom Limb",
+                    "Roll on the Large Limb Table. This limb is pale, bloodless, and dead. Yet somehow...you can still move it normally. The limb emits a faint aura of Necromancy. You can supress this effect with an effort of concentration. This renders your physical limb inanimate and a ghostly, phantom limb appears from within it, staying attached to you. This incorporeal limb can pass through creatures and objects and interact with both the Material Plane and the Border Ethereal Plane. If the Phantom Limb ever spends more than 6 seconds inside an object, it flickers from existence and you take 1d6 force damage.",
+                    "Any spell that returns the dead to life will return your limb to normal, provided you follow the spell's normal requirements."
+                ],
+                [
+                    "16",
+                    "Insidious Compulsion",
+                    "Slowly, you feel the building urge to destroy something beautiful. You have 1d6 days to commit an act of senseless destruction or violence (outside of what would be normal behavior for your character). If you do not do this within the time limit, the compulsion builds to distracting levels, and you have disadvantage to all attack rolls, ability checks, and saving throws until you do.",
+                    "-"
+                ],
+                [
+                    "17",
+                    "Chronoscarred",
+                    "Every cell in your body protests as the they are assaulted by the flow of time itself. Your body ages 1d10 years. Your mind is unaffected.",
+                    "-"
+                ],
+                [
+                    "18",
+                    "Felt the Dark",
+                    "A small mote of corrupt power has taken residence within you and you feel a tiny part of your soul become unhinged. You take a flaw that would be considered malevolent, violent, cruel, or volatile.",
+                    "-"
+                ]
+            ]
+        },
+        {
+            "name": "Piercing Damage",
+            "source": "MMMM",
+            "page": 17,
+            "colLabels":
+            [
+                "3d6",
+                "Injury",
+                "Description",
+                "Treatment"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-6",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "3",
+                    "Gouged Right Eye",
+                    "You've taken grievous damage directly to your right eye. Your eye is nonfunctional. If untreated within 8 hours, your vision will be beyond saving (and be considered missing).",
+                    "A DC20 Save Sense Surgery."
+                ],
+                [
+                    "4",
+                    "Severed Nerve",
+                    "Roll on the Large Limb Table. Through precision or just sheer luck, the blow has severed a nerve in one of your major limbs. This limb is nonfunctional and will not heal properly without surgery.",
+                    "A DC 22 Save Limb Surgery."
+                ],
+                [
+                    "5",
+                    "Severed Small Nerve",
+                    "Roll on the Small Appendage Table. You feel a stabbing pain in your appendage, and then an instant numbness. The appendage is nonfunctional and will not heal properly without surgery.",
+                    "A DC20 Save Sense Surgery."
+                ],
+                [
+                    "6",
+                    "Deep Infection",
+                    "The superficial wound closes easily, but the attack has left an insidious contamination deep inside. At the end of every long rest, roll your class's hit die and reduce your max hit points by this amount. If this effect reduces your hit points to 0, you fall unconscious and will die in 1d6 days.",
+                    "Once per day you may attempt a DC 22 Constitution saving throw or a DC 17 Wisdom (Medicine) check. A success on either cures the infection. The Greater Restoration spell restores the max hit point damage as usual, but does not cure the infection."
+                ],
+                [
+                    "7",
+                    "Deep Perforation",
+                    "You bite back a snarl as the attack penetrates just a little bit deeper. You take one extra damage die of whatever type the damage was dealt with.",
+                    "-"
+                ],
+                [
+                    "8",
+                    "Punctured Arm",
+                    "The attack sinks into the meat of your arm. It's probably not serious, but the pain makes you treat your arm gingerly. You no longer get one free object interaction per turn. This effect lasts 1d8 turns.",
+                    "Any amount of magical healing will end this effect."
+                ],
+                [
+                    "9",
+                    "Punctured Lung",
+                    "You cough up blood. The wound has made it past your ribs and into your lung. You make Strength (Athletics) and Dexterity (Acrobatics) checks at disadvantage for 1d6 days.",
+                    "A DC 15 Wisdom (Medicine) check reduces the duration of this injury by 1d4 days."
+                ],
+                [
+                    "10",
+                    "Ran Through",
+                    "The attack went in one end and out the other. Luckily, it's missed anything vital, but you can still feel the agony of it in every motion you make. Bonus actions require a full action instead. This effect lasts for 1d4 days.",
+                    "A DC 15 Wisdom (Medicine) check reduces the duration of this injury by 1d2 days."
+                ],
+                [
+                    "11",
+                    "Gnarled Scar",
+                    "Roll on the Scar Chart. You are left with a raised, gnarled scar on this area of your body.",
+                    "-"
+                ],
+                [
+                    "12",
+                    "Depressed Scar",
+                    "Roll on the Scar Chart. You are left with an indented, depressed scar on this area of your body.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "Punctured Leg",
+                    "The attack sinks into the meat of your leg. It's probably not serious, but the pain of it makes you treat your leg gingerly. Your speed is reduced by 10 feet for 1d8 rounds.",
+                    "Any amount of magical healing will end this effect."
+                ],
+                [
+                    "14",
+                    "Visceral Pain",
+                    "What did that attack even hit? Your liver? Your spleen? Whatever it was, who knew it could hurt so much? You let out an ear-splitting cry of pain. If they enemy wasn't aware of you, they sure are now. Every creature within 60 feet of you knows your exact location, and you are no longer hidden.",
+                    "-"
+                ],
+                [
+                    "15",
+                    "Roguish Scar",
+                    "Roll on the Scar Chart. You are left with a scar that somehow gives you a distinct roguish charm. When this scar is visible you have a +1 bonus to Charisma (Deception) checks. If you collect multiple Roguish Scars, this bonus does not stack.",
+                    "-"
+                ],
+                [
+                    "16",
+                    "Foreign Body",
+                    "The attack is over, but it's left something left behind. An arrowhead, a chip from the creature's tooth, or the broken point of a sword, perhaps. Whatever it is, you can still feel it cutting within you. Any time you use an action, bonus action, and movement on the same turn you are incapacitated until the end of your next turn.",
+                    "A DC 19 General Surgery removes the foreign body and ends this effect."
+                ],
+                [
+                    "17",
+                    "Perforated Gut",
+                    "You look down at your stomach and a wave of cold fear washes over you. You've taken a gut wound, and it's only a matter of time until it turns septic. You are poisoned. Every 24 hours you gain 1 level of exhaustion. This level of exhaustion may not be removed by nonmagical means.",
+                    "A DC 21 General Surgery. Any effect that cures disease will remove 1 level of exhaustion. A Lesser Restoration spell temporarily removes the poisoned condition for 24 hours. A Greater Restoration spell removes exhaustion levels as usual, but does not stop the infection."
+                ],
+                [
+                    "18",
+                    "Gouged Left Eye",
+                    "You've taken grievous damage directly to your left eye. Your eye is nonfunctional. If untreated within 8 hours, your vision will be beyond saving (and be considered missing).",
+                    "A DC20 Save Sense Surgery."
+                ]
+            ]
+        },
+        {
+            "name": "Poison Damage",
+            "source": "MMMM",
+            "page": 18,
+            "colLabels":
+            [
+                "3d6",
+                "Injury",
+                "Description",
+                "Treatment"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-6",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "3",
+                    "Ototoxicity",
+                    "Roll to randomly determine your left or right ear. The poison has spread to the delicate structures in your inner ear. This ear is nonfunctional, and if not treated within 12 hours, your hearing will be damaged beyond repair (and be considered missing).",
+                    "A DC20 Save Sense Surgery."
+                ],
+                [
+                    "4",
+                    "Vertigo",
+                    "You feel dizzy, the world seems to be shifting under your feet. The problem only gets worse when you're near a great height. You have disadvantage on Dexterity (Acrobatics) checks. You have disadvantage on all attacks and ability checks when you are within 5 feet of a height 15 feet or greater.",
+                    "-"
+                ],
+                [
+                    "5",
+                    "Anemic",
+                    "When the poison has run its course you are left with a permanent weakness. Your carrying capacity is reduced by half.",
+                    "-"
+                ],
+                [
+                    "6",
+                    "Lingering Poison",
+                    "The poison is particularly strong and you can't seem to shake free of it. You are poisoned for 1d6 days.",
+                    "After each long rest you may make a Constitution saving throw (DC equals half the damage that caused the lingering injury or 10, whichever number is higher). On a success, you are no longer poisoned. Any effect that cures poison (such as the Lesser Restoration spell) instead temporarily suppresses the poison for one hour."
+                ],
+                [
+                    "7",
+                    "Splitting Headache",
+                    "You can feel your head pounding as the poison pumps through your veins. You gain no advantage from short rests until you take a long rest.",
+                    "-"
+                ],
+                [
+                    "8",
+                    "Virulent Poison",
+                    "You can physically feel the poison eating away at you from the inside, and the adrenaline pumping through you is only helping to force it throughout your body. At the beginning of your turn you take  poison damage scaled to the damage that caused the lingering injury: 1-10 damage (1d2), 11-20 damage (1d4), 21-30 damage (1d6), 31-40 damage (1d8), >40 damage (1d10). This effect continues until you are off initiative.",
+                    "Any spell or effect that cures the poisoned condition will end this effect."
+                ],
+                [
+                    "9",
+                    "Cyanotic Your lips turn blue, you're out of breath and you feel like you can't suck in enough air no matter how hard you try. You suffer three levels of exhaustion.",
+                    "You may remove these levels of exhaustion with either a long or a short rest. Any spell or effect that removes one level of exhaustion instead removes all three."
+                ],
+                [
+                    "10",
+                    "Blurred Vision",
+                    "Your eyes cloud over, your vision blurs, and distinct shapes become amorphous blobs. You have disadvantage on Wisdom (Perception) checks relying on vision and all ranged attacks for 1d4 days. If you have darkvision, you lose it for this duration.",
+                    "A DC 15 Wisdom (Medicine) check reduces the duration of this injury by 1d2 days."
+                ],
+                [
+                    "11",
+                    "Residual Pigmentation",
+                    "Roll on the Scar Chart. The poison has had the interesting effect of dying your skin. This area of your body has taken on a light shade the same colour as the poison, or roll to determine the color randomly (1d4): 1) Green 2) Purple 3) Orange 4) Blue.",
+                    "-"
+                ],
+                [
+                    "12",
+                    "Scarred Veins",
+                    "Roll on the Scar Chart. Your veins have been scarred in this area, leaving them slightly raised and pigmented the same color as the poison, or roll to determine the color randomly (1d4): 1) Green 2) Grey 3) Red 4) Brown.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "Nausea",
+                    "You feel a sick, oily feeling deep in your stomach and bile roiling up your throat. You have disadvantage on all ability checks for 1d6 rounds.",
+                    "-"
+                ],
+                [
+                    "14",
+                    "Vomiting",
+                    "You feel sick, and without warning, the last meal you ate is purged from your stomach. You are incapacitated until the end of your next turn, and you have disadvantage on all ability checks for 1d2 rounds.",
+                    "-"
+                ],
+                [
+                    "15",
+                    "Unexpected Mutagen",
+                    "Roll on the Scar Chart. The poison has interacted with your body in a thoroughly unexpected way, causing a strange alteration in appearance. This area of your body takes on a physical attribute somehow related to the source of the poison (such as green scales from the poison breath of a dragon). At the DM's discretion, this new attribute may give you a +1 bonus to an ability check.",
+                    "-"
+                ],
+                [
+                    "16",
+                    "Inefficient Metabolism",
+                    "You feel hungry all the time, and it's very difficult for you to gain weight. You require double the normal amount of food and water per day.",
+                    "-"
+                ],
+                [
+                    "17",
+                    "Slowed Metabolism",
+                    "You hardly ever feel hungry, and it's very easy for you to gain weight. You require half the normal amount of food and water per day. Potions you use require one full minute to take effect instead of taking effect immediately.",
+                    "-"
+                ],
+                [
+                    "18",
+                    "Liver Cirrhosis",
+                    "The poison has left your liver scarred and damaged. There's never been a better time to give up drinking. Any amount of alcohol you consume gives you the poisoned condition. Alcohol or other drugs affect you for double their normal duration. You have disadvantage on any Constitution checks or saving throws made to resist poison.",
+                    "-"
+                ]
+            ]
+        },
+        {
+            "name": "Psychic Damage",
+            "source": "MMMM",
+            "page": 19,
+            "colLabels":
+            [
+                "3d6",
+                "Injury",
+                "Description",
+                "Treatment"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-6",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "3",
+                    "Apathy",
+                    "You mind has been indelibly altered, and you just find it more difficult to care. Your alignment shifts one step towards neutral on the good/evil axis. If it is already neutral, treat this roll as a 15.",
+                    "-"
+                ],
+                [
+                    "4",
+                    "Crippling Phobia",
+                    "Unconsciously, you brain has made a connection between something random and the pain it felt, now you can't help but associate the two. The DM chooses something unique about the source of the damage or the current setting. Any time you move within 15 feet of this thing you are frightened until you move at least 50 feet away from it.",
+                    "-"
+                ],
+                [
+                    "5",
+                    "Insomnia",
+                    "Your brain feels wired, and you cannot force it to rest no matter how hard you try. You cannot benefit from short or long rests for 1d4 days (You do not regain HD, cannot regain spell slots or prepare spells, and do not heal). During this time you are immune to magical sleep.",
+                    "-"
+                ],
+                [
+                    "6",
+                    "A Taste of Madness",
+                    "You feel something within your mind come a touch unhinged. Roll on the Long Term Madness Table (DMG pg.260). This effect lasts 1d10 x 10 hours.",
+                    "-"
+                ],
+                [
+                    "7",
+                    "Terrified You feel a bubbling terror rising into your throat, and suddenly all you can think of is getting away. You are terrified of the source of the damage as if affected by the Fear spell (saving throw DC equals half the damage that caused the lingering injury or 10, whichever number is higher).",
+                    "-"
+                ],
+                [
+                    "8",
+                    "Frightened",
+                    "A sudden jolt of intense fear lances through you from your scalp to your toes. You are terrified of the source of the damage as if affected by the Fear spell until the end of your next turn.",
+                    "-"
+                ],
+                [
+                    "9",
+                    "A Touch of Madness",
+                    "You feel your mind stretch as if to the point of breaking, and then all of the sudden things become clear again. Roll on the Short Term Madness Table (DMG pg.259). This effect lasts for 1d10 minutes.",
+                    "-"
+                ],
+                [
+                    "10",
+                    "Persistent Migraine",
+                    "Your head throbs, the light aggravates you, and all you want is for the pounding to stop. You cannot benefit from a short rest for 1d4 days.",
+                    "-"
+                ],
+                [
+                    "11",
+                    "Tic",
+                    "The psychic assault has left you with a small vocal or motor tic; a brief compulsive behavior you find difficult or impossible to suppress. The DM may choose a specific tic or roll to determine the tic randomly (1d6): 1) Eye twitching, 2) Finger clicking, 3) Touching other people or things, 4) Grunting, 5) Repeating a sound or phrase, 6) Grimacing.",
+                    "-"
+                ],
+                [
+                    "12",
+                    "Nosebleeds",
+                    "You now tend to experience nosebleeds when you exert a great force of mental effort. The nosebleeds occur when (roll 1d6): 1) You are frightened, 2) You are charmed, 3) You make an Intelligence saving throw, 4) You make a Wisdom saving throw, 5) You make a Charisma saving throw, 6) You take psychic damage.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "Charmed",
+                    "Against all logic, you feel yourself becoming warm and endeared. You are charmed by the source of the damage as if under the effects of the Charm Person spell. This effect lasts until the end of your next turn.",
+                    "Taking any amount of damage from the source of the charm ends this effect."
+                ],
+                [
+                    "14",
+                    "Enamoured",
+                    "A bit confused, you feel a wave of unexpected affection wash over you. You are charmed by the source of the damage as if under the effects of the Charm Person spell. This effect lasts 1d4 rounds.",
+                    "Taking any amount of damage from the source of the charm ends this effect."
+                ],
+                [
+                    "15",
+                    "Illusory Limb",
+                    "Roll on the Scar Chart. In a freak instance of chance, the physic assault has interacted with a thread of natural magic within you. The appearance of this body part keeps subtly shifting, though it feels exactly the same as before. This area of your body is permanently under the effect of a Minor Illusion spell and emits a faint aura of Illusion. You can suppress or control this effect with an effort of concentration, otherwise the body part slowly shifts through minor changes in colour, size, shape, and appearance seemingly in relation to your general mood. The spell save DC for this illusion is 10 + your current level.",
+                    "-"
+                ],
+                [
+                    "16",
+                    "Temporary Aphasia",
+                    "Your attempts to be understood are met with nothing but narrowed eyes and confused looks. You lose proficiency with all languages except common, which you can understand, but not speak. You cannot read or write. Any attempt to speak a language results in a garbled string of seemingly random words. This effect lasts 1d4 days.",
+                    "Any spell that allows the caster to comprehend the literal or implied meaning of communication will function as normal."
+                ],
+                [
+                    "17",
+                    "Night Terrors",
+                    "You tend to wake up in the middle of the night in a cold sweat, the horrors you've seen replaying in your mind. You regain only 1/4 of your HD on a long reast, instead of half (rounded down).",
+                    "-"
+                ],
+                [
+                    "18",
+                    "Paranoia",
+                    "You find it difficult to stop being distracted by the feeling that there is someone or something out to get you. Whenever you must maintain concentration, roll 1d4. This is the maximum amount of rounds you may maintain concentration for that spell or effect.",
+                    "-"
+                ]
+            ]
+        },
+        {
+            "name": "Radiant Damage",
+            "source": "MMMM",
+            "page": 20,
+            "colLabels":
+            [
+                "3d6",
+                "Injury",
+                "Description",
+                "Treatment"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-6",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "3",
+                    "Purged Soul",
+                    "The purging light has scoured clean the filth in your soul. Your alignment shifts one step towards good. If your alignment is already good, treat this roll as a 15.",
+                    "-"
+                ],
+                [
+                    "4",
+                    "Blinded",
+                    "Roll randomly for the right or left eye. Even through closed lids all you can see is an empty whiteness. Your eye is nonfunctional, and if not treated within 24 hours your vision will be permanently missing.",
+                    "A DC 20 Save Sense Surgery."
+                ],
+                [
+                    "5",
+                    "Irradiated",
+                    "The energy that washed over you has left you with a lingering feeling of sickness and nausea. You are poisoned for 1d4 days. During this time, you slowly lose all the hair on your body. After 1d12 days, it begins to regrow at the normal rate."
+                ],
+                [
+                    "6",
+                    "Flash Burn",
+                    "You were unprepared for the overwhelming torrent of brilliance and stared right into it. You are blinded for 1d6 days.",
+                    "A DC 15 Wisdom (Medicine) check reduces this injury's duration by 1d4 days."
+                ],
+                [
+                    "7",
+                    "Razzle- Dazzled",
+                    "You blink the spots from your eyes, but your vision is taking a while to return. You are blinded for 1d4 turns.",
+                    "A Lesser Restoration spell will cure this condition as usual."
+                ],
+                [
+                    "8",
+                    "Dazzled",
+                    "Lights dance in your vision and you shake your head in an attempt to clear it. You are blinded until the end of your next turn.",
+                    "A Lesser Restoration spell will cure this condition as usual."
+                ],
+                [
+                    "9",
+                    "Unearthly Glow",
+                    "Oddly, after the radiance of the attack fades you are left with a dull, green glow. This affects you in the same manner as the Faerie Fire spell, though the effect itself is non-magical. It last 1d20 hours.",
+                    "-"
+                ],
+                [
+                    "10",
+                    "Penitent Mercy",
+                    "You seem to have lost your stomach for killing. The thought of taking a life fills you with abject disgust. You may not willingly take a life. Any damage dealt by you that reduces a creature’s hit points to 0 automatically knocks them out instead of killing them. This effect lasts 1d4 days.",
+                    "-"
+                ],
+                [
+                    "11",
+                    "Prismatic Scar",
+                    "Roll on the Scar Chart. You are left with smooth scar on this part of your body that seems to shimmer through the prismatic colors when the light catches it.",
+                    "-"
+                ],
+                [
+                    "12",
+                    "Bleached",
+                    "Roll on the Scar Chart. This area of your body is left bleached a bone white, and hair no longer grows on it.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "Sunburn",
+                    "The light sears a painful red burn into your skin. You take 1 radiant damage per 10 feet of movement while on initiative. This injury lasts 1d4 days.",
+                    "A DC 12 Wisdom (Medicine) check reduces this injury's duration by 1d4 days."
+                ],
+                [
+                    "14",
+                    "A Brief Stillness of the Soul",
+                    "You've received a brief glimpse of something greater and you can't help but pause for a moment of distracted contemplation. You cannot take reactions for 1d4 turns.",
+                    "-"
+                ],
+                [
+                    "15",
+                    "Halo",
+                    "Roll on the Scar Chart. This area of your body flares with a sudden radiance, which then dies down to a soft, dull glow. It emits bright light in a 5 foot radius, dim light in an additional 5 foot radius, and has a faint aura of",
+                    "Evocation. An effort of concentration can either suppress this effect or flare the light to the brightness of a torch.",
+                    "-"
+                ],
+                [
+                    "16",
+                    "Forced Epiphany",
+                    "As the energy of the attack passes, you have a revelation clawing at the edge of your brain, you're sure of it. You have 1d6 days to withdraw from activity and spend 24 hours alone in silent, individual contemplation about your god, belief set, or yourself. After this, you come to an enlightening realization. If you do not do this within the time limit, the nagging urge builds to distracting levels and you have disadvantage to all attack rolls, ability checks, and saving throws until you do.",
+                    "-"
+                ],
+                [
+                    "17",
+                    "Fountain of Youth",
+                    "As the divine energy fades you feel as if some of the great burden of time has left with it. Your body is 1d10 years younger. Your mind is unaffected.",
+                    "-"
+                ],
+                [
+                    "18",
+                    "Seen the Light",
+                    "You feel as if you've seen a glimpse of something greater than yourself, and a tiny mote of that light has come to rest on your soul. You take a flaw that would be considered benevolent, self-sacrificing, unyielding, or militant.",
+                    "-"
+                ]
+            ]
+        },
+        {
+            "name": "Slashing Damage",
+            "source": "MMMM",
+            "page": 21,
+            "colLabels":
+            [
+                "3d6",
+                "Injury",
+                "Description",
+                "Treatment"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-6",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "3",
+                    "Sliced Eye",
+                    "Roll to randomly determine your left or right eye. You've taken a grievous wound across this eye. It is nonfunctional, and if not treated within 12 hours, your vision will be permanently missing.",
+                    "A DC20 Save Sense Surgery."
+                ],
+                [
+                    "4",
+                    "Severed Limb",
+                    "Roll on the Large Limb Table. The intensity of the blow has sliced your limb clean off. It lands severed at your feet and is considered missing.",
+                    "A DC 22 Save Limb Surgery."
+                ],
+                [
+                    "5",
+                    "Severed Appendage",
+                    "Roll on the Small Appendage Table. The savagery of the blow has severed one of your small appendages. It lands at your feet and is considered missing.",
+                    "A DC 22 Save Limb Surgery."
+                ],
+                [
+                    "6",
+                    "Exsanguinating",
+                    "The attack has hit one of your vital points and opened a large artery. You are bleeding out. At the end of each turn, take one level of exhaustion.",
+                    "A DC 16 Wisdom (Medicine) check staunches bleeding. On a failed save you do not take a level of exhaustion at the end of your next turn. You may reattempt this check."
+                ],
+                [
+                    "7",
+                    "Hemorrhaging",
+                    "You see blood pour from your wound and you feel a bit light headed. At the end of each turn you take damage to your maximum hit points scaled to the damage that caused the lingering injury: 1-10 damage (1d4), 11-20 damage (1d6), 21-30 damage (1d8), 31-40 damage (1d10), >40 damage (1d12).",
+                    "A DC 11 Wisdom (Medicine) check staunches the bleeding. You may reattempt this check."
+                ],
+                [
+                    "8",
+                    "Bleeding",
+                    "You see blood trickling from your wound. It's not a lot, but it adds up. At the end of each turn you take damage to your maximum hit points scaled to the damage that caused the lingering injury: 1-10 damage (1d2), 11-20 damage (1d4), 21-30 damage (1d6), 31-40 damage (1d8), >40 damage (1d10).",
+                    "A DC 10 Wisdom (Medicine) check staunches the bleeding. You may reattempt this check."
+                ],
+                [
+                    "9",
+                    "Festering Wound",
+                    "Your wound looks angry near its edges and stubbornly refuses to heal. You cannot heal hit points through nonmagical means (such as short or long rests).",
+                    "Once per long rest you may make a DC 18 Wisdom (Medicine) check to heal this injury. 10 Leg Laceration You've taken a long, painful slash to one of your legs. Your speed is reduced by 10 feet. This injury lasts 1d8 days.",
+                    "A DC 15 Wisdom (Medicine) check reduces the duration of this injury by 1d6 days."
+                ],
+                [
+                    "10",
+                    "Leg Laceration",
+                    "You've taken a long, painful slash to one of your legs. Your speed is reduced by 10 feet. This injury lasts 1d8 days.",
+                    "A DC 15 Wisdom (Medicine) check reduces the duration of this injury by 1d6 days."
+                ],
+                [
+                    "11",
+                    "Sinuous Scar",
+                    "Roll on the Scar Chart. You are left with a thin, sinuous scar on this area of your body.",
+                    "-"
+                ],
+                [
+                    "12",
+                    "Hypertrophic Scar",
+                    "Roll on the Scar Chart. You are left with a thick, raised scar on this area of your body.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "Stubborn Bleeding",
+                    "You see blood trickling from your wound. It must be a nicked vein because it's difficult to staunch. At the end of each turn you take damage to your maximum hit points scaled to the damage that caused the lingering injury: 1-10 damage (1d2), 11-20 damage (1d4), 21-30 damage (1d6), 31-40 damage (1d8), >40 damage (1d10).",
+                    "A DC 14 Wisdom (Medicine) check staunches the bleeding. You may reattempt this check."
+                ],
+                [
+                    "14",
+                    "Stubborn Hemorrhaging",
+                    "With every beat of your heart you can feel your lifeblood spilling out. At the end of each turn you take damage to your maximum hit points scaled to the damage that caused the lingering injury: 1-10 damage (1d4), 11-20 damage (1d6), 21-30 damage (1d8), 31-40 damage (1d10), >40 damage (1d12).",
+                    "A DC 15 Wisdom (Medicine) check staunches the bleeding. You may reattempt this check."
+                ],
+                [
+                    "15",
+                    "Aesthetic Scar Roll on the Scar Chart. You are left with a scar that look particularly well placed on you. When this scar is visible you have a +1 bonus to Charisma (Persuasion) checks. If you collect multiple Aesthetic Scars, this bonus does not stack.",
+                    "-"
+                ],
+                [
+                    "16",
+                    "Traumatic Amputation",
+                    "Roll on the Small Appendage Table. The savage slash has cloven your appendage from you, flinging it into the distance. It lands 15 feet away in a random direction and is considered missing.",
+                    "A DC 22 Save Limb Surgery."
+                ],
+                [
+                    "17",
+                    "Hamstrung",
+                    "You feel the cut rake across the back of your leg, and you stumble, crying out in pain. Your speed is reduced by 10 feet.",
+                    "A DC20 Save Limb Surgery."
+                ],
+                [
+                    "18",
+                    "Sliced Ear",
+                    "Roll to randomly determine your left or right ear. You've taken a grievous wound across this ear. It is nonfunctional, and if not treated within 12 hours, your hearing will be permanently missing.",
+                    "A DC20 Save Sense Surgery."
+                ]
+            ]
+        },
+        {
+            "name": "Thunder Damage",
+            "source": "MMMM",
+            "page": 22,
+            "colLabels":
+            [
+                "3d6",
+                "Injury",
+                "Description",
+                "Treatment"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-6",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "3",
+                    "Ruptured Eardrums",
+                    "The sonic assault has blown out your eardrums. You are deafened and your ears are nonfunctional. If not treated within 24 hours, your hearing will be permanently missing.",
+                    "A DC20 Save Sense Surgery."
+                ],
+                [
+                    "4",
+                    "Concussive Amputation",
+                    "Roll on the Large Limb Table. The concussive blast has torn your limb clean off and sent it sailing through the air. It lands 30 feet from you, pushed away from the direction of the attack and is considered missing.",
+                    "A DC 22 Save Limb Surgery."
+                ],
+                [
+                    "5",
+                    "Small Concussive Amputation",
+                    "Roll on the Small Appendage Table. The concussive blast has torn your appendage free and sent it flying. It lands 30 feet away from you, pushed away from the direction of the attack, and is considered missing.",
+                    "A DC 22 Save Limb Surgery."
+                ],
+                [
+                    "6",
+                    "Leg Shrapnel",
+                    "The attack has turned small fragments of debris in the surrounding area into deadly ballistic projectiles, many of which have found their way deep into your leg muscles. Your speed is reduced by 10 feet.",
+                    "A DC 22 General Surgery."
+                ],
+                [
+                    "7",
+                    "Disorientation",
+                    "The force of the blast has left you reeling. You are stunned until the end of your next turn.",
+                    "-"
+                ],
+                [
+                    "8",
+                    "Percussive Disarming",
+                    "As the attack's thunderous echo fades, you find that your hands are empty. Anything you were holding is wrenched free of your grip and lands 50 feet from you, pushed away from the direction of the attack.",
+                    "-"
+                ],
+                [
+                    "9",
+                    "Tinnitus",
+                    "You are left with an annoying ringing in your ears. You have disadvantage on perception checks related to sound for 1d6 days.",
+                    "A DC 12 Wisdom (Medicine) check reduces the duration of this injury by 1d4 days."
+                ],
+                [
+                    "10",
+                    "Deaf and Dazed",
+                    "You are bowled over by the percussive assault and the only thing you hear is an atonal ringing. You are knocked prone and deafened for 1d6 hours.",
+                    "-"
+                ],
+                [
+                    "11",
+                    "Extensive Bruising",
+                    "Roll on the Scar Chart. You have some massive, ugly bruising in this area, but it looks worse than it feels. The bruising will fade after 1d8 days.",
+                    "-"
+                ],
+                [
+                    "12",
+                    "Speckled Scar",
+                    "Roll on the Scar Chart. The ballistic debris has left you with a speckled scar in this area.",
+                    "-"
+                ],
+                [
+                    "13",
+                    "Knocked Around",
+                    "The force of the blast has knocked you backwards. You are pushed away from the source of the damage an amount of feet scaled to the damage from the lingering injury: 1-10 damage (5 ft.), 11-20 damage (10 ft.), 21-30 damage (15 ft.), 31-40 damage (20 ft.), >40 damage (25 ft.).",
+                    "-"
+                ],
+                [
+                    "14",
+                    "Blown Away",
+                    "The concussive wave sends you flying back. You are blown away from the source of the damage an amount of feet scaled to the damage from the lingering injury: 1-10 damage (10 ft.), 11-20 damage (20 ft.), 21-30 damage (30 ft.), 31-40 damage (40 ft.), >40 damage (50 ft.).",
+                    "-"
+                ],
+                [
+                    "15",
+                    "Acoustic Dead Zone",
+                    "Roll on the Scar Chart. In a freak instance of chance, the sonic assault has interacted with a thread of natural magic within you. Everything around this part of your body seems strangely...silent. All noise within a half foot radius of this area of your body is inaudible as if under the effect of a Silence spell, and the area emits a faint aura of Illusion. An effort of concentration will supress this effect.",
+                    "-"
+                ],
+                [
+                    "16",
+                    "Arm Shrapnel",
+                    "Roll to randomly determine the left or right arm. The attack has turned small fragments of debris in the surrounding area into deadly ballistic projectiles, many of which have found their way deep into your arm muscles. Attacks made by this arm have disadvantage. Shields used by this arm provide 1 AC instead of 2 AC.",
+                    "A DC 21 General Surgery."
+                ],
+                [
+                    "17",
+                    "Barotrauma",
+                    "The concussive force reverberates through the gas inside your lungs, doing major damage to them. You can only hold your breath for half the normal duration. In addition, the blood vessels in your eyes have ruptured, turning the whites of your eyes the color of your blood for 1d6 days.",
+                    "-"
+                ],
+                [
+                    "18",
+                    "Unlucky Shrapnel",
+                    "Roll to randomly determine your left or right eye. An unlucky piece of shrapnel has ricocheted straight into your eye. This eye is nonfunctional. If not treated within 4 hours, your vision permanently missing.",
+                    "A DC20 Save Sense Surgery."
+                ]
             ]
         }
 	]
