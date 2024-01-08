@@ -253,6 +253,127 @@
                    "A DC20 Save Sense Surgery."
                 ]
             ]
+        },
+		{
+			"name": "Bludgeoning Damage",
+			"source": "MMMM",
+			"page": 11,
+			"colLabels":
+			[
+				"3d6",
+				"Injury",
+				"Description",
+				"Treatment"
+			],
+			"colStyles":
+			[
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-6",
+				"col-2"
+			],
+			"rows":
+			[
+				
+				[
+					"3",
+					"Chilblains",
+					"You've been frigid one too many times and your skin easily develops a rash and blisters in cold. You have isadvantage to Constitution checks and saving throws made to resist the environmental effects of cold.",
+					"-"
+				],
+				[
+					"4",
+					"Frozen",
+					"Cornea",
+					"Roll to randomly determine the right or left eye. The frigid air has frozen over the surface layer of your eye. The eye is nonfunctional. If not treated within 12 hours, your vision will be permanently missing.",
+					"A DC 20 Save Sense Surgery. If the player spends a short rest rewarming the area within 15 inutes of the injury occurring, this DC is decreased to 10."
+				],
+				[
+					"5",
+					"Extensive",
+					"Frostbite",
+					"Roll twice on the Small Appendage Table. These appendages are firm, frigid, pale, and nonfunctional. If not reated within 15 minutes they will necrotize and fall off in 1d4 days (after which they are missing).",
+					"A short rest slowly rewarming the appendages."
+				],
+				[
+					"6",
+					"Severe",
+					"Hypothermia",
+					"Your core body temperature has plummeted dangerously low. While on initiative you function as if ffected by both the Slow and Confusion spells. If untreated for one hour, you fall unconscious.",
+					"A short rest slowly rewarming yourself ends this effect."
+				],
+				[
+					"7",
+					"The Shivers",
+					"You are so cold your hands are shaking uncontrollably and your voice quavers as you speak. The next three pells you cast have a 50% chance to fail. This effect ends after three spells are attempted.",
+					"-"
+				],
+				[
+					"8",
+					"Frost Nipped Fingers",
+					"Your hands are so cold you barely have any feeling in them. Your next three attacks have disadvantage.",
+					"-"
+				],
+				[
+					"9",
+					"Frozen in Place",
+					"You attempt to move your feet but find the intensity of the cold has frozen you directly to the ground. You are restrained. If you are flying or otherwise not contacting a surface, there is no effect.",
+					"A Strength check (DC equals half the damage that caused the lingering injury or 10, hichever number is higher) as an action allows you to break free."
+				],
+				[
+					"10",
+					"Hypothermia",
+					"The extreme cold has leeched away a large amount of your body heat. While on initiative you function as if ffected by the Slow spell. If untreated for two hours, the condition advances to Severe Hypothermia.",
+					"A short rest slowly rewarming yourself ends this effect."
+				],
+				[
+					"11",
+					"Pale Blue Dot",
+					"Roll on the Scar Chart. This body area is left with a pale, blue-tinged scar.",
+					"-"
+				],
+				[
+					"12",
+					"Cold Brand",
+					"Roll on the Scar Chart. This area of your body has been cryo-branded, and will result in a defined, pale scar. Any hair on the affected area will grow back white."
+				],
+				[
+					"13",
+					"Frost Nipped Toes",
+					"You cannot take the dash action. This effect lasts 1d6 rounds.",
+					"-"
+				],
+				[
+					"14",
+					"The Umbles",
+					"You are cold. So cold. You stumble. You fumble. You tumble. You mumble and grumble. You cannot take he disengage action for 1d6 turns.",
+					"-"
+				],
+				[
+					"15",
+					"Heart of Ice",
+					"Roll on the Scar Chart. In a freak instance of chance, the cold has interacted with a thread of natural magic ithin you. This area of your body is permanently frigid (though to you it feels pleasantly cool) and it adiates a faint aura of Transmutation. You have advantage on Constitution checks and saves made to esist the environmental effects of cold. You may supress this effect by maintaining concentration.",
+					"-"
+				],
+				[
+					"16",
+					"Frost Bitten Appendage",
+					"Roll on the Small Appendage Table. This appendage is firm, frigid, pale, and nonfunctional. If not treated ithin 15 minutes it will necrotize and fall off in 1d4 days (after which it is missing).",
+					"A short rest slowly rewarming the appendage."
+				],
+				[
+					"17",
+					"Frost Bitten Limb",
+					"Roll on the Large Limb Table. Your limb is frozen, rigid, numb, and nonfunctional. If not treated within 15 inutes the limb will necrotize and fall off in 1d4 days (after which it is missing).",
+					"A short rest slowly rewarming the limb."
+				],
+				[
+					"18",
+					"Slowed Reflexes",
+					"The cold has permanently damaged your nerves and your reflexes have become dull and sluggish. You ave disadvantage on initiative checks.",
+					"-"
+				]
+            ]
         }
 	]
 }
