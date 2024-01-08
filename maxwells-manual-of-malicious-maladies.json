@@ -381,7 +381,7 @@
 		{
 			"name": "Fire Damage",
 			"source": "MMMM",
-			"page": 11,
+			"page": 13,
 			"colLabels":
 			[
 				"3d6",
@@ -493,6 +493,29 @@
 					"You inhale the scorching air around you and it burns a path straight down to your lungs. Your sense of aste and smell are nonfunctional If not treated within 24 hours they will be permanently missing.",
 					"Treatment - A DC20 Save Sense Surgery."
 				]
+            ]
+        },
+		{
+			"name": "Force Damage",
+			"source": "MMMM",
+			"page": 14,
+			"colLabels":
+			[
+				"3d6",
+				"Injury",
+				"Description",
+				"Treatment"
+			],
+			"colStyles":
+			[
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-6",
+				"col-2"
+			],
+			"rows":
+			[
+				
             ]
         }
 	]
