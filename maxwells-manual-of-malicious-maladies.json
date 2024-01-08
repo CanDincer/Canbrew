@@ -144,7 +144,115 @@
 			"name": "Bludgeoning Damage",
 			"source": "MMMM",
 			"page": 11,
-			
-		}
+			"colLabels":
+			[
+				"3d6",
+				"Injury",
+				"Description",
+				"Treatment"
+			],
+			"colStyles":
+			[
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-6",
+				"col-2"
+			],
+			"rows":
+			[
+				[
+                    "3",
+                    "Ruptured Right Eardrum",
+                    "A violent impact to the side of your head has caused your right eardrum to rupture. Your right ear is nonfunctional. If it is not treated within 24 hours, your hearing in this ear is permanently missing.",
+                    "Treatment - A DC20 Save Sense Surgery."
+                ],
+                [
+                   "4",
+                   "Limb Torn Asunder",
+                   "Roll on the Large Limb Table. The enormous impact of the blow has caused your limb to be torn from its socket. The limb is missing and thrown 15 feet in a random direction.",
+                   "Treatment - A DC 22 Save Limb Surgery."
+                ],
+                [
+                   "5",
+                   "Lost Tooth",
+                   "A blow to your face has knocked one of your teeth clean out of your mouth.",
+                   "Treatment - A DC 15 Wisdom (Perception) check will allow you to recover the tooth. A DC 19 General Surgery within 1 day of the injury occurring allows you to reinsert the tooth."
+                ],
+                [                   
+                   "6",
+                   "Concussion",
+                   "A mighty strike to your head has left you with dizziness, nausea, and a lingering headache. Any time you make an Intelligence, Wisdom, or Charisma saving throw you are also stunned until the end of your next turn. This condition lasts 1d12 days.",
+                   "Treatment - A DC 15 Wisdom (Medicine) check reduces the duration of this injury by 1d8 days.",
+                ],
+                [
+                   "7",
+                   "Wind Knocked out of You",
+                   "You gasp for breath as the blow knocks you flat onto your back. You are prone and you lose concentration.",
+                ],
+                [ 
+                   "8",
+                   "Numb Left Arm",
+                   "The force of the impact jars your nerves and sends a spreading numbness through your left arm. You drop anything you are holding with that arm and it is nonfunctional for 1d4 turns.",
+                   "Treatment - Any amount of magical healing will end this effect.",
+                ],
+                [ 
+                   "9",
+                   "Broken Appendage",
+                   "You feel a sharp pain as the blow lands directly on one of your extremities. Roll on the Small Appendage Table. That appendage is broken and nonfunctional for 1d12 days.",
+                   "Treatment - A DC 12 Wisdom (Medicine) check reduces the duration of this injury by 1d10 days.",
+                ],
+                [ 
+                   "10",
+                   "Dislocated Shoulder",
+                   "Roll to randomly determine the left or right arm. The intensity of the blow has forced your shoulder joint from its socket. This arm is nonfunctional.",
+                   "Treatment - While on initiative, make a DC 18 Constitution check as a bonus action to force the joint into place and end this injury. Off initiative, a DC 18 Wisdom (Medicine) check will end this injury."
+                   ],
+                [
+                   "11",
+                   "Black Eye",
+                   "You've got yourself a good ol' fashioned shiner. It will resolve on its own in 1d6 days, but you may look out of place in polite company until then."
+                ],
+                [
+                   "12",
+                   "Broken Nose",
+                   "A sharp impact to your face has left you with a painfully broken nose.",
+                   "Treatment - A DC 8 Wisdom (Medicine) check will set your nose properly, otherwise it has a 50% chance of healing slightly crooked in 1d6 days. The DC of this check increases by 2 each time your nose is broken."
+                   ],
+                [
+                   "13",
+                   "Numb Right Arm",
+                   "The force of the impact jars your nerves and sends a spreading numbness through your right arm. You drop anything you are holding with that arm and it is nonfunctional for 1d4 turns.",
+                   "Treatment - Any amount of magical healing will end this effect."
+                   ],
+                [
+                   "14",
+                   "Bruised Black and Blue",
+                   "Your entire body aches and you are left with some extensive ugly bruises. Any time you make a Strength (Athletics) or Dexterity (Acrobatics) check you take bludgeoning damage scaled to the damage that caused the lingering injury: 1-10 damage (1d4), 11-20 damage (1d6), 21-30 damage (1d8), 31-40 damage (1d10), >40 damage (1d12). This injury resolves on its own in 1d4 days."
+                   ],
+                [
+                   "15",
+                   "Aching Bones",
+                   "Roll on the Scar Chart. The ache of your injury never completely leaves you and even years later you sometimes feel a twinge of pain. The bones in/around the area rolled ache 6 hours before (roll 1d6): 1) Rain, 2) Bright Sunshine, 3) Snow, 4) Fog, 5) Storms, 6) Calamities and Natural Disasters"
+                ],
+                [
+                   "16",
+                   "Broken Limb",
+                   "Roll on the Large Limb Table. This limb is broken and nonfunctional for 1d12 days.",
+                   "Treatment - A DC 15 Wisdom (Medicine) check reduces the duration of this injury by 1d8 days."
+                   ],
+                [
+                   "17",
+                   "Crushed Limb",
+                   "Roll on the Large Limb Table. Your limb is crushed to the point of uselessness and permanently nonfunctional. If it isn't reconstructed, the limb will not regain functionality.",
+                   "Treatment A DC 23 Save Limb Surgery."
+                ],
+                [
+                   "18",
+                   "Ruptured Left Eardrum",
+                   "A violent impact to the side of your head has caused your left eardrum to rupture. Your left ear is nonfunctional. If it is not treated within 24 hours, your hearing in this ear is permanently missing.",
+                   "Treatment - A DC20 Save Sense Surgery."
+                ]
+            ]
+        }
 	]
 }
