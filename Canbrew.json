@@ -22982,7 +22982,7 @@
                     "name": "Innate Spellcasting",
                     "headerEntries":
                     [
-                        "The vampire's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 120), requiring no material components:"
+                        "The vampire's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 120}), requiring no material components:"
                     ],
                     "will":
                     [
@@ -23133,7 +23133,7 @@
             }
         },
         {
-            "name": "Khufut",
+            "name": "Kuhufut",
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
