@@ -255,7 +255,7 @@
             ]
         },
 		{
-			"name": "Bludgeoning Damage",
+			"name": "Cold Damage",
 			"source": "MMMM",
 			"page": 11,
 			"colLabels":
