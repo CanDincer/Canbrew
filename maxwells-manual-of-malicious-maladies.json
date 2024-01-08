@@ -281,7 +281,7 @@
 				[
 					"3",
 					"Chilblains",
-					"You've been frigid one too many times and your skin easily develops a rash and blisters in cold. You have isadvantage to Constitution checks and saving throws made to resist the environmental effects of cold.",
+					"You've been frigid one too many times and your skin easily develops a rash and blisters in cold. You have disadvantage to Constitution checks and saving throws made to resist the environmental effects of cold.",
 					"-"
 				],
 				[
@@ -295,20 +295,20 @@
 					"5",
 					"Extensive",
 					"Frostbite",
-					"Roll twice on the Small Appendage Table. These appendages are firm, frigid, pale, and nonfunctional. If not reated within 15 minutes they will necrotize and fall off in 1d4 days (after which they are missing).",
+					"Roll twice on the Small Appendage Table. These appendages are firm, frigid, pale, and nonfunctional. If not treated within 15 minutes they will necrotize and fall off in 1d4 days (after which they are missing).",
 					"A short rest slowly rewarming the appendages."
 				],
 				[
 					"6",
 					"Severe",
 					"Hypothermia",
-					"Your core body temperature has plummeted dangerously low. While on initiative you function as if ffected by both the Slow and Confusion spells. If untreated for one hour, you fall unconscious.",
+					"Your core body temperature has plummeted dangerously low. While on initiative you function as if affected by both the Slow and Confusion spells. If untreated for one hour, you fall unconscious.",
 					"A short rest slowly rewarming yourself ends this effect."
 				],
 				[
 					"7",
 					"The Shivers",
-					"You are so cold your hands are shaking uncontrollably and your voice quavers as you speak. The next three pells you cast have a 50% chance to fail. This effect ends after three spells are attempted.",
+					"You are so cold your hands are shaking uncontrollably and your voice quavers as you speak. The next three spells you cast have a 50% chance to fail. This effect ends after three spells are attempted.",
 					"-"
 				],
 				[
@@ -321,12 +321,12 @@
 					"9",
 					"Frozen in Place",
 					"You attempt to move your feet but find the intensity of the cold has frozen you directly to the ground. You are restrained. If you are flying or otherwise not contacting a surface, there is no effect.",
-					"A Strength check (DC equals half the damage that caused the lingering injury or 10, hichever number is higher) as an action allows you to break free."
+					"A Strength check (DC equals half the damage that caused the lingering injury or 10, whichever number is higher) as an action allows you to break free."
 				],
 				[
 					"10",
 					"Hypothermia",
-					"The extreme cold has leeched away a large amount of your body heat. While on initiative you function as if ffected by the Slow spell. If untreated for two hours, the condition advances to Severe Hypothermia.",
+					"The extreme cold has leeched away a large amount of your body heat. While on initiative you function as if affected by the Slow spell. If untreated for two hours, the condition advances to Severe Hypothermia.",
 					"A short rest slowly rewarming yourself ends this effect."
 				],
 				[
@@ -349,31 +349,31 @@
 				[
 					"14",
 					"The Umbles",
-					"You are cold. So cold. You stumble. You fumble. You tumble. You mumble and grumble. You cannot take he disengage action for 1d6 turns.",
+					"You are cold. So cold. You stumble. You fumble. You tumble. You mumble and grumble. You cannot take the disengage action for 1d6 turns.",
 					"-"
 				],
 				[
 					"15",
 					"Heart of Ice",
-					"Roll on the Scar Chart. In a freak instance of chance, the cold has interacted with a thread of natural magic ithin you. This area of your body is permanently frigid (though to you it feels pleasantly cool) and it adiates a faint aura of Transmutation. You have advantage on Constitution checks and saves made to esist the environmental effects of cold. You may supress this effect by maintaining concentration.",
+					"Roll on the Scar Chart. In a freak instance of chance, the cold has interacted with a thread of natural magic within you. This area of your body is permanently frigid (though to you it feels pleasantly cool) and it radiates a faint aura of Transmutation. You have advantage on Constitution checks and saves made to resist the environmental effects of cold. You may supress this effect by maintaining concentration.",
 					"-"
 				],
 				[
 					"16",
 					"Frost Bitten Appendage",
-					"Roll on the Small Appendage Table. This appendage is firm, frigid, pale, and nonfunctional. If not treated ithin 15 minutes it will necrotize and fall off in 1d4 days (after which it is missing).",
+					"Roll on the Small Appendage Table. This appendage is firm, frigid, pale, and nonfunctional. If not treated within 15 minutes it will necrotize and fall off in 1d4 days (after which it is missing).",
 					"A short rest slowly rewarming the appendage."
 				],
 				[
 					"17",
 					"Frost Bitten Limb",
-					"Roll on the Large Limb Table. Your limb is frozen, rigid, numb, and nonfunctional. If not treated within 15 inutes the limb will necrotize and fall off in 1d4 days (after which it is missing).",
+					"Roll on the Large Limb Table. Your limb is frozen, rigid, numb, and nonfunctional. If not treated within 15 minutes the limb will necrotize and fall off in 1d4 days (after which it is missing).",
 					"A short rest slowly rewarming the limb."
 				],
 				[
 					"18",
 					"Slowed Reflexes",
-					"The cold has permanently damaged your nerves and your reflexes have become dull and sluggish. You ave disadvantage on initiative checks.",
+					"The cold has permanently damaged your nerves and your reflexes have become dull and sluggish. You have disadvantage on initiative checks.",
 					"-"
 				]
             ]
@@ -401,50 +401,50 @@
 				[
 					"3",
 					"Heat Intolerance",
-					"You just can't take the heat. Any exposure causes you to sweat, turn beet red, and become quickly atigued. You have disadvantage on Constitution checks and saving throws made to resist the nvironmental effects of heat.",
+					"You just can't take the heat. Any exposure causes you to sweat, turn beet red, and become quickly fatigued. You have disadvantage on Constitution checks and saving throws made to resist the environmental effects of heat.",
 					"-"
 				],
 				[
 					"4",
 					"Immolated Limb",
-					"Roll on the Large Limb Table. The limb is charred black, completely covered in extensive burns, and onfunctional. If untreated within 24 hours the limb will necrotize and fall off in 1d4 days (after which it s missing).",
-					"Treatment - A DC 21 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on he first check, the limb is lost."
+					"Roll on the Large Limb Table. The limb is charred black, completely covered in extensive burns, and nonfunctional. If untreated within 24 hours the limb will necrotize and fall off in 1d4 days (after which it is missing).",
+					"A DC 21 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the limb is lost."
 				],
 				[
 					"5",
 					"Immolated Appendage",
-					"Roll on the Small Appendage Table. The appendage is charred black, completely covered in extensive urns, and nonfunctional. If untreated within 24 hours the appendage will necrotize and fall off in 1d4 ays (after which it is missing).",
-					"Treatment - A DC 21 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on he first check, the appendage is lost."
+					"Roll on the Small Appendage Table. The appendage is charred black, completely covered in extensive burns, and nonfunctional. If untreated within 24 hours the appendage will necrotize and fall off in 1d4 ays (after which it is missing).",
+					"A DC 21 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the appendage is lost."
 				],
 				[
 					"6",
 					"Third Degree Burn",
-					"You have a deep burn penetrating through your skin, resulting in a cracked, red wound. While on nitiative you take 1 fire damage for every 5 feet of movement. In addition, you take 1d4 fire damage very time you take an action or bonus action. This injury lasts 1d8 days.",
-					"Treatment - A DC 16 Wisdom (Medicine) check reduces the duration of this injury by 1d8 days."
+					"You have a deep burn penetrating through your skin, resulting in a cracked, red wound. While on initiative you take 1 fire damage for every 5 feet of movement. In addition, you take 1d4 fire damage every time you take an action or bonus action. This injury lasts 1d8 days.",
+					"A DC 16 Wisdom (Medicine) check reduces the duration of this injury by 1d8 days."
 				],
 				[
 					"7",
 					"Heat Exhaustion",
-					"Sweat breaks out on your brow, your pulse is thready, and your muscles feel weak. You take 1 level of xhaustion.",
-					"Treatment - A long rest or the Greater Restoration spell removes this exhaustion as usual."
+					"Sweat breaks out on your brow, your pulse is thready, and your muscles feel weak. You take 1 level of exhaustion.",
+					"A long rest or the Greater Restoration spell removes this exhaustion as usual."
 				],
 				[
 					"8",
 					"First Degree Burn",
-					"An angry red burn flashes over your skin. It's tender and painful to move. While on initiative you take 1 ire damage per 10 feet of movement. This injury heals in 1d6 days.",
-					"Treatment - A DC 10 Wisdom (Medicine) check reduces the duration of this injury by 1d6 days."
+					"An angry red burn flashes over your skin. It's tender and painful to move. While on initiative you take 1 fire damage per 10 feet of movement. This injury heals in 1d6 days.",
+					"A DC 10 Wisdom (Medicine) check reduces the duration of this injury by 1d6 days."
 				],
 				[
 					"9",
 					"Heat Stroke",
 					"It's so hot you feel faint. Your muscles are cramping. It feels as if your blood is about to boil in your body. You take 2 levels of exhaustion.",
-					"Treatment - A long rest or the Greater Restoration spell removes this exhaustion as usual."
+					"A long rest or the Greater Restoration spell removes this exhaustion as usual."
 				],
 				[
 					"10",
 					"Second Degree Burn",
-					"Your skin bubbles and blisters as the burning flashes over it. While on initiative you take 1 fire damage er 5 feet of movement. This injury heals in 1d8 days.",
-					"Treatment - A DC 12 Wisdom (Medicine) check reduces the duration of this injury by 1d8 days."
+					"Your skin bubbles and blisters as the burning flashes over it. While on initiative you take 1 fire damage per 5 feet of movement. This injury heals in 1d8 days.",
+					"A DC 12 Wisdom (Medicine) check reduces the duration of this injury by 1d8 days."
 				],
 				[
 					"11",
@@ -461,18 +461,18 @@
 				[
 					"13",
 					"Ignited",
-					"You. Are. On. Fire. Dancing flames lick around your body. At the beginning of your turn, you take fire amage scaled to the damage that caused the lingering injury: 1-10 damage (1d2), 11-20 damage (1d4), 21-30 damage (1d6), 31-40 damage (1d8), >40 damage (1d10).",
-					"Treatment - You may use an action to extinguish the flames."
+					"You. Are. On. Fire. Dancing flames lick around your body. At the beginning of your turn, you take fire damage scaled to the damage that caused the lingering injury: 1-10 damage (1d2), 11-20 damage (1d4), 21-30 damage (1d6), 31-40 damage (1d8), >40 damage (1d10).",
+					"You may use an action to extinguish the flames."
 				],
 				[
 					"14",
 					"Searing Temperatures",
-					"The temperature around you skyrockets, flash-heating everything nearby. Any flammable objects being orn or wielded are ignited. You drop anything metal you are carrying in sudden shock.",
-					"Treatment - You may extinguish any worn or wielded items that were ignited with a bonus action. If you ttempt to pick up any dropped items, make a Constitution saving throw (DC equals half the damage that aused the lingering injury or 10, whichever number is higher) to brave the heat and retrieve them."
+					"The temperature around you skyrockets, flash-heating everything nearby. Any flammable objects being worn or wielded are ignited. You drop anything metal you are carrying in sudden shock.",
+					"You may extinguish any worn or wielded items that were ignited with a bonus action. If you attempt to pick up any dropped items, make a Constitution saving throw (DC equals half the damage that caused the lingering injury or 10, whichever number is higher) to brave the heat and retrieve them."
 				],
 				[
 					"15",
-					"Inner Fire Roll on the Scar Chart. In a freak instance of chance, the heat has interacted with a thread of natural agic within you. This area of your body is permanently hot (though to you it feels pleasantly warm) and adiates a faint aura of Transmutation. You have advantage on Constitution checks and saving throws ade to resist the environmental effects of heat. You may supress this effect by maintaining oncentration.",
+					"Inner Fire Roll on the Scar Chart. In a freak instance of chance, the heat has interacted with a thread of natural magic within you. This area of your body is permanently hot (though to you it feels pleasantly warm) and radiates a faint aura of Transmutation. You have advantage on Constitution checks and saving throws made to resist the environmental effects of heat. You may supress this effect by maintaining concentration.",
 					"-"
 				],
 				[
@@ -484,14 +484,14 @@
 				[
 					"17",
 					"Incinerated Limb",
-					"Roll on the Large Limb Table. The voracious fire has devoured your limb, leaving nothing but smoking inders in its wake. The limb is missing, and the resulting wound is cauterized.",
+					"Roll on the Large Limb Table. The voracious fire has devoured your limb, leaving nothing but smoking cinders in its wake. The limb is missing, and the resulting wound is cauterized.",
 					"-"
 				],
 				[
 					"18",
 					"Airway Burn",
-					"You inhale the scorching air around you and it burns a path straight down to your lungs. Your sense of aste and smell are nonfunctional If not treated within 24 hours they will be permanently missing.",
-					"Treatment - A DC20 Save Sense Surgery."
+					"You inhale the scorching air around you and it burns a path straight down to your lungs. Your sense of taste and smell are nonfunctional If not treated within 24 hours they will be permanently missing.",
+					"A DC20 Save Sense Surgery."
 				]
             ]
         },
