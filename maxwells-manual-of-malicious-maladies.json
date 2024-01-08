@@ -261,7 +261,7 @@
 		{
 			"name": "Cold Damage",
 			"source": "MMMM",
-			"page": 11,
+			"page": 12,
 			"colLabels":
 			[
 				"3d6",
@@ -376,6 +376,29 @@
 					"The cold has permanently damaged your nerves and your reflexes have become dull and sluggish. You ave disadvantage on initiative checks.",
 					"-"
 				]
+            ]
+        },
+		{
+			"name": "Fire Damage",
+			"source": "MMMM",
+			"page": 11,
+			"colLabels":
+			[
+				"3d6",
+				"Injury",
+				"Description",
+				"Treatment"
+			],
+			"colStyles":
+			[
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-6",
+				"col-2"
+			],
+			"rows":
+			[
+				
             ]
         }
 	]
