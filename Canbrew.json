@@ -769,7 +769,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "This metal \"Knuckle Dusters\" have a small level of infamy granting them the title of dwarven fire starters. Originally designed for a fist up in tavern brawls, they have become common in pugilist circles. Inscribed in dwarvish across the faces are \"Fire\" and \"Pyre\"",
+                "These metal \"Knuckle Dusters\" have a small level of infamy granting them the title of dwarven fire starters. Originally designed for a fist up in tavern brawls, they have become common in pugilist circles. Inscribed in dwarvish across the faces are \"Fire\" and \"Pyre\"",
                 {
                     "type": "entries",
                     "name": "White Hot",
@@ -22976,20 +22976,25 @@
                     ]
                 }
             ],
-            "spellcasting": [
+            "spellcasting":
+            [
                 {
                     "name": "Innate Spellcasting",
-                    "headerEntries": [
+                    "headerEntries":
+                    [
                         "The vampire's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save {@dc 120), requiring no material components:"
                     ],
-                    "will": [
+                    "will":
+                    [
                         "{@spell disguise self|PHB}",
                         "{@spell mage armor|PHB} (self only)",
                         "{@spell silent image|PHB}",
                         "{@spell speak with animals|PHB}"
                     ],
-                    "daily": {
-                        "1": [
+                    "daily":
+                    {
+                        "1":
+                        [
                             "{@spell conjure fey|PHB}"
                         ]
                     },
@@ -33745,7 +33750,7 @@
                     "name": "Glaive",
                     "entries":
                     [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d10+1}) slashing damage plus 3 ({@damage 1d6) fire damage."
+                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d10+1}) slashing damage plus 3 ({@damage 1d6}) fire damage."
                     ]
                 }
             ],
@@ -33907,14 +33912,14 @@
                     "name": "Bite",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d6+3}) piercing damage plus 10 ({@damage 3d6) poison damage."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d6+3}) piercing damage plus 10 ({@damage 3d6}) poison damage."
                     ]
                 },
                 {
                     "name": "Electric Grasp",
                     "entries":
                     [
-                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}18 ({@damage 4d8) lightning damage, and the target can't take reactions until the start of its next turn."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}18 ({@damage 4d8}) lightning damage, and the target can't take reactions until the start of its next turn."
                     ]
                 }
             ],
