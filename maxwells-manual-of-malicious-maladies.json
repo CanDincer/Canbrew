@@ -40,8 +40,8 @@
 			[
 				"col-1 text-center",
 				"col-1 text-center",
-				"col-6",
-				"col-4"
+				"col-7",
+				"col-3"
 			],
 			"rows":
 			[
@@ -158,8 +158,8 @@
 			[
 				"col-1 text-center",
 				"col-1 text-center",
-				"col-6",
-				"col-4"
+				"col-7",
+				"col-3"
 			],
 			"rows":
 			[
@@ -276,8 +276,8 @@
 			[
 				"col-1 text-center",
 				"col-1 text-center",
-				"col-6",
-				"col-4"
+				"col-7",
+				"col-3"
 			],
 			"rows":
 			[
@@ -393,8 +393,8 @@
 			[
 				"col-1 text-center",
 				"col-1 text-center",
-				"col-6",
-				"col-4"
+				"col-7",
+				"col-3"
 			],
 			"rows":
 			[
@@ -1432,7 +1432,11 @@
                     "Roll to randomly determine your left or right ear. You've taken a grievous wound across this ear. It is nonfunctional, and if not treated within 12 hours, your hearing will be permanently missing.",
                     "A DC20 Save Sense Surgery."
                 ]
-            ]
+            ],
+			"footnotes":
+            [
+				"{@b Note:} Damage to maximum hit points caused by loss of blood heals at a rate of the character's HD + their Constitution modifier per long rest (the same rate as recovering from surgery). This damage is cured by the Greater Restoration spell as usual."
+			]
         },
         {
             "name": "Thunder Damage",
