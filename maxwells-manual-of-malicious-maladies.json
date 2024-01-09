@@ -1551,6 +1551,620 @@
                     "A DC20 Save Sense Surgery."
                 ]
             ]
+        },
+        {
+            "name": "Scar Chart",
+            "source": "MMMM",
+            "page": 24,
+            "colLabels":
+            [
+                "d100",
+                "Body Part"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "1",
+                    "Head"
+				],
+				[
+                    "2",
+                    "Head"
+				],
+				[
+                    "3",
+                    "Face"
+				],
+				[
+                    "4",
+                    "Face"
+				],
+				[
+                    "5",
+                    "Forehead"
+				],
+				[
+                    "6",
+                    "Left Cheek"
+				],
+				[
+                    "7",
+                    "Right Cheek"
+				],
+				[
+                    "8",
+                    "Chin"
+				],
+				[
+                    "9",
+                    "Hair/Horns/Scalp"
+				],
+				[
+                    "10",
+                    "Nose"
+				],
+				[
+                    "11",
+                    "Tongue"
+				],
+				[
+                    "12",
+                    "Lips/Mouth"
+				],
+				[
+                    "13",
+                    "Eyes/Over Eyes"
+				],
+				[
+                    "14",
+                    "Left Eye/Over Eye"
+				],
+				[
+                    "15",
+                    "Right Eye/Over Eye"
+				],
+				[
+                    "16",
+                    "Ears"
+				],
+				[
+                    "17",
+                    "Left Ear"
+				],
+				[
+                    "18",
+                    "Right Ear"
+				],
+				[
+                    "19",
+                    "Neck"
+				],
+				[
+                    "20",
+                    "Neck"
+				],
+				[
+                    "21",
+                    "Back of Neck"
+				],
+				[
+                    "22",
+                    "Throat"
+				],
+				[
+                    "23",
+                    "Chest"
+				],
+				[
+                    "24",
+                    "Chest"
+				],
+				[
+                    "25",
+                    "Chest"
+				],
+				[
+                    "26",
+                    "Left Chest"
+				],
+				[
+                    "27",
+                    "Left Chest"
+				],
+				[
+                    "28",
+                    "Left Chest"
+				],
+				[
+                    "29",
+                    "Right Chest"
+				],
+				[
+                    "30",
+                    "Right Chest"
+				],
+				[
+                    "31",
+                    "Right Chest"
+				],
+				[
+                    "32",
+                    "Upper Back"
+				],
+				[
+                    "33",
+                    "Upper Back"
+				],
+				[
+                    "34",
+                    "Upper Back"
+				],
+				[
+                    "35",
+                    "Left Upper Back"
+				],
+				[
+                    "36",
+                    "Left Upper Back"
+				],
+				[
+                    "37",
+                    "Left Upper Back"
+				],
+				[
+                    "38",
+                    "Right Upper Back"
+				],
+				[
+                    "39",
+                    "Right Upper Back"
+				],
+				[
+                    "40",
+                    "Right Upper Back"
+				],
+				[
+                    "41",
+                    "Along Spine"
+				],
+				[
+                    "42",
+                    "Lower Back"
+				],
+				[
+                    "43",
+                    "Lower Back"
+				],
+				[
+                    "44",
+                    "Lower Back"
+				],
+				[
+                    "45",
+                    "Stomach"
+				],
+				[
+                    "46",
+                    "Stomach"
+				],
+				[
+                    "47",
+                    "Stomach"
+				],
+				[
+                    "47",
+                    "Left Hip"
+				],
+				[
+                    "49",
+                    "Left Hip"
+				],
+				[
+                    "50",
+                    "Right Hip"
+				],
+				[
+                    "51",
+                    "Left Hip"
+				],
+				[
+                    "52",
+                    "Left Arm"
+				],
+				[
+                    "53",
+                    "Left Arm"
+				],
+				[
+                    "54",
+                    "Left Arm"
+				],
+				[
+                    "55",
+                    "Left Arm to Elbow"
+				],
+				[
+                    "56",
+                    "Left Arm to Elbow"
+				],
+				[
+                    "57",
+                    "Left Arm to Elbow"
+				],
+				[
+                    "58",
+                    "Left Hand"
+				],
+				[
+                    "59",
+                    "Left Hand"
+				],
+				[
+                    "60",
+                    "Left Palm"
+				],
+				[
+                    "61",
+                    "Back of Left Hand"
+				],
+				[
+                    "62",
+                    "Left Thumb"
+				],
+				[
+                    "63",
+                    "Left Index Finger"
+				],
+				[
+                    "64",
+                    "Left Middle Finger"
+				],
+				[
+                    "65",
+                    "Left Ring Finger"
+				],
+				[
+                    "66",
+                    "Left Pinky Finger"
+				],
+				[
+                    "67",
+                    "Right Arm"
+				],
+				[
+                    "68",
+                    "Right Arm"
+				],
+				[
+                    "69",
+                    "Right Arm"
+				],
+				[
+                    "70",
+                    "Right Arm to Elbow"
+				],
+				[
+                    "71",
+                    "Right Arm to Elbow"
+				],
+				[
+                    "72",
+                    "Right Arm to Elbow"
+				],
+				[
+                    "73",
+                    "Right Hand"
+				],
+				[
+                    "74",
+                    "Right Hand"
+				],
+				[
+                    "75",
+                    "Right Palm"
+				],
+				[
+                    "76",
+                    "Back of Right Hand"
+				],
+				[
+                    "77",
+                    "Right Thumb"
+				],
+				[
+                    "78",
+                    "Right Index Finger"
+				],
+				[
+                    "79",
+                    "Right Middle Finger"
+				],
+				[
+                    "80",
+                    "Right Ring Finger"
+				],
+				[
+                    "81",
+                    "Right Pinky Finger"
+				],
+				[
+                    "82",
+                    "Left Leg"
+				],
+				[
+                    "83",
+                    "Left Leg"
+				],
+				[
+                    "84",
+                    "Left Leg"
+				],
+				[
+                    "85",
+                    "Left Leg to Knee"
+				],
+				[
+                    "86",
+                    "Left Leg to Knee"
+				],
+				[
+                    "87",
+                    "Left Leg to Knee"
+				],
+				[
+                    "88",
+                    "Left Foot"
+				],
+				[
+                    "89",
+                    "Left Foot"
+				],
+				[
+                    "90",
+                    "Toes on Left Foot"
+				],
+				[
+                    "91",
+                    "Right Leg"
+				],
+				[
+                    "92",
+                    "Right Leg"
+				],
+				[
+                    "93",
+                    "Right Leg"
+				],
+				[
+                    "94",
+                    "Right Leg to Knee"
+				],
+				[
+                    "95",
+                    "Right Leg to Knee"
+				],
+				[
+                    "96",
+                    "Right Leg to Knee"
+				],
+				[
+                    "97",
+                    "Right Foot"
+				],
+				[
+                    "98",
+                    "Right Foot"
+				],
+				[
+                    "99",
+                    "Toes of Right Foot"
+				],
+				[
+                    "100",
+                    "Player's Choice"
+				] 
+            ]
+        },
+        {
+            "name": "Large Limb Table",
+            "source": "MMMM",
+            "page": 25,
+            "colLabels":
+            [
+                "d20",
+                "Limb"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "1",
+                    "Entire Left Arm"
+				],
+				[
+                    "2",
+                    "Left Arm Above Elbow"
+				],
+				[
+                    "3",
+                    "Left Arm Below Elbow"
+				],
+				[
+                    "4",
+                    "Left Hand"
+				],
+				[
+                    "5",
+                    "Left Hand"
+				],
+				[
+                    "6",
+                    "Entire Right Arm"
+				],
+				[
+                    "7",
+                    "Right Arm Above Elbow"
+				],
+				[
+                    "8",
+                    "Right Arm Below Elbow"
+				],
+				[
+                    "9",
+                    "Right Hand"
+				],
+				[
+                    "10",
+                    "Right Hand"
+				],
+				[
+                    "11",
+                    "Entire Left Leg"
+				],
+				[
+                    "12",
+                    "Left Leg Above Knee"
+				],
+				[
+                    "13",
+                    "Left Leg Below Knee"
+				],
+				[
+                    "14",
+                    "Left Foot"
+				],
+				[
+                    "15",
+                    "Left Foot"
+				],
+				[
+                    "16",
+                    "Entire Right Leg"
+				],
+				[
+                    "17",
+                    "Right Leg Above Knee"
+				],
+				[
+                    "18",
+                    "Right Leg Below Knee"
+				],
+				[
+                    "19",
+                    "Right Foot"
+				],
+				[
+                    "20",
+                    "Right Foot"
+				]
+            ]
+        },
+        {
+            "name": "Small Appendage Table",
+            "source": "MMMM",
+            "page": 25,
+            "colLabels":
+            [
+                "d20",
+                "Appendage"
+            ],
+            "colStyles":
+            [
+                "col-1 text-center",
+                "col-2"
+            ],
+            "rows":
+            [
+                [
+                    "1",
+                    "Left Index Finger"
+				],
+				[
+                    "2",
+                    "Left Middle Finger"
+				],
+				[
+                    "3",
+                    "Left Ring Finger"
+				],
+				[
+                    "4",
+                    "Left Pinky Finger"
+				],
+				[
+                    "5",
+                    "Right Index Finger"
+				],
+				[
+                    "6",
+                    "Right Middle Finger"
+				],
+				[
+                    "7",
+                    "Right Ring Finger"
+				],
+				[
+                    "8",
+                    "Right Pinky Finger"
+				],
+				[
+                    "9",
+                    "Left Big Toe"
+				],
+				[
+                    "10",
+                    "Left 2nd Toe"
+				],
+				[
+                    "11",
+                    "Left Middle Toe"
+				],
+				[
+                    "12",
+                    "Left 4th Toe"
+				],
+				[
+                    "13",
+                    "Left Pinky Toe"
+				],
+				[
+                    "14",
+                    "Right Big Toe"
+				],
+				[
+                    "15",
+                    "Right 2nd Toe"
+				],
+				[
+                    "16",
+                    "Right Middle Toe"
+				],
+				[
+                    "17",
+                    "Right 4th Toe"
+				],
+				[
+                    "18",
+                    "Right Pinky Toe"
+				],
+				[
+                    "19",
+                    "Two Random Fingers"
+				],
+				[
+                    "20",
+                    "Two Random Toes"
+				]
+            ]
         }
 	]
 }
