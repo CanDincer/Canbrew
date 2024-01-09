@@ -21,7 +21,7 @@
 			}
 		],
 		"dateAdded": 1704721560,
-		"dateLastModified": 1704721560
+		"dateLastModified": 1704790860
 	},
 	"table":
 	[
@@ -41,7 +41,7 @@
 				"col-1 text-center",
 				"col-1 text-center",
 				"col-6",
-				"col-2"
+				"col-4"
 			],
 			"rows":
 			[
@@ -159,7 +159,7 @@
 				"col-1 text-center",
 				"col-1 text-center",
 				"col-6",
-				"col-2"
+				"col-4"
 			],
 			"rows":
 			[
@@ -277,7 +277,7 @@
 				"col-1 text-center",
 				"col-1 text-center",
 				"col-6",
-				"col-2"
+				"col-4"
 			],
 			"rows":
 			[
@@ -394,7 +394,7 @@
 				"col-1 text-center",
 				"col-1 text-center",
 				"col-6",
-				"col-2"
+				"col-4"
 			],
 			"rows":
 			[
