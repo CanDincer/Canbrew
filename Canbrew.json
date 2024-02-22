@@ -12158,8 +12158,8 @@
             ],
             "hp":
             {
-                "average": 22,
-                "formula": "5d8"
+                "average": 36,
+                "formula": "8d8"
             },
             "speed":
             {
@@ -12184,7 +12184,8 @@
             [
                 "poison",
                 {
-                    "immune": [
+                    "immune":
+                    [
                         "bludgeoning",
                         "piercing",
                         "slashing"
@@ -12200,16 +12201,16 @@
             "passive": 12,
             "languages":
             [
-                "understands Common and Celestial but can't speak"
+                "understands the languages of its creator but can't speak"
             ],
-            "cr": "2",
+            "cr": "1",
             "trait":
             [
                 {
                     "name": "Pounce",
                     "entries":
                     [
-                        "If the na'arn moves at least 20 ft. straight toward a creature and then hits it with a Khopesh attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action."
+                        "If the na'arn moves at least 20 ft. straight toward a creature and then hits it with a khopesh attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked prone. If the target is prone, the na'arn can make one khopesh attack against it as a bonus action."
                     ]
                 },
                 {
