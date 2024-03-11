@@ -72,7 +72,7 @@
             ]
         },
         {
-            "name": "Bow of the Twilight Valkyrie (ogd)",
+            "name": "Bow of the Twilight Valkyrie (WIP)",
             "baseItem": "Longbow|PHB",
             "type": "R",
             "weaponCategory": "martial",
@@ -561,7 +561,7 @@
             ]
         },
         {
-            "name": "Marks of the Horsemen (ogd)",
+            "name": "Marks of the Horsemen (WIP)",
             "tattoo": true,
             "reqAttune": "true",
             "curse": true,
@@ -2216,7 +2216,7 @@
             ]
         },
         {
-            "name": "Plate Armor of (ogd)",
+            "name": "Plate Armor of (WIP)",
             "weight": 65,
             "ac": 18,
             "reqAttune": true,
@@ -2231,7 +2231,7 @@
             ]
         },
         {
-            "name": "Armor of Myrmidon Lord (ogd)",
+            "name": "Armor of Myrmidon Lord (WIP)",
             "baseItem": "half plate armor|PHB",
             "type": "MA",
             "armor": true,
@@ -2349,7 +2349,7 @@
             ]
         },
         {
-            "name": "Tabula Rasa (ogd) cold elemental?",
+            "name": "Tabula Rasa (WIP) cold elemental?",
             "baseItem": "Plate Armor|PHB",
             "type": "HA",
             "armor": true,
@@ -2987,7 +2987,7 @@
             ]
         },
         {
-            "name": "Mirror of Imprisonment (ogd, too op, too boring, can be salvaged)",
+            "name": "Mirror of Imprisonment (WIP, too op, too boring, can be salvaged)",
             "rarity": "artifact",
             "weight": 0.5,
             "reqAttune": true,
@@ -3031,7 +3031,7 @@
             ]
         },
         {
-            "name": "Chalice of Hestia (ogd)",
+            "name": "Chalice of Hestia (WIP)",
             "rarity": "rare",
             "weight": 0.5,
             "reqAttune": true,
@@ -3181,7 +3181,7 @@
             ]
         },
         {
-            "name": "Goblin's Gourd (ogd)",
+            "name": "Goblin's Gourd (WIP)",
             "rarity": "common",
             "type": "P",
             "weight": 0.5,
@@ -3432,7 +3432,7 @@
             ]
         },
         {
-            "name": "Eye of the Fiendlord (ogd)",
+            "name": "Eye of the Fiendlord (WIP)",
             "rarity": "very rare",
             "weight": 0.05,
             "reqAttune": true,
@@ -3467,7 +3467,7 @@
             ]
         },
         {
-            "name": "Red Claw's Regalia (ogd)",
+            "name": "Red Claw's Regalia (WIP)",
             "rarity": "very rare",
             "weight": 3,
             "reqAttune": true,
@@ -4004,7 +4004,7 @@
             ]
         },
         {
-            "name": "Accelerator Gem (ogd)",
+            "name": "Accelerator Gem (WIP)",
             "rarity": "legendary",
             "type": "SCF",
             "weight": 0.05,
@@ -4057,7 +4057,7 @@
             ]
         },
         {
-            "name": "Horadric Cube (ogd)",
+            "name": "Horadric Cube (WIP)",
             "rarity": "very rare",
             "weight": 0.5,
             "reqAttune": true,
@@ -5021,7 +5021,7 @@
             }
         },
         {
-            "name": "Oblex Spawn (ogd)",
+            "name": "Oblex Spawn (WIP)",
             "size":
             [
                 "M"
@@ -9610,7 +9610,7 @@
             }
         },
         {
-            "name": "Ifrit (ogd)",
+            "name": "Ifrit (WIP)",
             "isNpc": true,
             "size":
             [
@@ -13828,7 +13828,7 @@
             }
         },
         {
-            "name": "Aben'nate (ogd)",
+            "name": "Aben'nate (WIP)",
             "isNpc": true,
             "isNamedCreature": true,
             "size":
@@ -14836,7 +14836,7 @@
             }
         },
         {
-            "name": "Drowned Metamorph (ogd)",
+            "name": "Drowned Metamorph (WIP)",
             "size":
             [
                 "M"
@@ -15186,7 +15186,7 @@
             }
         },
         {
-            "name": "Snow Grappler (ogd)",
+            "name": "Snow Grappler (WIP)",
             "size":
             [
                 "L"
@@ -15519,7 +15519,7 @@
             }
         },
         {
-            "name": "Polebeak (ogd)",
+            "name": "Polebeak (WIP)",
             "size":
             [
                 "L"
@@ -15774,7 +15774,7 @@
             }
         },
         {
-            "name": "Leechmere (ogd)",
+            "name": "Leechmere (WIP)",
             "size":
             [
                 "S"
@@ -18330,7 +18330,7 @@
             }
         },
         {
-            "name": "Arcane Gunslinger (ogd)",
+            "name": "Arcane Gunslinger (WIP)",
             "size":
             [
                 "M"
@@ -18508,7 +18508,7 @@
             }
         },
         {
-            "name": "Troopers (ogd)",
+            "name": "Troopers (WIP)",
             "size":
             [
                 "M"
@@ -19610,7 +19610,7 @@
             }
         },
         {
-            "name": "Nothidra (ogd)",
+            "name": "Nothidra (WIP)",
             "source": "Canbrew",
             "size":
             [
@@ -21100,7 +21100,7 @@
             [
                 "charmed"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "WIP",
             "fluff":
             {
                 "images":
@@ -21110,7 +21110,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "WIP"
                         }
                     }
                 ]
@@ -22767,17 +22767,17 @@
             [
                 "charmed"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "WIP",
             "fluff":
             {
                 "images":
                 [
                     {
-                        "type": "ogd",
+                        "type": "WIP",
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "WIP"
                         }
                     }
                 ]
@@ -23959,7 +23959,7 @@
             [
                 "charmed"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "WIP",
             "fluff":
             {
                 "images":
@@ -23969,7 +23969,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "WIP"
                         }
                     }
                 ]
@@ -25284,7 +25284,7 @@
             [
                 "charmed"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "WIP",
             "fluff":
             {
                 "images":
@@ -25294,7 +25294,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "WIP"
                         }
                     }
                 ]
@@ -27100,7 +27100,7 @@
             [
                 "charmed"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "WIP",
             "fluff":
             {
                 "images":
@@ -27110,7 +27110,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "WIP"
                         }
                     }
                 ]
@@ -29039,7 +29039,7 @@
                 "RNG",
                 "RW"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "WIP",
             "fluff":
             {
                 "images":
@@ -29049,7 +29049,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "WIP"
                         }
                     }
                 ]
@@ -29169,7 +29169,7 @@
             [
                 "MW"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "WIP",
             "fluff":
             {
                 "images":
@@ -29179,7 +29179,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "WIP"
                         }
                     }
                 ]
@@ -29301,7 +29301,7 @@
                 "RW",
                 "RNG"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "WIP",
             "fluff":
             {
                 "images":
@@ -29311,7 +29311,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "WIP"
                         }
                     }
                 ]
@@ -29421,7 +29421,7 @@
             [
                 "MW"
             ],
-            "tokenUrl": "ogd",
+            "tokenUrl": "WIP",
             "fluff":
             {
                 "images":
@@ -29431,7 +29431,7 @@
                         "href":
                         {
                             "type": "external",
-                            "url": "ogd"
+                            "url": "WIP"
                         }
                     }
                 ]
@@ -31436,7 +31436,7 @@
             }
         },
         {
-            "name": "Sirzamon (ogd)",
+            "name": "Sirzamon (WIP)",
             "isNpc": true,
             "isNamedCreature": true,
             "source": "Canbrew",
@@ -32190,7 +32190,7 @@
             "tokenUrl": "https://i.imgur.com/HtY4voO.png"
         },
         {
-            "name": "Orc Gliding Falcon (ogd)",
+            "name": "Orc Gliding Falcon (WIP)",
             "source": "Canbrew",
             "size":
             [
@@ -32254,17 +32254,17 @@
             "trait":
             [
                 {
-                    "name": "ogd",
+                    "name": "WIP",
                     "entries":
                     [
-                        "ogd"
+                        "WIP"
                     ]
                 }
             ],
             "action":
             [
                 {
-                    "name": "ogd",
+                    "name": "WIP",
                     "entries":
                     [
                         "{@atk rs} {@hit 7} to hit, reach 120 ft., one target. {@h}6 ({@damage 1d4+4}) force damage."
@@ -32290,7 +32290,7 @@
             [
                 "RNG"
             ],
-            "tokenUrl": "ogd"
+            "tokenUrl": "WIP"
         },
         {
             "name": "Secluded",
@@ -33668,7 +33668,7 @@
             }
         },
         {
-            "name": "Sand Naga ogd",
+            "name": "Sand Naga (WIP)",
             "size":
             [
                 "L"
