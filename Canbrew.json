@@ -35201,82 +35201,191 @@
             [
                 "PRM"
             ]
-            },
+        },
+        {
+            "name": "Yalen's Yester Yank",
+            "source": "Canbrew",
+            "level": 3,
+            "school": "C",
+            "time":
+            [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range":
             {
-                "name": "Yalen's Yester Yank",
-                "source": "Canbrew",
-                "level": 3,
-                "school": "C",
-                "time":
+                "type": "point",
+                "distance":
+                {
+                    "type": "touch"
+                }
+            },
+            "components":
+            {
+                "v": true,
+                "m":
+                {
+                    "text": "A seal emblazoned with tiny gems worth 3500 gp in total.",
+                    "cost": 350000,
+                    "consume": false
+                }
+            },
+            "duration":
+            [
+                {
+                    "type": "special"
+                }
+            ],
+            "meta":
+            {
+                "ritual": true
+            },
+            "entries":
+            [
+                "You choose one object that you must touch throughout the casting of the spell and mark it with the seal. The object must be no larger than a 1-foot cube and it must have a minimum of 3-inch diameter flat surface on which the seal can leave its mark. The seal glows with feint yellow light.",
+                "Once For 24 hours, you can summon the object magically back to you as an action, and the spell ends if you do so."
+            ],
+            "entriesHigherLevel":
+            [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries":
+                    [
+                        "When you cast this spell using a spell slot of 3rd level or higher, the duration is multiplied by 10 for every two slot levels above 3rd."
+                    ]
+                }
+            ],
+            "classes":
+            {
+                "fromClassList":
                 [
                     {
-                        "number": 1,
-                        "unit": "minute"
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "ERLW"
                     }
-                ],
-                "range":
+                ]
+            },
+            "areaTags":
+            [
+                "ST"
+            ]
+        },
+        {
+            "name": "Surge Resonance",
+            "source": "Canbrew",
+            "level": 4,
+            "school": "T",
+            "time":
+            [
                 {
-                    "type": "point",
-                    "distance":
+                    "number": 1,
+                    "unit": "hour"
+                }
+            ],
+            "range":
+            {
+                "type": "point",
+                "distance":
                     {
                         "type": "touch"
                     }
-                },
-                "components":
+            },
+            "components":
+            {
+                "v": true,
+                "s": true,
+                "r": true,
+                "m":
                 {
-                    "v": true,
-                    "m":
-                    {
-                        "text": "A seal emblazoned with tiny gems worth 3500 gp in total.",
-                        "cost": 350000,
-                        "consume": false
-                    }
-                },
-                "duration":
-                [
-                    {
-                        "type": "special"
-                    }
-                ],
-                "meta":
+                    "text": "a black pearl worth at least 500 gp, and a mithral bar worth at least 100 gp, which the spell consumes",
+                    "cost": 100,
+                    "consume": true
+                }
+            },
+            "duration":
+            [
                 {
-                    "ritual": true
-                },
-                "entries":
-                [
-                    "You choose one object that you must touch throughout the casting of the spell and mark it with the seal. The object must be no larger than a 1-foot cube and it must have a minimum of 3-inch diameter flat surface on which the seal can leave its mark. The seal glows with feint yellow light.",
-                    "Once For 24 hours, you can summon the object magically back to you as an action, and the spell ends if you do so."
-                ],
-                "entriesHigherLevel":
-                [
-                    {
-                        "type": "entries",
-                        "name": "At Higher Levels",
-                        "entries":
+                    "type": "permanent",
+                    "ends":
                         [
-                            "When you cast this spell using a spell slot of 3rd level or higher, the duration is multiplied by 10 for every two slot levels above 3rd."
+                            "dispel",
+                            "trigger"
                         ]
-                    }
-                ],
-                "classes":
+                }
+            ],
+            "entries":
+            [
+                "You magically infuse the mithral bar into an object no larger than 1 foot in any dimension that you can touch. The object doesn't visibly change, but it holds the potential to interlope magical energy and can be detected by spells like detect magic.",
+                "The object triggers when a spell of level 4 or lower is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the malicious magic surge table and the spell ends.",
+                "Only one surging resonance can be active on an object at a time. Only one object imbued with surging resonance can trigger at a time for a spell.",
+                ""
                 {
-                    "fromClassList":
+                    "name": "Self Only",
+                    "type": "list",
+                    "items":
                     [
-                        {
-                            "name": "Wizard",
-                            "source": "PHB"
-                        },
-                        {
-                            "name": "Artificer",
-                            "source": "ERLW"
-                        }
+                        "{@spell comprehend languages|PHB}, {@spell detect magic|PHB}, {@spell expeditious retreat|PHB}, {@spell alter self|PHB}, {@spell see invisibility|PHB}, {@spell fly|PHB}, {@spell tongues|PHB}, {@spell true seeing|PHB}"
                     ]
                 },
-                "areaTags":
+                {
+                    "name": "Self or Other",
+                    "type": "list",
+                    "items":
+                    [
+                        "{@spell barkskin|PHB}, {@spell darkvision|PHB}, {@spell enlarge/reduce|PHB}, {@spell spider climb|PHB}, {@spell stoneskin|PHB}, {@spell rary's telepathic bond|PHB}"
+                    ]
+                },
+                {
+                    "name": "Self, Other, or Object",
+                    "type": "list",
+                    "items":
+                    [
+                        "{@spell invisibility|PHB}, {@spell nondetection|PHB}"
+                    ]
+                },
+                {
+                    "name": "Object Only",
+                    "type": "list",
+                    "items":
+                    [
+                        "{@spell illusory script|PHB}, {@spell magic weapon|PHB}, {@spell elemental weapon|PHB}, {@spell animate objects|PHB}"
+                    ]
+                },
+                {
+                    "name": "Area",
+                    "type": "list",
+                    "items":
+                    [
+                        "{@spell alarm|PHB}, {@spell fog cloud|PHB}, {@spell web|PHB}, {@spell stinking cloud|PHB}, {@spell wall of fire|PHB}, {@spell wall of force|PHB}, {@spell wall of stone|PHB}, {@spell arcane gate|PHB}, {@spell wall of thorns|PHB}, {@spell reverse gravity|PHB}, {@spell antimagic field|PHB}, {@spell prismatic wall|PHB}"
+                    ]
+                }
+            ],
+            "classes":
+            {
+                "fromClassList":
                 [
-                    "ST"
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "ERLW"
+                    }
                 ]
             },
+            "miscTags":
+            [
+                "PRM"
+            ]
+        },
         {
             "name": "Spinning Blade Swarm",
             "source": "Canbrew",
@@ -35295,7 +35404,7 @@
                 "distance":
                 {
                     "type": "feet",
-                    "amount": 40
+                    "amount": 5
                 }
             },
             "components":
@@ -35303,7 +35412,7 @@
                 "v": true,
                 "m":
                 {
-                    "text": "Four metal coins",
+                    "text": "Seven metal coins",
                     "consume": false
                 }
             },
@@ -35320,8 +35429,8 @@
             ],
             "entries":
             [
-                "You toss four metal coins in to the air, turning each into a spinning blade with 1 foot radius in an unoccupied space you can see within 5-feet range. Unless yuo give them a command, they hover and follow you around. The blades lasts for the duration. When you cast this spell, you can make a ranged spell attack with each blade, each one against a creature, loose object, or structure within the range. On a hit, the target takes {@damage 1d12} force damage. The blades then stop at the loacation of their target. This attack scores a critical hit if the number on the {@dice 1d20} is 18 or higher.",
-                "As an action on your turn, you can make a ranged spell attack with each again. The target must be within 40 feet of the blade's last location."
+                "You toss the metal coins in to the air, turning each into a spinning blade with 1 foot radius in an unoccupied space you can see within 5-feet range. Unless yuo give them a command, they hover in the same space until the duration ends. As a bonus action, you can make a ranged spell attack with a blade against a creature, loose object, or structure within the range. On a hit, the target takes {@damage 1d12} slashing damage. The blade then disappears. This attack scores a critical hit if the number on the {@dice 1d20} is 18 or higher.",
+                "As an action on your subsequent turns, you can make another ranged spell attack with a blade."
             ],
             "entriesHigherLevel":
             [
@@ -35330,7 +35439,7 @@
                     "name": "At Higher Levels",
                     "entries":
                     [
-                        "When  you cast this spell using a spell slot of 9th level , the damage increases by {@dice 1d12}."
+                        "When you cast this spell using a spell slot of 6th level or higher, you can transmute two extra coins for each level above 5th."
                     ]
                 }
             ],
