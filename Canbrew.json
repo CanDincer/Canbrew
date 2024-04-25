@@ -35259,6 +35259,7 @@
                     "Klyntar are a species of inorganic, amorphous, symbiotic extraterrestrials created from the \"living abyss\" at the beginning of the universe by the primordial deity Knull, who manifested a sword of living darkness called All-Black from his shadow to slaughter the Celestials and other deities.",
                     {
                         "name": "True Form",
+                        "type": "entries",
                         "entries":
                         [
                             "You are a black goo and you can shapeshift yourself to mimic medium objects. When attached to a host, you can make yourself look like common clothes at will while you're out of combat. In combat, you refer to yourself in a plural manner."
@@ -36015,8 +36016,14 @@
         {
             "name": "Malicious Magic Surge Table",
             "source": "Canbrew",
-            "intro": "This table is used by {@spell surging resonance|Canbrew} spell.",
-            "outro": "",
+            "intro":
+            [
+                "This table is used by {@spell surging resonance|Canbrew} spell."
+            ],
+            "outro":
+            [
+                ""
+            ],
             "caption": "Malicious Magic Surge Effects",
             "colLabels":
             [
