@@ -35323,49 +35323,8 @@
             "entries":
             [
                 "You magically infuse the mithral bar into an object no larger than 1 foot in any dimension that you can touch. The object doesn't visibly change, but it holds the potential to interlope magical energy and can be detected by spells like detect magic.",
-                "The object triggers when a spell of level 4 or lower is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the malicious magic surge table and the spell ends.",
-                "Only one surging resonance can be active on an object at a time. Only one object imbued with surging resonance can trigger at a time for a spell.",
-                ""
-                {
-                    "name": "Self Only",
-                    "type": "list",
-                    "items":
-                    [
-                        "{@spell comprehend languages|PHB}, {@spell detect magic|PHB}, {@spell expeditious retreat|PHB}, {@spell alter self|PHB}, {@spell see invisibility|PHB}, {@spell fly|PHB}, {@spell tongues|PHB}, {@spell true seeing|PHB}"
-                    ]
-                },
-                {
-                    "name": "Self or Other",
-                    "type": "list",
-                    "items":
-                    [
-                        "{@spell barkskin|PHB}, {@spell darkvision|PHB}, {@spell enlarge/reduce|PHB}, {@spell spider climb|PHB}, {@spell stoneskin|PHB}, {@spell rary's telepathic bond|PHB}"
-                    ]
-                },
-                {
-                    "name": "Self, Other, or Object",
-                    "type": "list",
-                    "items":
-                    [
-                        "{@spell invisibility|PHB}, {@spell nondetection|PHB}"
-                    ]
-                },
-                {
-                    "name": "Object Only",
-                    "type": "list",
-                    "items":
-                    [
-                        "{@spell illusory script|PHB}, {@spell magic weapon|PHB}, {@spell elemental weapon|PHB}, {@spell animate objects|PHB}"
-                    ]
-                },
-                {
-                    "name": "Area",
-                    "type": "list",
-                    "items":
-                    [
-                        "{@spell alarm|PHB}, {@spell fog cloud|PHB}, {@spell web|PHB}, {@spell stinking cloud|PHB}, {@spell wall of fire|PHB}, {@spell wall of force|PHB}, {@spell wall of stone|PHB}, {@spell arcane gate|PHB}, {@spell wall of thorns|PHB}, {@spell reverse gravity|PHB}, {@spell antimagic field|PHB}, {@spell prismatic wall|PHB}"
-                    ]
-                }
+                "The object triggers when a spell of level 4 or lower is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the {@table malicious magic surge table|CB} and the spell ends.",
+                "Only one surging resonance can be active on an object at a time. Only one object imbued with surging resonance can trigger at a time for a spell."
             ],
             "entriesHigherLevel":
             [
@@ -35391,11 +35350,7 @@
                         "source": "ERLW"
                     }
                 ]
-            },
-            "miscTags":
-            [
-                "PRM"
-            ]
+            }
         },
         {
             "name": "Spinning Blade Swarm",
