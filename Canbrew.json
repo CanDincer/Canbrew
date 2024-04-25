@@ -19180,7 +19180,7 @@
                     "name": "Death Burst",
                     "entries":
                     [
-                        "When the mephit dies, it explodes in a burst of sticky mud. Each Medium or smaller creature within 5 feet of it must succeed on a {@dc 14 Dexterity saving throw or be {@condition restrained} until the end of the creature's next turn."
+                        "When the mephit dies, it explodes in a burst of sticky mud. Each Medium or smaller creature within 5 feet of it must succeed on a {@dc 14} Dexterity saving throw or be {@condition restrained} until the end of the creature's next turn."
                     ]
                 }
             ],
