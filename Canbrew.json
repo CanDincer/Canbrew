@@ -35367,6 +35367,17 @@
                     ]
                 }
             ],
+            "entriesHigherLevel":
+            [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries":
+                    [
+                        "When you cast this spell using a spell slot of 5th level or higher, it can be triggered by spells up to the same level as the slot you use for the surging resonance."
+                    ]
+                }
+            ],
             "classes":
             {
                 "fromClassList":
