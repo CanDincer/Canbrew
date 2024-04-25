@@ -11,7 +11,7 @@
                 [
                     "Can Dinçer"
                 ],
-                "version": "2024.01.08",
+                "version": "2024.04.25",
                 "url": "https://github.com/CanDincer/Canbrew"
             }
         ],
@@ -21385,7 +21385,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "WIP",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            },
             "fluff":
             {
                 "images":
@@ -23068,7 +23072,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "WIP",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            },
             "fluff":
             {
                 "images":
@@ -24272,7 +24280,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "WIP",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            },
             "fluff":
             {
                 "images":
@@ -25613,7 +25625,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "WIP",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            },
             "fluff":
             {
                 "images":
@@ -27449,7 +27465,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "WIP",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            },
             "fluff":
             {
                 "images":
@@ -29420,7 +29440,11 @@
                 "RNG",
                 "RW"
             ],
-            "tokenHref": "WIP",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            },
             "fluff":
             {
                 "images":
@@ -29550,7 +29574,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "WIP",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            },
             "fluff":
             {
                 "images":
@@ -29682,7 +29710,11 @@
                 "RW",
                 "RNG"
             ],
-            "tokenHref": "WIP",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            },
             "fluff":
             {
                 "images":
@@ -29802,7 +29834,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "WIP",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            },
             "fluff":
             {
                 "images":
@@ -35266,8 +35302,8 @@
                         ]
                     },
                     {
-                        "type": "entires",
                         "name": "Klyntar Names",
+                        "type": "entries",
                         "entries":
                         [
                             "Most Klyntars have unpronounceable names. So, they take nicknames instead.",
@@ -35276,6 +35312,7 @@
                                 [
                                     {
                                         "name": "Nicknames",
+                                        "type": "entries",
                                         "entries":
                                         [
                                             "Spasm, Hook, Rash, Ghost, Limit, Coil, Fang, Mold, Deceit, Rot, Pulse, Havoc, Shade, Fume, Torment, Whip, Judgement, Sidestep, Spark, Phase, Feedback, Blight, Twitch, Quicksand, Regret, Sooth, Spite, Fang, Flex, Aftermath, Fallout, Inferno, Fume, Midnight."
@@ -35453,6 +35490,7 @@
                     "Klyntar are a species of inorganic, amorphous, symbiotic extraterrestrials created from the \"living abyss\" at the beginning of the universe by the primordial deity Knull, who manifested a sword of living darkness called All-Black from his shadow to slaughter the Celestials and other deities.",
                     {
                         "name": "True Form",
+                        "type": "entries",
                         "entries":
                         [
                             "You are a black goo and you can shapeshift yourself to mimic medium objects. When attached to a host, you can make yourself look like common clothes at will while you're out of combat. In combat, you refer to yourself in a plural manner."
@@ -35460,6 +35498,7 @@
                     },
                     {
                         "name": "Klyntar Names",
+                        "type": "entries",
                         "entries":
                         [
                             "Most Klyntars have unpronounceable names. So, they take nicknames instead.",
@@ -35468,6 +35507,7 @@
                                 [
                                     {
                                         "name": "Nicknames",
+                                        "type": "entries",
                                         "entries":
                                         [
                                             "Spasm, Hook, Rash, Ghost, Limit, Coil, Fang, Mold, Deceit, Rot, Pulse, Havoc, Shade, Fume, Torment, Whip, Judgement, Sidestep, Spark, Phase, Feedback, Blight, Twitch, Quicksand, Regret, Sooth, Spite, Fang, Flex, Aftermath, Fallout, Inferno, Fume, Midnight."
@@ -35644,6 +35684,7 @@
                     "Klyntar are a species of inorganic, amorphous, symbiotic extraterrestrials created from the \"living abyss\" at the beginning of the universe by the primordial deity Knull, who manifested a sword of living darkness called All-Black from his shadow to slaughter the Celestials and other deities.",
                     {
                         "name": "True Form",
+                        "type": "entries",
                         "entries":
                         [
                             "You are a black goo and you can shapeshift yourself to mimic medium objects. When attached to a host, you can make yourself look like common clothes at will while you're out of combat. In combat, you refer to yourself in a plural manner."
@@ -35659,6 +35700,7 @@
                                 [
                                     {
                                         "name": "Nicknames",
+                                        "type": "entries",
                                         "entries":
                                         [
                                             "Spasm, Hook, Rash, Ghost, Limit, Coil, Fang, Mold, Deceit, Rot, Pulse, Havoc, Shade, Fume, Torment, Whip, Judgement, Sidestep, Spark, Phase, Feedback, Blight, Twitch, Quicksand, Regret, Sooth, Spite, Fang, Flex, Aftermath, Fallout, Inferno, Fume, Midnight."
