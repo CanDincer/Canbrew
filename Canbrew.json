@@ -32010,7 +32010,7 @@
                             [
                                 "Feywild Feet: The creature's speed increases by 5 feet.",
                                 "Forest's Shroud: The creature's AC increased by 1.",
-                                "Wild Strength: The creature gains [[/r 1d4]] temporary hit points and adds  [[/r 1d4]] to Strength checks."
+                                "Wild Strength: The creature gains {@dice 1d4} temporary hit points and adds {@dice 1d4} to Strength checks."
                             ]
                         }
                     ]
@@ -36126,7 +36126,7 @@
                 ],
                 [
                     "11",
-                    "You turn into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."
+                    "You turn into a potted plant until the start of your next turn. While a plant, you are {@condition incapacitated} and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."
                 ],
                 [
                     "12",
@@ -36154,43 +36154,43 @@
                 ],
                 [
                     "18",
-                    ""
+                    "You become {@condition poisoned} for {@dice 1d4} hours. If you use an action to vomit and take {@damage 3d10} poison damage, then the {@condition poisoned} condition ends."
                 ],
                 [
                     "19",
-                    ""
+                    "You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is {@condition blinded} until the end of its next turn."
                 ],
                 [
                     "20",
-                    ""
+                    "You cast {@spell stoneskin|PHB} on yourself. While the spell is active, your walking speed becomes 5 feet."
                 ],
                 [
                     "21",
-                    ""
+                    "You cast {@spell polymorph|PHB} on yourself. If you fail the saving throw, you turn into a {@creature sheep|SKT} for the spell's duration."
                 ],
                 [
                     "22",
-                    ""
+                    "You cast {@spell enlarge/reduce|PHB|enlarge} on yourself."
                 ],
                 [
                     "23",
-                    ""
+                    "You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute."
                 ],
                 [
                     "24",
-                    ""
+                    "You and all creatures within 30 feet of you gain vulnerability to slashing damage for the next minute."
                 ],
                 [
                     "25",
-                    ""
+                    "You and all creatures within 30 feet of you gain vulnerability to bludgeoning damage for the next minute."
                 ],
                 [
                     "26",
-                    ""
+                    "You feel the incredible urge to relieve yourself. Until you do, your Strength and Intelligence are reduced by 1. If you don't relieve yourself in the next 2 minutes, the above effects are removed, but you have -4 to all Charisma checks for 1 hour or until you change your trousers."
                 ],
                 [
                     "27",
-                    ""
+                    "The spell fails to take effect… until {@dice 1d4} rounds later."
                 ],
                 [
                     "28",
@@ -36474,10 +36474,14 @@
                 ],
                 [
                     "97",
-                    "The caster loses containment of their magical power, which all goes pouring out to the nearest creature. The caster expends all of their remaining spell slots and sorcery points, adding all the spell levels together (with each sorcery point counting as 1 level). The target takes {@damage 1d6} force damage for each spell level expended this way. If this damage kills the target, the leftover damage continues to the next closest creature, and so on until all damage has been applied."
+                    ""
                 ],
                 [
                     "98",
+                    "The caster loses containment of their magical power, which all goes pouring out to the nearest creature. The caster expends all of their remaining spell slots and sorcery points, adding all the spell levels together (with each sorcery point counting as 1 level). The target takes {@damage 1d6} force damage for each spell level expended this way. If this damage kills the target, the leftover damage continues to the next closest creature, and so on until all damage has been applied."
+                ],
+                [
+                    "99",
                     "Everyone in a {@dice 3d6} foot radius has to make a DC 15 Con save or falls asleep for {@dice 1d4} rounds."
                 ],
                 [
