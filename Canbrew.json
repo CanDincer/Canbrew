@@ -35519,7 +35519,7 @@
                 ],
                 [
                     "17",
-                    "An illusory copy of you appears at a random location within 60 feet of you. At the start of your next turn, it runs to you and explodes, dealing 3dl0 force damage in a 20 foot radius."
+                    "An illusory copy of you appears at a random location within 60 feet of you. At the start of your next turn, it runs to you and explodes, dealing {@damage 3d10} force damage in a 20 foot radius."
                 ],
                 [
                     "18",
