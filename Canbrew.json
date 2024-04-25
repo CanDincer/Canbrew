@@ -35949,7 +35949,7 @@
             [
                 "You magically infuse the mithral bar into an object no larger than 1 foot in any dimension that you can touch. The object doesn't visibly change, but it holds the potential to interlope magical energy and can be detected by spells like detect magic.",
                 "The object triggers when a spell of level 4 or lower is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the {@table malicious magic surge table|Canbrew} and the spell ends.",
-                "Only one surging resonance can be active on an object at a time. Only one object imbued with surging resonance can trigger at a time for a spell."
+                "Only one surging resonance can be active on an object at a time. Only one object imbued with surging resonance can trigger at a time for a spell. If there are more than one such objects within the trigger range,"
             ],
             "entriesHigherLevel":
             [
