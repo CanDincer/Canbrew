@@ -35323,7 +35323,7 @@
             "entries":
             [
                 "You magically infuse the mithral bar into an object no larger than 1 foot in any dimension that you can touch. The object doesn't visibly change, but it holds the potential to interlope magical energy and can be detected by spells like detect magic.",
-                "The object triggers when a spell of level 4 or lower is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the {@table malicious magic surge table|CB} and the spell ends.",
+                "The object triggers when a spell of level 4 or lower is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the {@table malicious magic surge table|Canbrew} and the spell ends.",
                 "Only one surging resonance can be active on an object at a time. Only one object imbued with surging resonance can trigger at a time for a spell."
             ],
             "entriesHigherLevel":
@@ -35438,6 +35438,9 @@
         {
             "name": "Malicious Magic Surge Table",
             "source": "Canbrew",
+            "intro": "This table is used by {@spell surging resonance|Canbrew} spell.",
+            "outro": "",
+            "caption": "Malicious Magic Surge Effects",
             "colLabels":
             [
                 "1d100",
@@ -35446,77 +35449,77 @@
             "colStyles":
             [
                 "col-1 text center",
-                "col-11"
+                "col-10"
             ],
             "rows":
             [
                 [
                     "1",
-                    ""
+                    "Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls."
                 ],
                 [
                     "2",
-                    ""
+                    "Roll on this table twice, ignoring this result on subsequent rolls."
                 ],
                 [
                     "3",
-                    ""
+                    "You cast {@spell fireball|PHB} spell centered on yourself."
                 ],
                 [
                     "4",
-                    ""
+                    "You cast {@spell dragon's breath|XGE}. The number rolled on each die determines the damage type for that die. If you roll a 6 on a {@dice d6}, you choose the damage type for that die."
                 ],
                 [
                     "5",
-                    ""
+                    "You cast {@spell enlarge/reduce|PHB|reduce} on yourself."
                 ],
                 [
                     "6",
-                    ""
+                    "You cast {@spell ice storm|PHB} spell centered on yourself."
                 ],
                 [
                     "7",
-                    ""
+                    "You cast {@spell confusion|PHB} centered on yourself."
                 ],
                 [
                     "8",
-                    ""
+                    "You cast {@spell grease|PHB} centered on yourself."
                 ],
                 [
                     "9",
-                    ""
+                    "You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied."
                 ],
                 [
                     "10",
-                    ""
+                    "You switch positions with a random creature within 60 feet in a puff of smoke."
                 ],
                 [
                     "11",
-                    ""
+                    "You turn into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."
                 ],
                 [
                     "12",
-                    ""
+                    "For the next minute, you are moved 5 feet in random direction at the end of each of your turns."
                 ],
                 [
                     "13",
-                    ""
+                    "You cast {@spell levitate|PHB} on yourself."
                 ],
                 [
                     "14",
-                    ""
+                    "You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."
                 ],
                 [
                     "15",
-                    ""
+                    "You cast {@spell entangle|PHB} centered on yourself."
                 ],
                 [
                     "16",
-                    ""
+                    "You cast {@spell fog cloud|PHB} centered on yourself."
                 ],
                 [
                     "17",
-                    ""
+                    "An illusory copy of you appears at a random location within 60 feet of you. At the start of your next turn, it runs to you and explodes, dealing 3dl0 force damage in a 20 foot radius."
                 ],
                 [
                     "18",
@@ -35648,7 +35651,7 @@
                 ],
                 [
                     "50",
-                    ""
+                    "Roll again on this table and the resulted effect triggers at the location of the object imbued with surging resonance."
                 ],
                 [
                     "51",
@@ -35840,15 +35843,15 @@
                 ],
                 [
                     "97",
-                    ""
+                    "The caster loses containment of their magical power, which all goes pouring out to the nearest creature. The caster expends all of their remaining spell slots and sorcery points, adding all the spell levels together (with each sorcery point counting as 1 level). The target takes {@damage 1d6} force damage for each spell level expended this way. If this damage kills the target, the leftover damage continues to the next closest creature, and so on until all damage has been applied."
                 ],
                 [
                     "98",
-                    ""
+                    "Everyone in a {@dice 3d6} foot radius has to make a DC 15 Con save or falls asleep for {@dice 1d4} rounds."
                 ],
                 [
                     "100",
-                    ""
+                    "Each creature within 30 feet of you takes {@damage 2d10} necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."
                 ]
             ]
         }
