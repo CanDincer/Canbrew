@@ -4487,7 +4487,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/6KYxAKy.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/6KYxAKy.png"
+            },
             "fluff":
             {
                 "images":
@@ -4630,7 +4634,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/00eQvmZ.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/00eQvmZ.png"
+            },
             "fluff":
             {
                 "images":
@@ -4981,11 +4989,19 @@
                 "stunned",
                 "unconscious"
             ],
-            "tokenHref": "https://i.imgur.com/ngFgBBl.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/ngFgBBl.png"
+            },
             "altArt":
             [
                 {
-                    "tokenHref": "https://i.imgur.com/1rF4OQr.png"
+                    "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/1rF4OQr.png"
+            }
                 }
             ],
             "fluff":
@@ -5146,7 +5162,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/LtkPmrC.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/LtkPmrC.png"
+            }
         },
         {
             "name": "Book Mimic",
@@ -5263,7 +5283,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/TUxXu3s.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/TUxXu3s.png"
+            },
             "fluff":
             {
                 "images":
@@ -5404,7 +5428,11 @@
                 "MW",
                 "THW"
             ],
-            "tokenHref": "https://i.imgur.com/KkIc7qi.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/KkIc7qi.png"
+            },
             "fluff":
             {
                 "images":
@@ -5519,7 +5547,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/OS1l3LY.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/OS1l3LY.png"
+            },
             "fluff":
             {
                 "images":
@@ -5682,7 +5714,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/ZxdFCXG.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/ZxdFCXG.png"
+            },
             "fluff":
             {
                 "images":
@@ -5856,7 +5892,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/lmBmdRO.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/lmBmdRO.png"
+            },
             "fluff":
             {
                 "images":
@@ -6059,14 +6099,26 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/1MsDa1F.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/1MsDa1F.png"
+            },
             "altArt":
             [
                 {
-                    "tokenHref": "https://i.imgur.com/eRxgf2I.png"
+                    "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/eRxgf2I.png"
+            }
                 },
                 {
-                    "tokenHref": "https://i.imgur.com/rxt5bB4.png"
+                    "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/rxt5bB4.png"
+            }
                 }
             ],
             "fluff":
@@ -6231,7 +6283,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/FLkACQo.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/FLkACQo.png"
+            }
         },
         {
             "name": "Maul Darkmane",
@@ -6447,7 +6503,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/c3CT1sv.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/c3CT1sv.png"
+            },
             "fluff":
             {
                 "images":
@@ -6681,7 +6741,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/fFtMzfg.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/fFtMzfg.png"
+            },
             "fluff":
             {
                 "images":
@@ -6865,7 +6929,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/FFshn6N.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/FFshn6N.png"
+            },
             "fluff":
             {
                 "images":
@@ -7093,7 +7161,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/dqdZTIh.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/dqdZTIh.png"
+            },
             "fluff":
             {
                 "images":
@@ -7443,7 +7515,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/zsOSh2V.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/zsOSh2V.png"
+            },
             "fluff":
             {
                 "images":
@@ -7653,7 +7729,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/Rjgee4s.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/Rjgee4s.png"
+            },
             "fluff":
             {
                 "images":
@@ -7845,7 +7925,11 @@
                 "RW",
                 "THW"
             ],
-            "tokenHref": "https://5e.tools/img/PSI/Werewolf (Krallenhorde).png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://5e.tools/img/PSI/Werewolf (Krallenhorde).png"
+            },
             "fluff":
             {
                 "images":
@@ -8059,7 +8143,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/vVHMllK.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/vVHMllK.png"
+            }
         },
         {
             "name": "Xershal",
@@ -8259,7 +8347,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/zioq5M9.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/zioq5M9.png"
+            }
         },
         {
             "name": "Zadkiel",
@@ -8464,7 +8556,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/QMdM4py.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/QMdM4py.png"
+            }
         },
         {
             "name": "Semangelaf",
@@ -8672,7 +8768,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/ztoeEpU.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/ztoeEpU.png"
+            }
         },
         {
             "name": "Pirate Hunter",
@@ -8790,7 +8890,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/2sgl2u8.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/2sgl2u8.png"
+            },
             "fluff":
             {
                 "images":
@@ -8984,7 +9088,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/3NfJjUA.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/3NfJjUA.png"
+            },
             "fluff":
             {
                 "images":
@@ -9095,7 +9203,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/osrO1Et.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/osrO1Et.png"
+            },
             "fluff":
             {
                 "images":
@@ -9246,7 +9358,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/U386svi.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/U386svi.png"
+            },
             "fluff":
             {
                 "images":
@@ -9407,7 +9523,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/aJf6SQn.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/aJf6SQn.png"
+            },
             "fluff":
             {
                 "images":
@@ -9580,7 +9700,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/7SvASln.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/7SvASln.png"
+            },
             "fluff":
             {
                 "images":
@@ -9751,7 +9875,11 @@
                 "MW",
                 "AOE"
             ],
-            "tokenHref": "https://i.imgur.com/DQiCRKn.gif",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/DQiCRKn.gif"
+            },
             "fluff":
             {
                 "images":
@@ -9920,7 +10048,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/3yJ4OG7.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/3yJ4OG7.png"
+            },
             "fluff":
             {
                 "entries":
@@ -10093,7 +10225,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/SQUB4QN.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/SQUB4QN.png"
+            },
             "fluff":
             {
                 "images":
@@ -10263,7 +10399,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/e0GSgZY.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/e0GSgZY.png"
+            },
             "fluff":
             {
                 "images":
@@ -10443,7 +10583,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/FUa6h3J.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/FUa6h3J.png"
+            },
             "fluff":
             {
                 "images":
@@ -10682,7 +10826,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/PUeNDmx.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/PUeNDmx.png"
+            },
             "fluff":
             {
                 "images":
@@ -10915,7 +11063,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/Mig14up.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/Mig14up.png"
+            },
             "fluff":
             {
                 "images":
@@ -11116,7 +11268,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/D9JC2gP.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/D9JC2gP.png"
+            },
             "fluff":
             {
                 "images":
@@ -11349,7 +11505,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/6Vv2NFT.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/6Vv2NFT.png"
+            },
             "fluff":
             {
                 "images":
@@ -11517,7 +11677,11 @@
             [
                 "AOE"
             ],
-            "tokenHref": "https://i.imgur.com/QAV4Y8d.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/QAV4Y8d.png"
+            },
             "fluff":
             {
                 "images":
@@ -11660,7 +11824,11 @@
                 "MW",
                 "RW"
             ],
-            "tokenHref": "https://i.imgur.com/DHNtkRW.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/DHNtkRW.png"
+            },
             "fluff":
             {
                 "images":
@@ -11801,7 +11969,11 @@
                 "MW",
                 "RW"
             ],
-            "tokenHref": "https://i.imgur.com/6ozLi0o.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/6ozLi0o.png"
+            },
             "fluff":
             {
                 "images":
@@ -11973,7 +12145,11 @@
                 "RW",
                 "THW"
             ],
-            "tokenHref": "https://i.imgur.com/Mvu83Cu.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/Mvu83Cu.png"
+            },
             "fluff":
             {
                 "images":
@@ -12110,7 +12286,11 @@
                 "MW",
                 "AOE"
             ],
-            "tokenHref": "https://i.imgur.com/vvwqp2K.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/vvwqp2K.png"
+            },
             "fluff":
             {
                 "images":
@@ -12253,7 +12433,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/ihyZC0x.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/ihyZC0x.png"
+            },
             "fluff":
             {
                 "entries":
@@ -12440,7 +12624,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/nplKK20.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/nplKK20.png"
+            },
             "fluff":
             {
                 "images":
@@ -12581,7 +12769,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/zrkeYjB.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/zrkeYjB.png"
+            },
             "fluff":
             {
                 "images":
@@ -12848,7 +13040,11 @@
                 "RW",
                 "THW"
             ],
-            "tokenHref": "https://i.imgur.com/WL8TLE2.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/WL8TLE2.png"
+            },
             "fluff":
             {
                 "images":
@@ -13093,7 +13289,11 @@
                 "RW",
                 "THW"
             ],
-            "tokenHref": "https://i.imgur.com/rNA0O9s.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/rNA0O9s.png"
+            },
             "fluff":
             {
                 "images":
@@ -13345,7 +13545,11 @@
                 "RCH",
                 "RW"
             ],
-            "tokenHref": "https://i.imgur.com/lpimqV3.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/lpimqV3.png"
+            },
             "fluff":
             {
                 "images":
@@ -13502,7 +13706,11 @@
                 "MW",
                 "RW"
             ],
-            "tokenHref": "https://i.imgur.com/9dfcR28.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/9dfcR28.png"
+            },
             "fluff":
             {
                 "images":
@@ -13629,7 +13837,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/1nq8g7r.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/1nq8g7r.png"
+            },
             "fluff":
             {
                 "images":
@@ -13799,7 +14011,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/UvnPu8i.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/UvnPu8i.png"
+            },
             "fluff":
             {
                 "images":
@@ -13971,7 +14187,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/VqTBC8K.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/VqTBC8K.png"
+            },
             "fluff":
             {
                 "images":
@@ -14105,7 +14325,11 @@
             [
                 "Tentacles"
             ],
-            "tokenHref": "https://i.imgur.com/u0gkHNS.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/u0gkHNS.png"
+            },
             "fluff":
             {
                 "images":
@@ -14209,7 +14433,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/CdJJdel.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/CdJJdel.png"
+            },
             "fluff":
             {
                 "images":
@@ -14328,7 +14556,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/twrULdL.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/twrULdL.png"
+            },
             "fluff":
             {
                 "images":
@@ -14454,7 +14686,11 @@
                 "MW",
                 "AOE"
             ],
-            "tokenHref": "https://i.imgur.com/U2KLiBO.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/U2KLiBO.png"
+            },
             "fluff":
             {
                 "images":
@@ -14557,7 +14793,11 @@
             [
                 "A"
             ],
-            "tokenHref": "https://i.imgur.com/WYnIYej.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/WYnIYej.png"
+            },
             "fluff":
             {
                 "images":
@@ -14690,7 +14930,11 @@
                 "MW",
                 "AOE"
             ],
-            "tokenHref": "https://i.imgur.com/RPHGdRe.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/RPHGdRe.png"
+            },
             "fluff":
             {
                 "images":
@@ -14807,7 +15051,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/ldkfwdo.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/ldkfwdo.png"
+            },
             "fluff":
             {
                 "images":
@@ -14906,7 +15154,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/4343yW1.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/4343yW1.png"
+            },
             "fluff":
             {
                 "images":
@@ -15026,7 +15278,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/vFg8SDj.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/vFg8SDj.png"
+            },
             "fluff":
             {
                 "images":
@@ -15157,7 +15413,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/6psRjYF.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/6psRjYF.png"
+            },
             "fluff":
             {
                 "images":
@@ -15281,7 +15541,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/JHtyqMP.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/JHtyqMP.png"
+            },
             "fluff":
             {
                 "images":
@@ -15474,7 +15738,11 @@
                 "Multiattack",
                 "Teleport"
             ],
-            "tokenHref": "https://i.imgur.com/EMbjAeb.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/EMbjAeb.png"
+            },
             "fluff":
             {
                 "images":
@@ -15614,7 +15882,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/idxYDMv.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/idxYDMv.png"
+            },
             "fluff":
             {
                 "images":
@@ -15745,7 +16017,11 @@
                 "RW",
                 "THW"
             ],
-            "tokenHref": "https://i.imgur.com/wT8Cc72.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/wT8Cc72.png"
+            },
             "fluff":
             {
                 "images":
@@ -15875,7 +16151,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/mR5BOJD.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/mR5BOJD.png"
+            },
             "fluff":
             {
                 "images":
@@ -16057,7 +16337,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/Xk464Q5.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/Xk464Q5.png"
+            },
             "fluff":
             {
                 "images":
@@ -16244,7 +16528,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/N7o4rmd.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/N7o4rmd.png"
+            },
             "fluff":
             {
                 "images":
@@ -16444,7 +16732,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/tGOr2eN.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/tGOr2eN.png"
+            },
             "fluff":
             {
                 "images":
@@ -16638,7 +16930,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/aJfxwYZ.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/aJfxwYZ.png"
+            },
             "fluff":
             {
                 "images":
@@ -16828,7 +17124,11 @@
                 "MW",
                 "AOE"
             ],
-            "tokenHref": "https://i.imgur.com/Xk464Q5.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/Xk464Q5.png"
+            },
             "fluff":
             {
                 "images":
@@ -17028,7 +17328,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/N7o4rmd.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/N7o4rmd.png"
+            },
             "fluff":
             {
                 "images":
@@ -17244,7 +17548,11 @@
                 "Multiattack",
                 "Teleport"
             ],
-            "tokenHref": "https://i.imgur.com/tGOr2eN.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/tGOr2eN.png"
+            },
             "fluff":
             {
                 "images":
@@ -17453,7 +17761,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/aJfxwYZ.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/aJfxwYZ.png"
+            },
             "fluff":
             {
                 "images":
@@ -17654,7 +17966,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/Xk464Q5.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/Xk464Q5.png"
+            },
             "fluff":
             {
                 "images":
@@ -17862,7 +18178,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/N7o4rmd.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/N7o4rmd.png"
+            },
             "fluff":
             {
                 "images":
@@ -18085,7 +18405,11 @@
                 "Multiattack",
                 "Teleport"
             ],
-            "tokenHref": "https://i.imgur.com/tGOr2eN.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/tGOr2eN.png"
+            },
             "fluff":
             {
                 "images":
@@ -18301,7 +18625,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/aJfxwYZ.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/aJfxwYZ.png"
+            },
             "fluff":
             {
                 "images":
@@ -18479,7 +18807,11 @@
                 "MW",
                 "RW"
             ],
-            "tokenHref": "https://i.imgur.com/oLXCAvb.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/oLXCAvb.png"
+            },
             "fluff":
             {
                 "images":
@@ -18564,7 +18896,11 @@
             [
                 "RW"
             ],
-            "tokenHref": "https://i.imgur.com/oLXCAvb.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/oLXCAvb.png"
+            },
             "fluff":
             {
                 "images":
@@ -18738,7 +19074,11 @@
             [
                 "unconscious"
             ],
-            "tokenHref": "https://5e.tools/img/MM/Dust%20Mephit.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://5e.tools/img/MM/Dust%20Mephit.png"
+            },
             "fluff":
             {
                 "images":
@@ -18913,7 +19253,11 @@
                 "AOE",
                 "RW"
             ],
-            "tokenHref": "https://5e.tools/img/MM/Ice%20Mephit.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://5e.tools/img/MM/Ice%20Mephit.png"
+            },
             "fluff":
             {
                 "images":
@@ -19088,7 +19432,11 @@
                 "AOE",
                 "RW"
             ],
-            "tokenHref": "https://5e.tools/img/MM/Magma%20Mephit.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://5e.tools/img/MM/Magma%20Mephit.png"
+            },
             "fluff":
             {
                 "images":
@@ -19259,7 +19607,11 @@
             [
                 "restrained"
             ],
-            "tokenHref": "https://5e.tools/img/MM/Mud%20Mephit.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://5e.tools/img/MM/Mud%20Mephit.png"
+            },
             "fluff":
             {
                 "images":
@@ -19422,7 +19774,11 @@
                 "AOE",
                 "MW"
             ],
-            "tokenHref": "https://5e.tools/img/MM/Smoke%20Mephit.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://5e.tools/img/MM/Smoke%20Mephit.png"
+            },
             "fluff":
             {
                 "images":
@@ -19581,7 +19937,11 @@
                 "AOE",
                 "MW"
             ],
-            "tokenHref": "https://5e.tools/img/MM/Steam%20Mephit.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://5e.tools/img/MM/Steam%20Mephit.png"
+            },
             "fluff":
             {
                 "images":
@@ -19722,7 +20082,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://5e.tools/img/MM/Nothic.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://5e.tools/img/MM/Nothic.png"
+            },
             "fluff":
             {
                 "images":
@@ -19997,7 +20361,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/q554ui3.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/q554ui3.png"
+            },
             "fluff":
             {
                 "images":
@@ -20175,7 +20543,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/PLQOYSn.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/PLQOYSn.png"
+            },
             "fluff":
             {
                 "images":
@@ -20364,7 +20736,11 @@
                 "MW",
                 "RCH"
             ],
-            "tokenHref": "https://i.imgur.com/a8zYiOT.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/a8zYiOT.png"
+            },
             "fluff":
             {
                 "images":
@@ -20469,7 +20845,11 @@
             [   "C",
                 "CS"
             ],
-            "tokenHref": "https://i.imgur.com/jAuHOX7.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/jAuHOX7.png"
+            },
             "fluff":
             {
                 "images":
@@ -20565,7 +20945,11 @@
                 "C",
                 "CS"
             ],
-            "tokenHref": "https://i.imgur.com/gB6EpC2.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/gB6EpC2.png"
+            },
             "fluff":
             {
                 "images":
@@ -20743,7 +21127,11 @@
                 "MW",
                 "RCH"
             ],
-            "tokenHref": "https://i.imgur.com/To1cy5e.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/To1cy5e.png"
+            },
             "fluff":
             {
                 "images":
@@ -21367,7 +21755,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/h0NPaLz.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/h0NPaLz.png"
+            },
             "fluff":
             {
                 "images":
@@ -21693,7 +22085,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/lRXvr6S.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/lRXvr6S.png"
+            },
             "fluff":
             {
                 "images":
@@ -22073,7 +22469,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/qB2DpL0.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/qB2DpL0.png"
+            },
             "fluff":
             {
                 "images":
@@ -22410,7 +22810,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/sBjuSZz.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/sBjuSZz.png"
+            },
             "fluff":
             {
                 "images":
@@ -23014,7 +23418,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/6RB9EoR.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/6RB9EoR.png"
+            },
             "fluff":
             {
                 "images":
@@ -23270,7 +23678,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/QQQpn9G.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/QQQpn9G.png"
+            },
             "fluff":
             {
                 "images":
@@ -23602,7 +24014,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/hLAHLva.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/hLAHLva.png"
+            },
             "fluff":
             {
                 "images":
@@ -24187,7 +24603,11 @@
             [
                 "CR"
             ],
-            "tokenHref": "https://i.imgur.com/h290p2w.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/h290p2w.png"
+            },
             "fluff":
             {
                 "images":
@@ -24330,7 +24750,11 @@
                 "grappled",
                 "restrained"
             ],
-            "tokenHref": "https://i.imgur.com/DsuhYDy.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/DsuhYDy.png"
+            },
             "fluff":
             {
                 "images":
@@ -24593,7 +25017,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/YmInqWP.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/YmInqWP.png"
+            },
             "fluff":
             {
                 "images":
@@ -24927,7 +25355,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/6khR94g.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/6khR94g.png"
+            },
             "fluff":
             {
                 "images":
@@ -25528,7 +25960,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/81eOfGp.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/81eOfGp.png"
+            },
             "fluff":
             {
                 "images":
@@ -25794,7 +26230,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/pjSwlsY.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/pjSwlsY.png"
+            },
             "fluff":
             {
                 "images":
@@ -26083,7 +26523,7 @@
                                 "{@spell fire shield|PHB}",
                                 "{@spell locate creature|PHB}",
                                 "{@spell mordenkainen's faithful Hound|PHB}",
-                                "{@spell sickening radiance|XGE",
+                                "{@spell sickening radiance|XGE}",
                                 "{@spell wall of fire|PHB}"
                             ]
                         },
@@ -26180,7 +26620,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/FMmlv8C.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/FMmlv8C.png"
+            },
             "fluff":
             {
                 "images":
@@ -26443,7 +26887,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/IFJ27VV.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/IFJ27VV.png"
+            },
             "fluff":
             {
                 "images":
@@ -26757,7 +27205,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/tPbHeQl.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/tPbHeQl.png"
+            },
             "fluff":
             {
                 "images":
@@ -27239,7 +27691,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/DolWIpI.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/DolWIpI.png"
+            },
             "fluff":
             {
                 "images":
@@ -27486,7 +27942,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/NbWPeYl.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/NbWPeYl.png"
+            },
             "fluff":
             {
                 "images":
@@ -27760,7 +28220,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/Q6BNUGG.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/Q6BNUGG.png"
+            },
             "fluff":
             {
                 "images":
@@ -27945,7 +28409,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/yEcVUzU.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/yEcVUzU.png"
+            },
             "fluff":
             {
                 "images":
@@ -28146,7 +28614,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/F5pWKH4.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/F5pWKH4.png"
+            },
             "fluff":
             {
                 "images":
@@ -28386,7 +28858,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/qtmtgNk.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/qtmtgNk.png"
+            },
             "fluff":
             {
                 "images":
@@ -28564,7 +29040,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/ajXty00.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/ajXty00.png"
+            },
             "fluff":
             {
                 "images":
@@ -28744,7 +29224,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/KZh2Xn0.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/KZh2Xn0.png"
+            },
             "fluff":
             {
                 "images":
@@ -29589,7 +30073,11 @@
             [
                 "charmed"
             ],
-            "tokenHref": "https://i.imgur.com/aFouzLs.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/aFouzLs.png"
+            },
             "fluff":
             {
                 "images":
@@ -29787,7 +30275,11 @@
                 "MW",
                 "RCH"
             ],
-            "tokenHref": "https://i.imgur.com/R0T5pkP.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/R0T5pkP.png"
+            },
             "fluff":
             {
                 "images":
@@ -29936,7 +30428,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/YazHoDI.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/YazHoDI.png"
+            },
             "fluff":
             {
                 "images":
@@ -30082,7 +30578,11 @@
                 "C",
                 "F"
             ],
-            "tokenHref": "https://i.imgur.com/Budlaf0.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/Budlaf0.png"
+            },
             "fluff":
             {
                 "entries":
@@ -30227,7 +30727,11 @@
             [
                 "AQ"
             ],
-            "tokenHref": "https://i.imgur.com/6F56w8M.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/6F56w8M.png"
+            },
             "fluff":
             {
                 "entries":
@@ -30365,7 +30869,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/iDbO7gB.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/iDbO7gB.png"
+            },
             "fluff":
             {
                 "entries":
@@ -30506,7 +31014,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/18UUCNt.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/18UUCNt.png"
+            },
             "fluff":
             {
                 "entries":
@@ -30648,7 +31160,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/MyT1vys.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/MyT1vys.png"
+            },
             "fluff":
             {
                 "entries":
@@ -30798,7 +31314,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/hdCuBe3.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/hdCuBe3.png"
+            },
             "fluff":
             {
                 "entries":
@@ -30955,7 +31475,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/QshFq6O.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/QshFq6O.png"
+            },
             "fluff":
             {
                 "entries":
@@ -31111,7 +31635,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/LM6lmyA.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/LM6lmyA.png"
+            },
             "fluff":
             {
                 "entries":
@@ -31289,7 +31817,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/oXRCHyT.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/oXRCHyT.png"
+            },
             "fluff":
             {
                 "entries":
@@ -31493,7 +32025,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/B9IWkEZ.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/B9IWkEZ.png"
+            },
             "fluff":
             {
                 "images":
@@ -31650,7 +32186,11 @@
             [
                 "RNG"
             ],
-            "tokenHref": "https://i.imgur.com/uKvPldi.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/uKvPldi.png"
+            }
         },
         {
             "name": "Wandslinger",
@@ -31847,7 +32387,11 @@
             [
                 "RNG"
             ],
-            "tokenHref": "https://i.imgur.com/64xmIOW.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/64xmIOW.png"
+            }
         },
         {
             "name": "Master Wandslinger",
@@ -32084,7 +32628,11 @@
             [
                 "RNG"
             ],
-            "tokenHref": "https://i.imgur.com/HtY4voO.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/HtY4voO.png"
+            }
         },
         {
             "name": "Orc Gliding Falcon (WIP)",
@@ -32312,7 +32860,11 @@
             [
                 "SD"
             ],
-            "tokenHref": "https://i.imgur.com/novTD9t.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/novTD9t.png"
+            },
             "fluff":
             {
                 "images":
@@ -32430,7 +32982,11 @@
             [
                 "desert"
             ],
-            "tokenHref": "https://i.imgur.com/gvmbcbf.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/gvmbcbf.png"
+            },
             "fluff":
             {
                 "entries":
@@ -32716,7 +33272,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/u6cC83Z.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/u6cC83Z.png"
+            }
         },
         {
             "name": "Spellsnare Fighter",
@@ -32915,7 +33475,11 @@
             [
                 "Multiattack"
             ],
-            "tokenHref": "https://i.imgur.com/enaqYox.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/enaqYox.png"
+            }
         },
         {
             "name": "Spellsnare Mage",
@@ -33110,7 +33674,11 @@
             [
                 "AOE"
             ],
-            "tokenHref": "https://i.imgur.com/QtzCw7S.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/QtzCw7S.png"
+            }
         },
         {
             "name": "Tiefling Slashtail",
@@ -33270,7 +33838,11 @@
             [
                 "AOE"
             ],
-            "tokenHref": "https://i.imgur.com/AxxSTDf.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/AxxSTDf.png"
+            }
         },
         {
             "name": "Sophos",
@@ -33548,7 +34120,11 @@
             [
                 "AOE"
             ],
-            "tokenHref": "https://i.imgur.com/TDg8mm2.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/TDg8mm2.png"
+            },
             "fluff":
             {
                 "images":
@@ -33698,7 +34274,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/nOAgWVc.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/nOAgWVc.png"
+            },
             "fluff":
             {
                 "images":
@@ -33904,7 +34484,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/Mp5I3wW.png"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/Mp5I3wW.png"
+            }
         },
         {
             "name": "Flashblade Legionnaire",
@@ -34050,7 +34634,11 @@
             [
                 "MW"
             ],
-            "tokenHref": "https://i.imgur.com/93JIqrg.png",
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "https://i.imgur.com/93JIqrg.png"
+            },
             "fluff":
             {
                 "images":
