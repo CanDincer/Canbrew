@@ -29394,14 +29394,14 @@
                     "name": "Greatsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 3 ({@damage 1d6}) fire damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 3 ({@damage 1d6}) fire damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
                     ]
                 },
                 {
                     "name": "Heavy Crossbow",
                     "entries":
                     [
-                        "{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.."
+                        "{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way.."
                     ]
                 }
             ],
@@ -29530,7 +29530,7 @@
                     "name": "Nightshade Blood",
                     "entries":
                     [
-                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful {@dc 20} Constitution saving throw."
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes {@damage 3d6} acid damage or half as much damage on a successful {@dc 20} Constitution saving throw."
                     ]
                 }
             ],
@@ -29547,7 +29547,7 @@
                     "name": "Shortsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 }
             ],
@@ -29682,7 +29682,7 @@
                     "name": "Longbow",
                     "entries":
                     [
-                        "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                        "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 }
             ],
