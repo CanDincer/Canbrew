@@ -13225,7 +13225,7 @@
                     "name": "Menacing Stance",
                     "entries":
                     [
-                        "The orc makes an intimidating pose and attempts to frighten the target. The target must make a {@dc 16} Wisdom saving throw. On a failed save, it is frightened of the orc until the end of the orc's next turn."
+                        "The orc makes an intimidating pose and attempts to frighten the target. The target must make a {@dc 16} Wisdom saving throw. On a failed save, it is {@condition frightened} of the orc until the end of the orc's next turn."
                     ]
                 }
             ],
@@ -13240,29 +13240,11 @@
                     ]
                 }
             ],
-            "lairActions":
-            [
-                "On Initiative count 20 (losing initiative ties), the orc can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "{@dice 1d2} orcs come rushing to aid the orc from up to 60 feet close to the orc."
-                    ]
-                }
-            ],
-            "regionalEffects":
-            [
-                "The region containing the orc war baron's lair is warped by its magic, creating one or more of the following effects:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "A regional effect"
-                    ]
-                },
-                "If the orc war baron is destroyed, these effects fade over the course of 1d10 days."
-            ],
+            "legendaryGroup":
+            {
+                "name": "Orc War Baron",
+                "source": "Canbrew"
+            },
             "traitTags":
             [
                 "Aggressive"
@@ -15970,7 +15952,7 @@
                     "name": "Fear of Fire",
                     "entries":
                     [
-                        "If the bison takes fire damage, it's frightened until the start of its next turn."
+                        "If the bison takes fire damage, it's {@condition frightened} until the start of its next turn."
                     ]
                 },
                 {
@@ -16475,7 +16457,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -16680,7 +16663,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -16877,7 +16861,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -17075,7 +17060,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -17276,7 +17262,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -17494,7 +17481,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -17707,7 +17695,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -17913,7 +17902,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -18125,7 +18115,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -18351,7 +18342,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -18571,7 +18563,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Dread"
+                "name": "Dread",
+                "source": "Canbres"
             },
             "legendary":
             [
@@ -20301,32 +20294,7 @@
             "legendaryGroup":
             {
                 "name": "Aquatic Vampire",
-                "lairActions":
-                [
-                    "On Initiative count 20 (losing initiative ties), the orc can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
-                    {
-                        "type": "list",
-                        "items":
-                        [
-                            "{@dice 1d2} orcs come rushing to aid the orc from up to 60 feet close to the orc."
-                        ]
-                    }
-                ],
-                "regionalEffects":
-                [
-                    "The region containing the aquatic vampire's lair is warped by its magic, creating one or more of the following effects:",
-                    {
-                        "type": "list",
-                        "items":
-                        [
-                            "There's a noticeable increase in the population of quippers and reef sharks in the region. Aquatic plants within 500 feet of the lair become black and tangled and sometimes look like outstretched claws.",
-                            "The surfaces of water within 500 feet of the lair reflect perversions of the original image, making living creatures seem gaunt or undead.",
-                            "A creeping fog clings to the surface of the water within 500 feet of the vampire's lair. The fog occasionally takes eerie forms, such as grasping claws and writhing serpents. The entirety of the vampire's lair is considered desecrated.",
-                            "All undead creatures in the aquatic vampire's lair have advantage on saving throws."
-                        ]
-                    },
-                    "If the aquatic vampire is destroyed, these effects fade over the course of 1d10 days."
-                ]
+                "source": "Canbrew"
             },
             "environment":
             [
@@ -34475,19 +34443,7 @@
             "legendaryGroup":
             {
                 "name": "Storm Naga",
-                "lairActions":
-                [
-                    "A storm naga encountered in its lair has a challenge rating of 10 (5,900 XP). On Initiative count 20 (losing initiative ties), the naga can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
-                    {
-                        "type": "list",
-                        "items":
-                        [
-                            "The storm naga instantly inscribes a glyph (as if by the {@spell glyph of warding|PHB} spell) on the surface of an unoccupied 10-foot-squared area within its lair. If the glyph is a spell glyph, it consumes one use of the spell from the storm naga’s Spellcasting. If the glyph is an explosive rune, it deals 13 ({@damage 3d8}) lightning damage.",
-                            "The storm naga calls forth three guards that appear from the entrance nearest to the storm naga. The guards flee if the storm naga dies.",
-                            "A thin blue streak of lightning springs from the storm naga’s pointing finger to a creature the storm naga can see within 60 feet of it. That creature must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of its next turn. If the save fails by 5 or more, the creature is {@condition paralyzed} until the end of its next turn instead."
-                        ]
-                    }
-                ]
+                "source": "Canbrew"
             },
             "traitTags":
             [
@@ -34705,7 +34661,7 @@
                     "items":
                     [
 						"Until initiative count 20 of the next round, the werewolf doesn't provoke opportunity attacks.",
-                        "The werewolf can extinguish all nonmagical lights in the area and any magical light has its dim and bright radii halved"
+                        "The werewolf can extinguish all nonmagical lights in the area and any magical light has its dim and bright radii halved."
 					]
 				}
 			],
@@ -34906,6 +34862,80 @@
 				},
 				"If the vampire is destroyed, these effects end after {@dice 2d6} days."
 			]
+		},
+		{
+			"name": "Aquatic Vampire",
+			"source": "Canbrew",
+            "lairActions":
+            [
+                "On Initiative count 20 (losing initiative ties), the orc can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "{@dice 1d2} orcs come rushing to aid the orc from up to 60 feet close to the orc."
+                    ]
+                }
+            ],
+            "regionalEffects":
+            [
+                "The region containing the aquatic vampire's lair is warped by its magic, creating one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "There's a noticeable increase in the population of quippers and reef sharks in the region. Aquatic plants within 500 feet of the lair become black and tangled and sometimes look like outstretched claws.",
+                        "The surfaces of water within 500 feet of the lair reflect perversions of the original image, making living creatures seem gaunt or undead.",
+                        "A creeping fog clings to the surface of the water within 500 feet of the vampire's lair. The fog occasionally takes eerie forms, such as grasping claws and writhing serpents. The entirety of the vampire's lair is considered desecrated.",
+                        "All undead creatures in the aquatic vampire's lair have advantage on saving throws."
+                    ]
+                },
+                "If the aquatic vampire is destroyed, these effects fade over the course of 1d10 days."
+            ]
+		},
+		{
+			"name": "Orc War Baron",
+			"source": "Canbrew",
+            "lairActions":
+            [
+                "On Initiative count 20 (losing initiative ties), the orc can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "{@dice 1d2} orcs come rushing to aid the orc from up to 60 feet close to the orc."
+                    ]
+                }
+            ],
+            "regionalEffects":
+            [
+                "The region containing the orc war baron's lair is warped by its magic, creating one or more of the following effects:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "A regional effect"
+                    ]
+                },
+                "If the orc war baron is destroyed, these effects fade over the course of 1d10 days."
+            ]
+		},
+		{
+			"name": "Storm Naga",
+			"source": "Canbrew",
+            "lairActions":
+            [
+                "A storm naga encountered in its lair has a challenge rating of 10 (5,900 XP). On Initiative count 20 (losing initiative ties), the naga can take a lair action to cause one of the following effects: it can't use the same effect two rounds in a row:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "The storm naga instantly inscribes a glyph (as if by the {@spell glyph of warding|PHB} spell) on the surface of an unoccupied 10-foot-squared area within its lair. If the glyph is a spell glyph, it consumes one use of the spell from the storm naga’s Spellcasting. If the glyph is an explosive rune, it deals 13 ({@damage 3d8}) lightning damage.",
+                        "The storm naga calls forth three guards that appear from the entrance nearest to the storm naga. The guards flee if the storm naga dies.",
+                        "A thin blue streak of lightning springs from the storm naga’s pointing finger to a creature the storm naga can see within 60 feet of it. That creature must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of its next turn. If the save fails by 5 or more, the creature is {@condition paralyzed} until the end of its next turn instead."
+                    ]
+                }
+            ]
 		}
 	],
     "race":
@@ -36745,7 +36775,7 @@
 			"header": 1,
 			"entries":
             [
-                "As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
+                "As an action, you can use your Channel Divinity to exude a terrifying presence. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is {@condition frightened} of you for 1 minute. If a creature {@condition frightened} by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it."
 			]
 		},
 		{
