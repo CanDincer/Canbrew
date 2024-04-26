@@ -36023,11 +36023,11 @@
                 ],
                 [
                     "34",
-                    "{@dice 1d6} random mephits appear within 5 feet of you and are hostile to you."
+                    "{@dice 1d4} random mephits appear within 5 feet of you and are hostile to you."
                 ],
                 [
                     "35",
-                    ""
+                    "A {@creature Flail Snail|MPMM} appears within 5 feet of you and is hostile to you. The {@creature Flail Snail|MPMM} disappears at the end of your next turn."
                 ],
                 [
                     "36",
