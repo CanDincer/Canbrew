@@ -21353,26 +21353,7 @@
             "conditionInflict":
             [
                 "charmed"
-            ],
-            "tokenHref":
-            {
-                "type": "external",
-                "url": "WIP"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "WIP"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "name": "Ishtar-rabi-at",
@@ -23040,26 +23021,7 @@
             "conditionInflict":
             [
                 "charmed"
-            ],
-            "tokenHref":
-            {
-                "type": "external",
-                "url": "WIP"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "WIP"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "name": "Caedmon",
@@ -24248,26 +24210,7 @@
             "conditionInflict":
             [
                 "charmed"
-            ],
-            "tokenHref":
-            {
-                "type": "external",
-                "url": "WIP"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "WIP"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "name": "Shar-kali",
@@ -25593,26 +25536,7 @@
             "conditionInflict":
             [
                 "charmed"
-            ],
-            "tokenHref":
-            {
-                "type": "external",
-                "url": "WIP"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "WIP"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "name": "Anatu",
@@ -27433,26 +27357,7 @@
             "conditionInflict":
             [
                 "charmed"
-            ],
-            "tokenHref":
-            {
-                "type": "external",
-                "url": "WIP"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "WIP"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "name": "Javari Uwunade Sinenhlanhla Mzwakhle",
@@ -29234,7 +29139,7 @@
             }
         },
         {
-            "name": "Night Sycthe Blood Hunter",
+            "name": "Night Scythe Blood Hunter",
             "source": "Canbrew",
             "size":
             [
@@ -29322,31 +29227,17 @@
             "trait":
             [
                 {
-                    "name": "Blood Curse of Binding (1/Day)",
-                    "entries":
-                    [
-                        "As a bonus action, the night scythe targets one creature it has wounded within 30 feet of it. The target must succeed on a {@dc 14} Strength saving throw or have its speed reduced to 0 and be unable to take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-                    ]
-                },
-                {
                     "name": "Blood Frenzy",
                     "entries":
                     [
-                        "The night scythe has advantage on melee attack rolls against any creature that doesn't have all its hit points."
-                    ]
-                },
-                {
-                    "name": "Magic Resistance",
-                    "entries":
-                    [
-                        "The night scythe has advantage on saving throws against spells and other magical effects."
+                        "The night scythe can use its bonus action to move up to its speed in a straight line towards a creature that does not have all of their hit points. If it make a melee weapon attack against that creature directly after that movement, that attack has advantage."
                     ]
                 },
                 {
                     "name": "Nightshade Blood",
                     "entries":
                     [
-                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful {@dc 20} Constitution saving throw."
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes {@damage 6d6} acid damage or half as much damage on a successful {@dc 15} Constitution saving throw."
                     ]
                 }
             ],
@@ -29356,21 +29247,21 @@
                     "name": "Multiattack",
                     "entries":
                     [
-                        "The night scythe makes two attacks with a weapon."
+                        "The night scythe makes two attacks with its scythe."
                     ]
                 },
                 {
-                    "name": "Greatsword",
+                    "name": "Scythe",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage plus 3 ({@damage 1d6}) fire damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage and the target must make a {@dc 15} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 },
                 {
                     "name": "Heavy Crossbow",
                     "entries":
                     [
-                        "{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way.."
+                        "{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way.."
                     ]
                 }
             ],
@@ -29412,25 +29303,11 @@
             "tokenHref":
             {
                 "type": "external",
-                "url": "WIP"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "WIP"
-                        }
-                    }
-                ]
+                "url": "https://i.imgur.com/twKpL57.png"
             }
         },
         {
-            "name": "Night Sycthe Eviscerator",
+            "name": "Night Scythe Eviscerator",
             "source": "Canbrew",
             "size":
             [
@@ -29496,10 +29373,17 @@
             "trait":
             [
                 {
+                    "name": "Blood Curse of Binding (1/Day)",
+                    "entries":
+                    [
+                        "As a bonus action, the night scythe targets one creature it has wounded within 30 feet of it. The target must succeed on a {@dc 14} Constitution saving throw or have its speed reduced to 0 and be unable to take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
                     "name": "Nightshade Blood",
                     "entries":
                     [
-                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes {@damage 3d6} acid damage or half as much damage on a successful {@dc 20} Constitution saving throw."
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes {@damage 6d6} acid damage or half as much damage on a successful {@dc 15} Constitution saving throw."
                     ]
                 }
             ],
@@ -29516,7 +29400,7 @@
                     "name": "Shortsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 }
             ],
@@ -29546,25 +29430,11 @@
             "tokenHref":
             {
                 "type": "external",
-                "url": "WIP"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "WIP"
-                        }
-                    }
-                ]
+                "url": "https://i.imgur.com/pANNiDt.png"
             }
         },
         {
-            "name": "Night Sycthe Falcon",
+            "name": "Night Scythe Falcon",
             "source": "Canbrew",
             "size":
             [
@@ -29631,10 +29501,17 @@
             "trait":
             [
                 {
+                    "name": "Blood Trail (3/Day)",
+                    "entries":
+                    [
+                        "The night scythe can use its bonus action to become instantly aware of the distance and direction of all creatures within 60 feet of it that currently does not have all of their hit points."
+                    ]
+                },
+                {
                     "name": "Nightshade Blood",
                     "entries":
                     [
-                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes 3d6 acid damage or half as much damage on a successful {@dc 20} Constitution saving throw."
+                        "The night scythe's blood has nightshade in it. A vampire drinking its blood takes {@damage 6d6} acid damage or half as much damage on a successful {@dc 15} Constitution saving throw."
                     ]
                 }
             ],
@@ -29651,7 +29528,7 @@
                     "name": "Longbow",
                     "entries":
                     [
-                        "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+                        "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 }
             ],
@@ -29682,21 +29559,7 @@
             "tokenHref":
             {
                 "type": "external",
-                "url": "WIP"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "WIP"
-                        }
-                    }
-                ]
+                "url": "https://i.imgur.com/srMOqto.png"
             }
         },
         {
@@ -29776,7 +29639,7 @@
                     "name": "Longsword",
                     "entries":
                     [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage, and the target must make a {@dc 20} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage, and the target must make a {@dc 15} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
                     ]
                 }
             ],
@@ -29807,20 +29670,6 @@
             {
                 "type": "external",
                 "url": "WIP"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "WIP"
-                        }
-                    }
-                ]
             }
         },
         {
