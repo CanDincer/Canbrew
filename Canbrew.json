@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1546862880,
-        "dateLastModified": 1714078140
+        "dateLastModified": 1714113060
     },
     "item":
     [
@@ -6447,38 +6447,6 @@
                 "name": "Werewolf Chieftain",
                 "source": "Canbrew"
             },
-            "legendary":
-            [
-                {
-                    "name": "Leap",
-                    "entries":
-                    [
-                        "The werewolf moves up to its speed without provoking opportunity attacks."
-                    ]
-                },
-                {
-                    "name": "Bark Orders",
-                    "entries":
-                    [
-                        "The werewolf chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
-                    ]
-                },
-                {
-                    "name": "Frenzy (Costs 2 Actions)",
-                    "entries":
-                    [
-                        "The werewolf can make one claw attack against each creature within 5 feet of it."
-                    ]
-                },
-                {
-                    "name": "Strike",
-                    "entries":
-                    [
-                        "The werewolf makes one attack."
-                    ]
-                }
-            ],
-            "legendaryActions": 3,
             "traitTags":
             [
                 "Shapechanger",
@@ -34696,6 +34664,38 @@
 		{
 			"name": "Werewolf Chieftain",
 			"source": "Canbrew",
+            "legendary":
+            [
+                {
+                    "name": "Leap",
+                    "entries":
+                    [
+                        "The werewolf moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Bark Orders",
+                    "entries":
+                    [
+                        "The werewolf chooses a friendly creature who can see or hear it. That creature can use its reaction to move up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Frenzy (Costs 2 Actions)",
+                    "entries":
+                    [
+                        "The werewolf can make one claw attack against each creature within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Strike",
+                    "entries":
+                    [
+                        "The werewolf makes one attack."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
             "lairActions":
             [
                 "While the werewolf is in its lair, it can take lair actions as long as it isn't incapacitated.",
