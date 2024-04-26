@@ -36027,23 +36027,23 @@
                 ],
                 [
                     "35",
-                    "A {@creature Flail Snail|MPMM} appears within 5 feet of you and is hostile to you. The {@creature Flail Snail|MPMM} disappears at the end of your next turn."
+                    "You cast {@spell silence|PHB} centered on your self."
                 ],
                 [
                     "36",
-                    ""
+                    "You switch places with your target, if there is enough space."
                 ],
                 [
                     "37",
-                    ""
+                    "For the next spell you cast within 1 minute that does damage, the damage is minimized."
                 ],
                 [
                     "38",
-                    ""
+                    "An {@creature imp|MM} is summoned to an empty space within 5 feet of you and it immediately turns {@condition invisible} and runs away."
                 ],
                 [
                     "39",
-                    ""
+                    "You cast {@spell faerie fire|PHB} centered on you."
                 ],
                 [
                     "40",
