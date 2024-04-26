@@ -45,7 +45,7 @@
             "entries":
             [
                 "The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. A Ki-rin sacrificed itself so this weapon can be crafted and used to destroy a fiend.",
-                "When you lunch an arrow from this weapon, the arrow transforms into a {@spell guiding bolt|PHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're unconscious."
+                "When you lunch an arrow from this weapon, the arrow transforms into a {@spell guiding bolt|PHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're {@condition unconscious}."
             ]
         },
         {
@@ -181,7 +181,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Using a bonus action, you can deploy the Bastilla's stand to gain +2 on your attack and damage rolls. You can either deploy the Bastilla on a half cover sized object or choose to go prone to deploy it on the ground. Retracting the stand also requires a bonus action. Attack and damage rolls have -2 while moving with the stand out."
+                "Using a bonus action, you can deploy the Bastilla's stand to gain +2 on your attack and damage rolls. You can either deploy the Bastilla on a half cover sized object or choose to go {@condition prone} to deploy it on the ground. Retracting the stand also requires a bonus action. Attack and damage rolls have -2 while moving with the stand out."
             ]
         },
         {
@@ -239,8 +239,8 @@
             "entries":
             [
                 "This magic crossbow carries a small system of curious tubes and vessels. It deals an extra {@damage 1d4} poison damage.",
-                "The crossbow has 4 charges and regains {@dice 1d4} expended charges daily at dawn. You can expend 1 of the weapon's charges when you make an attack with it to coat the fired bolt with a unique, self-generating venom. If the attack hits, the target takes an extra {@damage 3d6} poison damage and must make a {@dc 13} Constitution saving throw. On a failed save, the target is poisoned until the end of its next turn",
-                "If you expend the crossbow's last charge, roll a d20. On a 1, the vessels attached to the crossbow shatter and spray poison in a 25-foot-radius sphere centered on your location. Creatures within the sphere take {@damage 1d12} poison damage and must succeed on a {@dc 15} Constitution saving throw or be poisoned for 1 minute. When this happens, the crossbow ceases to be magical and loses all of its additional properties."
+                "The crossbow has 4 charges and regains {@dice 1d4} expended charges daily at dawn. You can expend 1 of the weapon's charges when you make an attack with it to coat the fired bolt with a unique, self-generating venom. If the attack hits, the target takes an extra {@damage 3d6} poison damage and must make a {@dc 13} Constitution saving throw. On a failed save, the target is {@condition poisoned} until the end of its next turn",
+                "If you expend the crossbow's last charge, roll a d20. On a 1, the vessels attached to the crossbow shatter and spray poison in a 25-foot-radius sphere centered on your location. Creatures within the sphere take {@damage 1d12} poison damage and must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} for 1 minute. When this happens, the crossbow ceases to be magical and loses all of its additional properties."
             ]
         },
         {
@@ -499,7 +499,7 @@
                             "entries":
                             [
                                 "The Annihilator grants you a part of his own shadow",
-                                "When you're mortally wounded you can forego 50 runic charges to become a shadow with 1 hit point for one minute. You're not invisible but cannot be interacted with. At the end of your reformation, you are fully healed and your spell slots and traits are restored as if you had completed a long rest."
+                                "When you're mortally wounded you can forego 50 runic charges to become a shadow with 1 hit point for one minute. You're not {@condition invisible} but cannot be interacted with. At the end of your reformation, you are fully healed and your spell slots and traits are restored as if you had completed a long rest."
                             ]
                         },
                         {
@@ -702,7 +702,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "These gloves have 4 fingers but meld seamlessly into your hands when you don them. While wearing these gloves, climbing doesn't cost you extra movement, you gain a +1 bonus to Strength (Athletics) checks made to grapple a creature, you have swimming speed of 20 ft., and any creature grappled by you that is not wearing armor takes {@damage 1d4} poison damage at the end of each of your turns."
+                "These gloves have 4 fingers but meld seamlessly into your hands when you don them. While wearing these gloves, climbing doesn't cost you extra movement, you gain a +1 bonus to Strength (Athletics) checks made to grapple a creature, you have swimming speed of 20 ft., and any creature {@condition grappled} by you that is not wearing armor takes {@damage 1d4} poison damage at the end of each of your turns."
             ]
         },
         {
@@ -953,7 +953,7 @@
             [
                 "Used by the legendary wood-elf, Aela the Drow-Hunter, in her quest into the Underdark to retrieve her kidnapped husband. Nock an arrow and its head will ignite with brilliant radiance.",
                 "A Shortbow, doing {@damage 1d6} radiant damage, and casting Light wherever its arrow lands. On a critical hit, It blinds its target for 1 round, if the target fails {@dc 10} Constitution saving throw.",
-                "The creature can use their action to remove the arrow, or you may use a bonus action if you are within range. While the creature is under the magics effect, it cannot have any benefits from being invisible, hidden, or by being behind half cover."
+                "The creature can use their action to remove the arrow, or you may use a bonus action if you are within range. While the creature is under the magics effect, it cannot have any benefits from being {@condition invisible}, hidden, or by being behind half cover."
             ]
         },
         {
@@ -1184,7 +1184,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "These daggers are made using the harvested fangs of a large venomous spider. When you hit the same target on your turn with each dagger, that target must succeed on a {@dc 14} Constitution saving throw or take an extra {@damage 2d4} poison damage and become poisoned until the end of their next turn."
+                "These daggers are made using the harvested fangs of a large venomous spider. When you hit the same target on your turn with each dagger, that target must succeed on a {@dc 14} Constitution saving throw or take an extra {@damage 2d4} poison damage and become {@condition poisoned} until the end of their next turn."
             ]
         },
         {
@@ -1233,8 +1233,8 @@
                     "entries":
                     [
                         "It has 3 charges, and regains all of them at dawn.",
-                        " You can use an action to expend a charge and either end an effect that is causing you to be charmed or cast {@spell freedom of movement|PHB} on your self.",
-                        "You can use this feature even while you are charmed or paralyzed."
+                        " You can use an action to expend a charge and either end an effect that is causing you to be {@condition charmed} or cast {@spell freedom of movement|PHB} on your self.",
+                        "You can use this feature even while you are {@condition charmed} or {@condition paralyzed}."
                     ]
                 }
             ]
@@ -1444,7 +1444,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A nonmagical arrow or bolt fired from this magic weapon emits a fizzing red glow when it hits a creature. Only one creature can be so affected at a time. All your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. When you attack a creature with the Inevitable Bow and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're unconscious."
+                "A nonmagical arrow or bolt fired from this magic weapon emits a fizzing red glow when it hits a creature. Only one creature can be so affected at a time. All your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. When you attack a creature with the Inevitable Bow and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're {@condition unconscious}."
             ]
         },
         {
@@ -1468,7 +1468,7 @@
             "entries":
             [
                 "Magical short-bow. The bow does not require ammo. When the bow is drawn without ammo, a magical arrow appears knocked in the bow.",
-                "Anyone struck by the magical arrow becomes charmed with the first creature it sees after being struck (as charm person—the target must be a humanoid of Medium or smaller size, Wisdom {@dc 11} negates). The charm effects wear off after 1 minute. The magical arrow does not cause pain and is invisible unless detected by the Wisdom Save. The arrow disappears after the effect ends. The bow has 1 charge and recovers {@dice 1d2-1} charges at the end of a long rest."
+                "Anyone struck by the magical arrow becomes {@condition charmed} with the first creature it sees after being struck (as charm person—the target must be a humanoid of Medium or smaller size, Wisdom {@dc 11} negates). The charm effects wear off after 1 minute. The magical arrow does not cause pain and is {@condition invisible} unless detected by the Wisdom Save. The arrow disappears after the effect ends. The bow has 1 charge and recovers {@dice 1d2-1} charges at the end of a long rest."
             ]
         },
         {
@@ -1980,7 +1980,7 @@
             [
                 "This cold steel weapon from the Everglacier is topped with a menacing ice spike that never melts.",
                 "When you hit with an attack using this pike, the target takes an extra {@damage 1d10} cold damage. The weapon and its properties treat immunity to cold damage as resistance, and ignore resistance to cold damage.",
-                "When you reduce a Large or smaller creature to 0 hit points using this weapon, you can choose to encase that creature in ice. An encased creature is prevented from falling prone and is held in place by a shell of ice for 1 minute. If the creature is unconscious, it does not make death saving throws while it's encased in the ice. The ice has AC 12, 20 hit points, immunity to poison and psychic damage, and vulnerability to fire and thunder damage. If the encased creature is healed or the ice is destroyed, the ice crumbles and releases the creatures.",
+                "When you reduce a Large or smaller creature to 0 hit points using this weapon, you can choose to encase that creature in ice. An encased creature is prevented from falling {@condition prone} and is held in place by a shell of ice for 1 minute. If the creature is {@condition unconscious}, it does not make death saving throws while it's encased in the ice. The ice has AC 12, 20 hit points, immunity to poison and psychic damage, and vulnerability to fire and thunder damage. If the encased creature is healed or the ice is destroyed, the ice crumbles and releases the creatures.",
                 {
                     "type": "entries",
                     "name": "Chillspike",
@@ -2020,7 +2020,7 @@
                     "name": "Judgment",
                     "entries":
                     [
-                        "While you have an enemy grappled with this weapon, you can use your action to force Tartarus's calling upon them. On a failed Wisdom saving throw, the creature is forced to face their guilt and take {@damage 1d8} psychic + {@damage 1d8} fire damage. DC for this action equals to 8 + your Wisdom modifier or your Charisma modifier (your choice) + your proficiency bonus.",
+                        "While you have an enemy {@condition grappled} with this weapon, you can use your action to force Tartarus's calling upon them. On a failed Wisdom saving throw, the creature is forced to face their guilt and take {@damage 1d8} psychic + {@damage 1d8} fire damage. DC for this action equals to 8 + your Wisdom modifier or your Charisma modifier (your choice) + your proficiency bonus.",
                         "Once you use this on an enemy, they are immune to the psychic damage from this weapon."
                     ]
                 },
@@ -2080,7 +2080,7 @@
             "entries":
             [
                 "Its iron was mined from the Shale Cavern of Dolhiem. When the miners couldn't separate the block of steel from the diamond, they forged around it.",
-                "When you hit, you can use a bonus action turn the spear's handle to shatter the diamond. Each turn, you can use your bonus action to draw energy from the splinters left inside the creature. On a failed {@dc 20} Constitution saving throw, the creature has 3 levels of exhaustion until the end of your next turn. You can repeat this until the splinters are removed from the creature somehow.",
+                "When you hit, you can use a bonus action turn the spear's handle to shatter the diamond. Each turn, you can use your bonus action to draw energy from the splinters left inside the creature. On a failed {@dc 20} Constitution saving throw, the creature has 3 levels of {@condition exhaustion} until the end of your next turn. You can repeat this until the splinters are removed from the creature somehow.",
                 "Once shattered, the diamond is no more. You can replace the diamond with a new one but the gem must be crafted into the spear."
             ]
         },
@@ -2395,7 +2395,7 @@
                     "name": "Retaliation",
                     "entries":
                     [
-                        "Whenever a melee attack from a creature within 5 feet of you is stopped with this shield's AC (i.e. attacker misses you by up to 4 points), the shield erupts with sparks dealing {@damage 2d8} radiant damage. The attacker is blinded until the end of its next turn on a failed {@dc 18} Constitution saving throw."
+                        "Whenever a melee attack from a creature within 5 feet of you is stopped with this shield's AC (i.e. attacker misses you by up to 4 points), the shield erupts with sparks dealing {@damage 2d8} radiant damage. The attacker is {@condition blinded} until the end of its next turn on a failed {@dc 18} Constitution saving throw."
                     ]
                 },
                 {
@@ -2591,7 +2591,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "On-hit, the target must make a DC equal to your Strength modifier + 10 Strength save or be knocked prone. Damage dealt is Bludgeoning, rather than Piercing."
+                "On-hit, the target must make a DC equal to your Strength modifier + 10 Strength save or be knocked {@condition prone}. Damage dealt is Bludgeoning, rather than Piercing."
             ]
         },
         {
@@ -2604,7 +2604,7 @@
             "entries":
             [
                 "These pale grey arrow tips are crafted from many {intellect devourer|MM}'s spinal cartilage.",
-                "When you hit a creature with a ranged attack using this arrow, the target takes an extra {@damage 1d8} psychic damage and is forced to make a {@dc 15} Intelligence saving throw. On a failed save, the creature is dropped to 0 Intelligence and stunned until the end of their next turn. On a successful save, the creature is not stunned and is immune to these arrows for the next 24 hours. A construct or undead creature automatically succeeds on the saving throw."
+                "When you hit a creature with a ranged attack using this arrow, the target takes an extra {@damage 1d8} psychic damage and is forced to make a {@dc 15} Intelligence saving throw. On a failed save, the creature is dropped to 0 Intelligence and {@condition stunned} until the end of their next turn. On a successful save, the creature is not {@condition stunned} and is immune to these arrows for the next 24 hours. A construct or undead creature automatically succeeds on the saving throw."
             ]
         },
         {
@@ -2970,7 +2970,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Gain +1 AC for each PC party member that is unconscious, with the effect ending if they die or wake up."
+                "Gain +1 AC for each PC party member that is {@condition unconscious}, with the effect ending if they die or wake up."
             ]
         },
         {
@@ -3208,7 +3208,7 @@
             "entries":
             [
                 "This potion's container seems to hold a black fog that moves and pours like water.",
-                "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being grappled and restrained, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain {@sense darkvision} to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
+                "When you drink this potion, you and everything you are carrying turn into a shadow for 1 hour. In this form, you are immune to being {@condition grappled} and {@condition restrained}, and to bludgeoning, piercing, and slashing damage from nonmagical weapons, but you are vulnerable to radiant damage. You can move through a space as narrow as 1 inch without squeezing. When you're in dim light or darkness, you add your Dexterity modifier twice to your Dexterity (Stealth) skill rolls and can take the Hide action as a bonus action. Finally, you gain {@sense darkvision} to 60 feet, if you didn't have it already. However, you can't manipulate objects and can't attack anyone except for other creatures made of shadows, including other creatures who have consumed this potion, creatures such as shadows or shadow demons, and creatures native to the Shadowfell."
             ]
         },
         {
@@ -3414,7 +3414,7 @@
             "entries":
             [
                 "A finely crafted dark leather belt with three loops, each decorated with a shard of sapphire.",
-                "The magic of the belt leaves an invisible mark on the surface of the weapons stowed in each loop and invisibly inscribes the name of the item on the sapphire shard. Three one-handed weapons with the thrown property can be 'attuned' to the belt.",
+                "The magic of the belt leaves an {@condition invisible} mark on the surface of the weapons stowed in each loop and invisibly inscribes the name of the item on the sapphire shard. Three one-handed weapons with the thrown property can be 'attuned' to the belt.",
                 "When a weapon, from the belt, is thrown at an object or creature, hit or miss, the weapon will return to the belt at the end of your turn."
             ]
         },
@@ -3498,7 +3498,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "A full plate armor helmet without any openings. While you are wearing it, you are blinded, deafened, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Blindsight. Provides resistance to psychic damage and you have advantage on saving throws against being  {@condition charmed} and any magical effect that puts you to sleep."
+                "A full plate armor helmet without any openings. While you are wearing it, you are {@condition blinded}, {@condition deafened}, and mute. If you know the ways of Mage Guardian, you can activate the helm's 60-foot Blindsight. Provides resistance to psychic damage and you have advantage on saving throws against being  {@condition charmed} and any magical effect that puts you to sleep."
             ]
         },
         {
@@ -3916,7 +3916,7 @@
             "entries":
             [
                 "These iron pendants come in pairs and are connected by a powerful bond of self-sacrifice. In order to create this bond, you and a friendly creature with whom you are close perform a brief, 1-minute ritual to connect your destinies and forge a blood pact. When you create this blood pact, you must each agree on a number of hit points to permanently sacrifice, reducing your total maximum hit points (minimum 1). Once a pact has been forged, trickles of the bound creatures' blood are absorbed into the normally clear gem adorning the face of this pendant. While the gem is filled in this way, it seems to gently swirl and pulse in time with your heartbeat.",
-                "While each bound creature is wearing their pendant and both are on the same plane of existence, they're protected by this pact so long as one creature is still conscious. When a bound creature dies, they're immediately revived with {@dice 2d10} hit points plus twice the number of hit points previously sacrificed by the creature. When a creature is revived in this way, the other bound creature immediately falls to 0 hit points and is knocked unconscious. This property ignores any effect that would normally prevent a creature from falling to 0 hit points. When this happens, both creatures' maximum hit points are returned to normal. Once the pact is ended in this way, the gems and pendants crack and are no longer magical."
+                "While each bound creature is wearing their pendant and both are on the same plane of existence, they're protected by this pact so long as one creature is still conscious. When a bound creature dies, they're immediately revived with {@dice 2d10} hit points plus twice the number of hit points previously sacrificed by the creature. When a creature is revived in this way, the other bound creature immediately falls to 0 hit points and is knocked {@condition unconscious}. This property ignores any effect that would normally prevent a creature from falling to 0 hit points. When this happens, both creatures' maximum hit points are returned to normal. Once the pact is ended in this way, the gems and pendants crack and are no longer magical."
             ]
         },
         {
@@ -3934,7 +3934,7 @@
                     "name": "Lifegiver",
                     "entries":
                     [
-                        "When anyone attuned to the pendant goes unconscious within 60 feet of it, the scarab unhooks itself from its chain and flies to them instantly, spreading its wings with brilliant flash of green that heals them for a number of d4s equal to the number of creatures attuned to it within 60 feet",
+                        "When anyone attuned to the pendant goes {@condition unconscious} within 60 feet of it, the scarab unhooks itself from its chain and flies to them instantly, spreading its wings with brilliant flash of green that heals them for a number of d4s equal to the number of creatures attuned to it within 60 feet",
                         "Once this ability has been used, the beetle must spend a day under direct sunlight to recharge this ability."
                     ]
                 },
@@ -4040,7 +4040,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Amplifies your spells. When used; the level of the spell you are casting doubles but strains your physical and spiritual form. With each use, a part of your soul is consumed. You gain 1 exhaustion and your maximum hit points are reduced by 1."
+                "Amplifies your spells. When used; the level of the spell you are casting doubles but strains your physical and spiritual form. With each use, a part of your soul is consumed. You gain 1 level of {@condition exhaustion} and your maximum hit points are reduced by 1."
             ]
         },
         {
@@ -5522,7 +5522,7 @@
                     "name": "Spiked Chain",
                     "entries":
                     [
-                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage. The goblin warlord can force the target to make a contested Athletics check. On a failed saving throw, the target is grappled and pulled towards the goblin warlord up 5 ft."
+                        "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage. The goblin warlord can force the target to make a contested Athletics check. On a failed saving throw, the target is {@condition grappled} and pulled towards the goblin warlord up 5 ft."
                     ]
                 }
             ],
@@ -9999,7 +9999,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -10176,7 +10176,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -10349,7 +10349,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -10523,7 +10523,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -10707,7 +10707,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -10950,7 +10950,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -11187,7 +11187,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -11392,7 +11392,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The squirrel has advantage on an attack roll against a creature if at least one of the squirrel's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -11761,7 +11761,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -11908,7 +11908,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 },
                 {
@@ -12377,7 +12377,7 @@
                     "name": "Pounce",
                     "entries":
                     [
-                        "If the na'arn moves at least 20 ft. straight toward a creature and then hits it with a khopesh attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked prone. If the target is prone, the na'arn can make one khopesh attack against it as a bonus action."
+                        "If the na'arn moves at least 20 ft. straight toward a creature and then hits it with a khopesh attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the na'arn can make one khopesh attack against it as a bonus action."
                     ]
                 },
                 {
@@ -12711,7 +12711,7 @@
                     "name": "Pack Tactics",
                     "entries":
                     [
-                        "The lava drake has advantage on an attack roll against a creature if at least one of the lava drake's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                        "The lava drake has advantage on an attack roll against a creature if at least one of the lava drake's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
                     ]
                 }
             ],
@@ -13939,7 +13939,7 @@
                     "entries":
                     [
                         "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage.",
-                        "The target takes {@damage 3d6} poison damage an becomes poisoned until the end of its next turn on a failed {@dc 13} Constitution save."
+                        "The target takes {@damage 3d6} poison damage an becomes {@condition poisoned} until the end of its next turn on a failed {@dc 13} Constitution save."
                     ]
                 },
                 {
@@ -14626,7 +14626,7 @@
                     "name": "Poisonous Tendrils",
                     "entries":
                     [
-                        "The halocline shrimp has poison tendrils that carry a neurotoxin. A creature that touches the shrimp or that hits it with a melee attack while within 5 feet of it must make a {@dc 15} Constitution saving throw. On a failure, the creature takes {@damage 1d6} poison damage and is poisoned until the end of its next turn."
+                        "The halocline shrimp has poison tendrils that carry a neurotoxin. A creature that touches the shrimp or that hits it with a melee attack while within 5 feet of it must make a {@dc 15} Constitution saving throw. On a failure, the creature takes {@damage 1d6} poison damage and is {@condition poisoned} until the end of its next turn."
                     ]
                 }
             ],
@@ -14755,7 +14755,7 @@
                     "name": "Clench",
                     "entries":
                     [
-                        "The abyssal grappler clenches onto the target's face. The target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the abyssal grappler can't use its clench on another target. While grappled in this way, the abyssal grappler injects its acid to liquefy the target's insides and the target takes {@damage 5d6} acid damage at the start of each of its turns. Attempting to remove the abyssal grappler, agitates it to release more acid."
+                        "The abyssal grappler clenches onto the target's face. The target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition restrained}, and the abyssal grappler can't use its clench on another target. While {@condition grappled} in this way, the abyssal grappler injects its acid to liquefy the target's insides and the target takes {@damage 5d6} acid damage at the start of each of its turns. Attempting to remove the abyssal grappler, agitates it to release more acid."
                     ]
                 }
             ],
@@ -14884,8 +14884,8 @@
                     "name": "Swallow",
                     "entries":
                     [
-                        "The dragon leviathan makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the sea dragon, and it takes {@damage 6d6} acid damage at the start of each of the dragon leviathan's turns.",
-                        "If the dragon leviathan takes 30 damage or more on a single turn from a creature inside it, the dragon leviathan must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the dragon leviathan. If the dragon leviathan dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 feet of movement, exiting prone."
+                        "The dragon leviathan makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the sea dragon, and it takes {@damage 6d6} acid damage at the start of each of the dragon leviathan's turns.",
+                        "If the dragon leviathan takes 30 damage or more on a single turn from a creature inside it, the dragon leviathan must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the dragon leviathan. If the dragon leviathan dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 30 feet of movement, exiting {@condition prone}."
                     ]
                 }
             ],
@@ -15945,7 +15945,7 @@
                     "name": "Charge",
                     "entries":
                     [
-                        "If the bison moves at least 20 ft. straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra {@damage 2d10} bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked prone."
+                        "If the bison moves at least 20 ft. straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra {@damage 2d10} bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked {@condition prone}."
                     ]
                 },
                 {
@@ -30590,7 +30590,7 @@
             {
                 "entries":
                 [
-                    "Water minimentals tend to be social and stay in groups, often taking up refuge in water sources where they are invisible unless disturbed. They generally despise temperature extremes, and will shy away from flame or cold. If a number of water minimentals gather in a town’s well or potable water source, they form invisible barriers that make it difficult to access the water underneath. Due to this trait, they can be a nuisance to towns that find themselves with an infestation. Water minimentals prefer to go with the flow, and tend to flow down towards sea level, as water is apt to do. It is unknown how many of these minimentals exist in the oceans of the material plane."
+                    "Water minimentals tend to be social and stay in groups, often taking up refuge in water sources where they are {@condition invisible} unless disturbed. They generally despise temperature extremes, and will shy away from flame or cold. If a number of water minimentals gather in a town’s well or potable water source, they form {@condition invisible} barriers that make it difficult to access the water underneath. Due to this trait, they can be a nuisance to towns that find themselves with an infestation. Water minimentals prefer to go with the flow, and tend to flow down towards sea level, as water is apt to do. It is unknown how many of these minimentals exist in the oceans of the material plane."
                 ],
                 "images":
                 [
@@ -32162,7 +32162,7 @@
                                     "type": "entries",
                                     "entries":
                                     [
-                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked prone."
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked {@condition prone}."
                                     ]
                                 }
                             ]
@@ -32379,7 +32379,7 @@
                                     "type": "entries",
                                     "entries":
                                     [
-                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to threaten the target, potentially forcing them into a defensive state. On a hit, the creature suffers normal damage and must make a Charisma saving throw or become incapacitated until the end of its next turn. While incapacitated in this way, the creature has half cover."
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to threaten the target, potentially forcing them into a defensive state. On a hit, the creature suffers normal damage and must make a Charisma saving throw or become {@condition incapacitated} until the end of its next turn. While {@condition incapacitated} in this way, the creature has half cover."
                                     ]
                                 },
                                 {
@@ -32387,7 +32387,7 @@
                                     "type": "entries",
                                     "entries":
                                     [
-                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked prone."
+                                        "When the wandslinger makes a wand attack against a creature, the wandslinger can attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked {@condition prone}."
                                     ]
                                 },
                                 {
@@ -34508,7 +34508,7 @@
 			"source": "Canbrew",
             "lairActions":
             [
-                "While the werewolf is in its lair, it can take lair actions as long as it isn't incapacitated.",
+                "While the werewolf is in its lair, it can take lair actions as long as it isn't {@condition incapacitated}.",
                 "On initiative count 20 (losing initiative ties), the werewolf can take one of the following lair action options, or forgo using any of them in that round:",
 				{
 					"type": "list",
@@ -34538,7 +34538,7 @@
 			"source": "Canbrew",
             "lairActions":
             [
-                "While the werewolf is in its lair, it can take lair actions as long as it isn't incapacitated.",
+                "While the werewolf is in its lair, it can take lair actions as long as it isn't {@condition incapacitated}.",
                 "On initiative count 20 (losing initiative ties), the werewolf can take one of the following lair action options, or forgo using any of them in that round:",
 				{
 					"type": "list",
@@ -34582,7 +34582,7 @@
 			"source": "Canbrew",
             "lairActions":
             [
-                "While the vampire is in its lair, it can take lair actions as long as it isn't incapacitated.",
+                "While the vampire is in its lair, it can take lair actions as long as it isn't {@condition incapacitated}.",
                 "On initiative count 20 (losing initiative ties), the vampire can take one of the following lair action options, or forgo using any of them in that round:",
 				{
 					"type": "list",
@@ -34616,7 +34616,7 @@
 			"source": "Canbrew",
             "lairActions":
             [
-                "While the vampire is in its lair, it can take lair actions as long as it isn't incapacitated.",
+                "While the vampire is in its lair, it can take lair actions as long as it isn't {@condition incapacitated}.",
                 "On initiative count 20 (losing initiative ties), the vampire can take one of the following lair action options, or forgo using any of them in that round:",
 				{
 					"type": "list",
@@ -34648,7 +34648,7 @@
 			"source": "Canbrew",
             "lairActions":
             [
-                "While the vampire is in its lair, it can take lair actions as long as it isn't incapacitated.",
+                "While the vampire is in its lair, it can take lair actions as long as it isn't {@condition incapacitated}.",
                 "On initiative count 20 (losing initiative ties), the vampire can take one of the following lair action options, or forgo using any of them in that round:",
 				{
 					"type": "list",
@@ -34678,7 +34678,7 @@
 			"source": "Canbrew",
             "lairActions":
             [
-                "While the vampire is in its lair, it can take lair actions as long as it isn't incapacitated.",
+                "While the vampire is in its lair, it can take lair actions as long as it isn't {@condition incapacitated}.",
                 "On initiative count 20 (losing initiative ties), the vampire can take one of the following lair action options, or forgo using any of them in that round:",
 				{
 					"type": "list",
@@ -34881,8 +34881,8 @@
                     "name": "Vampire Lord",
                     "entries":
                     [
-                        "You can feed your blood to a willing creature, or one that is {@condition grappled} by you, {@condition incapacitated}, or {@condition restrained}. Make a Strength (Athletics) check contested by the target’s Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, the target is tainted with your blood and turns into a {@creature vampire spawn} after a long rest. Whether you succeed or fail, you lose {@dice 5d20} hit points. If you drop to 0 hit points during this process, it fails.",
-                        "A {@creature vampire spawn} created in this way is automatically charmed by you. Each time you or one of your companions do anything harmful to the target, it can make a Wisdom saving throw, ending the effect on itself on a success. DC for this saving throw is equal to 8 + your proficiency bonus added twice. Otherwise, the effect lasts until it grows into a full vampire or until you are destroyed. The DC is reduced by 2 for each vampire spawn you already have under your charm.",
+                        "You can feed your blood to a willing creature, or one that is {@condition grappled} by you, {@condition incapacitated}, or {@condition restrained}. Make a Strength (Athletics) check contested by the target’s Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitated}. If you succeed, the target is tainted with your blood and turns into a {@creature vampire spawn} after a long rest. Whether you succeed or fail, you lose {@dice 5d20} hit points. If you drop to 0 hit points during this process, it fails.",
+                        "A {@creature vampire spawn} created in this way is automatically {@condition charmed} by you. Each time you or one of your companions do anything harmful to the target, it can make a Wisdom saving throw, ending the effect on itself on a success. DC for this saving throw is equal to 8 + your proficiency bonus added twice. Otherwise, the effect lasts until it grows into a full vampire or until you are destroyed. The DC is reduced by 2 for each vampire spawn you already have under your charm.",
                         {
                             "type": "quote",
                             "entries": [
@@ -34898,7 +34898,7 @@
                     "name": "Feast of Blood",
                     "entries":
                     [
-                        "When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute. If you, consecutively, drink enough blood to fill half your maximum hit points, you lose a level of exhaustion."
+                        "When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute. If you, consecutively, drink enough blood to fill half your maximum hit points, you lose a level of {@condition exhaustion}."
                     ]
                 },
                 {
@@ -34923,7 +34923,7 @@
                     "name": "Rejuvenation",
                     "entries":
                     [
-                        "You can take a minute and gain an exhaustion level to acquire one benefit from either Lesser Restoration or Greater Restoration spells. You cannot reduce your exhaustion by using this trait. If you are not starving, you can regrow 1 limb during a long rest."
+                        "You can take a minute and gain an {@condition exhaustion} level to acquire one benefit from either Lesser Restoration or Greater Restoration spells. You cannot reduce your {@condition exhaustion} by using this trait. If you are not starving, you can regrow 1 limb during a long rest."
                     ]
                 },
                 {
@@ -34995,7 +34995,7 @@
                                     "name": "Starving",
                                     "entries":
                                     [
-                                        "You have a blood pool of 10 of which you lose 1 every day. If it drops to 5, you have 1 extra level of exhaustion. If it drops to 3, you have 2 extra levels of exhaustion. If it drops to 1, you have 3 extra levels of exhaustion. At 5 points or below, you are considered starving. Each time you deal necrotic damage to a creature by drinking its blood, you regain one point of your blood pool."
+                                        "You have a blood pool of 10 of which you lose 1 every day. If it drops to 5, you have 1 extra level of {@condition exhaustion}. If it drops to 3, you have 2 extra levels of {@condition exhaustion}. If it drops to 1, you have 3 extra levels of {@condition exhaustion}. At 5 points or below, you are considered starving. Each time you deal necrotic damage to a creature by drinking its blood, you regain one point of your blood pool."
                                     ],
                                     "type": "entries"
                                 }
@@ -36643,7 +36643,7 @@
 			"header": 1,
 			"entries":
             [
-                "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall prone, and if they encounter a solid obstacle take {@damage 2d6} bludgeoning damage. On a success, they are instead knocked back 5 feet. Also, as part of this action, you can choose to ride the wind you have created and move 15 feet in any single direction."
+                "As an action, you summon radiant wings that create a strong wind. Each enemy creature in a 20-foot cone, which originates from you, must make a Dexterity saving throw. On a failure, they are knocked back 15 feet and fall {@condition prone}, and if they encounter a solid obstacle take {@damage 2d6} bludgeoning damage. On a success, they are instead knocked back 5 feet. Also, as part of this action, you can choose to ride the wind you have created and move 15 feet in any single direction."
 			]
 		},
 		{
