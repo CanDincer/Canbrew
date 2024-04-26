@@ -478,7 +478,7 @@
                             "entries":
                             [
                                 "While you're inside shadows or at most a dimly lighted area, as a bonus action, you can \"{@spell blink|PHB} teleport\". Doing so expends 3 runic charges.",
-                                    "You can travel up to 30 ft. through shadows and darkness to a place you can see at the location you've started.",
+                                    "You can travel up to 30 feet through shadows and darkness to a place you can see at the location you've started.",
                                     "You do not provoke opportunity attacks while you travel in this manner.",
                                     "You cannot attack or take any other actions until you emerge from the shadows.",
                                     "To the untrained eye, it looks as if you had teleported."
@@ -702,7 +702,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "These gloves have 4 fingers but meld seamlessly into your hands when you don them. While wearing these gloves, climbing doesn't cost you extra movement, you gain a +1 bonus to Strength (Athletics) checks made to grapple a creature, you have swimming speed of 20 ft., and any creature {@condition grappled} by you that is not wearing armor takes {@damage 1d4} poison damage at the end of each of your turns."
+                "These gloves have 4 fingers but meld seamlessly into your hands when you don them. While wearing these gloves, climbing doesn't cost you extra movement, you gain a +1 bonus to Strength (Athletics) checks made to grapple a creature, you have swimming speed of 20 feet, and any creature {@condition grappled} by you that is not wearing armor takes {@damage 1d4} poison damage at the end of each of your turns."
             ]
         },
         {
@@ -749,7 +749,7 @@
                 "This gauntlet is made of various pieces of leather sewn together with thick stitches with a large crystal disk fitted into the palm.",
                 "With this gauntlet, you can make a ranged spell attack against one creature you can see, within 10 feet of you. Although you are not proficient with it, you add your spellcasting modifier to attacks made with it. On a successful attack deal {@damage 1d6} thunder damage. Each consecutive hit made with the Repulsor Gauntlet increases the damage by an additional {@damage 1d6}. For example, if the Repulsor Gauntlet has been used 5 times, it will deal {@damage 6d6} damage on the next consecutive hit.",
                 "If you roll 1 on the attack roll, the attack backfires and the wielder takes the damage instead. If you roll 2, the disc bolts out and you have to use an action to mount it back on. It resets after a backfire, a disc failure, a long or short rest, or if you miss an attack.",
-                "If you manage to kill a creature with this weapon, the creature explodes and the creatures adjacent to the target take the same damage from the weapon. On a critical hit, the target is pushed back 5 ft."
+                "If you manage to kill a creature with this weapon, the creature explodes and the creatures adjacent to the target take the same damage from the weapon. On a critical hit, the target is pushed back 5 feet"
             ]
         },
         {
@@ -1003,12 +1003,12 @@
                     "type": "list",
                     "items":
                     [
-                        "Fire + Water = {@creature steam mephit}",
-                        "Water + Water = {@creature ice mephit}",
-                        "Air + Fire = {@creature smoke mephit}",
-                        "Earth + Air = {@creature dust mephit}",
-                        "Water + Earth = {@creature mud mephit}",
-                        "Fire + Earth = {@creature magma mephit}"
+                        "Fire + Water = {@creature steam mephit of the elementalist|Canbrew}",
+                        "Water + Water = {@creature ice mephit of the elementalist|Canbrew}",
+                        "Air + Fire = {@creature smoke mephit of the elementalist|Canbrew}",
+                        "Earth + Air = {@creature dust mephit of the elementalist|Canbrew}",
+                        "Water + Earth = {@creature mud mephit of the elementalist|Canbrew}",
+                        "Fire + Earth = {@creature magma mephit of the elementalist|Canbrew}"
 
                     ]
                 },
@@ -2204,7 +2204,7 @@
                 "The massive upper skull of the beast acts as a hardened carapace over your head. The plating from the creature's exoskeleton forms a layer of armor across your body.",
                 "While unarmed and wearing this armor, you can take an action to assume the form of a bulette hybrid.",
                 "The armor grows down your arms, engulfing your arms as the skull lowers over your face.",
-                "While in this form, you gains a burrowing speed of 20 ft. and a tremorsense of 30 ft.",
+                "While in this form, you gains a burrowing speed of 20 feet and a tremorsense of 30 feet.",
                 "You can take the attack action with your new clawed hands but cannot grasp weapons or items. These claws do 1d10 slashing damage (you use your Strength modifier for attack and damage rolls), and these attacks are considered magical.",
                 "It takes an action to leave this form.",
                 "While attuned to this item, the user gains advantage on checks to know their direcion of travel and depth in subterranean environments."
@@ -2330,7 +2330,7 @@
                     "name": "Charge",
                     "entries":
                     [
-                        "Move 30 ft straight and make a Shove contest against all in the path of the last 20 ft., doing {@damage 1d8} bludgeoning to all who fail. You do not provoke opportunity attacks, and moving through enemy space is treated as normal terrain. You have resistance to mundane damage until the end of your next turn after Charge is initiated."
+                        "Move 30 ft straight and make a Shove contest against all in the path of the last 20 feet, doing {@damage 1d8} bludgeoning to all who fail. You do not provoke opportunity attacks, and moving through enemy space is treated as normal terrain. You have resistance to mundane damage until the end of your next turn after Charge is initiated."
                     ]
                 },
                 "You have +5 to Athletics checks when charging."
@@ -2531,7 +2531,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "This shield expands and gives a bonus equal to the number of enemies in 30 feet of you to your AC, starting from +0. For each expansion, you get -5 ft. to your speed."
+                "This shield expands and gives a bonus equal to the number of enemies in 30 feet of you to your AC, starting from +0. For each expansion, you get -5 feet to your speed."
             ]
         },
         {
@@ -2699,7 +2699,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Plays the Jaws music when a shark is within 60ft."
+                "Plays the Jaws music when a shark is within 60 feet."
             ]
         },
         {
@@ -3298,7 +3298,7 @@
             "entries":
             [
                 "This potion's container seems to hold a very thick black goo. Drinking it gives you black eyes.",
-                "When you drink this potion, you gain {@sense darkvision} out to a range of 30 ft. for 1 hour."
+                "When you drink this potion, you gain {@sense darkvision} out to a range of 30 feet for 1 hour."
             ]
         },
         {
@@ -3866,7 +3866,7 @@
                     "name": "Bloom",
                     "entries":
                     [
-                        "Once per day, as a bonus action, you may blow this whistle to activate its magic. All flowers within 100 ft. of you bloom to life. Healing all friendly creatures within 20 ft. of you for {@dice 1d6} + your Wisdom (Nature) modifier."
+                        "Once per day, as a bonus action, you may blow this whistle to activate its magic. All flowers within 100 feet of you bloom to life. Healing all friendly creatures within 20 feet of you for {@dice 1d6} + your Wisdom (Nature) modifier."
                     ]
                 }
             ]
@@ -3879,7 +3879,7 @@
             "entries":
             [
                 "The sheath magically adjusts its shape for any weapon you sheath into it.",
-                "During a long rest, you can sheath a melee weapon in it, speak its command word and bind the weapon to the sheath. As a bonus action, you can re-summon your bound weapon into the sheath, whilst the weapon is in a 30 ft. range.",
+                "During a long rest, you can sheath a melee weapon in it, speak its command word and bind the weapon to the sheath. As a bonus action, you can re-summon your bound weapon into the sheath, whilst the weapon is in a 30 feet range.",
                 "There can only be one bound weapon at any time. If the bound weapon gets destroyed, the bond breaks. The bound weapon does not use your attunement slot while bound to the sheath."
             ]
         },
@@ -19068,24 +19068,10 @@
             [
                 "unconscious"
             ],
-            "tokenHref":
+            "token":
             {
-                "type": "external",
-                "url": "https://5e.tools/img/MM/Dust%20Mephit.png"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "https://5e.tools/img/bestiary/MM/Dust%20Mephit.jpg"
-                        }
-                    }
-                ]
+                "name": "Dust Mephit",
+                "source": "MM"
             }
         },
         {
@@ -19247,24 +19233,10 @@
                 "AOE",
                 "RW"
             ],
-            "tokenHref":
+            "token":
             {
-                "type": "external",
-                "url": "https://5e.tools/img/MM/Ice%20Mephit.png"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "https://5e.tools/img/bestiary/MM/Ice%20Mephit.jpg"
-                        }
-                    }
-                ]
+                "name": "Ice Mephit",
+                "source": "MM"
             }
         },
         {
@@ -19426,24 +19398,10 @@
                 "AOE",
                 "RW"
             ],
-            "tokenHref":
+            "token":
             {
-                "type": "external",
-                "url": "https://5e.tools/img/MM/Magma%20Mephit.png"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "https://5e.tools/img/bestiary/MM/Magma%20Mephit.jpg"
-                        }
-                    }
-                ]
+                "name": "Magma Mephit",
+                "source": "MM"
             }
         },
         {
@@ -19601,24 +19559,10 @@
             [
                 "restrained"
             ],
-            "tokenHref":
+            "token":
             {
-                "type": "external",
-                "url": "https://5e.tools/img/MM/Mud%20Mephit.png"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "https://5e.tools/img/bestiary/MM/Mud%20Mephit.jpg"
-                        }
-                    }
-                ]
+                "name": "Mud Mephit",
+                "source": "MM"
             }
         },
         {
@@ -19773,19 +19717,10 @@
                 "type": "external",
                 "url": "https://5e.tools/img/MM/Smoke%20Mephit.png"
             },
-            "fluff":
+            "token":
             {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "https://5e.tools/img/bestiary/MM/Smoke%20Mephit.jpg"
-                        }
-                    }
-                ]
+                "name": "Smoke Mephit",
+                "source": "MM"
             }
         },
         {
@@ -19931,24 +19866,10 @@
                 "AOE",
                 "MW"
             ],
-            "tokenHref":
+            "token":
             {
-                "type": "external",
-                "url": "https://5e.tools/img/MM/Steam%20Mephit.png"
-            },
-            "fluff":
-            {
-                "images":
-                [
-                    {
-                        "type": "image",
-                        "href":
-                        {
-                            "type": "external",
-                            "url": "https://5e.tools/img/bestiary/MM/Steam%20Mephit.jpg"
-                        }
-                    }
-                ]
+                "name": "Steam Mephit",
+                "source": "MM"
             }
         },
         {
@@ -36090,19 +36011,19 @@
                 ],
                 [
                     "31",
-                    ""
+                    "Fog seeps up from the target, obscuring everything within a 20 feet radius of the target, for {@dice 1d4} rounds."
                 ],
                 [
                     "32",
-                    ""
+                    "The next creature you physically touch takes {@damage 1d6} lightning damage until the end of your turn. If you haven't touched a creature by the end of your turn, instead, you take the damage."
                 ],
                 [
                     "33",
-                    ""
+                    "The spell is unexpectedly loud and everyone within 10 feet of you (including you) takes {@damage 1d6} thunder damage and the spell can be heard 600 feet away."
                 ],
                 [
                     "34",
-                    ""
+                    "{@dice 1d6} random mephits appear within 5 feet of you and are hostile to you."
                 ],
                 [
                     "35",
