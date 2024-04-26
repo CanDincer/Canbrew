@@ -16458,7 +16458,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -16664,7 +16664,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -16862,7 +16862,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -17061,7 +17061,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -17263,7 +17263,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -17482,7 +17482,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -17696,7 +17696,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -17903,7 +17903,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -18116,7 +18116,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -18343,7 +18343,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -18564,7 +18564,7 @@
             "legendaryGroup":
             {
                 "name": "Dread",
-                "source": "Canbres"
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -18740,7 +18740,8 @@
             ],
             "legendaryGroup":
             {
-                "name": "Arcane Gunslinger"
+                "name": "Arcane Gunslinger",
+                "source": "Canbrew"
             },
             "legendary":
             [
@@ -23050,7 +23051,7 @@
                 "images":
                 [
                     {
-                        "type": "WIP",
+                        "type": "image",
                         "href":
                         {
                             "type": "external",
@@ -32739,7 +32740,11 @@
             [
                 "RNG"
             ],
-            "tokenHref": "WIP"
+            "tokenHref":
+            {
+                "type": "external",
+                "url": "WIP"
+            }
         },
         {
             "name": "Secluded",
