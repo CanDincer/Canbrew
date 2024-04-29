@@ -2324,7 +2324,7 @@
             "source": "Canbrew",
             "entries":
             [
-                "Requires str 18, max speed 30ft, gives -5 to Dexterity saves while wearing, but allows a special {@action Attack} action.",
+                "Requires Strength 18, max speed 30ft, gives -5 to Dexterity saves while wearing, but allows a special {@action Attack} action.",
                 {
                     "type": "entries",
                     "name": "Charge",
@@ -31056,7 +31056,7 @@
                     "name": "Dust Body",
                     "entries":
                     [
-                        "The Dust minimental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. If the creature has a nose, it must make a {@dc 8} CON save, sneezing on a fail."
+                        "The Dust minimental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. If the creature has a nose, it must make a {@dc 8} Constitution saving throw, sneezing on a fail."
                     ]
                 }
             ],
@@ -35874,7 +35874,7 @@
             ],
             "outro":
             [
-                ""
+                "If a table item says you cast a spell which requires concentrating on it, you cannot stop concentrating on the spell until the duration ends."
             ],
             "caption": "Malicious Magic Surge Effects",
             "colLabels":
@@ -36011,11 +36011,11 @@
                 ],
                 [
                     "31",
-                    "Fog seeps up from the target, obscuring everything within a 20 feet radius of the target, for {@dice 1d4} rounds."
+                    "You cast {@spell fog cloud|PHB} centered on the target."
                 ],
                 [
                     "32",
-                    "The next creature you physically touch takes {@damage 1d6} lightning damage until the end of your turn. If you haven't touched a creature by the end of your turn, instead, you take the damage."
+                    "The next creature you physically touch until the end of your turn takes {@damage 1d6} lightning damage. If you haven't touched a creature by the end of your turn, instead, you take the damage."
                 ],
                 [
                     "33",
@@ -36039,7 +36039,7 @@
                 ],
                 [
                     "38",
-                    "An {@creature imp|MM} is summoned to an empty space within 5 feet of you and it immediately turns {@condition invisible} and runs away."
+                    "An {@creature imp|MM} is summoned to an empty space within 5 feet of you. It curses in infernal out of confusion and, turns {@condition invisible} and runs away."
                 ],
                 [
                     "39",
@@ -36047,11 +36047,11 @@
                 ],
                 [
                     "40",
-                    ""
+                    "You become {@condition deafened} for 1 day."
                 ],
                 [
                     "41",
-                    ""
+                    "You gain a level of {@condition exhaustion}"
                 ],
                 [
                     "42",
@@ -36087,7 +36087,7 @@
                 ],
                 [
                     "50",
-                    "Roll again on this table and the resulted effect triggers at the location of the object imbued with surging resonance."
+                    "Roll again on this table and the resulting effect triggers at the location of the object imbued with surging resonance."
                 ],
                 [
                     "51",
@@ -36279,7 +36279,7 @@
                 ],
                 [
                     "97",
-                    ""
+                    "You cast {@spell sleep|PHB} centered on your self at level {@dice 1d8}."
                 ],
                 [
                     "98",
@@ -36287,7 +36287,7 @@
                 ],
                 [
                     "99",
-                    "Everyone in a {@dice 3d6} foot radius has to make a DC 15 Con save or falls asleep for {@dice 1d4} rounds."
+                    "Everyone in a {@dice 3d6} foot radius has to make a DC 15 Constitution save or falls asleep for {@dice 1d4} rounds."
                 ],
                 [
                     "100",
