@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1546862880,
-        "dateLastModified": 1714133460
+        "dateLastModified": 1714380660
     },
     "item":
     [
@@ -36051,7 +36051,7 @@
                 ],
                 [
                     "41",
-                    "You gain a level of {@condition exhaustion}"
+                    "Each creature within {@dice 10d6} feet gains a level of {@condition exhaustion}"
                 ],
                 [
                     "42",
@@ -36287,7 +36287,7 @@
                 ],
                 [
                     "99",
-                    "Everyone in a {@dice 3d6} foot radius has to make a DC 15 Constitution save or falls asleep for {@dice 1d4} rounds."
+                    "Everyone in a {@dice 3d6} foot radius has to make a Constitution save or falls asleep for {@dice 1d4} rounds."
                 ],
                 [
                     "100",
