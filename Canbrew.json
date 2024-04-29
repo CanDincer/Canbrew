@@ -35715,8 +35715,8 @@
             "time":
             [
                 {
-                    "number": 1,
-                    "unit": "hour"
+                    "number": 10,
+                    "unit": "minute"
                 }
             ],
             "range":
@@ -35743,6 +35743,11 @@
             [
                 {
                     "type": "permanent",
+                    "duration":
+                    {
+                        "type": "day",
+                        "amount": "1"
+                    },
                     "ends":
                         [
                             "dispel",
@@ -36055,15 +36060,15 @@
                 ],
                 [
                     "42",
-                    ""
+                    "You cast {@spell wall of fire|PHB} centered on yourself in the sahpe of a 200 feet diameter ring."
                 ],
                 [
                     "43",
-                    ""
+                    "You cast {@spell antimagic field|PHB} centered on yourself."
                 ],
                 [
                     "44",
-                    ""
+                    "You take 1 psychic damage."
                 ],
                 [
                     "45",
