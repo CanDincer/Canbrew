@@ -36088,11 +36088,11 @@
                 ],
                 [
                     "48",
-                    ""
+                    "You are {@condition incapacitated} until the start of your next turn."
                 ],
                 [
                     "49",
-                    ""
+                    "Your fingers become sore until you take a short or long rest. During this time, you must succeed on a Dexterity saving throw against your spell save DC to cast a spell with a somatic component."
                 ],
                 [
                     "50",
@@ -36100,7 +36100,7 @@
                 ],
                 [
                     "51",
-                    ""
+                    "You are unable to read until you take a long rest as all the letters appear jumbled."
                 ],
                 [
                     "52",
