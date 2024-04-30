@@ -35883,7 +35883,7 @@
             ],
             "outro":
             [
-                "If a table item says you cast a spell which requires concentrating on it, you cannot stop concentrating on the spell until the duration ends."
+                "If a table item says you cast a spell which requires concentrating on it, you cannot stop concentrating on the spell willingly until the duration ends."
             ],
             "caption": "Malicious Magic Surge Effects",
             "colLabels":
@@ -36104,19 +36104,19 @@
                 ],
                 [
                     "52",
-                    ""
+                    "You fall victim to a horrible cramp in a leg, reducing your speed by 10 feet until you take a short rest."
                 ],
                 [
                     "53",
-                    ""
+                    "You lose the ability to smell for 1 day."
                 ],
                 [
                     "54",
-                    ""
+                    "Your spell components seem to have been rearranged. Until you take a short rest, you must make an Intelligence check against your spell save DC to cast any spell that requires a material component."
                 ],
                 [
                     "55",
-                    ""
+                    "You cast {@spell create or destroy water|PHB|create water} centered on yourself."
                 ],
                 [
                     "56",
