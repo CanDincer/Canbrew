@@ -35710,7 +35710,7 @@
         {
             "name": "Surging Resonance",
             "source": "Canbrew",
-            "level": 4,
+            "level": 3,
             "school": "T",
             "time":
             [
@@ -35734,7 +35734,7 @@
                 "r": true,
                 "m":
                 {
-                    "text": "a black pearl worth at least 500 gp, and a mithral bar worth at least 100 gp, which the spell consumes",
+                    "text": "a black pearl worth at least 500 gp, and lead worth at least 20 gp, which the spell consumes",
                     "cost": 100,
                     "consume": true
                 }
@@ -35746,7 +35746,7 @@
                     "duration":
                     {
                         "type": "day",
-                        "amount": "1"
+                        "amount": 1
                     },
                     "ends":
                         [
@@ -35757,8 +35757,8 @@
             ],
             "entries":
             [
-                "You magically infuse the mithral bar into an object no larger than 1 foot in any dimension that you can touch. The object doesn't visibly change, but it holds the potential to interlope magical energy and can be detected by spells like detect magic.",
-                "The object triggers when a spell of level 4 or lower is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the {@table malicious magic surge table|Canbrew} and the spell ends.",
+                "You magically infuse the lead into a solid object no larger than 1 foot in any dimension that you can touch. The object doesn't visibly change, but it holds the potential to interlope magical energy and can be detected by spells like detect magic.",
+                "The object triggers when a level 4 or lower spell is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the {@table malicious magic surge table|Canbrew} and the spell ends.",
                 "Only one surging resonance can be active on an object at a time. Only one object imbued with surging resonance can trigger at a time for a spell. If there are more than one such objects within the trigger range, the closest one is expended."
             ],
             "entriesHigherLevel":
@@ -35783,6 +35783,10 @@
                     {
                         "name": "Artificer",
                         "source": "ERLW"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
                     }
                 ]
             }
@@ -36072,15 +36076,15 @@
                 ],
                 [
                     "45",
-                    ""
+                    "A poisonous gas is released from your skin continuously for 1 minute. When a creature enters the area within 20 feet of you for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes {@damage 2d4} poison damage on a failed save, or half as much damage on a successful one. Creatures are not affected if they hold their breath or don't need to breathe."
                 ],
                 [
                     "46",
-                    ""
+                    "You become {@condition blinded} for a day."
                 ],
                 [
                     "47",
-                    ""
+                    "Make a Constitution saving throw against your spell save DC. If you fail, you are stunned until the end of your next turn."
                 ],
                 [
                     "48",
