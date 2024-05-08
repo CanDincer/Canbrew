@@ -34945,6 +34945,28 @@
             ]
         },
         {
+            "name": "Klyntar",
+            "source": "Canbrew",
+            "size":
+            [
+                "M"
+            ],
+            "speed": 30,
+            "ability":
+            [
+                {
+                    "con": 2
+                }
+            ],
+            "traitTags":
+            [
+                "Natural Weapon",
+                "Uncommon Race",
+                "Skill Proficiency",
+                "Monstrous Race"
+            ]
+        },
+        {
             "name": "Klyntar (Void)",
             "source": "Canbrew",
             "ability":
