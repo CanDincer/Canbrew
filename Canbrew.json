@@ -20010,8 +20010,8 @@
                         "type": "image",
                         "href":
                         {
-                            "type": "external",
-                            "url": "https://5e.tools/img/bestiary/MM/Nothic.jpg"
+                            "type": "internal",
+                            "path": "https://5e.tools/img/bestiary/tokens/MM/Nothic.webp"
                         }
                     }
                 ]
