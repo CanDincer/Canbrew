@@ -35074,7 +35074,7 @@
     "subrace":
     [
         {
-            "name": "Klyntar (Chaos)",
+            "name": "Chaos",
             "source": "Canbrew",
             "raceName": "Klyntar",
             "raceSource": "Canbrew",
@@ -35127,7 +35127,7 @@
             ]
         },
         {
-            "name": "Klyntar (Shiver)",
+            "name": "Shiver",
             "source": "Canbrew",
             "raceName": "Klyntar",
             "raceSource": "Canbrew",
@@ -35179,7 +35179,7 @@
             ]
         },
         {
-            "name": "Klyntar (Void)",
+            "name": "Void",
             "source": "Canbrew",
             "raceName": "Klyntar",
             "raceSource": "Canbrew",
