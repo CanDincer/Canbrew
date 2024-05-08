@@ -19997,10 +19997,10 @@
             [
                 "MW"
             ],
-            "tokenHref":
+            "token":
             {
-                "type": "external",
-                "url": "https://5e.tools/img/MM/Nothic.png"
+                "name": "Nothic",
+                "source": "MM"
             },
             "fluff":
             {
