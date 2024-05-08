@@ -34979,6 +34979,21 @@
                     "abyssal": true
                 }
             ],
+            "subraces":
+            [
+                {
+                    "name": "Klyntar (Chaos)",
+                    "source": "Canbrew"
+                },
+                {
+                    "name": "Klyntar (Shiver)",
+                    "source": "Canbrew"
+                },
+                {
+                    "name": "Klyntar (Void)",
+                    "source": "Canbrew"
+                }
+            ],
             "entries":
             [
                 {
@@ -35206,48 +35221,11 @@
             ],
             "fluff":
             {
-                "entries":
-                [
-                    {
-                        "type": "quote",
-                        "entries":
-                        [
-                            "Though we are a benevolent species, there is no literature on my home planet. And though it is our goal to make the universe better, we create no art, no music, no culture. At least, not as other civilizations would understand it. All we have are our hosts -- the beings we join with -- to forge through the cold and unforgiving cosmos with. The bond between a Klyntar and its host is sacred. They give our lives context and our existence meaning. They give us history. All we have are our hosts to tell us who we are."
-                        ],
-                        "by": "Darkness"
-                    },
-                    "Klyntar are a species of inorganic, amorphous, symbiotic extraterrestrials created from the \"living abyss\" at the beginning of the universe by the primordial deity Knull, who manifested a sword of living darkness called All-Black from his shadow to slaughter the Celestials and other deities.",
-                    {
-                        "name": "True Form",
-                        "type": "entries",
-                        "entries":
-                        [
-                            "You are a black goo and you can shapeshift yourself to mimic medium objects. When attached to a host, you can make yourself look like common clothes at will while you're out of combat. In combat, you refer to yourself in a plural manner."
-                        ]
-                    },
-                    {
-                        "name": "Klyntar Names",
-                        "type": "entries",
-                        "entries":
-                        [
-                            "Most Klyntars have unpronounceable names. So, they take nicknames instead.",
-                            {
-                                "type": "entries",
-                                "entries":
-                                [
-                                    {
-                                        "name": "Nicknames",
-                                        "type": "entries",
-                                        "entries":
-                                        [
-                                            "Spasm, Hook, Rash, Ghost, Limit, Coil, Fang, Mold, Deceit, Rot, Pulse, Havoc, Shade, Fume, Torment, Whip, Judgement, Sidestep, Spark, Phase, Feedback, Blight, Twitch, Quicksand, Regret, Sooth, Spite, Fang, Flex, Aftermath, Fallout, Inferno, Fume, Midnight."
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "_raceFluff":
+                {
+                    "name": "Klyntar",
+                    "source": "Canbrew"
+                }
             },
             "languageProficiencies":
             [
@@ -35402,48 +35380,11 @@
             ],
             "fluff":
             {
-                "entries":
-                [
-                    {
-                        "type": "quote",
-                        "entries":
-                        [
-                            "Though we are a benevolent species, there is no literature on my home planet. And though it is our goal to make the universe better, we create no art, no music, no culture. At least, not as other civilizations would understand it. All we have are our hosts -- the beings we join with -- to forge through the cold and unforgiving cosmos with. The bond between a Klyntar and its host is sacred. They give our lives context and our existence meaning. They give us history. All we have are our hosts to tell us who we are."
-                        ],
-                        "by": "Darkness"
-                    },
-                    "Klyntar are a species of inorganic, amorphous, symbiotic extraterrestrials created from the \"living abyss\" at the beginning of the universe by the primordial deity Knull, who manifested a sword of living darkness called All-Black from his shadow to slaughter the Celestials and other deities.",
-                    {
-                        "name": "True Form",
-                        "type": "entries",
-                        "entries":
-                        [
-                            "You are a black goo and you can shapeshift yourself to mimic medium objects. When attached to a host, you can make yourself look like common clothes at will while you're out of combat. In combat, you refer to yourself in a plural manner."
-                        ]
-                    },
-                    {
-                        "name": "Klyntar Names",
-                        "type": "entries",
-                        "entries":
-                        [
-                            "Most Klyntars have unpronounceable names. So, they take nicknames instead.",
-                            {
-                                "type": "entries",
-                                "entries":
-                                [
-                                    {
-                                        "name": "Nicknames",
-                                        "type": "entries",
-                                        "entries":
-                                        [
-                                            "Spasm, Hook, Rash, Ghost, Limit, Coil, Fang, Mold, Deceit, Rot, Pulse, Havoc, Shade, Fume, Torment, Whip, Judgement, Sidestep, Spark, Phase, Feedback, Blight, Twitch, Quicksand, Regret, Sooth, Spite, Fang, Flex, Aftermath, Fallout, Inferno, Fume, Midnight."
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "_raceFluff":
+                {
+                    "name": "Klyntar",
+                    "source": "Canbrew"
+                }
             },
             "languageProficiencies":
             [
@@ -35597,6 +35538,29 @@
             ],
             "fluff":
             {
+                "_raceFluff":
+                {
+                    "name": "Klyntar",
+                    "source": "Canbrew"
+                }
+            },
+            "languageProficiencies":
+            [
+                {
+                    "common": true,
+                    "abyssal": true
+                }
+            ]
+        }
+    ],
+    
+    "raceFluff":
+    [
+        {
+            "name": "Klyntar",
+            "source": "Canbrew",
+            "fluff":
+            {
                 "entries":
                 [
                     {
@@ -35640,16 +35604,10 @@
                         ]
                     }
                 ]
-            },
-            "languageProficiencies":
-            [
-                {
-                    "common": true,
-                    "abyssal": true
-                }
-            ]
+            }
         }
     ],
+
     "spell":
     [
         {
