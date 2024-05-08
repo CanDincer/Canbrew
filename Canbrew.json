@@ -34718,6 +34718,11 @@
         {
             "name": "Vampire (Penuria)",
             "source": "Canbrew",
+            "creatureTypes":
+            [
+                "humanoid",
+                "undead"
+            ],
             "size":
             [
                 "M"
@@ -34942,7 +34947,8 @@
                     ],
                     "type": "entries"
                 }
-            ]
+            ],
+            "raceName": "Vampire"
         },
         {
             "name": "Klyntar",
@@ -34958,13 +34964,103 @@
                     "con": 2
                 }
             ],
+            "darkvision": 60,
             "traitTags":
             [
                 "Natural Weapon",
                 "Uncommon Race",
                 "Skill Proficiency",
                 "Monstrous Race"
-            ]
+            ],
+            "languageProficiencies":
+            [
+                {
+                    "common": true,
+                    "abyssal": true
+                }
+            ],
+            "entries":
+            [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries":
+                    [
+                        "Klyntar do not age. They leap from a host to another and can live for tens of thousands of years"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries":
+                    [
+                        "Each Klyntar has a different purpose like; world domination, species invasion, freeing Klyntar from Knull's dominion, or saving a race from total extinction. They range from lawful evil to chaotic good."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries":
+                    [
+                        "a Klyntar's size is dependent on their host. Your size is medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries":
+                    [
+                        "Accustomed to the lack of light in empty space, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Unique Physiology",
+                    "entries":
+                    [
+                        "You are unable to gain temporary hit points no matter what and healing effects on you are halved. You have double the maximum hit dice you normally have to roll to gain Hit Points. If you haven't used your movement for the turn, as an action, you can expend a hit die to recover hit points. After doing so, your speed is zero."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Unchained Evolution",
+                    "entries":
+                    [
+                        "Your ability score maximums are increased by 2."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Hybrid Nature",
+                    "entries":
+                    [
+                        "You have two creature types: humanoid and aberration. You can be affected by a game effect if it works on either of your creature types."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries":
+                    [
+                        "You can speak, read, and write Common and Abyssal."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Parasitic Awareness",
+                    "entries":
+                    [
+                        "Creatures don't gain advantage while flanking you. You have two reactions instead of one."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Vibration Sensitivity",
+                    "entries":
+                    [
+                        "You have vulnerability to thunder and force damage."
+                    ]
+                }
         },
         {
             "name": "Klyntar (Void)",
