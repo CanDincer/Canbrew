@@ -34881,10 +34881,18 @@
                 },
                 {
                     "type": "entries",
-                    "name": "Sustained Metabolism",
+                    "name": "Suspended Metabolism",
                     "entries":
                     [
-                        "You can hold your breath for 1 hour plus 15 minutes for each Constitution modifier score you have."
+                        "Your physiology is different than other creatures, represented by the following benefits:",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "You don't need to eat food, drink water, or breathe.",
+                                "You don't need to sleep. The other requirements of long rest still apply to you."
+                            ]
+                        }
                     ]
                 },
                 {
