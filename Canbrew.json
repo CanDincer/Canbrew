@@ -34810,18 +34810,18 @@
                                 },
                                 {
                                     "type": "entries",
-                                    "name": "Rejuvenation (4 blood points)",
-                                    "entries":
-                                    [
-                                        "You can take a minute to acquire one benefit from either Lesser Restoration or Greater Restoration spells. If you are not starving, you can regrow 1 limb during a long rest."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
                                     "name": "Regeneration (1 blood points)",
                                     "entries":
                                     [
                                         "As an action, you can roll a hit die and gain the result as hit points."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rejuvenation (4 blood points)",
+                                    "entries":
+                                    [
+                                        "You can take a minute to acquire one benefit from either Lesser Restoration or Greater Restoration spells. If you are not starving, you can regrow 1 limb during a long rest."
                                     ]
                                 }
                             ]
