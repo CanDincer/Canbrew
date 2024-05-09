@@ -34778,7 +34778,7 @@
                     "type": "entries",
                     "entries":
                     [
-                        "Vampires might not have an innate tendency toward evil, but many of them end up there. Evil or not, their strict hierarchies incline them toward a lawful alignment."
+                        "Vampires have no innate tendency toward evil, but consuming the life energy of other creatures often pushes them to that end. Evil or not, their strict hierarchies incline them toward a lawful alignment."
                     ]
                 },
                 {
@@ -34802,7 +34802,7 @@
                             [
                                 {
                                     "type": "entries",
-                                    "name": "Invigorate (2 blood points)",
+                                    "name": "Invigoration (2 blood points)",
                                     "entries":
                                     [
                                         "As an action, you can remove a level of {@condition exhaustion}."
@@ -34821,7 +34821,7 @@
                                     "name": "Rejuvenation (4 blood points)",
                                     "entries":
                                     [
-                                        "You can take a minute to acquire one benefit from either Lesser Restoration or Greater Restoration spells. If you are not starving, you can regrow 1 limb during a long rest."
+                                        "You can take a minute to acquire one benefit from either {@spell lesser restoration|PHB} or {@spell greater restoration|PHB} spells. If you are not starving, you can regrow 1 limb during a long rest."
                                     ]
                                 }
                             ]
