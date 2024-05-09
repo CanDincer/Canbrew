@@ -34791,6 +34791,29 @@
                 },
                 {
                     "type": "entries",
+                    "name": "Blood Pool",
+                    "entries":
+                    [
+                        "You have a blood pool of 10 of which you lose 1 every day. Each time you drink a creature's blood, you regain blood points equal to half of the necrotic damage dealt.",
+                        "You can use your points to create the following effects:",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                {
+                                    "type": "entries",
+                                    "name": "",
+                                    "entries":
+                                    [
+                                        ""
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
                     "name": "Bloodthirst",
                     "entries":
                     [
@@ -34901,12 +34924,12 @@
                                     "name": "Sunlight Hypersensitivity",
                                     "entries":
                                     [
-                                        "You take 20 radiant damage when you start your turn in sunlight. While in sunlight, you have disadvantage on attack rolls and ability checks."
+                                        "When you start your turn in sunlight, roll a hit die. You take the result as radiant damage. While in sunlight, you have disadvantage on attack rolls and ability checks."
                                     ],
                                     "type": "entries"
                                 },
                                 {
-                                    "name": "Cleansing Light",
+                                    "name": "Scorching Light",
                                     "entries":
                                     [
                                         "You have vulnerability to radiant damage."
@@ -34917,7 +34940,7 @@
                                     "name": "Starving",
                                     "entries":
                                     [
-                                        "You have a blood pool of 10 of which you lose 1 every day. If it drops to 5, you have 1 extra level of {@condition exhaustion}. If it drops to 3, you have 2 extra levels of {@condition exhaustion}. If it drops to 1, you have 3 extra levels of {@condition exhaustion}. At 5 points or below, you are considered starving. Each time you deal necrotic damage to a creature by drinking its blood, you regain one point of your blood pool."
+                                        "If your blood pool drops to 3, you have 1 extra level of {@condition exhaustion}. If it drops to 1, you have 2 extra levels of {@condition exhaustion}. At 3 points or below, you are considered starving."
                                     ],
                                     "type": "entries"
                                 }
