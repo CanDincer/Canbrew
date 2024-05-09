@@ -7925,10 +7925,10 @@
                 "RW",
                 "THW"
             ],
-            "tokenHref":
+            "token":
             {
-                "type": "external",
-                "url": "https://5e.tools/img/PSI/Werewolf (Krallenhorde).png"
+                "name": "Werewolf (Krallenhorde)",
+                "source": "PSI"
             },
             "fluff":
             {
@@ -7938,8 +7938,8 @@
                         "type": "image",
                         "href":
                         {
-                            "type": "external",
-                            "url": "https://5e.tools/img/PSI/Werewolf (Krallenhorde).png"
+                            "type": "internal",
+                            "path": "https://5e.tools/img/PSI/Werewolf (Krallenhorde).webp"
                         }
                     }
                 ]
@@ -19712,11 +19712,6 @@
                 "AOE",
                 "MW"
             ],
-            "tokenHref":
-            {
-                "type": "external",
-                "url": "https://5e.tools/img/MM/Smoke%20Mephit.png"
-            },
             "token":
             {
                 "name": "Smoke Mephit",
