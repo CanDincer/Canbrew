@@ -34794,18 +34794,34 @@
                     "name": "Blood Pool",
                     "entries":
                     [
-                        "You have a blood pool of 10 of which you lose 1 every day. Each time you drink a creature's blood, you regain blood points equal to half of the necrotic damage dealt.",
-                        "You can use your points to create the following effects:",
+                        "You have a blood pool of 10 of which you lose 1 every day. Each time you use your bloodthirst to drink a creature's blood, you regain blood points equal to half of the necrotic damage dealt.",
+                        "You can use your blood points to create the following effects:",
                         {
                             "type": "list",
                             "items":
                             [
                                 {
                                     "type": "entries",
-                                    "name": "",
+                                    "name": "Invigorate (2 blood points)",
                                     "entries":
                                     [
-                                        ""
+                                        "As an action, you can remove a level of {@condition exhaustion}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rejuvenation (4 blood points)",
+                                    "entries":
+                                    [
+                                        "You can take a minute to acquire one benefit from either Lesser Restoration or Greater Restoration spells. If you are not starving, you can regrow 1 limb during a long rest."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Regeneration (1 blood points)",
+                                    "entries":
+                                    [
+                                        "As an action, you can roll a hit die and gain the result as hit points."
                                     ]
                                 }
                             ]
@@ -34827,7 +34843,7 @@
                     "entries":
                     [
                         "You can feed your blood to a willing creature, or one that is {@condition grappled} by you, {@condition incapacitated}, or {@condition restrained}. Make a Strength (Athletics) check contested by the target’s Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitated}. If you succeed, the target is tainted with your blood and turns into a {@creature vampire spawn} after a long rest. Whether you succeed or fail, you lose {@dice 5d20} hit points. If you drop to 0 hit points during this process, it fails.",
-                        "A {@creature vampire spawn} created in this way is automatically {@condition charmed} by you. Each time you or one of your companions do anything harmful to the target, it can make a Wisdom saving throw, ending the effect on itself on a success. DC for this saving throw is equal to 8 + your proficiency bonus added twice. Otherwise, the effect lasts until it grows into a full vampire or until you are destroyed. The DC is reduced by 2 for each vampire spawn you already have under your charm.",
+                        "A {@creature vampire spawn} created in this way is automatically {@condition charmed} by you. Each time you or one of your companions do anything harmful to the target, it can make a Wisdom saving throw, ending the effect on itself on a success. DC for this saving throw is equal to 8 + double your proficiency bonus. Otherwise, the effect lasts until it grows into a full vampire or until you are destroyed. The DC is reduced by 2 for each vampire spawn you already have under your charm.",
                         {
                             "type": "quote",
                             "entries": [
@@ -34843,7 +34859,7 @@
                     "name": "Feast of Blood",
                     "entries":
                     [
-                        "When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute. If you, consecutively, drink enough blood to fill half your maximum hit points, you lose a level of {@condition exhaustion}."
+                        "When you drain blood with your Bloodthirst ability, you experience a surge of vitality. Your speed increases by 10 feet, and you gain advantage on Strength and Dexterity checks and saving throws for 1 minute."
                     ]
                 },
                 {
@@ -34865,18 +34881,10 @@
                 },
                 {
                     "type": "entries",
-                    "name": "Rejuvenation",
-                    "entries":
-                    [
-                        "You can take a minute and gain an {@condition exhaustion} level to acquire one benefit from either Lesser Restoration or Greater Restoration spells. You cannot reduce your {@condition exhaustion} by using this trait. If you are not starving, you can regrow 1 limb during a long rest."
-                    ]
-                },
-                {
-                    "type": "entries",
                     "name": "Sustained Metabolism",
                     "entries":
                     [
-                        "You can hold your breath for 1 hour plus 15 minutes for each constitution modifier points you have. You can expend a point from your blood pool to decrease your hunger for food for a day."
+                        "You can hold your breath for 1 hour plus 15 minutes for each Constitution modifier score you have."
                     ]
                 },
                 {
@@ -34908,7 +34916,7 @@
                                     "name": "Harmed by Running Water",
                                     "entries":
                                     [
-                                        "You take 20 acid damage if you end your turn in running water."
+                                        "If you end your turn in running water, roll a hit die. You take the result as acid damage."
                                     ],
                                     "type": "entries"
                                 },
