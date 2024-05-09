@@ -35747,11 +35747,11 @@
                 ],
                 [
                     "17",
-                    "An illusory copy of you appears at a random location within 60 feet of you. At the start of your next turn, it runs to you and explodes, dealing {@damage 3d10} force damage in a 20 foot radius."
+                    "An illusory copy of you appears at a random location within 60 feet of you. At the start of your next turn, it runs to you and explodes, dealing {@damage 1d10} force damage per level of the spell in a 20 foot radius."
                 ],
                 [
                     "18",
-                    "You become {@condition poisoned} for {@dice 1d4} hours. If you use an action to vomit and take {@damage 3d10} poison damage, then the {@condition poisoned} condition ends."
+                    "You become {@condition poisoned} for {@dice 1d4} hours. If you use an action to vomit and take {@damage 1d10} poison damage per level of the spell, then the {@condition poisoned} condition ends."
                 ],
                 [
                     "19",
@@ -35759,7 +35759,7 @@
                 ],
                 [
                     "20",
-                    "You cast {@spell stoneskin|PHB} on yourself. While the spell is active, your walking speed becomes 5 feet."
+                    "You cast {@spell stoneskin|PHB} on yourself. While the spell is active, your walking speed becomes 5 feet and you can't swim or fly."
                 ],
                 [
                     "21",
@@ -35783,7 +35783,7 @@
                 ],
                 [
                     "26",
-                    "You feel the incredible urge to relieve yourself. Until you do, your Strength and Intelligence are reduced by 1. If you don't relieve yourself in the next 2 minutes, the above effects are removed, but you have -4 to all Charisma checks for 1 hour or until you change your trousers."
+                    ""
                 ],
                 [
                     "27",
@@ -35807,11 +35807,11 @@
                 ],
                 [
                     "32",
-                    "The next creature you physically touch until the end of your turn takes {@damage 1d6} lightning damage. If you haven't touched a creature by the end of your turn, instead, you take the damage."
+                    "The next creature you physically touch until the end of your turn takes {@damage 1d6} lightning damage per level of the spell. If you haven't touched a creature by the end of your turn, instead, you take the damage."
                 ],
                 [
                     "33",
-                    "The spell is unexpectedly loud and everyone within 10 feet of you (including you) takes {@damage 1d6} thunder damage and the spell can be heard 600 feet away."
+                    "The spell is unexpectedly loud and everyone within 10 feet of you (including you) takes {@damage 1d6} thunder damage per level of the spell and the spell can be heard 600 feet away."
                 ],
                 [
                     "34",
@@ -35843,11 +35843,11 @@
                 ],
                 [
                     "41",
-                    "Each creature within {@dice 10d6} feet gains a level of {@condition exhaustion}"
+                    "Each creature within {@dice 1d12} feet per level of the spell gains a level of {@condition exhaustion}"
                 ],
                 [
                     "42",
-                    "You cast {@spell wall of fire|PHB} centered on yourself in the sahpe of a 200 feet diameter ring."
+                    "You cast {@spell wall of fire|PHB} centered on yourself in the shape of a 20 feet diameter ring."
                 ],
                 [
                     "43",
@@ -35855,11 +35855,11 @@
                 ],
                 [
                     "44",
-                    "You take 1 psychic damage."
+                    "You take 1 psychic damage per level of the spell."
                 ],
                 [
                     "45",
-                    "A poisonous gas is released from your skin continuously for 1 minute. When a creature enters the area within 20 feet of you for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes {@damage 2d4} poison damage on a failed save, or half as much damage on a successful one. Creatures are not affected if they hold their breath or don't need to breathe."
+                    "A poisonous gas is released from your skin continuously for 1 minute. When a creature enters the area within 20 feet of you for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes {@damage 1d4} poison damage per level of the spell on a failed save, or half as much damage on a successful one. Creatures are not affected if they hold their breath or don't need to breathe."
                 ],
                 [
                     "46",
@@ -36075,15 +36075,15 @@
                 ],
                 [
                     "98",
-                    "The caster loses containment of their magical power, which all goes pouring out to the nearest creature. The caster expends all of their remaining spell slots and sorcery points, adding all the spell levels together (with each sorcery point counting as 1 level). The target takes {@damage 1d6} force damage for each spell level expended this way. If this damage kills the target, the leftover damage continues to the next closest creature, and so on until all damage has been applied."
+                    "The caster loses containment of their magical power, which all goes pouring out to the nearest creature. The caster expends all of their remaining spell slots and sorcery points, adding all the spell levels together (with each sorcery point counting as 1 level). The target takes {@damage 1d4} force damage for each spell level expended this way. If this damage kills the target, the leftover damage continues to the next closest creature, and so on until all damage has been applied."
                 ],
                 [
                     "99",
-                    "Everyone in a {@dice 3d6} foot radius has to make a Constitution save or falls asleep for {@dice 1d4} rounds."
+                    "Everyone within {@dice 1d6} feet per level of the spell of you has to make a Constitution save or falls asleep for {@dice 1d4} rounds."
                 ],
                 [
                     "100",
-                    "Each creature within 30 feet of you takes {@damage 2d10} necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."
+                    "Each creature within 30 feet of you takes {@damage 1d10} necrotic damage per level of the spell. You regain hit points equal to the sum of the necrotic damage dealt."
                 ]
             ]
         }
