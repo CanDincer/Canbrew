@@ -34428,11 +34428,13 @@
                     ]
                 }
             ],
-            "hp": {
+            "hp":
+            {
                 "average": 57,
                 "formula": "6d10 + 24"
             },
-            "speed": {
+            "speed":
+            {
                 "walk": 25,
                 "fly": 25
             },
@@ -34442,13 +34444,16 @@
             "int": 3,
             "wis": 10,
             "cha": 6,
-            "senses": [
+            "senses":
+            [
                 "darkvision 60 ft."
             ],
             "passive": 10,
-            "resist": [
+            "resist":
+            [
                 {
-                    "resist": [
+                    "resist":
+                    [
                         "bludgeoning",
                         "piercing",
                         "slashing"
@@ -34457,10 +34462,12 @@
                     "cond": true
                 }
             ],
-            "immune": [
-                "lightning"
+            "immune":
+            [
+                "fire"
             ],
-            "conditionImmune": [
+            "conditionImmune":
+            [
                 "blinded",
                 "charmed",
                 "deafened",
@@ -34471,57 +34478,70 @@
                 "prone"
             ],
             "cr": "5",
-            "trait": [
+            "trait":
+            [
                 {
                     "name": "Amorphous",
-                    "entries": [
+                    "entries":
+                    [
                         "The living spell can move through a space as narrow as 1 inch wide without squeezing."
                     ]
                 },
                 {
                     "name": "Magic Resistance",
-                    "entries": [
+                    "entries":
+                    [
                         "The living spell has advantage on saving throws against spells and other magical effects."
                     ]
                 }
             ],
-            "action": [
+            "action":
+            [
                 {
                     "name": "Multiattack",
-                    "entries": [
+                    "entries":
+                    [
                         "The living spell makes two Magical Strike attacks."
                     ]
                 },
                 {
                     "name": "Magical Strike",
-                    "entries": [
-                        "{@atk ms} {@hit 7} to hit, reach 10 ft., one target. {@h}21 ({@damage 5d6 + 4}) lightning damage."
+                    "entries":
+                    [
+                        "{@atk ms} {@hit 7} to hit, reach 10 ft., one target. {@h}21 ({@damage 5d6 + 4}) fire damage."
                     ]
                 },
                 {
                     "name": "Spell Mimicry {@recharge 5}",
-                    "entries": [
-                        "The living spell unleashes a stroke of lightning in a line 100 feet long and 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) lightning damage on a failed save, or half as much damage on a successful one."
+                    "entries":
+                    [
+                        "The living spell unleashes a stroke of fire in a 20-foot radius sphere. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one."
                     ]
                 }
             ],
-            "traitTags": [
+            "traitTags":
+            [
                 "Amorphous",
                 "Magic Resistance"
             ],
-            "senseTags": [
+            "senseTags":
+            [
                 "D"
             ],
-            "actionTags": [
+            "actionTags":
+            [
                 "Multiattack"
             ],
-            "damageTags": [
+            "damageTags":
+            [
                 "F"
             ],
-            "miscTags": [
+            "miscTags":
+            [
                 "RCH"
             ],
-            "savingThrowForced": [
+            "savingThrowForced":
+            [
                 "dexterity"
             ]
         }
@@ -35893,7 +35913,7 @@
                 ],
                 [
                     "26",
-                    ""
+                    "A {@creature living demiplane|IDRotF} appears in an empty random space within 30 feet of you and is hostile to you."
                 ],
                 [
                     "27",
