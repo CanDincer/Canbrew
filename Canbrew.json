@@ -35667,7 +35667,7 @@
             "outro":
             [
                 "If a table item says you cast a spell which requires concentrating on it, you cannot stop concentrating on the spell willingly until the duration ends.",
-                "If you are using {@variantrule spell points|DMG} instead of spell slots, for any spell that refers to your remeaning spell slots, look up the {@table Variant: Spell Points; Spell Points by Level|DMG} table to determine the class level that would have as much spell points and than refer to a {@table Spellcasting; Multiclass Spellcaster: Spell Slots per Spell Level|PHB|spell slots per level} table."
+                "If you are using {@variantrule spell points|DMG} instead of spell slots, for any spell that refers to your remeaning spell slots, look up the {@table Variant: Spell Points; Spell Points by Level|DMG|spell points by level} table to determine the class level that would have as much spell points and than refer to a {@table Spellcasting; Multiclass Spellcaster: Spell Slots per Spell Level|PHB|spell slots per level} table."
             ],
             "caption": "Malicious Magic Surge Effects",
             "colLabels":
