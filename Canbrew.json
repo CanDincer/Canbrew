@@ -35666,7 +35666,8 @@
             ],
             "outro":
             [
-                "If a table item says you cast a spell which requires concentrating on it, you cannot stop concentrating on the spell willingly until the duration ends."
+                "If a table item says you cast a spell which requires concentrating on it, you cannot stop concentrating on the spell willingly until the duration ends.",
+                "If you are using {@quickref spell points|DMG} instead of spell slots, for any spell that refers to your remeaning spell slots, look up the {@quickref Variant: Spell Points; Spell Points by Level|DMG} table to determine the class level that would have as much spell points and than refer to a full caster's spell slots per spell level table {@variantrule Variant: Spell Points; Spell Points by Level|DMG}, {@variantrule spell points|DMG}, {@table Spellcasting; Multiclass Spellcaster: Spell Slots per Spell Level|PHB}, {@table Spell Slots per Spell Level|PHB}."
             ],
             "caption": "Malicious Magic Surge Effects",
             "colLabels":
@@ -36075,7 +36076,7 @@
                 ],
                 [
                     "98",
-                    "The caster loses containment of their magical power, which all goes pouring out to the nearest creature. The caster expends all of their remaining spell slots and sorcery points, adding all the spell levels together (with each sorcery point counting as 1 level). The target takes {@damage 1d4} force damage for each spell level expended this way. If this damage kills the target, the leftover damage continues to the next closest creature, and so on until all damage has been applied."
+                    "The caster loses containment of their magical power, which all goes pouring out to the nearest creature. The caster expends all of their remaining spell slots and sorcery points, adding all the spell levels together (with each sorcery point counting as 1 level). The target takes {@damage 1d4} force damage for each spell slot expended this way. If this damage kills the target, the leftover damage continues to the next closest creature, and so on until all damage has been applied."
                 ],
                 [
                     "99",
