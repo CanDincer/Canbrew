@@ -29581,12 +29581,7 @@
             "miscTags":
             [
                 "MW"
-            ],
-            "tokenHref":
-            {
-                "type": "external",
-                "url": "WIP"
-            }
+            ]
         },
         {
             "name": "Bruxa",
@@ -32504,12 +32499,7 @@
             "miscTags":
             [
                 "RNG"
-            ],
-            "tokenHref":
-            {
-                "type": "external",
-                "url": "WIP"
-            }
+            ]
         },
         {
             "name": "Secluded",
