@@ -3288,7 +3288,7 @@
 					"name": "Spellcasting DC",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The living Prismatic Spray has a spell save DC is 19 and has a {@hit 11} to hit on spell attacks."
+						"The living spell has a spell save DC is 19 and has a {@hit 11} to hit on spell attacks."
 					]
 				}
 			],
@@ -3326,8 +3326,8 @@
 					"name": "Self Destruct",
 					"entries":
 					[
-						"When the living Prismatic Spray is reduced to 0 hit points, creatures within a 20 ft. radius around it must make a saving throw against the effects of the Prismatic Spray spell.",
-						"Prismatic Cascade Upon dealing a critical hit against that creature, the living Prismatic Spray can target that creature with an additional Prismatic Ray as part of that attack. The living Prismatic Spray can only benefit from this feature against the same creature once on its turns."
+						"When the living spell is reduced to 0 hit points, creatures within a 20 ft. radius around it must make a saving throw against the effects of the Prismatic Spray spell.",
+						"Prismatic Cascade Upon dealing a critical hit against that creature, the living spell can target that creature with an additional Prismatic Ray as part of that attack. The living spell can only benefit from this feature against the same creature once on its turns."
 					]
 				}
 			],
@@ -3337,7 +3337,7 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Prismatic Spray can make three attacks with any combination of the following Prismatic Rays. However, it cannot use the same ray more than once on its turn."
+						"The living spell can make three attacks with any combination of the following Prismatic Rays. However, it cannot use the same ray more than once on its turn."
 					]
 				},
 				{
@@ -3394,7 +3394,7 @@
 					"name": "Prismatic Spray {@recharge 5}",
 					"entries":
 					[
-						"The living Prismatic Spray can cast a 7th level Prismatic Spray."
+						"The living spell can cast a 7th level Prismatic Spray."
 					]
 				}
 			],
@@ -3503,7 +3503,7 @@
 					"name": "Spellcasting DC",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The living Prismatic Spray has a spell save DC is 19 and has a {@hit 11} to hit on spell attacks."
+						"The living spell has a spell save DC is 19 and has a {@hit 11} to hit on spell attacks."
 					]
 				}
 			],
@@ -3541,14 +3541,14 @@
 					"name": "Self Destruct",
 					"entries":
 					[
-						"When the living Prismatic Spray is reduced to 0 hit points, creatures within a 20 ft. radius around it must make a saving throw against the effects of the Prismatic Spray spell."
+						"When the living spell is reduced to 0 hit points, creatures within a 20 ft. radius around it must make a saving throw against the effects of the Prismatic Spray spell."
 					]
 				},
 				{
 					"name": "Prismatic Cascade",
 					"entries":
 					[
-						"Upon dealing a critical hit against that creature, the living Prismatic Spray can target that creature with an additional Prismatic Ray as part of that attack. The living Prismatic Spray can only benefit from this feature against the same creature once on its turns."
+						"Upon dealing a critical hit against that creature, the living spell can target that creature with an additional Prismatic Ray as part of that attack. The living spell can only benefit from this feature against the same creature once on its turns."
 					]
 				}
 			],
@@ -3558,89 +3558,93 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Prismatic Spray can make three attacks with its Prismatic Rays. However, it cannot use the same ray more than once on its turn."
+						"The living spell can make three attacks with its Prismatic Rays. However, it cannot use the same ray more than once on its turn."
 					]
 				},
 				{
 					"name": "Prismatic Rays",
-					"style": "list-hang-notitle",
-					"type": "list",
-					"items":
+					"entries":
 					[
-						"The living Prismatic Spray shoots three of the following magical prismatic rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it",
+						"The living spell shoots three of the following magical prismatic rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it",
 						{
-							"name": "Red Ray",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) fire damage."
-							]
-						},
-						{
-							"name": "Orange Ray",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) acid damage."
-							]
-						},
-						{
-							"name": "Yellow Ray",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) lightning damage."
-							]
-						},
-						{
-							"name": "Green Ray",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) poison damage."
-							]
-						},
-						{
-							"name": "Blue Ray",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) cold damage."
-							]
-						},
-						{
-							"name": "Purple Ray",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}The target is {@condition restrained} until the end of its next turn."
-							]
-						},
-						{
-							"name": "Violet Ray",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 11} to hit, 60 ft., one target. *Hit:*The target is {@condition blinded} until the end of its next turn."
-							]
-						},
-						{
-							"name": "Prismatic Spray {@recharge 5}",
-							"entries":
-					[
-								"The living Prismatic Spray can cast a 7th level prismatic Spray."
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items":
+							[
+								{
+									"name": "Red Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) fire damage."
+									]
+								},
+								{
+									"name": "Orange Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) acid damage."
+									]
+								},
+								{
+									"name": "Yellow Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) lightning damage."
+									]
+								},
+								{
+									"name": "Green Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) poison damage."
+									]
+								},
+								{
+									"name": "Blue Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) cold damage."
+									]
+								},
+								{
+									"name": "Purple Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}The target is {@condition restrained} until the end of its next turn."
+									]
+								},
+								{
+									"name": "Violet Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 11} to hit, 60 ft., one target. *Hit:*The target is {@condition blinded} until the end of its next turn."
+									]
+								}
 							]
 						}
 					]
+				},
+				{
+					"name": "Prismatic Spray {@recharge 5}",
+					"entries":
+					[
+						"The living spell can cast a 7th level prismatic spray."
+					]
 				}
-				
 			],
 			"traitTags":
 			[
@@ -4164,35 +4168,40 @@
 				},
 				{
 					"name": "Reality Breaches",
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items":
+					"entries":
 					[
 						{
-							"name": "Dimensional Rend",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}33 ({@damage 5d12 + 7}) force damage. On hit, the target, and everything it is wearing or carry must succeed a {@dc 21} Charisma saving throw or be teleported 30 ft. to a spot to a spot of the living spell's choice."
-							]
-						},
-						{
-							"name": "Far Realm Breach",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}27 ({@damage 3d12 + 7}) psychic damage. On hit, the target must succeed a {@dc 21} Wisdom saving throw or be {@condition stunned} until the end of its next turn."
-							]
-						},
-						{
-							"name": "Void Ray",
-							"type": "item",
-							"style": "italic",
-							"entries":
-					[
-								"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}27 ({@damage 5d12 + 7}) cold damage. On hit, the target must succeed a {@dc 21} Constitution saving throw or be {@condition blinded} until the end of its next turn."
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items":
+							[
+								{
+									"name": "Dimensional Rend",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}33 ({@damage 5d12 + 7}) force damage. On hit, the target, and everything it is wearing or carry must succeed a {@dc 21} Charisma saving throw or be teleported 30 ft. to a spot to a spot of the living spell's choice."
+									]
+								},
+								{
+									"name": "Far Realm Breach",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}27 ({@damage 3d12 + 7}) psychic damage. On hit, the target must succeed a {@dc 21} Wisdom saving throw or be {@condition stunned} until the end of its next turn."
+									]
+								},
+								{
+									"name": "Void Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}27 ({@damage 5d12 + 7}) cold damage. On hit, the target must succeed a {@dc 21} Constitution saving throw or be {@condition blinded} until the end of its next turn."
+									]
+								}
 							]
 						}
 					]
