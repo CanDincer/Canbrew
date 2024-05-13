@@ -664,7 +664,7 @@
 			"savingThrowForced":
 			[
 				"dexterity"
-			],
+			]
 		},
 		{
 			"name": "Living Burning Hands",
@@ -1278,11 +1278,11 @@
 			"actionTags":
 			[
 				"Multiattack"
-			]
+			],
 			"damageTags":
 			[
 				"R"
-			],
+			]
 		},
 		{
 			"name": "Living Darkness",
@@ -1354,10 +1354,11 @@
 				"grappled",
 				"paralyzed",
 				"petrified",
-				"prone",8
+				"prone",
 				"stunned",
 				"unconscious"
 			],
+			"cr": "3",
 			"trait":
 			[
 				{
@@ -1459,7 +1460,7 @@
 			[
 				"N",
 				"Y"
-			],
+			]
 		},
 		{
 			"name": "Living Fireball",
@@ -3563,6 +3564,7 @@
 				{
 					"name": "Prismatic Rays",
 					"style": "list-hang-notitle",
+					"type": "list",
 					"items":
 					[
 						"The living Prismatic Spray shoots three of the following magical prismatic rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it",
@@ -3637,7 +3639,7 @@
 							]
 						}
 					]
-				},
+				}
 				
 			],
 			"traitTags":
@@ -4157,7 +4159,7 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell can make three attacks with any combination of its Reality Breaches.",
+						"The living spell can make three attacks with any combination of its Reality Breaches."
 					]
 				},
 				{
