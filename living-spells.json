@@ -3060,7 +3060,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"G"
+				"M"
 			],
 			"type": "construct",
 			"alignment":
@@ -3070,7 +3070,7 @@
 			"ac":
 			[
 				{
-					"ac": 18,
+					"ac": 16,
 					"from":
 					[
 						"natural armor"
@@ -3080,7 +3080,7 @@
 			"hp":
 			{
 				"average": 231,
-				"formula": "14d20 + 84"
+				"formula": "14d8 + 70"
 			},
 			"speed":
 			{
@@ -3091,7 +3091,7 @@
 			"con": 20,
 			"int": 3,
 			"wis": 11,
-			"cha": 22,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -3102,7 +3102,6 @@
 				{
 					"resist":
 					[
-						"acid",
 						"bludgeoning",
 						"piercing",
 						"slashing"
@@ -3110,32 +3109,31 @@
 					"note": "damage from non-magical sources",
 					"cond": true
 				},
-				"fire",
+				"acid",
 				"cold",
+				"fire",
 				"lightning"
 			],
 			"immune":
 			[
-				{
-					"immune":
-					[
-						"poison",
-						"psychic"
-					],
-					"preNote": "unconscious"
-				}
+				"poison",
+				"psychic"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
 			],
 			"cr": "15",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries": [
-						"The living spell has a spell save DC is 19 and has a {@hit 11} to hit on spell attacks."
-					]
-				}
-			],
 			"trait":
 			[
 				{
@@ -3166,20 +3164,6 @@
 						"The living spell has advantage on saving throws against spells and magical effects."
 					]
 				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living spell is reduced to 0 hit points, creatures within a 20 ft. radius around it must make a saving throw against the effects of the Prismatic Spray spell."
-					]
-				},
-				{
-					"name": "Prismatic Cascade",
-					"entries":
-					[
-						"Upon dealing a critical hit against that creature, the living spell can target that creature with an additional Prismatic Ray as part of that attack. The living spell can only benefit from this feature against the same creature once on its turns."
-					]
-				}
 			],
 			"action":
 			[
@@ -3187,14 +3171,14 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell can make three attacks with its Prismatic Rays. However, it cannot use the same ray more than once on its turn."
+						"The living spell makes three attacks with its Prismatic Rays. However, it cannot use the same ray more than once on its turn."
 					]
 				},
 				{
 					"name": "Prismatic Rays",
 					"entries":
 					[
-						"The living spell shoots three of the following magical prismatic rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it",
+						"The living spell shoots three of the following magical prismatic rays at random (reroll duplicates), choosing one to three targets it can see within 60 feet of it",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -3206,7 +3190,7 @@
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) fire damage."
+										"{@atk rs} {@hit 7} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) fire damage."
 									]
 								},
 								{
@@ -3215,7 +3199,7 @@
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) acid damage."
+										"{@atk rs} {@hit 7} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) acid damage."
 									]
 								},
 								{
@@ -3224,7 +3208,7 @@
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) lightning damage."
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) lightning damage."
 									]
 								},
 								{
@@ -3233,7 +3217,7 @@
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) poison damage."
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) poison damage."
 									]
 								},
 								{
@@ -3242,16 +3226,16 @@
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 7}) cold damage."
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) cold damage."
 									]
 								},
 								{
-									"name": "Purple Ray",
+									"name": "Indigo Ray",
 									"type": "item",
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}The target is {@condition restrained} until the end of its next turn."
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}The target is {@condition restrained} until the end of its next turn."
 									]
 								},
 								{
@@ -3260,7 +3244,7 @@
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 11} to hit, 60 ft., one target. *Hit:*The target is {@condition blinded} until the end of its next turn."
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. *Hit:*The target is {@condition blinded} until the end of its next turn."
 									]
 								}
 							]
@@ -3268,10 +3252,74 @@
 					]
 				},
 				{
-					"name": "Prismatic Spray {@recharge 5}",
+					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"The living spell can cast a 7th level prismatic spray."
+						"The living spell flashes up to eight rays with different colors and power. Each creature in a 60-foot cone must make a {@dc 18} Dexterity saving throw. For each target, roll a {@dice d8} to determine which color ray affects it.",
+						{
+							"type": "entries",
+							"name": "1-Red",
+							"entries":
+							[
+								"The target takes {@damage 10d6} fire damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "2-Orange",
+							"entries":
+							[
+								"The target takes {@damage 10d6} acid damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "3-Yellow",
+							"entries":
+							[
+								"The target takes {@damage 10d6} lightning damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "4-Green",
+							"entries":
+							[
+								"The target takes {@damage 10d6} poison damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "5-Blue",
+							"entries":
+							[
+								"The target takes {@damage 10d6} cold damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "6-Indigo",
+							"entries":
+							[
+								"On a failed save, the target is {@condition restrained}. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the {@condition petrified} condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "7-Violet",
+							"entries":
+							[
+								"On a failed save, the target is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "8-Special",
+							"entries":
+							[
+								"The target is struck by two rays. Roll twice more, rerolling any 8."
+							]
+						}
 					]
 				}
 			],
@@ -3570,7 +3618,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "5",
+			"cr": "6",
 			"trait":
 			[
 				{
