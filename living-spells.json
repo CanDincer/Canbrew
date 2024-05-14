@@ -176,7 +176,7 @@
 			"otherSources":
 			[
 				{
-					"source": "ERLW",
+					"source": "IDRotF",
 					"page": 298
 				}
 			],
@@ -2134,6 +2134,13 @@
 					]
 				},
 				{
+					"name": "Breakdown",
+					"entries":
+					[
+						"The living spell can only target the closest enemy with its Magical Strike attacks. It has advantage on the attack roll if the target is wearing armor made of metal."
+					]
+				},
+				{
 					"name": "Unusual Nature",
 					"entries":
 					[
@@ -2161,11 +2168,11 @@
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk rs} {@hit 7} to hit, 150 ft., one target. {@h}18 ({@damage 4d6 + 4}) lightning damage"
+						"{@atk ms,rs} {@hit 7} to hit, 5 ft. or 150 ft., one target. {@h}18 ({@damage 4d6 + 4}) lightning damage"
 					]
 				},
 				{
-					"name": "Lightning Bolt {@recharge 5}",
+					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
 						"The living spell unleashes a stroke of lightning in a line 100 feet long and 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) lightning damage on a failed save, or half as much damage on a successful one."
@@ -3853,7 +3860,7 @@
 			"hp":
 			{
 				"average": 280,
-				"formula": "16d20 + 112"
+				"formula": "16d10 + 112"
 			},
 			"speed":
 			{
@@ -3861,10 +3868,10 @@
 			},
 			"str": 10,
 			"dex": 14,
-			"con": 24,
+			"con": 20,
 			"int": 3,
 			"wis": 11,
-			"cha": 24,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -3904,14 +3911,14 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "20",
+			"cr": "11",
 			"spellcasting":
 			[
 				{
 					"name": "Spellcasting DC",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The living spell has a spell save DC is 21 and has a {@hit 13} to hit on spell attacks."
+						"The living spell has a spell save DC is 18 and has a {@hit 10} to hit on spell attacks."
 					]
 				}
 			],
@@ -3935,14 +3942,14 @@
 					"name": "Charring Radiance",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 11({@dice 3d6}) radiant damage."
+						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@dice 3d6}) radiant damage."
 					]
 				},
 				{
 					"name": "Illumination",
 					"entries":
 					[
-						"The living spell emits bright light in a 60 ft. radius and dim light an additional 60 ft. This light counts as sunlight. This light banishes darkness."
+						"The living spell emits bright light in a 60 ft. radius and dim light an additional 60 ft. This light counts as sunlight and dispels any darkness in its area that was created by a spell."
 					]
 				},
 				{
@@ -3966,21 +3973,22 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell can make four attacks with its sunbolt."
+						"The living spell makes three Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Sunbolt",
+					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}28 ({@damage 6d6 + 7}) radiant damage."
+						"{@atk rs} {@hit 9} to hit, 150 ft., one target. {@h}25 ({@damage 6d6 + 4}) radiant damage."
 					]
 				},
 				{
 					"name": "Sunburst {@recharge 5}",
 					"entries":
 					[
-						"The living spell can cast {@spell Sunburst}."
+						"Brilliant sunlight flashes in a 60-foot radius centered on the living spell. Each creature in that light must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes {@damage 12d6} radiant damage and is {@condition blinded} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition blinded} by this spell.",
+						"A creature {@condition blinded} by light makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition blinded}."
 					]
 				}
 			],
@@ -4028,8 +4036,8 @@
 			],
 			"hp":
 			{
-				"average": 84,
-				"formula": "8d12 + 32"
+				"average": 76,
+				"formula": "8d10 + 32"
 			},
 			"speed":
 			{
@@ -4040,7 +4048,7 @@
 			"con": 18,
 			"int": 3,
 			"wis": 11,
-			"cha": 18,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -4079,7 +4087,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "8",
+			"cr": "6",
 			"trait":
 			[
 				{
@@ -4100,8 +4108,8 @@
 					"name": "Vitreolic Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7({@dice 3d4}) acid damage.",
-						"If the creature ends its turn in this area, it takes an additional 7({@dice 3d4}) acid damage as well."
+						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 3d4}) acid damage.",
+						"If the creature ends its turn in this area, it takes an additional 7 ({@dice 3d4}) acid damage as well."
 					]
 				},
 				{
