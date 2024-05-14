@@ -646,11 +646,7 @@
 			},
 			"speed":
 			{
-			  "fly":{
-					"number": 30,
-					"condition": "(hover)"
-				},
-				"canHover": true
+			  "fly": 30
 			},
 			"str": 10,
 			"dex": 15,
@@ -702,7 +698,7 @@
 					"name": "Spellcasting DC",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The living Cloudkill has a spell save DC is 17 and has a {@hit 9} to hit on spell attacks"
+						"The living spell has a spell save DC is 17 and has a {@hit 9} to hit on spell attacks"
 					]
 				}
 			],
@@ -726,21 +722,21 @@
 					"name": "Cloudy Form",
 					"entries":
 					[
-						"The living Cloudkill's space is considered to be heavily obscured."
+						"The living spell's space is considered to be heavily obscured."
 					]
 				},
 				{
 					"name": "Endless Smog",
 					"entries":
 					[
-						"The living Cloudkill has advantage on attack rolls against creatures in its space."
+						"The living spell has advantage on attack rolls against creatures in its space."
 					]
 				},
 				{
 					"name": "Poison Smog",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living Cloudkill's space or hits it with a melee weapon attack while within 5 ft. of it takes 9({@dice 2d8}) poison damage and half as much on a success."
+						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes must make a {@dc 16} Constitution saving throw, taking 9({@dice 2d8}) poison damageon a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -764,11 +760,11 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Cloudkill can make two attacks with its Poison Smog"
+						"The living spell makes two Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Poison Smog",
+					"name": "Magical Strike",
 					"entries":
 					[
 						"{@atk ms} {@hit 9} to hit, 5 ft., all targets in range. {@h}28 ({@damage 5d8 + 5}) poison damage."
@@ -2123,7 +2119,7 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell can make two Magical Strike attacks."
+						"The living spell makes two Magical Strike attacks."
 					]
 				},
 				{
