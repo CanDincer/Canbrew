@@ -173,6 +173,13 @@
 		{
 			"name": "Living Bigby's Hand",
 			"source": "Canbrew",
+			"otherSources":
+			[
+				{
+					"source": "ERLW",
+					"page": 298
+				}
+			],
 			"size":
 			[
 				"L"
@@ -470,6 +477,13 @@
 		{
 			"name": "Living Burning Hands",
 			"source": "Canbrew",
+			"otherSources":
+			[
+				{
+					"source": "ERLW",
+					"page": 298
+				}
+			],
 			"size":
 			[
 				"M"
@@ -620,9 +634,16 @@
 		{
 			"name": "Living Cloudkill",
 			"source": "Canbrew",
+			"otherSources":
+			[
+				{
+					"source": "ERLW",
+					"page": 299
+				}
+			],
 			"size":
 			[
-				"H"
+				"L"
 			],
 			"type": "construct",
 			"alignment":
