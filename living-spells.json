@@ -266,7 +266,7 @@
 					"name": "Interpose",
 					"entries":
 					[
-						"Creatures of the living spell's choice gain the benefits of half cover. Additionally, the area within 5 ft.of the living spell's space is considered difficult terrain for creatures of the living spell's choice."
+						"Creatures of the living spell's choice gain the benefits of half cover. Additionally, the area within 5 ft.of the living spell's space is considered {@quickref difficult terrain||3} for creatures of the living spell's choice."
 					]
 				},
 				{
@@ -2314,7 +2314,7 @@
 					"name": "Churning Tides",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn within the Maelstrom's space must treat this area as difficult terrain."
+						"Creatures that first enters or starts its turn within the Maelstrom's space must treat this area as {@quickref difficult terrain||3}."
 					]
 				},
 				{
@@ -3739,7 +3739,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "8",
+			"cr": "6",
 			"spellcasting":
 			[
 				{
@@ -3770,7 +3770,7 @@
 					"name": "Living Storm",
 					"entries":
 					[
-						"Creatures within the storm sphere's space must treat it as difficult terrain. While in this area, creatures have disadvantage on Wisdom ({@skill Perception}) checks."
+						"Creatures within the storm sphere's space must treat it as {@quickref difficult terrain||3}. While in this area, creatures have disadvantage on Wisdom ({@skill Perception}) checks."
 					]
 				},
 				{
@@ -3808,7 +3808,14 @@
 					"name": "Storm Burst",
 					"entries":
 					[
-						"{@atk rs} {@hit 7} to hit, 60 ft., one target. {@h}18 ({@damage 4d6 + 4}) lightning damage. This attack has advantage against creatures in its space"
+						"{@atk rs} {@hit 6} to hit, 60 ft., one target. {@h}18 ({@damage 4d6 + 4}) lightning damage. This attack has advantage against creatures in its space."
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"A 20-foot-radius sphere of whirling air springs into existence, centered on a point you choose within range. The sphere remains for the spell's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take {@damage 2d6} bludgeoning damage. The sphere's space is {@quickref difficult terrain||3}."
 					]
 				}
 			],
@@ -3850,7 +3857,7 @@
 			"ac":
 			[
 				{
-					"ac": 19,
+					"ac": 18,
 					"from":
 					[
 						"natural armor"
@@ -3859,8 +3866,8 @@
 			],
 			"hp":
 			{
-				"average": 280,
-				"formula": "16d10 + 112"
+				"average": 157,
+				"formula": "15d10 + 75"
 			},
 			"speed":
 			{
@@ -3892,7 +3899,6 @@
 			],
 			"immune":
 			[
-				"force",
 				"poison",
 				"psychic",
 				"radiant"
@@ -3912,16 +3918,6 @@
 				"unconscious"
 			],
 			"cr": "11",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries": [
-						"The living spell has a spell save DC is 18 and has a {@hit 10} to hit on spell attacks."
-					]
-				}
-			],
 			"trait":
 			[
 				{
@@ -3973,14 +3969,14 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell makes three Magical Strike attacks."
+						"The living spell makes two Magical Strike attacks."
 					]
 				},
 				{
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk rs} {@hit 9} to hit, 150 ft., one target. {@h}25 ({@damage 6d6 + 4}) radiant damage."
+						"{@atk rs} {@hit 9} to hit, 150 ft., one target. {@h}27 ({@damage 6d6 + 6}) radiant damage."
 					]
 				},
 				{
@@ -4010,6 +4006,14 @@
 			"damageTags":
 			[
 				"R"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			],
+			"miscTags":
+			[
+				"AOE"
 			]
 		},
 		{
