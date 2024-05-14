@@ -3500,7 +3500,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"H"
+				"M"
 			],
 			"type": "construct",
 			"alignment":
@@ -3519,8 +3519,8 @@
 			],
 			"hp":
 			{
-				"average": 63,
-				"formula": "6d12 + 24"
+				"average": 68,
+				"formula": "8d8 + 32"
 			},
 			"speed":
 			{
@@ -3531,7 +3531,7 @@
 			"con": 18,
 			"int": 3,
 			"wis": 11,
-			"cha": 18,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -3571,17 +3571,6 @@
 				"unconscious"
 			],
 			"cr": "5",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries":
-					[
-						"The living spell has a spell save DC is 15 and has a {@hit 7} to hit on spell attacks."
-					]
-				}
-			],
 			"trait":
 			[
 				{
@@ -3616,7 +3605,7 @@
 					"name": "Spiritual Form",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living Spirit Guardian's space, it must treat the area as if were under the effects of Spirit Guardians."
+						"Creatures that first enters or starts its turn in the living spell's space, it must treat the area as if it were under the effects of Spell Mimicry."
 					]
 				}
 			],
@@ -3626,21 +3615,21 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell can make two attacks on its turn: one with its Radiant Strikes and one with its Necrotic Strikes"
+						"The living spell makes two Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Radiant Strikes",
+					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms} {@hit 7} to hit, 5 ft., all targets in 5 ft. of thee target. {@h}18 ({@damage 3d8 + 4}) radiant damage. On a hit, the target's movement speed is halved until the start of its next turn"
+						"{@atk ms} {@hit 6} to hit, 5 ft., all targets in 5 ft. of thee target. {@h}8 ({@damage 1d8 + 4}) radiant plus 8 ({@damage 1d8 + 4}) necrotic damage (its choice). On a hit, the target's movement speed is halved until the start of its next turn"
 					]
 				},
 				{
-					"name": "Necrotic Strikes",
+					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"{@atk ms} {@hit 7} to hit, 5 ft., all targets in 5 ft. rang ofe target. {@h}18 ({@damage 3d8 + 4}) necrotic damage. On a hit, the target's movement speed is halved until the start of its next turn"
+						"The living spell creates a 15 feet radius centered on it in which evil and good spirits flit around for 1 minute or until the living spell moves. A creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a {@dc 15} Wisdom saving throw. On a failed save, the creature takes {@damage 2d8} radiant damage plus {@damage 2d8} necrotic damage. On a successful save, the creature takes half as much damage."
 					]
 				}
 			],
@@ -3662,6 +3651,14 @@
 			[
 				"N",
 				"R"
+			],
+			"savingThrowForced":
+			[
+				"wisdom"
+			],
+			"miscTags":
+			[
+				"AOE"
 			]
 		},
 		{
@@ -3688,19 +3685,19 @@
 			],
 			"hp":
 			{
-				"average": 84,
-				"formula": "8d12 + 32"
+				"average": 63,
+				"formula": "6d12 + 24"
 			},
 			"speed":
 			{
-				"fly": 30
+				"fly": 35
 			},
 			"str": 10,
 			"dex": 14,
 			"con": 18,
 			"int": 3,
 			"wis": 11,
-			"cha": 18,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -3740,16 +3737,6 @@
 				"unconscious"
 			],
 			"cr": "6",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries": [
-						"The living Storm Sphere has a spell save DC is 15 and has a {@hit 7} to hit on spell attacks"
-					]
-				}
-			],
 			"trait":
 			[
 				{
@@ -3801,21 +3788,21 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Storm Sphere can make two Storm Burst attacks"
+						"The living spell makes two Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Storm Burst",
+					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk rs} {@hit 6} to hit, 60 ft., one target. {@h}18 ({@damage 4d6 + 4}) lightning damage. This attack has advantage against creatures in its space."
+						"{@atk ms,rs} {@hit 6} to hit, 60 ft., one target. {@h}18 ({@damage 4d6 + 4}) lightning damage. This attack has advantage while Spell Mimicry is active."
 					]
 				},
 				{
 					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"A 20-foot-radius sphere of whirling air springs into existence, centered on a point you choose within range. The sphere remains for the spell's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take {@damage 2d6} bludgeoning damage. The sphere's space is {@quickref difficult terrain||3}."
+						"A 60-foot-radius sphere of whirling air springs into existence, centered on the living spell. The sphere remains for 1 minute or until the living spell moves. Each creature in the sphere when it appears or that ends its turn there must succeed on a {@dc 15} Strength saving throw or take {@damage 2d6} bludgeoning damage and {@damage 4d6} lightning damage. On a successful save, it takes half as much damage. The sphere's space is {@quickref difficult terrain||3}."
 					]
 				}
 			],
@@ -3835,11 +3822,16 @@
 			],
 			"damageTags":
 			[
+				"B",
 				"L"
 			],
 			"savingThrowForced":
 			[
-				"dexterity"
+				"strength"
+			],
+			"miscTags":
+			[
+				"AOE"
 			]
 		},
 		{
