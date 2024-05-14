@@ -3190,7 +3190,7 @@
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 7} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) fire damage."
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) fire damage."
 									]
 								},
 								{
@@ -3199,7 +3199,7 @@
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 7} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) acid damage."
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) acid damage."
 									]
 								},
 								{
@@ -3244,7 +3244,7 @@
 									"style": "italic",
 									"entries":
 									[
-										"{@atk rs} {@hit 8} to hit, 60 ft., one target. *Hit:*The target is {@condition blinded} until the end of its next turn."
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}The target is {@condition blinded} until the end of its next turn."
 									]
 								}
 							]
