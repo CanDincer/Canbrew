@@ -1660,7 +1660,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"H"
+				"L"
 			],
 			"type": "construct",
 			"alignment":
@@ -1810,6 +1810,15 @@
 			"damageTags":
 			[
 				"F"
+			],
+			"miscTags":
+			[
+				"AOE",
+				"RCH"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
 			]
 		},
 		{
@@ -2000,6 +2009,17 @@
 		{
 			"name": "Living Lightning Bolt",
 			"source": "Canbrew",
+			"otherSources":
+			[
+				{
+					"source": "ToD",
+					"page": 112
+				},
+				{
+					"source": "PotA",
+					"page": 88
+				}
+			],
 			"size":
 			[
 				"L"
@@ -4088,28 +4108,21 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell can make two attacks in any combination using its Vitreolic Jaws or Acidic Blast."
+						"The living spell makes two Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Vitreolic Jaws",
+					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms} {@hit 7} to hit, 5 ft., one target. {@h}16 ({@damage 5d4 + 4}) acid damage. On a hit, the target takes an additional 12({@dice 5d4}) acid damage at the end of its next turn unless it uses its action to remove the acid."
+						"{@atk ms,rs} {@hit 7} to hit, 5 ft. and range 150 ft., one target. {@h}16 ({@damage 5d4 + 4}) acid damage. On a hit, the target takes an additional 12 ({@dice 5d4}) acid damage at the end of its next turn unless it uses its action to remove the acid."
 					]
 				},
 				{
-					"name": "Acidic Blast",
+					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"{@atk rs} {@hit 7} to hit, 5 ft., one target. {@h}16 ({@damage 5d4 + 4}) acid damage. On a hit, the target takes an additional 12({@dice 5d4}) acid damage at the end of its next turn unless it uses its action to remove the acid."
-					]
-				},
-				{
-					"name": "Vitreolic Sphere{@recharge 5}",
-					"entries":
-					[
-						"The living spell can cast Vitreolic Sphere at 4th level."
+						"The living spell explodes in a 20-foot-radius sphere. Each creature in that area must make a {@dc 16} Dexterity saving throw. On a failed save, a creature takes {@damage 10d4} acid damage and another {@damage 5d4} acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn."
 					]
 				}
 			],
@@ -4130,6 +4143,14 @@
 			"damageTags":
 			[
 				"A"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			],
+			"miscTags":
+			[
+				"AOE"
 			]
 		}
 	]
