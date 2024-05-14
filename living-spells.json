@@ -120,7 +120,7 @@
 					]
 				},
 				{
-					"name": "Living Spell",
+					"name": "Unusual Nature",
 					"entries":
 					[
 						"The living spell does not need to eat, drink, or sleep."
@@ -204,9 +204,9 @@
 			"str": 26,
 			"dex": 10,
 			"con": 20,
-			"int": 3,
-			"wis": 11,
-			"cha": 20,
+			"int": 1,
+			"wis": 10,
+			"cha": 1,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -290,7 +290,7 @@
 					"name": "Grasping Hand",
 					"entries":
 					[
-						"The living spell attempts to grab a Large or smaller creature within 5 feet of it. The target must succeed on a {@dc 15} Dexterity saving throw or be {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target takes 15 ({@damage 2d6 + 8}) bludgeoning damage at the start of each of its turns. The living spell can grapple only one creature at a time and can't use Force Fist until the grapple ends."
+						"The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target must succeed on a {@dc 15} Dexterity saving throw or be {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target takes 15 ({@damage 2d6 + 8}) bludgeoning damage at the start of each of its turns. The living spell can grapple only one creature at a time and can't use Force Fist until the grapple ends."
 					]
 				},
 				{
@@ -360,7 +360,7 @@
 			"con": 18,
 			"int": 3,
 			"wis": 11,
-			"cha": 18,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -400,17 +400,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "5",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries": [
-						"The living spell has a spell save DC is 15 and has a {@hit 7} to hit on spell attacks."
-					]
-				}
-			],
+			"cr": "6",
 			"trait":
 			[
 				{
@@ -431,18 +421,11 @@
 					"name": "Blighted Magic",
 					"entries":
 					[
-						"The living spell can deal maximumdamage instead of rolling to plants. Plants also havedisadvantage on saving throws against its Blighted Touch."
+						"The living spell can deal maximum damage instead of rolling against plants. Plants also have disadvantage on saving throws against it."
 					]
 				},
 				{
-					"name": "Blighted Demise",
-					"entries":
-					[
-						"When the living spell is reduced to 0hitpoints, all creatures within 30 ft. must make a savingthrow against the effects of the Blight spell."
-					]
-				},
-				{
-					"name": "Living Spell",
+					"name": "Unusual Nature",
 					"entries":
 					[
 						"The living spell does not need to eat,drink, or sleep."
@@ -459,10 +442,17 @@
 			"action":
 			[
 				{
-					"name": "Blight",
+					"name": "Magical Strike",
 					"entries":
 					[
-						"The living spell can cast {@spell blight} against acreature it can see within range."
+						"{@atk ms} {@hit 7} to hit, 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) necrotic damage."
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"Necromantic energy washes over a creature of the living spell's choice within 30 feet, draining moisture and vitality from it. The target must make a {@dc 15} Constitution saving throw. The target takes {@damage 8d8} necrotic damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs."
 					]
 				}
 			],
@@ -506,7 +496,7 @@
 			},
 			"speed":
 			{
-				"fly": 30
+				"fly": 25
 			},
 			"str": 10,
 			"dex": 12,
@@ -573,7 +563,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the burning hand's space or hits it with a melee weapon attack while within 5 ft. of it take 4({@dice 1d6}) fire damage."
+						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 4({@dice 1d6}) fire damage."
 					]
 				},
 				{
@@ -587,7 +577,7 @@
 					"name": "Magic Resistance",
 					"entries":
 					[
-						"The living spell has advantage on saving throws against spells and magical effect Self Destruct. When the living spell is reduced to 0 hit points, creatures within 10 ft. of it must succeed a {@dc 13} Dexterity saving throw or take 11({@dice 3d6}) fire damage"
+						"The living spell has advantage on saving throws against spells and magical effects."
 					]
 				}
 			],
@@ -766,13 +756,6 @@
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
 					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living Cloudkill is reduced to 0 hit points, it can cast a 5th level Cloudkill, centerd on its self. When casted in this manner, the cloud remains stationary and lasts for 1 minute"
-					]
 				}
 			],
 			"action":
@@ -939,13 +922,6 @@
 					"entries":
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living Cone of Cold is reduced to 0 hit points, creatures within a 20 ft. radius around it must succeed a {@dc 17} Constitution saving throw. On a failed saving throw, creatures take 36({@dice 8d8}) cold damage and half as much on a success."
 					]
 				}
 			],
@@ -1120,13 +1096,6 @@
 					"entries":
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living spell is reduced to 0 hit points, it can cast {@spell Darkness} centered on itself which lasts for 1 minute."
 					]
 				}
 			],
@@ -1304,13 +1273,6 @@
 					"entries":
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living Dark Star is reduced to 0 hit points, it can cast {@spell Dark Star|EGW} centered on itself which lasts for one minute."
 					]
 				},
 				{
@@ -2505,13 +2467,6 @@
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
 					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living spell is reduced to 0 hit points, it can cast Magic Missiles at 1st level. Each bolt randomly targets creatures with range."
-					]
 				}
 			],
 			"action":
@@ -2680,13 +2635,6 @@
 					"entries":
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living spell is reduced to 0 hit points, creatures in a 40 ft. radius around it must succeed a {@dc 24} Dexterity saving throw. On a failed saving throw, creatures take 70 ({@damage 20d6}) bludgeoning damage + 70({@dice 20d6}) fire damage."
 					]
 				},
 				{
@@ -3425,13 +3373,6 @@
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
 					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living spell is reduced to 0 hit points, creatures within 10 ft. must make a saving throw against the effects of the Reality Break spell. When casted in this manner, the effect lasts for 1 minute."
-					]
 				}
 			],
 			"action":
@@ -3814,13 +3755,6 @@
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
 					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living Storm Sphere is reduced to 0 hit points, creatures within 60 ft. of it must succeed a {@dc 15} Dexterity saving throw or take 14({@dice 4d6}) lightning damage"
-					]
 				}
 			],
 			"action":
@@ -3993,13 +3927,6 @@
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
 					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living spell is reduced to 0 hit points, it can cast {@spell Sunburst} centered on itself which lasts for one minute."
-					]
 				}
 			],
 			"action":
@@ -4158,14 +4085,6 @@
 					"entries":
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				},
-				{
-					"name": "Self Destruct",
-					"entries":
-					[
-						"When the living spell is reduced to 0 hit points, it can cast a 4th level Vitreolic Sphere, centered on its self Spellcasting DC.",
-						"The living spell has a spell save DC is 15 and has a {@hit 7} to hit on spell attacks."
 					]
 				}
 			],
