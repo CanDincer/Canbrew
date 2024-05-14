@@ -3622,7 +3622,7 @@
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms} {@hit 6} to hit, 5 ft., all targets in 5 ft. of thee target. {@h}8 ({@damage 1d8 + 4}) radiant plus 8 ({@damage 1d8 + 4}) necrotic damage (its choice). On a hit, the target's movement speed is halved until the start of its next turn"
+						"{@atk ms} {@hit 6} to hit, reach 10 ft., all targets in 5 ft. of thee target. {@h}8 ({@damage 1d8 + 4}) radiant plus 8 ({@damage 1d8 + 4}) necrotic damage (its choice). On a hit, the target's movement speed is halved until the start of its next turn"
 					]
 				},
 				{
@@ -3658,7 +3658,8 @@
 			],
 			"miscTags":
 			[
-				"AOE"
+				"AOE",
+				"RCH"
 			]
 		},
 		{
