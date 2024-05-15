@@ -140,11 +140,11 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell can make two attacks on its turn with its necrotic touch."
+						"The living spell makes two Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Necrotic Touch",
+					"name": "Magical Strike",
 					"entries":
 					[
 						"{@atk ms} {@hit 6} to hit, 5 ft., one target. {@h}18 ({@damage 3d8 + 4}) necrotic damage."
@@ -1319,11 +1319,11 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Dark Star can make four attacks with its Void Spheres."
+						"The living spell makes four Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Void Sphere",
+					"name": "Magical Strike",
 					"entries":
 					[
 						"{@atk rs} {@hit 12} to hit, 10 ft., one target. {@h}28 ({@damage 4d10 + 6}) force damage."
@@ -2001,11 +2001,11 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Gravity Sinkhole can make two attacks with its Gravitational Pull"
+						"The living spell makes four Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Gravitational Pull",
+					"name": "Magical Strike",
 					"entries":
 					[
 						"{@atk rs} {@hit 7} to hit, 120 ft., one target. {@h}21 ({@damage 3d10 + 4}) force damage. On a hit, the target must succeed a {@dc 15} Strength saving throw or be pulled 20 ft. towards the Gravity Sinkhole"
@@ -2605,7 +2605,7 @@
 			"con": 26,
 			"int": 3,
 			"wis": 11,
-			"cha": 26,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -2709,18 +2709,18 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell can make four attacks with its Meteors."
+						"The living spell makes four Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Meteor",
+					"name": "Magical Strike",
 					"entries":
 					[
 						"{@atk rs} {@hit 12} to hit, 1 mile., one target. {@h}25({@dice 5d6 + 8}) bludgeoning damage +18({@dice 5d6}) fire damage."
 					]
 				},
 				{
-					"name": "Meteor Swarm {@recharge 5}",
+					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
 						"The living spell can cast {@spell Meteor Swarm}."
