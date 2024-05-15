@@ -329,7 +329,12 @@
 			"savingThrowForced":
 			[
 				"dexterity"
-			]
+			],
+			"token":
+			{
+				"name": "Living Bigby's Hand",
+				"source": "IDRotF"
+			}
 		},
 		{
 			"name": "Living Blight",
@@ -629,7 +634,12 @@
 			"savingThrowForced":
 			[
 				"dexterity"
-			]
+			],
+			"token":
+			{
+				"name": "Living Burning Hands",
+				"source": "ERLW"
+			}
 		},
 		{
 			"name": "Living Cloudkill",
@@ -807,7 +817,12 @@
 			"damageTags":
 			[
 				"I"
-			]
+			],
+			"token":
+			{
+				"name": "Living Cloudkill",
+				"source": "ERLW"
+			}
 		},
 		{
 			"name": "Living Cone of Cold",
@@ -2200,7 +2215,12 @@
 			"savingThrowForced":
 			[
 				"dexterity"
-			]
+			],
+			"token":
+			{
+				"name": "Living Lightning Bolt",
+				"source": "ERLW"
+			}
 		},
 		{
 			"name": "Living Maelstrom",
@@ -2679,7 +2699,7 @@
 					"name": "Siege Monster",
 					"entries":
 					[
-						"The living Meteor swarm deals double damage to buildings and objects."
+						"The living spell deals double damage to buildings and objects."
 					]
 				}
 			],
@@ -2735,7 +2755,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"H"
+				"L"
 			],
 			"type": "construct",
 			"alignment":
@@ -2754,12 +2774,12 @@
 			],
 			"hp":
 			{
-				"average": 38,
-				"formula": "4d12 + 12"
+				"average": 93,
+				"formula": "11d10 + 33"
 			},
 			"speed":
 			{
-				"fly": 30
+				"fly": 60
 			},
 			"str": 10,
 			"dex": 12,
@@ -2848,24 +2868,17 @@
 			"action":
 			[
 				{
-					"name": "Multiattack",
-					"entries":
-					[
-						"The living spell can make two moon blasts on its turn."
-					]
-				},
-				{
-					"name": "Moon Blast",
+					"name": "Magical Strike",
 					"entries":
 					[
 						"{@atk ms} {@hit 5} to hit, all creatures within 5 ft., one target. {@h}14({@dice 2d10 + 3}) radiant damage. This attack has advantage against shapechangers. On a hit, a shapechanger instantly reverts to its normal form until the end of its next turn."
 					]
 				},
 				{
-					"name": "Moonbeam {@recharge 5}",
+					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"The living spell can cast a 2nd level moonbeam spell. has a spell save DC is 13 and has a {@hit 5} to hit on spell attacks"
+						"When a creature enters the living spell's area for the first time on a turn or starts its turn there   it must make a {@dc 14} Constitution saving throw. It take 11 ({@dice 2d10}) radiant damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -2886,6 +2899,10 @@
 			"damageTags":
 			[
 				"R"
+			],
+			"miscTags":
+			[
+				"AOE"
 			]
 		},
 		{
@@ -2893,7 +2910,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"M"
+				"S"
 			],
 			"type": "construct",
 			"alignment":
@@ -2912,19 +2929,19 @@
 			],
 			"hp":
 			{
-				"average": 147,
-				"formula": "14d8 + 84"
+				"average": 153,
+				"formula": "18d6 + 90"
 			},
 			"speed":
 			{
-				"fly": 30
+				"fly": 50
 			},
 			"str": 10,
 			"dex": 14,
 			"con": 22,
 			"int": 3,
 			"wis": 11,
-			"cha": 22,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -2963,7 +2980,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "13",
+			"cr": "8",
 			"trait":
 			[
 				{
@@ -2993,13 +3010,6 @@
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
 					]
-				},
-				{
-					"name": "Reactive",
-					"entries":
-					[
-						"The living Mordenkainen's Sword can take a reaciton at the end of each of its turns."
-					]
 				}
 			],
 			"action":
@@ -3008,30 +3018,21 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Mordenkainen's Sword can make three attacks with its Sword Strike"
+						"The living spell makes three Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Sword Slash",
+					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms} {@hit 11} to hit, 5 ft., one target. {@h}23 ({@damage 3d10 + 6}) force damage."
+						"{@atk ms} {@hit 8} to hit, 5 ft., one target. {@h}23 ({@damage 3d10 + 6}) force damage."
 					]
 				},
 				{
-					"name": "Conjure Sword {@recharge 5}",
+					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"The living Mordenkainen's Sword can cast {@spell Mordenkainen's Sword} at 7th level."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Parry",
-					"entries":
-					[
-						"Whenever the living Mordenkainen's Sword is hit with a melee weapon attack while within 5 ft. of it , the living Mordenakainen's Sword can make a Sword Slash attack against that creature."
+						"The living spell opens up a plane of force and sends out sword-shaped projectiles in a 20-foot cone in front of it. Each creature in the area must make a {@dc 18} Dexterity saving throw or take {@damage 3d10} force damage"
 					]
 				}
 			],
@@ -3813,7 +3814,7 @@
 					"name": "Stormy Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living Storm Sphere's space or hits it with a melee weapon attack while within 5 ft. of it take 7({@dice 2d6}) bludgeoning damage."
+						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) bludgeoning damage."
 					]
 				},
 				{
