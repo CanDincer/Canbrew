@@ -342,154 +342,6 @@
 			}
 		},
 		{
-			"name": "Living Blight",
-			"source": "Canbrew",
-			"size":
-			[
-				"M"
-			],
-			"type": "construct",
-			"alignment":
-			[
-				"U"
-			],
-			"ac":
-			[
-				{
-					"ac": 16,
-					"from":
-					[
-						"natural armor"
-					]
-				}
-			],
-			"hp":
-			{
-				"average": 68,
-				"formula": "8d8 + 32"
-			},
-			"speed":
-			{
-				"fly": 30
-			},
-			"str": 10,
-			"dex": 14,
-			"con": 18,
-			"int": 3,
-			"wis": 11,
-			"cha": 6,
-			"senses":
-			[
-				"blindsight 120 ft."
-			],
-			"passive": 10,
-			"resist":
-			[
-				{
-					"resist":
-					[
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"preNote": "and",
-					"note": "damage from non-magical sources",
-					"cond": true
-				}
-			],
-			"immune":
-			[
-				"poison",
-				"psychic",
-				"necrotic"
-			],
-			"conditionImmune":
-			[
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhausted",
-				"frightened",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"cr": "6",
-			"trait":
-			[
-				{
-					"name": "Amorphous Form",
-					"entries":
-					[
-						"The living spell can move through aspace as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
-					]
-				},
-				{
-					"name": "Antimagic Susceptibility",
-					"entries":
-					[
-						"If the living spell starts itsturn in an {@spell Antimagic Field}, it takes 10 damage. Thisdamage cannot be reduced in any way. Until the start ofits next turn, it also suffers disadvantage on attack rolls,ability checks, and saving throws as well."
-					]
-				},
-				{
-					"name": "Blighted Magic",
-					"entries":
-					[
-						"The living spell can deal maximum damage instead of rolling against plants. Plants also have disadvantage on saving throws against it."
-					]
-				},
-				{
-					"name": "Unusual Nature",
-					"entries":
-					[
-						"The living spell does not need to eat,drink, or sleep."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"entries":
-					[
-						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				}
-			],
-			"action":
-			[
-				{
-					"name": "Magical Strike",
-					"entries":
-					[
-						"{@atk ms} {@hit 7} to hit, 5 ft., one target. {@h}26 ({@damage 5d8 + 4}) necrotic damage."
-					]
-				},
-				{
-					"name": "Spell Mimicry {@recharge 5}",
-					"entries":
-					[
-						"Necromantic energy washes over a creature of the living spell's choice within 30 feet, draining moisture and vitality from it. The target must make a {@dc 15} Constitution saving throw. The target takes {@damage 8d8} necrotic damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs."
-					]
-				}
-			],
-			"traitTags":
-			[
-				"Amorphous",
-				"Magic Resistance",
-				"Unusual Nature"
-			],
-			"senseTags":
-			[
-				"B"
-			],
-			"tokenHref":
-			{
-				"type": "external",
-				"url": ""
-			}
-		},
-		{
 			"name": "Living Burning Hands",
 			"source": "Canbrew",
 			"otherSources":
@@ -839,7 +691,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"G"
+				"L"
 			],
 			"type": "construct",
 			"alignment":
@@ -916,7 +768,7 @@
 					"name": "Spellcasting DC",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The living Cone of Cold has a spell save DC is 17 and has a {@hit 9} to hit on spell attacks."
+						"The living spell has a spell save DC is 17 and has a {@hit 9} to hit on spell attacks."
 					]
 				}
 			],
@@ -940,14 +792,14 @@
 					"name": "Flash Freeze",
 					"entries":
 					[
-						"Creatures killed by the living Cone of Cold is turned to ice."
+						"Creatures killed by the living spell is turned to ice."
 					]
 				},
 				{
 					"name": "Frozen Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living Cone of Cold's space or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
+						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
 					]
 				},
 				{
@@ -971,7 +823,7 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Cone of Cold can make two attacks with any combination of its Frigid Touch or Frigid Blast."
+						"The living spell can make two attacks with any combination of its Frigid Touch or Frigid Blast."
 					]
 				},
 				{
@@ -985,14 +837,14 @@
 					"name": "Frigid Blast",
 					"entries":
 					[
-						"{@atk rs} {@hit 9} to hit, 10 ft., one target. {@h}23 ({@damage 4d8 + 5}) cold damage."
+						"{@atk rs} {@hit 9} to hit, 60 ft., one target. {@h}23 ({@damage 4d8 + 5}) cold damage."
 					]
 				},
 				{
 					"name": "Cone of Cold {@recharge 5}",
 					"entries":
 					[
-						"The living Cone of Cold can cast a 5th level Cone of Cold."
+						"The living spell can cast a 5th level Cone of Cold."
 					]
 				}
 			],
@@ -1021,7 +873,7 @@
 			"tokenHref":
 			{
 				"type": "external",
-				"url": ""
+				"url": "https://i.imgur.com/CsCRZbe.png"
 			}
 		},
 		{
@@ -2621,7 +2473,7 @@
 			"tokenHref":
 			{
 				"type": "external",
-				"url": ""
+				"url": "https://i.imgur.com/PTtpwAh.png"
 			}
 		},
 		{
@@ -2967,7 +2819,7 @@
 			"tokenHref":
 			{
 				"type": "external",
-				"url": ""
+				"url": "https://i.imgur.com/1Kbf33s.png"
 			}
 		},
 		{
