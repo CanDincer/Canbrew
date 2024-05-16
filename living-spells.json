@@ -3123,7 +3123,7 @@
 			"tokenHref":
 			{
 				"type": "external",
-				"url": ""
+				"url": "https://i.imgur.com/pzmWC3A.png"
 			}
 		},
 		{
@@ -3424,7 +3424,7 @@
 			"tokenHref":
 			{
 				"type": "external",
-				"url": "https://i.imgur.com/KjFfnYq.png"
+				"url": "https://i.imgur.com/iD5zdCy.png"
 			}
 		},
 		{
@@ -4154,7 +4154,7 @@
 			}
 		},
 		{
-			"name": "Living Vitreolic Sphere",
+			"name": "Living Vitriolic Sphere",
 			"source": "Canbrew",
 			"size":
 			[
@@ -4246,7 +4246,7 @@
 					]
 				},
 				{
-					"name": "Vitreolic Body",
+					"name": "Vitriolic Body",
 					"entries":
 					[
 						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 3d4}) acid damage.",
