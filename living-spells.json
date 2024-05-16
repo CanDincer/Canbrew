@@ -1463,7 +1463,7 @@
 					"name": "Spellcasting DC",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The living Disintegrate has a spell save DC is 19 and has a {@hit 11} to hit on spell attacks"
+						"The living spell has a spell save DC is 19 and has a {@hit 11} to hit on spell attacks"
 					]
 				}
 			],
@@ -1487,14 +1487,14 @@
 					"name": "Disintegration",
 					"entries":
 					[
-						"Creatures reduced to 0 hit points by the living Disintegrate are reduced to ash"
+						"Creatures reduced to 0 hit points by the living spell are reduced to ash"
 					]
 				},
 				{
 					"name": "Disintegrating Touch",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living Disintegrate's space or hits it with a melee weapon attack while within 5 ft. of it takes 11({@dice 3d6}) force damage"
+						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes 11({@dice 3d6}) force damage"
 					]
 				},
 				{
@@ -1518,7 +1518,7 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Disintegrate can make three attacks with any combination of its Disintegration Strike or Disintegration Ray"
+						"The living spell can make three attacks with any combination of its Disintegration Strike or Disintegration Ray"
 					]
 				},
 				{
@@ -1539,7 +1539,7 @@
 					"name": "Disintegrate {@recharge 5}",
 					"entries":
 					[
-						"The living Disintegrate can cast a 6th level Disintegrate."
+						"The living spell can cast a 6th level Disintegrate."
 					]
 				}
 			],
@@ -1564,7 +1564,7 @@
 			"tokenHref":
 			{
 				"type": "external",
-				"url": ""
+				"url": "https://i.imgur.com/4XLTHH6.png"
 			}
 		},
 		{
@@ -1723,7 +1723,7 @@
 			"tokenHref":
 			{
 				"type": "external",
-				"url": ""
+				"url": "https://i.imgur.com/S3NkCPp.png"
 			}
 		},
 		{
@@ -2348,7 +2348,7 @@
 					"name": "Spellcasting DC",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The living Maelstrom has a spell save DC is 17 and has a {@hit 9} to hit on spell attacks."
+						"The living spell has a spell save DC is 17 and has a {@hit 9} to hit on spell attacks."
 					]
 				}
 			],
@@ -2372,7 +2372,7 @@
 					"name": "Battering Waves",
 					"entries":
 					[
-						"Creatures that starts its turn in the living Maelstrom's space take 21({@dice 6d6}) bludgeoning damage."
+						"Creatures that starts its turn in the living spell's space take 21({@dice 6d6}) bludgeoning damage."
 					]
 				},
 				{
@@ -2386,7 +2386,7 @@
 					"name": "Magical Attacks",
 					"entries":
 					[
-						"The living Maelstrom's attacks count as magical for the purposes of overcoming resistance or immunity."
+						"The living spell's attacks count as magical for the purposes of overcoming resistance or immunity."
 					]
 				},
 				{
@@ -2417,28 +2417,28 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living Maelstrom can make two attacks with any combination of its Torrent Cannon of Hydro Lash."
+						"The living spell can make two attacks with any combination of its Torrent Cannon of Hydro Lash."
 					]
 				},
 				{
 					"name": "Hydro Lash",
 					"entries":
 					[
-						"{@atk ms} {@hit 9} to hit, 10 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning damage. On a hit, the target must succeed a {@dc 17} Strength saving throw or be pulled 10 ft. towards the living Maelstrom."
+						"{@atk ms} {@hit 9} to hit, 10 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning damage. On a hit, the target must succeed a {@dc 17} Strength saving throw or be pulled 10 ft. towards the living spell."
 					]
 				},
 				{
 					"name": "Torrent Cannon",
 					"entries":
 					[
-						"{@atk rs} {@hit 9} to hit, 60 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning damage. On a hit, the target must succeed a {@dc 17} Strength saving throw or be pushed 10 ft. away from the living Maelstrom."
+						"{@atk rs} {@hit 9} to hit, 60 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning damage. On a hit, the target must succeed a {@dc 17} Strength saving throw or be pushed 10 ft. away from the living spell."
 					]
 				},
 				{
 					"name": "Maelstrom {@recharge 5}",
 					"entries":
 					[
-						"The living Maelstrom can cast a 5th level maelstrom."
+						"The living spell can cast a 5th level maelstrom."
 					]
 				}
 			],
@@ -2467,7 +2467,7 @@
 			"tokenHref":
 			{
 				"type": "external",
-				"url": ""
+				"url": "https://i.imgur.com/lCXtob7.png"
 			}
 		},
 		{
@@ -2807,7 +2807,7 @@
 			"tokenHref":
 			{
 				"type": "external",
-				"url": ""
+				"url": "https://i.imgur.com/BbbG4D7.png"
 			}
 		},
 		{
