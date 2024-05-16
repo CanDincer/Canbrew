@@ -168,7 +168,12 @@
 			"damageTags":
 			[
 				"N"
-			]
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/7wThLe9.png"
+			}
 		},
 		{
 			"name": "Living Bigby's Hand",
@@ -1178,7 +1183,12 @@
 			[
 				"N",
 				"Y"
-			]
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/ZzANP3l.png"
+			}
 		},
 		{
 			"name": "Living Dark Star",
@@ -1855,7 +1865,12 @@
 			"savingThrowForced":
 			[
 				"dexterity"
-			]
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/zQQPDRv.png"
+			}
 		},
 		{
 			"name": "Living Gravity Sinkhole",
