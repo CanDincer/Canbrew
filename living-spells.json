@@ -103,7 +103,7 @@
 					"entries":
 					[
 						"If a creature is killed by the living spell, it returns to life as a {@creature zombie|MM} or {@creature skeleton|MM} after 1 minute. These undead are fully under the control of the living spell. The living spell can control up to 6 undead in this manner at a time.",
-						"The living spell has {@dice 1d4 - 1} such skeletons and {@dice 1d4 - 1} such zombies when encountered."
+						"The living spell has {@dice 1d4 - 1} such {@creature skeleton|MM|skeletons} and {@dice 1d4 - 1} such {@creature zombie|MM|zombies} when encountered."
 					]
 				},
 				{
@@ -303,7 +303,7 @@
 					"name": "Grasping Hand",
 					"entries":
 					[
-						"The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target must succeed on a {@dc 15} Dexterity saving throw or be {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target takes 15 ({@damage 2d6 + 8}) bludgeoning damage at the start of each of its turns. The living spell can grapple only one creature at a time and can't use Force Fist until the grapple ends."
+						"The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target must succeed on a {@dc 15} Dexterity saving throw or be {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target takes 15 ({@damage 2d6 + 8}) bludgeoning damage at the start of each of its turns. The living spell can grapple only one creature at a time and can't use Clenched Fist until the grapple ends."
 					]
 				},
 				{
@@ -445,7 +445,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 4({@dice 1d6}) fire damage."
+						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@dice 1d6}) fire damage."
 					]
 				},
 				{
@@ -620,7 +620,7 @@
 					"name": "Poison Smog",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes must make a {@dc 16} Constitution saving throw, taking 9({@dice 2d8}) poison damageon a failed save, or half as much damage on a successful one."
+						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes must make a {@dc 16} Constitution saving throw, taking 9 ({@dice 2d8}) poison damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -659,7 +659,7 @@
 					"entries":
 					[
 						"The living spell creates a 40-foot-diameter sphere of fog within 60 feet of it (the fog spreads around corners). When a creature enters the fog for the first time on a turn or starts its turn there, it must make a {@dc 16} Constitution saving throw, taking 22 ({@damage 5d8}) poison damage on a failed save, or half as much damage on a successful one.",
-						"The fog moves 10 feet away from the living spell at the start of each of its turns, rolling along the ground and through openings. The fog lasts for 10 minutes or until the living spell's {@status concentration} ends (as if {@status concentration||concentrating} on a spell)."
+						"The fog moves 10 feet away from the living spell at the start of each of its turns, rolling along the ground and through openings. The fog lasts until the living spell moves."
 					]
 				}
 			],
@@ -845,7 +845,7 @@
 					"name": "Cone of Cold {@recharge 5}",
 					"entries":
 					[
-						"The living spell can cast a 5th level Cone of Cold."
+						"A blast of cold air erupts from the living spell. Each creature in a 60-foot cone must make a {@dc 17} Constitution saving throw. A creature takes {@damage 8d8} cold damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -915,7 +915,7 @@
 			"cha": 16,
 			"senses":
 			[
-				"blindsight 120ft."
+				"blindsight 120 ft."
 			],
 			"passive": 10,
 			"resist":
@@ -1003,7 +1003,7 @@
 					"name": "Umbral Touch",
 					"entries":
 					[
-						"{@atk ms} {@hit 5} to hit, all creatures within 5ft., one target. {@h}8({@dice 1d8 + 3}) necrotic damage + 5({@dice 1d8}) psychic damage"
+						"{@atk ms} {@hit 5} to hit, all creatures within 5 ft., one target. {@h}8 ({@dice 1d8 + 3}) necrotic damage + 5({@dice 1d8}) psychic damage"
 					]
 				},
 				{
