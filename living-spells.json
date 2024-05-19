@@ -102,7 +102,8 @@
 					"name": "Animation",
 					"entries":
 					[
-						"If a creature is killed by the living spell, it returns to life as a {@creature zombie|MM} or {@creature skeleton|MM} after 1 minute. These undead are fully under the control of the living spell. The living spell can control up to 6 undead in this manner at a time."
+						"If a creature is killed by the living spell, it returns to life as a {@creature zombie|MM} or {@creature skeleton|MM} after 1 minute. These undead are fully under the control of the living spell. The living spell can control up to 6 undead in this manner at a time.",
+						"The living spell has {@dice 1d4 - 1} such skeletons and {@dice 1d4 - 1} such zombies when encountered."
 					]
 				},
 				{
