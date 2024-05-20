@@ -445,7 +445,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@dice 1d6}) fire damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@dice 1d6}) fire damage."
 					]
 				},
 				{
@@ -620,7 +620,7 @@
 					"name": "Poison Smog",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it must make a {@dc 16} Constitution saving throw, taking 9 ({@dice 2d8}) poison damage on a failed save, or half as much damage on a successful one."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it must make a {@dc 16} Constitution saving throw, taking 9 ({@dice 2d8}) poison damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -790,7 +790,7 @@
 					"name": "Frozen Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
 					]
 				},
 				{
@@ -1056,7 +1056,7 @@
 			"con": 22,
 			"int": 3,
 			"wis": 11,
-			"cha": 22,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -1133,7 +1133,7 @@
 					"name": "Disintegrating Touch",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it takes 11({@dice 3d6}) force damage"
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 11 ({@dice 3d6}) force damage"
 					]
 				},
 				{
@@ -1461,7 +1461,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) fire damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) fire damage."
 					]
 				},
 				{
@@ -1639,7 +1639,7 @@
 					"name": "Charged Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) lightning damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) lightning damage."
 					]
 				},
 				{
@@ -3348,7 +3348,7 @@
 					"name": "Stormy Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) bludgeoning damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) bludgeoning damage."
 					]
 				},
 				{
@@ -3519,7 +3519,7 @@
 					"name": "Charring Radiance",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@dice 3d6}) radiant damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@dice 3d6}) radiant damage."
 					]
 				},
 				{
@@ -3698,7 +3698,7 @@
 					"name": "Vitriolic Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 3d4}) acid damage.",
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 3d4}) acid damage.",
 						"If the creature ends its turn in this area, it takes an additional 7 ({@dice 3d4}) acid damage as well."
 					]
 				},
