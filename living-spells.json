@@ -1101,7 +1101,8 @@
 				{
 					"name": "Spellcasting DC",
 					"type": "spellcasting",
-					"headerEntries": [
+					"headerEntries":
+					[
 						"The living spell has a spell save DC is 19 and has a {@hit 11} to hit on spell attacks"
 					]
 				}
@@ -1126,14 +1127,14 @@
 					"name": "Disintegration",
 					"entries":
 					[
-						"Creatures reduced to 0 hit points by the living spell are reduced to ash"
+						"A creature reduced to 0 hit points by the living spell is reduced to a pile of fine gray dust including everything it is wearing and carrying, except magic items. The creature can be restored to life only by means of a {@spell true resurrection} or a {@spell wish} spell. ash."
 					]
 				},
 				{
-					"name": "Disintegrating Touch",
+					"name": "Disintegrating Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 11 ({@dice 3d6}) force damage"
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 11 ({@dice 3d6}) force damage."
 					]
 				},
 				{
@@ -1157,28 +1158,22 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The living spell can make three attacks with any combination of its Disintegration Strike or Disintegration Ray"
+						"The living spell makes three Magical Strike attacks."
 					]
 				},
 				{
-					"name": "Disintegrating Strike",
+					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms} {@hit 11} to hit, 5 ft., one target. {@h}29 ({@damage 5d6 + 6}) force damage."
+						"{@atk rs} {@hit 7} to hit, 60 ft., one target. {@h}20 ({@damage 3d6 + 10}) force damage."
 					]
 				},
 				{
-					"name": "Disintegration Ray",
+					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"{@atk rs} {@hit 11} to hit, 60 ft., one target. {@h}29 ({@damage 5d6 + 5}) force damage."
-					]
-				},
-				{
-					"name": "Disintegrate {@recharge 5}",
-					"entries":
-					[
-						"The living spell can cast a 6th level Disintegrate."
+						"The creature targeted must make a {@dc 17} Dexterity saving throw. On a failed save, the target takes {@damage 10d6 + 40} force damage. The target is disintegrated if this damage leaves it with 0 hit points.",
+						"A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a {@spell true resurrection} or a {@spell wish} spell."
 					]
 				}
 			],
