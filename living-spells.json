@@ -445,7 +445,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@dice 1d6}) fire damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@dice 1d6}) fire damage."
 					]
 				},
 				{
@@ -620,7 +620,7 @@
 					"name": "Poison Smog",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it must make a {@dc 16} Constitution saving throw, taking 9 ({@dice 2d8}) poison damage on a failed save, or half as much damage on a successful one."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it must make a {@dc 16} Constitution saving throw, taking 9 ({@dice 2d8}) poison damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -790,7 +790,7 @@
 					"name": "Frozen Body",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
 					]
 				},
 				{
@@ -882,7 +882,7 @@
 			"ac":
 			[
 				{
-					"ac": 14,
+					"ac": 12,
 					"from":
 					[
 						"natural armor"
@@ -891,8 +891,8 @@
 			],
 			"hp":
 			{
-				"average": 38,
-				"formula": "4d12+12"
+				"average": 27,
+				"formula": "2d20 + 6"
 			},
 			"speed":
 			{
@@ -942,7 +942,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "3",
+			"cr": "1",
 			"trait":
 			[
 				{
@@ -963,7 +963,7 @@
 					"name": "Umbral Body",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space takes 4 ({@dice 1d8}) psychic damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 4 ({@dice 1d8}) psychic damage."
 					]
 				},
 				{
@@ -989,35 +989,13 @@
 					]
 				}
 			],
-			"action":
-			[
-				{
-					"name": "Darkness {@recharge 5}",
-					"entries":
-					[
-						"Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with {@sense darkvision} can't see through this darkness, and nonmagical light can't illuminate it.",
-						"If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.",
-						"If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
-					]
-				}
-			],
 			"bonus":
 			[
 				{
 					"name": "Shadow Stealth",
 					"entries":
 					[
-						"While in darkness, the living spell can use its bonus action to hide"
-					]
-				}
-			],
-			"reaction":
-			[
-				{
-					"name": "Shadow Shield",
-					"entries":
-					[
-						"While in darkness, the living spell can use its reaction to take half damage."
+						"While in darkness, the living spell can use its bonus action to hide."
 					]
 				}
 			],
@@ -1040,187 +1018,6 @@
 			{
 				"type": "external",
 				"url": "https://i.imgur.com/Uv4n7vn.png"
-			}
-		},
-		{
-			"name": "Living Dark Star",
-			"source": "Canbrew",
-			"size":
-			[
-				"G"
-			],
-			"type": "construct",
-			"alignment":
-			[
-				"U"
-			],
-			"ac":
-			[
-				{
-					"ac": 19,
-					"from":
-					[
-						"natural armor"
-					]
-				}
-			],
-			"hp":
-			{
-				"average": 280,
-				"formula": "16d20 + 112"
-			},
-			"speed":
-			{
-			  "fly": 60
-			},
-			"str": 10,
-			"dex": 14,
-			"con": 24,
-			"int": 3,
-			"wis": 11,
-			"cha": 24,
-			"senses":
-			[
-				"blindsight 120 ft.",
-				"proficiency bonus. +6"
-			],
-			"passive": 10,
-			"resist":
-			[
-				{
-					"resist":
-					[
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "damage from non-magical sources",
-					"cond": true
-				}
-			],
-			"immune":
-			[
-				"force",
-				"poison",
-				"psychic",
-				"thunder"
-			],
-			"conditionImmune":
-			[
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhausted",
-				"frightened",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"cr": "20",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries": [
-						"The living Darkstar has a spell save DC is 20 and has a {@hit 12} to hit on spell attacks."
-					]
-				}
-			],
-			"trait":
-			[
-				{
-					"name": "Amorphous Form",
-					"entries":
-					[
-						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
-					]
-				},
-				{
-					"name": "Antimagic Susceptibility",
-					"entries":
-					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
-					]
-				},
-				{
-					"name": "Gravitational Void",
-					"entries":
-					[
-						"The living Dark Stars space is considered to be under the effects of the Dark Star spell."
-					]
-				},
-				{
-					"name": "Unusual Nature",
-					"entries":
-					[
-						"The living spell does not need to eat, drink, or sleep."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"entries":
-					[
-						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				},
-				{
-					"name": "Void's Annihilation",
-					"entries":
-					[
-						"Creatures reduced to 0 hit points by the Dark Star is instantly killed and disintegrated."
-					]
-				}
-			],
-			"action":
-			[
-				{
-					"name": "Multiattack",
-					"entries":
-					[
-						"The living spell makes four Magical Strike attacks."
-					]
-				},
-				{
-					"name": "Magical Strike",
-					"entries":
-					[
-						"{@atk rs} {@hit 12} to hit, 10 ft., one target. {@h}28 ({@damage 4d10 + 6}) force damage."
-					]
-				},
-				{
-					"name": "Dark Star {@recharge 5}",
-					"entries":
-					[
-						"The living Darkstar can cast {@spell Dark Star|EGW}."
-					]
-				}
-			],
-			"traitTags":
-			[
-				"Amorphous",
-				"Magic Resistance",
-				"Unusual Nature"
-			],
-			"senseTags":
-			[
-				"B"
-			],
-			"actionTags":
-			[
-				"Multiattack"
-			],
-			"damageTags":
-			[
-				"O"
-			],
-			"tokenHref":
-			{
-				"type": "external",
-				"url": "https://i.imgur.com/uQKCHDI.png"
 			}
 		},
 		{
@@ -1336,7 +1133,7 @@
 					"name": "Disintegrating Touch",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes 11({@dice 3d6}) force damage"
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it takes 11({@dice 3d6}) force damage"
 					]
 				},
 				{
@@ -1664,7 +1461,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) fire damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) fire damage."
 					]
 				},
 				{
@@ -2032,7 +1829,7 @@
 					"name": "Charged Body",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) lightning damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) lightning damage."
 					]
 				},
 				{
@@ -3741,7 +3538,7 @@
 					"name": "Stormy Body",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) bludgeoning damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) bludgeoning damage."
 					]
 				},
 				{
@@ -3912,7 +3709,7 @@
 					"name": "Charring Radiance",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@dice 3d6}) radiant damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@dice 3d6}) radiant damage."
 					]
 				},
 				{
@@ -4091,7 +3888,7 @@
 					"name": "Vitriolic Body",
 					"entries":
 					[
-						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 3d4}) acid damage.",
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 3d4}) acid damage.",
 						"If the creature ends its turn in this area, it takes an additional 7 ({@dice 3d4}) acid damage as well."
 					]
 				},
