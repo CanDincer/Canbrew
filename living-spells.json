@@ -1290,7 +1290,7 @@
 					"name": "Sparkling Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 4 ({@damage 2d8}) psychic damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 9 ({@damage 2d8}) psychic damage."
 					]
 				},
 				{
@@ -1305,23 +1305,6 @@
 					"entries":
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				}
-			],
-			"action":
-			[
-				{
-					"name": "Faerie Flame",
-					"entries":
-					[
-						"{@atk ms} {@hit 5} to hit, all creatures within 5 ft., one target. {@h}8({@damage 1d8 + 3}) fire damage + 5({@damage 1d8}) psychic damage"
-					]
-				},
-				{
-					"name": "Faerie Fire {@recharge 5}",
-					"entries":
-					[
-						"The living spell can cast a 1st level faerie fire spell. Spellcasting DC The living spell has a spell save DC is 13 and has a {@hit 5} to hit on spell attacks"
 					]
 				}
 			],
