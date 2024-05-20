@@ -117,7 +117,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -265,7 +265,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -438,14 +438,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@dice 1d6}) fire damage."
+						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@dice 1d6}) fire damage."
 					]
 				},
 				{
@@ -599,7 +599,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -620,7 +620,7 @@
 					"name": "Poison Smog",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes must make a {@dc 16} Constitution saving throw, taking 9 ({@dice 2d8}) poison damage on a failed save, or half as much damage on a successful one."
+						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it must make a {@dc 16} Constitution saving throw, taking 9 ({@dice 2d8}) poison damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -763,16 +763,6 @@
 				"unconscious"
 			],
 			"cr": "11",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries": [
-						"The living spell has a spell save DC is 17 and has a {@hit 9} to hit on spell attacks."
-					]
-				}
-			],
 			"trait":
 			[
 				{
@@ -786,7 +776,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -800,7 +790,7 @@
 					"name": "Frozen Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
+						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
 					]
 				},
 				{
@@ -882,7 +872,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"H"
+				"G"
 			],
 			"type": "construct",
 			"alignment":
@@ -901,7 +891,8 @@
 			],
 			"hp":
 			{
-				"special": "38. (4d12+12)"
+				"average": 38,
+				"formula": "4d12+12"
 			},
 			"speed":
 			{
@@ -912,7 +903,7 @@
 			"con": 16,
 			"int": 3,
 			"wis": 11,
-			"cha": 16,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -965,20 +956,21 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
-					"name": "Umbral Form",
+					"name": "Umbral Body",
 					"entries":
 					[
-						"Creatures within the living spell's space must treat the area as the {@spell darkness|PHB} spell."
+						"Any creature that first enters or starts its turn in the living spell's space takes 4 ({@dice 1d8}) psychic damage."
 					]
 				},
 				{
 					"name": "Shadow Stalker",
 					"entries":
 					[
+						"Creatures within the living spell's space must treat the area as the {@spell darkness|PHB} spell.",
 						"While in darkness, the living spell is {@condition invisible} to creatures that rely on vision to see it."
 					]
 				},
@@ -999,13 +991,6 @@
 			],
 			"action":
 			[
-				{
-					"name": "Umbral Touch",
-					"entries":
-					[
-						"{@atk ms} {@hit 5} to hit, all creatures within 5 ft., one target. {@h}8 ({@dice 1d8 + 3}) necrotic damage + 5({@dice 1d8}) psychic damage"
-					]
-				},
 				{
 					"name": "Darkness {@recharge 5}",
 					"entries":
@@ -1158,7 +1143,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -1337,7 +1322,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -1351,7 +1336,7 @@
 					"name": "Disintegrating Touch",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes 11({@dice 3d6}) force damage"
+						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it takes 11({@dice 3d6}) force damage"
 					]
 				},
 				{
@@ -1513,7 +1498,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -1672,14 +1657,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) fire damage."
+						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) fire damage."
 					]
 				},
 				{
@@ -1853,7 +1838,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -2040,14 +2025,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
 					"name": "Charged Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) lightning damage."
+						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) lightning damage."
 					]
 				},
 				{
@@ -2222,7 +2207,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -2416,7 +2401,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -2583,7 +2568,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -2916,7 +2901,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -3075,7 +3060,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -3376,7 +3361,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -3570,7 +3555,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -3742,7 +3727,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -3756,7 +3741,7 @@
 					"name": "Stormy Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) bludgeoning damage."
+						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) bludgeoning damage."
 					]
 				},
 				{
@@ -3920,14 +3905,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
 					"name": "Charring Radiance",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@dice 3d6}) radiant damage."
+						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@dice 3d6}) radiant damage."
 					]
 				},
 				{
@@ -4099,14 +4084,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
 					"name": "Vitriolic Body",
 					"entries":
 					[
-						"Creatures that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 3d4}) acid damage.",
+						"Any creature that first enters or starts its turn in the living spell's space or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 3d4}) acid damage.",
 						"If the creature ends its turn in this area, it takes an additional 7 ({@dice 3d4}) acid damage as well."
 					]
 				},
