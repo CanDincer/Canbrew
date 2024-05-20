@@ -445,7 +445,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@dice 1d6}) fire damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@damage 1d6}) fire damage."
 					]
 				},
 				{
@@ -620,7 +620,7 @@
 					"name": "Poison Smog",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it must make a {@dc 16} Constitution saving throw, taking 9 ({@dice 2d8}) poison damage on a failed save, or half as much damage on a successful one."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it must make a {@dc 16} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -651,7 +651,7 @@
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms} {@hit 8} to hit, reach 10 ft., one target. {@h}22 ({@dice 5d6 + 5}) poison damage."
+						"{@atk ms} {@hit 8} to hit, reach 10 ft., one target. {@h}22 ({@damage 5d6 + 5}) poison damage."
 					]
 				},
 				{
@@ -963,7 +963,7 @@
 					"name": "Umbral Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 4 ({@dice 1d8}) psychic damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 4 ({@damage 1d8}) psychic damage."
 					]
 				},
 				{
@@ -1049,7 +1049,7 @@
 			},
 			"speed":
 			{
-			  "fly": 60
+			  "fly": 30
 			},
 			"str": 10,
 			"dex": 14,
@@ -1134,7 +1134,7 @@
 					"name": "Disintegrating Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 11 ({@dice 3d6}) force damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 45 ({@damage 6d6 + 24}) force damage."
 					]
 				},
 				{
@@ -1154,20 +1154,6 @@
 			],
 			"action":
 			[
-				{
-					"name": "Multiattack",
-					"entries":
-					[
-						"The living spell makes three Magical Strike attacks."
-					]
-				},
-				{
-					"name": "Magical Strike",
-					"entries":
-					[
-						"{@atk rs} {@hit 7} to hit, 60 ft., one target. {@h}20 ({@damage 3d6 + 10}) force damage."
-					]
-				},
 				{
 					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
@@ -1206,7 +1192,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"H"
+				"G"
 			],
 			"type": "construct",
 			"alignment":
@@ -1297,14 +1283,14 @@
 					"name": "Blazing Form",
 					"entries":
 					[
-						"Creatures within the living spell's space must treat the area as the Faerie Fire spell."
+						"Creatures within the living spell's space must treat the area as the {@spell faerie fire|PHB} spell."
 					]
 				},
 				{
-					"name": "Faerie Flame",
+					"name": "Sparkling Body",
 					"entries":
 					[
-						"When the living spell deals damage to a creature under the effect of the Faerie Fire spell, it takes an additional 9 ({@dice 2d8}) psychic damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 4 ({@damage 2d8}) psychic damage."
 					]
 				},
 				{
@@ -1328,7 +1314,7 @@
 					"name": "Faerie Flame",
 					"entries":
 					[
-						"{@atk ms} {@hit 5} to hit, all creatures within 5 ft., one target. {@h}8({@dice 1d8 + 3}) fire damage + 5({@dice 1d8}) psychic damage"
+						"{@atk ms} {@hit 5} to hit, all creatures within 5 ft., one target. {@h}8({@damage 1d8 + 3}) fire damage + 5({@damage 1d8}) psychic damage"
 					]
 				},
 				{
@@ -1456,7 +1442,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) fire damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@damage 2d6}) fire damage."
 					]
 				},
 				{
@@ -1634,7 +1620,7 @@
 					"name": "Charged Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) lightning damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@damage 2d6}) lightning damage."
 					]
 				},
 				{
@@ -1816,7 +1802,7 @@
 					"name": "Battering Waves",
 					"entries":
 					[
-						"Creatures that starts its turn in the living spell's space take 21({@dice 6d6}) bludgeoning damage."
+						"Creatures that starts its turn in the living spell's space take 21({@damage 6d6}) bludgeoning damage."
 					]
 				},
 				{
@@ -2163,7 +2149,7 @@
 					"name": "Burning Body",
 					"entries":
 					[
-						"Creatures that grapples or hits the living spell with a melee weapon attack while within 10 ft. of it takes 18({@dice 5d6}) fire damage."
+						"Creatures that grapples or hits the living spell with a melee weapon attack while within 10 ft. of it takes 18({@damage 5d6}) fire damage."
 					]
 				},
 				{
@@ -2215,7 +2201,7 @@
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk rs} {@hit 12} to hit, 1 mile., one target. {@h}25({@dice 5d6 + 8}) bludgeoning damage +18({@dice 5d6}) fire damage."
+						"{@atk rs} {@hit 12} to hit, 1 mile., one target. {@h}25({@damage 5d6 + 8}) bludgeoning damage +18({@damage 5d6}) fire damage."
 					]
 				},
 				{
@@ -2375,14 +2361,14 @@
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms} {@hit 5} to hit, all creatures within 5 ft., one target. {@h}14({@dice 2d10 + 3}) radiant damage. This attack has advantage against shapechangers. On a hit, a shapechanger instantly reverts to its normal form until the end of its next turn."
+						"{@atk ms} {@hit 5} to hit, all creatures within 5 ft., one target. {@h}14({@damage 2d10 + 3}) radiant damage. This attack has advantage against shapechangers. On a hit, a shapechanger instantly reverts to its normal form until the end of its next turn."
 					]
 				},
 				{
 					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"When a creature enters the living spell's area for the first time on a turn or starts its turn there   it must make a {@dc 14} Constitution saving throw. It take 11 ({@dice 2d10}) radiant damage on a failed save, or half as much damage on a successful one."
+						"When a creature enters the living spell's area for the first time on a turn or starts its turn there   it must make a {@dc 14} Constitution saving throw. It take 11 ({@damage 2d10}) radiant damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -3343,7 +3329,7 @@
 					"name": "Stormy Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 2d6}) bludgeoning damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@damage 2d6}) bludgeoning damage."
 					]
 				},
 				{
@@ -3514,7 +3500,7 @@
 					"name": "Charring Radiance",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@dice 3d6}) radiant damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@damage 3d6}) radiant damage."
 					]
 				},
 				{
@@ -3693,8 +3679,7 @@
 					"name": "Vitriolic Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@dice 3d4}) acid damage.",
-						"If the creature ends its turn in this area, it takes an additional 7 ({@dice 3d4}) acid damage as well."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@damage 3d4}) acid damage."
 					]
 				},
 				{
@@ -3725,7 +3710,7 @@
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms,rs} {@hit 7} to hit, 5 ft. and range 150 ft., one target. {@h}16 ({@damage 5d4 + 4}) acid damage. On a hit, the target takes an additional 12 ({@dice 5d4}) acid damage at the end of its next turn unless it uses its action to remove the acid."
+						"{@atk ms,rs} {@hit 7} to hit, 5 ft. and range 150 ft., one target. {@h}16 ({@damage 5d4 + 4}) acid damage. On a hit, the target takes an additional 12 ({@damage 5d4}) acid damage at the end of its next turn unless it uses its action to remove the acid."
 					]
 				},
 				{
