@@ -1887,7 +1887,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"M"
+				"T"
 			],
 			"type": "construct",
 			"alignment":
@@ -2123,7 +2123,7 @@
 					"name": "Lunar Form",
 					"entries":
 					[
-						"Creatures within the living spell's space must treat the area as the Moonbeam spell."
+						"When a creature enters the living spell's area for the first time on a turn or starts its turn there   it must make a {@dc 14} Constitution saving throw. It take 11 ({@damage 2d10}) radiant damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -2138,23 +2138,6 @@
 					"entries":
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				}
-			],
-			"action":
-			[
-				{
-					"name": "Magical Strike",
-					"entries":
-					[
-						"{@atk ms} {@hit 5} to hit, all creatures within 5 ft., one target. {@h}14({@damage 2d10 + 3}) radiant damage. This attack has advantage against shapechangers. On a hit, a shapechanger instantly reverts to its normal form until the end of its next turn."
-					]
-				},
-				{
-					"name": "Spell Mimicry {@recharge 5}",
-					"entries":
-					[
-						"When a creature enters the living spell's area for the first time on a turn or starts its turn there   it must make a {@dc 14} Constitution saving throw. It take 11 ({@damage 2d10}) radiant damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
