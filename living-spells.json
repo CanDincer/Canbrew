@@ -56,7 +56,7 @@
 			"con": 18,
 			"int": 3,
 			"wis": 11,
-			"cha": 18,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -217,9 +217,9 @@
 			"str": 26,
 			"dex": 10,
 			"con": 20,
-			"int": 1,
+			"int": 3,
 			"wis": 10,
-			"cha": 1,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -385,7 +385,7 @@
 			"con": 16,
 			"int": 3,
 			"wis": 11,
-			"cha": 16,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -1228,7 +1228,7 @@
 			"con": 16,
 			"int": 3,
 			"wis": 11,
-			"cha": 16,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -1918,7 +1918,7 @@
 			"con": 16,
 			"int": 3,
 			"wis": 11,
-			"cha": 16,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -1957,7 +1957,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "1",
+			"cr": "1/2",
 			"trait":
 			[
 				{
@@ -1992,34 +1992,17 @@
 					"name": "Swarm of Missiles",
 					"entries":
 					[
-						"The living spell chooses up to three targets and moves up to its speed to each target. The living spell deals 3 ({@damage 1d4 + 1}) damage three times distributed by the living spell."
+						"The living spell consists of a swarm of three magical darts chaotically orbiting around eachother."
 					]
 				}
 			],
 			"action":
 			[
 				{
-					"name": "Missile",
+					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"One creature in 90 ft. takes 4 ({@damage 1d4 + 1}) force damage. If the target uses shield, it takes no damage."
-					]
-				},
-				{
-					"name": "Magic Missiles. {@recharge 5}",
-					"entries":
-					[
-						"The living spell can cast a 1st level Magic Missiles."
-					]
-				}
-			],
-			"reaction":
-			[
-				{
-					"name": "Rampant Missile",
-					"entries":
-					[
-						"When the living spell takes damage, it can use its reaction to make a Missile attack against a creature in range."
+						"The living spell splits into three darts. Each dart chooses a creature that it can see and moves up to its speed towards the target. Each dart then deals 3 ({@damage 1d4 + 1}) force damage and the living spell drops to 0 hit points."
 					]
 				}
 			],
@@ -2265,7 +2248,7 @@
 			"con": 16,
 			"int": 3,
 			"wis": 11,
-			"cha": 16,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
