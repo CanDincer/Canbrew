@@ -445,7 +445,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 4 ({@damage 1d6}) fire damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 4 ({@damage 1d6}) fire damage."
 					]
 				},
 				{
@@ -497,6 +497,10 @@
 			"savingThrowForced":
 			[
 				"dexterity"
+			],
+			"miscTags":
+			[
+				"AOE"
 			],
 			"token":
 			{
@@ -681,6 +685,10 @@
 			[
 				"I"
 			],
+			"miscTags":
+			[
+				"AOE"
+			],
 			"token":
 			{
 				"name": "Living Cloudkill",
@@ -790,7 +798,7 @@
 					"name": "Frozen Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takess 9 ({@damage 2d8}) cold damage."
 					]
 				},
 				{
@@ -860,6 +868,10 @@
 			"savingThrowForced":
 			[
 				"constitution"
+			],
+			"miscTags":
+			[
+				"AOE"
 			],
 			"tokenHref":
 			{
@@ -1014,6 +1026,10 @@
 				"N",
 				"Y"
 			],
+			"miscTags":
+			[
+				"AOE"
+			],
 			"tokenHref":
 			{
 				"type": "external",
@@ -1096,17 +1112,6 @@
 				"unconscious"
 			],
 			"cr": "13",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries":
-					[
-						"The living spell has a spell save DC is 19 and has a {@hit 11} to hit on spell attacks"
-					]
-				}
-			],
 			"trait":
 			[
 				{
@@ -1134,7 +1139,7 @@
 					"name": "Disintegrating Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 45 ({@damage 6d6 + 24}) force damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takess 45 ({@damage 6d6 + 24}) force damage."
 					]
 				},
 				{
@@ -1320,8 +1325,11 @@
 			],
 			"damageTags":
 			[
-				"F",
 				"Y"
+			],
+			"miscTags":
+			[
+				"AOE"
 			],
 			"tokenHref":
 			{
@@ -1425,7 +1433,7 @@
 					"name": "Flaming Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@damage 2d6}) fire damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 7 ({@damage 2d6}) fire damage."
 					]
 				},
 				{
@@ -1463,7 +1471,7 @@
 					"name": "Spell Mimicry {@recharge 5}",
 							"entries":
 							[
-								"The living spell unleashes a stroke of fire in a 20-foot radius sphere. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one."
+								"The living spell moves up to its speed and unleashes a stroke of fire in a 20-foot radius sphere. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one."
 							]
 				}
 			],
@@ -1603,7 +1611,7 @@
 					"name": "Charged Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@damage 2d6}) lightning damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 7 ({@damage 2d6}) lightning damage."
 					]
 				},
 				{
@@ -1674,6 +1682,10 @@
 			[
 				"dexterity"
 			],
+			"miscTags":
+			[
+				"AOE"
+			],
 			"token":
 			{
 				"name": "Living Lightning Bolt",
@@ -1716,7 +1728,7 @@
 			"con": 20,
 			"int": 3,
 			"wis": 11,
-			"cha": 20,
+			"cha": 6,
 			"senses":
 			[
 				"blindsight 120 ft."
@@ -1755,16 +1767,6 @@
 				"unconscious"
 			],
 			"cr": "11",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries": [
-						"The living spell has a spell save DC is 17 and has a {@hit 9} to hit on spell attacks."
-					]
-				}
-			],
 			"trait":
 			[
 				{
@@ -1782,20 +1784,6 @@
 					]
 				},
 				{
-					"name": "Battering Waves",
-					"entries":
-					[
-						"Creatures that starts its turn in the living spell's space take 21({@damage 6d6}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Churning Tides",
-					"entries":
-					[
-						"Creatures that first enters or starts its turn within the Maelstrom's space must treat this area as {@quickref difficult terrain||3}."
-					]
-				},
-				{
 					"name": "Magical Attacks",
 					"entries":
 					[
@@ -1803,10 +1791,17 @@
 					]
 				},
 				{
-					"name": "Undercurrent",
+					"name": "Battering Waves",
 					"entries":
 					[
-						"Creatures that first starts its turn within the Maelstrom's space succeed a {@dc 17} Strength saving throw or be pulled 10 ft. towards the center of the Maelstrom's space."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 21 ({@damage 6d6}) bludgeoning damage and must make a {@dc 17} Strength saving throw or be pulled 10 ft. towards the center of the living spell's space."
+					]
+				},
+				{
+					"name": "Churning Tides",
+					"entries":
+					[
+						"Creatures within the living spell's space must treat this area as {@quickref difficult terrain||3}."
 					]
 				},
 				{
@@ -2841,203 +2836,6 @@
 			}
 		},
 		{
-			"name": "Living Reality Break",
-			"source": "Canbrew",
-			"size":
-			[
-				"M"
-			],
-			"type": "construct",
-			"alignment":
-			[
-				"U"
-			],
-			"ac":
-			[
-				{
-					"ac": 19,
-					"from":
-					[
-						"natural armor"
-					]
-				}
-			],
-			"hp":
-			{
-				"average": 184,
-				"formula": "16d8 + 112"
-			},
-			"speed":
-			{
-			  "fly": 60
-			},
-			"str": 10,
-			"dex": 14,
-			"con": 24,
-			"int": 3,
-			"wis": 11,
-			"cha": 24,
-			"senses":
-			[
-				"blindsight 120 ft."
-			],
-			"passive": 10,
-			"resist":
-			[
-				{
-					"resist":
-					[
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "damage from non-magical sources",
-					"cond": true
-				},
-				"cold",
-				"force"
-			],
-			"immune":
-			[
-				{
-					"immune":
-					[
-						"poison",
-						"psychic"
-					],
-					"preNote": "unconscious"
-				}
-			],
-			"cr": "17",
-			"spellcasting":
-			[
-				{
-					"name": "Spellcasting DC",
-					"type": "spellcasting",
-					"headerEntries": [
-						"The living spell has a spell save DC is 21 and has a {@hit 13} to hit on spell attacks."
-					]
-				}
-			],
-			"trait":
-			[
-				{
-					"name": "Amorphous Form",
-					"entries":
-					[
-						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
-					]
-				},
-				{
-					"name": "Antimagic Susceptibility",
-					"entries":
-					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
-					]
-				},
-				{
-					"name": "Unusual Nature",
-					"entries":
-					[
-						"The living spell does not need to eat, drink, or sleep."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"entries":
-					[
-						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				}
-			],
-			"action":
-			[
-				{
-					"name": "Multiattack",
-					"entries":
-					[
-						"The living spell can make three attacks with any combination of its Reality Breaches."
-					]
-				},
-				{
-					"name": "Reality Breaches",
-					"entries":
-					[
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items":
-							[
-								{
-									"name": "Dimensional Rend",
-									"type": "item",
-									"style": "italic",
-									"entries":
-									[
-										"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}33 ({@damage 5d12 + 7}) force damage. On hit, the target, and everything it is wearing or carry must succeed a {@dc 21} Charisma saving throw or be teleported 30 ft. to a spot to a spot of the living spell's choice."
-									]
-								},
-								{
-									"name": "Far Realm Breach",
-									"type": "item",
-									"style": "italic",
-									"entries":
-									[
-										"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}27 ({@damage 3d12 + 7}) psychic damage. On hit, the target must succeed a {@dc 21} Wisdom saving throw or be {@condition stunned} until the end of its next turn."
-									]
-								},
-								{
-									"name": "Void Ray",
-									"type": "item",
-									"style": "italic",
-									"entries":
-									[
-										"{@atk rs} {@hit 13} to hit, 150 ft., one target. {@h}27 ({@damage 5d12 + 7}) cold damage. On hit, the target must succeed a {@dc 21} Constitution saving throw or be {@condition blinded} until the end of its next turn."
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"traitTags":
-			[
-				"Amorphous",
-				"Magic Resistance",
-				"Unusual Nature"
-			],
-			"senseTags":
-			[
-				"B"
-			],
-			"actionTags":
-			[
-				"Multiattack"
-			],
-			"damageTags":
-			[
-				"C",
-				"O",
-				"Y"
-			],
-			"conditionInflict":
-			[
-				"blinded",
-				"stunned"
-			],
-			"savingThrowForced":
-			[
-				"charisma",
-				"constitution",
-				"wisdom"
-			],
-			"tokenHref":
-			{
-				"type": "external",
-				"url": "https://i.imgur.com/0B54IJW.png"
-			}
-		},
-		{
 			"name": "Living Spirit Guardians",
 			"source": "Canbrew",
 			"size":
@@ -3312,7 +3110,7 @@
 					"name": "Stormy Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@damage 2d6}) bludgeoning damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 7 ({@damage 2d6}) bludgeoning damage."
 					]
 				},
 				{
@@ -3483,7 +3281,7 @@
 					"name": "Charring Radiance",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 11 ({@damage 3d6}) radiant damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 11 ({@damage 3d6}) radiant damage."
 					]
 				},
 				{
@@ -3662,7 +3460,7 @@
 					"name": "Vitriolic Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it take 7 ({@damage 3d4}) acid damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 7 ({@damage 3d4}) acid damage."
 					]
 				},
 				{
