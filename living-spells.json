@@ -1202,7 +1202,7 @@
 			"ac":
 			[
 				{
-					"ac": 14,
+					"ac": 18,
 					"from":
 					[
 						"natural armor"
@@ -1262,7 +1262,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "2",
+			"cr": "1/2",
 			"trait":
 			[
 				{

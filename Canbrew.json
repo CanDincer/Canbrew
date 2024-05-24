@@ -35531,7 +35531,7 @@
 			"entries":
 			[
 				"You magically infuse the lead into a solid object no larger than 1 foot in any dimension that you can touch. The object doesn't visibly change, but it holds the potential to interlope magical energy and can be detected by spells like detect magic.",
-				"The object triggers when a level 4 or lower spell is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the {@table malicious magic surge table|Canbrew} and the spell ends.",
+				"The object triggers when a level 4 or lower spell is cast and either the target or the caster is within 60 feet of the object. In addition to the triggering spell's effect, the caster has to roll on the {@table perilious magic surge table|Canbrew} and the spell ends.",
 				"Only one surging resonance can be active on an object at a time. Only one object imbued with surging resonance can trigger at a time for a spell. If there are more than one such objects within the trigger range, the closest one is expended."
 			],
 			"entriesHigherLevel":
@@ -35648,7 +35648,7 @@
 	"table":
 	[
 		{
-			"name": "Malicious Magic Surge Table",
+			"name": "Perilious Magic Surge Table",
 			"source": "Canbrew",
 			"intro":
 			[
@@ -35659,7 +35659,7 @@
 				"If a table item says you cast a spell which requires concentrating on it, you cannot end your concentration on the spell willingly until the duration ends.",
 				"If you are using {@variantrule spell points|DMG} instead of spell slots; for any spell that refers to your remeaning spell slots, look up the {@table Variant: Spell Points; Spell Points by Level|DMG|spell points by level} table to determine the class level that would have as much spell points and than refer to a {@table Spellcasting; Multiclass Spellcaster: Spell Slots per Spell Level|PHB|spell slots per level} table, for any spell that refers to level of the spell, refer to {@table Variant: Spell Points; Spell Point Cost|DMG|spell point cost} table."
 			],
-			"caption": "Malicious Magic Surge Effects",
+			"caption": "Perilious Magic Surge Effects",
 			"colLabels":
 			[
 				"1d100",
