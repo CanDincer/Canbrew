@@ -1872,6 +1872,10 @@
 			[
 				"strength"
 			],
+			"miscTags":
+			[
+				"AOE"
+			],
 			"tokenHref":
 			{
 				"type": "external",
@@ -1893,7 +1897,7 @@
 			"ac":
 			[
 				{
-					"ac": 14,
+					"ac": 20,
 					"from":
 					[
 						"natural armor"
@@ -1902,8 +1906,8 @@
 			],
 			"hp":
 			{
-				"average": 15,
-				"formula": "2d8 + 6"
+				"average": 10,
+				"formula": "3d4 + 3"
 			},
 			"speed":
 			{
@@ -1982,6 +1986,13 @@
 					"entries":
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Swarm of Missiles",
+					"entries":
+					[
+						"The living spell chooses up to three targets and moves up to its speed to each target. The living spell deals 3 ({@damage 1d4 + 1}) damage three times distributed by the living spell."
 					]
 				}
 			],

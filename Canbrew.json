@@ -35562,7 +35562,13 @@
 						"source": "PHB"
 					}
 				]
-			}
+			},
+			"miscTags":
+			[
+				"OBJ",
+				"RO",
+				"SGT"
+			]
 		},
 		{
 			"name": "Spinning Blade Swarm",
@@ -35598,7 +35604,8 @@
 			[
 				{
 					"type": "timed",
-					"duration": {
+					"duration":
+					{
 						"type": "minute",
 						"amount": 10
 					},
@@ -35607,8 +35614,8 @@
 			],
 			"entries":
 			[
-				"You toss the metal coins in to the air, turning each into a spinning blade with 1 foot radius in an unoccupied space you can see within 5-feet range. Unless yuo give them a command, they hover in the same space until the duration ends. As a bonus action, you can make a ranged spell attack with a blade against a creature, loose object, or structure within the range. On a hit, the target takes {@damage 1d12} slashing damage. The blade then disappears. This attack scores a critical hit if the number on the {@dice 1d20} is 18 or higher.",
-				"As an action on your subsequent turns, you can make another ranged spell attack with a blade."
+				"You toss the metal coins to the air, turning each into a spinning blade with 1 foot radius in an unoccupied space you can see within 5-feet range. Unless you give them a command, they hover in the same space until the duration ends. As a bonus action, you can make a ranged spell attack with a blade against a creature, loose object, or structure within the range. On a hit, the target takes {@damage 1d12} slashing damage. The blade then disappears. This attack scores a critical hit if the number on the {@dice 1d20} is 18 or higher.",
+				"As an action on your subsequent turns, you can make another ranged spell attack with a remaining blade."
 			],
 			"entriesHigherLevel":
 			[
