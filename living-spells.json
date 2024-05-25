@@ -2622,7 +2622,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"M"
+				"L"
 			],
 			"type": "construct",
 			"alignment":
@@ -2721,13 +2721,6 @@
 					"entries":
 					[
 						"The living spell has advantage on saving throws against spells and magical effects."
-					]
-				},
-				{
-					"name": "Spiritual Form",
-					"entries":
-					[
-						"Creatures that first enters or starts its turn in the living spell's space, it must treat the area as if it were under the effects of Spell Mimicry."
 					]
 				}
 			],
