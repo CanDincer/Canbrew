@@ -2622,7 +2622,7 @@
 			"source": "Canbrew",
 			"size":
 			[
-				"L"
+				"H"
 			],
 			"type": "construct",
 			"alignment":
@@ -2632,7 +2632,7 @@
 			"ac":
 			[
 				{
-					"ac": 16,
+					"ac": 15,
 					"from":
 					[
 						"natural armor"
@@ -2641,8 +2641,8 @@
 			],
 			"hp":
 			{
-				"average": 68,
-				"formula": "8d8 + 32"
+				"average": 62,
+				"formula": "6d12 + 24"
 			},
 			"speed":
 			{
@@ -2692,7 +2692,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "6",
+			"cr": "5",
 			"trait":
 			[
 				{
@@ -2737,14 +2737,14 @@
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms} {@hit 6} to hit, reach 10 ft., all targets in 5 ft. of thee target. {@h}8 ({@damage 1d8 + 4}) radiant plus 8 ({@damage 1d8 + 4}) necrotic damage (its choice). On a hit, the target's movement speed is halved until the start of its next turn"
+						"{@atk ms} {@hit 6} to hit, 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) radiant plus 8 ({@damage 1d8 + 4}) necrotic damage. On a hit, the target's movement speed is halved until the start of its next turn"
 					]
 				},
 				{
 					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"The living spell creates a 15 feet radius centered on it in which evil and good spirits flit around for 1 minute or until the living spell moves. A creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a {@dc 15} Wisdom saving throw. On a failed save, the creature takes {@damage 2d8} radiant damage plus {@damage 2d8} necrotic damage. On a successful save, the creature takes half as much damage."
+						"The living spell creates a 15 feet radius centered on it in which evil and good spirits flit around until the living spell moves. A creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a {@dc 15} Wisdom saving throw. On a failed save, the creature takes {@damage 2d8} radiant damage plus {@damage 2d8} necrotic damage. On a successful save, the creature takes half as much damage."
 					]
 				}
 			],
@@ -2773,8 +2773,7 @@
 			],
 			"miscTags":
 			[
-				"AOE",
-				"RCH"
+				"AOE"
 			],
 			"tokenHref":
 			{
@@ -2797,7 +2796,7 @@
 			"ac":
 			[
 				{
-					"ac": 16,
+					"ac": 15,
 					"from":
 					[
 						"natural armor"
@@ -2923,7 +2922,7 @@
 					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"A 60-foot-radius sphere of whirling air springs into existence, centered on the living spell. The sphere remains for 1 minute or until the living spell moves. Each creature in the sphere when it appears or that ends its turn there must succeed on a {@dc 15} Strength saving throw or take {@damage 2d6} bludgeoning damage and {@damage 4d6} lightning damage. On a successful save, it takes half as much damage. The sphere's space is {@quickref difficult terrain||3}."
+						"A 60-foot-radius sphere of whirling air springs into existence, centered on the living spell. The sphere remains until the living spell moves. Each creature in the sphere when it appears or that ends its turn there must succeed on a {@dc 15} Strength saving throw or take {@damage 2d6} bludgeoning damage and {@damage 4d6} lightning damage. On a successful save, it takes half as much damage. The sphere's space is {@quickref difficult terrain||3}."
 					]
 				}
 			],
@@ -2984,8 +2983,8 @@
 			],
 			"hp":
 			{
-				"average": 157,
-				"formula": "15d10 + 75"
+				"average": 93,
+				"formula": "6d20 + 30"
 			},
 			"speed":
 			{
@@ -3035,7 +3034,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "11",
+			"cr": "10",
 			"trait":
 			[
 				{
@@ -3094,14 +3093,14 @@
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk rs} {@hit 9} to hit, 150 ft., one target. {@h}27 ({@damage 6d6 + 6}) radiant damage."
+						"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}27 ({@damage 6d6 + 6}) radiant damage."
 					]
 				},
 				{
 					"name": "Sunburst {@recharge 5}",
 					"entries":
 					[
-						"Brilliant sunlight flashes in a 60-foot radius centered on the living spell. Each creature in that light must make a {@dc 17} Constitution saving throw. On a failed save, a creature takes {@damage 12d6} radiant damage and is {@condition blinded} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition blinded} by this spell.",
+						"Brilliant sunlight flashes in a 60-foot radius centered on the living spell. Each creature in that light must make a {@dc 18} Constitution saving throw. On a failed save, a creature takes {@damage 12d6} radiant damage and is {@condition blinded} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition blinded} by this spell.",
 						"A creature {@condition blinded} by light makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition blinded}."
 					]
 				}
