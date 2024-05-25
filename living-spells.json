@@ -2340,7 +2340,7 @@
 			"ac":
 			[
 				{
-					"ac": 16,
+					"ac": 18,
 					"from":
 					[
 						"natural armor"
@@ -2378,16 +2378,16 @@
 					],
 					"note": "damage from non-magical sources",
 					"cond": true
-				},
-				"acid",
-				"cold",
-				"fire",
-				"lightning"
+				}
 			],
 			"immune":
 			[
 				"poison",
-				"psychic"
+				"psychic",
+				"acid",
+				"cold",
+				"fire",
+				"lightning"
 			],
 			"conditionImmune":
 			[
@@ -2403,7 +2403,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "15",
+			"cr": "13",
 			"trait":
 			[
 				{
@@ -2579,7 +2579,7 @@
 							"name": "7-Violet",
 							"entries":
 							[
-								"On a failed save, the target is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)"
+								"On a failed save, the target is {@condition blinded}. It must then make a Wisdom saving throw at the start of the living spell's next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)"
 							]
 						},
 						{
