@@ -2500,15 +2500,6 @@
 									]
 								},
 								{
-									"name": "Indigo Ray",
-									"type": "item",
-									"style": "italic",
-									"entries":
-									[
-										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}The target is {@condition restrained} until the end of its next turn."
-									]
-								},
-								{
 									"name": "Violet Ray",
 									"type": "item",
 									"style": "italic",
