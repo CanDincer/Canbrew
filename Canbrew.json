@@ -34405,6 +34405,3279 @@
 					}
 				]
 			}
+		},{
+			"name": "Living Animate Dead",
+			"source": "Canbrew",
+			"size":
+			[
+				"M"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 51,
+				"formula": "6d8 + 24"
+			},
+			"speed":
+			{
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 18,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"necrotic"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "5",
+			"trait":
+			[
+				{
+					"name": "Animation",
+					"entries":
+					[
+						"If a creature is killed by the living spell, it returns to life as a {@creature zombie|MM} or {@creature skeleton|MM} after 1 minute. These undead are fully under the control of the living spell. The living spell can control up to 6 undead in this manner at a time.",
+						"The living spell has {@dice 1d4 - 1} such {@creature skeleton|MM|skeletons} and {@dice 1d4 - 1} such {@creature zombie|MM|zombies} when encountered."
+					]
+				},
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell makes two Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk ms} {@hit 6} to hit, 5 ft., one target. {@h}18 ({@damage 3d8 + 4}) necrotic damage."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"N"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/7wThLe9.png"
+			}
+		},
+		{
+			"name": "Living Bigby's Hand",
+			"source": "Canbrew",
+			"otherSources":
+			[
+				{
+					"source": "IDRotF",
+					"page": 298
+				}
+			],
+			"size":
+			[
+				"L"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 20,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 52,
+				"formula": "5d10 + 25"
+			},
+			"speed":
+			{
+				"fly": 60
+			},
+			"str": 26,
+			"dex": 10,
+			"con": 20,
+			"int": 3,
+			"wis": 10,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"lightning"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Interpose",
+					"entries":
+					[
+						"Creatures of the living spell's choice gain the benefits of half cover. Additionally, the area within 5 ft.of the living spell's space is considered {@quickref difficult terrain||3} for creatures of the living spell's choice."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Clenched Fist",
+					"entries":
+					[
+						"{@atk ms} {@hit 10} to hit, 5 ft., one target. {@h}26 ({@damage 4d8 + 8}) force damage."
+					]
+				},
+				{
+					"name": "Grasping Hand",
+					"entries":
+					[
+						"The living spell attempts to grab a Huge or smaller creature within 5 feet of it. The target must succeed on a {@dc 15} Dexterity saving throw or be {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target takes 15 ({@damage 2d6 + 8}) bludgeoning damage at the start of each of its turns. The living spell can grapple only one creature at a time and can't use Clenched Fist until the grapple ends."
+					]
+				},
+				{
+					"name": "Fling",
+					"entries":
+					[
+						"One Large or smaller object held or creature grappled by the living spell is thrown up to 120 feet in a random direction and knocked prone. If a thrown target strikes a solid surface, the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a {@dc 15} Dexterity saving throw or take the same damage and be knocked prone."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"damageTags":
+			[
+				"B",
+				"O"
+			],
+			"conditionInflict":
+			[
+				"grappled"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			],
+			"token":
+			{
+				"name": "Living Bigby's Hand",
+				"source": "IDRotF"
+			}
+		},
+		{
+			"name": "Living Burning Hands",
+			"source": "Canbrew",
+			"otherSources":
+			[
+				{
+					"source": "ERLW",
+					"page": 298
+				}
+			],
+			"size":
+			[
+				"M"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 15,
+				"formula": "2d8 + 6"
+			},
+			"speed":
+			{
+				"fly": 25
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 16,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"fire"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Flaming Body",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 4 ({@damage 1d6}) fire damage."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk ms} {@hit 5} to hit, 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) fire damage"
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"The living spell unleashes a thin sheet of flames in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"damageTags":
+			[
+				"F"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"token":
+			{
+				"name": "Living Burning Hands",
+				"source": "ERLW"
+			}
+		},
+		{
+			"name": "Living Cloudkill",
+			"source": "Canbrew",
+			"otherSources":
+			[
+				{
+					"source": "ERLW",
+					"page": 299
+				}
+			],
+			"size":
+			[
+				"L"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 73,
+				"formula": "7d10 + 35"
+			},
+			"speed":
+			{
+			  "fly": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "7",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Cloudy Form",
+					"entries":
+					[
+						"The living spell's space is considered to be heavily obscured."
+					]
+				},
+				{
+					"name": "Endless Smog",
+					"entries":
+					[
+						"The living spell has advantage on attack rolls against creatures in its space."
+					]
+				},
+				{
+					"name": "Poison Smog",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it must make a {@dc 16} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell makes two Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk ms} {@hit 8} to hit, reach 10 ft., one target. {@h}22 ({@damage 5d6 + 5}) poison damage."
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"The living spell creates a 40-foot-diameter sphere of fog within 60 feet of it (the fog spreads around corners). When a creature enters the fog for the first time on a turn or starts its turn there, it must make a {@dc 16} Constitution saving throw, taking 22 ({@damage 5d8}) poison damage on a failed save, or half as much damage on a successful one.",
+						"The fog moves 10 feet away from the living spell at the start of each of its turns, rolling along the ground and through openings. The fog lasts until the living spell moves."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"I"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"token":
+			{
+				"name": "Living Cloudkill",
+				"source": "ERLW"
+			}
+		},
+		{
+			"name": "Living Cone of Cold",
+			"source": "Canbrew",
+			"size":
+			[
+				"L"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 19,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 115,
+				"formula": "11d10 + 55"
+			},
+			"speed":
+			{
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"cold"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "11",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Flash Freeze",
+					"entries":
+					[
+						"Creatures killed by the living spell is turned to ice."
+					]
+				},
+				{
+					"name": "Frozen Body",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takess 9 ({@damage 2d8}) cold damage."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell can make two attacks with any combination of its Frigid Touch or Frigid Blast."
+					]
+				},
+				{
+					"name": "Frigid Touch",
+					"entries":
+					[
+						"{@atk ms} {@hit 7} to hit, 10 ft., one target. {@h}23 ({@damage 4d8 + 5}) cold damage."
+					]
+				},
+				{
+					"name": "Frigid Blast",
+					"entries":
+					[
+						"{@atk rs} {@hit 7} to hit, 60 ft., one target. {@h}23 ({@damage 4d8 + 5}) cold damage."
+					]
+				},
+				{
+					"name": "Cone of Cold {@recharge 5}",
+					"entries":
+					[
+						"A blast of cold air erupts from the living spell. Each creature in a 60-foot cone must make a {@dc 17} Constitution saving throw. A creature takes {@damage 8d8} cold damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"C"
+			],
+			"savingThrowForced":
+			[
+				"constitution"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/CsCRZbe.png"
+			}
+		},
+		{
+			"name": "Living Darkness",
+			"source": "Canbrew",
+			"size":
+			[
+				"G"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 12,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 27,
+				"formula": "2d20 + 6"
+			},
+			"speed":
+			{
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 16,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"necrotic"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Umbral Body",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 4 ({@damage 1d8}) psychic damage."
+					]
+				},
+				{
+					"name": "Shadow Stalker",
+					"entries":
+					[
+						"Creatures within the living spell's space must treat the area as the {@spell darkness|PHB} spell.",
+						"While in darkness, the living spell is {@condition invisible} to creatures that rely on vision to see it."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Shadow Stealth",
+					"entries":
+					[
+						"While in darkness, the living spell can use its bonus action to hide."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"damageTags":
+			[
+				"N",
+				"Y"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/Uv4n7vn.png"
+			}
+		},
+		{
+			"name": "Living Disintegrate",
+			"source": "Canbrew",
+			"size":
+			[
+				"M"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 126,
+				"formula": "12d8 + 72"
+			},
+			"speed":
+			{
+			  "fly": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 22,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"force"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "13",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Disintegration",
+					"entries":
+					[
+						"A creature reduced to 0 hit points by the living spell is reduced to a pile of fine gray dust including everything it is wearing and carrying, except magic items. The creature can be restored to life only by means of a {@spell true resurrection} or a {@spell wish} spell. ash."
+					]
+				},
+				{
+					"name": "Disintegrating Body",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takess 45 ({@damage 6d6 + 24}) force damage."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"The creature targeted must make a {@dc 17} Dexterity saving throw. On a failed save, the target takes {@damage 10d6 + 40} force damage. The target is disintegrated if this damage leaves it with 0 hit points.",
+						"A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a {@spell true resurrection} or a {@spell wish} spell."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"O"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/4XLTHH6.png"
+			}
+		},
+		{
+			"name": "Living Faerie Fire",
+			"source": "Canbrew",
+			"size":
+			[
+				"G"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 13,
+				"formula": "2d12 + 6"
+			},
+			"speed":
+			{
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 16,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"fire"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "1/2",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Blazing Form",
+					"entries":
+					[
+						"Creatures within the living spell's space must treat the area as the {@spell faerie fire|PHB} spell."
+					]
+				},
+				{
+					"name": "Sparkling Body",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 9 ({@damage 2d8}) psychic damage."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"damageTags":
+			[
+				"Y"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/S3NkCPp.png"
+			}
+		},
+		{
+			"name": "Living Fireball",
+			"source": "Canbrew",
+			"size":
+			[
+				"L"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 57,
+				"formula": "6d10 + 24"
+			},
+			"speed":
+			{
+				"fly": 60
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 18,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"fire"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "5",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Flaming Body",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 7 ({@damage 2d6}) fire damage."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell makes two Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk ms} {@hit 7} to hit, reach 10 ft., one target. {@h}21 ({@damage 5d6 + 4}) fire damage."
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+							"entries":
+							[
+								"The living spell moves up to its speed and unleashes a stroke of fire in a 20-foot radius sphere. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one."
+							]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"F"
+			],
+			"miscTags":
+			[
+				"AOE",
+				"RCH"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/zQQPDRv.png"
+			}
+		},
+		{
+			"name": "Living Lightning Bolt",
+			"source": "Canbrew",
+			"otherSources":
+			[
+				{
+					"source": "ERLW",
+					"page": 299
+				}
+			],
+			"size":
+			[
+				"L"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 57,
+				"formula": "6d10 + 24"
+			},
+			"speed":
+			{
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 18,
+			"int": 3,
+			"wis": 10,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"lightning"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "5",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Charged Body",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 7 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Breakdown",
+					"entries":
+					[
+						"The living spell can only target the closest enemy with its Magical Strike attacks. It has advantage on the attack roll if the target is wearing armor made of metal."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell makes two Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk ms,rs} {@hit 7} to hit, 5 ft. or 150 ft., one target. {@h}18 ({@damage 4d6 + 4}) lightning damage"
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"The living spell unleashes a stroke of lightning in a line 100 feet long and 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"L"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"token":
+			{
+				"name": "Living Lightning Bolt",
+				"source": "ERLW"
+			}
+		},
+		{
+			"name": "Living Maelstrom",
+			"source": "Canbrew",
+			"size":
+			[
+				"G"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 17,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 155,
+				"formula": "10d20 + 50"
+			},
+			"speed":
+			{
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "11",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Magical Attacks",
+					"entries":
+					[
+						"The living spell's attacks count as magical for the purposes of overcoming resistance or immunity."
+					]
+				},
+				{
+					"name": "Battering Waves",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there takes 21 ({@damage 6d6}) bludgeoning damage and must make a {@dc 17} Strength saving throw or be pulled 10 ft. towards the center of the living spell's space."
+					]
+				},
+				{
+					"name": "Churning Tides",
+					"entries":
+					[
+						"Creatures within the living spell's space must treat this area as {@quickref difficult terrain||3}."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell can make two attacks with any combination of its Torrent Cannon of Hydro Lash."
+					]
+				},
+				{
+					"name": "Hydro Lash",
+					"entries":
+					[
+						"{@atk ms} {@hit 9} to hit, 10 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning damage. On a hit, the target must succeed a {@dc 17} Strength saving throw or be pulled 10 ft. towards the living spell."
+					]
+				},
+				{
+					"name": "Torrent Cannon",
+					"entries":
+					[
+						"{@atk rs} {@hit 9} to hit, 60 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning damage. On a hit, the target must succeed a {@dc 17} Strength saving throw or be pushed 10 ft. away from the living spell."
+					]
+				},
+				{
+					"name": "Maelstrom {@recharge 5}",
+					"entries":
+					[
+						"The living spell can cast a 5th level maelstrom."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"savingThrowForced":
+			[
+				"strength"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/lCXtob7.png"
+			}
+		},
+		{
+			"name": "Living Magic Missile",
+			"source": "Canbrew",
+			"size":
+			[
+				"T"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 20,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 10,
+				"formula": "3d4 + 3"
+			},
+			"speed":
+			{
+				"fly": 120
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 16,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"force"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "1/2",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				},
+				{
+					"name": "Swarm of Missiles",
+					"entries":
+					[
+						"The living spell consists of a swarm of three magical darts chaotically orbiting around eachother."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"The living spell splits into three darts. Each dart chooses a creature that it can see and moves up to its speed towards the target. Each dart then deals 3 ({@damage 1d4 + 1}) force damage and the living spell drops to 0 hit points."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"damageTags":
+			[
+				"O"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/PTtpwAh.png"
+			}
+		},
+		{
+			"name": "Living Moonbeam",
+			"source": "Canbrew",
+			"size":
+			[
+				"L"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 93,
+				"formula": "11d10 + 33"
+			},
+			"speed":
+			{
+				"fly": 60
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 16,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"radiant"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell Antimagic Field}, it takes 10 damage.",
+						"This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Lunar Form",
+					"entries":
+					[
+						"When a creature enters the living spell's area for the first time on a turn or starts its turn there   it must make a {@dc 14} Constitution saving throw. It take 11 ({@damage 2d10}) radiant damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"R"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/1Kbf33s.png"
+			}
+		},
+		{
+			"name": "Living Mordenkainen's Sword",
+			"source": "Canbrew",
+			"size":
+			[
+				"S"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 20,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 123,
+				"formula": "13d6 + 78"
+			},
+			"speed":
+			{
+				"fly": 50
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 22,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"force"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "11",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell makes three Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk ms} {@hit 8} to hit, 5 ft., one target. {@h}23 ({@damage 3d10 + 6}) force damage."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack",
+				"Parry"
+			],
+			"damageTags":
+			[
+				"O"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/pzmWC3A.png"
+			}
+		},
+		{
+			"name": "Living Prismatic Spray",
+			"source": "Canbrew",
+			"size":
+			[
+				"M"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 133,
+				"formula": "14d8 + 70"
+			},
+			"speed":
+			{
+			  "fly": 60
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"acid",
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "16",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Prismatic Rays",
+					"entries":
+					[
+						"The living spell shoots three of the following magical prismatic rays at random (reroll duplicates), choosing one to three targets it can see within 60 feet of it",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items":
+							[
+								{
+									"name": "Red Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) fire damage."
+									]
+								},
+								{
+									"name": "Orange Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) acid damage."
+									]
+								},
+								{
+									"name": "Yellow Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) lightning damage."
+									]
+								},
+								{
+									"name": "Green Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) poison damage."
+									]
+								},
+								{
+									"name": "Blue Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}22 ({@damage 5d6 + 5}) cold damage."
+									]
+								},
+								{
+									"name": "Violet Ray",
+									"type": "item",
+									"style": "italic",
+									"entries":
+									[
+										"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}The target is {@condition blinded} until the end of its next turn."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"The living spell flashes up to eight rays with different colors and power. Each creature in a 60-foot cone must make a {@dc 18} Dexterity saving throw. For each target, roll a {@dice d8} to determine which color ray affects it.",
+						{
+							"type": "entries",
+							"name": "1-Red",
+							"entries":
+							[
+								"The target takes {@damage 10d6} fire damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "2-Orange",
+							"entries":
+							[
+								"The target takes {@damage 10d6} acid damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "3-Yellow",
+							"entries":
+							[
+								"The target takes {@damage 10d6} lightning damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "4-Green",
+							"entries":
+							[
+								"The target takes {@damage 10d6} poison damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "5-Blue",
+							"entries":
+							[
+								"The target takes {@damage 10d6} cold damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "6-Indigo",
+							"entries":
+							[
+								"On a failed save, the target is {@condition restrained}. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the {@condition petrified} condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "7-Violet",
+							"entries":
+							[
+								"On a failed save, the target is {@condition blinded}. It must then make a Wisdom saving throw at the start of the living spell's next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "8-Special",
+							"entries":
+							[
+								"The target is struck by two rays. Roll twice more, rerolling any 8."
+							]
+						}
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"A",
+				"C",
+				"F",
+				"I",
+				"L"
+			],
+			"conditionInflict":
+			[
+				"blinded",
+				"restrained"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/iD5zdCy.png"
+			}
+		},
+		{
+			"name": "Living Spirit Guardians",
+			"source": "Canbrew",
+			"size":
+			[
+				"H"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 62,
+				"formula": "6d12 + 24"
+			},
+			"speed":
+			{
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 18,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"radiant",
+				"necrotic"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "5",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell makes two Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk ms} {@hit 6} to hit, 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) radiant plus 8 ({@damage 1d8 + 4}) necrotic damage. On a hit, the target's movement speed is halved until the start of its next turn"
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"The living spell creates a 15 feet radius centered on it in which evil and good spirits flit around until the living spell moves. A creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a {@dc 15} Wisdom saving throw. On a failed save, the creature takes {@damage 2d8} radiant damage plus {@damage 2d8} necrotic damage. On a successful save, the creature takes half as much damage."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"damageTags":
+			[
+				"N",
+				"R"
+			],
+			"savingThrowForced":
+			[
+				"wisdom"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/rCG2n1G.png"
+			}
+		},
+		{
+			"name": "Living Storm Sphere",
+			"source": "Canbrew",
+			"size":
+			[
+				"H"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 63,
+				"formula": "6d12 + 24"
+			},
+			"speed":
+			{
+				"fly": 35
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 18,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"lightning"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "6",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Living Storm",
+					"entries":
+					[
+						"Creatures within the storm sphere's space must treat it as {@quickref difficult terrain||3}. While in this area, creatures have disadvantage on Wisdom ({@skill Perception}) checks."
+					]
+				},
+				{
+					"name": "Stormy Body",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 7 ({@damage 2d6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell makes two Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk ms,rs} {@hit 6} to hit, 60 ft., one target. {@h}18 ({@damage 4d6 + 4}) lightning damage. This attack has advantage while Spell Mimicry is active."
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"A 60-foot-radius sphere of whirling air springs into existence, centered on the living spell. The sphere remains until the living spell moves. Each creature in the sphere when it appears or that ends its turn there must succeed on a {@dc 15} Strength saving throw or take {@damage 2d6} bludgeoning damage and {@damage 4d6} lightning damage. On a successful save, it takes half as much damage. The sphere's space is {@quickref difficult terrain||3}."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"B",
+				"L"
+			],
+			"savingThrowForced":
+			[
+				"strength"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/ouWnzj1.png"
+			}
+		},
+		{
+			"name": "Living Sunburst",
+			"source": "Canbrew",
+			"size":
+			[
+				"G"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 93,
+				"formula": "6d20 + 30"
+			},
+			"speed":
+			{
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 20,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"radiant"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "10",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Charring Radiance",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 11 ({@damage 3d6}) radiant damage."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries":
+					[
+						"The living spell emits bright light in a 60 ft. radius and dim light an additional 60 ft. This light counts as sunlight and dispels any darkness in its area that was created by a spell."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell makes two Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk rs} {@hit 8} to hit, 60 ft., one target. {@h}27 ({@damage 6d6 + 6}) radiant damage."
+					]
+				},
+				{
+					"name": "Sunburst {@recharge 5}",
+					"entries":
+					[
+						"Brilliant sunlight flashes in a 60-foot radius centered on the living spell. Each creature in that light must make a {@dc 18} Constitution saving throw. On a failed save, a creature takes {@damage 12d6} radiant damage and is {@condition blinded} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition blinded} by this spell.",
+						"A creature {@condition blinded} by light makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition blinded}."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Illumination",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"R"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/03mMTLS.png"
+			}
+		},
+		{
+			"name": "Living Vitriolic Sphere",
+			"source": "Canbrew",
+			"size":
+			[
+				"H"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 76,
+				"formula": "8d10 + 32"
+			},
+			"speed":
+			{
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 18,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"senses":
+			[
+				"blindsight 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from non-magical sources",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"psychic",
+				"lightning"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhausted",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"cr": "7",
+			"trait":
+			[
+				{
+					"name": "Amorphous Form",
+					"entries":
+					[
+						"The living spell can move through a space as narrow as 1 inch without squeezing. The living spell can also move through and occupy another creatures space."
+					]
+				},
+				{
+					"name": "Antimagic Susceptibility",
+					"entries":
+					[
+						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+					]
+				},
+				{
+					"name": "Vitriolic Body",
+					"entries":
+					[
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 7 ({@damage 3d4}) acid damage."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries":
+					[
+						"The living spell does not need to eat, drink, or sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The living spell has advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The living spell makes two Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries":
+					[
+						"{@atk ms} {@hit 7} to hit, 5 ft., one target. {@h}16 ({@damage 5d4 + 4}) acid damage."
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries":
+					[
+						"The living spell explodes in a 20-foot-radius sphere. Each creature in that area must make a {@dc 16} Dexterity saving throw. On a failed save, a creature takes {@damage 10d4} acid damage and another {@damage 5d4} acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Amorphous",
+				"Magic Resistance",
+				"Unusual Nature"
+			],
+			"senseTags":
+			[
+				"B"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"A"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			],
+			"miscTags":
+			[
+				"AOE"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/aKgmZCO.png"
+			}
 		}
 	],
 	"legendaryGroup":
