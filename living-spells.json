@@ -2184,7 +2184,7 @@
 			"ac":
 			[
 				{
-					"ac": 18,
+					"ac": 20,
 					"from":
 					[
 						"natural armor"
@@ -2193,8 +2193,8 @@
 			],
 			"hp":
 			{
-				"average": 153,
-				"formula": "18d6 + 90"
+				"average": 123,
+				"formula": "13d6 + 78"
 			},
 			"speed":
 			{
@@ -2244,7 +2244,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "8",
+			"cr": "11",
 			"trait":
 			[
 				{
@@ -2290,13 +2290,6 @@
 					"entries":
 					[
 						"{@atk ms} {@hit 8} to hit, 5 ft., one target. {@h}23 ({@damage 3d10 + 6}) force damage."
-					]
-				},
-				{
-					"name": "Spell Mimicry {@recharge 5}",
-					"entries":
-					[
-						"The living spell opens up a plane of force and sends out sword-shaped projectiles in a 20-foot cone in front of it. Each creature in the area must make a {@dc 18} Dexterity saving throw or take {@damage 3d10} force damage"
 					]
 				}
 			],
@@ -2403,7 +2396,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "13",
+			"cr": "16",
 			"trait":
 			[
 				{
@@ -2437,13 +2430,6 @@
 			],
 			"action":
 			[
-				{
-					"name": "Multiattack",
-					"entries":
-					[
-						"The living spell makes three attacks with its Prismatic Rays. However, it cannot use the same ray more than once on its turn."
-					]
-				},
 				{
 					"name": "Prismatic Rays",
 					"entries":
