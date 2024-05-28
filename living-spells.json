@@ -3199,7 +3199,7 @@
 				"stunned",
 				"unconscious"
 			],
-			"cr": "6",
+			"cr": "7",
 			"trait":
 			[
 				{
@@ -3251,7 +3251,7 @@
 					"name": "Magical Strike",
 					"entries":
 					[
-						"{@atk ms,rs} {@hit 7} to hit, 5 ft. and range 150 ft., one target. {@h}16 ({@damage 5d4 + 4}) acid damage. On a hit, the target takes an additional 12 ({@damage 5d4}) acid damage at the end of its next turn unless it uses its action to remove the acid."
+						"{@atk ms} {@hit 7} to hit, 5 ft., one target. {@h}16 ({@damage 5d4 + 4}) acid damage."
 					]
 				},
 				{
