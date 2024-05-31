@@ -21187,7 +21187,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 13} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -21428,7 +21428,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 13} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -21798,7 +21798,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 14} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}10 ({@damage 1d6 + 7}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}10 ({@damage 1d6 + 7}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -22132,7 +22132,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 13} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -22524,7 +22524,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -22855,7 +22855,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -23114,7 +23114,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -23450,7 +23450,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -23710,7 +23710,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -24044,7 +24044,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -24299,7 +24299,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -24552,7 +24552,7 @@
 					"name": "Bite",
 					"entries":
 					[
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -24774,7 +24774,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -25052,7 +25052,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -25370,7 +25370,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -25614,7 +25614,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -25970,7 +25970,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -26261,7 +26261,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -26629,7 +26629,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -26897,7 +26897,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -27205,7 +27205,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -27432,7 +27432,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -27683,7 +27683,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -27936,7 +27936,7 @@
 					"name": "Bite (Bat or Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -29755,7 +29755,7 @@
 					"name": "Bite (Vampire Form Only)",
 					"entries":
 					[
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}9 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn|MM} under the vampire's control."
 					]
 				},
 				{
@@ -38057,7 +38057,7 @@
 					"name": "Blood Pool",
 					"entries":
 					[
-						"You have a blood pool of 10 of which you lose 1 every day. Each time you use your bloodthirst to drink a creature's blood, you regain blood points equal to half of the necrotic damage dealt.",
+						"You have a blood pool of 10 of which you lose 1 every day. Each time you use your Bloodthirst to drink a creature's blood, you regain blood points equal to half of the necrotic damage dealt.",
 						"You can use your blood points to create the following effects:",
 						{
 							"type": "list",
@@ -38097,7 +38097,7 @@
 					"entries":
 					[
 						"You can use an action to drain blood and life energy from a willing creature, or one that is {@condition grappled} by you, {@condition incapacitated}, or {@condition restrained}. Make a melee attack against the target. If you hit, you deal 1 piercing damage and {@dice 1d6} necrotic damage. If you make consecutive attacks to drink blood, you only deal the necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount from humanoids and half from other creatures. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
-						"A humanoid killed in this way becomes a null. You cannot drain blood from constructs, elementals, oozes, plants, and undead creatures."
+						"A humanoid killed in this way becomes a {@creature vampire null|PSZ|null}. You cannot drain blood from constructs, elementals, oozes, plants, and undead creatures."
 					]
 				},
 				{
@@ -38105,8 +38105,8 @@
 					"name": "Vampire Lord",
 					"entries":
 					[
-						"You can feed your blood to a willing creature, or one that is {@condition grappled} by you, {@condition incapacitated}, or {@condition restrained}. Make a Strength (Athletics) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitated}. If you succeed, the target is tainted with your blood and turns into a {@creature vampire spawn} after a long rest. Whether you succeed or fail, you lose {@dice 5d20} hit points. If you drop to 0 hit points during this process, it fails.",
-						"A {@creature vampire spawn} created in this way is automatically {@condition charmed} by you. Each time you or one of your companions do anything harmful to the target, it can make a Wisdom saving throw, ending the effect on itself on a success. DC for this saving throw is equal to 8 + double your proficiency bonus. Otherwise, the effect lasts until it grows into a full vampire or until you are destroyed. The DC is reduced by 2 for each vampire spawn you already have under your charm.",
+						"You can feed your blood to a willing creature, or one that is {@condition grappled} by you, {@condition incapacitated}, or {@condition restrained}. Make a Strength (Athletics) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). You succeed automatically if the target is {@condition incapacitated}. If you succeed, the target is tainted with your blood and turns into a {@creature vampire spawn|MM} after a long rest. Whether you succeed or fail, you lose {@dice 5d20} hit points. If you drop to 0 hit points during this process, it fails.",
+						"A {@creature vampire spawn|MM} created in this way is automatically {@condition charmed} by you. Each time you or one of your companions do anything harmful to the target, it can make a Wisdom saving throw, ending the effect on itself on a success. DC for this saving throw is equal to 8 + double your proficiency bonus. Otherwise, the effect lasts until it grows into a full vampire or until you are destroyed. The DC is reduced by 2 for each {@creature vampire spawn|MM} you already have under your charm.",
 						{
 							"type": "quote",
 							"entries": [
