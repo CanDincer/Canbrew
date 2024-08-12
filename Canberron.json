@@ -1,0 +1,140 @@
+{
+	"_meta":
+	{
+		"sources":
+		[
+			{
+				"json": "Canberron",
+				"abbreviation": "CBE",
+				"full": "Canberron",
+				"authors":
+				[
+					"Can Dinçer"
+				],
+				"version": "2024.08.12.0",
+				"url": "https://github.com/CanDincer/Canbrew"
+			}
+		],
+		"dateAdded": 1723470600,
+		"dateLastModified": 1723470600
+	},
+  "monster":
+	[
+		{
+			"name": "Şimşir",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"source": "Canberron",
+			"alignment":
+			[
+				"L",
+        "E"
+			],
+			"ac":
+			[
+				{
+					"ac": 19,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed":
+			{
+				"walk": 30,
+        "climb": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 15,
+			"int": 11,
+			"wis": 12,
+			"cha": 10,
+			"skill":
+			{
+				"athletics": "+5",
+        "intimidation": "+2",
+        "perception": "+3",
+        "stealth": "+3"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+      "languages":
+      [
+        "Common"
+      ],
+			"passive": 13,
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being poisoned and is immune to disease. Magic can't put it to sleep."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 3} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 1}) slashing damage."
+					]
+				}
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"damageTags":
+			[
+				"S",
+				"P"
+			],
+			"miscTags":
+			[
+				"MW",
+        "RW"
+			]
+		}
+  ]
+}
