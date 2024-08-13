@@ -35,6 +35,7 @@
 				]
 			},
 			"source": "Canberron",
+      "isNamedCreature": true,
 			"alignment":
 			[
 				"L",
@@ -77,6 +78,11 @@
 			[
 				"poison"
 			],
+      "conditionImmune":
+      [
+        "disease",
+        "magical sleep"
+      ],
 			"senses":
 			[
 				"darkvision 60 ft."
@@ -93,9 +99,16 @@
 					"name": "Warforged Resilience",
 					"entries":
 					[
-						"The warforged has advantage on saving throws against being poisoned and is immune to disease. Magic can't put it to sleep."
+						"The warforged has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put it to sleep."
 					]
-				}
+				},
+        {
+          "name": "Final Messenger",
+          "entries":
+			[
+            "If Saber is disabled, destroyed, or rendered {@condition unconscious}, his fnal messenger fies off to a message station where a message will be relayed to the Lord of Blades. The fnal messenger is a delicate winged assembly that deploys from his chest and carries a vision of his last moments. It has armor class 20, 10 hit points, and a fy speed of 60 ft."
+          ]
+        }
 			],
 			"action":
 			[
@@ -103,24 +116,35 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The warforged makes two weapon attacks."
+						"The warforged makes two longsword attacks or a longsword attack and an iron fsts attack."
 					]
 				},
 				{
-					"name": "Longsword",
+					"name": "Longsword +1",
 					"entries":
 					[
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 3}) slashing damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
 					]
 				},
 				{
-					"name": "Crossbow",
+					"name": "Iron fists",
 					"entries":
 					[
-						"{@atk rw} {@hit 3} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 1}) slashing damage."
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Flaming Bolts",
+					"entries":
+					[
+						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 1}) piercing damage and 3 ({@damage 1d6}) fire damage."
 					]
 				}
 			],
+      "attachedItems":
+      [
+        "+1 longsword|dmg"
+      ],
 			"senseTags":
 			[
 				"D"
@@ -148,8 +172,7 @@
     {
       "name": "Kesik",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size":
       [
         "M"
@@ -217,7 +240,7 @@
       [
         "Common"
       ],
-      "cr": "1",
+      "cr": "2",
       "trait":
       [
         {
@@ -266,8 +289,7 @@
                   "type": "item",
                   "name": "Raging Multiattack",
                   "entry": "Cutter makes two melee attacks whiue raging."
-                },
-                "Challenge 2 (450 xp)"
+                }
               ]
             }
           ]
@@ -292,7 +314,1267 @@
         "MLW",
         "MW",
         "RW"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/2VeSVDa.png"
+			}
+    },
+    {
+      "name": "Sergeant Dolom",
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+			  [
+          "dwarf"
+        ]
+      },
+      "alignment":
+			[
+        "L",
+        "G"
+      ],
+      "ac":
+			[
+        {
+          "ac": 14,
+          "from":
+			[
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+			{
+        "average": 67,
+        "formula": "9d8 + 27"
+      },
+      "speed":
+			{
+        "walk": 25
+      },
+      "str": 14,
+      "dex": 15,
+      "con": 16,
+      "int": 8,
+      "wis": 12,
+      "cha": 10,
+      "save":
+			{
+        "str": "+4",
+        "con": "+5"
+      },
+      "skill":
+			{
+        "athletics": "+5",
+        "intimidation": "+2"
+      },
+      "senses":
+			[
+        "darkvision 60ft."
+      ],
+      "passive": 11,
+      "resist":
+			[
+        "poison"
+      ],
+      "languages":
+			[
+        "Common",
+        "Dwarf"
+      ],
+      "cr": "3",
+      "trait":
+			[
+        {
+          "name": "Dwarven Resilience",
+          "entries":
+			[
+            "Dwarves have advantage on saving throws against being {@condition poisoned}."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Multiattack",
+          "entries":
+			[
+            "Dolom makes two melee or ranged attacks."
+          ]
+        },
+        {
+          "name": "Morningstar",
+          "entries":
+			[
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries":
+			[
+            "{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+			[
+        "light crossbow|phb",
+        "morningstar|phb"
+      ],
+      "senseTags":
+			[
+        "D"
+      ],
+      "actionTags":
+			[
+        "Multiattack"
+      ],
+      "languageTags":
+			[
+        "C"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW",
+        "RW"
       ]
-    }    
+    },
+    {
+      "name": "Şarn Şehir Bekçisi",
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+			[
+          "human"
+        ]
+      },
+      "alignment":
+			[
+        "L",
+        "N"
+      ],
+      "ac":
+			[
+        {
+          "ac": 13,
+          "from":
+			[
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+			{
+        "average": 16,
+        "formula": "4d8 + 4"
+      },
+      "speed":
+			{
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 12,
+      "cha": 10,
+      "save":
+			{
+        "str": "+3",
+        "con": "+3"
+      },
+      "skill":
+			{
+        "athletics": "+3",
+        "intimidation": "+2",
+        "perception": "+3"
+      },
+      "passive": 13,
+      "languages":
+			[
+        "Common"
+      ],
+      "cr": "1/4",
+      "action":
+			[
+        {
+          "name": "Halberd",
+          "entries":
+			[
+            "{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d10 + 1}) slashing damage."
+          ]
+        },
+        {
+          "name": "Club",
+          "entries":
+			[
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+          ]
+        }
+      ],
+      "attachedItems":
+			[
+        "club|phb",
+        "halberd|phb"
+      ],
+      "languageTags":
+			[
+        "C"
+      ],
+      "damageTags":
+			[
+        "B",
+        "S"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW",
+        "RCH"
+      ]
+    },
+    {
+      "name": "Eranna d'Ghallanda",
+      "source": "Canberron",
+      "size":
+			[
+        "S"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+			[
+          "halfing"
+        ]
+      },
+      "alignment":
+			[
+        "N"
+      ],
+      "ac":
+			[
+        11
+      ],
+      "hp":
+			{
+        "average": 9,
+        "formula": "2d8"
+      },
+      "speed":
+			{
+        "walk": 25
+      },
+      "str": 8,
+      "dex": 12,
+      "con": 10,
+      "int": 10,
+      "wis": 12,
+      "cha": 12,
+      "skill":
+			{
+        "perception": "+3",
+        "persuasion": "+3"
+      },
+      "passive": 13,
+      "languages":
+			[
+        "Common",
+        "Halfing",
+        "Goblin"
+      ],
+      "cr": "1/4",
+      "trait":
+			[
+        {
+          "name": "Lucky",
+          "entries":
+			[
+            "When Eranna roll a 1 on the {@dice d20} for an attack roll, ability check, or saving throw, she can reroll the die and must use the new roll."
+          ]
+        },
+        {
+          "name": "Brave",
+          "entries":
+			[
+            "Halfings have advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Halfing Nimbleness",
+          "entries":
+			[
+            "Halfings can move through the space of any creature that is of a size larger than theirs."
+          ]
+        },
+        {
+          "name": "Naturally Stealthy",
+          "entries":
+			[
+            "Halfings can attempt to hide even when obscured only by a creature that is at least one size larger than them."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Dagger",
+          "entries":
+			[
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+			[
+        "dagger|phb"
+      ],
+      "languageTags":
+			[
+        "C",
+        "GO"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/FZHmGS1.png"
+			}
+    },
+    {
+      "name": "Elaydren Vown d'Cannith",
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+			[
+          "human"
+        ]
+      },
+      "alignment":
+			[
+        "N"
+      ],
+      "ac":
+			[
+        {
+          "ac": 15,
+          "from":
+			[
+            "{@spell mage armor}"
+          ]
+        }
+      ],
+      "hp":
+			{
+        "average": 31,
+        "formula": "7d8"
+      },
+      "speed":
+			{
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 10,
+      "int": 14,
+      "wis": 12,
+      "cha": 16,
+      "save":
+			{
+        "con": "+2",
+        "cha": "+5"
+      },
+      "skill":
+			{
+        "deception": "+5",
+        "history": "+4",
+        "investigation": "+4",
+        "persuasion": "+5"
+      },
+      "passive": 11,
+      "languages":
+			[
+        "Common",
+        "Giant",
+        "Gnome"
+      ],
+      "cr": "3",
+      "spellcasting":
+			[
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+			[
+            "Elaydren is a 3rd level spellcaster. Her spellcasting ability is Charisma (Spell save {@dc 13}, {@hit 5} to hit with spell attacks). She knows the following sorcerer spells:"
+          ],
+          "spells":
+			{
+            "0":
+			{
+              "spells":
+			[
+                "{@spell acid splash}",
+                "{@spell friends}",
+                "{@spell message}",
+                "{@spell prestidigitation}"
+              ]
+            },
+            "1":
+			{
+              "slots": 4,
+              "spells":
+			[
+                "{@spell charm person}",
+                "{@spell detect magic}",
+                "{@spell mage armor}"
+              ]
+            },
+            "2":
+			{
+              "slots": 2,
+              "spells":
+			[
+                "{@spell detect thoughts}"
+              ]
+            }
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait":
+			[
+        {
+          "name": "Artisan's Intuition",
+          "entries":
+			[
+            "When Elaydren makes an ability check with artisan's tools, roll {@dice 1d4} and add it to the result."
+          ]
+        },
+        {
+          "name": "Maker's Gift",
+          "entries":
+			[
+            "Elaydren knows the cantrip mending."
+          ]
+        },
+        {
+          "name": "Magecraft",
+          "entries":
+			[
+            "Elaydren can create a temporary magic item out of common materials. Choose a cantrip from the wizard spell list. Describe the item connected to it. As long as she possesses the item, she knows that cantrip. At the end of a long rest, she can replace it with a new item and select a new cantrip from the wizard spell list. Intelligence is her spellcasting ability for this cantrip."
+          ]
+        },
+        {
+          "name": "Spellsmith",
+          "entries":
+			[
+            "Elaydren can spend one minute to weave a temporary enchantment into a nonmagical suit of armor or weapon. For the next hour the object becomes a magic item, gaining a +1 bonus to AC if it is armor or a +1 bonus to hit and damage if it is a weapon. Once she uses this trait, she can't use it again until she fnishes a long rest."
+          ]
+        },
+        {
+          "name": "Potion of Greater Healing (Single use)",
+          "entries":
+			[
+            "Elaydren regains {@dice 4d4 + 4} hit points."
+          ]
+        },
+        {
+          "name": "Magecrafted Bracelet",
+          "entries":
+			[
+            "As long as Elaydren wears her silver bracelet set with onyx and pearls, she knows the cantrip minor illusion."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Dagger +1 (spellsmith)",
+          "entries":
+			[
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+			[
+        "+1 dagger|dmg"
+      ],
+      "languageTags":
+			[
+        "C",
+        "GI"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "damageTagsSpell":
+			[
+        "A"
+      ],
+      "spellcastingTags":
+			[
+        "CS"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell":
+			[
+        "charmed"
+      ],
+      "savingThrowForcedSpell":
+			[
+        "dexterity",
+        "wisdom"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/P1wMT5T.png"
+			}
+    },
+    {
+      "name": "Nibbur",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size":
+			[
+        "S"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+			[
+          "goblinoid"
+        ]
+      },
+      "alignment":
+			[
+        "L",
+        "N"
+      ],
+      "ac":
+			[
+        12
+      ],
+      "hp":
+			{
+        "average": 10,
+        "formula": "3d6"
+      },
+      "speed":
+			{
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 10,
+      "int": 12,
+      "wis": 12,
+      "cha": 10,
+      "skill":
+			{
+        "insight": "+3",
+        "perception": "+3"
+      },
+      "senses":
+			[
+        "darkvision 60 ft"
+      ],
+      "passive": 13,
+      "languages":
+			[
+        "Common",
+        "Goblin"
+      ],
+      "cr": "1/4",
+      "trait":
+			[
+        {
+          "name": "Nimble Escape",
+          "entries":
+			[
+            "Nibbur can take the Disengage or Hide action as a bonus action on each of his turns."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Tailoring Shears",
+          "entries":
+			[
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "senseTags":
+			[
+        "D"
+      ],
+      "languageTags":
+			[
+        "C",
+        "GO"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "miscTags":
+			[
+        "MW"
+      ]
+    },
+    {
+      "name": "Mandy",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+			[
+          "goblinoid"
+        ]
+      },
+      "alignment":
+			[
+        "L",
+        "N"
+      ],
+      "ac":
+			[
+        13
+      ],
+      "hp":
+			{
+        "average": 52,
+        "formula": "8d8 + 16"
+      },
+      "speed":
+			{
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 16,
+      "con": 14,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "skill":
+			{
+        "intimidation": "+2",
+        "stealth": "+6",
+        "survival": "+2"
+      },
+      "senses":
+			[
+        "darkvision 60 ft"
+      ],
+      "passive": 10,
+      "languages":
+			[
+        "Common",
+        "Goblin"
+      ],
+      "cr": "2",
+      "trait":
+			[
+        {
+          "name": "Brute",
+          "entries":
+			[
+            "A melee weapon deals one extra die of its damage when the Mandy hits with it (included in the attack)."
+          ]
+        },
+        {
+          "name": "Surprise Attack",
+          "entries":
+			[
+            "If Mandy surprises a creature and hits it with an attack during the frst round of combat, the target takes an extra 7 ({@damage 2d6}) damage from the attack."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Multiattack",
+          "entries":
+			[
+            "Mandy makes two melee attacks"
+          ]
+        },
+        {
+          "name": "War Pick",
+          "entries":
+			[
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+			[
+        "war pick|phb"
+      ],
+      "traitTags":
+			[
+        "Brute"
+      ],
+      "senseTags":
+			[
+        "D"
+      ],
+      "actionTags":
+			[
+        "Multiattack"
+      ],
+      "languageTags":
+			[
+        "C",
+        "GO"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW"
+      ]
+    },
+    {
+      "name": "Skakan",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size":
+			[
+        "S"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+			[
+          "goblinoid"
+        ]
+      },
+      "alignment":
+			[
+        "N",
+        "E"
+      ],
+      "ac":
+			[
+        12
+      ],
+      "hp":
+			{
+        "average": 17,
+        "formula": "5d6"
+      },
+      "speed":
+			{
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 10,
+      "int": 13,
+      "wis": 12,
+      "cha": 13,
+      "skill":
+			{
+        "deception": "+3",
+        "perception": "+3",
+        "persuasion": "+3",
+        "stealth": "+6"
+      },
+      "senses":
+			[
+        "darkvision 60 ft"
+      ],
+      "passive": 13,
+      "languages":
+			[
+        "Common",
+        "Goblin"
+      ],
+      "cr": "1/4",
+      "trait":
+			[
+        {
+          "name": "Nimble Escape",
+          "entries":
+			[
+            "Skakan can take the Disengage or Hide action as a bonus action on each of his turns."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Dagger",
+          "entries":
+			[
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Spear",
+          "entries":
+			[
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.",
+            "Skakan is the face of a small sewer clan that fnds things in the sewers that Skakan then sells to bring in some coin. A couple of the dirtier goblins in the crowd are part of his clan and there to attempt to stir up interest in his goods.",
+            "A PC not engaged in the conversation with Skakan who surveys the area can make a {@dc 15} Wisdom ({@skill Perception}) check to notice the shifter watching them."
+          ]
+        }
+      ],
+      "attachedItems":
+			[
+        "dagger|phb",
+        "spear|phb"
+      ],
+      "senseTags":
+			[
+        "D"
+      ],
+      "languageTags":
+			[
+        "C",
+        "GO"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Agent of the Lord of Blades",
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+			[
+          "warforged"
+        ]
+      },
+      "alignment":
+			[
+        "L",
+        "E"
+      ],
+      "ac":
+			[
+        {
+          "ac": 16,
+          "from":
+			[
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+			{
+        "average": 22,
+        "formula": "4d8 + 4"
+      },
+      "speed":
+			{
+        "walk": 35
+      },
+      "str": 12,
+      "dex": 16,
+      "con": 12,
+      "int": 10,
+      "wis": 10,
+      "cha": 8,
+      "save":
+			{
+        "dex": "+5",
+        "int": "+2"
+      },
+      "skill":
+			{
+        "athletics": "+5",
+        "acrobatics": "+5",
+        "investigation": "+2. perception +2",
+        "stealth": "+7"
+      },
+      "passive": 12,
+      "resist":
+			[
+        "poison"
+      ],
+      "conditionImmune":
+			[
+        "disease",
+        "magical sleep"
+      ],
+      "languages":
+			[
+        "Common"
+      ],
+      "cr": "1",
+      "trait":
+			[
+        {
+          "name": "Warforged Resilience",
+          "entries":
+			[
+            "The agent has advantage on saving throws against being {@condition poisoned}."
+          ]
+        },
+        {
+          "name": "Final Messenger",
+          "entries":
+			[
+            "If the agent is disabled, destroyed, or rendered unconscious, his final messenger fies off to warn Saber, The final messenger is a delicate winged assembly that deploys from his chest and carries a vision of his last moments. It has armor class 20, 10 hit points, and a fly speed of 60 ft."
+          ]
+        },
+        {
+          "name": "Cunning Action",
+          "entries":
+			[
+            "On each of its turns, the agent can use a bonus action to take the Dash, Disengage, or Hide action."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries":
+			[
+            "The agent deaus an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an auut of the agent that isn't incapacitated and the agent doesn't have disadvantage on the attack roll."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Rapier",
+          "entries":
+			[
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries":
+			[
+            "{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+			[
+        "light crossbow|phb",
+        "rapier|phb"
+      ],
+      "traitTags":
+			[
+        "Sneak Attack"
+      ],
+      "languageTags":
+			[
+        "C"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW",
+        "RW"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/voDd7RL.png"
+			}
+    },
+    {
+      "name": "Feral Shifter",
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+			[
+          "shifter"
+        ]
+      },
+      "alignment":
+			[
+        "C",
+        "N"
+      ],
+      "ac":
+			[
+        {
+          "ac": 12,
+          "from":
+			[
+            "{@item leather armor|PHB}"
+          ]
+        }
+      ],
+      "hp":
+			{
+        "special": "22 (3d8 +3), 28 when shifted"
+      },
+      "speed":
+			{
+        "walk": 35
+      },
+      "str": 12,
+      "dex": 13,
+      "con": 13,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "skill":
+			{
+        "athletics": "+3",
+        "intimidation": "+2. perception +2"
+      },
+      "senses":
+			[
+        "darkvision 60 ft"
+      ],
+      "passive": 12,
+      "languages":
+			[
+        "Common",
+        "Goblin"
+      ],
+      "cr": "1/2",
+      "trait":
+			[
+        {
+          "name": "Pack Tactics",
+          "entries":
+			[
+            "A shifter has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Shifting",
+          "entries":
+			[
+            "As a bonus action, a shifter assumes a more bestial appearance for 1 minute. When shifted, it gains 6 temporary hit points and a bite attack."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Multiattack",
+          "entries":
+			[
+            "The shifter makes two attacks: one with its bite and one with its dagger."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries":
+			[
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+          ]
+        },
+        {
+          "name": "Bite (only when shifted)",
+          "entries":
+			[
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage.",
+            "Adjustments The fght with the agent and his hirelings should be a fairly tough one. To increase its diffculty for a more powerful party, you can make the agent a challenge rating 2 (450 xp) opponent with the following adjustments:",
+            {
+              "type": "list",
+              "items":
+			[
+                "Increase his hit points to 44 ({@dice 8d8 + 8})",
+                "Add the action: Multiattack. The agent makes two attacks with his rapier."
+              ]
+            }
+          ]
+        }
+      ],
+      "attachedItems":
+			[
+        "dagger|phb"
+      ],
+      "traitTags":
+			[
+        "Pack Tactics"
+      ],
+      "senseTags":
+			[
+        "D"
+      ],
+      "actionTags":
+			[
+        "Multiattack"
+      ],
+      "languageTags":
+			[
+        "C",
+        "GO"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW"
+      ]
+    },
+    {
+      "name": "Rusted Defender",
+      "source": "Canberron",
+      "size": [
+        "S"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 16,
+        "formula": "3d6 + 6"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 14,
+      "dex": 15,
+      "con": 15,
+      "int": 8,
+      "wis": 11,
+      "cha": 7,
+      "skill": {
+        "perception": "+4",
+        "stealth": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft"
+      ],
+      "passive": 12,
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune":
+      [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "languages": [
+        "understands Common but can't speak"
+      ],
+      "cr": "1/2",
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "CS"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ]
+    }
   ]
 }
