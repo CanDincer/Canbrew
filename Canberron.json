@@ -1415,7 +1415,7 @@
         {
           "name": "Pack Tactics",
           "entries":
-			[
+			    [
             "A shifter has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
           ]
         },
@@ -1655,6 +1655,16 @@
         "Common"
       ],
       "cr": "1",
+      "trait":
+      [
+        {
+          "name": "Protection",
+          "entries":
+			    [
+            "When an attacker the warforged can see makes an attack roll against a creature within 5 feet of the warforged, the warforged can impose disadvantage on the attack roll."
+          ]
+        }
+      ],
       "action":
 			[
         {
