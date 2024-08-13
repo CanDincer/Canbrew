@@ -143,7 +143,7 @@
 			],
       "attachedItems":
       [
-        "+1 longsword|dmg"
+        "+1 longsword|DMG"
       ],
 			"senseTags":
 			[
@@ -297,8 +297,8 @@
       ],
       "attachedItems":
       [
-        "battleaxe|phb",
-        "sling|phb"
+        "battleaxe|PHB",
+        "sling|PHB"
       ],
       "languageTags":
       [
@@ -346,7 +346,7 @@
         {
           "ac": 14,
           "from":
-			[
+	    		[
             "{@item studded leather armor|PHB|studded leather}"
           ]
         }
@@ -396,7 +396,7 @@
         {
           "name": "Dwarven Resilience",
           "entries":
-			[
+		    	[
             "Dwarves have advantage on saving throws against being {@condition poisoned}."
           ]
         }
@@ -406,29 +406,29 @@
         {
           "name": "Multiattack",
           "entries":
-			[
+		    	[
             "Dolom makes two melee or ranged attacks."
           ]
         },
         {
           "name": "Morningstar",
           "entries":
-			[
+		    	[
             "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 2}) piercing damage."
           ]
         },
         {
           "name": "Light Crossbow",
           "entries":
-			[
+	    		[
             "{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d8 + 2}) piercing damage."
           ]
         }
       ],
       "attachedItems":
 			[
-        "light crossbow|phb",
-        "morningstar|phb"
+        "light crossbow|PHB",
+        "morningstar|PHB"
       ],
       "senseTags":
 			[
@@ -464,7 +464,7 @@
 			{
         "type": "humanoid",
         "tags":
-			[
+		  	[
           "human"
         ]
       },
@@ -478,7 +478,7 @@
         {
           "ac": 13,
           "from":
-			[
+	    		[
             "{@item studded leather armor|PHB|studded leather}"
           ]
         }
@@ -520,22 +520,22 @@
         {
           "name": "Halberd",
           "entries":
-			[
+	    		[
             "{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d10 + 1}) slashing damage."
           ]
         },
         {
           "name": "Club",
           "entries":
-			[
+	    		[
             "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
           ]
         }
       ],
       "attachedItems":
 			[
-        "club|phb",
-        "halberd|phb"
+        "club|PHB",
+        "halberd|PHB"
       ],
       "languageTags":
 			[
@@ -609,28 +609,28 @@
         {
           "name": "Lucky",
           "entries":
-			[
+		    	[
             "When Eranna roll a 1 on the {@dice d20} for an attack roll, ability check, or saving throw, she can reroll the die and must use the new roll."
           ]
         },
         {
           "name": "Brave",
           "entries":
-			[
+	    		[
             "Halfings have advantage on saving throws against being {@condition frightened}."
           ]
         },
         {
           "name": "Halfing Nimbleness",
           "entries":
-			[
+	    		[
             "Halfings can move through the space of any creature that is of a size larger than theirs."
           ]
         },
         {
           "name": "Naturally Stealthy",
           "entries":
-			[
+		    	[
             "Halfings can attempt to hide even when obscured only by a creature that is at least one size larger than them."
           ]
         }
@@ -640,14 +640,14 @@
         {
           "name": "Dagger",
           "entries":
-			[
+		    	[
             "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
           ]
         }
       ],
       "attachedItems":
 			[
-        "dagger|phb"
+        "dagger|PHB"
       ],
       "languageTags":
 			[
@@ -680,7 +680,7 @@
 			{
         "type": "humanoid",
         "tags":
-			[
+  			[
           "human"
         ]
       },
@@ -693,7 +693,7 @@
         {
           "ac": 15,
           "from":
-			[
+		    	[
             "{@spell mage armor}"
           ]
         }
@@ -739,15 +739,15 @@
           "name": "Spellcasting",
           "type": "spellcasting",
           "headerEntries":
-			[
+	    		[
             "Elaydren is a 3rd level spellcaster. Her spellcasting ability is Charisma (Spell save {@dc 13}, {@hit 5} to hit with spell attacks). She knows the following sorcerer spells:"
           ],
           "spells":
-			{
+		    	{
             "0":
-			{
+		      	{
               "spells":
-			[
+		        	[
                 "{@spell acid splash}",
                 "{@spell friends}",
                 "{@spell message}",
@@ -755,20 +755,20 @@
               ]
             },
             "1":
-			{
+	      		{
               "slots": 4,
               "spells":
-			[
+	        		[
                 "{@spell charm person}",
                 "{@spell detect magic}",
                 "{@spell mage armor}"
               ]
             },
             "2":
-			{
+		      	{
               "slots": 2,
               "spells":
-			[
+		         	[
                 "{@spell detect thoughts}"
               ]
             }
@@ -781,42 +781,42 @@
         {
           "name": "Artisan's Intuition",
           "entries":
-			[
+	    		[
             "When Elaydren makes an ability check with artisan's tools, roll {@dice 1d4} and add it to the result."
           ]
         },
         {
           "name": "Maker's Gift",
           "entries":
-			[
+		    	[
             "Elaydren knows the cantrip mending."
           ]
         },
         {
           "name": "Magecraft",
           "entries":
-			[
+	    		[
             "Elaydren can create a temporary magic item out of common materials. Choose a cantrip from the wizard spell list. Describe the item connected to it. As long as she possesses the item, she knows that cantrip. At the end of a long rest, she can replace it with a new item and select a new cantrip from the wizard spell list. Intelligence is her spellcasting ability for this cantrip."
           ]
         },
         {
           "name": "Spellsmith",
           "entries":
-			[
+		    	[
             "Elaydren can spend one minute to weave a temporary enchantment into a nonmagical suit of armor or weapon. For the next hour the object becomes a magic item, gaining a +1 bonus to AC if it is armor or a +1 bonus to hit and damage if it is a weapon. Once she uses this trait, she can't use it again until she fnishes a long rest."
           ]
         },
         {
           "name": "Potion of Greater Healing (Single use)",
           "entries":
-			[
+	    		[
             "Elaydren regains {@dice 4d4 + 4} hit points."
           ]
         },
         {
           "name": "Magecrafted Bracelet",
           "entries":
-			[
+		    	[
             "As long as Elaydren wears her silver bracelet set with onyx and pearls, she knows the cantrip minor illusion."
           ]
         }
@@ -826,14 +826,14 @@
         {
           "name": "Dagger +1 (spellsmith)",
           "entries":
-			[
+		    	[
             "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage."
           ]
         }
       ],
       "attachedItems":
 			[
-        "+1 dagger|dmg"
+        "+1 dagger|DMG"
       ],
       "languageTags":
 			[
@@ -933,7 +933,7 @@
         {
           "name": "Nimble Escape",
           "entries":
-			[
+	    		[
             "Nibbur can take the Disengage or Hide action as a bonus action on each of his turns."
           ]
         }
@@ -943,7 +943,7 @@
         {
           "name": "Tailoring Shears",
           "entries":
-			[
+		    	[
             "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
           ]
         }
@@ -1028,14 +1028,14 @@
         {
           "name": "Brute",
           "entries":
-			[
+	    		[
             "A melee weapon deals one extra die of its damage when the Mandy hits with it (included in the attack)."
           ]
         },
         {
           "name": "Surprise Attack",
           "entries":
-			[
+	    		[
             "If Mandy surprises a creature and hits it with an attack during the frst round of combat, the target takes an extra 7 ({@damage 2d6}) damage from the attack."
           ]
         }
@@ -1045,21 +1045,21 @@
         {
           "name": "Multiattack",
           "entries":
-			[
+	    		[
             "Mandy makes two melee attacks"
           ]
         },
         {
           "name": "War Pick",
           "entries":
-			[
+	    		[
             "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 3}) piercing damage."
           ]
         }
       ],
       "attachedItems":
 			[
-        "war pick|phb"
+        "war pick|PHB"
       ],
       "traitTags":
 			[
@@ -1151,7 +1151,7 @@
         {
           "name": "Nimble Escape",
           "entries":
-			[
+	    		[
             "Skakan can take the Disengage or Hide action as a bonus action on each of his turns."
           ]
         }
@@ -1161,24 +1161,22 @@
         {
           "name": "Dagger",
           "entries":
-			[
+	    		[
             "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
           ]
         },
         {
           "name": "Spear",
           "entries":
-			[
-            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage.",
-            "Skakan is the face of a small sewer clan that fnds things in the sewers that Skakan then sells to bring in some coin. A couple of the dirtier goblins in the crowd are part of his clan and there to attempt to stir up interest in his goods.",
-            "A PC not engaged in the conversation with Skakan who surveys the area can make a {@dc 15} Wisdom ({@skill Perception}) check to notice the shifter watching them."
+	    		[
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
           ]
         }
       ],
       "attachedItems":
 			[
-        "dagger|phb",
-        "spear|phb"
+        "dagger|PHB",
+        "spear|PHB"
       ],
       "senseTags":
 			[
@@ -1278,29 +1276,29 @@
         {
           "name": "Warforged Resilience",
           "entries":
-			[
+		    	[
             "The agent has advantage on saving throws against being {@condition poisoned}."
           ]
         },
         {
           "name": "Final Messenger",
           "entries":
-			[
-            "If the agent is disabled, destroyed, or rendered unconscious, his final messenger fies off to warn Saber, The final messenger is a delicate winged assembly that deploys from his chest and carries a vision of his last moments. It has armor class 20, 10 hit points, and a fly speed of 60 ft."
+	    		[
+            "If the agent is disabled, destroyed, or rendered unconscious, his {@creature final messenger|EXE} fies off to warn Saber, The {@creature final messenger|EXE} is a delicate winged assembly that deploys from his chest and carries a vision of his last moments. It has armor class 20, 10 hit points, and a fly speed of 60 ft."
           ]
         },
         {
           "name": "Cunning Action",
           "entries":
-			[
+	    		[
             "On each of its turns, the agent can use a bonus action to take the Dash, Disengage, or Hide action."
           ]
         },
         {
           "name": "Sneak Attack (1/Turn)",
           "entries":
-			[
-            "The agent deaus an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an auut of the agent that isn't incapacitated and the agent doesn't have disadvantage on the attack roll."
+		    	[
+            "The agent deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the agent that isn't incapacitated and the agent doesn't have disadvantage on the attack roll."
           ]
         }
       ],
@@ -1309,22 +1307,22 @@
         {
           "name": "Rapier",
           "entries":
-			[
+	    		[
             "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
           ]
         },
         {
           "name": "Light Crossbow",
           "entries":
-			[
+		    	[
             "{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
           ]
         }
       ],
       "attachedItems":
 			[
-        "light crossbow|phb",
-        "rapier|phb"
+        "light crossbow|PHB",
+        "rapier|PHB"
       ],
       "traitTags":
 			[
@@ -1361,7 +1359,7 @@
 			{
         "type": "humanoid",
         "tags":
-			[
+	  		[
           "shifter"
         ]
       },
@@ -1375,7 +1373,7 @@
         {
           "ac": 12,
           "from":
-			[
+	    		[
             "{@item leather armor|PHB}"
           ]
         }
@@ -1422,7 +1420,7 @@
         {
           "name": "Shifting",
           "entries":
-			[
+		      [
             "As a bonus action, a shifter assumes a more bestial appearance for 1 minute. When shifted, it gains 6 temporary hit points and a bite attack."
           ]
         }
@@ -1432,37 +1430,28 @@
         {
           "name": "Multiattack",
           "entries":
-			[
+		    	[
             "The shifter makes two attacks: one with its bite and one with its dagger."
           ]
         },
         {
           "name": "Dagger",
           "entries":
-			[
+	    		[
             "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
           ]
         },
         {
           "name": "Bite (only when shifted)",
           "entries":
-			[
-            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage.",
-            "Adjustments The fght with the agent and his hirelings should be a fairly tough one. To increase its diffculty for a more powerful party, you can make the agent a challenge rating 2 (450 xp) opponent with the following adjustments:",
-            {
-              "type": "list",
-              "items":
-			[
-                "Increase his hit points to 44 ({@dice 8d8 + 8})",
-                "Add the action: Multiattack. The agent makes two attacks with his rapier."
-              ]
-            }
+		    	[
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
           ]
         }
       ],
       "attachedItems":
 			[
-        "dagger|phb"
+        "dagger|PHB"
       ],
       "traitTags":
 			[
