@@ -144,6 +144,155 @@
 				"type": "external",
 				"url": "https://i.imgur.com/eXFH1f2.png"
 			}
-		}
+		},
+    {
+      "name": "Kesik",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "warforged"
+        ]
+      },
+      "alignment":
+      [
+        "C",
+        "N"
+      ],
+      "ac":
+      [
+        {
+          "ac": 15,
+          "from":
+          [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 45,
+        "formula": "6d8 + 18"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 10,
+      "con": 16,
+      "int": 10,
+      "wis": 8,
+      "cha": 11,
+      "save":
+      {
+        "str": "+4",
+        "con": "+5"
+      },
+      "skill":
+      {
+        "athletics": "+4",
+        "intimidation": "+3",
+        "survival": "+1"
+      },
+      "passive": 9,
+      "resist":
+      [
+        "poison"
+      ],
+      "conditionImmune":
+      [
+        "disease",
+        "magical sleep"
+      ],
+      "languages":
+      [
+        "Common"
+      ],
+      "cr": "1",
+      "trait":
+      [
+        {
+          "name": "Rage",
+          "entries":
+          [
+            "When Cutter is reduced to under 30 hit points, she fies into a rage at the start of her next turn. While in a rage, her Battleaxe attacks do 9 ({@damage 1d8 + 4}) slashing damage. The rage lasts for 3 rounds."
+          ]
+        },
+        {
+          "name": "Warforged Resilience",
+          "entries":
+          [
+            "Cutter has advantage on saving throws against being {@condition poisoned}."
+          ]
+        },
+        {
+          "name": "Final Messenger",
+          "entries":
+          [
+            "If Cutter is disabled, destroyed, or rendered {@condition unconscious}, her fnal messenger fies off to warn Saber. The fnal messenger is a delicate winged assembly that deploys from Cutter's chest and carries a vision of her last moments to Saber. It has armor class 20, 10 hit points, and a fy speed of 60 ft."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Battleaxe",
+          "entries":
+          [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 2}) slashing damage."
+          ]
+        },
+        {
+          "name": "Sling",
+          "entries":
+          [
+            "{@atk rw} {@hit 2} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage.",
+            "Adjustments To increase the diffccutt of this encocnter, give Cctter:",
+            {
+              "type": "list",
+              "items":
+              [
+                "15 additionau hit points",
+                {
+                  "type": "item",
+                  "name": "Raging Multiattack",
+                  "entry": "Cutter makes two melee attacks whiue raging."
+                },
+                "Challenge 2 (450 xp)"
+              ]
+            }
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "battleaxe|phb",
+        "sling|phb"
+      ],
+      "languageTags":
+      [
+        "C"
+      ],
+      "damageTags":
+      [
+        "B",
+        "S"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW",
+        "RW"
+      ]
+    }    
   ]
 }
