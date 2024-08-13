@@ -1494,26 +1494,32 @@
     {
       "name": "Rusted Defender",
       "source": "Canberron",
-      "size": [
+      "size":
+			[
         "S"
       ],
       "type": "construct",
-      "alignment": [
+      "alignment":
+			[
         "U"
       ],
-      "ac": [
+      "ac":
+			[
         {
           "ac": 16,
-          "from": [
+          "from":
+		    	[
             "natural armor"
           ]
         }
       ],
-      "hp": {
+      "hp":
+			{
         "average": 16,
         "formula": "3d6 + 6"
       },
-      "speed": {
+      "speed":
+			{
         "walk": 50
       },
       "str": 14,
@@ -1522,15 +1528,18 @@
       "int": 8,
       "wis": 11,
       "cha": 7,
-      "skill": {
+      "skill":
+			{
         "perception": "+4",
         "stealth": "+4"
       },
-      "senses": [
+      "senses":
+			[
         "darkvision 60 ft"
       ],
       "passive": 12,
-      "immune": [
+      "immune":
+			[
         "poison"
       ],
       "conditionImmune":
@@ -1544,37 +1553,135 @@
         "petrified",
         "poisoned"
       ],
-      "languages": [
+      "languages":
+			[
         "understands Common but can't speak"
       ],
       "cr": "1/2",
-      "action": [
+      "action":
+			[
         {
           "name": "Bite",
-          "entries": [
+          "entries":
+		    	[
             "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
           ]
         }
       ],
-      "senseTags": [
+      "senseTags":
+			[
         "D"
       ],
-      "languageTags": [
+      "languageTags":
+			[
         "C",
         "CS"
       ],
-      "damageTags": [
+      "damageTags":
+			[
         "P"
       ],
-      "miscTags": [
+      "miscTags":
+			[
         "MW"
       ],
-      "conditionInflict": [
+      "conditionInflict":
+			[
         "prone"
       ],
-      "savingThrowForced": [
+      "savingThrowForced":
+			[
         "strength"
       ]
+    },
+    {
+      "name": "Mavi",
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+      "alignment":
+			[
+        "L",
+        "N"
+      ],
+      "ac":
+			[
+        {
+          "ac": 16,
+          "from":
+		    	[
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+			{
+        "average": 30,
+        "formula": "4d8 + 12"
+      },
+      "speed":
+			{
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 16,
+      "con": 14,
+      "int": 10,
+      "wis": 11,
+      "cha": 14,
+      "skill":
+			{
+        "acrobatics": "+5",
+        "perception": "+2",
+        "sleight of hand": "+7"
+      },
+      "passive": 12,
+      "resist":
+			[
+        "poison"
+      ],
+      "languages":
+			[
+        "Common"
+      ],
+      "cr": "1",
+      "action":
+			[
+        {
+          "name": "Pistol",
+          "entries":
+		    	[
+            "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "languageTags":
+			[
+        "C"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "miscTags":
+			[
+        "RW"
+      ],
+      "tokenHref":
+      {
+        "type": "external",
+        "url": "https://i.imgur.com/shptCra.png"
+      }
     }
   ]
 }
