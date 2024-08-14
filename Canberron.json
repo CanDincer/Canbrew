@@ -18,6 +18,27 @@
 		"dateAdded": 1723470600,
 		"dateLastModified": 1723537620
 	},
+  "item":
+	[
+		{
+			"name": "Night Visor",
+			"type": "OTH",
+			"reqAttune": "by a warforged",
+      "reqAttuneTags":
+      [
+        {
+          "race": "warforged"
+        }
+      ],
+      "wondrous": true,
+			"rarity": "uncommon",
+			"source": "Canberron",
+			"entries":
+			[
+				"A night visor appears to be a belt-like ring of black metal, a bit over one inch wide and with a diameter of about two feet. A warforged can attune to the night visor, at which point it is placed around its head, covering its eyes. The night visor shrinks to fit the warforged once attuned. While the night visor is attached, it cannot be removed against the warforged's will. A warforged attuned to a night visor has darkvision to a range of 60 ft."
+			]
+		}
+  ],
   "monster":
 	[
 		{
