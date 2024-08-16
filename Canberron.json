@@ -2000,6 +2000,32 @@
           ]
         }
       ],
+      "spellcasting":
+      [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries":
+          [
+            "Şol's innate spellcasting ability is Constitution (spell save {@dc 14}). Şol can innately cast the following spells, requiring no material components:"
+          ],
+          "will":
+          [
+            "{@spell create bonfire|XGE}"
+          ],
+          "daily":
+          {
+            "1e":
+            [
+              "{@spell hunter's mark|PHB}",
+              "{@spell locate object|PHB}"
+            ]
+          }
+        }
+      ],
+      "spellcastingTags":
+      [
+        "I"
+      ],
       "traitTags":
       [
         "Aggressive",
@@ -2008,11 +2034,13 @@
       "languageTags":
 			[
         "C",
-        "GI"
+        "GI",
+        "GO"
       ],
       "damageTags":
 			[
         "B",
+        "F",
         "P",
         "R"
       ],
@@ -2289,6 +2317,198 @@
 				"type": "external",
 				"url": "https://i.imgur.com/NKX7qnq.png"
 			}
-		}
+		},
+    {
+      "name": "Thuranne d'Velderan ogd",
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+	  		[
+          "half-orc"
+        ]
+      },
+      "alignment":
+			[
+        "N",
+        "G"
+      ],
+      "ac":
+			[
+        {
+          "ac": 16,
+          "from":
+	    		[
+            "{@item Studded Leather Armor|PHB}"
+          ]
+        }
+      ],
+      "hp":
+			{
+        "average": 110,
+        "formula": "13d10 + 39"
+      },
+      "speed":
+			{
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 18,
+      "con": 14,
+      "int": 14,
+      "wis": 12,
+      "cha": 10,
+      "skill":
+			{
+        "acrobatics": "+7",
+        "insight": "+7",
+        "intimidation": "+3",
+        "investigation": "+8",
+        "perception": "+7",
+        "stealth": "+10",
+        "survival": "+7"
+      },
+      "senses":
+			[
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "languages":
+			[
+        "Common",
+        "Gnomish",
+        "Halfing",
+        "Thieves' Cant"
+      ],
+      "cr": "7",
+      "trait":
+			[
+        {
+          "name": "Sneak Attack",
+          "entries":
+			    [
+            "Once per turn, Thuranne can deal an extra 21 {@damage 6d6} damage to one creature she hits with an attack if she has advantage on the attack roll. She doesn't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and she doesn't have disadvantage on the attack roll."
+          ]
+        },
+        {
+          "name": "Evasion",
+          "entries":
+			    [
+            "When Thuranne is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails."
+          ]
+        }
+      ],
+      "action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Thuranne makes thre attacks: one with her {@item blade of selves|Canbrew} and two with her {@item shadow sword|HHHVIII}."
+					]
+				},
+        {
+          "name": "{@item blade of selves|Canbrew}",
+          "entries":
+	    		[
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+          ]
+        },
+        {
+          "name": "{@item shadow sword|HHHVIII}",
+          "entries":
+	    		[
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Insightful Fighting",
+          "entries":
+          [
+            "Thuranne makes a Wisdom (Insight) check against a creature she can see that isn't incapacitated, contested by the target's Charisma (Deception) check. If she succeeds, she can use her Sneak Attack against that target even if she doesn't have advantage on the attack roll, but not if she has disadvantage on it.",
+            "This benefit lasts for 1 minute or until she successfully uses this feature against a different target."
+          ]
+        },
+        {
+          "name": "Cunning Action",
+          "entries":
+          [
+            "Thuranne takes take the {@action Dash|PHB}, {@action Disengage|PHB}, or {@action Hide|PHB} action."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Uncanny Dodge",
+          "entries":
+          [
+            "When an attacker that Thuranne can see hits her with an attack, she can use her reaction to halve the attack's damage against her."
+          ]
+        }
+      ],
+      "spellcasting":
+      [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries":
+          [
+            "Thuranne's innate spellcasting ability is Wisdom (spell save {@dc 12}). Thuranne can innately cast the following spells, requiring no material components:"
+          ],
+          "daily":
+          {
+            "1e":
+            [
+              "{@spell hunter's mark|PHB}",
+              "{@spell locate object|PHB}"
+            ]
+          }
+        }
+      ],
+      "spellcastingTags":
+      [
+        "I"
+      ],
+      "traitTags":
+      [
+        "Magic Weapons"
+      ],
+      "languageTags":
+			[
+        "C",
+        "G",
+        "H",
+        "TC"
+      ],
+      "damageTags":
+			[
+        "B",
+        "P",
+        "R"
+      ],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+      "miscTags":
+			[
+        "MLW",
+        "MW",
+        "RCH"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/Hp9MsoD.png"
+			}
+    }
   ]
 }
