@@ -2393,7 +2393,7 @@
           "name": "Sneak Attack",
           "entries":
 			    [
-            "Once per turn, Thuranne can deal an extra 21 {@damage 6d6} damage to one creature she hits with an attack if she has advantage on the attack roll. She doesn't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and she doesn't have disadvantage on the attack roll."
+            "Once per turn, Thuranne can deal an extra 21 ({@damage 6d6}) damage to one creature she hits with an attack if she has advantage on the attack roll. She doesn't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and she doesn't have disadvantage on the attack roll."
           ]
         },
         {
