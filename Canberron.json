@@ -1705,7 +1705,110 @@
       }
     },
     {
-      "name": "Sharn Bekçisi",
+      "name": "Sharn Bekçisi ogd",
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+	  		[
+          "any race"
+        ]
+      },
+      "alignment":
+			[
+        "L",
+        "N"
+      ],
+      "ac":
+			[
+        {
+          "ac": 16,
+          "from":
+	    		[
+            "{@item leather armor|PHB}"
+          ]
+        }
+      ],
+      "hp":
+			{
+        "average": 16,
+        "formula": "4d8 + 4"
+      },
+      "speed":
+			{
+        "walk": 35
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 12,
+      "cha": 10,
+      "skill":
+			{
+        "perception": "+3"
+      },
+      "senses":
+			[
+        "darkvision 60 ft"
+      ],
+      "passive": 12,
+      "languages":
+			[
+        "Common"
+      ],
+      "cr": "1/4",
+      "trait":
+			[
+        {
+          "name": "Pack Tactics",
+          "entries":
+			    [
+            "A shifter has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Spear",
+          "entries":
+	    		[
+            "{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
+          ]
+        },
+        {
+          "name": "Club",
+          "entries":
+		    	[
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "languageTags":
+			[
+        "C"
+      ],
+      "damageTags":
+			[
+        "B",
+        "P"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ]
+    },
+    {
+      "name": "Şol Moorda ogd",
       "source": "Canberron",
       "size":
 			[
