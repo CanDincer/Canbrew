@@ -55,15 +55,29 @@
     {
       "name": "Glaive of Kalok Shash",
       "source": "Canberron",
-      "type": "LA",
-      "reqAttune": true,
-      "tier": "major",
-      "rarity": "artifact",
-      "weight": 10,
-      "ac": 17,
+      "baseItem": "Glaive|PHB",
+      "type": "M",
+      "reqAttune": "by a believer of Kalok Shash",
+      "weaponCategory": "martial",
+      "rarity": "rare",
+      "weight": 6,
+      "dmgType": "S",
+      "dmg1": "1d10",
+      "dmg2": "1d6",
+      "bonusWeaponDamage": "1d6",
+      "bonusWeapon": "+1",
+      "property":
+      [
+        "H",
+        "R",
+        "S",
+        "2H"
+      ],
       "entries":
       [
-        "This leather composite armor from old era reduces damage taken by 5 and grants advantage on all saving throws."
+        "A glaive blessed by Kalok Shash.",
+        "This weapon has +1 to attack and damage rolls.",
+        "It also deals additional ({@damage 1d6}) radiant damage if the target is evil."
       ]
     }
   ],
@@ -1836,7 +1850,7 @@
       ]
     },
     {
-      "name": "Şol Moorda ogd",
+      "name": "Şol Moorda",
       "source": "Canberron",
       "size":
 			[
@@ -1847,7 +1861,7 @@
         "type": "humanoid",
         "tags":
 	  		[
-          "any race"
+          "orc"
         ]
       },
       "alignment":
@@ -1910,13 +1924,6 @@
           ]
         },
         {
-          "name": "Tunnel Fighter",
-          "entries":
-			    [
-            "As a bonus aciton, Şol can enter a defensive stance that lasts until the start of his next turn. While in his defensive stance, he can make opportunity attacks without using his reaction, and he can use his reaction to make a melee attack against a creature that moves more than 5 feet while within his reach."
-          ]
-        },
-        {
           "name": "Action Surge (1/day)",
           "entries":
 			    [
@@ -1944,18 +1951,18 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"Şol makes three attacks with his glaive of kalok shash and one attack with glaive of kalok shash (opposite end) or three unarmed strikes."
+						"Şol makes three attacks with his {@item glaive of kalok shash|Canberron} and one attack with {@item glaive of kalok shash|Canberron} (opposite end) or three unarmed strikes."
 					]
 				},
         {
-          "name": "Glaive of Kalok Shash ogd",
+          "name": "{@item Glaive of Kalok Shash|Canberron}",
           "entries":
 	    		[
             "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 1d10 + 1d6 + 6}) slahing damage. If the target is evil, it takes additional 3 ({@damage 1d6}) radiant damage."
           ]
         },
         {
-          "name": "Glaive of Kalok Shash (Opposite End) ogd",
+          "name": "{@item Glaive of Kalok Shash|Canberron} (Opposite End)",
           "entries":
 	    		[
             "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d4 + 1d6 + 6}) bludgeoning damage. If the target is evil, it takes additional 3 ({@damage 1d6}) radiant damage."
@@ -1977,7 +1984,26 @@
           [
             "Şol gains 18 ({@dice 1d10 + 12}) hit points."
           ]
+        },
+        {
+          "name": "Aggressive",
+          "entries":
+          [
+            "Şol can move up to his movement speed toward a hostile creature he can see or hear. Şol must end this move closer to the enemy than he started."
+          ]
+        },
+        {
+          "name": "Tunnel Fighter",
+          "entries":
+			    [
+            "As a bonus aciton, Şol can enter a defensive stance that lasts until the start of his next turn. While in his defensive stance, he can make opportunity attacks without using his reaction, and he can use his reaction to make a melee attack against a creature that moves more than 5 feet while within his reach."
+          ]
         }
+      ],
+      "traitTags":
+      [
+        "Aggressive",
+        "Magic Weapons"
       ],
       "languageTags":
 			[
@@ -1990,6 +2016,10 @@
         "P",
         "R"
       ],
+			"actionTags":
+			[
+				"Multiattack"
+			],
       "miscTags":
 			[
         "MLW",
