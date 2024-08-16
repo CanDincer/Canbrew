@@ -1839,19 +1839,19 @@
       ],
       "hp":
 			{
-        "average": 16,
-        "formula": "4d8 + 4"
+        "average": 110,
+        "formula": "13d10 + 39"
       },
       "speed":
 			{
-        "walk": 35
+        "walk": 30
       },
-      "str": 13,
-      "dex": 12,
-      "con": 12,
-      "int": 10,
+      "str": 20,
+      "dex": 10,
+      "con": 16,
+      "int": 14,
       "wis": 12,
-      "cha": 10,
+      "cha": 8,
       "skill":
 			{
         "perception": "+3"
@@ -1863,51 +1863,105 @@
       "passive": 12,
       "languages":
 			[
-        "Common"
+        "Common",
+        "Giant"
       ],
-      "cr": "1/4",
+      "cr": "9",
       "trait":
 			[
         {
-          "name": "Pack Tactics",
+          "name": "Brute Force",
           "entries":
 			    [
-            "A shifter has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
+            "Şol deals extra 1d6 damage with his weapons (included in the attacks below)."
+          ]
+        },
+        {
+          "name": "Tunnel Fighter",
+          "entries":
+			    [
+            "As a bonus aciton, Şol can enter a defensive stance that lasts until the start of his next turn. While in his defensive stance, he can make opportunity attacks without using his reaction, and he can use his reaction to make a melee attack against a creature that moves more than 5 feet while within his reach."
+          ]
+        },
+        {
+          "name": "Action Surge (1/day)",
+          "entries":
+			    [
+            "On his turn, Şol takes one additional action."
+          ]
+        },
+        {
+          "name": "Indomitable (1/day)",
+          "entries":
+			    [
+            "Şol can reroll a failed saving throw."
+          ]
+        },
+        {
+          "name": "Brutish Durability",
+          "entries":
+			    [
+            "Şol adds {@dice 1d6} to his saving throw rolls."
           ]
         }
       ],
       "action":
 			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Şol makes three attacks with his glaive of kalok shash and one attack with glaive of kalok shash (opposite end) or three unarmed strikes."
+					]
+				},
         {
-          "name": "Spear",
+          "name": "Glaive of Kalok Shash ogd",
           "entries":
 	    		[
-            "{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
+            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 1d10 + 1d6 + 6}) slahing damage. If the target is evil, it takes additional 3 ({@damage 1d6}) radiant damage."
           ]
         },
         {
-          "name": "Club",
+          "name": "Glaive of Kalok Shash (Opposite End) ogd",
+          "entries":
+	    		[
+            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d4 + 1d6 + 6}) bludgeoning damage. If the target is evil, it takes additional 3 ({@damage 1d6}) radiant damage."
+          ]
+        },
+        {
+          "name": "Unarmed Strike",
           "entries":
 		    	[
-            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d8 + 1d6 + 5}) piercing damage."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Second Wind (1/day)",
+          "entries":
+          [
+            "Şol gains 18 ({@dice 1d10 + 12}) hit points."
           ]
         }
       ],
       "languageTags":
 			[
-        "C"
+        "C",
+        "GI"
       ],
       "damageTags":
 			[
         "B",
-        "P"
+        "P",
+        "R"
       ],
       "miscTags":
 			[
         "MLW",
         "MW",
-        "RNG",
-        "RW"
+        "RCH"
       ]
     }
   ]
