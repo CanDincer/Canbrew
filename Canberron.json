@@ -1833,7 +1833,7 @@
           "ac": 16,
           "from":
 	    		[
-            "{@item leather armor|PHB}"
+            "brute armor"
           ]
         }
       ],
@@ -1854,13 +1854,18 @@
       "cha": 8,
       "skill":
 			{
-        "perception": "+3"
+        "athletics": "+9",
+        "insight": "+5",
+        "intimidation": "+3",
+        "investigation": "+6",
+        "perception": "+5",
+        "survival": "+5"
       },
       "senses":
 			[
-        "darkvision 60 ft"
+        "darkvision 60 ft."
       ],
-      "passive": 12,
+      "passive": 15,
       "languages":
 			[
         "Common",
@@ -1962,7 +1967,12 @@
         "MLW",
         "MW",
         "RCH"
-      ]
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/Hp9MsoD.png"
+			}
     }
   ]
 }
