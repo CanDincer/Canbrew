@@ -2414,14 +2414,14 @@
 					]
 				},
         {
-          "name": "{@item blade of selves|Canbrew}",
+          "name": "{@item Blade of Selves|Canbrew}",
           "entries":
 	    		[
             "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
           ]
         },
         {
-          "name": "{@item shadow sword|HHHVIII}",
+          "name": "{@item Shadow Sword|HHHVIII}",
           "entries":
 	    		[
             "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
