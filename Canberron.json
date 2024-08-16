@@ -1416,7 +1416,8 @@
       "skill":
 			{
         "athletics": "+3",
-        "intimidation": "+2. perception +2"
+        "intimidation": "+2",
+        "perception": "+2"
       },
       "senses":
 			[
@@ -1702,6 +1703,137 @@
         "type": "external",
         "url": "https://i.imgur.com/shptCra.png"
       }
+    },
+    {
+      "name": "Sharn Bekçisi",
+      "source": "Canberron",
+      "size":
+			[
+        "M"
+      ],
+      "type":
+			{
+        "type": "humanoid",
+        "tags":
+	  		[
+          "any"
+        ]
+      },
+      "alignment":
+			[
+        "L",
+        "N"
+      ],
+      "ac":
+			[
+        {
+          "ac": 16,
+          "from":
+	    		[
+            "{@item leather armor|PHB}"
+          ]
+        }
+      ],
+      "hp":
+			{
+        "special": "22 (3d8 +3), 28 when shifted"
+      },
+      "speed":
+			{
+        "walk": 35
+      },
+      "str": 12,
+      "dex": 13,
+      "con": 13,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "skill":
+			{
+        "perception": "+3"
+      },
+      "senses":
+			[
+        "darkvision 60 ft"
+      ],
+      "passive": 12,
+      "languages":
+			[
+        "Common",
+        "Goblin"
+      ],
+      "cr": "1/2",
+      "trait":
+			[
+        {
+          "name": "Pack Tactics",
+          "entries":
+			    [
+            "A shifter has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Shifting",
+          "entries":
+		      [
+            "As a bonus action, a shifter assumes a more bestial appearance for 1 minute. When shifted, it gains 6 temporary hit points and a bite attack."
+          ]
+        }
+      ],
+      "action":
+			[
+        {
+          "name": "Multiattack",
+          "entries":
+		    	[
+            "The shifter makes two attacks: one with its bite and one with its dagger."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries":
+	    		[
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+          ]
+        },
+        {
+          "name": "Bite (only when shifted)",
+          "entries":
+		    	[
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+			[
+        "dagger|PHB"
+      ],
+      "traitTags":
+			[
+        "Pack Tactics"
+      ],
+      "senseTags":
+			[
+        "D"
+      ],
+      "actionTags":
+			[
+        "Multiattack"
+      ],
+      "languageTags":
+			[
+        "C",
+        "GO"
+      ],
+      "damageTags":
+			[
+        "P"
+      ],
+      "miscTags":
+			[
+        "MLW",
+        "MW"
+      ]
     }
   ]
 }
