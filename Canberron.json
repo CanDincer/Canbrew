@@ -2350,8 +2350,8 @@
       ],
       "hp":
 			{
-        "average": 110,
-        "formula": "13d10 + 39"
+        "average": 84,
+        "formula": "13d10 + 26"
       },
       "speed":
 			{
