@@ -2107,6 +2107,20 @@
 						"{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
 						"{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
 					]
+				},
+				{
+					"name": "C-14 Pilot",
+					"entries":
+					[
+						"Calderus has proficiency with all vehicles. While she's using air cehicles, she makes all vehicle handling checks with advantage."
+					]
+				},
+				{
+					"name": "Tactical Armor",
+					"entries":
+					[
+						"Calderus is wearing her {@item tactical armor|Canberron}."
+					]
 				}
 			],
 			"action":
