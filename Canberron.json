@@ -1716,7 +1716,7 @@
         "type": "humanoid",
         "tags":
 	  		[
-          "any"
+          "any race"
         ]
       },
       "alignment":
@@ -1736,17 +1736,18 @@
       ],
       "hp":
 			{
-        "special": "22 (3d8 +3), 28 when shifted"
+        "average": 16,
+        "formula": "4d8 + 4"
       },
       "speed":
 			{
         "walk": 35
       },
-      "str": 12,
-      "dex": 13,
-      "con": 13,
+      "str": 13,
+      "dex": 12,
+      "con": 12,
       "int": 10,
-      "wis": 10,
+      "wis": 12,
       "cha": 10,
       "skill":
 			{
@@ -1759,10 +1760,9 @@
       "passive": 12,
       "languages":
 			[
-        "Common",
-        "Goblin"
+        "Common"
       ],
-      "cr": "1/2",
+      "cr": "1/4",
       "trait":
 			[
         {
@@ -1771,68 +1771,40 @@
 			    [
             "A shifter has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and the ally isn't {@condition incapacitated}."
           ]
-        },
-        {
-          "name": "Shifting",
-          "entries":
-		      [
-            "As a bonus action, a shifter assumes a more bestial appearance for 1 minute. When shifted, it gains 6 temporary hit points and a bite attack."
-          ]
         }
       ],
       "action":
 			[
         {
-          "name": "Multiattack",
-          "entries":
-		    	[
-            "The shifter makes two attacks: one with its bite and one with its dagger."
-          ]
-        },
-        {
-          "name": "Dagger",
+          "name": "Spear",
           "entries":
 	    		[
-            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+            "{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
           ]
         },
         {
-          "name": "Bite (only when shifted)",
+          "name": "Club",
           "entries":
 		    	[
-            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
           ]
         }
       ],
-      "attachedItems":
-			[
-        "dagger|PHB"
-      ],
-      "traitTags":
-			[
-        "Pack Tactics"
-      ],
-      "senseTags":
-			[
-        "D"
-      ],
-      "actionTags":
-			[
-        "Multiattack"
-      ],
       "languageTags":
 			[
-        "C",
-        "GO"
+        "C"
       ],
       "damageTags":
 			[
+        "B",
         "P"
       ],
       "miscTags":
 			[
         "MLW",
-        "MW"
+        "MW",
+        "RNG",
+        "RW"
       ]
     }
   ]
