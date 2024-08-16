@@ -37,7 +37,23 @@
 			[
 				"A night visor appears to be a belt-like ring of black metal, a bit over one inch wide and with a diameter of about two feet. A warforged can attune to the night visor, at which point it is placed around its head, covering its eyes. The night visor shrinks to fit the warforged once attuned. While the night visor is attached, it cannot be removed against the warforged's will. A warforged attuned to a night visor has darkvision to a range of 60 ft."
 			]
-		}
+		},
+    {
+      "name": "Tactical Armor",
+      "source": "Canberron",
+      "type": "LA",
+      "reqAttune": true,
+      "tier": "major",
+      "rarity": "artifact",
+      "weight": 10,
+      "ac": 12,
+      "bonusAc": "+5",
+      "vehDmgThresh": 5,
+      "entries":
+      [
+        "This leather composite armor from old era reduces damage taken by 5 and grants advantage on all saving throws."
+      ]
+    }
   ],
   "monster":
 	[
@@ -2001,7 +2017,7 @@
 					"ac": 18,
 					"from":
 					[
-						"natural armor"
+						"{@item tactical armor|CBE}"
 					]
 				}
 			],
@@ -2119,7 +2135,7 @@
 					"name": "Tactical Armor",
 					"entries":
 					[
-						"Calderus is wearing her {@item tactical armor|Canberron}."
+						"Calderus is wearing her {@item tactical armor|CBE}."
 					]
 				}
 			],
