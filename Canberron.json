@@ -168,7 +168,7 @@
         {
           "name": "Final Messenger",
           "entries":
-			[
+			    [
             "If Saber is disabled, destroyed, or rendered {@condition unconscious}, his fnal messenger fies off to a message station where a message will be relayed to the Lord of Blades. The fnal messenger is a delicate winged assembly that deploys from his chest and carries a vision of his last moments. It has armor class 20, 10 hit points, and a fy speed of 60 ft."
           ]
         }
@@ -1852,6 +1852,7 @@
     {
       "name": "Şol Moorda",
       "source": "Canberron",
+      "isNamedCreature": true,
       "size":
 			[
         "M"
@@ -2064,6 +2065,7 @@
 		{
 			"name": "Calderus",
 			"source": "Canberron",
+      "isNamedCreature": true,
 			"size":
 			[
 				"M"
@@ -2322,6 +2324,7 @@
     {
       "name": "Thuranne d'Velderan",
       "source": "Canberron",
+      "isNamedCreature": true,
       "size":
 			[
         "M"
@@ -2511,6 +2514,143 @@
 				"type": "external",
 				"url": "https://i.imgur.com/PKgvDW2.png"
 			}
-    }
+    },
+    {
+			"name": "Wingwyrd ogd",
+			"size":
+			[
+				"M"
+			],
+			"type": "elemental",
+			"source": "Canberron",
+			"alignment":
+			[
+				"L",
+        "G"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 52,
+				"formula": "7d8 + 21"
+			},
+			"speed":
+			{
+				"walk": 30,
+        "fly": 60
+			},
+			"str": 15,
+			"dex": 11,
+			"con": 16,
+			"int": 8,
+			"wis": 12,
+			"cha": 7,
+			"immune":
+			[
+				"poison"
+			],
+      "conditionImmune":
+      [
+        "exhaustion",
+        "petrified",
+        "poisoned"
+      ],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+      "languages":
+      [
+        "Common",
+        "Terran"
+      ],
+			"passive": 11,
+			"cr": "2",
+			"trait":
+			[
+				{
+					"name": "False Appearance",
+			    "entries":
+          [
+				    "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
+          ]
+				},
+        {
+          "name": "Magic Resistance",
+          "entries":
+	    		[
+            "The arcanaloth has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The wingwyrd makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Longsword +1",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+        {
+          "name": "Bite",
+          "entries":
+          [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Claws",
+          "entries":
+          [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+          ]
+        }
+			],
+      "traitTags":
+      [
+        "False Appearance",
+        "Magic Resistance"
+      ],
+			"senseTags":
+			[
+				"D"
+			],
+			"damageTags":
+			[
+				"P",
+				"S"
+			],
+			"languageTags":
+			[
+				"C",
+        "T"
+			],
+			"miscTags":
+			[
+				"MW"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/4x3BtMu.png"
+			}
+		}
   ]
 }
