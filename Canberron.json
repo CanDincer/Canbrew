@@ -517,106 +517,6 @@
       ]
     },
     {
-      "name": "Şarn Şehir Bekçisi",
-      "source": "Canberron",
-      "size":
-			[
-        "M"
-      ],
-      "type":
-			{
-        "type": "humanoid",
-        "tags":
-		  	[
-          "human"
-        ]
-      },
-      "alignment":
-			[
-        "L",
-        "N"
-      ],
-      "ac":
-			[
-        {
-          "ac": 13,
-          "from":
-	    		[
-            "{@item studded leather armor|PHB|studded leather}"
-          ]
-        }
-      ],
-      "hp":
-			{
-        "average": 16,
-        "formula": "4d8 + 4"
-      },
-      "speed":
-			{
-        "walk": 30
-      },
-      "str": 13,
-      "dex": 12,
-      "con": 12,
-      "int": 10,
-      "wis": 12,
-      "cha": 10,
-      "save":
-			{
-        "str": "+3",
-        "con": "+3"
-      },
-      "skill":
-			{
-        "athletics": "+3",
-        "intimidation": "+2",
-        "perception": "+3"
-      },
-      "passive": 13,
-      "languages":
-			[
-        "Common"
-      ],
-      "cr": "1/4",
-      "action":
-			[
-        {
-          "name": "Halberd",
-          "entries":
-	    		[
-            "{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d10 + 1}) slashing damage."
-          ]
-        },
-        {
-          "name": "Club",
-          "entries":
-	    		[
-            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
-          ]
-        }
-      ],
-      "attachedItems":
-			[
-        "club|PHB",
-        "halberd|PHB"
-      ],
-      "languageTags":
-			[
-        "C"
-      ],
-      "damageTags":
-			[
-        "B",
-        "S"
-      ],
-      "miscTags":
-			[
-        "MLW",
-        "MW",
-        "RCH"
-      ]
-    },
-    {
       "name": "Eranna d'Ghallanda",
       "source": "Canberron",
       "size":
@@ -3557,6 +3457,262 @@
 				"type": "external",
 				"url": "https://i.imgur.com/LD2LjAW.png"
 			}
+    },
+    {
+      "name": "Sharn Emniyet Memuru",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item breastplate|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 11,
+        "formula": "2d8 + 2"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "intimidation": "+2",
+        "perception": "+2"
+      },
+      "passive": 12,
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "1/8",
+      "action": [
+        {
+          "name": "Halberd",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d10 + 1}) slashing damage."
+          ]
+        },
+        {
+          "name": "Sap",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage. If the target is reduced to 0 hit points by this attack, it is knocked {@condition unconscious} for {@dice 1d4} hours."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "halberd|phb"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "B",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "unconscious"
+      ]
+    },
+    {
+      "name": "Sharn Mahalle Çavuşu",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item breastplate|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 52,
+        "formula": "8d8 + 16"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 13,
+      "con": 14,
+      "int": 10,
+      "wis": 13,
+      "cha": 13,
+      "skill": {
+        "intimidation": "+3",
+        "perception": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Seen Everything",
+          "entries": [
+            "The sergeant has advantage on saving throws against being {@condition frightened}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The sergeant makes two morningstar attacks."
+          ]
+        },
+        {
+          "name": "Morningstar",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 3} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "heavy crossbow|phb",
+        "morningstar|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ]
+    },
+    {
+      "name": "Sharn Semt Başçavuşu",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item splint armor|PHB|splint}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 58,
+        "formula": "9d8 + 18"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 13,
+      "con": 14,
+      "int": 10,
+      "wis": 15,
+      "cha": 15,
+      "skill": {
+        "intimidation": "+4",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "1",
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The sergeant makes two greatsword attacks."
+          ]
+        },
+        {
+          "name": "Greatsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 3} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "greatsword|phb",
+        "heavy crossbow|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ]
     }
+
   ]
 }
