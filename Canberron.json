@@ -2366,14 +2366,17 @@
           "type": "spellcasting",
           "headerEntries":
           [
-            "Thuranne's innate spellcasting ability is Wisdom (spell save {@dc 12}). Thuranne can innately cast the following spells, requiring no material components:"
+            "Thuranne's innate spellcasting ability is Wisdom (spell save {@dc 14}). Thuranne can innately cast the following spells, requiring no material components:"
           ],
           "daily":
           {
             "1e":
             [
+              "{@spell faerie fire|PHB}",
               "{@spell hunter's mark|PHB}",
-              "{@spell locate object|PHB}"
+              "{@spell locate object|PHB}",
+              "{@spell locate creature|PHB}",
+              "{@spell find the path|PHB}"
             ]
           }
         }
