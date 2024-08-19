@@ -2654,8 +2654,7 @@
 		},
     {
       "name": "Tarkanan Enforcer",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -2778,6 +2777,433 @@
 			{
 				"type": "external",
 				"url": "https://i.imgur.com/TLBD02N.png"
+			}
+    },
+    {
+      "name": "Tarkanan Slayer",
+      "source": "Canberron",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 78,
+        "formula": "12d8 + 24"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 16,
+      "con": 14,
+      "int": 13,
+      "wis": 11,
+      "cha": 10,
+      "save": {
+        "dex": "+6",
+        "int": "+4"
+      },
+      "skill": {
+        "acrobatics": "+6",
+        "deception": "+3",
+        "perception": "+3",
+        "stealth": "+9"
+      },
+      "passive": 13,
+      "resist": [
+        "poison"
+      ],
+      "languages": [
+        "Thieves' cant plus any two languages"
+      ],
+      "cr": "8",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The slayer casts one of the following spells, requiring no spell components and using Constitution as the spellcasting ability (spell save {@dc 13}):"
+          ],
+          "will": [
+            "{@spell minor illusion}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell alter self}"
+            ]
+          },
+          "ability": "con",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Assassinate",
+          "entries": [
+            "During its first turn, the slayer has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the slayer scores against a surprised creature is a critical hit."
+          ]
+        },
+        {
+          "name": "Evasion",
+          "entries": [
+            "If the slayer is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the slayer instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "The slayer deals an extra 14 ({@damage 4d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the slayer that isn't incapacitated and the slayer doesn't have disadvantage on the attack roll."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The slayer makes two shortsword attacks."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 6} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "light crossbow|phb",
+        "shortsword|phb"
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "TC",
+        "X"
+      ],
+      "damageTags": [
+        "I",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "B",
+        "P",
+        "S"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ]
+    },
+    {
+      "name": "Tarkanan Ward",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 4,
+        "formula": "1d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10,
+      "passive": 10,
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "1/4",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The ward casts one of the following spells, requiring no spell components and using Constitution as the spellcasting ability (spell save {@dc 10}; {@hit 2} to hit spell attacks):"
+          ],
+          "will": [
+            "{@spell shocking grasp} (see above)"
+          ],
+          "daily": {
+            "1": [
+              "{@spell burning hands} (2nd level; see above)"
+            ]
+          },
+          "ability": "con",
+          "displayAs": "action"
+        }
+      ],
+      "action": [
+        {
+          "name": "Club",
+          "entries": [
+            "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Shocking Grasp (Cantrip)",
+          "entries": [
+            "{@atk ms} {@hit 2} to hit (the attack roll is made with advantage if the target is wearing armor made of metal), reach 5 ft., one creature. {@h}4 ({@damage 1d8}) lightning damage and the target can't take reactions until the start of its next turn."
+          ]
+        },
+        {
+          "name": "Burning Hands (2nd-Level Spell; Innate Spell 1/day)",
+          "entries": [
+            "A thin sheet of flames shoots forth from the ward's aberrant mark. Each creature in a 15-foot cone must make a {@dc 10} Dexterity saving throw. A creature takes 14 ({@damage 4d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "club|phb"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "F",
+        "L"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "L"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "AOE",
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity"
+      ]
+    },
+    {
+      "name": "The Son of Khyber",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "{@item +2 leather armor}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 171,
+        "formula": "18d8 + 90"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 22,
+      "dex": 16,
+      "con": 20,
+      "int": 14,
+      "wis": 12,
+      "cha": 19,
+      "save": {
+        "dex": "+8",
+        "con": "+10",
+        "int": "+7",
+        "cha": "+9"
+      },
+      "skill": {
+        "athletics": "+11",
+        "insight": "+6",
+        "intimidation": "+9",
+        "persuasion": "+9"
+      },
+      "passive": 11,
+      "languages": [
+        "Common",
+        "Goblin",
+        "Riedran"
+      ],
+      "cr": "15",
+      "trait": [
+        {
+          "name": "Khyber's Grace",
+          "entries": [
+            "The AC of the Son of Khyber includes his Charisma bonus."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If the Son of Khyber fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Warrior's Mark",
+          "entries": [
+            "The Son of Khyber deals an extra 11 ({@damage 2d10}) force damage when he hits with a melee attack (included in the attack)."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "The Son of Khyber wears +2 leather armor and a cloak of the mountebank (which lets him cast {@spell dimension door} as an action once between every dawn). He also wields a +1 longsword."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Son of Khyber makes three attacks, choosing between his +1 longsword or his mark lash for each attack."
+          ]
+        },
+        {
+          "name": "+1 Longsword",
+          "entries": [
+            "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) slashing damage, or 12 ({@damage 1d10 + 7}) slashing damage if used with two hands, plus 11 ({@damage 2d10}) force damage."
+          ]
+        },
+        {
+          "name": "Mark Lash",
+          "entries": [
+            "{@atk ms} automatically hits, reach 25 ft., one target. {@h}16 ({@damage 3d10}) force damage."
+          ]
+        },
+        {
+          "name": "Ultimate Binding (1/Day)",
+          "entries": [
+            "The Son of Khyber uses the full power of his mark on one creature he can see within 30 feet. The target creature must make a {@dc 18} Charisma saving throw. A creature that currently has 50 or more hit points automatically succeeds on the saving throw. If the target fails the save, it disappears completely, and is bound extradimensionally inside the aberrant mark, where it is {@condition paralyzed}, does not age, and doesn't require air, food, drink, or sleep.",
+            "No mortal magic, not even wish, can free a bound creature while the Son of Khyber lives. There is no limit to the number of creatures he can bind. If the Son of Khyber is slain, and {@spell dispel magic} is cast at 9th level on his corpse, all bound creatures are freed, appearing within unoccupied spaces anywhere within {@dice 10d10} feet of his corpse."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Siphon Essence",
+          "entries": [
+            "The Son of Khyber draws power or knowledge from one creature bound inside his mark. He can do so once for each creature bound inside the mark, and regains the ability to draw from each creature again when he finishes a short or long rest. When he does so, the Son of Khyber may either gain access to a specific memory of the bound creature, gaining its knowledge about a specific event, or he may draw on its might or expertise to roll a {@dice d12} and add the result to his next attack roll, saving throw, or ability check before the end of his next turn."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Devour Destiny",
+          "entries": [
+            "Whenever a creature within 30 feet of the Son of Khyber uses Inspiration, a Luck point, or benefits from advantage on a die roll, the Son of Khyber denies the creature any benefit from any resource it spent, and cancels the advantage they might have had on the roll. The Son of Khyber then gains advantage on the next attack roll, saving throw, or ability check he makes before the end of his next turn."
+          ]
+        }
+      ],
+      "legendaryActions": 2,
+      "legendary": [
+        {
+          "name": "Lash",
+          "entries": [
+            "The Son of Khyber makes an attack with his mark lash."
+          ]
+        },
+        {
+          "name": "Expert Footwork",
+          "entries": [
+            "The Son of Khyber moves up to 15 feet without provoking opportunity attacks."
+          ]
+        },
+        {
+          "name": "Consume (Costs 2 Actions)",
+          "entries": [
+            "The Son of Khyber uses Ultimate Binding if it is available."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "+1 longsword|dmg"
+      ],
+      "traitTags": [
+        "Legendary Resistances"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "O",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RCH"
+      ],
+      "savingThrowForced": [
+        "charisma"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/IQmk8kq.png"
 			}
     }
   ]
