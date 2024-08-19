@@ -3817,6 +3817,413 @@
         "MW",
         "RW"
       ]
+    },
+    {
+      "name": "Karakitap Başmüfettiş Balan Cord",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human",
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "ac": [
+        12,
+        {
+          "ac": 15,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "7d8 + 14"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 14,
+      "int": 20,
+      "wis": 12,
+      "cha": 11,
+      "skill": {
+        "arcana": "+8",
+        "history": "+8"
+      },
+      "passive": 11,
+      "resist": [
+        {
+          "special": "damage from spells"
+        },
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "preNote": "nonmagical",
+          "note": "(from stoneskin)",
+          "cond": true
+        }
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "cr": "5",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Balan casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}; {@hit 8} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell detect magic}",
+            "{@spell mage armor}",
+            "{@spell message}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell shield}",
+              "{@spell detect thoughts}",
+              "{@spell dispel magic} (the spellcasting ability check is made with advantage)",
+              "{@spell fly}",
+              "{@spell web}",
+              "{@spell counterspell}"
+            ],
+            "2e": [
+              "{@spell banishment}",
+              "{@spell dimension door}",
+              "{@spell stoneskin}"
+            ],
+            "1e": [
+              "{@spell hold monster}",
+              "{@spell wall of force}"
+            ]
+          },
+          "ability": "int",
+        }
+      ],
+      "trait": [
+        {
+          "name": "Devotion to Duty",
+          "entries": [
+            "Balan has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Balan has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Arcane Burst",
+          "entries": [
+            "{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}21 ({@damage 3d10 + 5}) force damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Magic Resistance"
+      ],
+      "languageTags": [
+        "C",
+        "DR"
+      ],
+      "damageTags": [
+        "O"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "O"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "conditionInflictSpell": [
+        "incapacitated",
+        "paralyzed",
+        "restrained"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "dexterity",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Karakitap Başmüfettiş Hasal Dalian",
+      "source": "",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "gnome",
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        12,
+        {
+          "ac": 15,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 54,
+        "formula": "12d6 + 12"
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 13,
+      "int": 20,
+      "wis": 17,
+      "cha": 11,
+      "skill": {
+        "arcana": "+8",
+        "insight": "+9",
+        "perception": "+9"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 19,
+      "resist": [
+        {
+          "special": "damage from spells"
+        }
+      ],
+      "languages": [
+        "Common",
+        "Gnomish"
+      ],
+      "cr": "5",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Hasal casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}; {@hit 8} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell friends}",
+            "{@spell light}",
+            "{@spell mage armor}",
+            "{@spell mage hand}",
+            "{@spell mending} (as an action)"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell shield}",
+              "{@spell counterspell}",
+              "{@spell detect thoughts}",
+              "{@spell locate object}",
+              "{@spell see invisibility}"
+            ],
+            "2e": [
+              "{@spell clairvoyance} (as an action)",
+              "{@spell dispel magic} (the spellcasting ability check is made with advantage)"
+            ]
+          },
+          "ability": "int"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Hasal has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Arcane Burst",
+          "entries": [
+            "{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}16 ({@damage 2d10 + 5}) force damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "G"
+      ],
+      "damageTags": [
+        "O"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Karakitap Müfettiş",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        12,
+        {
+          "ac": 15,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 36,
+        "formula": "8d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 10,
+      "int": 18,
+      "wis": 14,
+      "cha": 11,
+      "skill": {
+        "arcana": "+6",
+        "history": "+6",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "resist": [
+        {
+          "special": "damage from spells"
+        }
+      ],
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "cr": "4",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The countermage casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}, {@hit 6} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell message}",
+            "{@spell ray of frost} (see above)"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell counterspell}",
+              "{@spell detect magic}",
+              "{@spell detect thoughts}",
+              "{@spell mage armor}",
+              "{@spell shield}"
+            ],
+            "2e": [
+              "{@spell dispel magic} (the spellcasting ability check is made with advantage)",
+              "{@spell locate object}",
+              "{@spell web}"
+            ]
+          },
+          "ability": "int"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The countermage has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Arcane Burst",
+          "entries": [
+            "{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 120 ft., one target. {@h}15 ({@damage 2d10 + 4}) force damage."
+          ]
+        },
+        {
+          "name": "Ray of Frost (Cantrip)",
+          "entries": [
+            "{@atk rs} {@hit 6} to hit, range 120 ft., one creature. {@h}9 ({@damage 2d8}) cold damage. Additionally, the target's speed is reduced by 10 feet until the start of the countermage's next turn."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Magic Resistance"
+      ],
+      "languageTags": [
+        "C",
+        "DR"
+      ],
+      "damageTags": [
+        "C",
+        "O"
+      ],
+      "damageTagsSpell": [
+        "C",
+        "F"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "conditionInflictSpell": [
+        "restrained"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "wisdom"
+      ]
     }    
   ]
 }
