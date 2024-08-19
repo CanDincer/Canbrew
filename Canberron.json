@@ -2651,6 +2651,134 @@
 				"type": "external",
 				"url": "https://i.imgur.com/4x3BtMu.png"
 			}
-		}
+		},
+    {
+      "name": "Tarkanan Enforcer",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item splint armor|PHB|splint}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 58,
+        "formula": "9d8 + 18"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 13,
+      "con": 14,
+      "int": 10,
+      "wis": 11,
+      "cha": 10,
+      "skill": {
+        "athletics": "+5",
+        "perception": "+2"
+      },
+      "passive": 12,
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "3",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The enforcer casts one of the following spells, requiring no spell components and using Constitution as the spellcasting ability ({@hit 4} to hit spell attacks):"
+          ],
+          "will": [
+            "{@spell shocking grasp} (see above)"
+          ],
+          "daily": {
+            "1": [
+              "{@spell false life} (2nd level)"
+            ]
+          },
+          "ability": "con",
+          "displayAs": "action"
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The enforcer makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 3} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage."
+          ]
+        },
+        {
+          "name": "Shocking Grasp (Cantrip)",
+          "entries": [
+            "{@atk ms} {@hit 4} to hit (the attack roll is made with advantage if the target is wearing armor made of metal), reach 5 ft., one creature. {@h}9 ({@damage 2d8}) lightning damage and the target can't take reactions until the start of its next turn."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "heavy crossbow|phb",
+        "longsword|phb",
+        "shortsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "L",
+        "P",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "L"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/TLBD02N.png"
+			}
+    }
   ]
 }
