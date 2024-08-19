@@ -3914,7 +3914,7 @@
               "{@spell wall of force}"
             ]
           },
-          "ability": "int",
+          "ability": "int"
         }
       ],
       "trait": [
