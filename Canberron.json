@@ -3712,7 +3712,111 @@
         "MW",
         "RW"
       ]
-    }
-
+    },
+    {
+      "name": "Başkomutan Iyan ir'Talan",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|PHB|plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 52,
+        "formula": "8d8 + 16"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 11,
+      "con": 14,
+      "int": 17,
+      "wis": 13,
+      "cha": 15,
+      "skill": {
+        "history": "+5",
+        "intimidation": "+4",
+        "persuasion": "+4"
+      },
+      "passive": 11,
+      "languages": [
+        "Common",
+        "Gnomish"
+      ],
+      "cr": "3",
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Iyan makes two attacks with his greatsword"
+          ]
+        },
+        {
+          "name": "Greatsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 2} to hit, range 100/400 ft., one target. {@h}5 ({@damage 1d10}) piercing damage."
+          ]
+        },
+        {
+          "name": "Leadership (Recharges after a Short or Long Rest)",
+          "entries": [
+            "For 1 minute, Iyan can utter a special command or warning whenever a nonhostile creature that he can see within 30 feet of him makes an attack roll or a saving throw. The creature can add a Leadership die, a {@dice d4}, to its roll provided it can hear and understand Iyan. A creature can benefit from only one Leadership die at a time. This effect ends if Iyan is {@condition incapacitated}."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Parry",
+          "entries": [
+            "Iyan adds 2 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "greatsword|phb",
+        "heavy crossbow|phb"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Parry"
+      ],
+      "languageTags": [
+        "C",
+        "G"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ]
+    }    
   ]
 }
