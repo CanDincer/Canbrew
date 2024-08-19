@@ -3205,6 +3205,358 @@
 				"type": "external",
 				"url": "https://i.imgur.com/IQmk8kq.png"
 			}
+    },
+    {
+      "name": "Ek, Tyrant One",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "monstrosity",
+        "tags": [
+          "doppelganger"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item glamoured studded leather}",
+            "{@item ring of protection}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 172,
+        "formula": "23d8 + 69"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 21,
+      "con": 16,
+      "int": 18,
+      "wis": 16,
+      "cha": 19,
+      "save": {
+        "str": "+1",
+        "dex": "+10",
+        "con": "+4",
+        "int": "+9",
+        "wis": "+8",
+        "cha": "+5"
+      },
+      "skill": {
+        "deception": "+12",
+        "history": "+12",
+        "insight": "+11",
+        "persuasion": "+12"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "conditionImmune": [
+        "charmed"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "cr": "9",
+      "trait": [
+        {
+          "name": "Expert Ambusher",
+          "entries": [
+            "Ek has advantage on initiative checks and on attack rolls against any creature that is surprised or that hasn't acted in the first round of combat."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "Ek deals an extra 21 ({@damage 6d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of one of Ek's allies that isn't incapacitated and Ek doesn't have disadvantage on the attack roll."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "Ek wears glamoured leather armor (the appearance of which it can change as a bonus action, retaining its protective qualities) and a {@item ring of protection}. It carries a concealed +1 shortsword inside a +1 sword cane."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Ek makes two melee attacks. If it has both its +1 shortsword and +1 sword cane drawn, it can make three melee attacks, two with one weapon, and one with the other."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "+1 Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage."
+          ]
+        },
+        {
+          "name": "+1 Sword Cane",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Read Thoughts",
+          "entries": [
+            "Ek magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, Ek can continue reading its thoughts, as long as Ek's {@status concentration} isn't broken (as if {@status concentration||concentrating} on a spell). While reading the target's mind, Ek has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Shape",
+          "entries": [
+            "Ek transforms into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "+1 shortsword|dmg"
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Shapechanger"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/UPXJavA.png"
+			}
+    },
+    {
+      "name": "Tyrant Two",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "monstrosity",
+        "tags": [
+          "cleric",
+          "doppelganger"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        17
+      ],
+      "hp": {
+        "average": 149,
+        "formula": "23d8 + 46"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 20,
+      "con": 14,
+      "int": 11,
+      "wis": 18,
+      "cha": 16,
+      "save": {
+        "con": "+5",
+        "wis": "+7"
+      },
+      "skill": {
+        "deception": "+9",
+        "insight": "+7",
+        "religion": "+7",
+        "stealth": "+8"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "conditionImmune": [
+        "charmed"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "cr": "7",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The Tyrant casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell sacred flame}",
+            "{@spell thaumaturgy}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell bane}",
+              "{@spell charm person}",
+              "{@spell guiding bolt} (4th level; see above)"
+            ],
+            "2e": [
+              "{@spell mirror image}",
+              "{@spell locate object}",
+              "{@spell silence}"
+            ],
+            "1e": [
+              "{@spell bestow curse}"
+            ]
+          },
+          "ability": "wis",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Ambusher",
+          "entries": [
+            "The Tyrant has advantage on attack rolls against any creature it has surprised."
+          ]
+        },
+        {
+          "name": "Faith's Shield",
+          "entries": [
+            "The Tyrant's AC includes a magical +2 bonus."
+          ]
+        },
+        {
+          "name": "Surprise Attack",
+          "entries": [
+            "If the Tyrant surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 ({@damage 3d6}) damage from the attack."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Tyrant makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage plus 4 ({@damage 1d8}) poison damage."
+          ]
+        },
+        {
+          "name": "Guiding Bolt (4th-Level Spell; 3/Day)",
+          "entries": [
+            "{@atk rs} {@hit 7} to hit, range 120 ft., one creature. {@h}24 ({@damage 7d6}) radiant damage, and the next attack roll made against the target before the end of the Tyrant's next turn has advantage, thanks to the mystical dim light glittering on the target until then."
+          ]
+        },
+        {
+          "name": "Read Thoughts",
+          "entries": [
+            "The Tyrant magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the Tyrant can continue reading its thoughts, as long as the Tyrant's {@status concentration} isn't broken (as if {@status concentration||concentrating} on a spell). While reading the target's mind, the Tyrant has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target."
+          ]
+        },
+        {
+          "name": "Invoke Duplicity (Recharge on a Short or Long Rest)",
+          "entries": [
+            "The Tyrant can channel the Traveler to create an illusion of itself that lasts for 1 minute, or until it loses its {@status concentration}. The illusion appears in an unoccupied space that it can see within 30 feet. As a bonus action on subsequent turns, the Tyrant can move the illusion up to 30 feet to a space it can see, but it must remain within 120 feet of the Tyrant.",
+            "For the duration, the Tyrant can cast spells as though it were in the illusion's space, but it must use its own senses. Additionally, when both the Tyrant and its illusion are within 5 feet of a creature that can see the illusion, the Tyrant has advantage on attack rolls against that creature."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Shape",
+          "entries": [
+            "The Tyrant transforms into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Spectral Weapon",
+          "entries": [
+            "A ghostly weapon briefly manifests in a space next to a creature within 30 feet of the Tyrant. The weapon makes the following attack against the creature, then disappears: Melee Spell Attack: {@hit 7} to hit, reach 5 ft., one creature. {@h}17 ({@damage 3d8 + 4}) force damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Ambusher"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Shapechanger"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B",
+        "I",
+        "O",
+        "R"
+      ],
+      "damageTagsSpell": [
+        "N",
+        "R"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "deafened"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "dexterity",
+        "wisdom"
+      ],
+      "tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/LD2LjAW.png"
+			}
     }
   ]
 }
