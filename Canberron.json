@@ -4227,6 +4227,593 @@
         "dexterity",
         "wisdom"
       ]
-    }    
+    },
+    {
+      "name": "Halak Boromar",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "halfling"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 99,
+        "formula": "18d6 + 36"
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 9,
+      "dex": 20,
+      "con": 14,
+      "int": 8,
+      "wis": 17,
+      "cha": 13,
+      "save": {
+        "dex": "+8",
+        "con": "+5",
+        "wis": "+6"
+      },
+      "skill": {
+        "intimidation": "+7",
+        "perception": "+6",
+        "survival": "+6",
+        "stealth": "+11"
+      },
+      "passive": 16,
+      "languages": [
+        "can speak Common and Halfling",
+        "but can't read"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Brave",
+          "entries": [
+            "Halak has advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "entries": [
+            "Halak can move through the space of any creature that is of a size larger than him."
+          ]
+        },
+        {
+          "name": "Lucky",
+          "entries": [
+            "When Halak rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll."
+          ]
+        },
+        {
+          "name": "Talentan Warrior",
+          "entries": [
+            "Halak uses his Dexterity modifier when making attack and damage rolls with a tangat or sharrash, increases the damage die for a tangat or sharrash to a {@dice d10} when he wields one, increases the range of a Talenta boomerang to 60/100 when he throws one, and boomerangs he throws always return at the end of his turn whether he hits or misses. Halas always catches a returning boomerang if he has a hand free."
+          ]
+        },
+        {
+          "name": "Vicious",
+          "entries": [
+            "At the start of his turn, Halak can gain advantage on\u2014and deals an additional 5 ({@damage 1d10}) damage with\u2014all melee weapon attacks he makes until the start of his next turn, but attack rolls against him have advantage until the start of his next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Halak makes two melee or ranged weapon attacks."
+          ]
+        },
+        {
+          "name": "Tangat",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) slashing damage."
+          ]
+        },
+        {
+          "name": "Talenta Boomerang",
+          "entries": [
+            "{@atk rw} {@hit 8} to hit, ranged 60/100 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage. Halak carries two boomerangs."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Uncanny Dodge",
+          "entries": [
+            "Halak halves the damage that he takes from an attack that hits him. Halak must be able to see the attacker."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "H"
+      ],
+      "damageTags": [
+        "B",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ]
+    },
+    {
+      "name": "Cavallah",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "giant",
+        "tags": [
+          "oni"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item +2 chain mail}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 178,
+        "formula": "21d10 + 63"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 60,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 16,
+      "int": 14,
+      "wis": 16,
+      "cha": 20,
+      "save": {
+        "dex": "+6",
+        "con": "+7",
+        "wis": "+7",
+        "cha": "+9"
+      },
+      "skill": {
+        "arcana": "+10",
+        "deception": "+13",
+        "insight": "+7",
+        "intimidation": "+9",
+        "perception": "+7",
+        "persuasion": "+13"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 17,
+      "languages": [
+        "Common",
+        "Giant",
+        "Goblin"
+      ],
+      "cr": "11",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Cavallah casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+          ],
+          "will": [
+            "{@spell darkness}",
+            "{@spell invisibility}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell charm person}",
+              "{@spell cone of cold}",
+              "{@spell gaseous form}",
+              "{@spell sleep}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Evasion",
+          "entries": [
+            "If Cavallah is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "Cavallah's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "entries": [
+            "Cavallah regains 15 hit points at the start of her turn if she has at least 1 hit point."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "Cavallah deals an extra 21 ({@damage 6d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of hers that isn't incapacitated and she doesn't have disadvantage on the attack roll."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "Cavallah wears +2 chain mail."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Cavallah makes two ranged or melee weapon attacks."
+          ]
+        },
+        {
+          "name": "Claw (Oni Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+          ]
+        },
+        {
+          "name": "Glaive",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage in Small or Medium form."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "entries": [
+            "{@atk rw} {@hit 6} to hit, ranged 150/600 ft., one target. {@h}11 ({@damage 2d8 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage in Small or Medium form."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Shape",
+          "entries": [
+            "Cavallah magically transforms into a Small or Medium humanoid, into a Large giant, or back into her true form. Other than her size, her statistics are the same in each form. The only equipment that is transformed is her armor, glaive, and bow, which shrink so that they can be worn and wielded in humanoid form. If she dies, Cavallah reverts to her true form, and her weapons revert to their normal size."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "glaive|phb",
+        "longbow|phb"
+      ],
+      "traitTags": [
+        "Magic Weapons",
+        "Regeneration",
+        "Sneak Attack"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Shapechanger"
+      ],
+      "languageTags": [
+        "C",
+        "GI",
+        "GO"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "C"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "invisible",
+        "unconscious"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Harash",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "monstrosity",
+        "tags": [
+          "medusa"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 142,
+        "formula": "19d8 + 57"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 18,
+      "con": 16,
+      "int": 12,
+      "wis": 13,
+      "cha": 17,
+      "save": {
+        "dex": "+7",
+        "int": "+4"
+      },
+      "skill": {
+        "deception": "+6",
+        "insight": "+7",
+        "intimidation": "+9",
+        "perception": "+4",
+        "persuasion": "+9",
+        "stealth": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "8",
+      "trait": [
+        {
+          "name": "Petrifying Gaze",
+          "entries": [
+            "When a creature that can see Harash's eyes starts its turn within 30 feet of him, Harash can force it to make {@dc 15} Constitution saving throw if he isn't {@condition incapacitated} and can see the creature. If the saving throw fails by 5 or more, the creature is instantly {@condition petrified}. Otherwise, a creature that fails the save begins to turn to stone and is {@condition restrained}. The {@condition restrained} creature must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the {@spell greater restoration} spell or other magic.",
+            "Unless {@status surprised}, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Harash until the start of its next turn, when it can avert its eyes again. If the creature looks at Harash in the meantime, it must immediately make the save.",
+            "If Harash sees himself reflected on a polished surface within 30 feet of himself and in an area of bright light, Harash is affected by his own gaze."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Harash makes either three melee attacks\u2014one with his snake hair and two with his shortsword\u2014or two ranged attacks with his longbow."
+          ]
+        },
+        {
+          "name": "Snake Hair",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d4 + 4}) piercing damage plus 14 ({@damage 4d6}) poison damage."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "entries": [
+            "{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "longbow|phb",
+        "shortsword|phb"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "I",
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "petrified",
+        "restrained"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ]
+    },
+    {
+      "name": "Keshta",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "gnoll"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 97,
+        "formula": "15d8 + 30"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 20,
+      "con": 15,
+      "int": 10,
+      "wis": 14,
+      "cha": 9,
+      "save": {
+        "str": "+6",
+        "con": "+5",
+        "wis": "+5"
+      },
+      "skill": {
+        "perception": "+5",
+        "stealth": "+11"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 20,
+      "languages": [
+        "Common",
+        "Gnoll",
+        "Goblin"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Keen Eye",
+          "entries": [
+            "Keshta has advantage on Wisdom ({@skill Perception}) checks that rely on sight and gains a +5 bonus to his passive {@skill Perception} score (included)."
+          ]
+        },
+        {
+          "name": "Mighty Pull",
+          "entries": [
+            "Keshta may add his Strength modifier as a bonus to damage rolls with longbows (included in the attack)."
+          ]
+        },
+        {
+          "name": "Sharpshooter",
+          "entries": [
+            "Attacking at long range doesn't impose disadvantage on Keshta's ranged weapon attack rolls, and his ranged weapon attacks rolls ignore half cover and three-quarters cover."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Keshta makes two attacks with his longbow."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "entries": [
+            "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}12 ({@damage 1d8 + 8}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "longbow|phb",
+        "longsword|phb"
+      ],
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO",
+        "OTH"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ]
+    }
   ]
 }
