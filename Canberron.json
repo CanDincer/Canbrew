@@ -4814,6 +4814,272 @@
         "MW",
         "RW"
       ]
+    },
+    {
+      "name": "Cazha",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "monstrosity",
+        "tags": [
+          "harpy"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item breastplate|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 169,
+        "formula": "26d8 + 52"
+      },
+      "speed": {
+        "walk": 20,
+        "fly": 40
+      },
+      "str": 19,
+      "dex": 15,
+      "con": 14,
+      "int": 9,
+      "wis": 10,
+      "cha": 13,
+      "save": {
+        "str": "+7",
+        "dex": "+5",
+        "con": "+5"
+      },
+      "passive": 10,
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "8",
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Cazha uses Terrorizing Screech then makes either four claw attacks or three attacks with her greatsword or longbow."
+          ]
+        },
+        {
+          "name": "Claws",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+          ]
+        },
+        {
+          "name": "Greatsword",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "entries": [
+            "{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Terrorizing Screech",
+          "entries": [
+            "The Cazha emits an ear-splitting screech in a 120-foot cone. Each creature in the area must succeed on a {@dc 12} Constitution saving throw or be {@condition frightened}. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns. If a creature fails a saving throw against Cazha's Terrorizing Screech while already {@condition frightened}, it becomes {@condition paralyzed} as well. If a target's saving throw is successful or the effect ends for it, the target is immune to Cazha's Terrorizing Screech for the next 24 hours."
+          ]
+        },
+        {
+          "name": "Luring Song",
+          "entries": [
+            "Cazha sings a magical melody. Every humanoid and giant within 300 feet of her that can hear the song must succeed on a {@dc 12} Wisdom saving throw or be {@condition charmed} until the song ends. Cazha must take a bonus action on her subsequent turns to continue singing. She can stop singing at any time. The song ends if Cazha is {@condition incapacitated}.",
+            "While {@condition charmed} by Cazha, a target is {@condition incapacitated} and ignores the songs of other harpies. If the {@condition charmed} target is more than 5 feet away from Cazha, the target can take the Dash action on its turn to move toward her by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than Cazha, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.",
+            "A target that successfully saves is immune to Cazha's song for the next 24 hours."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Slayer's Eye",
+          "entries": [
+            "Cazha rolls a {@dice d10} and adds the result to her next attack or damage roll with a greatsword or longbow before the end of her turn."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "greatsword|phb",
+        "longbow|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "frightened",
+        "incapacitated"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Torag",
+      "source": "",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "monstrosity",
+        "tags": [
+          "minotaur"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 153,
+        "formula": "18d10 + 54"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 18,
+      "dex": 11,
+      "con": 16,
+      "int": 7,
+      "wis": 16,
+      "cha": 9,
+      "save": {
+        "str": "+7",
+        "con": "+6"
+      },
+      "passive": 13,
+      "resist": [
+        {
+          "resist": [
+            "psychic (while raging only)"
+          ],
+          "preNote": "all except"
+        }
+      ],
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": {
+        "cr": "7",
+        "xp": 2300
+      },
+      "trait": [
+        {
+          "name": "Charge",
+          "entries": [
+            "If Torarg moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Labyrinthine Recall",
+          "entries": [
+            "Torarg can perfectly recall any path he has traveled."
+          ]
+        },
+        {
+          "name": "Reckless",
+          "entries": [
+            "At the start of his turn, Torarg can gain advantage on all melee weapon attack rolls he makes during that turn, but attack rolls against him have advantage until the start of his next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Torarg makes two melee weapon attacks."
+          ]
+        },
+        {
+          "name": "Maul",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}18 ({@damage 4d6 + 4}) slashing damage, or 22 ({@damage 4d6 + 8}) slashing damage while raging."
+          ]
+        },
+        {
+          "name": "Gore",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage, or 17 ({@damage 2d8 + 8}) piercing damage while raging."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Rage (Recharges on a Short or Long Rest)",
+          "entries": [
+            "Torarg enters a state of rage for 1 minute. While raging, he has resistance to all damage except psychic damage, and deals an extra 4 damage on all melee weapon attacks. Torarg's rage ends early if he is {@condition incapacitated} or affected by a {@spell calm emotions} spell."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "maul|phb"
+      ],
+      "traitTags": [
+        "Charge",
+        "Reckless"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ]
     }
   ]
 }
