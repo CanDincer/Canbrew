@@ -5818,7 +5818,14 @@
       ],
       "passive": 12,
       "resist": [
-        "poison plus any other three damage types"
+        "poison",
+        {
+					"resist":
+					[
+						"bludgeoning"
+					],
+					"note": "from nonmagical attacks"
+				}
       ],
       "languages": [
         "Common",
@@ -7259,11 +7266,14 @@
         "con": "+6"
       },
       "passive": 13,
-      "resist": [
+      "resist":
+      [
         {
-          "resist": [
-            "psychic (while raging only)"
+          "resist":
+          [
+            "psychic"
           ],
+          "note": "while raging only",
           "preNote": "all except"
         }
       ],
