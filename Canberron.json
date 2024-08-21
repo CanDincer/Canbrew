@@ -3462,6 +3462,994 @@
 			}
     },
     {
+      "name": "Tyrant Three",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "monstrosity",
+        "tags": [
+          "doppelganger",
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        14,
+        {
+          "ac": 17,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 110,
+        "formula": "20d8 + 20"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 18,
+      "con": 12,
+      "int": 18,
+      "wis": 11,
+      "cha": 16,
+      "save": {
+        "int": "+7",
+        "cha": "+6"
+      },
+      "skill": {
+        "arcana": "+7",
+        "deception": "+9",
+        "insight": "+3"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "conditionImmune": [
+        "charmed"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "cr": "7",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The Tyrant casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell mage armor}",
+            "{@spell minor illusion}",
+            "{@spell ray of frost}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell color spray}",
+              "{@spell illusory script} (as an action)",
+              "{@spell lightning bolt} (see above)"
+            ],
+            "2e": [
+              "{@spell hypnotic pattern}",
+              "{@spell invisibility}",
+              "{@spell mirror image}",
+              "{@spell phantasmal force}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Ambusher",
+          "entries": [
+            "The Tyrant has advantage on attack rolls against any creature it has {@status surprised}."
+          ]
+        },
+        {
+          "name": "Surprise Attack",
+          "entries": [
+            "If the Tyrant surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 ({@damage 3d6}) damage from the attack."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Tyrant makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Lightning Bolt (3rd-Level Spell; 3/Day)",
+          "entries": [
+            "A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from the Tyrant in a direction it chooses. Each creature in the line must make a {@dc 15} Dexterity saving throw. A creature takes 28 ({@damage 8d6}) lightning damage on a failed save, or half as much damage on a successful one. The lightning ignites flammable objects in the area that aren't being worn or carried."
+          ]
+        },
+        {
+          "name": "Read Thoughts",
+          "entries": [
+            "The Tyrant magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the Tyrant can continue reading its thoughts, as long as the Tyrant's {@status concentration} isn't broken (as if {@status concentration||concentrating} on a spell). While reading the target's mind, the Tyrant has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Shape",
+          "entries": [
+            "The Tyrant transforms into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Ambusher"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Shapechanger"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B",
+        "L"
+      ],
+      "damageTagsSpell": [
+        "C",
+        "L",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "blinded",
+        "charmed",
+        "incapacitated",
+        "invisible"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "intelligence",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Tyrant Four & Five",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "monstrosity",
+        "tags": [
+          "bard",
+          "doppelganger"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 136,
+        "formula": "21d8 + 42"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 16,
+      "con": 14,
+      "int": 12,
+      "wis": 15,
+      "cha": 18,
+      "save": {
+        "dex": "+6",
+        "wis": "+5",
+        "cha": "+7"
+      },
+      "skill": {
+        "deception": "+10",
+        "insight": "+5",
+        "performance": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "conditionImmune": [
+        "charmed"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The Tyrant casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell friends}",
+            "{@spell prestidigitation}",
+            "{@spell vicious mockery}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell dissonant whispers}",
+              "{@spell cure wounds}",
+              "{@spell Tasha's hideous laughter}"
+            ],
+            "2e": [
+              "{@spell calm emotions}",
+              "{@spell shatter}",
+              "{@spell suggestion}"
+            ],
+            "1e": [
+              "{@spell dispel magic}",
+              "{@spell major image}",
+              "{@spell tongues}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Ambusher",
+          "entries": [
+            "The Tyrant has advantage on attack rolls against any creature it has {@status surprised}."
+          ]
+        },
+        {
+          "name": "Surprise Attack",
+          "entries": [
+            "If the Tyrant surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 ({@damage 3d6}) damage from the attack."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Tyrant makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Read Thoughts",
+          "entries": [
+            "The Tyrant magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the Tyrant can continue reading its thoughts, as long as the Tyrant's {@status concentration} isn't broken (as if {@status concentration||concentrating} on a spell). While reading the target's mind, the Tyrant has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Shape",
+          "entries": [
+            "The Tyrant transforms into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Inspiring Word (4/Day)",
+          "entries": [
+            "When the Tyrant or an ally within 60 feet that can hear it makes an attack roll, ability check, or saving throw, the Tyrant can roll a {@dice d8} and add the result to the roll."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "rapier|phb"
+      ],
+      "traitTags": [
+        "Ambusher"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Shapechanger"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "T",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "incapacitated",
+        "prone"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "constitution",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Tyrant Six, Seven & Eight",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "monstrosity",
+        "tags": [
+          "doppelganger"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        15
+      ],
+      "hp": {
+        "average": 104,
+        "formula": "16d8 + 32"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 20,
+      "con": 14,
+      "int": 15,
+      "wis": 12,
+      "cha": 16,
+      "save": {
+        "dex": "+8",
+        "int": "+5"
+      },
+      "skill": {
+        "deception": "+9",
+        "insight": "+4",
+        "sleight of hand": "+11",
+        "stealth": "+11"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "conditionImmune": [
+        "charmed"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Ambusher",
+          "entries": [
+            "The Tyrant has advantage on attack rolls against any creature it has {@status surprised}."
+          ]
+        },
+        {
+          "name": "Evasion",
+          "entries": [
+            "If the Tyrant is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the Tyrant instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Tyrant makes two melee attacks. If it has two daggers drawn, it may make three melee attacks or two ranged attacks with them."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+          ]
+        },
+        {
+          "name": "Read Thoughts",
+          "entries": [
+            "The Tyrant magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the Tyrant can continue reading its thoughts, as long as the Tyrant's {@status concentration} isn't broken (as if {@status concentration||concentrating} on a spell). While reading the target's mind, the Tyrant has advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Deception}, {@skill Intimidation}, and {@skill Persuasion}) checks against the target."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Shape",
+          "entries": [
+            "The Tyrant transforms into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "The Tyrant takes the Dash, Disengage, or Hide action."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Uncanny Dodge",
+          "entries": [
+            "The Tyrant halves the damage that it takes from an attack that hits it. The Tyrant must be able to see the attacker."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "traitTags": [
+        "Ambusher"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Shapechanger"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B",
+        "I",
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Tyrant Enforcer",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "changeling"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 65,
+        "formula": "10d8 + 20"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 16,
+      "con": 14,
+      "int": 12,
+      "wis": 11,
+      "cha": 14,
+      "save": {
+        "dex": "+5",
+        "int": "+3"
+      },
+      "skill": {
+        "acrobatics": "+5",
+        "athletics": "+2",
+        "perception": "+2",
+        "sleight of hand": "+5",
+        "stealth": "+5"
+      },
+      "passive": 12,
+      "languages": [
+        "any one language (usually Common) plus thieves' cant"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Evasion",
+          "entries": [
+            "If the enforcer is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the enforcer instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "The enforcer deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of one of the enforcer's allies that isn't incapacitated and the enforcer doesn't have disadvantage on the attack roll."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The enforcer makes two attacks with its shortsword"
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Appearance",
+          "entries": [
+            "The enforcer transforms into a Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "The enforcer takes the Dash, Disengage, or Hide action."
+          ]
+        },
+        {
+          "name": "Unsettling Visage (Recharges after a Short or Long Rest)",
+          "entries": [
+            "Each creature within 30 feet of the enforcer must succeed on a {@dc 12} Wisdom saving throw or be {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Uncanny Dodge",
+          "entries": [
+            "The enforcer halves the damage that it takes from an attack that hits it. The enforcer must be able to see the attacker."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "light crossbow|phb",
+        "shortsword|phb"
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "TC",
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "frightened"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Tyrant Trickster",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "bard",
+          "changeling"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item chain shirt|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 66,
+        "formula": "12d8 + 12"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 15,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 16,
+      "save": {
+        "dex": "+4",
+        "wis": "+3"
+      },
+      "skill": {
+        "deception": "+5",
+        "perception": "+5",
+        "performance": "+7"
+      },
+      "passive": 15,
+      "languages": [
+        "any two languages"
+      ],
+      "cr": "4",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The trickster casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+          ],
+          "will": [
+            "{@spell friends}",
+            "{@spell prestidigitation}",
+            "{@spell vicious mockery}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell dissonant whispers}",
+              "{@spell Tasha's hideous laughter}",
+              {
+                "entry": "{@spell Shatter}",
+                "hidden": true
+              }
+            ],
+            "2e": [
+              "{@spell invisibility}",
+              "{@spell shatter} (3rd level; see above)",
+              "{@spell suggestion}"
+            ],
+            "1e": [
+              "{@spell glyph of warding} (as an action)",
+              "{@spell stinking cloud}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "action": [
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Shortbow",
+          "entries": [
+            "{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Shatter (3rd-Level Spell; 3/Day)",
+          "entries": [
+            "A sudden loud ringing noise, painfully intense, erupts from a point the trickster chooses within 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point must make a {@dc 13} Constitution saving throw. A creature takes 18 ({@damage 4d8}) thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw. A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Appearance",
+          "entries": [
+            "The trickster transforms into a Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Soothing Word (2nd-Level Spell; 3/Day)",
+          "entries": [
+            "The trickster or one creature of its choice within 60 feet of it regains 10 ({@dice 2d6 + 3}) hit points."
+          ]
+        },
+        {
+          "name": "Taunt (3/Day)",
+          "entries": [
+            "The trickster targets one creature within 30 feet of it. If the target can hear the trickster, the target must succeed on a {@dc 13} Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the trickster's next turn."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "shortbow|phb",
+        "shortsword|phb"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "P",
+        "T"
+      ],
+      "damageTagsSpell": [
+        "A",
+        "C",
+        "F",
+        "L",
+        "T",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "AOE",
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "conditionInflictSpell": [
+        "incapacitated",
+        "invisible",
+        "prone"
+      ],
+      "savingThrowForced": [
+        "charisma",
+        "constitution"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Tyrant Mask",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "changeling",
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        12,
+        {
+          "ac": 15,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 78,
+        "formula": "12d8 + 24"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 14,
+      "int": 16,
+      "wis": 11,
+      "cha": 14,
+      "save": {
+        "int": "+5",
+        "wis": "+2"
+      },
+      "skill": {
+        "arcana": "+5",
+        "deception": "+4"
+      },
+      "passive": 10,
+      "languages": [
+        "any two languages"
+      ],
+      "cr": "4",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The trickster casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell minor illusion}",
+            "{@spell poison spray}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell color spray}",
+              "{@spell mage armor}",
+              "{@spell magic missile}",
+              {
+                "entry": "{@spell Shield}",
+                "hidden": true
+              }
+            ],
+            "2e": [
+              "{@spell invisibility}",
+              "{@spell mirror image}",
+              "{@spell phantasmal force}"
+            ],
+            "1e": [
+              "{@spell enemies abound|XGE} (XGtE)",
+              "{@spell major image}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "action": [
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Appearance",
+          "entries": [
+            "The mask transforms into a Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Displacement {@recharge 5}",
+          "entries": [
+            "The mask projects an illusion that makes the mask appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the mask. The effect ends if the mask takes damage, it is {@condition incapacitated}, or its speed becomes 0."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Shield (1st-Level Spell; 3/Day)",
+          "entries": [
+            "When the mask is hit by an attack roll, its AC increases by 5 until the start of its next turn, which can cause the triggering attack roll to miss."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "I",
+        "O",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "conditionInflictSpell": [
+        "blinded",
+        "invisible"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "intelligence"
+      ]
+    },
+    {
       "name": "Sharn Emniyet Memuru",
       "source": "",
       "page": 0,
@@ -3819,6 +4807,548 @@
         "MLW",
         "MW",
         "RW"
+      ]
+    },
+    {
+      "name": "Komutan Lian Halamar",
+      "source": "",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "halfling"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item half plate armor|PHB|half plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 55,
+        "formula": "10d6 + 20"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 16,
+      "con": 14,
+      "int": 12,
+      "wis": 15,
+      "cha": 13,
+      "save": {
+        "dex": "+5",
+        "con": "+4"
+      },
+      "skill": {
+        "acrobatics": "+5",
+        "athletics": "+2",
+        "insight": "+6",
+        "perception": "+6"
+      },
+      "passive": 16,
+      "languages": [
+        "Common",
+        "Halfling"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Brave",
+          "entries": [
+            "Lian has advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "entries": [
+            "Lian can move through the space of any creature that is of a size larger than him."
+          ]
+        },
+        {
+          "name": "Lucky",
+          "entries": [
+            "When Lian rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Lian makes two shortsword attacks. If he has two shortswords drawn, he can make a third shortsword attack."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 14 ({@damage 4d6}) poison damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Uncanny Dodge",
+          "entries": [
+            "Lian halves the damage that he takes from an attack that hits him. Lian must be able to see the attacker."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "light crossbow|phb",
+        "shortsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "H"
+      ],
+      "damageTags": [
+        "I",
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ]
+    },
+    {
+      "name": "Komutan Belew Yorgan",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "dwarf"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item splint armor|PHB|splint}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 67,
+        "formula": "9d8 + 27"
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 16,
+      "dex": 13,
+      "con": 16,
+      "int": 10,
+      "wis": 13,
+      "cha": 15,
+      "save": {
+        "str": "+5",
+        "con": "+5"
+      },
+      "skill": {
+        "insight": "+3",
+        "perception": "+3",
+        "persuasion": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "resist": [
+        "poison"
+      ],
+      "languages": [
+        "Common",
+        "Dwarvish"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Dwarven Resilience",
+          "entries": [
+            "Belew has advantage on saving throws against poison."
+          ]
+        },
+        {
+          "name": "Action Surge (Recharges on a Short or Long Rest)",
+          "entries": [
+            "Belew takes an extra action on his turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Belew makes two battleaxe attacks."
+          ]
+        },
+        {
+          "name": "Battleaxe",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 3} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "battleaxe|phb",
+        "heavy crossbow|phb"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "D"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ]
+    },
+    {
+      "name": "Komutan Silaena Cazal",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "elf",
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        13,
+        {
+          "ac": 16,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 66,
+        "formula": "12d8 + 12"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 16,
+      "con": 12,
+      "int": 18,
+      "wis": 12,
+      "cha": 13,
+      "save": {
+        "con": "+3",
+        "wis": "+3"
+      },
+      "skill": {
+        "arcana": "+6",
+        "deception": "+3",
+        "history": "+6",
+        "perception": "+3"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "languages": [
+        "Common",
+        "Elvish"
+      ],
+      "cr": "4",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Silaena casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}; {@hit 6} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell fire bolt}",
+            "{@spell light}",
+            "{@spell message}",
+            "{@spell ray of frost}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell burning hands} (see above)",
+              "{@spell mage armor}",
+              "{@spell thunderwave}",
+              {
+                "entry": "{@spell Shield}",
+                "hidden": true
+              }
+            ],
+            "2e": [
+              "{@spell scorching ray}",
+              "{@spell shatter} (see above)",
+              "{@spell web}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "Silaena has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+          ]
+        },
+        {
+          "name": "Sculpt Evocation",
+          "entries": [
+            "When Silaena casts an evocation spell that forces other creatures she can see to make a saving throw to resist it, she can choose up to 4 of them. These creatures become immune to the effects of that casting of the spell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Silaena makes two rapier attacks."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Burning Hands (1st-Level Spell; 3/Day)",
+          "entries": [
+            "A thin sheet of flames shoots forth from Silaena's outstretched fingertips. Each creature in a 15-foot cone must make a {@dc 14} Dexterity saving throw. A creature takes 10 ({@damage 3d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
+          ]
+        },
+        {
+          "name": "Shatter (2nd-Level Spell; 2/Day)",
+          "entries": [
+            "A sudden loud ringing noise, painfully intense, erupts from a point Silaena chooses within 60 feet of her. Each creature in a 10-foot-radius sphere centered on that point must make a {@dc 14} Constitution saving throw. A creature takes 13 ({@damage 3d8}) thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw. A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Shield (1st-Level Spell; 3/Day)",
+          "entries": [
+            "When Silaena is hit by an attack roll, her AC increases by 5 until the start of her next turn, which can cause the triggering attack roll to miss."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "rapier|phb"
+      ],
+      "traitTags": [
+        "Fey Ancestry"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "E"
+      ],
+      "damageTags": [
+        "F",
+        "P",
+        "T"
+      ],
+      "damageTagsSpell": [
+        "C",
+        "F",
+        "T"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "AOE",
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "restrained"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "dexterity"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Komutan Iyanna ir'Talan",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "{@item half plate armor|PHB|half plate}",
+            "{@item shield|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "7d8 + 14"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 15,
+      "int": 11,
+      "wis": 15,
+      "cha": 16,
+      "save": {
+        "con": "+4",
+        "cha": "+5"
+      },
+      "skill": {
+        "history": "+2",
+        "insight": "+4",
+        "persuasion": "+5"
+      },
+      "passive": 12,
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Devotion to Duty",
+          "entries": [
+            "Iyanna has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Driven (Recharges after a Short or Long Rest)",
+          "entries": [
+            "Iyanna rerolls a failed ability check, attack roll, or saving throw with advantage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Iyanna makes two longsword attacks."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Second Wind {@recharge}",
+          "entries": [
+            "Iyanna regains 20 hit points."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Commander's Inspiration",
+          "entries": [
+            "When Iyanna or an ally within 60 feet that can hear her makes an attack roll, ability check, or saving throw, Iyanna can roll a {@dice d8} and add the result to the roll."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "longsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
       ]
     },
     {
@@ -4224,6 +5754,747 @@
         "restrained"
       ],
       "savingThrowForcedSpell": [
+        "dexterity",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Başçavuş (Çekiç) Khandan Dol",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "dwarf"
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "{@item plate armor|PHB|plate}",
+            "{@item cloak of protection}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 170,
+        "formula": "20d8 + 80"
+      },
+      "speed": {
+        "walk": {
+          "number": 60,
+          "condition": "fly (winged boots)"
+        }
+      },
+      "str": 20,
+      "dex": 13,
+      "con": 18,
+      "int": 13,
+      "wis": 15,
+      "cha": 15,
+      "save": {
+        "str": "+6",
+        "dex": "+2",
+        "con": "+10",
+        "int": "+2",
+        "wis": "+8",
+        "cha": "+3"
+      },
+      "skill": {
+        "athletics": "+10",
+        "history": "+6",
+        "intimidation": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        "poison plus any other three damage types"
+      ],
+      "languages": [
+        "Common",
+        "Dwarvish"
+      ],
+      "cr": "15",
+      "trait": [
+        {
+          "name": "Action Surge (Recharges 5-6)",
+          "entries": [
+            "Khandan takes an extra action on his turn."
+          ]
+        },
+        {
+          "name": "Dwarven Resilience",
+          "entries": [
+            "Khandan has advantage on saving throws against poison."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If Khandan fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "Khandan wields a magical +2 maul and wears a crimson winged {@item cloak of protection} that gives him a flying speed of 60 feet for 1 hour a day. He has also imbibed three potions, each giving him resistance to one type of damage, and carries two potions of superior healing for use in emergencies."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Khandan makes four attacks with his maul. He may forgo one weapon attack to drink a potion."
+          ]
+        },
+        {
+          "name": "+2 Maul",
+          "entries": [
+            "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Light Hammer",
+          "entries": [
+            "{@atk mw,rw} {@hit 10} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}7 ({@damage 1d4 + 5}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Potion of Superior Healing (Consumable Item; Carries 2)",
+          "entries": [
+            "Khandan drinks the potion and regains 28 ({@dice 8d4 + 8}) hit points."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Relentless Fortitude (Recharges 5-6)",
+          "entries": [
+            "Khandan regains 20 hit points."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "+2 maul|dmg",
+        "light hammer|phb"
+      ],
+      "traitTags": [
+        "Legendary Resistances"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "D"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Çavuş (Avcı) Meira",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "shifter"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item half plate armor|PHB|half plate}",
+            "{@item cloak of protection}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 112,
+        "formula": "15d8 + 45"
+      },
+      "speed": {
+        "walk": {
+          "number": 30,
+          "condition": "(40 ft. while shifting)"
+        }
+      },
+      "str": 18,
+      "dex": 19,
+      "con": 16,
+      "int": 10,
+      "wis": 13,
+      "cha": 11,
+      "save": {
+        "str": "+5",
+        "dex": "+9",
+        "con": "+4",
+        "int": "+1",
+        "wis": "+6",
+        "cha": "+1"
+      },
+      "skill": {
+        "athletics": "+8",
+        "nature": "+4",
+        "perception": "+9",
+        "stealth": "+8"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 19,
+      "resist": [
+        {
+          "special": "any three damage types"
+        }
+      ],
+      "languages": [
+        "Common"
+      ],
+      "cr": "11",
+      "trait": [
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If Meira fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "Meira wields a +1 frostaxe and a +1 flamebow two elementally-bound magic weapons that deal extra cold or fire damage when she hits with them (included in the attacks). Meira wears a crimson {@item cloak of protection} and her mithral half plate allows her to roll Dexterity ({@skill Stealth}) checks without disadvantage. She has also imbibed three potions, each giving her resistance to one type of damage, and carries two potions of superior healing for use in emergencies."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Meira makes three attacks with the magic weapon she has drawn. She may forgo one weapon attack to drink a potion."
+          ]
+        },
+        {
+          "name": "+1 Frostaxe",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with two hands, plus 9 ({@damage 2d8}) cold damage."
+          ]
+        },
+        {
+          "name": "+1 Flamebow",
+          "entries": [
+            "{@atk rw} {@hit 9} to hit, reach 5 ft. or range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage plus 9 ({@damage 2d8}) fire damage."
+          ]
+        },
+        {
+          "name": "Potion of Superior Healing (Consumable Item; Carries 2)",
+          "entries": [
+            "Meira drinks the potion and regains 28 ({@dice 8d4 + 8}) hit points."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Shifting (Recharges after a Short or Long Rest)",
+          "entries": [
+            "Meira gains 18 temporary hit points and shifts into a more bestial aspect for 1 minute or until she dies. While shifting, Meira has advantage on Wisdom checks, and attack rolls against her made by creatures within 30 feet of her cannot have advantage, unless she's {@condition incapacitated}."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Legendary Resistances"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "C",
+        "F",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ]
+    },
+    {
+      "name": "Çavuş Molin Kaine",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item half plate armor|PHB|half plate}",
+            "{@item cloak of protection}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 112,
+        "formula": "15d8 + 45"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 18,
+      "con": 17,
+      "int": 14,
+      "wis": 11,
+      "cha": 13,
+      "save": {
+        "str": "+2",
+        "dex": "+9",
+        "con": "+4",
+        "int": "+7",
+        "wis": "+1",
+        "cha": "+2"
+      },
+      "skill": {
+        "acrobatics": "+8",
+        "athletics": "+5",
+        "insight": "+4",
+        "persuasion": "+5"
+      },
+      "passive": 10,
+      "resist": [
+        {
+          "special": "any three damage types"
+        }
+      ],
+      "languages": [
+        "Common"
+      ],
+      "cr": "11",
+      "trait": [
+        {
+          "name": "Action Surge {@recharge 5}",
+          "entries": [
+            "Kaine takes an extra action on his turn."
+          ]
+        },
+        {
+          "name": "Driven (Recharges after a Short or Long Rest)",
+          "entries": [
+            "Kaine rerolls a failed ability check, attack roll, or saving throw with advantage."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If Kaine fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "Kaine wields a {@item rapier of wounding} and a +2 hand crossbow and wears a crimson {@item cloak of protection}. He has also imbibed three potions, each giving him resistance to one type of damage, and carries two potions of superior healing for use in emergencies."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Kaine makes four attacks with his Rapier of Wounding. He may forgo one weapon attack to drink a potion."
+          ]
+        },
+        {
+          "name": "Rapier of Wounding",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a {@dc 15} Constitution saving throw or lose 2 ({@dice 1d4}) hit points at the start of each of its turns due to a magical wound. Each time Kaine hits the wounded target with this attack, the damage dealt by the wound increases by 2 ({@dice 1d4}). Any creature can take an action to stanch the wound with a successful {@dc 15} Wisdom ({@skill Medicine}) check. The wound also closes if the target receives magical healing."
+          ]
+        },
+        {
+          "name": "+2 Hand Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 10} to hit, range 80/320 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage plus 21 ({@damage 6d6}) poison damage."
+          ]
+        },
+        {
+          "name": "Potion of Superior Healing (Consumable Item; Carries 2)",
+          "entries": [
+            "Kaine drinks the potion and regains 28 ({@dice 8d4 + 8}) hit points."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "+2 hand crossbow|dmg",
+        "rapier of wounding|dmg"
+      ],
+      "traitTags": [
+        "Legendary Resistances"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "I",
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ]
+    },
+    {
+      "name": "Kızılmanto Askeri",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item breastplate|PHB}",
+            "{@item cloak of protection}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 75,
+        "formula": "10d8 + 30"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 16,
+      "int": 13,
+      "wis": 11,
+      "cha": 10,
+      "save": {
+        "str": "+4",
+        "dex": "+3",
+        "con": "+7",
+        "int": "+2",
+        "wis": "+4",
+        "cha": "+1"
+      },
+      "skill": {
+        "athletics": "+6",
+        "intimidation": "+6"
+      },
+      "passive": 10,
+      "resist": [
+        {
+          "special": "any three damage types"
+        }
+      ],
+      "languages": [
+        "Common"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Action Surge (Recharges after a Short or Long Rest)",
+          "entries": [
+            "The Redcloak takes an extra action on its turn."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (1/Day)",
+          "entries": [
+            "If the Redcloak fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Military Tactics",
+          "entries": [
+            "The Redcloak has advantage on attack rolls while it can see an allied creature with 30 feet of it that isn't {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "The Redcloak wields +1 magic weapons and wears a crimson {@item cloak of protection}. It has also imbibed three potions, each giving it resistance to one type of damage, and carries two potions of greater healing for use in emergencies."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Redcloak makes three attacks with the weapon it has drawn. The Redcloak may forgo one weapon attack to drink a potion."
+          ]
+        },
+        {
+          "name": "+1 Longsword",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "+1 Longbow",
+          "entries": [
+            "{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Potion of Greater Healing (Consumable Item; Carries 2)",
+          "entries": [
+            "The Redcloak drinks the potion and regains 14 ({@dice 4d4 + 4}) hit points."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "+1 longbow|dmg",
+        "+1 longsword|dmg"
+      ],
+      "traitTags": [
+        "Legendary Resistances"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW"
+      ]
+    },
+    {
+      "name": "Kızılmanto Sahirkıran",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item cloak of protection}"
+          ]
+        },
+        {
+          "ac": 16,
+          "condition": "with mage armor",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "10d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 15,
+      "con": 10,
+      "int": 18,
+      "wis": 13,
+      "cha": 10,
+      "save": {
+        "str": "+2",
+        "dex": "+3",
+        "con": "+4",
+        "int": "+8",
+        "wis": "+1",
+        "cha": "+1"
+      },
+      "skill": {
+        "arcana": "+7",
+        "intimidation": "+6"
+      },
+      "passive": 10,
+      "resist": [
+        {
+          "special": "damage from spells plus any three damage types"
+        }
+      ],
+      "languages": [
+        "Common"
+      ],
+      "cr": "7",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The magebreaker casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}, {@hit 8} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell light}",
+            "{@spell message}",
+            "{@spell mage armor}"
+          ],
+          "daily": {
+            "2e": [
+              "{@spell dispel magic} (the spellcasting ability check is made with advantage)",
+              "{@spell fly}",
+              "{@spell locate object}",
+              "{@spell see invisibility}"
+            ],
+            "1e": [
+              "{@spell banishment}",
+              "{@spell cone of cold}",
+              "{@spell dimension door}",
+              "{@spell hold monster}"
+            ],
+            "3e": [
+              {
+                "entry": "{@spell Counterspell}",
+                "hidden": true
+              }
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Legendary Resistance (1/Day)",
+          "entries": [
+            "If the magebreaker fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The magebreaker has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "The magebreaker wields a +1 wand of the war mage and wears a crimson {@item cloak of protection}. It has also imbibed three potions, each giving it resistance to one type of damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The magebreaker makes three Arcane Burst attacks."
+          ]
+        },
+        {
+          "name": "Arcane Burst",
+          "entries": [
+            "{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}20 ({@damage 3d10 + 4}) damage of a type chosen by the magebreaker: acid, cold, fire, lightning, or thunder."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Healing Light (2nd-Level Spell; 3/Day)",
+          "entries": [
+            "The magebreaker or one creature of its choice within 60 feet of it regains 13 ({@dice 2d8 + 4}) hit points."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Counterspell (4th-Level Spell; 3/Day)",
+          "entries": [
+            "The magebreaker targets one creature it can see within 120 feet of it that is casting a spell. The magebreaker makes an Intelligence check with advantage against a DC equal to 10 + the spell's level. On a success, the target's spell fails and has no effect."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTagsSpell": [
+        "C",
+        "O"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "conditionInflictSpell": [
+        "incapacitated",
+        "paralyzed"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "constitution",
         "dexterity",
         "wisdom"
       ]
@@ -5079,6 +7350,91 @@
       ],
       "savingThrowForced": [
         "strength"
+      ]
+    },
+    {
+      "name": "Altınkanat Süvarisi",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item half plate armor|PHB|half plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 58,
+        "formula": "9d8 + 18"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 15,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 10,
+      "skill": {
+        "animal handling": "+3",
+        "athletics": "+4",
+        "perception": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "2",
+      "action": [
+        {
+          "name": "Lance",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit (with disadvantage against a target within 5 ft.), reach 10 ft., one target. {@h}8 ({@damage 1d12 + 2}) piercing damage, or 11 ({@damage 1d12 + 5}) piercing damage while mounted."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or ranged 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "dagger|phb",
+        "lance|phb",
+        "light crossbow|phb"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RCH",
+        "RW",
+        "THW"
       ]
     }
   ]
