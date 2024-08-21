@@ -2830,7 +2830,7 @@
     },
     {
       "name": "Tarkanan Ward",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -2933,7 +2933,7 @@
     {
       "name": "The Son of Khyber",
       "isNamedCreature": true,
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -3112,7 +3112,7 @@
     {
       "name": "Ek, Tyrant One",
       "isNamedCreature": true,
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -3266,7 +3266,7 @@
     },
     {
       "name": "Tyrant Two",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -3463,7 +3463,7 @@
     },
     {
       "name": "Tyrant Three",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -3644,7 +3644,7 @@
     },
     {
       "name": "Tyrant Four & Five",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -3835,7 +3835,7 @@
     },
     {
       "name": "Tyrant Six, Seven & Eight",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -3980,7 +3980,7 @@
     },
     {
       "name": "Tyrant Enforcer",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -4128,7 +4128,7 @@
     },
     {
       "name": "Tyrant Trickster",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -4300,7 +4300,7 @@
     },
     {
       "name": "Tyrant Mask",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -4451,7 +4451,7 @@
     },
     {
       "name": "Sharn Emniyet Memuru",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -4529,7 +4529,7 @@
     },
     {
       "name": "Sharn Mahalle Çavuşu",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -4621,7 +4621,7 @@
     },
     {
       "name": "Sharn Semt Başçavuşu",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -4706,7 +4706,7 @@
     },
     {
       "name": "Başkomutan Iyan ir'Talan",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -4811,7 +4811,7 @@
     },
     {
       "name": "Komutan Lian Halamar",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "S"
@@ -4934,7 +4934,7 @@
     },
     {
       "name": "Komutan Belew Yorgan",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -5051,7 +5051,7 @@
     },
     {
       "name": "Komutan Silaena Cazal",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -5237,7 +5237,7 @@
     },
     {
       "name": "Komutan Iyanna ir'Talan",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -5353,7 +5353,7 @@
     },
     {
       "name": "Karakitap Başmüfettiş Balan Cord",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -5502,7 +5502,7 @@
     },
     {
       "name": "Karakitap Başmüfettiş Hasal Dalian",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "S"
@@ -5628,7 +5628,7 @@
     },
     {
       "name": "Karakitap Müfettiş",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -5760,7 +5760,7 @@
     },
     {
       "name": "Başçavuş (Çekiç) Khandan Dol",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -5914,7 +5914,7 @@
     },
     {
       "name": "Çavuş (Avcı) Meira",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -6053,7 +6053,7 @@
     },
     {
       "name": "Çavuş Molin Kaine",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -6194,7 +6194,7 @@
     },
     {
       "name": "Kızılmanto Askeri",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -6326,7 +6326,7 @@
     },
     {
       "name": "Kızılmanto Sahirkıran",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -6502,7 +6502,7 @@
     {
       "name": "Halak Boromar",
       "isNamedCreature": true,
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "S"
@@ -6634,7 +6634,7 @@
     {
       "name": "Cavallah",
       "isNamedCreature": true,
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "L"
@@ -6837,7 +6837,7 @@
     {
       "name": "Harash",
       "isNamedCreature": true,
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -6963,7 +6963,7 @@
     {
       "name": "Keshta",
       "isNamedCreature": true,
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -7089,7 +7089,7 @@
     {
       "name": "Cazha",
       "isNamedCreature": true,
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -7218,7 +7218,7 @@
     },
     {
       "name": "Torag",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "L"
@@ -7354,7 +7354,7 @@
     },
     {
       "name": "Altınkanat Süvarisi",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
