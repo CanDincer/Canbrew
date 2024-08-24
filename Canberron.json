@@ -2419,7 +2419,7 @@
 			}
     },
     {
-			"name": "Wingwyrd ogd",
+			"name": "Wingwyrd",
 			"size":
 			[
 				"M"
@@ -2502,13 +2502,6 @@
 					"entries":
 					[
 						"The wingwyrd makes two attacks: one with its bite and one with its claws."
-					]
-				},
-				{
-					"name": "Longsword +1",
-					"entries":
-					[
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
 					]
 				},
         {
