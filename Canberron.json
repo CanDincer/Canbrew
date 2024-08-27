@@ -7405,6 +7405,464 @@
         "RW",
         "THW"
       ]
+    },
+    {
+      "name": "Sihir Şövalyeler Yalımşakıyan",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        },
+        {
+          "ac": 18,
+          "from": [
+            "during bladesong"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 49,
+        "formula": "9d8 + 9"
+      },
+      "speed": {
+        "walk": {
+          "number": 30,
+          "condition": "(40 ft. during bladesong)"
+        }
+      },
+      "str": 10,
+      "dex": 15,
+      "con": 13,
+      "int": 19,
+      "wis": 11,
+      "cha": 12,
+      "save": {
+        "int": "+7",
+        "wis": "+3",
+        "con": "+5"
+      },
+      "skill": {
+        "acrobatics": "+5",
+        "arcana": "+7",
+        "performance": "+4"
+      },
+      "passive": 10,
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "7",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The bladesinger casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}; {@hit 7} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell light}",
+            "{@spell message}",
+            "{@spell shocking grasp}",
+            "{@spell ray of frost}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell burning hands}",
+              "{@spell detect magic}",
+              "{@spell magic missile}",
+              "{@spell shield}"
+            ],
+            "2e": [
+              "{@spell counterspell}",
+              "{@spell invisibility}",
+              "{@spell phantom steed} (as an action)",
+              "{@spell scorching ray}"
+            ],
+            "1e": [
+              "{@spell banishment}",
+              "{@spell confusion}",
+              "{@spell hold monster}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The bladesinger makes two rapier attacks."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage and 4 ({@damage 1d8}) force damage."
+          ]
+        },
+        {
+          "name": "Spell Blast (3/Day)",
+          "entries": [
+            "The bladesinger creates a magical blast of energy that can be directed and shaped as the bladesinger desires, choosing between a 20-foot radius sphere centered on a point it can see within 120 feet of it, a line 60 feet long and 5 feet wide extending from it in a direction it chooses, or a 40-foot cone. Each creature in the blast must make a {@dc 15} Dexterity saving throw. On a failed save, a creature takes 31 ({@damage 7d8}) damage of a type chosen by the bladesinger: acid, cold, fire, lightning, or thunder. On a successful save, a creature takes half as much damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Bladesong (Recharges after a Short or Long Rest)",
+          "entries": [
+            "The bladesinger begins performing the Bladesong. The Bladesong lasts for up to 1 minute, and ends if the bladesinger is {@condition incapacitated}.",
+            "While the Bladesong is active, the bladesinger's Armor Class includes its Intelligence bonus, its speed increases by 10 feet, and it applies its Intelligence bonus to Constitution saving throws (noted above)."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "rapier|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "O",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "C",
+        "F",
+        "L",
+        "O"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "AOE",
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "incapacitated",
+        "invisible",
+        "paralyzed"
+      ],
+      "savingThrowForced": [
+        "dexterity"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "dexterity",
+        "wisdom"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/4GBqGyF.png"
+			}
+    },
+    {
+      "name": "Sihir Şövalyeler Kadimbüyü Şövalyesi",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item half plate armor|PHB|half plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 65,
+        "formula": "10d8 + 20"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 14,
+      "int": 16,
+      "wis": 10,
+      "cha": 12,
+      "save": {
+        "str": "+6",
+        "con": "+4"
+      },
+      "skill": {
+        "arcana": "+5",
+        "athletics": "+6",
+        "intimidation": "+3"
+      },
+      "passive": 10,
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "4",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The knight casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}; {@hit 5} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell fire bolt} (see above)",
+            "{@spell shocking grasp} (see above)"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell shield}"
+            ],
+            "2e": [
+              "{@spell burning hands}",
+              "{@spell thunderwave}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The knight either makes two weapon attacks, or makes one weapon attack and casts a cantrip (in any order)."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands, and the target has disadvantage on the next saving throw it makes against a spell the knight casts before the end of its next turn."
+          ]
+        },
+        {
+          "name": "Fire Bolt (Cantrip)",
+          "entries": [
+            "{@atk rs} {@hit 5} to hit, range 120 ft., one target. {@h}11 ({@damage 2d10}) fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried."
+          ]
+        },
+        {
+          "name": "Shocking Grasp (Cantrip)",
+          "entries": [
+            "{@atk ms} {@hit 5} to hit (the attack roll is made with advantage if the target is wearing armor made of metal), reach 5 ft., one creature. {@h}9 ({@damage 2d8}) lightning damage and the target can't take reactions until the start of its next turn."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "longsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "F",
+        "L",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "L",
+        "T"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Sihir Şövalyeler Silüet Şövalye",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item half plate armor|PHB|half plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 117,
+        "formula": "18d8 + 32"
+      },
+      "speed": {
+        "walk": {
+          "number": 30,
+          "condition": "(flying 20 ft. in phantom form only)"
+        }
+      },
+      "str": 20,
+      "dex": 14,
+      "con": 14,
+      "int": 16,
+      "wis": 10,
+      "cha": 15,
+      "save": {
+        "str": "+8",
+        "con": "+5"
+      },
+      "skill": {
+        "arcana": "+6",
+        "athletics": "+8",
+        "intimidation": "+5",
+        "perception": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "7",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The knight casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 14}; {@hit 6} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell fire bolt} (11th level)",
+            "{@spell shocking grasp} (11th level)",
+            "{@spell true strike}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell shield}"
+            ],
+            "2e": [
+              "{@spell burning hands}",
+              "{@spell magic missile}",
+              "{@spell thunderwave}"
+            ],
+            "1e": [
+              "{@spell gust of wind}",
+              "{@spell fear}",
+              "{@spell scorching ray}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The knight either makes two weapon attacks, or makes one weapon attack and casts a spell (in any order)."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with two hands, plus 9 ({@damage 2d8}) force damage if the knight is incorporeal. The target has disadvantage on the next saving throw it makes against a spell the knight casts before the end of its next turn"
+          ]
+        },
+        {
+          "name": "Phantom Rider (1/Day)",
+          "entries": [
+            "The knight casts {@spell phantom steed} as an action. When it does, the spell gains the following additional benefits:",
+            {
+              "type": "list",
+              "items": [
+                "the spell's duration increases to 4 hours",
+                "the steed ignores difficult terrain and can move across liquid surfaces as though affected by the {@spell water walk} spell"
+              ]
+            }
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Phantom Form (2/Day)",
+          "entries": [
+            "The knight transforms into an incorporeal version of itself for 1 minute. While incorporeal, the knight's weapon attacks deal an extra 9 ({@damage 2d8}) force damage (noted in the attack), the knight gains a flying speed of 20 feet, and it can move through other creatures and objects as if they were difficult terrain. The knight takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "longsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "O",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "L",
+        "O",
+        "T"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "frightened"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "strength",
+        "wisdom"
+      ]
     }
   ]
 }
