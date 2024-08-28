@@ -7884,6 +7884,449 @@
 					"Within the Order of Knights Arcane, the Knights Phantom are the elite among the elite. These famed eldritch knight-dragoons ride into battle mounted on their namesake—phantom steeds augmented by secret arcane rituals of the order. Aundair credits the Knights Phantom—who fielded arcane cavalry units a dozen strong—with near single-handedly delivering victory after victory during the Last War."
         ]
       }
+    },
+    {
+      "name": "Ejderhaşahin Süvarisi",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item half plate armor|PHB|half plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 84,
+        "formula": "13d8 + 26"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 16,
+      "con": 14,
+      "int": 15,
+      "wis": 12,
+      "cha": 11,
+      "skill": {
+        "animal handling": "+3",
+        "arcana": "+4",
+        "perception": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "any one language (usually Common)"
+      ],
+      "cr": "3",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The rider casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 12}; {@hit 4} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell fire bolt} (5th level; see above)",
+            "{@spell minor illusion}"
+          ],
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Mounted Flyby",
+          "entries": [
+            "When controlling a mounted dragonhawk, the rider doesn't provoke opportunity attacks when its mount flies out of an enemy's reach."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Fire Bolt (Cantrip)",
+          "entries": [
+            "{@atk rs} {@hit 4} to hit, range 120 ft., one target. {@h}11 ({@damage 2d10}) fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Quickened Cantrip (3/Day)",
+          "entries": [
+            "The rider uses Spellcasting to cast a cantrip."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "rapier|phb"
+      ],
+      "languageTags": [
+        "C",
+        "X"
+      ],
+      "damageTags": [
+        "F",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "F"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff":
+			{
+				"entries":
+				[
+					"The dragonhawk is a symbol of Aundair’s majesty and pride, representing the nation on the royal crest. These gigantic birds of prey are difficult to rear, but the crown invests in several flights trained to carry soldiers into battle. The dragonhawk riders are an esteemed position, often only granted to knights that hold noble titles as a mark of prestige."
+        ]
+      }
+    },
+    {
+      "name": "Soylu Gözü",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        14
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "10d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 10,
+      "int": 16,
+      "wis": 14,
+      "cha": 16,
+      "save": {
+        "dex": "+5",
+        "int": "+5",
+        "wis": "+4"
+      },
+      "skill": {
+        "arcana": "+5",
+        "deception": "+7",
+        "insight": "+6",
+        "investigation": "+7",
+        "persuasion": "+5",
+        "sleight of hand": "+5",
+        "stealth": "+7"
+      },
+      "passive": 12,
+      "languages": [
+        "any three languages"
+      ],
+      "cr": "2",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The Royal Eye casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+          ],
+          "will": [
+            "{@spell mage hand}",
+            "{@spell message}",
+            "{@spell vicious mockery}"
+          ],
+          "daily": {
+            "2e": [
+              "{@spell comprehend languages}",
+              "{@spell disguise self}",
+              "{@spell illusory script} (as an action)",
+              "{@spell invisibility}",
+              "{@spell locate object}",
+              "{@spell suggestion}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "The Royal Eye deals an extra 10 ({@damage 3d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of one of the Royal Eye's allies that isn't incapacitated and the Royal Eye doesn't have disadvantage on the attack roll."
+          ]
+        },
+        {
+          "name": "Subtle Spell (3/Day)",
+          "entries": [
+            "When the Royal Eye casts a spell, it may do so without any somatic or verbal components."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Royal Eye makes two dagger attacks."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "The Royal Eye takes the Dash, Disengage, or Hide action."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Illusory Escape",
+          "entries": [
+            "When the Royal Eye is attacked, it may use Spellcasting to cast {@spell invisibility} before the attack occurs, potentially causing the attack to miss."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "Y"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "conditionInflictSpell": [
+        "invisible"
+      ],
+      "savingThrowForcedSpell": [
+        "wisdom"
+      ],
+      "fluff":
+			{
+				"entries":
+				[
+					"Reporting directly to Queen Aurala, the Royal Eyes of Aundair are the nation’s intelligence agency. This network of spies and agents relies on magic—especially divinations, enchantments, and illusions—to succeed in their mission: gathering information to keep Aundair safe. With the signing of the Treaty of Thronehold, the Royal Eyes have adroitly transitioned from wartime efforts of strategic intelligence and sabotage to the current climate of political intrigue and espionage."
+        ]
+      }
+    },
+    {
+      "name": "Kraliçe Aurala ir'Wynarn",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human",
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "royal gown",
+            "crown of protection"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 36,
+        "formula": "8d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 10,
+      "int": 15,
+      "wis": 18,
+      "cha": 20,
+      "save": {
+        "str": "+3",
+        "dex": "+5",
+        "con": "+2",
+        "int": "+6",
+        "wis": "+8",
+        "cha": "+7"
+      },
+      "skill": {
+        "deception": "+8",
+        "history": "+5",
+        "insight": "+7",
+        "persuasion": "+8"
+      },
+      "passive": 14,
+      "languages": [
+        "Common",
+        "Elvish",
+        "Halfling"
+      ],
+      "cr": "4",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Aurala casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 12}):"
+          ],
+          "will": [
+            "{@spell blade ward}",
+            "{@spell light}",
+            "{@spell message}",
+            "{@spell prestidigitation}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell charm person}",
+              "{@spell comprehend languages}",
+              "{@spell silent image}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Royal Inspiration",
+          "entries": [
+            "When Aurala or a creature within 60 feet of her that can see or hear her makes an attack roll, ability check, saving throw, or damage roll, Aurala may roll {@dice 3d6} and add the result to the roll."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "Aurala wears a royal gown, a magic item that grants her an Armor Class equal to 13 + her Dexterity modifier, as well as a crown of protection, which grants her a +2 bonus to AC and all saving throws. If worst comes to worst, Aurala has a +1 dagger and a +2 longbow with which to defend herself."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "+1 Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage"
+          ]
+        },
+        {
+          "name": "+2 Longbow",
+          "entries": [
+            "{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Cutting Wit",
+          "entries": [
+            "When a creature within 60 feet of Aurala makes an attack roll or ability check, Aurala can use her reaction to roll {@dice 3d6} and subtract the result from the creature's roll. This must be done before the results of the roll are determined."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "+1 dagger|dmg",
+        "+2 longbow|dmg"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "H"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "conditionInflictSpell": [
+        "charmed"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff":
+      {
+        "entries":
+        [
+          "The current monarch of Aundair, Queen Aurala is an insightful and cunning woman. Although Queen Aurala is not a talented mage, nor extraordinarily skilled with arms and armor, her true power lies in her diplomatic skill and ability to expertly navigate the political intrigues of nations and thrones.",
+          "Through the Royal Eyes of Aundair, her personal intelligence agency, Queen Aurala is aware of most schemes and motivations within her court. With a benevolent smile or a cutting remark, she plays her nobles to her own advantage and pits rivals against each other— often times, including her two Warlords.",
+          "Queen Aurala’s greatest disappointment is most likely the Treaty of Thronehold. Aundair suffered more loss of territory than any country—except, of course, Cyre. With the succession of the Eldeen Reaches, and Thrane’s conquering of Thaliost, Aundair came out of the Last War much diminished. The Treaty upheld these loses, drawing the current political borders of the Five Nations, and Aurala cannot help but sting at the “finalization” of her nation’s defeats in these arenas.",
+          "But the Queen of Aundair despairs for not just the lost glory of her own kingdom, but that of the unified Kingdom of Galifar as well. In her heart of hearts, Aurala believes that the Kingdom of Galifar must be reestablished for the good of all the peoples of Khorvaire—and that she is the only ruler worthy of sitting upon the throne of Galifar once again. In her eyes, King Boranel of Breland cares so little for his people that he lets crime and corruption run rampant in his nation. The ir’Wynarns of Thrane have been reduced to figureheads while a cult of zealous fanatics runs the country. King Kaius III of Karrnath is a brutal tyrant that has stripped his people of their rights, once protected by the Code of Galifar. And poor Prince Oragev of Cyre-That-Was no longer has any relevance. Meanwhile, with Aurala’s guiding hand, the people of Aundair enjoy freedom, education, prosperity, and the magical advancements of the Arcane Congress that protect and comfort them. Truly, Khorvaire would enter a new golden age if Aurala’s rule of Aundair spread to all of the Thronehold nations.",
+          "Aurala is no blind idealist, however. With her shrewd political acumen, she is not fooled by the current “peace” of the Treaty. She knows that the Last War has not truly ended, merely transitioned to a new cold war, rife with intrigue and sabotage. So, despite her ultimate desire for the peace and prosperity of all of Khorvaire, Aurala makes preparations for renewed hostilities, training and recruiting mages, soldiers, and spies. The Queen of Aundair is determined that when the Last War’s outright hostilities resume, her nation will not only be ready—but victorious."
+        ],
+        "description":
+        [
+          "The Royal Inspiration trait makes even a relatively weak combatant a force to be reckoned with. A king or queen’s retainers and guards are willing to fight until the very end to defend them.",
+          "Because the Royal Inspiration trait grants the royal NPC’s allies, on average, a +10 bonus on attacks, saving throws, and damage rolls, increase a creature’s challenge rating by 3 steps when designing a balanced encounter if they are an ally of the royal NPC, treating fractional increases as one step.",
+          "For example, a simple Guard (Monster Manual) normally has a challenge rating of 1/8, but as the royal NPC’s ally, for the purposes of encounter balance, it has a challenge rating of 1."
+        ]
+      }
     }
+    
   ]
 }
