@@ -8156,8 +8156,9 @@
       }
     },
     {
-      "name": "Kraliçe Aurala ir'Wynarn",
+      "name": "Aurala ir'Wynarn",
       "source": "Canberron",
+      "isNamedCreature": true,
       "size": [
         "M"
       ],
@@ -8322,8 +8323,9 @@
       }
     },
     {
-      "name": "Dük Adal ir'Wynarn",
+      "name": "Adal ir'Wynarn",
       "source": "Canberron",
+      "isNamedCreature": true,
       "size": [
         "M"
       ],
@@ -8513,6 +8515,609 @@
 				[
 					"Queen Aurala’s brother, Lord Adal ir’Wynarn, serves as Aundair’s First Warlord and Minister of Magic. He shares many of his sister’s ideals, preparing for the next war and ensuring Aundair emerges victorious from it, with Aundair’s ruler at the head of a new united Galifar. However, he sees himself as that ruling monarch, believing he is the true power behind Aundair’s throne, with only an accident of birth keeping himself from being King.",
           "Though he has not yet formulated any plans to oust his sister, Adal ir’Wynarn has not been idle. His immediate goal is to reclaim Thaliost, ideally in the opening moments of renewed hostility. To that effect, he and a cabal of amoral wizards under his supervision are researching devastating war magic. Adal hopes to create a single arcane event capable of eradicating an entire army or city in but a moment. With this hypothetical spell—referred to in his notes as apocalypse from the sky—he will decimate Thrane’s forces around Thaliost, and cow the rest of the Thronehold nations into surrender."
+        ]
+      }
+    },
+    {
+      "name": "Darro ir'Lain",
+      "source": "",
+      "isNamedCreature": true,
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human",
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item half plate armor|PHB|half plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 169,
+        "formula": "26d8 + 52"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 20,
+          "condition": "in phantom form only"
+        }
+      },
+      "str": 20,
+      "dex": 14,
+      "con": 14,
+      "int": 18,
+      "wis": 10,
+      "cha": 15,
+      "save": {
+        "str": "+9",
+        "con": "+6"
+      },
+      "skill": {
+        "arcana": "+8",
+        "athletics": "+9",
+        "intimidation": "+6",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "Common",
+        "Draconic",
+        "Elvish"
+      ],
+      "cr": "10",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Darro casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 16}; {@hit 8} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell fire bolt}",
+            "{@spell shocking grasp}",
+            "{@spell true strike}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell fear}",
+              "{@spell fireball}",
+              "{@spell magic missile}",
+              "{@spell thunderwave}",
+              "{@spell shatter}",
+              "{@spell shield}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Darro either makes three weapon attacks, or makes one weapon attack and casts a spell (in any order)."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with two hands, plus 9 ({@damage 2d8}) force damage if Darro is incorporeal. The target has disadvantage on the next saving throw it makes against a spell Darro casts before the end of his next turn"
+          ]
+        },
+        {
+          "name": "Perfect Phantom Rider",
+          "entries": [
+            "Darro casts {@spell phantom steed} as an action, without expending a spell slot. When he does, the spell gains the following additional benefits:",
+            {
+              "type": "list",
+              "items": [
+                "the spell's duration increases to 8 hours",
+                "the steed has a flying speed of 60 feet"
+              ]
+            }
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Phantom Form {@recharge 5}",
+          "entries": [
+            "Darro transforms into an incorporeal version of himself for 1 minute. While incorporeal, Darro's weapon attacks deal an extra 9 ({@damage 2d8}) force damage (noted in the attack), he gains a flying speed of 20 feet, and he can move through other creatures and objects as if they were difficult terrain. Darro takes 5 ({@damage 1d10}) force damage if he ends his turn inside an object."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "longsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "DR",
+        "E"
+      ],
+      "damageTags": [
+        "O",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "L",
+        "O",
+        "T"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "frightened"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff":
+			{
+				"entries":
+				[
+					"Second Warlord of the Realm and Lord of the Knights Arcane, Darro ir’Lain is a former Knight Phantom—and was one of their most deadly warriors. His current strategic focus is in planning a campaign to reclaim the western lands that succeeded from Aundair during the Last War to form the Eldeen Reaches. Lord Darro possesses immense influence in Aundair’s affairs, second only to Queen Aurala herself and her brother, but he is a military man first and foremost, taking pride in his station as one of his queen’s foremost military strategists."
+        ]
+      }
+    },
+    {
+      "name": "Jurian ir'Wynarn",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "C",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 143,
+        "formula": "22d8 + 44"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 15,
+      "dex": 20,
+      "con": 14,
+      "int": 14,
+      "wis": 14,
+      "cha": 16,
+      "save": {
+        "dex": "+9",
+        "con": "+6"
+      },
+      "skill": {
+        "athletics": "+6",
+        "deception": "+11",
+        "perception": "+6",
+        "performance": "+7",
+        "sleight of hand": "+9"
+      },
+      "passive": 16,
+      "languages": [
+        "Common",
+        "Gnomish",
+        "Elvish",
+        "Goblin",
+        "Halfling"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Jurian casts fire bolt, using Intelligence as the spellcasting ability as an 11th level caster (see above)."
+          ],
+          "will": [
+            {
+              "entry": "{@spell Fire Bolt}",
+              "hidden": true
+            }
+          ],
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Driven (2 Uses; Recharges after a Short or Long Rest)",
+          "entries": [
+            "Jurian rerolls a failed ability check, attack roll, or saving throw with advantage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Jurian makes two attacks with his rapier."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage, plus 9 ({@damage 2d8}) piercing damage if Jurian has more than half of his total hit points remaining."
+          ]
+        },
+        {
+          "name": "Fire Bolt (Cantrip)",
+          "entries": [
+            "{@atk rs} {@hit 6} to hit, range 120 ft., one target. {@h}16 ({@damage 3d10}) fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "Jurian takes the Dash, Disengage, or Hide action."
+          ]
+        },
+        {
+          "name": "Second Wind (Recharges after a Short or Long Rest)",
+          "entries": [
+            "Jurian regains 20 hit points."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Dragonhawk Riposte",
+          "entries": [
+            "Jurian adds 5 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon with finesse in one hand, and nothing in his other hand. After the attack is resolved, whether it hits or misses, Jurian immediately makes a melee weapon attack against the creature that attacked him if it is within his reach."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "rapier|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "G",
+        "GO",
+        "H"
+      ],
+      "damageTags": [
+        "F",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "F"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "fluff":
+			{
+				"entries":
+				[
+					"Queen Aurala’s second son, Prince Jurian is estranged from his mother’s good graces. In self-exile from Aundair to avoid the consequences of winning a duel to the death against one of his mother’s noble lords—in which he defended the honor of an acquaintance—the rakish scoundrel of a prince currently survives on the good graces of his peers and admirers in Breland."
+        ]
+      }
+    },
+    {
+      "name": "Raulo ir'Trannick",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human",
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        12,
+        {
+          "ac": 15,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 40,
+        "formula": "9d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 11,
+      "int": 19,
+      "wis": 12,
+      "cha": 15,
+      "save": {
+        "int": "+7",
+        "wis": "+4"
+      },
+      "skill": {
+        "arcana": "+7",
+        "history": "+7",
+        "insight": "+4",
+        "persuasion": "+5"
+      },
+      "passive": 11,
+      "languages": [
+        "Common",
+        "Draconic",
+        "Gnomish"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Raulo casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+          ],
+          "will": [
+            "{@spell light}",
+            "{@spell magic missile} (5th level)",
+            "{@spell message}",
+            "{@spell mage hand}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell dispel magic}",
+              "{@spell detect magic}",
+              "{@spell mage armor}",
+              "{@spell sending}"
+            ],
+            "2e": [
+              "{@spell arcane eye}",
+              "{@spell fly}",
+              "{@spell gust of wind}",
+              "{@spell suggestion}"
+            ],
+            "1e": [
+              "{@spell greater invisibility}",
+              "{@spell teleportation circle} (as an action)"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "action": [
+        {
+          "name": "Arcane Burst",
+          "entries": [
+            "{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}8({@dice 1d8 + 4}) force damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Dimension Step (2nd-level Spell; 3/Day)",
+          "entries": [
+            "Raulo and all equipment he is wearing or carrying teleports to an unoccupied space he can see within 30 feet of him."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Arcane Ward {@recharge 4}",
+          "entries": [
+            "When Raulo or a creature he can see within 30 feet of him takes damage, Raulo magically creates a protective barrier around himself or the other creature. The barrier reduces the damage to the protected creature by 26 ({@dice 4d10 + 4}), to a minimum of 0, and then vanishes."
+          ]
+        }
+      ],
+      "languageTags": [
+        "C",
+        "DR",
+        "G"
+      ],
+      "damageTagsSpell": [
+        "O"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "conditionInflictSpell": [
+        "invisible"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "strength",
+        "wisdom"
+      ],
+      "fluff":
+			{
+				"entries":
+				[
+					"Far away from Fairhaven, the capital of Aundair, the aging Raulo ir’Trannick serves as the Lord Mayor of Arcanix, governing the village over which the floating towers of the Arcane Congress drift. Raulo is among the committee of wizards that preside over the yearly entrance exams for the admission to the Arcane Congress’s institute of higher learning. He is also the Arcane Congress’s de facto ambassador whenever a visiting wizard or dignitary arrives in the village of"
+        ]
+      }
+    },
+    {
+      "name": "Kreelo",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "changeling"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 78,
+        "formula": "12d8 + 24"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 18,
+      "con": 14,
+      "int": 13,
+      "wis": 11,
+      "cha": 16,
+      "save": {
+        "dex": "+7",
+        "int": "+4"
+      },
+      "skill": {
+        "acrobatics": "+7",
+        "deception": "+9",
+        "insight": "+3",
+        "stealth": "+7"
+      },
+      "passive": 10,
+      "languages": [
+        "Common",
+        "Elvish",
+        "Thieves' cant"
+      ],
+      "cr": "7",
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Kreelo makes two attacks with its shortsword."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 28 ({@damage 8d6}) poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage. and the target must make a {@dc 15} Constitution saving throw, taking 28 ({@damage 8d6}) poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Change Appearance",
+          "entries": [
+            "Kreelo transforms into a Medium humanoid he has seen, or back into his true form. Kreelo's statistics are the same in each form. Any equipment he is wearing or carrying isn't transformed. Kreelo reverts to his true form if he dies."
+          ]
+        },
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "Kreelo takes the Dash, Disengage, or Hide action."
+          ]
+        },
+        {
+          "name": "Horrific Countenance {@recharge 5}",
+          "entries": [
+            "Kreelo shifts his face into a horrific countenance. When he does, each creature within 30 feet of Kreelo must succeed on a {@dc 14} Wisdom saving throw or be {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "light crossbow|phb",
+        "shortsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "TC"
+      ],
+      "damageTags": [
+        "I",
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
+        "MLW",
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "frightened"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "wisdom"
+      ],
+      "fluff":
+			{
+				"entries":
+				[
+					"The undisputed head of the Dark Dagger gang, Kreelo is the most wanted criminal in Fairhaven. While he doesn’t control all crime in Aundair’s capital, Kreelo has a stranglehold on several merchants, extorting them to help the Dark Daggers smuggle dangerous and illicit contraband into Fairhaven. While he was more daring in his youth, Kreelo now holes up in his gang’s headquarters—a dilapidated, abandoned cathedral to the Silver Flame from which he runs his criminal empire."
         ]
       }
     }
