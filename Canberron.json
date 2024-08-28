@@ -8326,6 +8326,202 @@
           "For example, a simple Guard (Monster Manual) normally has a challenge rating of 1/8, but as the royal NPC’s ally, for the purposes of encounter balance, it has a challenge rating of 1."
         ]
       }
+    },
+    {
+      "name": "Dük Adal ir'Wynarn",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human",
+          "wizard"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item studded leather armor|PHB|studded leather}"
+          ]
+        },
+        {
+          "ac": 19,
+          "condition": "during bladesong"
+        }
+      ],
+      "hp": {
+        "average": 55,
+        "formula": "10d8 + 10"
+      },
+      "speed": {
+        "walk": {
+          "number": 30,
+          "condition": "(40 ft. during bladesong)"
+        }
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 13,
+      "int": 20,
+      "wis": 13,
+      "cha": 14,
+      "save": {
+        "int": "+9",
+        "wis": "+5",
+        "con": "+6"
+      },
+      "skill": {
+        "arcana": "+9",
+        "deception": "+6",
+        "insight": "+5",
+        "performance": "+6"
+      },
+      "passive": 11,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "preNote": "nonmagical",
+          "note": "(from stoneskin)",
+          "cond": true
+        }
+      ],
+      "languages": [
+        "Common",
+        "Elvish",
+        "Halfling"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Adal casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 17}; {@hit 9} to hit with spell attacks):"
+          ],
+          "will": [
+            "{@spell detect magic}",
+            "{@spell light}",
+            "{@spell message}",
+            "{@spell shocking grasp}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell counterspell}",
+              "{@spell invisibility}",
+              "{@spell magic missile} (3rd level)",
+              "{@spell scorching ray}",
+              "{@spell shield}"
+            ],
+            "2e": [
+              "{@spell fireball} (4th level)",
+              "{@spell lightning bolt} (4th level)",
+              "{@spell stoneskin}"
+            ],
+            "1e": [
+              "{@spell banishment}",
+              "{@spell cone of cold}",
+              "{@spell confusion}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Driven (Recharges after a Short or Long Rest)",
+          "entries": [
+            "Adal rerolls a failed ability check, attack roll, or saving throw with advantage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Adal makes two rapier attacks."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage and 9 ({@damage 2d8}) force damage."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Bladesong {@recharge 5}",
+          "entries": [
+            "Adal begins performing the Bladesong. The Bladesong lasts for up to 1 minute, and ends if Adal is {@condition incapacitated}.",
+            "While the Bladesong is active, Adal's Armor Class includes his Intelligence bonus, his speed increases by 10 feet, and he applies his Intelligence bonus to Constitution saving throws (noted above)."
+          ]
+        },
+        {
+          "name": "Dimension Step (2nd-level Spell; 3/Day)",
+          "entries": [
+            "Adal and all equipment he is wearing or carrying teleports to an unoccupied space he can see within 30 feet of him."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "rapier|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "H"
+      ],
+      "damageTags": [
+        "O",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "C",
+        "F",
+        "L",
+        "O"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "incapacitated",
+        "invisible"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ],
+      "fluff":
+			{
+				"entries":
+				[
+					"Queen Aurala’s brother, Lord Adal ir’Wynarn, serves as Aundair’s First Warlord and Minister of Magic. He shares many of his sister’s ideals, preparing for the next war and ensuring Aundair emerges victorious from it, with Aundair’s ruler at the head of a new united Galifar. However, he sees himself as that ruling monarch, believing he is the true power behind Aundair’s throne, with only an accident of birth keeping himself from being King.",
+          "Though he has not yet formulated any plans to oust his sister, Adal ir’Wynarn has not been idle. His immediate goal is to reclaim Thaliost, ideally in the opening moments of renewed hostility. To that effect, he and a cabal of amoral wizards under his supervision are researching devastating war magic. Adal hopes to create a single arcane event capable of eradicating an entire army or city in but a moment. With this hypothetical spell—referred to in his notes as apocalypse from the sky—he will decimate Thrane’s forces around Thaliost, and cow the rest of the Thronehold nations into surrender."
+        ]
+      }
     }
     
   ]
