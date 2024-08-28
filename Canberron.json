@@ -7876,7 +7876,14 @@
         "dexterity",
         "strength",
         "wisdom"
-      ]
+      ],
+      "fluff":
+			{
+				"entries":
+				[
+					"Within the Order of Knights Arcane, the Knights Phantom are the elite among the elite. These famed eldritch knight-dragoons ride into battle mounted on their namesake—phantom steeds augmented by secret arcane rituals of the order. Aundair credits the Knights Phantom—who fielded arcane cavalry units a dozen strong—with near single-handedly delivering victory after victory during the Last War."
+        ]
+      }
     }
   ]
 }
