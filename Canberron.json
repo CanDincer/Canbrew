@@ -7577,7 +7577,14 @@
 			{
 				"type": "external",
 				"url": "https://i.imgur.com/4GBqGyF.png"
-			}
+			},
+      "fluff":
+			{
+				"entries":
+				[
+					"In the world of Eberron, the Bladesong was not only developed by elves, but by the knightly wizards of Aundair as well—created eight centuries ago separately from any other tradition. The secrets of the Bladesong have since spread to other countries, but it remains an iconic practice of Aundair’s Knights Arcane."
+        ]
+      }
     },
     {
       "name": "Sihir Şövalyeler Kadimbüyü Şövalyesi",
@@ -7707,7 +7714,14 @@
       "savingThrowForcedSpell": [
         "constitution",
         "dexterity"
-      ]
+      ],
+      "fluff":
+			{
+				"entries":
+				[
+					"Eldritch knights are soldiers first and spellcasters second, using their magical aptitude to supplement their mighty martial prowess. These puissant warriors make up the majority of the Order of the Knights Arcane."
+        ]
+      }
     },
     {
       "name": "Sihir Şövalyeler Hayalet Şövalye",
