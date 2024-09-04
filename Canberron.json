@@ -9120,6 +9120,112 @@
 					"The undisputed head of the Dark Dagger gang, Kreelo is the most wanted criminal in Fairhaven. While he doesn’t control all crime in Aundair’s capital, Kreelo has a stranglehold on several merchants, extorting them to help the Dark Daggers smuggle dangerous and illicit contraband into Fairhaven. While he was more daring in his youth, Kreelo now holes up in his gang’s headquarters—a dilapidated, abandoned cathedral to the Silver Flame from which he runs his criminal empire."
         ]
       }
+    },
+    {
+      "name": "Pala",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "warforged"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 52,
+        "formula": "8d8 + 16"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 15,
+      "int": 11,
+      "wis": 12,
+      "cha": 12,
+      "save": {
+        "str": "+6",
+        "con": "+4"
+      },
+      "skill": {
+        "athletics": "+6",
+        "deception": "+3",
+        "intimidation": "+3",
+        "perception": "+3"
+      },
+      "passive": 13,
+      "resist": [
+        "poison"
+      ],
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Warforged Resilience",
+          "entries": [
+            "Cutlass has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put him to sleep."
+          ]
+        },
+        {
+          "name": "The Best Defense",
+          "entries": [
+            "If Cutlass makes a successful melee attack against a creature, that creature can't make opportunity attacks against him for the rest of his turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Cutlass makes two melee weapon attacks."
+          ]
+        },
+        {
+          "name": "Rebounding Scimitar",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+          ]
+        },
+        {
+          "name": "Handaxe",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ]
     }
     
   ]
