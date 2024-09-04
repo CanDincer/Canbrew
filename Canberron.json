@@ -18,6 +18,29 @@
 		"dateAdded": 1723470600,
 		"dateLastModified": 1724853960
 	},
+  "magicvariant":
+  [
+    {
+      "name": "Rebounding Weapon",
+      "type": "GV",
+      "requires": [
+        {
+          "axe": true
+        },
+        {
+          "sword": true
+        }
+      ],
+      "inherits": {
+        "namePrefix": "Rebounding Weapon ",
+        "source": "Canberron",
+        "rarity": "uncommon",
+        "entries": [
+          "When you make a successful attack with a rebounding weapon, your next attack with it before the end of your next turn has advantage if it is made against a different target."
+        ]
+      }
+    }
+  ],
   "item":
 	[
 		{
@@ -79,7 +102,7 @@
         "This weapon has +1 to attack and damage rolls.",
         "It also deals additional ({@damage 1d6}) radiant damage if the target is evil."
       ]
-    }
+    }    
   ],
   "monster":
 	[
