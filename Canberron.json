@@ -9248,7 +9248,1251 @@
       "miscTags": [
         "MW"
       ]
-    }
+    },
+    {
+      "name": "Edvin Garm",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "average": 33,
+        "formula": "6d8 + 6"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 15,
+      "con": 12,
+      "int": 13,
+      "wis": 14,
+      "cha": 16,
+      "save": {
+        "dex": "+4",
+        "int": "+3"
+      },
+      "skill": {
+        "deception": "+5",
+        "insight": "+4",
+        "investigation": "+3",
+        "perception": "+4",
+        "persuasion": "+3",
+        "stealth": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "Common",
+        "Dwarf"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "On each of his turns, Garm can use a bonus action to take the Dash, Disengage, or Hide action."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "Garm deals an extra 7 ({@damage 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of his that isn't incapacitated and Garm doesn't have disadvantage on the attack roll."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Garm makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Eltarra d'Lyrandar",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "half-elf"
+        ]
+      },
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item studded leather armor|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 46,
+        "formula": "7d8 + 14"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 15,
+      "con": 14,
+      "int": 16,
+      "wis": 12,
+      "cha": 16,
+      "skill": {
+        "athletics": "+4",
+        "deception": "+5",
+        "history": "+5",
+        "insight": "+3",
+        "perception": "+3"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "resist": [
+        "lightning"
+      ],
+      "languages": [
+        "Common",
+        "Elvish",
+        "Gnomish",
+        "Goblin"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "Eltarra has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+          ]
+        },
+        {
+          "name": "Windwright's Intuition",
+          "entries": [
+            "When Eltarra makes a Dexterity (Acrobatics) check or any ability check involving operating or maintaining a water or air vehicle, she can roll one Intuition die, a {@dice d4}, and add the number rolled to the ability check."
+          ]
+        },
+        {
+          "name": "Headwinds",
+          "entries": [
+            "Eltarra knows the {@spell gust|XGE} cantrip. She can cast the spell gust of wind once and regain the ability to do so when she finishes a long rest. Charisma is her spellcasting ability."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Eltarra makes two melee or ranged attacks."
+          ]
+        },
+        {
+          "name": "Rapier +1",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Parry",
+          "entries": [
+            "Eltarra adds 2 to her AC against one melee attack that would hit her. To do so, she must see the attacker and be wielding a melee weapon."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Fey Ancestry"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack",
+        "Parry"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "G",
+        "GO"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RNG",
+        "RW"
+      ]
+    },
+    {
+      "name": "Dragon's Breath Sailor",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "half-elf"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 12,
+          "from": [
+            "{@item leather armor|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 9,
+        "formula": "2d8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 13,
+      "con": 11,
+      "int": 10,
+      "wis": 12,
+      "cha": 12,
+      "skill": {
+        "athletics": "+3",
+        "perception": "+3"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "languages": [
+        "Common",
+        "Elvish"
+      ],
+      "cr": "1/8",
+      "trait": [
+        {
+          "name": "Fey Ancestry",
+          "entries": [
+            "The sailors have advantage on saving throws against being {@condition charmed}, and magic can't put them to sleep."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Fey Ancestry"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "E"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Hobgoblin Skeleton",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item chain mail|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 13,
+        "formula": "2d8 + 4"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 14,
+      "con": 15,
+      "int": 6,
+      "wis": 8,
+      "cha": 5,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 9,
+      "immune": [
+        "poison"
+      ],
+      "vulnerable": [
+        "bludgeoning"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "poisoned"
+      ],
+      "languages": [
+        "understands Common and Goblin"
+      ],
+      "cr": "1/2",
+      "trait": [
+        {
+          "name": "Martial Advantage",
+          "entries": [
+            "Once per turn, the hobgoblin skeleton can deal an extra 3 ({@damage 1d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin skeleton that isn't {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) slashing damage, or 6 ({@damage 1d10 + 1}) slashing damage if used with two hands."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Old Went",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "hobgoblin"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        11
+      ],
+      "hp": {
+        "average": 16,
+        "formula": "3d8 + 3"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 13,
+      "int": 15,
+      "wis": 14,
+      "cha": 16,
+      "skill": {
+        "insight": "+4",
+        "investigation": "+4",
+        "perception": "+4",
+        "persuasion": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "languages": [
+        "Common",
+        "Elvish",
+        "Gnome",
+        "Goblin",
+        "Theives cant"
+      ],
+      "cr": "1/4",
+      "trait": [
+        {
+          "name": "Martial Advantage",
+          "entries": [
+            "Once per turn, the Old Went can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of his that isn't {@condition incapacitated}.",
+            "Sneak Attack (1/Turn): Old Went deals an extra 3 ({@damage 1d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of his that isn't {@condition incapacitated} and he doesn't have disadvantage on the attack roll."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Club",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "E",
+        "GO"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Bugbear Guard",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "bugbear"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item scale mail|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 27,
+        "formula": "5d8 + 5"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 13,
+      "int": 9,
+      "wis": 12,
+      "cha": 9,
+      "skill": {
+        "intimidation": "+1",
+        "perception": "+3",
+        "stealth": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 13,
+      "languages": [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Brute",
+          "entries": [
+            "A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+          ]
+        },
+        {
+          "name": "Surprise Attack",
+          "entries": [
+            "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 ({@damage 2d6}) damage from the attack."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Halberd",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d10 + 3}) slashing damage."
+          ]
+        },
+        {
+          "name": "Javelin",
+          "entries": [
+            "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage in melee or 6 ({@damage 1d6 + 3}) piercing damage at range."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Brute"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Failin Meçhul",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 27,
+        "formula": "6d8"
+      },
+      "speed": {
+        "walk": 35
+      },
+      "str": 9,
+      "dex": 16,
+      "con": 10,
+      "int": 12,
+      "wis": 14,
+      "cha": 11,
+      "save": {
+        "dex": "+5",
+        "int": "+3"
+      },
+      "skill": {
+        "arcana": "+3",
+        "history": "+3",
+        "insight": "+4",
+        "persuasion": "+2"
+      },
+      "passive": 12,
+      "languages": [
+        "Common",
+        "Gnome",
+        "Goblin"
+      ],
+      "cr": "1/2",
+      "trait": [
+        {
+          "name": "Intuitive Motion",
+          "entries": [
+            "Failin can roll one Intuition die, a {@dice d4}, and add the number rolled to a Dexterity (Acrobatics) check or any ability check to operate or maintain a land vehicle."
+          ]
+        },
+        {
+          "name": "Magical Passage",
+          "entries": [
+            "Failin can cast {@spell misty step}. Once he does so, he cannot do so again until he completes a long rest. Dexterity is his spellcasting ability."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "Failin deals an extra 7 ({@damage 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of his that isn't incapacitated and he doesn't have disadvantage on the attack roll."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "languageTags": [
+        "C",
+        "GO"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Emerald Claw Soldier",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "{@item scale mail|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 16,
+        "formula": "3d8 + 3"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 11,
+      "con": 12,
+      "int": 9,
+      "wis": 10,
+      "cha": 8,
+      "skill": {
+        "athletics": "+3",
+        "intimidate": "+1",
+        "religion": "+1"
+      },
+      "passive": 10,
+      "languages": [
+        "Common"
+      ],
+      "cr": "1/4",
+      "action": [
+        {
+          "name": "Flail",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 2} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+          ]
+        }
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RNG",
+        "RW"
+      ]
+    },
+    {
+      "name": "Keltis Doran, Blood of Vol Priest",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item half plate armor|PHB|half plate}",
+            "{@item shield|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 28,
+        "formula": "5d8 + 5"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 8,
+      "con": 13,
+      "int": 10,
+      "wis": 15,
+      "cha": 12,
+      "skill": {
+        "intimidate": "+3",
+        "medicine": "+4",
+        "persuasion": "+3",
+        "religion": "+2"
+      },
+      "passive": 12,
+      "languages": [
+        "Common"
+      ],
+      "cr": "1",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Keltis is a 2nd-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following cleric spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell guidance}",
+                "{@spell spare the dying}",
+                "{@spell thaumaturgy}",
+                "{@spell toll the dead|XGE}"
+              ]
+            },
+            "1": {
+              "slots": 3,
+              "spells": [
+                "{@spell bane}",
+                "{@spell cure wounds}",
+                "{@spell detect magic}",
+                "{@spell inflict wounds}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Reaper",
+          "entries": [
+            "When Keltis casts {@spell toll the dead|XGE}, he can target two creatures in range who are within 5 feet of each other."
+          ]
+        },
+        {
+          "name": "Touch of Death (1/Short or Long Rest)",
+          "entries": [
+            "When Keltis hits with a melee attack, he can deal an additional 9 necrotic damage to his target."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Morningstar",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "N",
+        "P"
+      ],
+      "damageTagsSpell": [
+        "N"
+      ],
+      "spellcastingTags": [
+        "CC"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "THW"
+      ]
+    },
+    {
+      "name": "Mallora, Emerald Claw Necromancer",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "average": 28,
+        "formula": "5d8 + 5"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 13,
+      "int": 15,
+      "wis": 10,
+      "cha": 12,
+      "skill": {
+        "arcana": "+4",
+        "deception": "+3",
+        "investigation": "+4",
+        "medicine": "+4"
+      },
+      "passive": 10,
+      "languages": [
+        "Common",
+        "Draconic",
+        "Elven"
+      ],
+      "cr": "1",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Mallora is a 2nd-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). She has the following wizard spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell chill touch} (+1 damage due to arcane focus)",
+                "{@spell dancing lights}",
+                "{@spell mage hand}"
+              ]
+            },
+            "1": {
+              "slots": 3,
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell mage armor}",
+                "{@spell silent image}",
+                "{@spell tasha's hideous laughter}"
+              ]
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "action": [
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Wand of Magic Missiles (5 charges)",
+          "entries": [
+            "Mallora can cast {@spell magic missile} using her wand. Casting magic missile costs one charge per level the spell is cast at."
+          ]
+        }
+      ],
+      "languageTags": [
+        "C",
+        "DR"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "N"
+      ],
+      "spellcastingTags": [
+        "CW"
+      ],
+      "miscTags": [
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "conditionInflictSpell": [
+        "incapacitated",
+        "prone"
+      ]
+    },
+    {
+      "name": "Emerald Claw Skeleton",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "{@item leather armor|PHB|leather}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 13,
+        "formula": "2d8 + 4"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 15,
+      "int": 6,
+      "wis": 8,
+      "cha": 5,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 9,
+      "immune": [
+        "poison"
+      ],
+      "vulnerable": [
+        "bludgeoning"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "poisoned"
+      ],
+      "languages": [
+        "understands Common"
+      ],
+      "cr": "1/4",
+      "action": [
+        {
+          "name": "Scythe",
+          "entries": [
+            "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 2d4}) slashing damage."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Vulture Zombie",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        8
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "3d8 + 9"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 6,
+      "con": 16,
+      "int": 2,
+      "wis": 6,
+      "cha": 5,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "cr": "1/4",
+      "trait": [
+        {
+          "name": "Keen Sight and Smell",
+          "entries": [
+            "The zombie has advantage on Wisdom (Perception) checks that rely on sight or smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The zombie has advantage on an attack roll against a creature if at least one of the zombie's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Undead Fortitude",
+          "entries": [
+            "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Beak:",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Keen Senses",
+        "Pack Tactics",
+        "Undead Fortitude"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Glass Dwarf Zombie",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        14,
+        {
+          "ac": 8,
+          "from": [
+            "without glass coating"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 25,
+        "formula": "3d8 + 12"
+      },
+      "speed": {
+        "walk": 15
+      },
+      "str": 13,
+      "dex": 6,
+      "con": 18,
+      "int": 3,
+      "wis": 6,
+      "cha": 5,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "understands Common",
+        "Dwarven"
+      ],
+      "cr": "1/2",
+      "trait": [
+        {
+          "name": "Armor of Glass",
+          "entries": [
+            "If the zombie takes 8 or more hit points of damage, its glass coating shatters and its armor class is reduced to 8."
+          ]
+        },
+        {
+          "name": "Glasswalking",
+          "entries": [
+            "The zombie ignores the difficult terrain of the glass and does not need to make Dexterity checks to avoid falling {@condition prone}."
+          ]
+        },
+        {
+          "name": "Undead Fortitude",
+          "entries": [
+            "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Slam:",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Undead Fortitude"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
     
   ]
 }
