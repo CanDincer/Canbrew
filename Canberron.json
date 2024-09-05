@@ -385,7 +385,6 @@
 				"MW",
         "RW"
 			],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -538,7 +537,6 @@
         "MW",
         "RW"
       ],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -787,7 +785,6 @@
         "MLW",
         "MW"
       ],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -991,7 +988,6 @@
         "dexterity",
         "wisdom"
       ],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -1468,7 +1464,6 @@
         "MW",
         "RW"
       ],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -2120,7 +2115,6 @@
         "MW",
         "RCH"
       ],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -2379,7 +2373,6 @@
 			[
 				"charmed"
 			],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -2577,7 +2570,6 @@
         "MW",
         "RCH"
       ],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -2708,7 +2700,6 @@
 			[
 				"MW"
 			],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -2836,7 +2827,6 @@
         "MW",
         "RW"
       ],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -3261,7 +3251,6 @@
       "savingThrowForced": [
         "charisma"
       ],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
@@ -7741,7 +7730,6 @@
         "dexterity",
         "wisdom"
       ],
-      "hasToken": true,
 			"tokenHref":
 			{
 				"type": "external",
