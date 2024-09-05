@@ -2277,7 +2277,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -10804,7 +10803,375 @@
         "poisoned",
         "prone"
       ]
-    }
+    },
+    {
+      "name": "Worm Giant",
+      "source": "",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        10
+      ],
+      "hp": {
+        "average": 59,
+        "formula": "7d10 + 21"
+      },
+      "speed": {
+        "walk": 10,
+        "burrow": 30
+      },
+      "str": 19,
+      "dex": 8,
+      "con": 16,
+      "int": 5,
+      "wis": 7,
+      "cha": 5,
+      "senses": [
+        "tremorsense 30 ft."
+      ],
+      "passive": 8,
+      "resist": [
+        "piercing",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "frightened",
+        "prone"
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Burrowing Worms",
+          "entries": [
+            "When the giant begins its turn with a creature {@condition grappled} by it, the worms of its body burrow into the creature, dealing 7 ({@damage 2d6}) piercing damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 4}) bludgeoning damage and the target must succeed at a {@dc 14} Strength saving throw or be {@condition grappled} and {@condition restrained} as the worms that make up the giant envelop it."
+          ]
+        }
+      ],
+      "senseTags": [
+        "T"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "restrained"
+      ]
+    },
+    {
+      "name": "Living Acid Splash",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 15,
+        "formula": "2d8 + 6"
+      },
+      "speed": {
+        "walk": 25,
+        "fly": {
+          "number": 25,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 10,
+      "dex": 12,
+      "con": 16,
+      "int": 3,
+      "wis": 6,
+      "cha": 6,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "acid"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "poisoned",
+        "prone"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Amorphous",
+          "entries": [
+            "The living spell can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The living spell has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Magical Strike",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) acid damage."
+          ]
+        },
+        {
+          "name": "Spell Mimicry {@recharge 5}",
+          "entries": [
+            "The living spell hurls a bubble of acid at one creature within 60 feet, or two creatures within 60 feet that are within 5 feet of each other. A target must succeed on a {@dc 13} Dexterity saving throw or take {@damage 1d6} acid damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Amorphous",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "A"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    },
+    {
+      "name": "Bone Wolf",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 26,
+        "formula": "4d8 + 8"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 12,
+      "dex": 15,
+      "con": 15,
+      "int": 3,
+      "wis": 8,
+      "cha": 5,
+      "skill": {
+        "stealth": "+4"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 9,
+      "immune": [
+        "poison"
+      ],
+      "vulnerable": [
+        "bludgeoning"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "poisoned"
+      ],
+      "cr": "1/2",
+      "trait": [
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The bone wolf has advantage on attack rolls against a creature if at least one of the bone wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Pack Tactics"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Carcass Crab",
+      "source": "",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": "monstrosity",
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 68,
+        "formula": "8d10 + 24"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 15,
+      "con": 16,
+      "int": 4,
+      "wis": 10,
+      "cha": 9,
+      "skill": {
+        "stealth": "+6",
+        "perception": "+2"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Ambusher",
+          "entries": [
+            "The carcass crab has advantage on attack rolls against any creature it has surprised."
+          ]
+        },
+        {
+          "name": "Spiny Defense",
+          "entries": [
+            "The carcass crab deals 3 ({@damage 1d6}) piercing damage to any creature hitting it with an unarmed strike or natural weapon."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The carcass crab makes two claw attacks or one claw attack and one bite attack."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage. If the target is medium or smaller, it must succeed on a {@dc 14} Strength saving throw or be {@condition grappled}."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one creature {@condition grappled} by the carcass crab. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+          ]
+        },
+        {
+          "name": "Barb",
+          "entries": [
+            "{@atk rw} {@hit 4} to hit, range 25/100 ft., one target. {@h}2 ({@damage 1d4}) piercing damage, and the target must make a {@dc 14} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Ambusher"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "I",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH",
+        "RW"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ]
+    },
     
   ]
 }
