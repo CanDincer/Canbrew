@@ -218,7 +218,28 @@
         "beast bond|xge",
         "bless"
       ]
-    }    
+    },
+    {
+      "name": "Rapier",
+      "source": "Canberron",
+      "type": "M",
+      "rarity": "none",
+      "weight": 4,
+      "value": 2000,
+      "weaponCategory": "martial",
+      "property":
+      [
+        "F",
+        "V"
+      ],
+      "dmg1": "1d6",
+      "dmg2": "1d8",
+      "dmgType": "S",
+      "entries":
+      [
+        "The tangat is a weapon used by the halflings of the Talenta Plains. It is a peculiarly balanced scimitar with a slightly extended, curved haft that allows it to be wielded with blinding speed – even two-handed – by a trained user."
+      ]
+    }
   ],
   "monster":
 	[
@@ -11214,6 +11235,785 @@
         "MW",
         "RCH",
         "RW"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ]
+    },
+    {
+      "name": "Living Flaming Sphere (Empowered)",
+      "source": "Canberron",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "6d8 + 18"
+      },
+      "speed": {
+        "walk": 25,
+        "fly": {
+          "number": 25,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 10,
+      "dex": 12,
+      "con": 16,
+      "int": 3,
+      "wis": 6,
+      "cha": 6,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "poisoned",
+        "prone"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Amorphous",
+          "entries": [
+            "The living spell can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The living spell has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Magical Strike",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) fire damage."
+          ]
+        },
+        {
+          "name": "Spell Mimicry {@recharge 5}",
+          "entries": [
+            "The living spell creates a 5-foot-diameter sphere of fire in an unoccupied space within 60 feet of it and lasts for 1 minute or until the living spell's concentration ends (as if concentrating on a spell). Any creature that ends its turn within 5 feet of the sphere must make a {@dc 13} Dexterity saving throw. The creature takes {@damage 4d6} fire damage on a failed save, or half as much damage on a successful one.",
+            "As a bonus action, the living spell can move the sphere up to 30 feet. If it rams the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn.",
+            "When the living spell moves the sphere, it can direct the sphere over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Amorphous",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "F"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ]
+    },
+    {
+      "name": "Rorsa",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "beast",
+        "tags": [
+          "awakened dire wolf"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 68,
+        "formula": "8d10 + 24"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 22,
+      "dex": 16,
+      "con": 17,
+      "int": 14,
+      "wis": 12,
+      "cha": 14,
+      "save": {
+        "dex": "+5",
+        "con": "+5"
+      },
+      "skill": {
+        "insight": "+3",
+        "investigation": "+4",
+        "perception": "+3",
+        "stealth": "+5",
+        "survival": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "Common"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Keen Hearing and Smell",
+          "entries": [
+            "Rorsa has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "Rorsa has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Keen Senses",
+        "Pack Tactics"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Stone Wolf",
+      "source": "Canberron",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 51,
+        "formula": "6d8 + 24"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 21,
+      "dex": 13,
+      "con": 19,
+      "int": 3,
+      "wis": 12,
+      "cha": 3,
+      "skill": {
+        "perception": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "immune": [
+        "poison",
+        "psychic",
+        {
+          "immune": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks that aren't adamantine",
+          "cond": true
+        }
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Immutable Form",
+          "entries": [
+            "The stone wolf is immune to any spell or effect that would alter its form."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The stone wolf has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "The stone wolf's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Inescapable Jaws",
+          "entries": [
+            "If the stone wolf targets a creature with its bite attack that it has slowed, it scores a critical hit on a 19 or 20."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Slow {@recharge 5}",
+          "entries": [
+            "The stone wolf targets one or more creatures it can see within 10 feet of it. Each target must make a {@dc 14} Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Immutable Form",
+        "Magic Resistance",
+        "Magic Weapons"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
+      "name": "Living Color Spray",
+      "source": "Canberron",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 15,
+        "formula": "2d8 + 6"
+      },
+      "speed": {
+        "walk": 25,
+        "fly": {
+          "number": 25,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 10,
+      "dex": 12,
+      "con": 16,
+      "int": 3,
+      "wis": 6,
+      "cha": 6,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "poisoned",
+        "prone"
+      ],
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Amorphous",
+          "entries": [
+            "The living spell can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The living spell has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Magical Strike",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) radiant damage."
+          ]
+        },
+        {
+          "name": "Spell Mimicry {@recharge 5}",
+          "entries": [
+            "A dazzling array of flashing, colored light springs from the living spell. Roll {@dice 6d10}; the total is how many hit points of creatures are affected. Creatures in a 15-foot cone originating from the living spell are affected in ascending order of their current hit points (ignoring {@condition unconscious} creatures and creatures that can't see).",
+            "Starting with the creature that has the lowest current hit points, each creature affected by this spell is {@condition blinded} until the end of the living spell's next turn. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Amorphous",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "R"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ]
+    },
+    {
+      "name": "Greater Living Color Spray",
+      "source": "Canberron",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 57,
+        "formula": "6d10 + 24"
+      },
+      "speed": {
+        "walk": 25,
+        "fly": {
+          "number": 25,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 10,
+      "dex": 15,
+      "con": 18,
+      "int": 3,
+      "wis": 6,
+      "cha": 6,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "poisoned",
+        "prone"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Amorphous",
+          "entries": [
+            "The living spell can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The living spell has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The living spell makes two magical strike attacks."
+          ]
+        },
+        {
+          "name": "Magical Strike",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}21 ({@damage 5d6 + 4}) radiant damage."
+          ]
+        },
+        {
+          "name": "Spell Mimicry {@recharge 5}",
+          "entries": [
+            "A dazzling array of flashing, colored light springs from the living spell. Roll {@dice 10d10}; the total is how many hit points of creatures are affected. Creatures in a 15-foot cone originating from the living spell are affected in ascending order of their current hit points (ignoring {@condition unconscious} creatures and creatures that can't see).",
+            "Starting with the creature that has the lowest current hit points, each creature affected by this spell is {@condition blinded} until the end of the living spell's next turn. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Amorphous",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "R"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ]
+    },
+    {
+      "name": "Fire Elemental Drudge",
+      "source": "Canberron",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "elemental",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 55,
+        "formula": "10d8 + 10"
+      },
+      "speed": {
+        "walk": 50
+      },
+      "str": 10,
+      "dex": 17,
+      "con": 12,
+      "int": 6,
+      "wis": 10,
+      "cha": 7,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 10,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "fire",
+        "poison"
+      ],
+      "conditionImmune": [
+        "exhaustion",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "unconscious"
+      ],
+      "languages": [
+        "Ignan"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Fire Form",
+          "entries": [
+            "The drudge can move through a space 1 inch wide without squeezing. A creature that touches the drudge or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) fire damage. In addition, the drudge can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 4 ({@damage 1d8}) fire damage and catches fire; taking 4 ({@damage 1d8}) fire damage at the start of each of its turns until someone takes an action to douse the fire."
+          ]
+        },
+        {
+          "name": "Illumination",
+          "entries": [
+            "The drudge sheds bright light in a 20-foot radius and dim light in an additional 20 feet."
+          ]
+        },
+        {
+          "name": "Water Susceptibility",
+          "entries": [
+            "The drudge takes 1 cold damage for every 5 feet it moves in water or gallon of water splashed on it."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The drudge makes two touch attacks."
+          ]
+        },
+        {
+          "name": "Touch",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 4 ({@damage 1d8}) fire damage at the start of each of its turns."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Illumination"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "IG"
+      ],
+      "damageTags": [
+        "C",
+        "F"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ]
+    },
+    {
+      "name": "Mutant Mimic",
+      "source": "Canberron",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "monstrosity",
+        "tags": [
+          "shapeshifter"
+        ]
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 75,
+        "formula": "10d10 + 20"
+      },
+      "speed": {
+        "walk": 15
+      },
+      "str": 20,
+      "dex": 11,
+      "con": 15,
+      "int": 5,
+      "wis": 13,
+      "cha": 8,
+      "skill": {
+        "stealth": "+2"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "immune": [
+        "acid"
+      ],
+      "conditionImmune": [
+        "prone"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Adhesive (Object Form Only)",
+          "entries": [
+            "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also {@condition grappled} by it (escape {@dc 15}). Ability checks made to escape this grapple have disadvantage."
+          ]
+        },
+        {
+          "name": "False Appearance (Object Form Only)",
+          "entries": [
+            "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+          ]
+        },
+        {
+          "name": "Grappler",
+          "entries": [
+            "The mimic has advantage on attack rolls against any creature {@condition grappled} by it."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Pseudopod",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage plus 6 ({@damage 1d12}) acid damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "False Appearance",
+        "Shapechanger"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "A",
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
       ],
       "conditionInflict": [
         "grappled"
