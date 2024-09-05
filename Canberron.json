@@ -171,7 +171,54 @@
         "This amulet has a small compartment set into its back. When you place a sliver of bone from an undead creature under your control into the compartment, you gain a heightened connection to that undead creature. As a bonus action, you may issue a command to the creature as if it could hear you, regardless of the distance between you, as long as you are on the same plane.",
         "Additionally, as an action, you can see through the creature's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the creature has. During this time, you are deaf and blind with regard to your own senses."
       ]
-    }
+    },
+    {
+      "name": "Talaen Kara",
+      "source": "Canberron",
+      "baseItem": "double-bladed scimitar|ERLW",
+      "type": "M",
+      "rarity": "legendary",
+      "reqAttune": "by an elf, half-elf, or character proficient in animal handling",
+      "reqAttuneTags": [
+        {
+          "race": "elf"
+        },
+        {
+          "race": "half-elf"
+        },
+        {
+          "skillProficiency": "animal handling"
+        }
+      ],
+      "sentient": true,
+      "weight": 6,
+      "weaponCategory": "martial",
+      "property": [
+        "S",
+        "2H"
+      ],
+      "dmg1": "2d4",
+      "dmgType": "S",
+      "bonusWeapon": "+1",
+      "bonusAc": "+2",
+      "entries": [
+        "You gain a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
+        "Loyal steed. Talaen Kara's bonus to attack and damage rolls increases to +2 when it is used from horseback. A horse being ridden by its wielder gains a +2 bonus to armor class. It can cast {@spell beast bond|XGE} on behalf of its wielder, but will only do so with a horse. It can also cast {@spell bless} with its wielder and (if applicable) mount as targets. It will maintain concentration on these spells so that its wielder does not need to do so. Once it casts one of these spell it cannot cast that spell again until the next dawn.",
+        {
+          "type": "entries",
+          "name": "Sentience",
+          "entries": [
+            "Talaen Kara is a chaotic good sentient weapon with an Intelligence of 10, Wisdom of 12, and Charisma of 12. It has hearing and {@sense darkvision} out to a range of 120 feet.",
+            "Talaen Kara understands Elvish, but does not speak. It communicates empathically by transmitting strong, pure emotions. While intelligent, it has the mind and personality of a horse."
+          ]
+        }
+      ],
+      "attachedSpells":
+      [
+        "beast bond|xge",
+        "bless"
+      ]
+    }    
   ],
   "monster":
 	[
@@ -10806,7 +10853,7 @@
     },
     {
       "name": "Worm Giant",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "L"
@@ -10879,7 +10926,7 @@
     },
     {
       "name": "Living Acid Splash",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -10987,7 +11034,7 @@
     },
     {
       "name": "Bone Wolf",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "M"
@@ -11070,7 +11117,7 @@
     },
     {
       "name": "Carcass Crab",
-      "source": "",
+      "source": "Canberron",
       "page": 0,
       "size": [
         "L"
@@ -11171,7 +11218,6 @@
       "conditionInflict": [
         "grappled"
       ]
-    },
-    
+    }
   ]
 }
