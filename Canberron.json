@@ -23,7 +23,8 @@
     {
       "name": "Rebounding Weapon",
       "type": "GV",
-      "requires": [
+      "requires":
+      [
         {
           "axe": true
         },
@@ -31,12 +32,32 @@
           "sword": true
         }
       ],
-      "inherits": {
+      "inherits":
+      {
         "namePrefix": "Rebounding Weapon ",
         "source": "Canberron",
         "rarity": "uncommon",
-        "entries": [
+        "entries":
+        [
           "When you make a successful attack with a rebounding weapon, your next attack with it before the end of your next turn has advantage if it is made against a different target."
+        ]
+      }
+    },
+    {
+      "name": "Glamoured Armor",
+      "type": "GV",
+      "requires": [
+        {
+          "armor": true
+        }
+      ],
+      "inherits": {
+        "namePrefix": "Glamoured Armor",
+        "source": "Canberron",
+        "rarity": "rare",
+        "entries":
+        [
+          "While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
         ]
       }
     }
@@ -112,8 +133,23 @@
         "Any liquid placed into this golden chalice is purified as if by a purify food and drink spell.",
         "A priest of the Sovereign Host can also pour a flask's worth of water into the chalice and, as an action, change it into holy water. Once the chalice has been used twice in this way, it cannot be used until the next dawn."
       ]
+    },
+    {
+      "name": "Glamoured breastplate",
+      "type": "MA",
+      "source": "Canberron",
+      "rarity": "rare",
+      "tier": "major",
+      "armor": true,
+      "bonusAc": "+1",
+    	"weight": 20,
+	    "value": 40000,
+    	"ac": 14,
+      "entries":
+      [
+        "While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
+      ]
     }
-    
   ],
   "monster":
 	[
