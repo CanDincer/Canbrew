@@ -10416,9 +10416,7 @@
         14,
         {
           "ac": 8,
-          "from": [
-            "without glass coating"
-          ]
+          "condition": "without glass coating"
         }
       ],
       "hp": {
