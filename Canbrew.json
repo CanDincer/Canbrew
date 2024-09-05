@@ -7898,7 +7898,6 @@
 				"forest",
 				"hill"
 			],
-			"hasToken": true,
 			"soundClip":
 			{
 				"type": "internal",
@@ -21241,7 +21240,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -21592,7 +21590,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -21926,7 +21923,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -22306,7 +22302,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -22647,7 +22642,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -22909,7 +22903,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -23240,7 +23233,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -23504,7 +23496,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -23840,7 +23831,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -24098,7 +24088,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -24410,7 +24399,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -24571,7 +24559,6 @@
 				"swamp",
 				"underwater"
 			],
-			"hasToken": true,
 			"senseTags":
 			[
 				"B",
@@ -24828,7 +24815,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -25162,7 +25148,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -25424,7 +25409,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -25752,7 +25736,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -26024,7 +26007,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -26412,7 +26394,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -26683,7 +26664,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -26995,7 +26975,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -27245,7 +27224,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -27472,7 +27450,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -27723,7 +27700,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -28000,7 +27976,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -28192,7 +28167,6 @@
 				"underdark",
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Regeneration",
@@ -28397,7 +28371,6 @@
 				"underdark",
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Regeneration",
@@ -28640,7 +28613,6 @@
 				"underdark",
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Regeneration",
@@ -28824,7 +28796,6 @@
 				"underdark",
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Spider Climb"
@@ -29008,7 +28979,6 @@
 				"underdark",
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Spider Climb"
@@ -29182,7 +29152,6 @@
 					]
 				}
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Magic Resistance"
@@ -29321,7 +29290,6 @@
 					]
 				}
 			],
-			"hasToken": true,
 			"senseTags":
 			[
 				"D"
@@ -29449,7 +29417,6 @@
 					]
 				}
 			],
-			"hasToken": true,
 			"senseTags":
 			[
 				"D"
@@ -29560,7 +29527,6 @@
 					]
 				}
 			],
-			"hasToken": true,
 			"senseTags":
 			[
 				"D"
@@ -29809,7 +29775,6 @@
 			[
 				"urban"
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Legendary Resistances",
@@ -30009,7 +29974,6 @@
 					]
 				}
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Death Burst",
@@ -30171,7 +30135,6 @@
 					]
 				}
 			],
-			"hasToken": true,
 			"traitTags":
 			[
 				"Keen Senses",
