@@ -200,7 +200,6 @@
       "dmg1": "2d4",
       "dmgType": "S",
       "bonusWeapon": "+1",
-      "bonusAc": "+2",
       "entries": [
         "You gain a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
         "Loyal steed. Talaen Kara's bonus to attack and damage rolls increases to +2 when it is used from horseback. A horse being ridden by its wielder gains a +2 bonus to armor class. It can cast {@spell beast bond|XGE} on behalf of its wielder, but will only do so with a horse. It can also cast {@spell bless} with its wielder and (if applicable) mount as targets. It will maintain concentration on these spells so that its wielder does not need to do so. Once it casts one of these spell it cannot cast that spell again until the next dawn.",
