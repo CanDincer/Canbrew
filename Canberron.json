@@ -11,12 +11,12 @@
 				[
 					"Can Dinçer"
 				],
-				"version": "2024.08.28.0",
+				"version": "2024.09.05.0",
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
 		"dateAdded": 1723470600,
-		"dateLastModified": 1724853960
+		"dateLastModified": 1725527160
 	},
   "magicvariant":
   [
@@ -37,6 +37,7 @@
         "namePrefix": "Rebounding Weapon ",
         "source": "Canberron",
         "rarity": "uncommon",
+        "page": 0,
         "entries":
         [
           "When you make a successful attack with a rebounding weapon, your next attack with it before the end of your next turn has advantage if it is made against a different target."
@@ -55,6 +56,7 @@
         "namePrefix": "Glamoured Armor",
         "source": "Canberron",
         "rarity": "rare",
+        "page": 0,
         "entries":
         [
           "While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
@@ -126,7 +128,7 @@
     },
     {
       "name": "Olladra's Chalice",
-      "source": "",
+      "source": "Canberron",
       "wondrous": true,
       "rarity": "uncommon",
       "entries": [
@@ -140,7 +142,6 @@
       "source": "Canberron",
       "rarity": "rare",
       "tier": "major",
-      "armor": true,
       "bonusAc": "+1",
     	"weight": 20,
 	    "value": 40000,
@@ -8590,9 +8591,8 @@
     },
     {
       "name": "Darro ir'Lain",
-      "source": "",
+      "source": "Canberron",
       "isNamedCreature": true,
-      "page": 0,
       "size": [
         "M"
       ],
@@ -8757,8 +8757,7 @@
     {
       "name": "Jurian ir'Wynarn",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -8918,8 +8917,7 @@
     {
       "name": "Raulo ir'Trannick",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -9061,8 +9059,7 @@
     {
       "name": "Kreelo",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -9298,8 +9295,7 @@
     },
     {
       "name": "Edvin Garm",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -9402,8 +9398,7 @@
     {
       "name": "Eltarra d'Lyrandar",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -9534,8 +9529,7 @@
     },
     {
       "name": "Dragon's Breath Sailor",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -9617,8 +9611,7 @@
     },
     {
       "name": "Hobgoblin Skeleton",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -9698,8 +9691,7 @@
     },
     {
       "name": "Old Went",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -9789,8 +9781,7 @@
     },
     {
       "name": "Bugbear Guard",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -9890,8 +9881,7 @@
     {
       "name": "Failin Meçhul",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -9983,8 +9973,7 @@
     },
     {
       "name": "Emerald Claw Soldier",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -10021,7 +10010,7 @@
       "cha": 8,
       "skill": {
         "athletics": "+3",
-        "intimidate": "+1",
+        "intimidation": "+1",
         "religion": "+1"
       },
       "passive": 10,
@@ -10059,8 +10048,7 @@
     {
       "name": "Keltis Doran, Blood of Vol Priest",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -10097,7 +10085,7 @@
       "wis": 15,
       "cha": 12,
       "skill": {
-        "intimidate": "+3",
+        "intimidation": "+3",
         "medicine": "+4",
         "persuasion": "+3",
         "religion": "+2"
@@ -10110,6 +10098,7 @@
       "spellcasting": [
         {
           "name": "Spellcasting",
+          "type": "spellcasting",
           "headerEntries": [
             "Keltis is a 2nd-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following cleric spells prepared:"
           ],
@@ -10185,8 +10174,7 @@
     {
       "name": "Mallora, Emerald Claw Necromancer",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -10232,6 +10220,7 @@
       "spellcasting": [
         {
           "name": "Spellcasting",
+          "type": "spellcasting",
           "headerEntries": [
             "Mallora is a 2nd-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). She has the following wizard spells prepared:"
           ],
@@ -10295,8 +10284,7 @@
     },
     {
       "name": "Emerald Claw Skeleton",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -10367,8 +10355,7 @@
     },
     {
       "name": "Vulture Zombie",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -10449,8 +10436,7 @@
     },
     {
       "name": "Glass Dwarf Zombie",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -10541,8 +10527,7 @@
     {
       "name": "Kaela",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -10584,7 +10569,7 @@
       },
       "skill": {
         "athletics": "+5",
-        "intimidate": "+1",
+        "intimidation": "+1",
         "religion": "+2"
       },
       "passive": 11,
@@ -10631,8 +10616,7 @@
     {
       "name": "Garrow",
       "isNamedCreature": true,
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "M"
       ],
@@ -10688,6 +10672,7 @@
       "spellcasting": [
         {
           "name": "Spellcasting",
+          "type": "spellcasting",
           "headerEntries": [
             "Garrow is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). He has the following cleric spells prepared:"
           ],
