@@ -12947,6 +12947,164 @@
       "conditionInflict": [
         "grappled"
       ]
-    }
+    },
+    {
+      "name": "Echo",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "warforged"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor",
+            "{@spell mage armor}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 39,
+        "formula": "6d8 + 12"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 14,
+      "con": 14,
+      "int": 13,
+      "wis": 14,
+      "cha": 14,
+      "skill": {
+        "deception": "+4",
+        "persuasion": "+4",
+        "religion": "+3"
+      },
+      "passive": 12,
+      "languages": [
+        "Common",
+        "Infernal"
+      ],
+      "cr": "2",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Echo is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following sorcerer spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell minor illusion|PHB}",
+                "{@spell ray of frost|PHB}",
+                "{@spell shocking grasp|PHB}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell command}",
+                "{@spell hellish rebuke}",
+                "{@spell inflict wounds}",
+                "{@spell mage armor}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell hold person}",
+                "{@spell shatter}"
+              ]
+            },
+            "3": {
+              "slots": 2,
+              "spells": [
+                "{@spell melf's minute meteors|XGE}",
+                "{@spell thunder step|XGE}"
+              ]
+            }
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Dark Devotion",
+          "entries": [
+            "Echo has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Warforged Resilience",
+          "entries": [
+            "Echo has advantage on saving throws against being {@condition poisoned} and he is immune to disease. He does not need to eat, drink, or breathe. He doesn't need to sleep and doesn't suffer the effects of {@condition exhaustion} due to lack of rest, and magic can't put him to sleep."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Echo makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or ranged 20/60 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "dagger|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "I"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "N",
+        "T"
+      ],
+      "spellcastingTags": [
+        "CS"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "conditionInflictSpell": [
+        "paralyzed",
+        "prone"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ]
+    }    
   ]
 }
