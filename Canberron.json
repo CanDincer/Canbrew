@@ -13104,6 +13104,251 @@
         "dexterity",
         "wisdom"
       ]
-    }    
+    },
+    {
+      "name": "Thelestes",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "shapechanger"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 209,
+        "formula": "22d8 + 110"
+      },
+      "speed": {
+        "walk": 45,
+        "fly": 90
+      },
+      "str": 9,
+      "dex": 22,
+      "con": 20,
+      "int": 18,
+      "wis": 15,
+      "cha": 28,
+      "save": {
+        "dex": "+11",
+        "con": "+10",
+        "wis": "+7",
+        "cha": "+13"
+      },
+      "skill": {
+        "deception": "+18",
+        "insight": "+12",
+        "intimidation": "+18",
+        "perception": "+7",
+        "persuasion": "+18",
+        "sleight of hand": "+11",
+        "stealth": "+16"
+      },
+      "senses": [
+        "darkvision 90 ft."
+      ],
+      "passive": 17,
+      "resist": [
+        "cold",
+        "fire",
+        "lightning",
+        "poison",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "languages": [
+        "Abyssal",
+        "Common",
+        "Infernal",
+        "telepathy 90 ft."
+      ],
+      "cr": "15",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Thelestes' spellcasting ability is Charisma (spell save {@dc 21}). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell darkness|XPHB}",
+            "{@spell detect magic|XPHB}",
+            "{@spell invisibility|XPHB} (self only)",
+            "{@spell shadow blade|XGE} (requires no concentration)"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell charm person|XPHB}",
+              "{@spell compulsion|XPHB}",
+              "{@spell hold monster|XPHB}",
+              "{@spell mass suggestion|XPHB}"
+            ],
+            "1e": [
+              "{@spell commune|XPHB}",
+              "{@spell maddening darkness|XGE}",
+              "{@spell plane shift|XPHB}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Assassinate",
+          "entries": [
+            "During her first turn, Thelestes has advantage on attack rolls against any creature that hasn't taken a turn. Any hit she scores against a {@status surprised|XPHB} creature is a critical hit."
+          ]
+        },
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "On each of its turns, Thelestes can use a bonus action to take the Dash, Disengage, or Hide action."
+          ]
+        },
+        {
+          "name": "Telepathic Bond",
+          "entries": [
+            "Thelestes ignores the range restriction on its telepathy when communicating with a creature she has {@condition charmed}. The two don't even need to be on the same plane of existence."
+          ]
+        },
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "Thelestes can use her action to polymorph into a Small or Medium humanoid, or back into her true form. Without wings, she loses hers flying speed. Other than her size and speed, her statistics are the same in each form. Any equipment she is wearing or carrying isn't transformed. She reverts to its true form if she dies."
+          ]
+        },
+        {
+          "name": "Sneak Attack (1/Turn)",
+          "entries": [
+            "Thelestes deals an extra 21 ({@damage 6d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of Thelestes that isn't incapacitated and she doesn't have disadvantage on the attack roll."
+          ]
+        },
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The thelestes makes three weapon attacks."
+          ]
+        },
+        {
+          "name": "Shadow Blade",
+          "entries": [
+            "{@atk mw,rw} {@hit 11} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}15 ({@damage 2d8 + 6}) psychic damage."
+          ]
+        },
+        {
+          "name": "Claw (Fiend Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) slashing damage."
+          ]
+        },
+        {
+          "name": "Charm",
+          "entries": [
+            "One humanoid Thelestes can see within 30 feet of her must succeed on a {@dc 21} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys Thelestes' verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to Thelestes' Charm for the next 24 hours.",
+            "Thelestes can have up to three targets {@condition charmed} at a time. If she charms another beyond that, the effect on the earliest target ends."
+          ]
+        },
+        {
+          "name": "Draining Kiss",
+          "entries": [
+            "Thelestes kisses a creature {@condition charmed} by it or a willing creature. The target must make a {@dc 21} Constitution saving throw against this magic, taking 46 ({@damage 7d10 + 8}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to O."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Vanishing Dodge (Recharges 4-6)",
+          "entries": [
+            "When Thelestes takes damage, she turns {@condition invisible} and teleports up to 90 feet to an unoccupied space she's aware of. She remains {@condition invisible} until the end of her next turn or until she attacks or casts a spell."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Attack",
+          "entries": [
+            "Thelestes makes one weapon attack."
+          ]
+        },
+        {
+          "name": "Shift",
+          "entries": [
+            "Thelestes moves up to half her speed without provoking opportunity attacks."
+          ]
+        },
+        {
+          "name": "Sow Discord (Costs 2 Actions)",
+          "entries": [
+            "One creature {@condition charmed} by Thelestes uses its reaction to make one attack against a target of her choice that she can see."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Shapechanger",
+        "Sneak Attack"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "AB",
+        "C",
+        "I",
+        "TP"
+      ],
+      "damageTags": [
+        "S",
+        "Y"
+      ],
+      "damageTagsSpell": [
+        "Y"
+      ],
+      "spellcastingTags": [
+        "I"
+      ],
+      "miscTags": [
+        "HPR",
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "charmed"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "invisible",
+        "paralyzed"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "wisdom"
+      ]
+    }
   ]
 }
