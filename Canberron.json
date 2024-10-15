@@ -13632,6 +13632,105 @@
       "savingThrowForcedSpell": [
         "wisdom"
       ],
+      "variant":
+      [
+        {
+          "name": "The Coven of Sora Kell",
+          "type": "inset",
+          "source": "Canberron",
+          "entries":
+          [
+            "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+            "A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.",
+            {
+              "type": "spellcasting",
+              "name": "Shared Spellcasting (Coven Only)",
+              "headerEntries":
+              [
+                "While all three Daughters of Sora Kell are within 60 feet of one another, they can each cast the following spells from the wizard spell list but must share the spell slots among themselves:"
+              ],
+              "spells": {
+                "0": {
+                  "spells": [
+                    "{@spell mage hand|PHB}",
+                    "{@spell ray of frost|PHB}"
+                  ]
+                },
+                "1": {
+                  "slots": 4,
+                  "spells": [
+                    "{@spell identify|PHB}",
+                    "{@spell ray of sickness|PHB}"
+                  ]
+                },
+                "2": {
+                  "slots": 3,
+                  "spells": [
+                    "{@spell hold person|PHB}",
+                    "{@spell invisibility|PHB}",
+                    "{@spell knock|PHB}"
+                  ]
+                },
+                "3": {
+                  "slots": 3,
+                  "spells": [
+                    "{@spell bestow curse}",
+                    "{@spell counterspell}"
+                  ]
+                },
+                "4": {
+                  "slots": 3,
+                  "spells": [
+                    "{@spell blight|PHB}",
+                    "{@spell phantasmal killer}"
+                  ]
+                },
+                "5": {
+                  "slots": 2,
+                  "spells": [
+                    "{@spell cloudkill|PHB}",
+                    "{@spell scrying|PHB}"
+                  ]
+                },
+                "6": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell circle of death|PHB}",
+                    "{@spell disintegrate|PHB}",
+                    "{@spell eyebite|PHB}"
+                  ]
+                },
+                "7": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell finger of death|PHB}",
+                    "{@spell plane shift|PHB}",
+                    "{@spell teleport|PHB}"
+                  ]
+                },
+                "8": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell maze|PHB}",
+                    "{@spell mind blank|PHB}"
+                  ]
+                },
+                "9": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell imprisonment|PHB}",
+                    "{@spell power word kill|PHB}"
+                  ]
+                }
+              },
+              "footerEntries":
+              [
+                "When casting these spells, each Daughter is a 20th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 14 + the Daughter's Intelligence modifier, and the spell attack bonus is 6 + the Daughter's Intelligence modifier"
+              ]
+            }
+          ]
+        }
+      ],
 			"tokenHref":
 			{
 				"type": "external",
