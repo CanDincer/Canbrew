@@ -13242,7 +13242,7 @@
         {
           "name": "Sneak Attack (1/Turn)",
           "entries": [
-            "Thelestes deals an extra 21 ({@damage 6d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of Thelestes that isn't incapacitated and she doesn't have disadvantage on the attack roll."
+            "Thelestes deals an extra 21 ({@damage 6d6}) damage when she hits a target with her shadow blade attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of Thelestes that isn't incapacitated and she doesn't have disadvantage on the attack roll."
           ]
         },
         {
@@ -13254,7 +13254,13 @@
         {
           "name": "Shadow Blade",
           "entries": [
-            "{@atk mw,rw} {@hit 11} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}15 ({@damage 2d8 + 6}) psychic damage."
+            "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) psychic damage."
+          ]
+        },
+        {
+          "name": "Spiked Chain",
+          "entries": [
+            "{@atk mw} {@hit 11} to hit, reach 15 ft., one target. {@h}11 ({@damage 2d4 + 6}) piercing damage plus 7 ({@damage 2d6}) poison damage. If the target is a creature, it must succeed on a {@dc 18} Constitution saving throw or become {@condition incapacitated} until the end of the creature's next turn."
           ]
         },
         {
