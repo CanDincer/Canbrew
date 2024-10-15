@@ -13416,7 +13416,8 @@
       "vulnerable": [
         {
           "vulnerable": [
-            "piercing or slashing"
+            "piercing",
+            "slashing"
           ],
           "note": "from silvered weapons wielded by creatures with a charisma score of at least 18",
           "cond": true
@@ -13434,7 +13435,11 @@
         "Infernal",
         "Sylvan"
       ],
-      "cr": "18",
+      "cr":
+      {
+        "cr": "18",
+        "coven": "20"
+      },
       "spellcasting": [
         {
           "name": "Innate Spellcasting",
