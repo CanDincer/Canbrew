@@ -14594,6 +14594,326 @@
         "type": "external",
         "url": "https://i.imgur.com/USwTRLR.png"
       }
+    },
+    {
+      "name": "Usvapna",
+      "source": "Canberron",
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "quori"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        14,
+        {
+          "ac": 17,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 93,
+        "formula": "11d10 + 33"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 40,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 18,
+      "dex": 18,
+      "con": 17,
+      "int": 17,
+      "wis": 16,
+      "cha": 18,
+      "save": {
+        "wis": "+7",
+        "cha": "+8"
+      },
+      "skill": {
+        "intimidation": "+8",
+        "perception": "+7",
+        "persuasion": "+8"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 17,
+      "resist": [
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "languages": [
+        "Common",
+        "Quori",
+        "Riedran"
+      ],
+      "cr": "10",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting (Psionics)",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The quori's innate spellcasting ability is Charisma (spell save {@dc 16}; {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no components:"
+          ],
+          "will": [
+            "{@spell enthrall|XPHB} (the distracting words are spoken telepathically)",
+            "{@spell detect thoughts|XPHB}",
+            "{@spell mage armor|XPHB} (self only)",
+            "{@spell magic missile|XPHB} (5th-level; one target only, 7 invisible missiles)"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell confusion|XPHB}",
+              "{@spell enhance ability|XPHB}",
+              "{@spell true seeing|XPHB} (self only)"
+            ],
+            "1e": [
+              "{@spell inflict wounds|XPHB} (6th level; deals psychic damage)",
+              "{@spell modify memory|XPHB}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Mind Schism",
+          "entries": [
+            "The quori may cast any of its innate spells as a bonus action if the spell normally has a casting time of 1 action. It is not limited to casting a cantrip if it casts a second spell in the same turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The quori makes four pincer attacks."
+          ]
+        },
+        {
+          "name": "Pincer",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d12 + 4}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 15}). The quori has four pincers, each of which can grapple one target.",
+            "If a creature is hit by two pincer attacks in one turn, the creature must succeed on a {@dc 16} Charisma save. On a failure, the creature is {@condition incapacitated} for 1 round while its mind is filled with doubt and it hears thoughts of self-loathing. A creature with Intelligence 4 or less is unaffected."
+          ]
+        },
+        {
+          "name": "Possession {@recharge}",
+          "entries": [
+            "One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 16} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition incapacitated} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, except ones that turn fiends, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+            "The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is turned or forced out by an effect like the {@spell dispel evil and good|XPHB} spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body.",
+            "The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "damageTagsSpell": [
+        "N",
+        "O"
+      ],
+      "spellcastingTags": [
+        "I",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "incapacitated"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "incapacitated"
+      ],
+      "savingThrowForced": [
+        "charisma"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "wisdom"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/XPdrYRa.png"
+			}
+    },
+    {
+      "name": "Kabza / Topuz",
+      "source": "Canberron",
+      "size": [
+        "M"
+      ],
+      "type": "construct",
+      "alignment": [
+        "C",
+        "G",
+        "NY",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "special": "56"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 16,
+      "int": 8,
+      "wis": 13,
+      "cha": 7,
+      "save": {
+        "dex": "+6",
+        "con": "+7"
+      },
+      "skill": {
+        "athletics": "+8",
+        "perception": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 17,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "poisoned"
+      ],
+      "languages": [
+        "understands Common",
+        "Draconic",
+        "Dwarvish",
+        "Elvish",
+        "and Giant",
+        "but can't speak"
+      ],
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Aggressive",
+          "entries": [
+            "As a bonus action, the predator can move up to its speed toward a hostile creature it can see."
+          ]
+        },
+        {
+          "name": "Lord's Homunculus",
+          "entries": [
+            "If the {@spell mending|XPHB} spell is cast on the predator, it regains {@dice 2d6} hit points."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The predator has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The predator has advantage on an attack roll against a creature if at least one of the predator's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The predator makes two melee weapon attacks."
+          ]
+        },
+        {
+          "name": "Force-Empowered Rend",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}10 ({@dice 1d8 + 4} plus 2) force damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Pack Distraction",
+          "entries": [
+            "When the Lord of Blades makes an attack against a creature within 5 feet of the predator, he gains advantage on the attack."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Aggressive",
+        "Magic Resistance",
+        "Pack Tactics"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "CS",
+        "D",
+        "DR",
+        "E",
+        "GI"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/OwuAytW.png"
+			}
     }
   ]
 }
