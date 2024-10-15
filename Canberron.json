@@ -13359,6 +13359,279 @@
 				"type": "external",
 				"url": "https://i.imgur.com/I6z451h.png"
 			}
+    },
+    {
+      "name": "Sora Katra",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "green hag"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        18
+      ],
+      "hp": {
+        "average": 225,
+        "formula": "30d8 + 90"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 23,
+      "wis": 14,
+      "cha": 24,
+      "save": {
+        "int": "+12",
+        "cha": "+13"
+      },
+      "skill": {
+        "arcana": "+12",
+        "deception": "+19",
+        "perception": "+8",
+        "performance": "+19"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 18,
+      "resist": [
+        "acid",
+        "cold",
+        "fire",
+        "poison"
+      ],
+      "vulnerable": [
+        {
+          "vulnerable": [
+            "piercing or slashing"
+          ],
+          "note": "from silvered weapons wielded by creatures with a charisma score of at least 18",
+          "cond": true
+        }
+      ],
+      "conditionImmune": [
+        "charmed",
+        "poisoned"
+      ],
+      "languages": [
+        "Common",
+        "Giant",
+        "Gnoll",
+        "Goblin",
+        "Infernal",
+        "Sylvan"
+      ],
+      "cr": "18",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Sora Katra's innate spellcasting ability is Charisma (spell save {@dc 21}). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell dancing lights|XPHB}",
+            "{@spell minor illusion|XPHB}",
+            "{@spell vicious mockery|XPHB}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell glibness|XPHB}",
+              "{@spell mirage arcane|XPHB}",
+              "{@spell mislead|XPHB}",
+              "{@spell modify memory|XPHB}"
+            ]
+          },
+          "ability": "cha"
+        },
+        {
+          "name": "Shared Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "For coven spells, Sora Katra's spell save DC is 20, and her spell attack bonus is +12."
+          ]
+        }
+      ],
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "Sora Katra can breathe air and water."
+          ]
+        },
+        {
+          "name": "Fiendish Inspiration {@recharge 4}",
+          "entries": [
+            "As a bonus action, Sora Katra can grant an ally within 30 feet a Bardic Inspiration die as the Bard feature, except the die is a {@dice d12}.",
+            "Alternatively, she can use this ability as a reaction to roll a {@dice d12} and subtract the number rolled from an attack roll or saving throw of a creature she can see within 30 feet."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If Sora Katra fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Sora Katra has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Mimicry",
+          "entries": [
+            "Sora Katra can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 21} Wisdom ({@skill Insight|XPHB}) check."
+          ]
+        },
+        {
+          "name": "Sora Kell's Blessing",
+          "entries": [
+            "Sora Katra's AC includes her Charisma bonus.",
+            "ActionsClaws. Melee Weapon Attack: {@hit 10} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d8 + 4}) slashing damage and 10 ({@damage 3d6}) psychic damage."
+          ]
+        },
+        {
+          "name": "Fiendish Charm",
+          "entries": [
+            "One humanoid Sora Katra can see within 30 feet of her must succeed on a {@dc 21} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys Sora Katra's spoken commands. If the target suffers any harm or receives a suicidal command from Sora Katra, the target can repeat the saving throw, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends for it, the creature is immune to Sora Katra's Fiendish Charm for the next 24 hours."
+          ]
+        },
+        {
+          "name": "Illusory Appearance",
+          "entries": [
+            "Sora Katra covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if Sora Katra takes a bonus action to end it or if she dies.",
+            "The changes wrought by this effect fail to hold up to physical inspection. For example, Sora Katra could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 20} Intelligence ({@skill Investigation|XPHB}) check to discern that she is disguised."
+          ]
+        },
+        {
+          "name": "Invisible Passage",
+          "entries": [
+            "Sora Katra magically turns {@condition invisible} until she attacks or casts a spell, or until her {@status Concentration|XPHB} ends (as if {@status Concentration|XPHB|Concentrating} on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+          ]
+        },
+        {
+          "name": "Weave Curse",
+          "entries": [
+            "Sora Katra weaves a magical curse on one creature she can see within 60 feet. The target must make a {@dc 21} Charisma saving throw. On a failed save, it is cursed with vulnerability to psychic damage. On a successful save, the creature isn't cursed.",
+            "A creature cursed by this effect must make another Charisma saving throw at the end of each of its turns. If it successfully saves against this effect three times, the curse ends. If it fails its saves three times, the weave of the curse becomes complete and the target suffers one of the below additional effects, which can only be reversed by a carefully worded wish:",
+            {
+              "type": "list",
+              "style": "list-hang-notitle",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "1. Eternal Slumber",
+                  "entries": [
+                    "The target falls asleep and can't be awoken. While asleep, it ceases to age and doesn't require food or water."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "2. Form of Punishment",
+                  "entries": [
+                    "The target is polymorphed into the form of a beast or construct with a challenge rating of 0. The target's statistics are entirely replaced by those of its new form, except it retains its alignment, personality, Intelligence, Wisdom, and Charisma scores, and ability to speak."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "3. Magic Prison",
+                  "entries": [
+                    "The target shrinks to a height of 1 inch and is imprisoned inside a magically created jar, vase, or similar object.",
+                    "The target may communicate with anyone holding the object telepathically."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Claws",
+          "entries": [
+            "Sora Katra makes one attack with her claws."
+          ]
+        },
+        {
+          "name": "Beguile (Costs 2 Actions)",
+          "entries": [
+            "Sora Katra uses her Fiendish Charm, Weave Curse, or casts {@spell modify memory|XPHB}."
+          ]
+        },
+        {
+          "name": "Misdirect (Costs 2 Actions)",
+          "entries": [
+            "Sora Katra uses her Illusory Appearance, {@condition Invisible|XPHB} Passage, or casts {@spell mislead|XPHB}."
+          ]
+        },
+        {
+          "name": "Will of the Coven (Costs 3 Actions)",
+          "entries": [
+            "Sora Katra casts one of the shared spells from the Coven of Sora Kell if she is within 60 feet of both of her sisters."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Amphibious",
+        "Legendary Resistances",
+        "Magic Resistance",
+        "Mimicry"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "GI",
+        "GO",
+        "I",
+        "OTH",
+        "S"
+      ],
+      "damageTags": [
+        "S",
+        "Y"
+      ],
+      "damageTagsSpell": [
+        "Y"
+      ],
+      "spellcastingTags": [
+        "I",
+        "S"
+      ],
+      "miscTags": [
+        "CUR"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "invisible"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "incapacitated",
+        "invisible"
+      ],
+      "savingThrowForced": [
+        "charisma",
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "wisdom"
+      ]
     }
   ]
 }
