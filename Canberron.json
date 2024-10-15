@@ -14451,6 +14451,149 @@
 				"type": "external",
 				"url": "https://i.imgur.com/iW7TVmb.png"
 			}
+    },
+    {
+      "name": "Tsoreva",
+      "source": "Canberron",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "quori"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        13,
+        {
+          "ac": 15,
+          "condition": "with {@spell mage armor}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "average": 39,
+        "formula": "6d8 + 12"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 20
+      },
+      "str": 13,
+      "dex": 15,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 16,
+      "save": {
+        "dex": "+5",
+        "cha": "+6"
+      },
+      "skill": {
+        "intimidation": "+6",
+        "perception": "+5",
+        "stealth": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "resist": [
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "languages": [
+        "Common",
+        "Quori",
+        "Riedran"
+      ],
+      "cr": "3",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting (Psionics)",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The quori can innately cast mage armor, requiring no components, targeting itself only. Its innate spellcasting ability is Charisma."
+          ],
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Manifest Mindblades",
+          "entries": [
+            "As a bonus action, the quori can create a two shortsword-sized, visible blade of psionic energy. The weapons appear at the end of the tsoreva's alien arms and vanishes if the quori dies or is {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Frightful Strike (1/Turn)",
+          "entries": [
+            "When the quori hits with a mindblade attack, the attack deals an additional 9 ({@damage 2d8}) psychic damage and the target must make a {@dc 13} Wisdom saving throw or become {@condition frightened} of the quori for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The tsoreva makes two mindblade attacks."
+          ]
+        },
+        {
+          "name": "Mindblade",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) psychic damage."
+          ]
+        },
+        {
+          "name": "Possession {@recharge}",
+          "entries": [
+            "One humanoid that the quori can see within 5 feet of it must succeed on a {@dc 13} Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is {@condition incapacitated} and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, except ones that turn fiends, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being {@condition charmed} and {@condition frightened}. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+            "The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is turned or forced out by an effect like the {@spell dispel evil and good|XPHB} spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body.",
+            "The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "Y"
+      ],
+      "spellcastingTags": [
+        "I",
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "frightened",
+        "incapacitated"
+      ],
+      "savingThrowForced": [
+        "charisma",
+        "wisdom"
+      ],
+      "tokenHref":
+      {
+        "type": "external",
+        "url": "https://i.imgur.com/USwTRLR.png"
+      }
     }
   ]
 }
