@@ -14104,6 +14104,353 @@
 				"type": "external",
 				"url": "https://i.imgur.com/Y3kQ38t.png"
 			}
+    },
+    {
+      "name": "Sora Teraza",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "dusk hag"
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 24,
+          "from": [
+            "natural armor",
+            "dream vision"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 136,
+        "formula": "21d8 + 42"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 11,
+      "con": 15,
+      "int": 30,
+      "wis": 16,
+      "cha": 19,
+      "save": {
+        "dex": "+16",
+        "wis": "+9"
+      },
+      "skill": {
+        "arcana": "+16",
+        "history": "+16",
+        "insight": "+15",
+        "perception": "+21"
+      },
+      "senses": [
+        "blindsight 120 ft. (blind beyond this radius)"
+      ],
+      "passive": 31,
+      "resist": [
+        "cold",
+        "fire"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened"
+      ],
+      "languages": [
+        "Common",
+        "Dwarven",
+        "Giant",
+        "Goblin",
+        "Infernal",
+        "Orc"
+      ],
+      "cr":
+      {
+        "cr": "18",
+        "coven": "20"
+      },
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Sora Teraza's innate spellcasting ability is Charisma (spell save {@dc 19}). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell augury|XPHB}",
+            "{@spell detect magic|XPHB}",
+            "{@spell disguise self|XPHB}",
+            "{@spell legend lore|XPHB}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell dream|XPHB}",
+              "{@spell hypnotic pattern|XPHB}",
+              "{@spell scrying|XPHB}",
+              "{@spell sleep|XPHB} ({@dice 21d8})",
+              "{@spell tongues|XPHB}"
+            ]
+          },
+          "ability": "cha"
+        },
+        {
+          "name": "Shared Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "For coven spells, Sora Teraza's spell save DC is 24, and her spell attack bonus is +16."
+          ]
+        }
+      ],
+      "trait": [
+        {
+          "name": "Dream Vision",
+          "entries": [
+            "Though Sora Teraza is blind, her oracular vision grants her several benefits. She can't be magically put to sleep, nor can she be {@status surprised|XPHB}. Additionally, she always acts first in the initiative order (she acts on an initiative count equal to one higher than the highest initiative rolled among a combat's participants). Finally, she gains a bonus to her Armor Class and Dexterity saving throws equal to her Intelligence modifier (included above)."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If Sora Teraza fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Sora Teraza has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Sora Kell's Blessing",
+          "entries": [
+            "Sora Teraza's AC includes her Charisma bonus.",
+            "ActionsClaws. Melee Weapon Attack: {@hit 9} to hit, reach 5 ft., one creature. {@h}10 ({@damage 2d6 + 3}) slashing damage and 10 ({@damage 3d6}) psychic damage."
+          ]
+        },
+        {
+          "name": "Nightmare Gaze",
+          "entries": [
+            "Sora Teraza fixes her blind gaze on each creature she can sense within a 60-foot cone. Creatures in the area must make a {@dc 21} Wisdom saving throw. On a failure, a creature takes 35 ({@damage 10d6}) psychic damage, or half as much damage on a success. Regardless of success or failure, if the creature is {@condition unconscious}, it takes an extra 10 ({@damage 3d6}) psychic damage and is cursed. The curse can take one of the following forms, chosen by Sora Teraza individually for each creature so cursed:",
+            {
+              "type": "list",
+              "style": "list-hang-notitle",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "1. Night Terrors",
+                  "entries": [
+                    "The cursed creature's hit point maximum decreases by 16 ({@dice 3d10}) whenever it finishes a long rest."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "2. Tabula Rasa",
+                  "entries": [
+                    "The cursed creature's proficiency bonus is reduced to 0 and it cannot remember any events prior to reaching adulthood."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "3. Laid Bare",
+                  "entries": [
+                    "The cursed creature's entire life story is magically written into a waiting book in Sora Teraza's library. While the creature is cursed, Sora Teraza may cast {@spell legend lore|XPHB} and name the cursed creature, regardless of its legendary significance.",
+                    "Whichever effect Sora Teraza choose for a curse, it cannot be removed except by a carefully worded wish."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Dream Eater",
+          "entries": [
+            "When an {@condition unconscious} creature within 30 feet of Sora Teraza regains consciousness, she can force the creature to make a {@dc 21} Wisdom saving throw. Unless the save succeeds, the creature takes 33 ({@damage 6d10}) psychic damage, and Sora Teraza regains hit points equal to the amount of damage taken."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Claws",
+          "entries": [
+            "Sora Teraza makes one attack with her claws."
+          ]
+        },
+        {
+          "name": "Cursed Glance",
+          "entries": [
+            "One creature of Sora Teraza's choice within 120 ft. of her must make a {@dc 21} Wisdom saving throw. On a failure, the creature is cursed. Sora Teraza chooses one of the options from her Nightmare Gaze to lay upon the creature. This curse cannot be removed except by a carefully worded wish."
+          ]
+        },
+        {
+          "name": "Dream Caller (Costs 3 Actions)",
+          "entries": [
+            "Sora Teraza casts one of her innate spells."
+          ]
+        },
+        {
+          "name": "Will of the Coven (Costs 3 Actions)",
+          "entries": [
+            "Sora Teraza casts one of the shared spells from the Coven of Sora Kell if she is within 60 feet of both of her sisters."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "languageTags": [
+        "C",
+        "GI",
+        "GO",
+        "I",
+        "O"
+      ],
+      "damageTags": [
+        "S",
+        "Y"
+      ],
+      "damageTagsSpell": [
+        "Y"
+      ],
+      "spellcastingTags": [
+        "I",
+        "S"
+      ],
+      "miscTags": [
+        "AOE",
+        "CUR"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "incapacitated",
+        "unconscious"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "wisdom"
+      ]
+      "variant":
+      [
+        {
+          "name": "The Coven of Sora Kell",
+          "type": "inset",
+          "source": "Canberron",
+          "entries":
+          [
+            "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+            "A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.",
+            {
+              "type": "spellcasting",
+              "name": "Shared Spellcasting (Coven Only)",
+              "headerEntries":
+              [
+                "While all three Daughters of Sora Kell are within 60 feet of one another, they can each cast the following spells from the wizard spell list but must share the spell slots among themselves:"
+              ],
+              "spells": {
+                "0": {
+                  "spells": [
+                    "{@spell mage hand|PHB}",
+                    "{@spell ray of frost|PHB}"
+                  ]
+                },
+                "1": {
+                  "slots": 4,
+                  "spells": [
+                    "{@spell identify|PHB}",
+                    "{@spell ray of sickness|PHB}"
+                  ]
+                },
+                "2": {
+                  "slots": 3,
+                  "spells": [
+                    "{@spell hold person|PHB}",
+                    "{@spell invisibility|PHB}",
+                    "{@spell knock|PHB}"
+                  ]
+                },
+                "3": {
+                  "slots": 3,
+                  "spells": [
+                    "{@spell bestow curse}",
+                    "{@spell counterspell}"
+                  ]
+                },
+                "4": {
+                  "slots": 3,
+                  "spells": [
+                    "{@spell blight|PHB}",
+                    "{@spell phantasmal killer}"
+                  ]
+                },
+                "5": {
+                  "slots": 2,
+                  "spells": [
+                    "{@spell cloudkill|PHB}",
+                    "{@spell scrying|PHB}"
+                  ]
+                },
+                "6": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell circle of death|PHB}",
+                    "{@spell disintegrate|PHB}",
+                    "{@spell eyebite|PHB}"
+                  ]
+                },
+                "7": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell finger of death|PHB}",
+                    "{@spell plane shift|PHB}",
+                    "{@spell teleport|PHB}"
+                  ]
+                },
+                "8": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell maze|PHB}",
+                    "{@spell mind blank|PHB}"
+                  ]
+                },
+                "9": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell imprisonment|PHB}",
+                    "{@spell power word kill|PHB}"
+                  ]
+                }
+              },
+              "footerEntries":
+              [
+                "When casting these spells, each Daughter is a 20th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 14 + the Daughter's Intelligence modifier, and the spell attack bonus is 6 + the Daughter's Intelligence modifier"
+              ]
+            }
+          ]
+        }
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/iW7TVmb.png"
+			}
     }
   ]
 }
