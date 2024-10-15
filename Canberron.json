@@ -13631,7 +13631,12 @@
       ],
       "savingThrowForcedSpell": [
         "wisdom"
-      ]
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/NPQkLZ7.png"
+			}
     }
   ]
 }
