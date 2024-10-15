@@ -13741,6 +13741,369 @@
 				"type": "external",
 				"url": "https://i.imgur.com/NPQkLZ7.png"
 			}
+    },
+    {
+      "name": "Sora Maenya",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "annis hag"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 19,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 228,
+        "formula": "24d12 + 72"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 24,
+      "dex": 12,
+      "con": 17,
+      "int": 14,
+      "wis": 23,
+      "cha": 21,
+      "save": {
+        "str": "+13",
+        "cha": "+11"
+      },
+      "skill": {
+        "athletics": "+13",
+        "deception": "+11",
+        "perception": "+18"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 28,
+      "resist": [
+        "cold",
+        "fire",
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened"
+      ],
+      "languages": [
+        "Common",
+        "Goblin",
+        "Infernal"
+      ],
+      "cr":
+      {
+        "cr": "18",
+        "coven": "20"
+      },
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Sora Maenya's innate spellcasting ability is Charisma (spell save {@dc 19}). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell alter self|XPHB} (can take the form of a Medium humanoid)",
+            "{@spell fog cloud|XPHB}",
+            "{@spell sleep|XPHB}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell dimension door|XPHB}"
+            ]
+          },
+          "ability": "cha"
+        },
+        {
+          "name": "Shared Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "For coven spells, Sora Maenya's spell save DC is 16, and her spell attack bonus is +8."
+          ]
+        }
+      ],
+      "trait": [
+        {
+          "name": "Fiendish Fury",
+          "entries": [
+            "Sora Maenya has advantage on Strength checks and Strength saving throws, and has a +6 bonus to damage rolls that deal bludgeoning, piercing, or slashing damage (already included)."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries": [
+            "If Sora Maenya fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Sora Maenya has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Sora Kell's Blessing",
+          "entries": [
+            "Sora Maenya's AC includes her Charisma bonus."
+          ]
+        },
+        {
+          "name": "Stolen Teeth and Iron Claws",
+          "entries": [
+            "Sora Maenya's melee weapon attacks are magical and ignore damage resistances and immunities.",
+            "ActionsMultiattack. Sora Maenya makes three attacks: two with her claws and one with her bite."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}20 ({@damage 2d6 + 13}) piercing damage. If this damage reduces the target to 0 hit points, Sora Maenya immediately devours part of the target, killing it instantly."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}20 ({@damage 2d6 + 13}) slashing damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 23}). Sora Maenya can grapple up to two targets, one in each claw."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Bind Soul",
+          "entries": [
+            "When Sora Maenya kills a humanoid with her Bite, she may remove its skull and bind the creature's soul to it. The target cannot be restored to life while its soul is bound to the skull.",
+            "While the soul is bound to its skull, Sora Maenya can take an action to make the skull start or stop shedding magical light like a hooded lantern. While Sora Maenya has a soul-bound skull on her person, she can produce one of the following effects:",
+            {
+              "type": "list",
+              "style": "list-hang-notitle",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "1. Consume Knowledge",
+                  "entries": [
+                    "Sora Maenya can learn the answer to one question the soul would be able to answer. The information she gains is true to the best of the soul's knowledge."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "2. Devour Vitality",
+                  "entries": [
+                    "Sora Maenya can use a bonus action to devour part of the soul's vitality and regain {@dice 2d8} hit points."
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "3. Drain Essence",
+                  "entries": [
+                    "Sora Maenya can use a bonus action to invigorate herself with part of the soul's essence, making her next attack roll, ability check, or saving throw with advantage. If she doesn't use this benefit before the start of her next turn, it is lost.",
+                    "Once Sora Maenya exploits a soul six times by using any of the above effects, it is completely destroyed and ceases to exist. No mortal magic, not even true resurrection or wish, can recover a soul from such a fate.",
+                    "A bound soul remains inside the skull until it or the skull is destroyed.",
+                    "If the skull is destroyed before the soul is, the soul escapes to the afterlife."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Chomp",
+          "entries": [
+            "Sora Maenya makes one bite attack."
+          ]
+        },
+        {
+          "name": "Smell Prey",
+          "entries": [
+            "Sora Maenya makes a Wisdom ({@skill Perception|XPHB}) check with advantage."
+          ]
+        },
+        {
+          "name": "Mind Games (Costs 2 Actions)",
+          "entries": [
+            "Sora Maenya casts one of her innate spells."
+          ]
+        },
+        {
+          "name": "Rending Embrace (Costs 3 Actions)",
+          "entries": [
+            "One creature {@condition grappled} by Sora Maenya must make a {@dc 21} Strength saving throw, taking 30 ({@damage 5d6 + 13}) piercing damage and 30 ({@damage 5d6 + 13}) slashing damage on a failed saving throw, or half as much of each on a success."
+          ]
+        },
+        {
+          "name": "Will of the Coven (Costs 3 Actions)",
+          "entries": [
+            "Sora Maenya casts one of the shared spells from the Coven of Sora Kell if she is within 60 feet of both of her sisters."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Legendary Resistances",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "GO",
+        "I"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "B",
+        "O",
+        "P",
+        "S"
+      ],
+      "spellcastingTags": [
+        "I",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "conditionInflictSpell": [
+        "incapacitated",
+        "unconscious"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "savingThrowForcedSpell": [
+        "wisdom"
+      ],
+      "variant":
+      [
+        {
+          "name": "The Coven of Sora Kell",
+          "type": "inset",
+          "source": "Canberron",
+          "entries":
+          [
+            "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+            "A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.",
+            {
+              "type": "spellcasting",
+              "name": "Shared Spellcasting (Coven Only)",
+              "headerEntries":
+              [
+                "While all three Daughters of Sora Kell are within 60 feet of one another, they can each cast the following spells from the wizard spell list but must share the spell slots among themselves:"
+              ],
+              "spells": {
+                "0": {
+                  "spells": [
+                    "{@spell mage hand|PHB}",
+                    "{@spell ray of frost|PHB}"
+                  ]
+                },
+                "1": {
+                  "slots": 4,
+                  "spells": [
+                    "{@spell identify|PHB}",
+                    "{@spell ray of sickness|PHB}"
+                  ]
+                },
+                "2": {
+                  "slots": 3,
+                  "spells": [
+                    "{@spell hold person|PHB}",
+                    "{@spell invisibility|PHB}",
+                    "{@spell knock|PHB}"
+                  ]
+                },
+                "3": {
+                  "slots": 3,
+                  "spells": [
+                    "{@spell bestow curse}",
+                    "{@spell counterspell}"
+                  ]
+                },
+                "4": {
+                  "slots": 3,
+                  "spells": [
+                    "{@spell blight|PHB}",
+                    "{@spell phantasmal killer}"
+                  ]
+                },
+                "5": {
+                  "slots": 2,
+                  "spells": [
+                    "{@spell cloudkill|PHB}",
+                    "{@spell scrying|PHB}"
+                  ]
+                },
+                "6": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell circle of death|PHB}",
+                    "{@spell disintegrate|PHB}",
+                    "{@spell eyebite|PHB}"
+                  ]
+                },
+                "7": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell finger of death|PHB}",
+                    "{@spell plane shift|PHB}",
+                    "{@spell teleport|PHB}"
+                  ]
+                },
+                "8": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell maze|PHB}",
+                    "{@spell mind blank|PHB}"
+                  ]
+                },
+                "9": {
+                  "slots": 1,
+                  "spells": [
+                    "{@spell imprisonment|PHB}",
+                    "{@spell power word kill|PHB}"
+                  ]
+                }
+              },
+              "footerEntries":
+              [
+                "When casting these spells, each Daughter is a 20th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 14 + the Daughter's Intelligence modifier, and the spell attack bonus is 6 + the Daughter's Intelligence modifier"
+              ]
+            }
+          ]
+        }
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/Y3kQ38t.png"
+			}
     }
   ]
 }
