@@ -15,6 +15,7 @@
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
+    "edition": "one",
 		"dateAdded": 1723470600,
 		"dateLastModified": 1728978540
 	},
@@ -14914,6 +14915,173 @@
 				"type": "external",
 				"url": "https://i.imgur.com/OwuAytW.png"
 			}
-    }
+    },
+    {
+			"name": "Mindartis",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"half-elf"
+				]
+			},
+			"source": "Canberron",
+			"alignment":
+			[
+				"N"
+			],
+			"ac":
+			[
+				12,
+				{
+					"ac": 15,
+					"from":
+					[
+						"{@spell mage armor|XPHB}"
+					]
+				}
+			],
+			"hp":
+			{
+        "formula": "12d8 + 12",
+        "average": 66
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 18,
+			"wis": 14,
+			"cha": 14,
+			"passive": 15,
+			"cr": "5",
+			"save": {
+				"wis": "+5",
+				"int": "+7"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7",
+				"investigation": "+7",
+				"perception": "+5"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"E"
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Mindartis has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "Necromancer",
+					"entries": [
+						"Any undead creature summoned or created by Mindartis has multiattack action if it doesn't already and it's speed increases by 10 ft. up tp 30 ft."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"level": 7,
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell frostbite|XGE}",
+								"{@spell mage hand|XPHB}",
+								"{@spell shocking grasp|XPHB}",
+								"{@spell toll the dead|XPHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell absorb elements|XGE}",
+								"{@spell detect magic|XPHB}",
+								"{@spell shield|XPHB}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell mirror image|XPHB}",
+								"{@spell wither and bloom|SCC}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell animate dead|XPHB}",
+								"{@spell counterspell|XPHB}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door|XPHB}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"C",
+				"L",
+				"N",
+				"O"
+			],
+			"savingThrowForcedSpell":
+      [
+				"constitution",
+				"wisdom"
+			]
+		}
   ]
 }
