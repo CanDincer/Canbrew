@@ -15082,6 +15082,93 @@
 				"constitution",
 				"wisdom"
 			]
-		}
+		},
+    {
+      "name": "Major",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "source": "Canberron",
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item chain shirt|xphb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "7d8 + 14",
+        "average": 45
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 12,
+      "con": 14,
+      "int": 11,
+      "wis": 12,
+      "cha": 11,
+      "passive": 13,
+      "cr": "1",
+      "languages": [
+        "Any one language (usually Common)"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The major makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://i.imgur.com/TgQ1VFh.png"
+      },
+      "save": {
+        "str": "+5",
+        "wis": "+3"
+      },
+      "skill": {
+        "investigation": "+2",
+        "perception": "+3",
+        "intimidation": "+2",
+        "insight": "+3"
+      },
+      "miscTags": [
+        "MW",
+        "MLW"
+      ],
+      "attachedItems": [
+        "longsword|phb"
+      ],
+      "damageTags": [
+        "S"
+      ]
+    }
   ]
 }
