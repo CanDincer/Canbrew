@@ -15081,7 +15081,11 @@
       [
 				"constitution",
 				"wisdom"
-			]
+			],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://i.imgur.com/t9vxFNN.png"
+      }
 		},
     {
       "name": "Major",
