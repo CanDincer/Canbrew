@@ -15173,6 +15173,154 @@
       "damageTags": [
         "S"
       ]
+    },
+    {
+      "name": "Jalinda Mermernemer",
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "halfling"
+        ]
+      },
+      "source": "Canberron",
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item studded leather armor|xphb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "4d6 + 4",
+        "average": 18
+      },
+      "speed": {
+        "walk": 25
+      },
+      "str": 8,
+      "dex": 16,
+      "con": 12,
+      "int": 12,
+      "wis": 11,
+      "cha": 12,
+      "passive": 12,
+      "shortName": "Jalinda",
+      "level": 3,
+      "languages": [
+        "Common",
+        "Halfling",
+        "Thieves' cant"
+      ],
+      "languageTags": [
+        "C",
+        "H",
+        "TC"
+      ],
+      "save": {
+        "dex": "+5",
+        "int": "+3"
+      },
+      "skill": {
+        "acrobatics": "+5",
+        "stealth": "+7",
+        "survival": "+4",
+        "sleight of hand": "+5",
+        "nature": "+3",
+        "perception": "+2"
+      },
+      "trait": [
+        {
+          "name": "Naturally Stealthy",
+          "entries": [
+            "Jalinda can take the Hide action even when she is obscured only by a creature that is at least one size larger than her."
+          ]
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "entries": [
+            "Jalinda can move through the space of any creature that is a size larger than her, but she can't stop in the same space."
+          ]
+        },
+        {
+          "name": "Sneak Attack",
+          "entries": [
+            "Once per turn, Jalinda can deal an extra {@damage 2d6} damage to one creature she hits with an attack roll if she has Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.",
+            "She doesn't need Advantage on the attack roll if at least one of her allies is within 5 feet of the target, the ally doesn't have the {@condition Incapacitated|XPHB} condition, and she doesn't have Disadvantage on the attack roll."
+          ]
+        },
+        {
+          "name": "Cut and Run",
+          "entries": [
+            "Starting at 3rd level, Jalinda learns to minimize danger by darting in and out of battle. Whenever she uses her Sneak Attack feature against a target, she regains all expended speed she may have used that turn."
+          ]
+        },
+        {
+          "name": "Waste Not Want Not",
+          "entries": [
+            "If Jalinda fails a harvesting check to harvest a material, she may immediately attempt that check again at disadvantage. On a success, she successfully harvests that material, but it is worth only half of its normal monetary value. This feature may only be used once per creature she attempts to harvest."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Sneak Attack"
+      ],
+      "action": [
+        {
+          "name": "Dagger",
+          "entries": [
+            "{@atk mw,rw} {@hit +3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Shortbow",
+          "entries": [
+            "{@atk rw} {@hit +3} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "RW",
+        "MW",
+        "MLW",
+        "THW",
+        "RNG"
+      ],
+      "attachedItems": [
+        "dagger|phb",
+        "shortbow|phb",
+        "shortsword|phb"
+      ],
+      "bonus": [
+        {
+          "name": "Cunning Action",
+          "entries": [
+            "On her turn, Jalinda can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide."
+          ]
+        },
+        {
+          "name": "Steady Aim",
+          "entries": [
+            "As a Bonus Action, Jalinda gives herself Advantage on her next attack roll on the current turn. She can use this feature only if she hasn't moved during this turn, and after she use it, her Speed is 0 until the end of the current turn."
+          ]
+        }
+      ],
+      "damageTags": [
+        "P"
+      ]
     }
   ]
 }
