@@ -15321,6 +15321,191 @@
       "damageTags": [
         "P"
       ]
+    },
+    {
+      "name": "Thora Tavin Tarkanan",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "source": "Canberron",
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "{@item stone swim armor|hhhvi}",
+            "{@item shield of reflection|hhhvi}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "20d8 + 80",
+        "average": 170
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": 30
+      },
+      "str": 18,
+      "dex": 14,
+      "con": 18,
+      "int": 12,
+      "wis": 12,
+      "cha": 12,
+      "passive": 11,
+      "cr": "9",
+      "shortName": "Thora",
+      "languages": [
+        "Common"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "save": {
+        "str": "+8",
+        "dex": "+14",
+        "con": "+8",
+        "wis": "+5",
+        "cha": "+12"
+      },
+      "skill": {
+        "athletics": "+8",
+        "history": "+5",
+        "stealth": "+6"
+      },
+      "senses": [
+        "tremorsense 60 ft."
+      ],
+      "senseTags": [
+        "T"
+      ],
+      "action": [
+        {
+          "name": "Multiattack.",
+          "entries": [
+            "Thora makes three attacks with her longsword."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW",
+        "MLW"
+      ],
+      "attachedItems": [
+        "longsword|phb"
+      ],
+      "trait": [
+        {
+          "name": "Maneuvers",
+          "entries": [
+            "Thora's intensive training allows her to use combat maneuvers efficiently. When she makes an attack, she can choose to use one of her manuevers.",
+            {
+              "type": "list",
+              "items":
+              [
+                {
+                  "type": "item",
+                  "name": "Disarming Attack",
+                  "entry": "When she hits a creature with an attack roll, she can expend one Superiority Die to attempt to disarm the target. She adds the Superiority Die roll to the attack's damage roll. The target must succeed on a {@dc 16} Strength saving throw or drop one object of her choice that it's holding, with the object landing in its space."
+                },
+                {
+                  "type": "item",
+                  "name": "Goading Attack",
+                  "entry": "When she hits a creature with an attack roll, she can expend one Superiority Die to attempt to goad the target into attacking her. She adds the Superiority Die to the attack's damage roll. The target must succeed on a {@dc 16} Wisdom saving throw or have Disadvantage on attack rolls against targets other than her until the end of her next turn."
+                },
+                {
+                  "type": "item",
+                  "name": "Menacing Attack",
+                  "entry": "When she hits a creature with an attack roll, she can expend one Superiority Die to attempt to frighten the target. She adds the Superiority Die to the attack's damage roll. The target must succeed on a {@dc 16} Wisdom saving throw or have the {@condition Frightened|XPHB} condition until the end of her next turn."
+                },
+                {
+                  "type": "item",
+                  "name": "Trip Attack",
+                  "entry": "When she hits a creature with an attack roll using a weapon or an Unarmed Strike, she can expend one Superiority Die and add the die to the attack's damage roll. If the target is Large or smaller, it must succeed on a {@dc 16} Strength saving throw or have the {@condition Prone|XPHB} condition."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aberrant Dragonmark",
+          "entries": [
+            "Thora's aberrant mark allows her to sense the presence of other marks."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Riposte",
+          "entries": [
+            "When a creature misses Thora with a melee attack roll, she can expend one Superiority Die to make a melee attack roll with a weapon or an Unarmed Strike against the creature. If she hits, she adds the Superiority Die to the attack's damage."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Parry"
+      ],
+      "bonus": [
+        {
+          "name": "Lunging Attack",
+          "entries": [
+            "As a Bonus Action, Thora can expend one Superiority Die and take the Dash action. If she moves at least 5 feet in a straight line immediately before hitting with a melee attack as part of the Attack action on this turn, she can add the Superiority Die to the attack's damage roll."
+          ]
+        },
+        {
+          "name": "Second Wind",
+          "entries": [
+            "As a Bonus Action, Thora can regain {@dice 3d10} Hit Points."
+          ]
+        }
+      ],
+      "conditionInflict": [
+        "frightened"
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "daily": {
+            "1e": [
+              "{@spell concussive burst|ExploringEberron}"
+            ]
+          },
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell force blast|ExploringEberron}"
+              ]
+            }
+          },
+          "type": "spellcasting"
+        }
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "isNpc": true,
+      "damageTags": [
+        "S"
+      ],
+      "savingThrowForced": [
+        "strength",
+        "wisdom"
+      ]
     }
   ]
 }
