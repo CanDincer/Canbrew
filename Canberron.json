@@ -95,7 +95,7 @@
         "It is powered by 4 dragonshards; one of each plus another syberis dragonshard. The dragonshards are consumed upon use and the energy they provide lasts for 1 minute.",
         "It can be activated with a command word to generate a manifest zone to a choosen plane. Couterminous effects of the choosen plane will manifest.",
         "While a manifest zone is active, it's also easier to cast {{@spell planeshift|PHB}} targeting the choosen plane. While within 30 feet of the device, the spell can be cast using a 5th-level spell slot and the material requirement is automatically satisfied.",
-        "The construct has an HP of 32, an AC of 10, and a damage treshold of 1."/
+        "The construct has an HP of 32, an AC of 10, and a damage treshold of 1."
 			]
 		},
     {
