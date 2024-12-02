@@ -15668,7 +15668,12 @@
       ],
       "savingThrowForced": [
         "dexterity"
-      ]
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/ih25xzP.png"
+			}
     },
     {
       "name": "Xeg-yi",
@@ -15818,7 +15823,12 @@
       ],
       "savingThrowForced": [
         "dexterity"
-      ]
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/Dgre8X6.png"
+			}
     }        
   ]
 }
