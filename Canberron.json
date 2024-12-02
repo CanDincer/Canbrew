@@ -15550,23 +15550,80 @@
         },
         "canHover": true
       },
+      "str": 3,
+      "dex": 19,
+      "con": 22,
+      "int": 21,
+      "wis": 18,
+      "cha": 16,
+      "save":
+      {
+        "int": "+9",
+        "wis": "+8",
+        "cha": "+7"
+      },
+      "skill":
+      {
+        "perception": "+8"
+      },
+      "passive": 18,
+      "vulnerable":
+      [
+        "fire",
+        "necrotic"
+      ],
+      "resist":
+      [
+        "radiant"
+      ],
+      "immune":
+      [
+        "acid",
+        "cold",
+        "lightning",
+        "psychic",
+        "thunder",
+				{
+					"immune":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+      ],
+      "conditionImmune":
+      [
+        "exhaustion",
+        "grappled",
+        "paralyzed",
+        "poisoned",
+        "prone",
+        "restrained",
+        "unconscious"
+      ],
+      "senses":
+      [
+        "darkvision 120 ft.",
+        "blindsense 30 ft."
+      ],
+      "languages":
+      [
+        "understands Deep Speech but doesn't speak"
+      ],
+      "cr": "12",
       "trait": [
-        {
-          "name": "Abilities Str 3 (-4), Dex 19 (+4), Con 22 (+6), Int 21 (+5), Wis 18 (+4), Cha 16 (+3) Saving Throws Int +9, Wis +8, Cha +7 Skills Perception +8 Damage Vulnerabilities cold, necrotic Damage Resistances radiant Damage Immunities acid, fire, lightning, psychic, thunder; bludgeoning, piercing, and slashing from nonmagical attacks Condition Immunities exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious Senses blindsense 30 ft",
-          "entries": [
-            ", darkvision 120 ft., passive {@skill Perception|XPHB} 18 Languages understands Deep Speech but doesn't speak Challenge 12 (8,400 XP)"
-          ]
-        },
         {
           "name": "Death Burst",
           "entries": [
-            "When the xag-yi dies, it explodes in a burst of radiant energy. Each creature within 15 feet of it must make a {@dc 18} Dexterity saving throw, taking 20 ({@damage 4d6 + 6}) radiant damage on a failed save, or half as much damage on a successful one. If the target is a creature or a flammable object, it ignites and burns with radiant fire for 1 minute. Metallic objects hit by the burst glow white hot for 1 minute as if under the effects of a {@spell heat metal|XPHB} spell. The fire can be extinguished with magic that deals cold damage or similar effects or by casting {@spell dispel magic|XPHB} or similar spell upon it. Until the fire is extinguished or goes out, the target takes 2 ({@damage 1d4}) radiant damage at the start of each of its turns."
+            "When the xag-ya dies, it explodes in a burst of radiant energy. Each creature within 15 feet of it must make a {@dc 18} Dexterity saving throw, taking 20 ({@damage 4d6 + 6}) radiant damage on a failed save, or half as much damage on a successful one. If the target is a creature or a flammable object, it ignites and burns with radiant fire for 1 minute. Metallic objects hit by the burst glow white hot for 1 minute as if under the effects of a {@spell heat metal|XPHB} spell. The fire can be extinguished with magic that deals cold damage or similar effects or by casting {@spell dispel magic|XPHB} or similar spell upon it. Until the fire is extinguished or goes out, the target takes 2 ({@damage 1d4}) radiant damage at the start of each of its turns."
           ]
         },
         {
           "name": "Pure Radiance",
           "entries": [
-            "A creature that touches the xag-yi takes 9 ({@damage 1d6 + 6}) radiant damage. Flammable objects that touch the xag-yi ignite and burn with a radiant fire for 1 minute. If a creature hits the xag-yi with a metallic weapon, the weapon suffers the effects of a {@spell heat metal|XPHB} spell for 1 minute."
+            "A creature that touches the xag-ya takes 9 ({@damage 1d6 + 6}) radiant damage. Flammable objects that touch the xag-ya ignite and burn with a radiant fire for 1 minute. If a creature hits the xag-ya with a metallic weapon, the weapon suffers the effects of a {@spell heat metal|XPHB} spell for 1 minute."
           ]
         }
       ],
@@ -15574,7 +15631,7 @@
         {
           "name": "Multiattack",
           "entries": [
-            "The xag-yi makes four attacks with its tendrils and uses its Radiant Bolt if it can."
+            "The xag-ya makes four attacks with its tendrils and uses its Radiant Bolt if it can."
           ]
         },
         {
@@ -15586,7 +15643,7 @@
         {
           "name": "Radiant Bolt {@recharge 4}",
           "entries": [
-            "The xag-yi fires a bolt of radiant energy at one target it can see within 30 feet of it. The target must succeed on a {@dc 16} Dexterity saving throw or take 9 ({@damage 1d6 + 6}) radiant damage. If the target is a creature or a flammable object, it ignites and burns with radiant fire for 1 minute. Metallic objects hit by the bolt glow white hot for 1 minute as if under the effects of a {@spell heat metal|XPHB} spell. The fire can be extinguished with magic that deals cold damage or similar effects or by casting {@spell dispel magic|XPHB} or similar spell upon it. Until the fire is extinguished or goes out, the target takes 2 ({@damage 1d4}) radiant damage at the start of each of its turns."
+            "The xag-ya fires a bolt of radiant energy at one target it can see within 30 feet of it. The target must succeed on a {@dc 16} Dexterity saving throw or take 9 ({@damage 1d6 + 6}) radiant damage. If the target is a creature or a flammable object, it ignites and burns with radiant fire for 1 minute. Metallic objects hit by the bolt glow white hot for 1 minute as if under the effects of a {@spell heat metal|XPHB} spell. The fire can be extinguished with magic that deals cold damage or similar effects or by casting {@spell dispel magic|XPHB} or similar spell upon it. Until the fire is extinguished or goes out, the target takes 2 ({@damage 1d4}) radiant damage at the start of each of its turns."
           ]
         }
       ],
@@ -15595,6 +15652,11 @@
       ],
       "actionTags": [
         "Multiattack"
+      ],
+      "senseTags":
+      [
+        "B",
+        "D"
       ],
       "damageTags": [
         "R"
@@ -15638,13 +15700,70 @@
         },
         "canHover": true
       },
+      "str": 3,
+      "dex": 19,
+      "con": 22,
+      "int": 21,
+      "wis": 18,
+      "cha": 16,
+      "save":
+      {
+        "int": "+9",
+        "wis": "+8",
+        "cha": "+7"
+      },
+      "skill":
+      {
+        "perception": "+8"
+      },
+      "passive": 18,
+      "vulnerable":
+      [
+        "fire",
+        "radiant"
+      ],
+      "resist":
+      [
+        "necrotic"
+      ],
+      "immune":
+      [
+        "acid",
+        "cold",
+        "lightning",
+        "psychic",
+        "thunder",
+				{
+					"immune":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+      ],
+      "conditionImmune":
+      [
+        "exhaustion",
+        "grappled",
+        "paralyzed",
+        "poisoned",
+        "prone",
+        "restrained",
+        "unconscious"
+      ],
+      "senses":
+      [
+        "darkvision 120 ft.",
+        "blindsense 30 ft."
+      ],
+      "languages":
+      [
+        "understands Deep Speech but doesn't speak"
+      ],
+      "cr": "12",
       "trait": [
-        {
-          "name": "Abilities Str 3 (-4), Dex 19 (+4), Con 22 (+6), Int 21 (+5), Wis 18 (+4), Cha 16 (+3) Saving Throws Int +9, Wis +8, Cha +7 Skills Perception +8 Damage Vulnerabilities fire, radiant Damage Resistances necrotic Damage Immunities acid, cold, lightning, psychic, thunder; bludgeoning, piercing, and slashing from nonmagical attacks Condition Immunities exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious Senses blindsense 30 ft",
-          "entries": [
-            ", darkvision 120 ft., passive {@skill Perception|XPHB} 18 Languages understands Deep Speech but doesn't speak Challenge 12 (8,400 XP)"
-          ]
-        },
         {
           "name": "Death Burst",
           "entries": [
@@ -15674,7 +15793,7 @@
         {
           "name": "Necrotic Bolt {@recharge 4}",
           "entries": [
-            "The xag-yi fires a bolt of necrotic energy at one target it can see within 30 feet of it. The target must succeed on a {@dc 16} Dexterity saving throw or take 9 ({@damage 1d6 + 6}) necrotic damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+            "The xeg-yi fires a bolt of necrotic energy at one target it can see within 30 feet of it. The target must succeed on a {@dc 16} Dexterity saving throw or take 9 ({@damage 1d6 + 6}) necrotic damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
           ]
         }
       ],
@@ -15683,6 +15802,11 @@
       ],
       "actionTags": [
         "Multiattack"
+      ],
+      "senseTags":
+      [
+        "B",
+        "D"
       ],
       "damageTags": [
         "N"
