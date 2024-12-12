@@ -14467,17 +14467,12 @@
 			}
     },
     {
-      "name": "Tsoreva",
+      "name": "Tsoreva Quori",
       "source": "Canberron",
       "size": [
         "M"
       ],
-      "type": {
-        "type": "aberration",
-        "tags": [
-          "quori"
-        ]
-      },
+      "type": "aberration",
       "alignment": [
         "L",
         "E"
@@ -14610,17 +14605,12 @@
       }
     },
     {
-      "name": "Usvapna",
+      "name": "Usvapna Quori",
       "source": "Canberron",
       "size": [
         "L"
       ],
-      "type": {
-        "type": "aberration",
-        "tags": [
-          "quori"
-        ]
-      },
+      "type": "aberration",
       "alignment": [
         "L",
         "E"
