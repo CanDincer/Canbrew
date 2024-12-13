@@ -16039,8 +16039,7 @@
     },
     {
       "name": "Battlebriar",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "H"
       ],
@@ -16136,12 +16135,16 @@
       "savingThrowForced": [
         "dexterity",
         "strength"
-      ]
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/FUwNYRM.png"
+			}
     },
     {
       "name": "Lesser Battlebriar",
-      "source": "",
-      "page": 0,
+      "source": "Canberron",
       "size": [
         "L"
       ],
@@ -16229,7 +16232,12 @@
       ],
       "savingThrowForced": [
         "strength"
-      ]
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/FUwNYRM.png"
+			}
     }
   ]
 }
