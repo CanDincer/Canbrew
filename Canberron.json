@@ -11703,7 +11703,6 @@
     {
       "name": "Worm Giant",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "L"
@@ -11784,7 +11783,6 @@
     {
       "name": "Living Acid Splash",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "M"
@@ -11902,7 +11900,6 @@
     {
       "name": "Bone Wolf",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "M"
@@ -11993,7 +11990,6 @@
     {
       "name": "Carcass Crab",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "L"
@@ -12109,7 +12105,6 @@
     {
       "name": "Living Flaming Sphere (Empowered)",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "M"
@@ -12231,7 +12226,6 @@
       "name": "Rorsa",
       "isNamedCreature": true,
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "L"
@@ -12333,7 +12327,6 @@
     {
       "name": "Stone Wolf",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "M"
@@ -12464,7 +12457,6 @@
     {
       "name": "Living Color Spray",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "M"
@@ -12584,7 +12576,6 @@
     {
       "name": "Greater Living Color Spray",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "L"
@@ -12715,7 +12706,6 @@
     {
       "name": "Fire Elemental Drudge",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "M"
@@ -12842,7 +12832,6 @@
     {
       "name": "Mutant Mimic",
       "source": "Canberron",
-      "page": 0,
       "size":
       [
         "L"
@@ -15936,7 +15925,6 @@
     {
       "name": "Demonthorn Mandrake",
       "source": "Canberron",
-      "page": 0,
       "size": [
         "L"
       ],
@@ -16242,7 +16230,6 @@
     {
       "name": "Bebilith",
       "source": "Canberron",
-      "page": 0,
       "size": [
         "H"
       ],
