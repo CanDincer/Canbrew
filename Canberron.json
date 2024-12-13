@@ -15819,6 +15819,119 @@
 				"type": "external",
 				"url": "https://i.imgur.com/Dgre8X6.png"
 			}
-    }        
+    },
+    {
+      "name": "Cinder Swarm",
+      "source": "Canberron",
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "elemental",
+        "swarmSize": "T"
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d10 + 16",
+        "average": 104
+      },
+      "speed": {
+        "walk": 40,
+        "fly": {
+          "number": 40,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 1,
+      "dex": 22,
+      "con": 13,
+      "int": 4,
+      "wis": 11,
+      "cha": 11,
+      "senses": [
+        "blindsight 60 ft."
+      ],
+      "passive": 10,
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "immune": [
+        "fire",
+        "poison"
+      ],
+      "vulnerable": [
+        "cold"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "cr": "9",
+      "trait": [
+        {
+          "name": "Cinder Aura",
+          "entries": [
+            "At the end of each turn, each creature within 5 feet of  the swarm takes 11 ({@damage 2d10}) Fire damage. Creatures and flammable objects inside the area start burning. Until someone takes an action to douse the fire, a burning creature takes 11 ({@damage 2d10}) fire damage at the start of each of its turns. Both of the damages are lowered to {@dice 1d10}'s if the swarm has half of its hit points or fewer."
+          ]
+        },
+        {
+          "name": "Water Susceptibility",
+          "entries": [
+            "The cinder swarm takes 3 ({@damage 1d6}) Cold damage for every 5 feet the swarm moves in water or for every gallon of water splashed on it."
+          ]
+        },
+        {
+          "name": "Swarm",
+          "entries": [
+            "The cinder swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny elemental. The swarm can't regain hit points or gain temporary hit points."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Illumination"
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "AOE"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://i.imgur.com/QbLwXZc.png"
+      },
+      "environment": [
+        "Fernia"
+      ],
+      "damageTags": [
+        "C",
+        "F"
+      ]
+    }
   ]
 }
