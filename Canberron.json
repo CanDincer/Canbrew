@@ -15932,6 +15932,110 @@
         "C",
         "F"
       ]
-    }
+    },
+    {
+      "name": "Demonthorn Mandrake",
+      "source": "",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "plant",
+        "tags": [
+          "demon"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 136,
+        "formula": "16d10 + 48"
+      },
+      "speed": {
+        "walk": 20
+      },
+      "str": 18,
+      "dex": 11,
+      "con": 16,
+      "int": 7,
+      "wis": 9,
+      "cha": 12,
+      "senses": [
+        "blindsight 90 ft. (blind beyond this radius)",
+        "tremorsense 40 ft."
+      ],
+      "passive": 9,
+      "resist": [
+        "fire",
+        "lightning"
+      ],
+      "cr": "5",
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The demonthorn mandrake makes two slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Spore Pod {@recharge 5}",
+          "entries": [
+            "The demonthorn mandrake spits a spore pod at a point within 30 feet of it that it can see. The pod then explodes in a 10-foot radius sphere. All living creatures within that area must succeed on a {@dc 14} Constitution saving throw or become {@condition poisoned} and take 9 ({@damage 2d8}) piercing damage as thorny growths burst from its face and body. While {@condition poisoned} in this way, the target takes an additional 9 ({@damage 2d8}) piercing damage at the start of each of its turns. The {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature can also use an action to pour a vial of holy water onto the {@condition poisoned} creature's face, ending the effect on that creature as the growths wither and die."
+          ]
+        },
+        {
+          "name": "Tangleroot",
+          "entries": [
+            "The demonthorn mandrake extends its roots in a 30-foot radius centered on itself. Each creature touching the ground that enters that area or starts its turn in the area must succeed on a {@dc 14} Dexterity saving throw or become {@condition restrained}. The demonthorn mandrake can target a {@condition restrained} creature with its slam attacks, even if that creature is outside the slam's normal reach. As an action, a {@condition restrained} creature can attempt a {@dc 14} Strength check, breaking free of the roots and freeing itself on a success. The demonthorn mandrake can't move while its roots are extended. It can retract its roots as a bonus action, ending the effect and releasing all entangled creatures."
+          ]
+        }
+      ],
+      "senseTags": [
+        "B",
+        "T"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict": [
+        "poisoned",
+        "restrained"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "dexterity"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/Ys9eLHf.png"
+			}
+    }    
   ]
 }
