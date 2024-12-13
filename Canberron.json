@@ -16036,6 +16036,200 @@
 				"type": "external",
 				"url": "https://i.imgur.com/Ys9eLHf.png"
 			}
-    }    
+    },
+    {
+      "name": "Battlebriar",
+      "source": "",
+      "page": 0,
+      "size": [
+        "H"
+      ],
+      "type": "plant",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 168,
+        "formula": "16d12 + 64"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 22,
+      "dex": 10,
+      "con": 19,
+      "int": 5,
+      "wis": 10,
+      "cha": 7,
+      "skill": {
+        "athletics": "+9"
+      },
+      "senses": [
+        "blindsight 60 ft. (blind beyond this radius)"
+      ],
+      "passive": 10,
+      "resist": [
+        "lightning"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "deafened",
+        "exhaustion"
+      ],
+      "languages": [
+        "understands Sylvan but can't speak"
+      ],
+      "cr": "7",
+      "trait": [
+        {
+          "name": "Thorned Body",
+          "entries": [
+            "A creature that touches the battlebriar or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) piercing damage."
+          ]
+        },
+        {
+          "name": "Impale",
+          "entries": [
+            "A creature who is {@condition grappled} by the battlebriar has disadvantage on their check to break the grapple. Any creature who starts their turn {@condition grappled} by the battlebriar takes 10 ({@damage 2d10}) piercing damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 6}) piercing damage, and the target must succeed on a {@dc 15} Strength saving throw or be {@condition grappled}. The battlebriar can have up to two Large or smaller creatures {@condition grappled} at the same time."
+          ]
+        },
+        {
+          "name": "Thorn Volley {@recharge}",
+          "entries": [
+            "The battlebriar launches a volley of thorns in a 30-foot cone. Each creature within the area of the cone must make a {@dc 15} Dexterity saving throw or take 20 ({@damage 4d10}) piercing damage, half as much on a success."
+          ]
+        }
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "languageTags": [
+        "CS",
+        "S"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "AOE",
+        "MW"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "savingThrowForced": [
+        "dexterity",
+        "strength"
+      ]
+    },
+    {
+      "name": "Lesser Battlebriar",
+      "source": "",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": "plant",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 119,
+        "formula": "14d10 + 42"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 10,
+      "con": 17,
+      "int": 5,
+      "wis": 10,
+      "cha": 7,
+      "skill": {
+        "athletics": "+6"
+      },
+      "senses": [
+        "blindsight 60 ft. (blind beyond this radius)"
+      ],
+      "passive": 10,
+      "resist": [
+        "lightning"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "deafened",
+        "exhaustion"
+      ],
+      "languages": [
+        "understands Sylvan but can't speak"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Thorned Body",
+          "entries": [
+            "A creature that touches the battlebriar or hits it with a melee attack while within 5 feet of it takes 3 ({@damage 1d6}) piercing damage."
+          ]
+        },
+        {
+          "name": "Impale",
+          "entries": [
+            "A creature who is {@condition grappled} by the battlebriar has disadvantage on their check to break the grapple. Any creature who starts their turn {@condition grappled} by the battlebriar takes 6 ({@damage 2d6}) piercing damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 4}) piercing damage, and the target must succeed on a {@dc 14} Strength saving throw or be {@condition grappled}. The battlebriar can have up to two Medium or smaller creatures {@condition grappled} at the same time."
+          ]
+        }
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "languageTags": [
+        "CS",
+        "S"
+      ],
+      "damageTags": [
+        "P"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ]
+    }
   ]
 }
