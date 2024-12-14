@@ -16226,6 +16226,218 @@
 				"type": "external",
 				"url": "https://i.imgur.com/FUwNYRM.png"
 			}
+    },
+    {
+      "name": "Word Archon",
+      "source": "Canberron",
+      "size": [
+        "M"
+      ],
+      "type": "celestial",
+      "alignment": [
+        "L",
+        "G"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 66,
+        "formula": "12d8 + 12"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 40
+      },
+      "str": 9,
+      "dex": 15,
+      "con": 12,
+      "int": 19,
+      "wis": 14,
+      "cha": 16,
+      "skill": {
+        "history": "+7",
+        "intimidation": "+6",
+        "persuasion": "+9"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        "poison",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical weapons",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "lightning"
+      ],
+      "conditionImmune": [
+        "petrified"
+      ],
+      "languages": [
+        "all"
+      ],
+      "cr": "5",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The archon's innate spellcasting ability is Intelligence (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell message|XPHB}",
+            "{@spell sending|XPHB}",
+            "{@spell word of radiance|XPHB}"
+          ],
+          "daily": {
+            "3e": [
+              "{@spell command|XPHB}",
+              "{@spell detect evil and good|XPHB}",
+              "{@spell enthrall|XPHB}"
+            ],
+            "1e": [
+              "{@spell commune|XPHB}",
+              "{@spell divine word|XPHB}",
+              "{@spell mass healing word|XPHB}"
+            ]
+          },
+          "ability": "int"
+        },
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The archon is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}). It regains its expended spell slots when it finishes a long rest. It knows the following bard spells:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell friends|XPHB}",
+                "{@spell vicious mockery|XPHB}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell dissonant whispers|XPHB}",
+                "{@spell speak with animals|XPHB}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell silence|XPHB}",
+                "{@spell suggestion|XPHB}",
+                "{@spell zone of truth|XPHB}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell speak with dead|XPHB}",
+                "{@spell speak with plants|XPHB}",
+                "{@spell tongues|XPHB}"
+              ]
+            },
+            "4": {
+              "slots": 1,
+              "spells": [
+                "{@spell compulsion|XPHB}"
+              ]
+            }
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Archon Resilience",
+          "entries": [
+            "The archon has advantage on saving throws against poison, spells, and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "The archon's weapon attacks are magical."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The archon can use its Benediction. It then makes two attacks or casts a cantrip."
+          ]
+        },
+        {
+          "name": "Lexicon Hammer",
+          "entries": [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage, or 9 ({@damage 1d10 + 4}) bludgeoning damage if used with two hands, plus 9 ({@damage 2d8}) psychic damage."
+          ]
+        },
+        {
+          "name": "Benediction",
+          "entries": [
+            "The archon utters a word of consecration, choosing one creature within 60 feet of it that can hear it. The target magically regains 5 ({@dice 2d4}) hit points and it has advantage on the next attack roll or saving throw it makes before the start of the archon's next turn."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "XX"
+      ],
+      "damageTags": [
+        "B",
+        "Y"
+      ],
+      "damageTagsSpell": [
+        "R",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "CB",
+        "I"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "prone",
+        "stunned"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "constitution",
+        "wisdom"
+      ],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://i.imgur.com/03Wtybv.png"
+			}
     }
   ]
 }
