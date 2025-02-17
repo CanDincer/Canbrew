@@ -33870,7 +33870,7 @@
 			}
 		},
 		{
-			"name": "Sand Naga (WIP)",
+			"name": "Sand Naga",
 			"size":
 			[
 				"L"
@@ -33884,18 +33884,24 @@
 			],
 			"ac":
 			[
-				12
+				{
+          "ac": 15,
+          "from":
+					[
+            "natural armor"
+          ]
+        }
 			],
 			"hp":
 			{
-				"average": 21,
-				"formula": "6d10"
+				"average": 30,
+				"formula": "4d10+8"
 			},
 			"speed":
 			{
 				"walk": 30
 			},
-			"str": 16,
+			"str": 14,
 			"dex": 15,
 			"con": 15,
 			"int": 11,
@@ -33903,17 +33909,7 @@
 			"cha": 9,
 			"immune":
 			[
-				"fire",
-				"poison",
-				{
-					"immune":
-					[
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
+				"poison"
 			],
 			"conditionImmune":
 			[
@@ -33953,14 +33949,14 @@
 					"name": "Bite",
 					"entries":
 					[
-						"{@atkr m} {@hit 5}, reach 10 ft. {@h}6 ({@damage 1d6 + 3}) Piercing damage plus 3 ({@damage 1d6}) Poison damage."
+						"{@atkr m} {@hit 5}, reach 10 ft. {@h}5 ({@damage 1d6 + 2}) Piercing damage plus 3 ({@damage 1d6}) Poison damage."
 					]
 				},
 				{
 					"name": "Glaive",
 					"entries":
 					[
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d10+3}) slashing damage."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d10+2}) slashing damage."
 					]
 				}
 			],
@@ -33971,16 +33967,19 @@
 					"type": "spellcasting",
 					"headerEntries":
 					[
-						"The mephit can innately cast {@spell mirror image}, requiring no material components. Its innate spellcasting ability is Charisma."
+						"The naga casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save {@dc 10}):"
 					],
 					"will":
 					[
 						"{@spell word of radiance|XPHB}"
 					],
-					"hidden":
-					[
-						"will"
-					],
+					"daily":
+					{
+						"1e":
+						[
+							"{@spell mirror image|XPHB}"
+						]
+					},
 					"ability": "int"
 				}
 			],
@@ -33999,7 +33998,7 @@
 			],
 			"damageTags":
 			[
-				"F",
+				"I",
 				"S"
 			],
 			"spellcastingTags":
