@@ -33895,12 +33895,12 @@
 			{
 				"walk": 30
 			},
-			"str": 5,
-			"dex": 13,
-			"con": 10,
+			"str": 16,
+			"dex": 15,
+			"con": 15,
 			"int": 11,
 			"wis": 10,
-			"cha": 12,
+			"cha": 9,
 			"immune":
 			[
 				"fire",
@@ -33925,18 +33925,18 @@
 			],
 			"languages":
 			[
-				"Aquan",
-				"Ignan"
+				"Common",
+				"Terran"
 			],
 			"passive": 10,
 			"cr": "1",
 			"trait":
 			[
 				{
-					"name": "Death Burst",
+					"name": "Amphibious",
 					"entries":
 					[
-						"When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a {@dc 14} Dexterity saving throw or take {@damage 2d8} fire damage."
+						"The sand naga can breathe air and water."
 					]
 				}
 			],
@@ -33946,14 +33946,14 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The mephit uses its steam breath. It then makes a claw attack"
+						"The  naga makes two Glaive attacks."
 					]
 				},
 				{
 					"name": "Glaive",
 					"entries":
 					[
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}3 ({@damage 1d10+1}) slashing damage plus 3 ({@damage 1d6}) fire damage."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h} ({@damage 1d10+5}) slashing damage plus 3 ({@damage 1d6}) fire damage."
 					]
 				}
 			],
@@ -33979,7 +33979,7 @@
 			],
 			"traitTags":
 			[
-				"Death Burst"
+				"Amphibious"
 			],
 			"senseTags":
 			[
@@ -33987,8 +33987,8 @@
 			],
 			"languageTags":
 			[
-				"AQ",
-				"IG"
+				"C",
+				"T"
 			],
 			"damageTags":
 			[
