@@ -94,7 +94,7 @@
 				"A portable manifest zone generator is a spherical construct that can levitate when its command word is spoken and be pushed to move around while it's hovering. It has a diameter of 4 feet and it looks magichanical.",
         "It is powered by 4 dragonshards; one of each plus another syberis dragonshard. The dragonshards are consumed upon use and the energy they provide lasts for 1 minute.",
         "It can be activated with a command word to generate a manifest zone to a choosen plane. Couterminous effects of the choosen plane will manifest.",
-        "While a manifest zone is active, it's also easier to cast {{@spell planeshift|PHB}} targeting the choosen plane. While within 30 feet of the device, the spell can be cast using a 5th-level spell slot and the material requirement is automatically satisfied.",
+        "While a manifest zone is active, it's also easier to cast {{@spell planeshift|XPHB}} targeting the choosen plane. While within 30 feet of the device, the spell can be cast using a 5th-level spell slot and the material requirement is automatically satisfied.",
         "The construct has an HP of 32, an AC of 10, and a damage treshold of 1."
 			]
 		},
@@ -115,7 +115,7 @@
     {
       "name": "Glaive of Kalok Shash",
       "source": "Canberron",
-      "baseItem": "Glaive|PHB",
+      "baseItem": "Glaive|XPHB",
       "type": "M",
       "reqAttune": "by a believer of Kalok Shash",
       "weaponCategory": "martial",
@@ -535,8 +535,8 @@
       ],
       "attachedItems":
       [
-        "battleaxe|PHB",
-        "sling|PHB"
+        "battleaxe|XPHB",
+        "sling|XPHB"
       ],
       "languageTags":
       [
@@ -585,7 +585,7 @@
           "ac": 14,
           "from":
 	    		[
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         }
       ],
@@ -665,8 +665,8 @@
       ],
       "attachedItems":
 			[
-        "light crossbow|PHB",
-        "morningstar|PHB"
+        "light crossbow|XPHB",
+        "morningstar|XPHB"
       ],
       "senseTags":
 			[
@@ -785,7 +785,7 @@
       ],
       "attachedItems":
 			[
-        "dagger|PHB"
+        "dagger|XPHB"
       ],
       "languageTags":
 			[
@@ -1197,7 +1197,7 @@
       ],
       "attachedItems":
 			[
-        "war pick|PHB"
+        "war pick|XPHB"
       ],
       "traitTags":
 			[
@@ -1313,8 +1313,8 @@
       ],
       "attachedItems":
 			[
-        "dagger|PHB",
-        "spear|PHB"
+        "dagger|XPHB",
+        "spear|XPHB"
       ],
       "senseTags":
 			[
@@ -1459,8 +1459,8 @@
       ],
       "attachedItems":
 			[
-        "light crossbow|PHB",
-        "rapier|PHB"
+        "light crossbow|XPHB",
+        "rapier|XPHB"
       ],
       "traitTags":
 			[
@@ -1512,7 +1512,7 @@
           "ac": 12,
           "from":
 	    		[
-            "{@item leather armor|PHB}"
+            "{@item leather armor|XPHB}"
           ]
         }
       ],
@@ -1590,7 +1590,7 @@
       ],
       "attachedItems":
 			[
-        "dagger|PHB"
+        "dagger|XPHB"
       ],
       "traitTags":
 			[
@@ -1847,7 +1847,7 @@
           "ac": 13,
           "from":
 	    		[
-            "{@item leather armor|PHB}"
+            "{@item leather armor|XPHB}"
           ]
         }
       ],
@@ -2093,8 +2093,8 @@
           {
             "1e":
             [
-              "{@spell hunter's mark|PHB}",
-              "{@spell locate object|PHB}"
+              "{@spell hunter's mark|XPHB}",
+              "{@spell locate object|XPHB}"
             ]
           }
         }
@@ -2422,7 +2422,7 @@
           "ac": 16,
           "from":
 	    		[
-            "{@item Studded Leather Armor|PHB}"
+            "{@item Studded Leather Armor|XPHB}"
           ]
         }
       ],
@@ -2519,7 +2519,7 @@
           "name": "Cunning Action",
           "entries":
           [
-            "Thuranne takes take the {@action Dash|PHB}, {@action Disengage|PHB}, or {@action Hide|PHB} action."
+            "Thuranne takes take the {@action Dash|XPHB}, {@action Disengage|XPHB}, or {@action Hide|XPHB} action."
           ]
         }
       ],
@@ -2546,11 +2546,11 @@
           {
             "1e":
             [
-              "{@spell faerie fire|PHB}",
-              "{@spell hunter's mark|PHB}",
-              "{@spell locate object|PHB}",
-              "{@spell locate creature|PHB}",
-              "{@spell find the path|PHB}"
+              "{@spell faerie fire|XPHB}",
+              "{@spell hunter's mark|XPHB}",
+              "{@spell locate object|XPHB}",
+              "{@spell locate creature|XPHB}",
+              "{@spell find the path|XPHB}"
             ]
           }
         }
@@ -2741,7 +2741,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item splint armor|PHB|splint}"
+            "{@item splint armor|XPHB|splint}"
           ]
         }
       ],
@@ -2830,9 +2830,9 @@
         }
       ],
       "attachedItems": [
-        "heavy crossbow|phb",
-        "longsword|phb",
-        "shortsword|phb"
+        "heavy crossbow|XPHB",
+        "longsword|XPHB",
+        "shortsword|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -2882,7 +2882,7 @@
         {
           "ac": 15,
           "from": [
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         }
       ],
@@ -2989,8 +2989,8 @@
         }
       ],
       "attachedItems": [
-        "light crossbow|phb",
-        "shortsword|phb"
+        "light crossbow|XPHB",
+        "shortsword|XPHB"
       ],
       "traitTags": [
         "Sneak Attack"
@@ -3106,7 +3106,7 @@
         }
       ],
       "attachedItems": [
-        "club|phb"
+        "club|XPHB"
       ],
       "languageTags": [
         "C",
@@ -3940,7 +3940,7 @@
         {
           "ac": 15,
           "from": [
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         }
       ],
@@ -4082,7 +4082,7 @@
         }
       ],
       "attachedItems": [
-        "rapier|phb"
+        "rapier|XPHB"
       ],
       "traitTags": [
         "Ambusher"
@@ -4255,7 +4255,7 @@
         }
       ],
       "attachedItems": [
-        "dagger|phb"
+        "dagger|XPHB"
       ],
       "traitTags": [
         "Ambusher"
@@ -4306,7 +4306,7 @@
         {
           "ac": 15,
           "from": [
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         }
       ],
@@ -4415,8 +4415,8 @@
         }
       ],
       "attachedItems": [
-        "light crossbow|phb",
-        "shortsword|phb"
+        "light crossbow|XPHB",
+        "shortsword|XPHB"
       ],
       "traitTags": [
         "Sneak Attack"
@@ -4470,7 +4470,7 @@
         {
           "ac": 15,
           "from": [
-            "{@item chain shirt|phb}"
+            "{@item chain shirt|XPHB}"
           ]
         }
       ],
@@ -4589,8 +4589,8 @@
         }
       ],
       "attachedItems": [
-        "shortbow|phb",
-        "shortsword|phb"
+        "shortbow|XPHB",
+        "shortsword|XPHB"
       ],
       "languageTags": [
         "X"
@@ -4763,7 +4763,7 @@
         }
       ],
       "attachedItems": [
-        "dagger|phb"
+        "dagger|XPHB"
       ],
       "languageTags": [
         "X"
@@ -4813,7 +4813,7 @@
         {
           "ac": 15,
           "from": [
-            "{@item breastplate|PHB}"
+            "{@item breastplate|XPHB}"
           ]
         }
       ],
@@ -4861,7 +4861,7 @@
         }
       ],
       "attachedItems": [
-        "halberd|phb"
+        "halberd|XPHB"
       ],
       "languageTags": [
         "C",
@@ -4899,7 +4899,7 @@
         {
           "ac": 15,
           "from": [
-            "{@item breastplate|PHB}"
+            "{@item breastplate|XPHB}"
           ]
         }
       ],
@@ -4963,8 +4963,8 @@
         }
       ],
       "attachedItems": [
-        "heavy crossbow|phb",
-        "morningstar|phb"
+        "heavy crossbow|XPHB",
+        "morningstar|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -5001,7 +5001,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item splint armor|PHB|splint}"
+            "{@item splint armor|XPHB|splint}"
           ]
         }
       ],
@@ -5056,8 +5056,8 @@
         }
       ],
       "attachedItems": [
-        "greatsword|phb",
-        "heavy crossbow|phb"
+        "greatsword|XPHB",
+        "heavy crossbow|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -5099,7 +5099,7 @@
         {
           "ac": 18,
           "from": [
-            "{@item plate armor|PHB|plate}"
+            "{@item plate armor|XPHB|plate}"
           ]
         }
       ],
@@ -5171,8 +5171,8 @@
         }
       ],
       "attachedItems": [
-        "greatsword|phb",
-        "heavy crossbow|phb"
+        "greatsword|XPHB",
+        "heavy crossbow|XPHB"
       ],
       "actionTags": [
         "Multiattack",
@@ -5215,7 +5215,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item half plate armor|PHB|half plate}"
+            "{@item half plate armor|XPHB|half plate}"
           ]
         }
       ],
@@ -5308,8 +5308,8 @@
         }
       ],
       "attachedItems": [
-        "light crossbow|phb",
-        "shortsword|phb"
+        "light crossbow|XPHB",
+        "shortsword|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -5351,7 +5351,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item splint armor|PHB|splint}"
+            "{@item splint armor|XPHB|splint}"
           ]
         }
       ],
@@ -5433,8 +5433,8 @@
         }
       ],
       "attachedItems": [
-        "battleaxe|phb",
-        "heavy crossbow|phb"
+        "battleaxe|XPHB",
+        "heavy crossbow|XPHB"
       ],
       "senseTags": [
         "D"
@@ -5612,7 +5612,7 @@
         }
       ],
       "attachedItems": [
-        "rapier|phb"
+        "rapier|XPHB"
       ],
       "traitTags": [
         "Fey Ancestry"
@@ -5680,8 +5680,8 @@
         {
           "ac": 19,
           "from": [
-            "{@item half plate armor|PHB|half plate}",
-            "{@item shield|PHB}"
+            "{@item half plate armor|XPHB|half plate}",
+            "{@item shield|XPHB}"
           ]
         }
       ],
@@ -5768,7 +5768,7 @@
         }
       ],
       "attachedItems": [
-        "longsword|phb"
+        "longsword|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -6247,7 +6247,7 @@
         {
           "ac": 19,
           "from": [
-            "{@item plate armor|PHB|plate}",
+            "{@item plate armor|XPHB|plate}",
             "{@item cloak of protection}"
           ]
         }
@@ -6375,7 +6375,7 @@
       ],
       "attachedItems": [
         "+2 maul|dmg",
-        "light hammer|phb"
+        "light hammer|XPHB"
       ],
       "traitTags": [
         "Legendary Resistances"
@@ -6422,7 +6422,7 @@
         {
           "ac": 18,
           "from": [
-            "{@item half plate armor|PHB|half plate}",
+            "{@item half plate armor|XPHB|half plate}",
             "{@item cloak of protection}"
           ]
         }
@@ -6575,7 +6575,7 @@
         {
           "ac": 18,
           "from": [
-            "{@item half plate armor|PHB|half plate}",
+            "{@item half plate armor|XPHB|half plate}",
             "{@item cloak of protection}"
           ]
         }
@@ -6726,7 +6726,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item breastplate|PHB}",
+            "{@item breastplate|XPHB}",
             "{@item cloak of protection}"
           ]
         }
@@ -7067,7 +7067,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         }
       ],
@@ -7366,8 +7366,8 @@
         }
       ],
       "attachedItems": [
-        "glaive|phb",
-        "longbow|phb"
+        "glaive|XPHB",
+        "longbow|XPHB"
       ],
       "traitTags": [
         "Magic Weapons",
@@ -7518,8 +7518,8 @@
         }
       ],
       "attachedItems": [
-        "longbow|phb",
-        "shortsword|phb"
+        "longbow|XPHB",
+        "shortsword|XPHB"
       ],
       "senseTags": [
         "D"
@@ -7572,7 +7572,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         }
       ],
@@ -7659,8 +7659,8 @@
         }
       ],
       "attachedItems": [
-        "longbow|phb",
-        "longsword|phb"
+        "longbow|XPHB",
+        "longsword|XPHB"
       ],
       "traitTags": [
         "Keen Senses"
@@ -7710,7 +7710,7 @@
         {
           "ac": 16,
           "from": [
-            "{@item breastplate|PHB}"
+            "{@item breastplate|XPHB}"
           ]
         }
       ],
@@ -7799,8 +7799,8 @@
         }
       ],
       "attachedItems": [
-        "greatsword|phb",
-        "longbow|phb"
+        "greatsword|XPHB",
+        "longbow|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -7953,7 +7953,7 @@
         }
       ],
       "attachedItems": [
-        "maul|phb"
+        "maul|XPHB"
       ],
       "traitTags": [
         "Charge",
@@ -8000,7 +8000,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item half plate armor|PHB|half plate}"
+            "{@item half plate armor|XPHB|half plate}"
           ]
         }
       ],
@@ -8056,9 +8056,9 @@
         }
       ],
       "attachedItems": [
-        "dagger|phb",
-        "lance|phb",
-        "light crossbow|phb"
+        "dagger|XPHB",
+        "lance|XPHB",
+        "light crossbow|XPHB"
       ],
       "languageTags": [
         "C",
@@ -8097,7 +8097,7 @@
         {
           "ac": 14,
           "from": [
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         },
         {
@@ -8214,7 +8214,7 @@
         }
       ],
       "attachedItems": [
-        "rapier|phb"
+        "rapier|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -8286,7 +8286,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item half plate armor|PHB|half plate}"
+            "{@item half plate armor|XPHB|half plate}"
           ]
         }
       ],
@@ -8378,7 +8378,7 @@
         }
       ],
       "attachedItems": [
-        "longsword|phb"
+        "longsword|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -8435,7 +8435,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item half plate armor|PHB|half plate}"
+            "{@item half plate armor|XPHB|half plate}"
           ]
         }
       ],
@@ -8547,7 +8547,7 @@
         }
       ],
       "attachedItems": [
-        "longsword|phb"
+        "longsword|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -8609,7 +8609,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item half plate armor|PHB|half plate}"
+            "{@item half plate armor|XPHB|half plate}"
           ]
         }
       ],
@@ -8691,7 +8691,7 @@
         }
       ],
       "attachedItems": [
-        "rapier|phb"
+        "rapier|XPHB"
       ],
       "languageTags": [
         "C",
@@ -8850,7 +8850,7 @@
         }
       ],
       "attachedItems": [
-        "dagger|phb"
+        "dagger|XPHB"
       ],
       "traitTags": [
         "Sneak Attack"
@@ -9096,7 +9096,7 @@
         {
           "ac": 14,
           "from": [
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         },
         {
@@ -9235,7 +9235,7 @@
         }
       ],
       "attachedItems": [
-        "rapier|phb"
+        "rapier|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -9306,7 +9306,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item half plate armor|PHB|half plate}"
+            "{@item half plate armor|XPHB|half plate}"
           ]
         }
       ],
@@ -9416,7 +9416,7 @@
         }
       ],
       "attachedItems": [
-        "longsword|phb"
+        "longsword|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -9483,7 +9483,7 @@
         {
           "ac": 17,
           "from": [
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         }
       ],
@@ -9600,7 +9600,7 @@
         }
       ],
       "attachedItems": [
-        "rapier|phb"
+        "rapier|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -9812,7 +9812,7 @@
         {
           "ac": 16,
           "from": [
-            "{@item studded leather armor|PHB|studded leather}"
+            "{@item studded leather armor|XPHB|studded leather}"
           ]
         }
       ],
@@ -9897,8 +9897,8 @@
         }
       ],
       "attachedItems": [
-        "light crossbow|phb",
-        "shortsword|phb"
+        "light crossbow|XPHB",
+        "shortsword|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -10188,7 +10188,7 @@
         {
           "ac": 14,
           "from": [
-            "{@item studded leather armor|PHB}"
+            "{@item studded leather armor|XPHB}"
           ]
         }
       ],
@@ -10332,7 +10332,7 @@
         {
           "ac": 12,
           "from": [
-            "{@item leather armor|PHB}"
+            "{@item leather armor|XPHB}"
           ]
         }
       ],
@@ -10419,7 +10419,7 @@
         {
           "ac": 16,
           "from": [
-            "{@item chain mail|PHB}"
+            "{@item chain mail|XPHB}"
           ]
         }
       ],
@@ -10612,7 +10612,7 @@
         {
           "ac": 16,
           "from": [
-            "{@item scale mail|PHB}"
+            "{@item scale mail|XPHB}"
           ]
         }
       ],
@@ -10827,7 +10827,7 @@
         {
           "ac": 14,
           "from": [
-            "{@item scale mail|PHB}"
+            "{@item scale mail|XPHB}"
           ]
         }
       ],
@@ -10911,8 +10911,8 @@
         {
           "ac": 16,
           "from": [
-            "{@item half plate armor|PHB|half plate}",
-            "{@item shield|PHB}"
+            "{@item half plate armor|XPHB|half plate}",
+            "{@item shield|XPHB}"
           ]
         }
       ],
@@ -11164,7 +11164,7 @@
         {
           "ac": 13,
           "from": [
-            "{@item leather armor|PHB|leather}"
+            "{@item leather armor|XPHB|leather}"
           ]
         }
       ],
@@ -11441,7 +11441,7 @@
         {
           "ac": 18,
           "from": [
-            "{@item chain shirt|phb}",
+            "{@item chain shirt|XPHB}",
             "{@item +1 shield}"
           ]
         }
@@ -13011,9 +13011,9 @@
           "spells": {
             "0": {
               "spells": [
-                "{@spell minor illusion|PHB}",
-                "{@spell ray of frost|PHB}",
-                "{@spell shocking grasp|PHB}"
+                "{@spell minor illusion|XPHB}",
+                "{@spell ray of frost|XPHB}",
+                "{@spell shocking grasp|XPHB}"
               ]
             },
             "1": {
@@ -13072,7 +13072,7 @@
         }
       ],
       "attachedItems": [
-        "dagger|phb"
+        "dagger|XPHB"
       ],
       "actionTags": [
         "Multiattack"
@@ -13660,23 +13660,23 @@
               "spells": {
                 "0": {
                   "spells": [
-                    "{@spell mage hand|PHB}",
-                    "{@spell ray of frost|PHB}"
+                    "{@spell mage hand|XPHB}",
+                    "{@spell ray of frost|XPHB}"
                   ]
                 },
                 "1": {
                   "slots": 4,
                   "spells": [
-                    "{@spell identify|PHB}",
-                    "{@spell ray of sickness|PHB}"
+                    "{@spell identify|XPHB}",
+                    "{@spell ray of sickness|XPHB}"
                   ]
                 },
                 "2": {
                   "slots": 3,
                   "spells": [
-                    "{@spell hold person|PHB}",
-                    "{@spell invisibility|PHB}",
-                    "{@spell knock|PHB}"
+                    "{@spell hold person|XPHB}",
+                    "{@spell invisibility|XPHB}",
+                    "{@spell knock|XPHB}"
                   ]
                 },
                 "3": {
@@ -13689,45 +13689,45 @@
                 "4": {
                   "slots": 3,
                   "spells": [
-                    "{@spell blight|PHB}",
+                    "{@spell blight|XPHB}",
                     "{@spell phantasmal killer}"
                   ]
                 },
                 "5": {
                   "slots": 2,
                   "spells": [
-                    "{@spell cloudkill|PHB}",
-                    "{@spell scrying|PHB}"
+                    "{@spell cloudkill|XPHB}",
+                    "{@spell scrying|XPHB}"
                   ]
                 },
                 "6": {
                   "slots": 1,
                   "spells": [
-                    "{@spell circle of death|PHB}",
-                    "{@spell disintegrate|PHB}",
-                    "{@spell eyebite|PHB}"
+                    "{@spell circle of death|XPHB}",
+                    "{@spell disintegrate|XPHB}",
+                    "{@spell eyebite|XPHB}"
                   ]
                 },
                 "7": {
                   "slots": 1,
                   "spells": [
-                    "{@spell finger of death|PHB}",
-                    "{@spell plane shift|PHB}",
-                    "{@spell teleport|PHB}"
+                    "{@spell finger of death|XPHB}",
+                    "{@spell plane shift|XPHB}",
+                    "{@spell teleport|XPHB}"
                   ]
                 },
                 "8": {
                   "slots": 1,
                   "spells": [
-                    "{@spell maze|PHB}",
-                    "{@spell mind blank|PHB}"
+                    "{@spell maze|XPHB}",
+                    "{@spell mind blank|XPHB}"
                   ]
                 },
                 "9": {
                   "slots": 1,
                   "spells": [
-                    "{@spell imprisonment|PHB}",
-                    "{@spell power word kill|PHB}"
+                    "{@spell imprisonment|XPHB}",
+                    "{@spell power word kill|XPHB}"
                   ]
                 }
               },
@@ -14023,23 +14023,23 @@
               "spells": {
                 "0": {
                   "spells": [
-                    "{@spell mage hand|PHB}",
-                    "{@spell ray of frost|PHB}"
+                    "{@spell mage hand|XPHB}",
+                    "{@spell ray of frost|XPHB}"
                   ]
                 },
                 "1": {
                   "slots": 4,
                   "spells": [
-                    "{@spell identify|PHB}",
-                    "{@spell ray of sickness|PHB}"
+                    "{@spell identify|XPHB}",
+                    "{@spell ray of sickness|XPHB}"
                   ]
                 },
                 "2": {
                   "slots": 3,
                   "spells": [
-                    "{@spell hold person|PHB}",
-                    "{@spell invisibility|PHB}",
-                    "{@spell knock|PHB}"
+                    "{@spell hold person|XPHB}",
+                    "{@spell invisibility|XPHB}",
+                    "{@spell knock|XPHB}"
                   ]
                 },
                 "3": {
@@ -14052,45 +14052,45 @@
                 "4": {
                   "slots": 3,
                   "spells": [
-                    "{@spell blight|PHB}",
+                    "{@spell blight|XPHB}",
                     "{@spell phantasmal killer}"
                   ]
                 },
                 "5": {
                   "slots": 2,
                   "spells": [
-                    "{@spell cloudkill|PHB}",
-                    "{@spell scrying|PHB}"
+                    "{@spell cloudkill|XPHB}",
+                    "{@spell scrying|XPHB}"
                   ]
                 },
                 "6": {
                   "slots": 1,
                   "spells": [
-                    "{@spell circle of death|PHB}",
-                    "{@spell disintegrate|PHB}",
-                    "{@spell eyebite|PHB}"
+                    "{@spell circle of death|XPHB}",
+                    "{@spell disintegrate|XPHB}",
+                    "{@spell eyebite|XPHB}"
                   ]
                 },
                 "7": {
                   "slots": 1,
                   "spells": [
-                    "{@spell finger of death|PHB}",
-                    "{@spell plane shift|PHB}",
-                    "{@spell teleport|PHB}"
+                    "{@spell finger of death|XPHB}",
+                    "{@spell plane shift|XPHB}",
+                    "{@spell teleport|XPHB}"
                   ]
                 },
                 "8": {
                   "slots": 1,
                   "spells": [
-                    "{@spell maze|PHB}",
-                    "{@spell mind blank|PHB}"
+                    "{@spell maze|XPHB}",
+                    "{@spell mind blank|XPHB}"
                   ]
                 },
                 "9": {
                   "slots": 1,
                   "spells": [
-                    "{@spell imprisonment|PHB}",
-                    "{@spell power word kill|PHB}"
+                    "{@spell imprisonment|XPHB}",
+                    "{@spell power word kill|XPHB}"
                   ]
                 }
               },
@@ -14370,23 +14370,23 @@
               "spells": {
                 "0": {
                   "spells": [
-                    "{@spell mage hand|PHB}",
-                    "{@spell ray of frost|PHB}"
+                    "{@spell mage hand|XPHB}",
+                    "{@spell ray of frost|XPHB}"
                   ]
                 },
                 "1": {
                   "slots": 4,
                   "spells": [
-                    "{@spell identify|PHB}",
-                    "{@spell ray of sickness|PHB}"
+                    "{@spell identify|XPHB}",
+                    "{@spell ray of sickness|XPHB}"
                   ]
                 },
                 "2": {
                   "slots": 3,
                   "spells": [
-                    "{@spell hold person|PHB}",
-                    "{@spell invisibility|PHB}",
-                    "{@spell knock|PHB}"
+                    "{@spell hold person|XPHB}",
+                    "{@spell invisibility|XPHB}",
+                    "{@spell knock|XPHB}"
                   ]
                 },
                 "3": {
@@ -14399,45 +14399,45 @@
                 "4": {
                   "slots": 3,
                   "spells": [
-                    "{@spell blight|PHB}",
+                    "{@spell blight|XPHB}",
                     "{@spell phantasmal killer}"
                   ]
                 },
                 "5": {
                   "slots": 2,
                   "spells": [
-                    "{@spell cloudkill|PHB}",
-                    "{@spell scrying|PHB}"
+                    "{@spell cloudkill|XPHB}",
+                    "{@spell scrying|XPHB}"
                   ]
                 },
                 "6": {
                   "slots": 1,
                   "spells": [
-                    "{@spell circle of death|PHB}",
-                    "{@spell disintegrate|PHB}",
-                    "{@spell eyebite|PHB}"
+                    "{@spell circle of death|XPHB}",
+                    "{@spell disintegrate|XPHB}",
+                    "{@spell eyebite|XPHB}"
                   ]
                 },
                 "7": {
                   "slots": 1,
                   "spells": [
-                    "{@spell finger of death|PHB}",
-                    "{@spell plane shift|PHB}",
-                    "{@spell teleport|PHB}"
+                    "{@spell finger of death|XPHB}",
+                    "{@spell plane shift|XPHB}",
+                    "{@spell teleport|XPHB}"
                   ]
                 },
                 "8": {
                   "slots": 1,
                   "spells": [
-                    "{@spell maze|PHB}",
-                    "{@spell mind blank|PHB}"
+                    "{@spell maze|XPHB}",
+                    "{@spell mind blank|XPHB}"
                   ]
                 },
                 "9": {
                   "slots": 1,
                   "spells": [
-                    "{@spell imprisonment|PHB}",
-                    "{@spell power word kill|PHB}"
+                    "{@spell imprisonment|XPHB}",
+                    "{@spell power word kill|XPHB}"
                   ]
                 }
               },
@@ -15001,7 +15001,7 @@
 				"Fey Ancestry"
 			],
 			"attachedItems": [
-				"dagger|phb"
+				"dagger|XPHB"
 			],
 			"action": [
 				{
@@ -15160,7 +15160,7 @@
         "MLW"
       ],
       "attachedItems": [
-        "longsword|phb"
+        "longsword|XPHB"
       ],
       "damageTags": [
         "S"
@@ -15292,9 +15292,9 @@
         "RNG"
       ],
       "attachedItems": [
-        "dagger|phb",
-        "shortbow|phb",
-        "shortsword|phb"
+        "dagger|XPHB",
+        "shortbow|XPHB",
+        "shortsword|XPHB"
       ],
       "bonus": [
         {
@@ -15399,7 +15399,7 @@
         "MLW"
       ],
       "attachedItems": [
-        "longsword|phb"
+        "longsword|XPHB"
       ],
       "trait": [
         {

@@ -23,7 +23,7 @@
 	[
 		{
 			"name": "Ki-rin's Guidance",
-			"baseItem": "Longbow|PHB",
+			"baseItem": "Longbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -31,7 +31,7 @@
 			"dmgType": "R",
 			"attachedSpells":
 			[
-				"guiding bolt|PHB"
+				"guiding bolt|XPHB"
 			],
 			"reqAttune": true,
 			"property":
@@ -46,12 +46,12 @@
 			"entries":
 			[
 				"The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. A Ki-rin sacrificed itself so this weapon can be crafted and used to destroy a fiend.",
-				"When you lunch an arrow from this weapon, the arrow transforms into a {@spell guiding bolt|PHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're {@condition unconscious}."
+				"When you lunch an arrow from this weapon, the arrow transforms into a {@spell guiding bolt|XPHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're {@condition unconscious}."
 			]
 		},
 		{
 			"name": "Spirit String Bow",
-			"baseItem": "Longbow|PHB",
+			"baseItem": "Longbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -73,7 +73,7 @@
 		},
 		{
 			"name": "Bow of the Twilight Valkyrie (WIP)",
-			"baseItem": "Longbow|PHB",
+			"baseItem": "Longbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -118,7 +118,7 @@
 		},
 		{
 			"name": "Razorwind",
-			"baseItem": "Longbow|PHB",
+			"baseItem": "Longbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -141,7 +141,7 @@
 		},
 		{
 			"name": "Rifling Bow",
-			"baseItem": "Longbow|PHB",
+			"baseItem": "Longbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -164,7 +164,7 @@
 		},
 		{
 			"name": "Bastilla",
-			"baseItem": "Heavy Crossbow|PHB",
+			"baseItem": "Heavy Crossbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 18,
@@ -187,7 +187,7 @@
 		},
 		{
 			"name": "Rich Man's Crossbow",
-			"baseItem": "Heavy Crossbow|PHB",
+			"baseItem": "Heavy Crossbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 18,
@@ -221,7 +221,7 @@
 		},
 		{
 			"name": "Venomous Hand Crossbow",
-			"baseItem": "Hand Crossbow|PHB",
+			"baseItem": "Hand Crossbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 3,
@@ -246,7 +246,7 @@
 		},
 		{
 			"name": "Tethervine Quiver",
-			"baseItem": "Quiver|PHB",
+			"baseItem": "Quiver|XPHB",
 			"type": "G",
 			"weight": 1,
 			"reqAttune": true,
@@ -261,7 +261,7 @@
 		},
 		{
 			"name": "Titanfell",
-			"baseItem": "Dagger|PHB",
+			"baseItem": "Dagger|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 1,
@@ -298,17 +298,17 @@
 					[
 						[
 							"Large",
-							"{@item shortsword|PHB}",
+							"{@item shortsword|XPHB}",
 							"{@damage 2d6}"
 						],
 						[
 							"Huge",
-							"{@item longsword|PHB}",
+							"{@item longsword|XPHB}",
 							"{@damage 3d8} ({@damage 3d10})"
 						],
 						[
 							"Gargantuan",
-							"{@item greatsword|PHB}",
+							"{@item greatsword|XPHB}",
 							"{@damage 8d6}"
 						]
 					]
@@ -317,7 +317,7 @@
 		},
 		{
 			"name": "Betrayer's Blade",
-			"baseItem": "Dagger|PHB",
+			"baseItem": "Dagger|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 1,
@@ -341,7 +341,7 @@
 		},
 		{
 			"name": "Haruspex's Blade",
-			"baseItem": "Dagger|PHB",
+			"baseItem": "Dagger|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 1,
@@ -363,7 +363,7 @@
 		},
 		{
 			"name": "Poisoner's Needle",
-			"baseItem": "Dagger|PHB",
+			"baseItem": "Dagger|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 1,
@@ -386,7 +386,7 @@
 		},
 		{
 			"name": "The Annihilator's Fang",
-			"baseItem": "Dagger|PHB",
+			"baseItem": "Dagger|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 1,
@@ -478,7 +478,7 @@
 							"name": "30 cultists",
 							"entries":
 							[
-								"While you're inside shadows or at most a dimly lighted area, as a bonus action, you can \"{@spell blink|PHB} teleport\". Doing so expends 3 runic charges.",
+								"While you're inside shadows or at most a dimly lighted area, as a bonus action, you can \"{@spell blink|XPHB} teleport\". Doing so expends 3 runic charges.",
 									"You can travel up to 30 feet through shadows and darkness to a place you can see at the location you've started.",
 									"You do not provoke opportunity attacks while you travel in this manner.",
 									"You cannot attack or take any other actions until you emerge from the shadows.",
@@ -491,7 +491,7 @@
 							"entries":
 							[
 								"You can take a minute to detach your shadow from your body using a bonus action, creating a shadow clone. Doing so expends 10 runic charges.",
-								"Your shadow clone has the statistics of an {@spell unseen servant|PHB} and a shadow copy of everything you had equipped at the time of detachment, with two exceptions; the shadow clone can make weapon attacks with a bonus of +0 and the spell does not end when the shadow clone is 60 feet away from you. You can use an action to see through its eyes. After 10 minutes or when called, your shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the 10 minutes. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so exerts the shadow clone immediately and restores you to the hit points your shadow clone had."
+								"Your shadow clone has the statistics of an {@spell unseen servant|XPHB} and a shadow copy of everything you had equipped at the time of detachment, with two exceptions; the shadow clone can make weapon attacks with a bonus of +0 and the spell does not end when the shadow clone is 60 feet away from you. You can use an action to see through its eyes. After 10 minutes or when called, your shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the 10 minutes. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so exerts the shadow clone immediately and restores you to the hit points your shadow clone had."
 							]
 						},
 						{
@@ -642,7 +642,7 @@
 		},
 		{
 			"name": "Giant Axe",
-			"baseItem": "Greataxe|PHB",
+			"baseItem": "Greataxe|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 22,
@@ -671,7 +671,7 @@
 			"reqAttune": true,
 			"attachedSpells":
 			[
-				"shocking grasp|PHB"
+				"shocking grasp|XPHB"
 			],
 			"property":
 			[
@@ -683,7 +683,7 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell shocking grasp|PHB}."
+				"A gauntlet of black metal. Using a bonus action, you can charge the gauntlet with static electricity. When you hit with an unarmed attack you can cast {@spell shocking grasp|XPHB}."
 			]
 		},
 		{
@@ -782,7 +782,7 @@
 		},
 		{
 			"name": "Morningstar of the Dawn",
-			"baseItem": "Morningstar|PHB",
+			"baseItem": "Morningstar|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 4,
@@ -794,12 +794,12 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"Can cast {@spell searing smite|PHB} a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
+				"Can cast {@spell searing smite|XPHB} a number of times equal to the wielder’s proficiency, recharges {@dice 1d4} per dawn."
 			]
 		},
 		{
 			"name": "Chained Axes",
-			"baseItem": "Handaxe|PHB",
+			"baseItem": "Handaxe|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 10,
@@ -808,7 +808,7 @@
 			"reqAttune": true,
 			"attachedSpells":
 			[
-				"ensnaring strike|PHB"
+				"ensnaring strike|XPHB"
 			],
 			"property":
 			[
@@ -823,7 +823,7 @@
 			"entries":
 			[
 				"They are chained to your wrist and cannot be disarmed, but it takes an action to stow.",
-				"You can cast {@spell ensnaring strike|PHB} a number of times equal to your proficiency bonus, with chains bursting from the ground to imprison your enemy. Recharges at dawn.",
+				"You can cast {@spell ensnaring strike|XPHB} a number of times equal to your proficiency bonus, with chains bursting from the ground to imprison your enemy. Recharges at dawn.",
 				{
 					"type": "entries",
 					"name": "Special",
@@ -836,7 +836,7 @@
 		},
 		{
 			"name": "Night Song",
-			"baseItem": "Handaxe|PHB",
+			"baseItem": "Handaxe|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 2,
@@ -858,7 +858,7 @@
 		},
 		{
 			"name": "Chromatic Obsidian Handaxe",
-			"baseItem": "Handaxe|PHB",
+			"baseItem": "Handaxe|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 2,
@@ -913,7 +913,7 @@
 		},
 		{
 			"name": "Flashstep Rapier",
-			"baseItem": "Rapier|PHB",
+			"baseItem": "Rapier|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -935,7 +935,7 @@
 		},
 		{
 			"name": "Beacon Bow",
-			"baseItem": "Shortbow|PHB",
+			"baseItem": "Shortbow|XPHB",
 			"type": "R",
 			"weaponCategory": "Simple",
 			"weight": 2,
@@ -959,7 +959,7 @@
 		},
 		{
 			"name": "Staff of Life",
-			"baseItem": "Quarterstaff|PHB",
+			"baseItem": "Quarterstaff|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 4,
@@ -980,7 +980,7 @@
 		},
 		{
 			"name": "Staff of Elementalist",
-			"baseItem": "Quarterstaff|PHB",
+			"baseItem": "Quarterstaff|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 4,
@@ -1049,7 +1049,7 @@
 		},
 		{
 			"name": "Hammer of the Farseer",
-			"baseItem": "Warhammer|PHB",
+			"baseItem": "Warhammer|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1065,12 +1065,12 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"When you kill a monster with this weapon, you glimpse a random moment from its past. You may cast {@spell augury|PHB} once per day."
+				"When you kill a monster with this weapon, you glimpse a random moment from its past. You may cast {@spell augury|XPHB} once per day."
 			]
 		},
 		{
 			"name": "Grasping Whip",
-			"baseItem": "Whip|PHB",
+			"baseItem": "Whip|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1092,7 +1092,7 @@
 		},
 		{
 			"name": "Glaive of Atlas",
-			"baseItem": "Glaive|PHB",
+			"baseItem": "Glaive|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 6,
@@ -1143,7 +1143,7 @@
 		},
 		{
 			"name": "Kingsglaive",
-			"baseItem": "Dagger|PHB",
+			"baseItem": "Dagger|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 1,
@@ -1167,7 +1167,7 @@
 		},
 		{
 			"name": "Spiderbite Daggers",
-			"baseItem": "Dagger|PHB",
+			"baseItem": "Dagger|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 1,
@@ -1190,7 +1190,7 @@
 		},
 		{
 			"name": "Orcish Falx",
-			"baseItem": "Greatsword|PHB",
+			"baseItem": "Greatsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 1,
@@ -1211,7 +1211,7 @@
 		},
 		{
 			"name": "Angel's Will",
-			"baseItem": "Greatsword|PHB",
+			"baseItem": "Greatsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 3,
@@ -1234,7 +1234,7 @@
 					"entries":
 					[
 						"It has 3 charges, and regains all of them at dawn.",
-						" You can use an action to expend a charge and either end an effect that is causing you to be {@condition charmed} or cast {@spell freedom of movement|PHB} on your self.",
+						" You can use an action to expend a charge and either end an effect that is causing you to be {@condition charmed} or cast {@spell freedom of movement|XPHB} on your self.",
 						"You can use this feature even while you are {@condition charmed} or {@condition paralyzed}."
 					]
 				}
@@ -1242,7 +1242,7 @@
 		},
 		{
 			"name": "Heavy Repeating Crossbow",
-			"baseItem": "Heavy Crossbow|PHB",
+			"baseItem": "Heavy Crossbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 18,
@@ -1266,7 +1266,7 @@
 		},
 		{
 			"name": "Vampiric Trident",
-			"baseItem": "Trident|PHB",
+			"baseItem": "Trident|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 4,
@@ -1289,7 +1289,7 @@
 		},
 		{
 			"name": "Galepierce Trident",
-			"baseItem": "Trident|PHB",
+			"baseItem": "Trident|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 4,
@@ -1312,7 +1312,7 @@
 		},
 		{
 			"name": "Clockwork Bow",
-			"baseItem": "Longbow|PHB",
+			"baseItem": "Longbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1336,7 +1336,7 @@
 		},
 		{
 			"name": "Spiked Chain",
-			"baseItem": "Dagger|PHB",
+			"baseItem": "Dagger|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 8,
@@ -1369,7 +1369,7 @@
 		},
 		{
 			"name": "Double Knock Bow",
-			"baseItem": "Longbow|PHB",
+			"baseItem": "Longbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1392,7 +1392,7 @@
 		},
 		{
 			"name": "Unzest",
-			"baseItem": "Flail|PHB",
+			"baseItem": "Flail|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1411,7 +1411,7 @@
 		},
 		{
 			"name": "Hydra Flail",
-			"baseItem": "Flail|PHB",
+			"baseItem": "Flail|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1427,7 +1427,7 @@
 		},
 		{
 			"name": "Inevitable Bow",
-			"baseItem": "Longbow|PHB",
+			"baseItem": "Longbow|XPHB",
 			"type": "R",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1450,7 +1450,7 @@
 		},
 		{
 			"name": "Bow of the Nymph",
-			"baseItem": "Shortbow|PHB",
+			"baseItem": "Shortbow|XPHB",
 			"type": "R",
 			"weaponCategory": "Simple",
 			"weight": 2,
@@ -1474,7 +1474,7 @@
 		},
 		{
 			"name": "The Rainbow",
-			"baseItem": "Shortbow|PHB",
+			"baseItem": "Shortbow|XPHB",
 			"type": "R",
 			"weaponCategory": "Simple",
 			"weight": 2,
@@ -1490,17 +1490,17 @@
 			"rarity": "uncommon",
 			"attachedSpells":
 			[
-				"control weather|PHB"
+				"control weather|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
-				"All arrows shot with this bow leave behind a streak of 7-colored light. Which deals an extra {@damage 1d6} radiant damage. Once per day you can instead cause it to start raining as if a {@spell control weather|PHB} spell was cast."
+				"All arrows shot with this bow leave behind a streak of 7-colored light. Which deals an extra {@damage 1d6} radiant damage. Once per day you can instead cause it to start raining as if a {@spell control weather|XPHB} spell was cast."
 			]
 		},
 		{
 			"name": "Wind Walkers Bow",
-			"baseItem": "Shortbow|PHB",
+			"baseItem": "Shortbow|XPHB",
 			"type": "R",
 			"weaponCategory": "Simple",
 			"weight": 2,
@@ -1523,7 +1523,7 @@
 		},
 		{
 			"name": "Blade of Selves",
-			"baseItem": "Shortsword|PHB",
+			"baseItem": "Shortsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1532,7 +1532,7 @@
 			"reqAttune": true,
 			"attachedSpells":
 			[
-				"mirror image|PHB"
+				"mirror image|XPHB"
 			],
 			"curse": true,
 			"property":
@@ -1544,20 +1544,20 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"While holding this weapon, as a bonus action, you may cast the {@spell mirror image|PHB} spell. When you cast {@spell mirror image|PHB} this way, it creates five illusory duplicates. Once you have used this ability you cannot use it again until you finish a long rest.",
+				"While holding this weapon, as a bonus action, you may cast the {@spell mirror image|XPHB} spell. When you cast {@spell mirror image|XPHB} this way, it creates five illusory duplicates. Once you have used this ability you cannot use it again until you finish a long rest.",
 				{
 					"type": "entries",
 					"name": "Curse",
 					"entries":
 					[
-						"This weapon is cursed, and attuning to it curses you until you are targeted by the {@spell remove curse|PHB} spell or similar magic. When the {@spell mirror image|PHB} spell is cast from this item, roll a d20. On a 1, one of the illusory duplicates created is a full-grown clone inhabited by an evil-aligned soul and tries to take your place."
+						"This weapon is cursed, and attuning to it curses you until you are targeted by the {@spell remove curse|XPHB} spell or similar magic. When the {@spell mirror image|XPHB} spell is cast from this item, roll a d20. On a 1, one of the illusory duplicates created is a full-grown clone inhabited by an evil-aligned soul and tries to take your place."
 					]
 				}
 			]
 		},
 		{
 			"name": "Faran",
-			"baseItem": "Shortsword|PHB",
+			"baseItem": "Shortsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1578,7 +1578,7 @@
 		},
 		{
 			"name": "Denier",
-			"baseItem": "Scimitar|PHB",
+			"baseItem": "Scimitar|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1657,7 +1657,7 @@
 		},
 		{
 			"name": "Lady Luck",
-			"baseItem": "Shortsword|PHB",
+			"baseItem": "Shortsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1679,7 +1679,7 @@
 		},
 		{
 			"name": "Ice Sickle",
-			"baseItem": "Sickle|PHB",
+			"baseItem": "Sickle|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 2,
@@ -1699,7 +1699,7 @@
 		},
 		{
 			"name": "David’s Sling",
-			"baseItem": "Sling|PHB",
+			"baseItem": "Sling|XPHB",
 			"type": "R",
 			"weaponCategory": "Simple",
 			"weight": 1,
@@ -1720,7 +1720,7 @@
 		},
 		{
 			"name": "Blowgun of Eternal Sight",
-			"baseItem": "Blowgun|PHB",
+			"baseItem": "Blowgun|XPHB",
 			"type": "R",
 			"weaponCategory": "Simple",
 			"weight": 1,
@@ -1743,7 +1743,7 @@
 		},
 		{
 			"name": "The Judge",
-			"baseItem": "Warhammer|PHB",
+			"baseItem": "Warhammer|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1752,8 +1752,8 @@
 			"dmgType": "B",
 			"attachedSpells":
 			[
-				"sacred flame|PHB",
-				"vicious mockery|PHB"
+				"sacred flame|XPHB",
+				"vicious mockery|XPHB"
 			],
 			"reqAttune": true,
 			"property":
@@ -1764,12 +1764,12 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"Hits from this weapon cast {@spell sacred flame|PHB} upon the hit enemy. If you roll a 1 on an attack roll {@spell vicious mockery|PHB}} is cast on you."
+				"Hits from this weapon cast {@spell sacred flame|XPHB} upon the hit enemy. If you roll a 1 on an attack roll {@spell vicious mockery|XPHB}} is cast on you."
 			]
 		},
 		{
 			"name": "Agr'waendil",
-			"baseItem": "Longsword|PHB",
+			"baseItem": "Longsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 3,
@@ -1828,7 +1828,7 @@
 		},
 		{
 			"name": "Void Blade",
-			"baseItem": "Longsword|PHB",
+			"baseItem": "Longsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 3,
@@ -1876,7 +1876,7 @@
 		},
 		{
 			"name": "Half-forged Longsword",
-			"baseItem": "Shortsword|PHB",
+			"baseItem": "Shortsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 3,
@@ -1897,7 +1897,7 @@
 		},
 		{
 			"name": "Sword of the Defeated",
-			"baseItem": "Shortsword|PHB",
+			"baseItem": "Shortsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1935,7 +1935,7 @@
 		},
 		{
 			"name": "Akkadian Warhammer",
-			"baseItem": "Warhammer|PHB",
+			"baseItem": "Warhammer|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 2,
@@ -1961,7 +1961,7 @@
 		},
 		{
 			"name": "Everglacier's Cold Fury",
-			"baseItem": "Pike|PHB",
+			"baseItem": "Pike|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 18,
@@ -2038,7 +2038,7 @@
 		},
 		{
 			"name": "Achille's Spear",
-			"baseItem": "Spear|PHB",
+			"baseItem": "Spear|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 3,
@@ -2062,7 +2062,7 @@
 		},
 		{
 			"name": "Crystalheart Spear",
-			"baseItem": "Spear|PHB",
+			"baseItem": "Spear|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 3,
@@ -2087,7 +2087,7 @@
 		},
 		{
 			"name": "Cu Chulainn's Spear",
-			"baseItem": "Spear|PHB",
+			"baseItem": "Spear|XPHB",
 			"type": "M",
 			"weaponCategory": "Simple",
 			"weight": 3,
@@ -2111,7 +2111,7 @@
 		},
 		{
 			"name": "Mage Guardian's Greatsword",
-			"baseItem": "Greatsword|PHB",
+			"baseItem": "Greatsword|XPHB",
 			"type": "M",
 			"weaponCategory": "martial",
 			"weight": 6,
@@ -2135,7 +2135,7 @@
 		},
 		{
 			"name": "Ghost Mail",
-			"baseItem": "Scale Mail|PHB",
+			"baseItem": "Scale Mail|XPHB",
 			"type": "MA",
 			"weight": 45,
 			"ac": 14,
@@ -2150,7 +2150,7 @@
 		},
 		{
 			"name": "Hide of the Winter Wolf",
-			"baseItem": "Hide Armor|PHB",
+			"baseItem": "Hide Armor|XPHB",
 			"type": "MA",
 			"weight": 12,
 			"ac": 12,
@@ -2166,7 +2166,7 @@
 		},
 		{
 			"name": "Scorpion Armor",
-			"baseItem": "half plate armor|PHB",
+			"baseItem": "half plate armor|XPHB",
 			"type": "MA",
 			"weight": 40,
 			"ac": 15,
@@ -2191,7 +2191,7 @@
 		},
 		{
 			"name": "Bulette Armor",
-			"baseItem": "Plate Armor|PHB",
+			"baseItem": "Plate Armor|XPHB",
 			"type": "HA",
 			"weight": 65,
 			"ac": 18,
@@ -2228,7 +2228,7 @@
 		},
 		{
 			"name": "Armor of Myrmidon Lord (WIP)",
-			"baseItem": "half plate armor|PHB",
+			"baseItem": "half plate armor|XPHB",
 			"type": "MA",
 			"weight": 40,
 			"ac": 16,
@@ -2244,7 +2244,7 @@
 		},
 		{
 			"name": "Venombane Armor",
-			"baseItem": "Hide Armor|PHB",
+			"baseItem": "Hide Armor|XPHB",
 			"type": "MA",
 			"weight": 12,
 			"ac": 12,
@@ -2258,7 +2258,7 @@
 		},
 		{
 			"name": "Darkwood Half Plate Armor",
-			"baseItem": "Half Plate Armor|PHB",
+			"baseItem": "Half Plate Armor|XPHB",
 			"type": "MA",
 			"weight": 20,
 			"ac": 15,
@@ -2272,7 +2272,7 @@
 		},
 		{
 			"name": "Darkwood Breastplate Armor",
-			"baseItem": "Breastplate Armor|PHB",
+			"baseItem": "Breastplate Armor|XPHB",
 			"type": "LA",
 			"weight": 10,
 			"ac": 14,
@@ -2286,7 +2286,7 @@
 		},
 		{
 			"name": "Ravenous Sentinel",
-			"baseItem": "half plate armor|PHB",
+			"baseItem": "half plate armor|XPHB",
 			"type": "MA",
 			"weight": 40,
 			"ac": 15,
@@ -2301,7 +2301,7 @@
 		},
 		{
 			"name": "Armor of the Totem",
-			"baseItem": "Studded Leather Armor|PHB",
+			"baseItem": "Studded Leather Armor|XPHB",
 			"type": "LA",
 			"weight": 13,
 			"ac": 12,
@@ -2315,7 +2315,7 @@
 		},
 		{
 			"name": "Juggernaut Plate",
-			"baseItem": "Plate Armor|PHB",
+			"baseItem": "Plate Armor|XPHB",
 			"type": "HA",
 			"weight": 65,
 			"ac": 18,
@@ -2339,7 +2339,7 @@
 		},
 		{
 			"name": "Tabula Rasa (WIP) cold elemental?",
-			"baseItem": "Plate Armor|PHB",
+			"baseItem": "Plate Armor|XPHB",
 			"type": "HA",
 			"weight": 65,
 			"ac": 18,
@@ -2354,7 +2354,7 @@
 		},
 		{
 			"name": "Mirage Shield",
-			"baseItem": "Shield|PHB",
+			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
 			"ac": 2,
@@ -2364,16 +2364,16 @@
 			"source": "Canbrew",
 			"attachedSpells":
 			[
-				"shield|PHB"
+				"shield|XPHB"
 			],
 			"entries":
 			[
-				"This is a shield that casts {@spell shield|PHB} on you. It has a rune engraved under its grip. When you follow the engraving with your finger using a bonus action, it lights up dimly and activates. Next time you are hit, light refracts from the shield and another shield appears in front of this shield. It has 2 charges which replenishe after a short rest."
+				"This is a shield that casts {@spell shield|XPHB} on you. It has a rune engraved under its grip. When you follow the engraving with your finger using a bonus action, it lights up dimly and activates. Next time you are hit, light refracts from the shield and another shield appears in front of this shield. It has 2 charges which replenishe after a short rest."
 			]
 		},
 		{
 			"name": "Anvil Plate Shield",
-			"baseItem": "Shield|PHB",
+			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
 			"ac": 2,
@@ -2384,7 +2384,7 @@
 			"source": "Canbrew",
 			"attachedSpells":
 			[
-				"wall of fire|PHB"
+				"wall of fire|XPHB"
 			],
 			"entries":
 			[
@@ -2407,12 +2407,12 @@
 						"This shield radiates fiery dim light for 5 feet from the outlines of the anvil engravings on it. You can use a bonus action to increase its radiance to bright light for 10 feet and dim light for an additional 20 feet."
 					]
 				},
-				"The shield has 4 charges. You can use an action to expend 2 charges to cast {@spell wall of fire|PHB} from the shield (save {@dc 18}). The {@spell wall of fire|PHB} spell lasts for 1 minute (no concentration required). The shield regains {@dice 1d4} expended charges daily at dawn."
+				"The shield has 4 charges. You can use an action to expend 2 charges to cast {@spell wall of fire|XPHB} from the shield (save {@dc 18}). The {@spell wall of fire|XPHB} spell lasts for 1 minute (no concentration required). The shield regains {@dice 1d4} expended charges daily at dawn."
 			]
 		},
 		{
 			"name": "Rebuker",      
-			"baseItem": "Shield|PHB",
+			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
 			"ac": 2,
@@ -2430,7 +2430,7 @@
 		},
 		{
 			"name": "Band of the Shimmering Shield",      
-			"baseItem": "Shield|PHB",
+			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 1,
 			"ac": 2,
@@ -2444,7 +2444,7 @@
 		},
 		{
 			"name": "Twitcher's Shield",
-			"baseItem": "Shield|PHB",
+			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
 			"ac": 2,
@@ -2459,7 +2459,7 @@
 		},
 		{
 			"name": "Sage Bull",            
-			"baseItem": "Shield|PHB",
+			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
 			"ac": 2,
@@ -2494,7 +2494,7 @@
 		},
 		{
 			"name": "Mirrored Shield",
-			"baseItem": "Shield|PHB",
+			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
 			"ac": 2,
@@ -2508,7 +2508,7 @@
 		},
 		{
 			"name": "Coralshield Golem",
-			"baseItem": "Shield|PHB",
+			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
 			"ac": 2,
@@ -2523,7 +2523,7 @@
 		},
 		{
 			"name": "Rho Aias",            
-			"baseItem": "Shield|PHB",
+			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
 			"ac": 2,
@@ -2537,7 +2537,7 @@
 		},
 		{
 			"name": "Injection Arrow",
-			"baseItem": "Arrow|PHB",
+			"baseItem": "Arrow|XPHB",
 			"type": "A",
 			"weight": 0.05,
 			"rarity": "common",
@@ -2549,7 +2549,7 @@
 		},
 		{
 			"name": "Void Arrow",
-			"baseItem": "Arrow|PHB",
+			"baseItem": "Arrow|XPHB",
 			"type": "A",
 			"weight": 0.05,
 			"rarity": "uncommon",
@@ -2561,7 +2561,7 @@
 		},
 		{
 			"name": "Armor Piercing Arrow",
-			"baseItem": "Arrow|PHB",
+			"baseItem": "Arrow|XPHB",
 			"type": "A",
 			"weight": 0.05,
 			"rarity": "uncommon",
@@ -2573,7 +2573,7 @@
 		},
 		{
 			"name": "Arrow of Transposition",
-			"baseItem": "Arrow|PHB",
+			"baseItem": "Arrow|XPHB",
 			"type": "A",
 			"weight": 0.05,
 			"rarity": "rare",
@@ -2585,7 +2585,7 @@
 		},
 		{
 			"name": "Hollow-point Arrow",
-			"baseItem": "Arrow|PHB",
+			"baseItem": "Arrow|XPHB",
 			"type": "A",
 			"weight": 0.05,
 			"rarity": "uncommon",
@@ -2597,7 +2597,7 @@
 		},
 		{
 			"name": "Mind Devouring Arrow",
-			"baseItem": "Arrow|PHB",
+			"baseItem": "Arrow|XPHB",
 			"type": "A",
 			"weight": 0.05,
 			"rarity": "rare",
@@ -2610,19 +2610,19 @@
 		},
 		{
 			"name": "Arrow of Rest",
-			"baseItem": "Arrow|PHB",
+			"baseItem": "Arrow|XPHB",
 			"type": "A",
 			"weight": 0.05,
 			"rarity": "uncommon",
 			"source": "Canbrew",
 			"entries":
 			[
-				"if it hits on a surprise round it casts {@spell sleep|PHB} on that target."
+				"if it hits on a surprise round it casts {@spell sleep|XPHB} on that target."
 			]
 		},
 		{
 			"name": "Witch Hunter's Arrow",
-			"baseItem": "Arrow|PHB",
+			"baseItem": "Arrow|XPHB",
 			"type": "A",
 			"weight": 0.05,
 			"rarity": "uncommon",
@@ -2636,7 +2636,7 @@
 		},
 		{
 			"name": "Horned Arrow",
-			"baseItem": "Arrow|PHB",
+			"baseItem": "Arrow|XPHB",
 			"type": "A",
 			"weight": 0.05,
 			"reqAttune": true,
@@ -2656,13 +2656,13 @@
 			"rarity": "uncommon",
 			"attachedSpells":
 			[
-				"nondetection|PHB"
+				"nondetection|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
-				"This ring has {@spell nondetection|PHB} spell cast on it by itself continuously.",
-				"Once a day you redirect {@spell nondetection|PHB} on your self."
+				"This ring has {@spell nondetection|XPHB} spell cast on it by itself continuously.",
+				"Once a day you redirect {@spell nondetection|XPHB} on your self."
 			]
 		},
 		{
@@ -2711,13 +2711,13 @@
 			"curse": true,
 			"attachedSpells":
 			[
-				"banishment|PHB"
+				"banishment|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
 				"An exotic ring with tiny chains circling it.",
-				"Once a day you can cast 4th-level {@spell banishment|PHB}.",
+				"Once a day you can cast 4th-level {@spell banishment|XPHB}.",
 				{
 					"type": "entries",
 					"name": "Curse",
@@ -2735,13 +2735,13 @@
 			"rarity": "uncommon",
 			"attachedSpells":
 			[
-				"mage hand|PHB"
+				"mage hand|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
 				"It is said that some can manipulate the forces of nature. This ring is sure to increase your connection to the said forces.",
-				"This ring enhances your {@spell mage hand|PHB} spell. You know the {@spell mage hand|PHB} spell if you don't already.",
+				"This ring enhances your {@spell mage hand|XPHB} spell. You know the {@spell mage hand|XPHB} spell if you don't already.",
 				{
 					"type": "list",
 					"items":
@@ -2767,7 +2767,7 @@
 							"name": "Levitate",
 							"entries":
 							[
-								"The weight your {@spell mage hand|PHB} can carry is increased by your spellcasting ability score in pounds."
+								"The weight your {@spell mage hand|XPHB} can carry is increased by your spellcasting ability score in pounds."
 							]
 						}
 					]
@@ -2792,8 +2792,8 @@
 			"rarity": "very rare",
 			"attachedSpells":
 			[
-				"fire bolt|PHB",
-				"fireball|PHB"
+				"fire bolt|XPHB",
+				"fireball|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
@@ -2803,7 +2803,7 @@
 					"type": "list",
 					"items":
 					[
-						"You can cast the {@spell fire bolt|PHB} spell as a bonus action.",
+						"You can cast the {@spell fire bolt|XPHB} spell as a bonus action.",
 						"You know the {@spell fire bolt} and the {@spell fireball} spells and once a day, you can cast the {@spell fireball} spell without using a spell slot.",
 						"Once per turn, you can add your spellcasting modifier to one damage die of a fire spell you cast.",
 						"Spells you cast ignore resistance to fire damage or treat immunity to fire as resistance."
@@ -2882,7 +2882,7 @@
 							"entries":
 							[
 								"You lose the temptation for the chaos inside you. Your emotions are calmer and your mind focused on the righteous path. Before acting in a mischievous way you must pass a Wisdom check. On a fail, your mind is blanked and you cannot continue your act.",
-								"If {@spell remove curse|PHB} is cast on you, the ring ceases to function.",
+								"If {@spell remove curse|XPHB} is cast on you, the ring ceases to function.",
 								"\"For you have sinned, you must atone.",
 								"Your chaos shall cease. Your emotions shall go quiet.",
 								"Your passion shall soothe.",
@@ -2900,12 +2900,12 @@
 			"reqAttune": true,
 			"attachedSpells":
 			[
-				"charm person|PHB"
+				"charm person|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
-				"An ornate mask, like those worn for masked balls. The wearer hears a constant stream of sycophantic praise. Allows you to cast {@spell charm person|PHB} spell once a day."
+				"An ornate mask, like those worn for masked balls. The wearer hears a constant stream of sycophantic praise. Allows you to cast {@spell charm person|XPHB} spell once a day."
 			]
 		},
 		{
@@ -2995,7 +2995,7 @@
 							"name": "Scrying",
 							"entries":
 							[
-								"Once per long rest, you may cast {@spell scrying|PHB}"
+								"Once per long rest, you may cast {@spell scrying|XPHB}"
 							]
 						}
 					]
@@ -3220,12 +3220,12 @@
 			"source": "Canbrew",
 			"attachedSpells":
 			[
-				"haste|PHB"
+				"haste|XPHB"
 			],
 			"entries":
 			[
 				"Concentrated human blood in an inject-ready syringe.",
-				"If you are a vampire, injection of one of these increases your blood pool by two points, heals you for 4d4+4, and grants you the effects of the {@spell haste|PHB} spell for 1 minute."
+				"If you are a vampire, injection of one of these increases your blood pool by two points, heals you for 4d4+4, and grants you the effects of the {@spell haste|XPHB} spell for 1 minute."
 			]
 		},
 		{
@@ -3427,7 +3427,7 @@
 			"curse": true,
 			"attachedSpells":
 			[
-				"find familiar|PHB"
+				"find familiar|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
@@ -3446,10 +3446,10 @@
 							"name": "Familiar",
 							"entries":
 							[
-								"The eye is a gruesome familiar. As an action, you can command the eye to crawl out of its socket and move independently of you. Use the abilities described in the {@spell find familiar|PHB} spell when commanding the Eye of the Fiendlord. The eye has five hit points, an AC of 12, movement and climbing speed of 20 feet, does not require air to breathe and has a +6 bonus to Dexterity (Stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. If it was slain, you cannot use its magical sight or command it as a familiar again until the following dusk."
+								"The eye is a gruesome familiar. As an action, you can command the eye to crawl out of its socket and move independently of you. Use the abilities described in the {@spell find familiar|XPHB} spell when commanding the Eye of the Fiendlord. The eye has five hit points, an AC of 12, movement and climbing speed of 20 feet, does not require air to breathe and has a +6 bonus to Dexterity (Stealth) checks. If the eye is slain or you dismiss it, it reappears inside your open eye socket with a sickly sound. If it was slain, you cannot use its magical sight or command it as a familiar again until the following dusk."
 							]
 						},
-						"Targeting the eye with the {@spell remove curse|PHB} spell or unattuning to it causes the eye to pull itself out of the socket and crawl away. Slaying the eye while it is unattuned to a creature destroys the item."
+						"Targeting the eye with the {@spell remove curse|XPHB} spell or unattuning to it causes the eye to pull itself out of the socket and crawl away. Slaying the eye while it is unattuned to a creature destroys the item."
 					]
 				}
 			]
@@ -3483,7 +3483,7 @@
 			"reqAttune": true,
 			"attachedSpells":
 			[
-				"thunderclap|PHB"
+				"thunderclap|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
@@ -3525,10 +3525,10 @@
 			"attachedSpells":
 			[
 				"create bonfire|XGE",
-				"dancing lights|PHB",
-				"mending|PHB",
-				"prestidigitation|PHB",
-				"alarm|PHB"
+				"dancing lights|XPHB",
+				"mending|XPHB",
+				"prestidigitation|XPHB",
+				"alarm|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
@@ -3553,19 +3553,19 @@
 							"1"
 						],
 						[
-							"{@spell dancing lights|PHB}",
+							"{@spell dancing lights|XPHB}",
 							"1"
 						],
 						[
-							"{@spell mending|PHB}",
+							"{@spell mending|XPHB}",
 							"1"
 						],
 						[
-							"{@spell prestidigitation|PHB}",
+							"{@spell prestidigitation|XPHB}",
 							"1"
 						],
 						[
-							"{@spell alarm|PHB}",
+							"{@spell alarm|XPHB}",
 							"2"
 						]
 					]
@@ -3581,12 +3581,12 @@
 			"reqAttune": true,
 			"attachedSpells":
 			[
-				"magic missile|PHB"
+				"magic missile|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
-				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell magic missile|PHB} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains {dice 1d6+1} expended charges daily at dawn. If you expend the wand's last charge, the wand crumbles into ashes and is destroyed."
+				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell magic missile|XPHB} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. The wand regains {dice 1d6+1} expended charges daily at dawn. If you expend the wand's last charge, the wand crumbles into ashes and is destroyed."
 			]
 		},
 		{
@@ -3595,15 +3595,15 @@
 			"weight": 0.05,
 			"attachedSpells":
 			[
-				"light|PHB"
+				"light|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
 				"This bronze clockwork mechanism is 2 inches long and has a glass vial under it. It whirs with the hum of tiny gears inside.",
-				"You can tap the head of the faefly twice as a bonus action. When you do, the mechanism flutters 5 feet in the air and emits the {@spell light|PHB} spell.",
+				"You can tap the head of the faefly twice as a bonus action. When you do, the mechanism flutters 5 feet in the air and emits the {@spell light|XPHB} spell.",
 				"The faefly has AC 15 and 10 hit points and flies in this way until it falls to 0 hit points or another creature grasps it. If you move more than 3 feet from the hovering faefly, it follows you until it is within 3 feet of you.",
-				"If the {@spell mending|PHB} spell is cast on the faefly while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the faefly drops to 0 hit points, it can't be used again."
+				"If the {@spell mending|XPHB} spell is cast on the faefly while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the faefly drops to 0 hit points, it can't be used again."
 			]
 		},
 		{
@@ -3614,14 +3614,14 @@
 			"reqAttune": true,
 			"attachedSpells":
 			[
-				"healing word|PHB"
+				"healing word|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
 				"This pill-shaped magical mechanism is 2 inches long and made of brass. It has a pair of tiny wings that silently keep it aloft. It hovers up to 5 feet above the ground and does its best to stay at your side within your space.",
-				"The bee has 8 charges and regains {@dice 1d6+2} expended charges daily at dawn. While the bee is within your space, you can speak its command word and expend up to 3 of its charges as a bonus action to command the bee to heal a creature that you can see within 20 feet of you. The bee flies to the creature's space and stings the creature, casting a {@spell healing word|PHB} for each expended charge. After healing the creature, the bee returns to your space.",
-				"It has AC 15, 10 hit points, and has resistance to all damage types. If the {@spell mending|PHB} spell is cast on the bee while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the bee drops to 0 hit points, it can't be used again."
+				"The bee has 8 charges and regains {@dice 1d6+2} expended charges daily at dawn. While the bee is within your space, you can speak its command word and expend up to 3 of its charges as a bonus action to command the bee to heal a creature that you can see within 20 feet of you. The bee flies to the creature's space and stings the creature, casting a {@spell healing word|XPHB} for each expended charge. After healing the creature, the bee returns to your space.",
+				"It has AC 15, 10 hit points, and has resistance to all damage types. If the {@spell mending|XPHB} spell is cast on the bee while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the bee drops to 0 hit points, it can't be used again."
 			]
 		},
 		{
@@ -3647,7 +3647,7 @@
 			[
 				"This segmented mechanical caterpillar is 5 inches long, weighs 1 pound, and is made of copper. It has several tiny copper legs that give it a 5-foot walking speed. Within it are multiple containers filled with silk filaments, spools of thread, dyes, and an incredibly strong adhesive. Each of these materials is expelled through a tube in its mouth, and it is equipped with a transmutation lens in its head that allows it to change the adhesive to various kinds of wood, metal, stone, or crystal.",
 				"As an action, you can speak the caterpillar's command phrase to cause it to repair a broken or torn object or area that it's set upon. As long as the break or tear is no larger than 1 foot across in more than 1 dimension, the caterpillar can create the material to repair it. The caterpillar then begins crawling over and repairing the object or area, taking 10 minutes for every cubic foot it repairs (minimum of 1 minute). The caterpillar can physically repair a magic item or construct, but can't restore magic to such an object. After the caterpillar finishes repairing an object or area, it stops moving and makes a soft chirping sound audible out to 30 feet. Once the caterpillar repairs 10 cubic feet of material, it can't be used again until 24 hours have passed.",
-				"The caterpillar is considered a magical object and is not a creature. It has AC 10, 15 hit points, and has resistance to all damage types. If the {@spell mending|PHB} spell is cast on the caterpillar while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the caterpillar drops to 0 hit points, it can't be used again for 24 hours, at which point it regains all its hit points."
+				"The caterpillar is considered a magical object and is not a creature. It has AC 10, 15 hit points, and has resistance to all damage types. If the {@spell mending|XPHB} spell is cast on the caterpillar while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the caterpillar drops to 0 hit points, it can't be used again for 24 hours, at which point it regains all its hit points."
 			]
 		},
 		{
@@ -3673,7 +3673,7 @@
 						"Any resistance or immunity to poison or disease it has"
 					]
 				},
-				"The syrisquito is considered a magical object and is not a creature. It has AC 15, 20 hit points, and resistance to all damage. If the {@spell mending|PHB} spell is cast on the syrisquito while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the syrisquito drops to 0 hit points, it can’t be used again for 24 hours, at which point it regains all its hit points."
+				"The syrisquito is considered a magical object and is not a creature. It has AC 15, 20 hit points, and resistance to all damage. If the {@spell mending|XPHB} spell is cast on the syrisquito while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the syrisquito drops to 0 hit points, it can’t be used again for 24 hours, at which point it regains all its hit points."
 			]
 		},
 		{
@@ -3692,10 +3692,10 @@
 					[
 						"You have advantage on Wisdom (Perception) checks you make that rely on sound.",
 						"You can tap the earwig twice to record up to 1 minute of sound, tapping it twice again to stop recording early. You can tap the earwig once to replay the recording in your ear, tapping it a second time to stop it early. Pressing and holding your finger to the earwig while it's replaying the recording will pause the recording until you release your finger from it. Creating a new recording in this way erases any previous one stored.",
-						"You can speak the earwig's command word as an action to cast the {@spell comprehend languages|PHB} spell from it. The spell ends early if you remove the earwig. This property of the earwig can't be used again until the next dawn."
+						"You can speak the earwig's command word as an action to cast the {@spell comprehend languages|XPHB} spell from it. The spell ends early if you remove the earwig. This property of the earwig can't be used again until the next dawn."
 					]
 				},
-				"The syrisquito is considered a magical object and is not a creature. It has AC 15, 20 hit points, and resistance to all damage. If the {@spell mending|PHB} spell is cast on the syrisquito while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the syrisquito drops to 0 hit points, it can’t be used again for 24 hours, at which point it regains all its hit points."
+				"The syrisquito is considered a magical object and is not a creature. It has AC 15, 20 hit points, and resistance to all damage. If the {@spell mending|XPHB} spell is cast on the syrisquito while it has at least 1 hit point, it regains {@dice 2d6} hit points. If the syrisquito drops to 0 hit points, it can’t be used again for 24 hours, at which point it regains all its hit points."
 			]
 		},
 		{
@@ -3752,12 +3752,12 @@
 			"reqAttune": true,
 			"attachedSpells":
 			[
-				"call lightning|PHB"
+				"call lightning|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
-				"A prayer book that gives +2 on Religion checks when held. Has one charge of {@spell call lightning|PHB}."
+				"A prayer book that gives +2 on Religion checks when held. Has one charge of {@spell call lightning|XPHB}."
 			]
 		},
 		{
@@ -3809,7 +3809,7 @@
 							"1"
 						],
 						[
-							"{@spell augury|PHB}",
+							"{@spell augury|XPHB}",
 							"2"
 						],
 						[
@@ -3817,7 +3817,7 @@
 							"3"
 						],
 						[
-							"{@spell control water|PHB}",
+							"{@spell control water|XPHB}",
 							"4"
 						],
 						[
@@ -3825,7 +3825,7 @@
 							"5"
 						],
 						[
-							"{@spell move earth|PHB}",
+							"{@spell move earth|XPHB}",
 							"6"
 						],
 						[
@@ -3833,7 +3833,7 @@
 							"7"
 						],
 						[
-							"{@spell tsunami|PHB}",
+							"{@spell tsunami|XPHB}",
 							"8"
 						]
 					]
@@ -4012,12 +4012,12 @@
 			"source": "Canbrew",
 			"attachedSpells":
 			[
-				"identify|PHB",
-				"legend lore|PHB"
+				"identify|XPHB",
+				"legend lore|XPHB"
 			],
 			"entries":
 			[
-				"An orb that functions as an Arcane Focus, giving -5 to Passive Perception, but proficiency (expertise if you are already proficient) on Arcana checks. You can cast {@spell legend lore|PHB} as a 4th level spell, and {@spell identify|PHB} without expending a spell slot. These spells are added to your spell list if you do not already know them, and they do not count against spells known."
+				"An orb that functions as an Arcane Focus, giving -5 to Passive Perception, but proficiency (expertise if you are already proficient) on Arcana checks. You can cast {@spell legend lore|XPHB} as a 4th level spell, and {@spell identify|XPHB} without expending a spell slot. These spells are added to your spell list if you do not already know them, and they do not count against spells known."
 			]
 		},
 		{
@@ -4097,13 +4097,13 @@
 			"reqAttune": true,
 			"attachedSpells":
 			[
-				"identify|PHB"
+				"identify|XPHB"
 			],
 			"source": "Canbrew",
 			"entries":
 			[
 				"A contraption with a huge pearl on the right side and a hemisphere cavity on the left side. Between the two, numerous lenses and prisms are inlaid. The cavity is surfaced with polished adamantine. Whenever a magical item is brought close to the cavity, the pearl shines with the color of the specific magic school. The pearl's brightness points to the intensity of the magic.",
-				"You can expend a spell slot to infuse the machine with your magic to \"{@spell identify|PHB}\" the item."
+				"You can expend a spell slot to infuse the machine with your magic to \"{@spell identify|XPHB}\" the item."
 			]
 		},
 		{
@@ -4134,7 +4134,7 @@
 					[
 						"If you pay for this statuette willingly, you are cursed.",
 						"As soon as you start fiddling with it, the statuette animates and bites you.",
-						"When bitten you are affected with {@spell bane|PHB} and the rat runs away.",
+						"When bitten you are affected with {@spell bane|XPHB} and the rat runs away.",
 						"To get rid of the curse, you must find the rat, petrify it back to a statuette and sell it.",
 						"For the curse to transfer to another, the creature buying it must pay at least 1 copper piece for it."
 					]
@@ -4162,7 +4162,7 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"While attuned to this earring, you can use an action to send a telepathic message to another creature with another earring of whispers attuned similar to the {@spell sending|PHB} spell with the exceptions:",
+				"While attuned to this earring, you can use an action to send a telepathic message to another creature with another earring of whispers attuned similar to the {@spell sending|XPHB} spell with the exceptions:",
 				{
 					"type": "list",
 					"items":
@@ -4773,9 +4773,9 @@
 						{
 							"spells":
 							[
-								"{@spell eldritch blast|PHB}",
-								"{@spell minor illusion|PHB}",
-								"{@spell prestidigitation|PHB}"
+								"{@spell eldritch blast|XPHB}",
+								"{@spell minor illusion|XPHB}",
+								"{@spell prestidigitation|XPHB}"
 							]
 						},
 						"1":
@@ -4783,10 +4783,10 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell charm person|PHB}",
-								"{@spell expeditious retreat|PHB}",
-								"{@spell illusory script|PHB}",
-								"{@spell unseen servant|PHB}"
+								"{@spell charm person|XPHB}",
+								"{@spell expeditious retreat|XPHB}",
+								"{@spell illusory script|XPHB}",
+								"{@spell unseen servant|XPHB}"
 							]
 						},
 						"2":
@@ -4794,10 +4794,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell suggestion|PHB}",
-								"{@spell darkness|PHB}",
-								"{@spell misty step|PHB}",
-								"{@spell hold person|PHB}"
+								"{@spell suggestion|XPHB}",
+								"{@spell darkness|XPHB}",
+								"{@spell misty step|XPHB}",
+								"{@spell hold person|XPHB}"
 							]
 						},
 						"3":
@@ -4805,10 +4805,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell counterspell|PHB}",
-								"{@spell hypnotic pattern|PHB}",
-								"{@spell fear|PHB}",
-								"{@spell vampiric touch|PHB}"
+								"{@spell counterspell|XPHB}",
+								"{@spell hypnotic pattern|XPHB}",
+								"{@spell fear|XPHB}",
+								"{@spell vampiric touch|XPHB}"
 							]
 						},
 						"4":
@@ -4816,9 +4816,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell banishment|PHB}",
-								"{@spell hallucinatory terrain|PHB}",
-								"{@spell dimension door|PHB}"
+								"{@spell banishment|XPHB}",
+								"{@spell hallucinatory terrain|XPHB}",
+								"{@spell dimension door|XPHB}"
 							]
 						},
 						"5":
@@ -4826,9 +4826,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell contact other plane|PHB}",
-								"{@spell dream|PHB}",
-								"{@spell scrying|PHB}"
+								"{@spell contact other plane|XPHB}",
+								"{@spell dream|XPHB}",
+								"{@spell scrying|XPHB}"
 							]
 						},
 						"6":
@@ -4836,8 +4836,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell mass suggestion|PHB}",
-								"{@spell eyebite|PHB}"
+								"{@spell mass suggestion|XPHB}",
+								"{@spell eyebite|XPHB}"
 							]
 						},
 						"7":
@@ -4845,8 +4845,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell plane shift|PHB}",
-								"{@spell etherealness|PHB}"
+								"{@spell plane shift|XPHB}",
+								"{@spell etherealness|XPHB}"
 							]
 						},
 						"8":
@@ -4854,8 +4854,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell power word stun|PHB}",
-								"{@spell feeblemind|PHB}"
+								"{@spell power word stun|XPHB}",
+								"{@spell feeblemind|XPHB}"
 							]
 						},
 						"9":
@@ -4863,7 +4863,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell true polymorph|PHB}"
+								"{@spell true polymorph|XPHB}"
 							]
 						}
 					},
@@ -5369,8 +5369,8 @@
 						{
 							"spells":
 							[
-								"{@spell chill touch|PHB}",
-								"{@spell blade ward|PHB}"
+								"{@spell chill touch|XPHB}",
+								"{@spell blade ward|XPHB}"
 							]
 						},
 						"1":
@@ -5379,8 +5379,8 @@
 							"spells":
 							[
 								"{@spell chaos bolt|XGE}",
-								"{@spell hex|PHB}",
-								"{@spell witch bolt|PHB}"
+								"{@spell hex|XPHB}",
+								"{@spell witch bolt|XPHB}"
 							]
 						},
 						"2":
@@ -5388,8 +5388,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell augury|PHB}",
-								"{@spell misty step|PHB}",
+								"{@spell augury|XPHB}",
+								"{@spell misty step|XPHB}",
 								"{@spell wither and bloom|SCC}"
 							]
 						}
@@ -5476,7 +5476,7 @@
 					"ac": 15,
 					"from":
 					[
-						"{@item chain shirt|PHB}"
+						"{@item chain shirt|XPHB}"
 					]
 				}
 			],
@@ -5849,7 +5849,7 @@
 					],
 					"will":
 					[
-						"{@spell detect magic|PHB}",
+						"{@spell detect magic|XPHB}",
 						"{@spell chaos bolt|XGE}"
 					],
 					"ability": "int",
@@ -6182,7 +6182,7 @@
 					"ac": 15,
 					"from":
 					[
-						"{@item chain shirt|PHB}"
+						"{@item chain shirt|XPHB}"
 					]
 				}
 			],
@@ -7378,8 +7378,8 @@
 							"spells":
 							[
 								"{@spell lightning lure|SCAG}",
-								"{@spell message|PHB}",
-								"{@spell shocking grasp|PHB}",
+								"{@spell message|XPHB}",
+								"{@spell shocking grasp|XPHB}",
 								"{@spell thunderclap|XGE}"
 							]
 						},
@@ -7389,9 +7389,9 @@
 							"spells":
 							[
 								"{@spell absorb elements|XGE}",
-								"{@spell shield|PHB}",
-								"{@spell thunderwave|PHB}",
-								"{@spell witch bolt|PHB}"
+								"{@spell shield|XPHB}",
+								"{@spell thunderwave|XPHB}",
+								"{@spell witch bolt|XPHB}"
 							]
 						},
 						"2":
@@ -7400,8 +7400,8 @@
 							"spells":
 							[
 								"{@spell dragon's breath|XGE}",
-								"{@spell mirror image|PHB}",
-								"{@spell shatter|PHB}",
+								"{@spell mirror image|XPHB}",
+								"{@spell shatter|XPHB}",
 								"{@spell warding wind|XGE}"
 							]
 						},
@@ -7410,9 +7410,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blink|PHB}",
-								"{@spell counterspell|PHB}",
-								"{@spell lightning bolt|PHB}",
+								"{@spell blink|XPHB}",
+								"{@spell counterspell|XPHB}",
+								"{@spell lightning bolt|XPHB}",
 								"{@spell thunder step|XGE}"
 							]
 						},
@@ -7421,7 +7421,7 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell greater invisibility|PHB}",
+								"{@spell greater invisibility|XPHB}",
 								"{@spell storm sphere|XGE}"
 							]
 						},
@@ -7430,8 +7430,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell cone of cold|PHB}",
-								"{@spell dominate person|PHB}"
+								"{@spell cone of cold|XPHB}",
+								"{@spell dominate person|XPHB}"
 							]
 						},
 						"6":
@@ -7439,8 +7439,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell chain lightning|PHB}",
-								"{@spell globe of invulnerability|PHB}"
+								"{@spell chain lightning|XPHB}",
+								"{@spell globe of invulnerability|XPHB}"
 							]
 						},
 						"7":
@@ -7448,7 +7448,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell fire storm|PHB}"
+								"{@spell fire storm|XPHB}"
 							]
 						}
 					},
@@ -8061,7 +8061,7 @@
 					"type": "entries",
 					"entries":
 					[
-						"Hamael's words are orders for others. It can use its action to {@spell command|PHB} one creature it can see."
+						"Hamael's words are orders for others. It can use its action to {@spell command|XPHB} one creature it can see."
 					]
 				}
 			],
@@ -8092,22 +8092,22 @@
 					],
 					"will":
 					[
-						"{@spell command|PHB}",
-						"{@spell detect evil and good|PHB}"
+						"{@spell command|XPHB}",
+						"{@spell detect evil and good|XPHB}"
 					],
 					"daily":
 					{
 						"3e":
 						[
-							"{@spell blade barrier|PHB}",
-							"{@spell dispel evil and good|PHB}",
-							"{@spell flame strike|PHB}",
-							"{@spell raise dead|PHB}",
-							"{@spell greater restoration|PHB}"
+							"{@spell blade barrier|XPHB}",
+							"{@spell dispel evil and good|XPHB}",
+							"{@spell flame strike|XPHB}",
+							"{@spell raise dead|XPHB}",
+							"{@spell greater restoration|XPHB}"
 						],
 						"1e":
 						[
-							"{@spell control weather|PHB}"
+							"{@spell control weather|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -8296,22 +8296,22 @@
 					],
 					"will":
 					[
-						"{@spell detect evil and good|PHB}",
-						"{@spell greater invisibility|PHB}"
+						"{@spell detect evil and good|XPHB}",
+						"{@spell greater invisibility|XPHB}"
 					],
 					"daily":
 					{
 						"3e":
 						[
-							"{@spell blade barrier|PHB}",
-							"{@spell dispel evil and good|PHB}",
-							"{@spell flame strike|PHB}",
-							"{@spell raise dead|PHB}",
-							"{@spell greater restoration|PHB}"
+							"{@spell blade barrier|XPHB}",
+							"{@spell dispel evil and good|XPHB}",
+							"{@spell flame strike|XPHB}",
+							"{@spell raise dead|XPHB}",
+							"{@spell greater restoration|XPHB}"
 						],
 						"1e":
 						[
-							"{@spell control weather|PHB}"
+							"{@spell control weather|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -8512,15 +8512,15 @@
 					{
 						"3e":
 						[
-							"{@spell blade barrier|PHB}",
-							"{@spell dispel evil and good|PHB}",
-							"{@spell flame strike|PHB}",
-							"{@spell raise dead|PHB}",
-							"{@spell greater restoration|PHB}"
+							"{@spell blade barrier|XPHB}",
+							"{@spell dispel evil and good|XPHB}",
+							"{@spell flame strike|XPHB}",
+							"{@spell raise dead|XPHB}",
+							"{@spell greater restoration|XPHB}"
 						],
 						"1e":
 						[
-							"{@spell control weather|PHB}"
+							"{@spell control weather|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -8724,15 +8724,15 @@
 					{
 						"3e":
 						[
-							"{@spell blade barrier|PHB}",
-							"{@spell dispel evil and good|PHB}",
-							"{@spell flame strike|PHB}",
-							"{@spell raise dead|PHB}",
-							"{@spell greater restoration|PHB}"
+							"{@spell blade barrier|XPHB}",
+							"{@spell dispel evil and good|XPHB}",
+							"{@spell flame strike|XPHB}",
+							"{@spell raise dead|XPHB}",
+							"{@spell greater restoration|XPHB}"
 						],
 						"1e":
 						[
-							"{@spell control weather|PHB}"
+							"{@spell control weather|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -8800,7 +8800,7 @@
 					"ac": 13,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -8937,12 +8937,12 @@
 					"ac": 13,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				},
 				{
 					"ac": 16,
-					"condition": "with {@spell barkskin|PHB}",
+					"condition": "with {@spell barkskin|XPHB}",
 					"braces": true
 				}
 			],
@@ -8998,7 +8998,7 @@
 					"name": "Quarterstaff",
 					"entries":
 					[
-						"{@atk mw} {@hit 3} to hit ({@hit 5} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage with {@spell shillelagh|PHB} or if wielded with two hands."
+						"{@atk mw} {@hit 3} to hit ({@hit 5} to hit with shillelagh), reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage with {@spell shillelagh|XPHB} or if wielded with two hands."
 					]
 				},
 				{
@@ -9023,8 +9023,8 @@
 						{
 							"spells":
 							[
-								"{@spell druidcraft|PHB}",
-								"{@spell shillelaghe|PHB}"
+								"{@spell druidcraft|XPHB}",
+								"{@spell shillelaghe|XPHB}"
 							]
 						},
 						"1":
@@ -9032,9 +9032,9 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell entangle|PHB}",
-								"{@spell goodberry|PHB}",
-								"{@spell speak with animals|PHB}"
+								"{@spell entangle|XPHB}",
+								"{@spell goodberry|XPHB}",
+								"{@spell speak with animals|XPHB}"
 							]
 						},
 						"2":
@@ -9042,8 +9042,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell lesser restoration|PHB}",
-								"{@spell barkskin|PHB}",
+								"{@spell lesser restoration|XPHB}",
+								"{@spell barkskin|XPHB}",
 								"{@spell healing spirit|XGE}"
 							]
 						},
@@ -9052,7 +9052,7 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell conjure animals|PHB}",
+								"{@spell conjure animals|XPHB}",
 								"{@spell tidal wave|XGE}"
 							]
 						},
@@ -9061,8 +9061,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell conjure minor elementals|PHB}",
-								"{@spell control water|PHB}"
+								"{@spell conjure minor elementals|XPHB}",
+								"{@spell control water|XPHB}"
 							]
 						}
 					},
@@ -9250,7 +9250,7 @@
 					"ac": 16,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -9405,7 +9405,7 @@
 					"ac": 17,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -10750,8 +10750,8 @@
 						{
 							"spells":
 							[
-								"{@spell light|PHB}",
-								"{@spell sacred flame|PHB}"
+								"{@spell light|XPHB}",
+								"{@spell sacred flame|XPHB}"
 							]
 						},
 						"1":
@@ -10759,8 +10759,8 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell cure wounds|PHB}",
-								"{@spell sanctuary|PHB}"
+								"{@spell cure wounds|XPHB}",
+								"{@spell sanctuary|XPHB}"
 							]
 						},
 						"2":
@@ -10768,8 +10768,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell lesser restoration|PHB}",
-								"{@spell detect magic|PHB}"
+								"{@spell lesser restoration|XPHB}",
+								"{@spell detect magic|XPHB}"
 							]
 						},
 						"3":
@@ -10777,8 +10777,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell dispel magic|PHB}",
-								"{@spell spirit guardians|PHB}"
+								"{@spell dispel magic|XPHB}",
+								"{@spell spirit guardians|XPHB}"
 							]
 						},
 						"4":
@@ -10786,15 +10786,15 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell banishment|PHB}",
-								"{@spell guardian of faith|PHB}"
+								"{@spell banishment|XPHB}",
+								"{@spell guardian of faith|XPHB}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells":
 							[
-								"{@spell greater restoration|PHB}"
+								"{@spell greater restoration|XPHB}"
 							]
 						}
 					},
@@ -10986,8 +10986,8 @@
 						{
 							"spells":
 							[
-								"{@spell vicious mockery|PHB}",
-								"{@spell friends|PHB}"
+								"{@spell vicious mockery|XPHB}",
+								"{@spell friends|XPHB}"
 							]
 						},
 						"1":
@@ -10995,9 +10995,9 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell healing word|PHB}",
-								"{@spell heroism|PHB}",
-								"{@spell shield|PHB}"
+								"{@spell healing word|XPHB}",
+								"{@spell heroism|XPHB}",
+								"{@spell shield|XPHB}"
 							]
 						},
 						"2":
@@ -11006,7 +11006,7 @@
 							"spells":
 							[
 								"{@spell pyrotechnics|XGE}",
-								"{@spell suggestion|PHB}"
+								"{@spell suggestion|XPHB}"
 							]
 						},
 						"3":
@@ -11014,8 +11014,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell leomund's tiny hut|PHB}",
-								"{@spell motivational speech|PHB}"
+								"{@spell leomund's tiny hut|XPHB}",
+								"{@spell motivational speech|XPHB}"
 							]
 						},
 						"4":
@@ -11023,15 +11023,15 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell dimension door|PHB}",
-								"{@spell polymorph|PHB}"
+								"{@spell dimension door|XPHB}",
+								"{@spell polymorph|XPHB}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells":
 							[
-								"{@spell animate objects|PHB}"
+								"{@spell animate objects|XPHB}"
 							]
 						}
 					},
@@ -11223,9 +11223,9 @@
 						{
 							"spells":
 							[
-								"{@spell chill touch|PHB}",
-								"{@spell eldritch blast|PHB}",
-								"{@spell mage hand|PHB}"
+								"{@spell chill touch|XPHB}",
+								"{@spell eldritch blast|XPHB}",
+								"{@spell mage hand|XPHB}"
 							]
 						},
 						"5":
@@ -11234,9 +11234,9 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell conjure animals|PHB} (spiders only)",
-								"{@spell dimension door|PHB}",
-								"{@spell invisibility|PHB}"
+								"{@spell conjure animals|XPHB} (spiders only)",
+								"{@spell dimension door|XPHB}",
+								"{@spell invisibility|XPHB}"
 							]
 						}
 					},
@@ -11428,8 +11428,8 @@
 						{
 							"spells":
 							[
-								"{@spell fire bolt|PHB}",
-								"{@spell prestidigitation|PHB}"
+								"{@spell fire bolt|XPHB}",
+								"{@spell prestidigitation|XPHB}"
 							]
 						},
 						"1":
@@ -11437,9 +11437,9 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell mage armor|PHB}",
-								"{@spell magic missile|PHB}",
-								"{@spell shield|PHB}"
+								"{@spell mage armor|XPHB}",
+								"{@spell magic missile|XPHB}",
+								"{@spell shield|XPHB}"
 							]
 						},
 						"2":
@@ -11447,8 +11447,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell detect thoughts|PHB}",
-								"{@spell misty step|PHB}"
+								"{@spell detect thoughts|XPHB}",
+								"{@spell misty step|XPHB}"
 							]
 						},
 						"3":
@@ -11456,8 +11456,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell counterspell|PHB}",
-								"{@spell fireball|PHB}"
+								"{@spell counterspell|XPHB}",
+								"{@spell fireball|XPHB}"
 							]
 						},
 						"4":
@@ -11465,15 +11465,15 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell stoneskin|PHB}",
-								"{@spell polymorph|PHB}"
+								"{@spell stoneskin|XPHB}",
+								"{@spell polymorph|XPHB}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells":
 							[
-								"{@spell conjure elemental|PHB}"
+								"{@spell conjure elemental|XPHB}"
 							]
 						}
 					},
@@ -12017,7 +12017,7 @@
 				12,
 				{
 					"ac": 15,
-					"condition": "with {@spell mage armor|PHB}",
+					"condition": "with {@spell mage armor|XPHB}",
 					"braces": true
 				}
 			],
@@ -12071,20 +12071,20 @@
 						{
 							"spells":
 							[
-								"{@spell fire bolt|PHB}",
-								"{@spell light|PHB}",
-								"{@spell mage hand|PHB}",
-								"{@spell prestidigitation|PHB}"
+								"{@spell fire bolt|XPHB}",
+								"{@spell light|XPHB}",
+								"{@spell mage hand|XPHB}",
+								"{@spell prestidigitation|XPHB}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells":
 							[
-								"{@spell witch bolt|PHB}",
-								"{@spell mage armor|PHB}",
-								"{@spell magic missile|PHB}",
-								"{@spell shield|PHB}"
+								"{@spell witch bolt|XPHB}",
+								"{@spell mage armor|XPHB}",
+								"{@spell magic missile|XPHB}",
+								"{@spell shield|XPHB}"
 							]
 						},
 						"2":
@@ -12092,8 +12092,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell misty step|PHB}",
-								"{@spell suggestion|PHB}"
+								"{@spell misty step|XPHB}",
+								"{@spell suggestion|XPHB}"
 							]
 						},
 						"3":
@@ -12101,9 +12101,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell counterspell|PHB}",
-								"{@spell fireball|PHB}",
-								"{@spell fly|PHB}"
+								"{@spell counterspell|XPHB}",
+								"{@spell fireball|XPHB}",
+								"{@spell fly|XPHB}"
 							]
 						},
 						"4":
@@ -12111,8 +12111,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell greater invisibility|PHB}",
-								"{@spell ice storm|PHB}"
+								"{@spell greater invisibility|XPHB}",
+								"{@spell ice storm|XPHB}"
 							]
 						},
 						"5":
@@ -12120,7 +12120,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell cone of cold|PHB}"
+								"{@spell cone of cold|XPHB}"
 							]
 						}
 					},
@@ -12549,8 +12549,8 @@
 						{
 							"spells":
 							[
-								"{@spell light|PHB}",
-								"{@spell sacred flame|PHB}"
+								"{@spell light|XPHB}",
+								"{@spell sacred flame|XPHB}"
 							]
 						},
 						"1":
@@ -12558,8 +12558,8 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell identify|PHB}",
-								"{@spell searing smite|PHB}"
+								"{@spell identify|XPHB}",
+								"{@spell searing smite|XPHB}"
 							]
 						},
 						"2":
@@ -12567,8 +12567,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell heat metal|PHB}",
-								"{@spell magic meapon|PHB}"
+								"{@spell heat metal|XPHB}",
+								"{@spell magic meapon|XPHB}"
 							]
 						},
 						"3":
@@ -12576,8 +12576,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell elemental weapon|PHB}",
-								"{@spell protection from energy|PHB}"
+								"{@spell elemental weapon|XPHB}",
+								"{@spell protection from energy|XPHB}"
 							]
 						},
 						"4":
@@ -12585,16 +12585,16 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell fabricate|PHB}",
-								"{@spell wall of fire|PHB}"
+								"{@spell fabricate|XPHB}",
+								"{@spell wall of fire|XPHB}"
 							]
 						},
 						"5": {
 							"slots": 1,
 							"spells":
 							[
-								"{@spell animate objects|PHB}",
-								"{@spell creation|PHB}"
+								"{@spell animate objects|XPHB}",
+								"{@spell creation|XPHB}"
 							]
 						}
 					},
@@ -12922,12 +12922,12 @@
 						{
 							"spells":
 							[
-								"{@spell fire bolt|PHB}",
-								"{@spell light|PHB}",
-								"{@spell mage hand|PHB}",
-								"{@spell mending|PHB}",
-								"{@spell prestidigitation|PHB}",
-								"{@spell shocking grasp|PHB}"
+								"{@spell fire bolt|XPHB}",
+								"{@spell light|XPHB}",
+								"{@spell mage hand|XPHB}",
+								"{@spell mending|XPHB}",
+								"{@spell prestidigitation|XPHB}",
+								"{@spell shocking grasp|XPHB}"
 							]
 						},
 						"1":
@@ -12935,11 +12935,11 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell expeditious retreat|PHB}",
-								"{@spell feather fall|PHB}",
-								"{@spell magic missile|PHB}",
-								"{@spell shield|PHB}",
-								"{@spell thunderwave|PHB}"
+								"{@spell expeditious retreat|XPHB}",
+								"{@spell feather fall|XPHB}",
+								"{@spell magic missile|XPHB}",
+								"{@spell shield|XPHB}",
+								"{@spell thunderwave|XPHB}"
 							]
 						},
 						"2":
@@ -12948,14 +12948,14 @@
 							"spells":
 							[
 								"{@spell aganazzar's scorcher|XGE}",
-								"{@spell darkness|PHB}",
-								"{@spell darkvision|PHB}",
-								"{@spell knock|PHB}",
+								"{@spell darkness|XPHB}",
+								"{@spell darkvision|XPHB}",
+								"{@spell knock|XPHB}",
 								"{@spell mental barrier|UAFRW}",
-								"{@spell misty step|PHB}",
-								"{@spell see invisibility|PHB}",
+								"{@spell misty step|XPHB}",
+								"{@spell see invisibility|XPHB}",
 								"{@spell shadow blade|XGE}",
-								"{@spell thought shield|PHB}"
+								"{@spell thought shield|XPHB}"
 							]
 						},
 						"3":
@@ -12963,14 +12963,14 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blink|PHB}",
-								"{@spell counterspell|PHB}",
-								"{@spell dispel magic|PHB}",
-								"{@spell fireball|PHB}",
-								"{@spell haste|PHB}",
-								"{@spell lightning bolt|PHB}",
+								"{@spell blink|XPHB}",
+								"{@spell counterspell|XPHB}",
+								"{@spell dispel magic|XPHB}",
+								"{@spell fireball|XPHB}",
+								"{@spell haste|XPHB}",
+								"{@spell lightning bolt|XPHB}",
 								"{@spell melf's minute meteors|XGE}",
-								"{@spell water breathing|PHB}"
+								"{@spell water breathing|XPHB}"
 							]
 						},
 						"4":
@@ -12978,18 +12978,18 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell dimension door|PHB}",
-								"{@spell dominate beast|PHB}",
-								"{@spell hreater invisibility|PHB}"
+								"{@spell dimension door|XPHB}",
+								"{@spell dominate beast|XPHB}",
+								"{@spell hreater invisibility|XPHB}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells":
 							[
-								"{@spell far step|PHB}",
+								"{@spell far step|XPHB}",
 								"{@spell immolation|XGE}",
-								"{@spell teleportation circle|PHB}"
+								"{@spell teleportation circle|XPHB}"
 							]
 						},
 						"6": {
@@ -12997,15 +12997,15 @@
 							"spells":
 							[
 								"{@spell investiture of flame|XGE}",
-								"{@spell true seeing|PHB}"
+								"{@spell true seeing|XPHB}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells":
 							[
-								"{@spell fire storm|PHB}",
-								"{@spell plane shift|PHB}"
+								"{@spell fire storm|XPHB}",
+								"{@spell plane shift|XPHB}"
 							]
 						}
 					},
@@ -15186,7 +15186,7 @@
 					"ac": 15,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -15310,7 +15310,7 @@
 					"ac": 13,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -15438,7 +15438,7 @@
 					"ac": 13,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -15632,23 +15632,23 @@
 					],
 					"will":
 					[
-						"{@spell detect poison and disease|PHB}",
-						"{@spell faerie fire|PHB}",
+						"{@spell detect poison and disease|XPHB}",
+						"{@spell faerie fire|XPHB}",
 						"{@spell gust|XGE}",
-						"{@spell mage hand|PHB}"
+						"{@spell mage hand|XPHB}"
 					],
 					"daily":
 					{
 						"1e":
 						[
-							"{@spell cloudkill|PHB}",
-							"{@spell insect plague|PHB}"
+							"{@spell cloudkill|XPHB}",
+							"{@spell insect plague|XPHB}"
 						],
 						"2e":
 						[
-							"{@spell fog cloud|PHB}",
-							"{@spell giant insect|PHB}",
-							"{@spell misty step|PHB}"
+							"{@spell fog cloud|XPHB}",
+							"{@spell giant insect|XPHB}",
+							"{@spell misty step|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -15779,7 +15779,7 @@
 					"ac": 13,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -16180,7 +16180,7 @@
 					"ac": 17,
 					"from":
 					[
-						"{@item half plate armor|PHB}"
+						"{@item half plate armor|XPHB}"
 					]
 				}
 			],
@@ -16366,7 +16366,7 @@
 					"ac": 14,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -16558,7 +16558,7 @@
 					"ac": 17,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -16763,7 +16763,7 @@
 					"ac": 18,
 					"from":
 					[
-						"{@item plate armor|PHB}"
+						"{@item plate armor|XPHB}"
 					]
 				}
 			],
@@ -16962,7 +16962,7 @@
 					"ac": 17,
 					"from":
 					[
-						"{@item half plate armor|PHB}"
+						"{@item half plate armor|XPHB}"
 					]
 				}
 			],
@@ -17157,7 +17157,7 @@
 					"ac": 15,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -17362,7 +17362,7 @@
 					"ac": 18,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -17583,7 +17583,7 @@
 					"ac": 18,
 					"from":
 					[
-						"{@item plate armor|PHB}"
+						"{@item plate armor|XPHB}"
 					]
 				}
 			],
@@ -17797,7 +17797,7 @@
 					"ac": 17,
 					"from":
 					[
-						"{@item half plate armor|PHB}"
+						"{@item half plate armor|XPHB}"
 					]
 				}
 			],
@@ -18003,7 +18003,7 @@
 					"ac": 14,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -18216,7 +18216,7 @@
 					"ac": 19,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -18444,7 +18444,7 @@
 					"ac": 18,
 					"from":
 					[
-						"{@item plate armor|PHB}"
+						"{@item plate armor|XPHB}"
 					]
 				}
 			],
@@ -18665,7 +18665,7 @@
 					"ac": 17,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -18764,23 +18764,23 @@
 					],
 					"will":
 					[
-						"{@spell detect poison and disease|PHB}",
-						"{@spell faerie fire|PHB}",
+						"{@spell detect poison and disease|XPHB}",
+						"{@spell faerie fire|XPHB}",
 						"{@spell gust|XGE}",
-						"{@spell mage hand|PHB}"
+						"{@spell mage hand|XPHB}"
 					],
 					"daily":
 					{
 						"1e":
 						[
-							"{@spell cloudkill|PHB}",
-							"{@spell insect plague|PHB}"
+							"{@spell cloudkill|XPHB}",
+							"{@spell insect plague|XPHB}"
 						],
 						"2e":
 						[
-							"{@spell fog cloud|PHB}",
-							"{@spell giant insect|PHB}",
-							"{@spell misty step|PHB}"
+							"{@spell fog cloud|XPHB}",
+							"{@spell giant insect|XPHB}",
+							"{@spell misty step|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -18848,7 +18848,7 @@
 					"ac": 18,
 					"from":
 					[
-						"{@item plate armor|PHB}"
+						"{@item plate armor|XPHB}"
 					]
 				}
 			],
@@ -19025,7 +19025,7 @@
 					],
 					"will":
 					[
-						"{@spell sleep|PHB}"
+						"{@spell sleep|XPHB}"
 					],
 					"hidden":
 					[
@@ -19197,7 +19197,7 @@
 					],
 					"will":
 					[
-						"{@spell fog cloud|PHB}"
+						"{@spell fog cloud|XPHB}"
 					],
 					"hidden":
 					[
@@ -19515,11 +19515,11 @@
 					"name": "Innate Spellcasting (1/Day)",
 					"headerEntries":
 					[
-						"The mephit can innately cast {@spell grease|PHB} (spell save {@dc 13}), requiring no material components. Its innate spellcasting ability is Charisma."
+						"The mephit can innately cast {@spell grease|XPHB} (spell save {@dc 13}), requiring no material components. Its innate spellcasting ability is Charisma."
 					],
 					"will":
 					[
-						"{@spell grease|PHB}"
+						"{@spell grease|XPHB}"
 					],
 					"hidden":
 					[
@@ -19677,7 +19677,7 @@
 					],
 					"will":
 					[
-						"{@spell dancing lights|PHB}"
+						"{@spell dancing lights|XPHB}"
 					],
 					"hidden":
 					[
@@ -20712,7 +20712,7 @@
 					{
 						"8e":
 						[
-							"{@spell healing word|PHB}"
+							"{@spell healing word|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -20812,7 +20812,7 @@
 					],
 					"will":
 					[
-						"{@spell light|PHB}"
+						"{@spell light|XPHB}"
 					],
 					"ability": "cha",
 					"type": "spellcasting"
@@ -21461,9 +21461,9 @@
 						{
 							"spells":
 							[
-								"{@spell mage hand|PHB}",
-								"{@spell prestidigitation|PHB}",
-								"{@spell ray of frost|PHB}"
+								"{@spell mage hand|XPHB}",
+								"{@spell prestidigitation|XPHB}",
+								"{@spell ray of frost|XPHB}"
 							]
 						},
 						"1":
@@ -21471,10 +21471,10 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell detect magic|PHB}",
-								"{@spell magic missile|PHB}",
-								"{@spell shield|PHB}",
-								"{@spell thunderwave|PHB}"
+								"{@spell detect magic|XPHB}",
+								"{@spell magic missile|XPHB}",
+								"{@spell shield|XPHB}",
+								"{@spell thunderwave|XPHB}"
 							]
 						},
 						"2":
@@ -21482,10 +21482,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell detect thoughts|PHB}",
-								"{@spell invisibility|PHB}",
-								"{@spell enhance ability|PHB}",
-								"{@spell mirror image|PHB}"
+								"{@spell detect thoughts|XPHB}",
+								"{@spell invisibility|XPHB}",
+								"{@spell enhance ability|XPHB}",
+								"{@spell mirror image|XPHB}"
 							]
 						},
 						"3":
@@ -21493,10 +21493,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell animate dead|PHB}",
-								"{@spell counterspell|PHB}",
-								"{@spell dispel magic|PHB}",
-								"{@spell fireball|PHB}"
+								"{@spell animate dead|XPHB}",
+								"{@spell counterspell|XPHB}",
+								"{@spell dispel magic|XPHB}",
+								"{@spell fireball|XPHB}"
 							]
 						},
 						"4":
@@ -21504,8 +21504,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blight|PHB}",
-								"{@spell dimension door|PHB}"
+								"{@spell blight|XPHB}",
+								"{@spell dimension door|XPHB}"
 							]
 						},
 						"5":
@@ -21513,8 +21513,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell cloudkill|PHB}",
-								"{@spell scrying|PHB}"
+								"{@spell cloudkill|XPHB}",
+								"{@spell scrying|XPHB}"
 							]
 						},
 						"6":
@@ -21522,8 +21522,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell disintegrate|PHB}",
-								"{@spell globe of invulnerability|PHB}"
+								"{@spell disintegrate|XPHB}",
+								"{@spell globe of invulnerability|XPHB}"
 							]
 						},
 						"7":
@@ -21531,8 +21531,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell finger of death|PHB}",
-								"{@spell plane shift|PHB}"
+								"{@spell finger of death|XPHB}",
+								"{@spell plane shift|XPHB}"
 							]
 						},
 						"8":
@@ -21540,8 +21540,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell dominate monster|PHB}",
-								"{@spell power word stun|PHB}"
+								"{@spell dominate monster|XPHB}",
+								"{@spell power word stun|XPHB}"
 							]
 						},
 						"9":
@@ -21549,7 +21549,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell power word kill|PHB}"
+								"{@spell power word kill|XPHB}"
 							]
 						}
 					},
@@ -21673,7 +21673,7 @@
 					"ac": 19,
 					"from":
 					[
-						"{@item half plate armor|PHB}"
+						"{@item half plate armor|XPHB}"
 					]
 				}
 			],
@@ -21831,8 +21831,8 @@
 							"spells":
 							[
 								"{@spell booming blade|TCE}",
-								"{@spell mage hand|PHB}",
-								"{@spell ray of frost|PHB}"
+								"{@spell mage hand|XPHB}",
+								"{@spell ray of frost|XPHB}"
 							]
 						},
 						"1":
@@ -21841,9 +21841,9 @@
 							"spells":
 							[
 								"{@spell absorb elements|XGE}",
-								"{@spell shield|PHB}",
-								"{@spell zephyr strike|PHB}",
-								"{@spell detect magic|PHB}"
+								"{@spell shield|XPHB}",
+								"{@spell zephyr strike|XPHB}",
+								"{@spell detect magic|XPHB}"
 							]
 						},
 						"2":
@@ -21852,7 +21852,7 @@
 							"spells":
 							[
 								"{@spell mental barrier|UAFRW}",
-								"{@spell mirror image|PHB}",
+								"{@spell mirror image|XPHB}",
 								"{@spell warding wind|XGE}"
 							]
 						},
@@ -21861,9 +21861,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell counterspell|PHB}", 
+								"{@spell counterspell|XPHB}", 
 								"{@spell galder's tower|LLK}",
-								"{@spell haste|PHB}"
+								"{@spell haste|XPHB}"
 							]
 						},
 						"4":
@@ -21871,9 +21871,9 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell banishment|PHB}",
-								"{@spell dimension door|PHB}",
-								"{@spell fire shield|PHB}"
+								"{@spell banishment|XPHB}",
+								"{@spell dimension door|XPHB}",
+								"{@spell fire shield|XPHB}"
 							]
 						},
 						"5":
@@ -22169,8 +22169,8 @@
 						{
 							"spells":
 							[
-								"{@spell mage hand|PHB}",
-								"{@spell chill touch|PHB}"
+								"{@spell mage hand|XPHB}",
+								"{@spell chill touch|XPHB}"
 							]
 						},
 						"1":
@@ -22179,8 +22179,8 @@
 							"spells":
 							[
 								"{@spell cause fear|XGE}",
-								"{@spell detect magic|PHB}",
-								"{@spell find familiar|PHB}"
+								"{@spell detect magic|XPHB}",
+								"{@spell find familiar|XPHB}"
 							]
 						},
 						"2":
@@ -22189,7 +22189,7 @@
 							"spells":
 							[
 								"{@spell mental barrier|UAFRW}",
-								"{@spell crown of madness|PHB}"
+								"{@spell crown of madness|XPHB}"
 							]
 						},
 						"3":
@@ -22197,10 +22197,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell animate dead|PHB}",
-								"{@spell dispel magic|PHB}",
-								"{@spell revivify|PHB}",
-								"{@spell speak with dead|PHB}"
+								"{@spell animate dead|XPHB}",
+								"{@spell dispel magic|XPHB}",
+								"{@spell revivify|XPHB}",
+								"{@spell speak with dead|XPHB}"
 							]
 						},
 						"4":
@@ -22208,10 +22208,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blight|PHB}",
+								"{@spell blight|XPHB}",
 								"{@spell charm monster|XGE}",
-								"{@spell compulsion|PHB}",
-								"{@spell confusion|PHB}"
+								"{@spell compulsion|XPHB}",
+								"{@spell confusion|XPHB}"
 							]
 						},
 						"5":
@@ -22219,10 +22219,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell contagion|PHB}",
-								"{@spell dance macabre|PHB}",
-								"{@spell geas|PHB}",
-								"{@spell raise dead|PHB}"
+								"{@spell contagion|XPHB}",
+								"{@spell dance macabre|XPHB}",
+								"{@spell geas|XPHB}",
+								"{@spell raise dead|XPHB}"
 							]
 						},
 						"6":
@@ -22230,9 +22230,9 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell create undead|PHB}",
-								"{@spell mass suggestion|PHB}",
-								"{@spell true seeing|PHB}"
+								"{@spell create undead|XPHB}",
+								"{@spell mass suggestion|XPHB}",
+								"{@spell true seeing|XPHB}"
 							]
 						},
 						"7":
@@ -22240,9 +22240,9 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell mirage arcane|PHB}",
-								"{@spell regenerate|PHB}",
-								"{@spell resurrection|PHB}"
+								"{@spell mirage arcane|XPHB}",
+								"{@spell regenerate|XPHB}",
+								"{@spell resurrection|XPHB}"
 							]
 						},
 						"8":
@@ -22250,9 +22250,9 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell maze|PHB}",
-								"{@spell feeblemind|PHB}",
-								"{@spell control water|PHB}"
+								"{@spell maze|XPHB}",
+								"{@spell feeblemind|XPHB}",
+								"{@spell control water|XPHB}"
 							]
 						},
 						"9":
@@ -22261,7 +22261,7 @@
 							"spells":
 							[
 								"{@spell power word heal|}",
-								"{@spell foresight|PHB}"
+								"{@spell foresight|XPHB}"
 							]
 						}
 					},
@@ -22555,10 +22555,10 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell bane|PHB}",
-								"{@spell ceramony|PHB}",
-								"{@spell command|PHB}",
-								"{@spell hunter's mark|PHB}"
+								"{@spell bane|XPHB}",
+								"{@spell ceramony|XPHB}",
+								"{@spell command|XPHB}",
+								"{@spell hunter's mark|XPHB}"
 							]
 						},
 						"2":
@@ -22566,10 +22566,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell branding smite|PHB}",
-								"{@spell detect thoughts|PHB}",
-								"{@spell hold person|PHB}",
-								"{@spell misty step|PHB}"
+								"{@spell branding smite|XPHB}",
+								"{@spell detect thoughts|XPHB}",
+								"{@spell hold person|XPHB}",
+								"{@spell misty step|XPHB}"
 							]
 						},
 						"3":
@@ -22577,10 +22577,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blinding smite|PHB}",
-								"{@spell remove curse|PHB}",
-								"{@spell haste|PHB}",
-								"{@spell protection from energy|PHB}"
+								"{@spell blinding smite|XPHB}",
+								"{@spell remove curse|XPHB}",
+								"{@spell haste|XPHB}",
+								"{@spell protection from energy|XPHB}"
 							]
 						},
 						"4":
@@ -22588,10 +22588,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell banishment|PHB}",
-								"{@spell death ward|PHB}",
-								"{@spell dimension door|PHB}",
-								"{@spell find greater steed|PHB}"
+								"{@spell banishment|XPHB}",
+								"{@spell death ward|XPHB}",
+								"{@spell dimension door|XPHB}",
+								"{@spell find greater steed|XPHB}"
 							]
 						},
 						"5":
@@ -22600,8 +22600,8 @@
 							"spells":
 							[
 								"{@spell destructive wave}",
-								"{@spell hold monster|PHB}",
-								"{@spell scrying|PHB}"
+								"{@spell hold monster|XPHB}",
+								"{@spell scrying|XPHB}"
 							]
 						}
 					},
@@ -23078,12 +23078,12 @@
 							"type": "list",
 							"items":
 							[
-								"{@optfeature Agonizing Blast|PHB}",
+								"{@optfeature Agonizing Blast|XPHB}",
 								"{@optfeature Grasp of Hadar|XGE}",
-								"{@optfeature Repelling Blast|PHB}",
+								"{@optfeature Repelling Blast|XPHB}",
 								"{@optfeature Relentless Hex|XGE}",
 								"{@optfeature Shroud of Shadow|XGE}",
-								"{@optfeature Witch Sight|PHB}"
+								"{@optfeature Witch Sight|XPHB}"
 							]
 						}
 					]
@@ -23138,16 +23138,16 @@
 					],
 					"will":
 					[
-						"{@spell disguise self|PHB}",
-						"{@spell mage armor|PHB} (self only)",
-						"{@spell silent image|PHB}",
-						"{@spell speak with animals|PHB}"
+						"{@spell disguise self|XPHB}",
+						"{@spell mage armor|XPHB} (self only)",
+						"{@spell silent image|XPHB}",
+						"{@spell speak with animals|XPHB}"
 					],
 					"daily":
 					{
 						"1":
 						[
-							"{@spell conjure fey|PHB}"
+							"{@spell conjure fey|XPHB}"
 						]
 					},
 					"ability": "cha",
@@ -23165,13 +23165,13 @@
 						{
 							"spells":
 							[
-								"{@spell dancing lights|PHB}",
-								"{@spell eldritch blast|PHB}",
-								"{@spell friends|PHB}",
-								"{@spell mage hand|PHB}",
-								"{@spell minor illusion|PHB}",
-								"{@spell prestidigitation|PHB}",
-								"{@spell vicious mockery|PHB}"
+								"{@spell dancing lights|XPHB}",
+								"{@spell eldritch blast|XPHB}",
+								"{@spell friends|XPHB}",
+								"{@spell mage hand|XPHB}",
+								"{@spell minor illusion|XPHB}",
+								"{@spell prestidigitation|XPHB}",
+								"{@spell vicious mockery|XPHB}"
 							]
 						},
 						"5":
@@ -23180,19 +23180,19 @@
 							"slots": 5,
 							"spells":
 							[
-								"{@spell blink|PHB}",
-								"{@spell charm person|PHB}",
-								"{@spell darkness|PHB}",
-								"{@spell dimension door|PHB}",
-								"{@spell dominate beast|PHB}",
-								"{@spell faerie fire|PHB}",
-								"{@spell fear|PHB}",
-								"{@spell hex|PHB}",
-								"{@spell hold monster|PHB}",
-								"{@spell misty step|PHB}",
-								"{@spell phantasmal force|PHB}",
-								"{@spell seeming|PHB}",
-								"{@spell sleep|PHB}"
+								"{@spell blink|XPHB}",
+								"{@spell charm person|XPHB}",
+								"{@spell darkness|XPHB}",
+								"{@spell dimension door|XPHB}",
+								"{@spell dominate beast|XPHB}",
+								"{@spell faerie fire|XPHB}",
+								"{@spell fear|XPHB}",
+								"{@spell hex|XPHB}",
+								"{@spell hold monster|XPHB}",
+								"{@spell misty step|XPHB}",
+								"{@spell phantasmal force|XPHB}",
+								"{@spell seeming|XPHB}",
+								"{@spell sleep|XPHB}"
 							]
 						}
 					},
@@ -23736,9 +23736,9 @@
 						{
 							"spells":
 							[
-								"{@spell shocking grasp|PHB}",
-								"{@spell prestidigitation|PHB}",
-								"{@spell mending|PHB}"
+								"{@spell shocking grasp|XPHB}",
+								"{@spell prestidigitation|XPHB}",
+								"{@spell mending|XPHB}"
 							]
 						},
 						"1":
@@ -23746,10 +23746,10 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell detect magic|PHB}",
-								"{@spell identfy|PHB}",
-								"{@spell feather fall|PHB}",
-								"{@spell snare|PHB}"
+								"{@spell detect magic|XPHB}",
+								"{@spell identfy|XPHB}",
+								"{@spell feather fall|XPHB}",
+								"{@spell snare|XPHB}"
 							]
 						},
 						"2":
@@ -23757,10 +23757,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell arcane lock|PHB}",
-								"{@spell blur|PHB}",
-								"{@spell heat metal|PHB}",
-								"{@spell see invisibility|PHB}"
+								"{@spell arcane lock|XPHB}",
+								"{@spell blur|XPHB}",
+								"{@spell heat metal|XPHB}",
+								"{@spell see invisibility|XPHB}"
 							]
 						},
 						"3":
@@ -23768,9 +23768,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell dispel magic|PHB}",
-								"{@spell glyph of warding|PHB}",
-								"{@spell haste|PHB}",
+								"{@spell dispel magic|XPHB}",
+								"{@spell glyph of warding|XPHB}",
+								"{@spell haste|XPHB}",
 								"{@spell tiny servant|XGE}"
 							]
 						},
@@ -23779,9 +23779,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell fabricate|PHB}",
-								"{@spell leomund's secret chest|PHB}",
-								"{@spell otiluke's resilient sphere|PHB}"
+								"{@spell fabricate|XPHB}",
+								"{@spell leomund's secret chest|XPHB}",
+								"{@spell otiluke's resilient sphere|XPHB}"
 							]
 						},
 						"5":
@@ -23789,8 +23789,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell bigby's hand|PHB}",
-								"{@spell creation|PHB}"
+								"{@spell bigby's hand|XPHB}",
+								"{@spell creation|XPHB}"
 							]
 						}
 					},
@@ -24325,10 +24325,10 @@
 							"spells":
 							[
 								"{@spell absorb elements|XGE}",
-								"{@spell beast bond|PHB}",
-								"{@spell ensnaring strike|PHB}",
-								"{@spell hunter's mark|PHB}",
-								"{@spell zephyr strike|PHB}"
+								"{@spell beast bond|XPHB}",
+								"{@spell ensnaring strike|XPHB}",
+								"{@spell hunter's mark|XPHB}",
+								"{@spell zephyr strike|XPHB}"
 							]
 						},
 						"2":
@@ -24336,10 +24336,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell beast sense|PHB}",   
+								"{@spell beast sense|XPHB}",   
 								"{@spell healing spirit|XGE}",
-								"{@spell pass without trace|PHB}",
-								"{@spell silence|PHB}"
+								"{@spell pass without trace|XPHB}",
+								"{@spell silence|XPHB}"
 							]
 						},
 						"3":
@@ -24347,9 +24347,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell conjure animals|PHB}",
-								"{@spell nondetection|PHB}",
-								"{@spell plant growth|PHB}"
+								"{@spell conjure animals|XPHB}",
+								"{@spell nondetection|XPHB}",
+								"{@spell plant growth|XPHB}"
 							]
 						},
 						"4":
@@ -24357,8 +24357,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell conjure woodland beings|PHB}",
-								"{@spell locate creature|PHB}"
+								"{@spell conjure woodland beings|XPHB}",
+								"{@spell locate creature|XPHB}"
 							]
 						}
 					},
@@ -24894,7 +24894,7 @@
 					"ac": 19,
 					"from":
 					[
-						"natural armor, {@item plate armor|PHB}"
+						"natural armor, {@item plate armor|XPHB}"
 					]
 				}
 			],
@@ -25074,10 +25074,10 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell bane|PHB}",
-								"{@spell guiding bolt|PHB}",
-								"{@spell bless|PHB}",
-								"{@spell heroism|PHB}"
+								"{@spell bane|XPHB}",
+								"{@spell guiding bolt|XPHB}",
+								"{@spell bless|XPHB}",
+								"{@spell heroism|XPHB}"
 							]
 						},
 						"2":
@@ -25085,10 +25085,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell branding smite|PHB}",   
-								"{@spell calm emotions|PHB}",
-								"{@spell detect thoughts|PHB}",
-								"{@spell zone of truth|PHB}"
+								"{@spell branding smite|XPHB}",   
+								"{@spell calm emotions|XPHB}",
+								"{@spell detect thoughts|XPHB}",
+								"{@spell zone of truth|XPHB}"
 							]
 						},
 						"3":
@@ -25096,9 +25096,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell dispel magic|PHB}",
-								"{@spell daylight|PHB}",
-								"{@spell elemental weapon|PHB}"
+								"{@spell dispel magic|XPHB}",
+								"{@spell daylight|XPHB}",
+								"{@spell elemental weapon|XPHB}"
 							]
 						},
 						"4":
@@ -25106,8 +25106,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell aura of purity|PHB}",
-								"{@spell freedom of movement|PHB}"
+								"{@spell aura of purity|XPHB}",
+								"{@spell freedom of movement|XPHB}"
 							]
 						}
 					},
@@ -25634,8 +25634,8 @@
 							"spells":
 							[
 								"{@spell booming blade|TCE}",
-								"{@spell minor illusion|PHB}",
-								"{@spell prestidigitation|PHB}"
+								"{@spell minor illusion|XPHB}",
+								"{@spell prestidigitation|XPHB}"
 							]
 						},
 						"1":
@@ -25644,9 +25644,9 @@
 							"spells":
 							[
 								"{@spell absorb elements|XGE}",
-								"{@spell color spray|PHB}",
-								"{@spell mage armor|PHB}",
-								"{@spell shield|PHB}"
+								"{@spell color spray|XPHB}",
+								"{@spell mage armor|XPHB}",
+								"{@spell shield|XPHB}"
 							]
 						},
 						"2":
@@ -25654,9 +25654,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blindness/deafness|PHB}",
-								"{@spell darkness|PHB}",
-								"{@spell mirror image|PHB}",
+								"{@spell blindness/deafness|XPHB}",
+								"{@spell darkness|XPHB}",
+								"{@spell mirror image|XPHB}",
 								"{@spell shadow blade|XGE}"
 							]
 						},
@@ -25665,10 +25665,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blink|PHB}",
-								"{@spell counterspell|PHB}",
-								"{@spell hypnotic pattern|PHB}",
-								"{@spell major image|PHB}"
+								"{@spell blink|XPHB}",
+								"{@spell counterspell|XPHB}",
+								"{@spell hypnotic pattern|XPHB}",
+								"{@spell major image|XPHB}"
 							]
 						},
 						"4":
@@ -25676,8 +25676,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell dimension door|PHB}",
-								"{@spell greater invisibility|PHB}"
+								"{@spell dimension door|XPHB}",
+								"{@spell greater invisibility|XPHB}"
 							]
 						},
 						"5":
@@ -25685,8 +25685,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell seeming|PHB}",
-								"{@spell telekinesis|PHB}"
+								"{@spell seeming|XPHB}",
+								"{@spell telekinesis|XPHB}"
 							]
 						},
 						"6":
@@ -26088,7 +26088,7 @@
 					"ac": 17,
 					"from":
 					[
-						"natural armor, {@spell mage armor|PHB}"
+						"natural armor, {@spell mage armor|XPHB}"
 					]
 				}
 			],
@@ -26278,10 +26278,10 @@
 						{
 							"spells":
 							[
-								"{@spell firebolt|PHB}",
-								"{@spell light|PHB}",
-								"{@spell mage hand|PHB}",
-								"{@spell shocking grasp|PHB}",
+								"{@spell firebolt|XPHB}",
+								"{@spell light|XPHB}",
+								"{@spell mage hand|XPHB}",
+								"{@spell shocking grasp|XPHB}",
 								"{@spell thunderclap|XGE}"
 							]
 						},
@@ -26290,12 +26290,12 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell burning hands|PHB}",
-								"{@spell detect magic|PHB}",
-								"{@spell mage armor|PHB}",
-								"{@spell magic missile|PHB}",
+								"{@spell burning hands|XPHB}",
+								"{@spell detect magic|XPHB}",
+								"{@spell mage armor|XPHB}",
+								"{@spell magic missile|XPHB}",
 								"{@spell absorb elements|XGE}",
-								"{@spell shield|PHB}"
+								"{@spell shield|XPHB}"
 							]
 						},
 						"2":
@@ -26303,11 +26303,11 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blur|PHB}",
-								"{@spell hold person|PHB}",
-								"{@spell scorching ray|PHB}",
-								"{@spell see invisibility|PHB}",
-								"{@spell shatter|PHB}",
+								"{@spell blur|XPHB}",
+								"{@spell hold person|XPHB}",
+								"{@spell scorching ray|XPHB}",
+								"{@spell see invisibility|XPHB}",
+								"{@spell shatter|XPHB}",
 								"{@spell warding wind|XGE}"
 							]
 						},
@@ -26316,11 +26316,11 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blink|PHB}",
-								"{@spell counterspell|PHB}",
-								"{@spell fireball|PHB}",
-								"{@spell dispel magic|PHB}",
-								"{@spell haste|PHB}",
+								"{@spell blink|XPHB}",
+								"{@spell counterspell|XPHB}",
+								"{@spell fireball|XPHB}",
+								"{@spell dispel magic|XPHB}",
+								"{@spell haste|XPHB}",
 								"{@spell melf's minute meteors|XGE}"
 							]
 						},
@@ -26329,11 +26329,11 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell fire shield|PHB}",
-								"{@spell locate creature|PHB}",
-								"{@spell mordenkainen's faithful Hound|PHB}",
+								"{@spell fire shield|XPHB}",
+								"{@spell locate creature|XPHB}",
+								"{@spell mordenkainen's faithful Hound|XPHB}",
 								"{@spell sickening radiance|XGE}",
-								"{@spell wall of fire|PHB}"
+								"{@spell wall of fire|XPHB}"
 							]
 						},
 						"5":
@@ -26341,10 +26341,10 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell cone of cold|PHB}",
+								"{@spell cone of cold|XPHB}",
 								"{@spell dawn|XGE}",
 								"{@spell immolation|XGE}",
-								"{@spell wall of force|PHB}"
+								"{@spell wall of force|XPHB}"
 							]
 						},
 						"6":
@@ -26352,8 +26352,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell chain lightning|PHB}",
-								"{@spell contingency|PHB}"
+								"{@spell chain lightning|XPHB}",
+								"{@spell contingency|XPHB}"
 							]
 						}
 					},
@@ -26913,8 +26913,8 @@
 							"spells":
 							[
 								"{@spell booming blade|TCE}",
-								"{@spell mage hand|PHB}",
-								"{@spell ray of frost|PHB}"
+								"{@spell mage hand|XPHB}",
+								"{@spell ray of frost|XPHB}"
 							]
 						},
 						"1":
@@ -26923,9 +26923,9 @@
 							"spells":
 							[
 								"{@spell absorb elements|XGE}",
-								"{@spell shield|PHB}",
-								"{@spell find familiar|PHB}",
-								"{@spell detect magic|PHB}"
+								"{@spell shield|XPHB}",
+								"{@spell find familiar|XPHB}",
+								"{@spell detect magic|XPHB}"
 							]
 						},
 						"2":
@@ -26933,7 +26933,7 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell mirror image|PHB}",   
+								"{@spell mirror image|XPHB}",   
 								"{@spell mental barrier|UAFRW}"
 							]
 						}
@@ -27527,7 +27527,7 @@
 					"ac": 20,
 					"from":
 					[
-						"{@item plate armor|PHB}"
+						"{@item plate armor|XPHB}"
 					]
 				}
 			],
@@ -27779,7 +27779,7 @@
 					"ac": 19,
 					"from":
 					[
-						"{@item half plate armor|PHB}, {@item shield|PHB}"
+						"{@item half plate armor|XPHB}, {@item shield|XPHB}"
 					]
 				}
 			],
@@ -29052,7 +29052,7 @@
 					"ac": 16,
 					"from":
 					[
-						"{@item half plate armor|PHB|half plate}"
+						"{@item half plate armor|XPHB|half plate}"
 					]
 				}
 			],
@@ -29098,12 +29098,12 @@
 					"name": "Innate Spellcasting (1/Day)",
 					"headerEntries":
 					[
-						"The night scythe can innately cast {@spell hex|PHB}. Its innate spellcasting ability is Intelligence."
+						"The night scythe can innately cast {@spell hex|XPHB}. Its innate spellcasting ability is Intelligence."
 					],
 					"ability": "int",
 					"will":
 					[
-						"{@spell hex|PHB}"
+						"{@spell hex|XPHB}"
 					],
 					"hidden":
 					[
@@ -29219,7 +29219,7 @@
 					"ac": 16,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -29345,7 +29345,7 @@
 					"ac": 16,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -29473,7 +29473,7 @@
 					"ac": 17,
 					"from":
 					[
-						"{@item half plate armor|PHB}, {@item shield|PHB}"
+						"{@item half plate armor|XPHB}, {@item shield|XPHB}"
 					]
 				}
 			],
@@ -31512,14 +31512,14 @@
 					],
 					"will":
 					[
-						"{@spell druidcraft|PHB}"
+						"{@spell druidcraft|XPHB}"
 					],
 					"daily":
 					{
 						"1e":
 						[
-							"{@spell detect poison and disease|PHB}",
-							"{@spell entangle|PHB}"
+							"{@spell detect poison and disease|XPHB}",
+							"{@spell entangle|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -31720,14 +31720,14 @@
 					],
 					"will":
 					[
-						"{@spell druidcraft|PHB}"
+						"{@spell druidcraft|XPHB}"
 					],
 					"daily":
 					{
 						"1e":
 						[
-							"{@spell detect poison and disease|PHB}",
-							"{@spell entangle|PHB}"
+							"{@spell detect poison and disease|XPHB}",
+							"{@spell entangle|XPHB}"
 						]
 					},
 					"ability": "wis",
@@ -31804,7 +31804,7 @@
 					"ac": 15,
 					"from":
 					[
-						"{@item chain shirt|PHB}"
+						"{@item chain shirt|XPHB}"
 					]
 				}
 			],
@@ -31881,8 +31881,8 @@
 						{
 							"spells":
 							[
-								"{@spell fire bolt|PHB}",
-								"{@spell ray of frost|PHB}"
+								"{@spell fire bolt|XPHB}",
+								"{@spell ray of frost|XPHB}"
 							]
 						},
 						"1":
@@ -31890,8 +31890,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell magic missile|PHB}",
-								"{@spell shield|PHB}"
+								"{@spell magic missile|XPHB}",
+								"{@spell shield|XPHB}"
 							]
 						}
 					},
@@ -31951,7 +31951,7 @@
 					"ac": 15,
 					"from":
 					[
-						"{@item chain shirt|PHB}"
+						"{@item chain shirt|XPHB}"
 					]
 				}
 			],
@@ -32074,8 +32074,8 @@
 						{
 							"spells":
 							[
-								"{@spell fire bolt|PHB}",
-								"{@spell ray of frost|PHB}"
+								"{@spell fire bolt|XPHB}",
+								"{@spell ray of frost|XPHB}"
 							]
 						},
 						"1":
@@ -32083,8 +32083,8 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell magic missile|PHB}",
-								"{@spell shield|PHB}"
+								"{@spell magic missile|XPHB}",
+								"{@spell shield|XPHB}"
 							]
 						},
 						"2":
@@ -32092,7 +32092,7 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell knock|PHB}"
+								"{@spell knock|XPHB}"
 							]
 						}
 					},
@@ -32152,7 +32152,7 @@
 					"ac": 15,
 					"from":
 					[
-						"{@item chain shirt|PHB}"
+						"{@item chain shirt|XPHB}"
 					]
 				}
 			],
@@ -32307,8 +32307,8 @@
 						{
 							"spells":
 							[
-								"{@spell fire bolt|PHB}",
-								"{@spell ray of frost|PHB}"
+								"{@spell fire bolt|XPHB}",
+								"{@spell ray of frost|XPHB}"
 							]
 						},
 						"1":
@@ -32316,8 +32316,8 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell magic missile|PHB}",
-								"{@spell shield|PHB}"
+								"{@spell magic missile|XPHB}",
+								"{@spell shield|XPHB}"
 							]
 						},
 						"2":
@@ -32325,7 +32325,7 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell knock|PHB}"
+								"{@spell knock|XPHB}"
 							]
 						},
 						"3":
@@ -32333,7 +32333,7 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell counterspell|PHB}"
+								"{@spell counterspell|XPHB}"
 							]
 						}
 					},
@@ -32756,7 +32756,7 @@
 					"ac": 20,
 					"from":
 					[
-						"{@item plate armor|PHB}, {@item shield|PHB}"
+						"{@item plate armor|XPHB}, {@item shield|XPHB}"
 					]
 				}
 			],
@@ -32943,11 +32943,11 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell command|PHB}",
-								"{@spell compelled duel|PHB}",
-								"{@spell searing smite|PHB}",
-								"{@spell thunderous smite|PHB}",
-								"{@spell wrathful smite|PHB}"
+								"{@spell command|XPHB}",
+								"{@spell compelled duel|XPHB}",
+								"{@spell searing smite|XPHB}",
+								"{@spell thunderous smite|XPHB}",
+								"{@spell wrathful smite|XPHB}"
 							]
 						},
 						"2":
@@ -32955,9 +32955,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell branding smite|PHB}",
-								"{@spell find steed|PHB}",
-								"{@spell zone of truth|PHB}"
+								"{@spell branding smite|XPHB}",
+								"{@spell find steed|XPHB}",
+								"{@spell zone of truth|XPHB}"
 							]
 						},
 						"3":
@@ -32965,8 +32965,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell blinding smite|PHB}",
-								"{@spell magic circle|PHB}"
+								"{@spell blinding smite|XPHB}",
+								"{@spell magic circle|XPHB}"
 							]
 						}
 					},
@@ -33026,7 +33026,7 @@
 					"ac": 18,
 					"from":
 					[
-						"{@item plate armor|PHB}"
+						"{@item plate armor|XPHB}"
 					]
 				}
 			],
@@ -33085,7 +33085,7 @@
 					"name": "Magic Enhanced",
 					"entries":
 					[
-						"The spellsnare fighter's body has been altered via magic. It has darkvision out to a range of 60 feet and it knows the {@spell hex|PHB}."
+						"The spellsnare fighter's body has been altered via magic. It has darkvision out to a range of 60 feet and it knows the {@spell hex|XPHB}."
 					]
 				},
 				{
@@ -33141,8 +33141,8 @@
 						{
 							"spells":
 							[
-								"{@spell fire bolt|PHB}",
-								"{@spell mage hand|PHB}",
+								"{@spell fire bolt|XPHB}",
+								"{@spell mage hand|XPHB}",
 								"{@spell mind sliver|TCE}"
 							]
 						},
@@ -33152,10 +33152,10 @@
 							"spells":
 							[
 								"{@spell absorb elements|XGE}",
-								"{@spell detect magic|PHB}",
-								"{@spell hex|PHB}",
-								"{@spell shield|PHB}",
-								"{@spell thunderwave|PHB}"
+								"{@spell detect magic|XPHB}",
+								"{@spell hex|XPHB}",
+								"{@spell shield|XPHB}",
+								"{@spell thunderwave|XPHB}"
 							]
 						},
 						"2":
@@ -33163,10 +33163,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell blindness/deafness|PHB}",
-								"{@spell invisibility|PHB}",
-								"{@spell mirror image|PHB}",
-								"{@spell misty step|PHB}"
+								"{@spell blindness/deafness|XPHB}",
+								"{@spell invisibility|XPHB}",
+								"{@spell mirror image|XPHB}",
+								"{@spell misty step|XPHB}"
 							]
 						},
 						"3":
@@ -33174,8 +33174,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell counterspell|PHB}",
-								"{@spell haste|PHB}"
+								"{@spell counterspell|XPHB}",
+								"{@spell haste|XPHB}"
 							]
 						}
 					},
@@ -33229,7 +33229,7 @@
 					"ac": 17,
 					"from":
 					[
-						"{@item half plate armor|PHB}, {@item shield|PHB}"
+						"{@item half plate armor|XPHB}, {@item shield|XPHB}"
 					]
 				}
 			],
@@ -33329,7 +33329,7 @@
 							"spells":
 							[
 								"{@spell toll the dead|XGE}",
-								"{@spell mage hand|PHB}",
+								"{@spell mage hand|XPHB}",
 								"{@spell mind sliver|TCE}"
 							]
 						},
@@ -33339,9 +33339,9 @@
 							"spells":
 							[
 								"{@spell absorb elements|XGE}",
-								"{@spell detect magic|PHB}",
-								"{@spell magic missile|PHB}",
-								"{@spell shield|PHB}"
+								"{@spell detect magic|XPHB}",
+								"{@spell magic missile|XPHB}",
+								"{@spell shield|XPHB}"
 							]
 						},
 						"2":
@@ -33349,10 +33349,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell crown of madness|PHB}",
-								"{@spell detect thoughts|PHB}",
-								"{@spell hold person|PHB}",
-								"{@spell phantasmal force|PHB}"
+								"{@spell crown of madness|XPHB}",
+								"{@spell detect thoughts|XPHB}",
+								"{@spell hold person|XPHB}",
+								"{@spell phantasmal force|XPHB}"
 
 							]
 						},
@@ -33361,10 +33361,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell counterspell|PHB}",
-								"{@spell dispel magic|PHB}",
-								"{@spell fireball|PHB}",
-								"{@spell hypnotic pattern|PHB}"
+								"{@spell counterspell|XPHB}",
+								"{@spell dispel magic|XPHB}",
+								"{@spell fireball|XPHB}",
+								"{@spell hypnotic pattern|XPHB}"
 							]
 						},
 						"4":
@@ -33372,9 +33372,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell banishment|PHB}",
-								"{@spell greater invisibility|PHB}",
-								"{@spell phantasmal killer|PHB}"
+								"{@spell banishment|XPHB}",
+								"{@spell greater invisibility|XPHB}",
+								"{@spell phantasmal killer|XPHB}"
 							]
 						},
 						"5":
@@ -33382,7 +33382,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell dominate person|PHB}",
+								"{@spell dominate person|XPHB}",
 								"{@spell immolation|XGE}"
 							]
 						}
@@ -33435,7 +33435,7 @@
 					"ac": 16,
 					"from":
 					[
-						"{@item studded leather armor|PHB}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -33532,14 +33532,14 @@
 					],
 					"will":
 					[
-						"{@spell thaumaturgy|PHB}"
+						"{@spell thaumaturgy|XPHB}"
 					],
 					"daily":
 					{
 						"1e":
 						[
-							"{@spell hellish rebuke|PHB}",
-							"{@spell searing smite|PHB}"
+							"{@spell hellish rebuke|XPHB}",
+							"{@spell searing smite|XPHB}"
 						]
 					},
 				"ability": "cha",
@@ -33657,7 +33657,7 @@
 					"name": "Reactive Eye",
 					"entries":
 					[
-						"Sophos does not need to expend its reaction to cast {@spell counterspell|PHB}."
+						"Sophos does not need to expend its reaction to cast {@spell counterspell|XPHB}."
 					]
 				}
 			],
@@ -33695,13 +33695,13 @@
 						{
 							"spells":
 							[
-								"{@spell blade ward|PHB}",
+								"{@spell blade ward|XPHB}",
 								"{@spell booming blade|TCE}",
-								"{@spell mage hand|PHB}",
-								"{@spell mending|PHB}",
-								"{@spell message|PHB}",
+								"{@spell mage hand|XPHB}",
+								"{@spell mending|XPHB}",
+								"{@spell message|XPHB}",
 								"{@spell mind sliver|TCE}",
-								"{@spell prestidigitation|PHB}"
+								"{@spell prestidigitation|XPHB}"
 							]
 						},
 						"1":
@@ -33710,10 +33710,10 @@
 							"spells":
 							[
 								"{@spell absorb elements|XGE}",
-								"{@spell dimension door|PHB}",
-								"{@spell shield|PHB}",
-								"{@spell tenser's floating disk|PHB}",
-								"{@spell unseen servant|PHB}"
+								"{@spell dimension door|XPHB}",
+								"{@spell shield|XPHB}",
+								"{@spell tenser's floating disk|XPHB}",
+								"{@spell unseen servant|XPHB}"
 							]
 						},
 						"2":
@@ -33721,9 +33721,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell locate object|PHB}",
-								"{@spell nystul's magic aura|PHB}",
-								"{@spell phantasmal force|PHB}"
+								"{@spell locate object|XPHB}",
+								"{@spell nystul's magic aura|XPHB}",
+								"{@spell phantasmal force|XPHB}"
 							]
 						},
 						"3":
@@ -33731,8 +33731,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell nondetection|PHB}",
-								"{@spell sending|PHB}",
+								"{@spell nondetection|XPHB}",
+								"{@spell sending|XPHB}",
 								"{@spell tiny servant|XGE}"
 							]
 						},
@@ -33741,9 +33741,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell fabricate|PHB}",
-								"{@spell locate creature|PHB}",
-								"{@spell polymorph|PHB}"
+								"{@spell fabricate|XPHB}",
+								"{@spell locate creature|XPHB}",
+								"{@spell polymorph|XPHB}"
 							]
 						},
 						"5":
@@ -33751,8 +33751,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell scrying|PHB}",
-								"{@spell telekinesis|PHB}",
+								"{@spell scrying|XPHB}",
+								"{@spell telekinesis|XPHB}",
 								"{@spell yalen's yester yank|Canbrew}"
 							]
 						},
@@ -33761,7 +33761,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell contingency|PHB}",
+								"{@spell contingency|XPHB}",
 								"{@spell mental prison|XGE}"
 							]
 						},
@@ -33770,8 +33770,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell sequester|PHB}",
-								"{@spell symbol|PHB}"
+								"{@spell sequester|XPHB}",
+								"{@spell symbol|XPHB}"
 							]
 						},
 						"8":
@@ -33779,9 +33779,9 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell feeblemind|PHB}",
-								"{@spell maze|PHB}",
-								"{@spell mind blank|PHB}"
+								"{@spell feeblemind|XPHB}",
+								"{@spell maze|XPHB}",
+								"{@spell mind blank|XPHB}"
 							]
 						},
 						"9":
@@ -33789,7 +33789,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell foresight|PHB}"
+								"{@spell foresight|XPHB}"
 							]
 						}
 					},
@@ -33810,7 +33810,7 @@
 					"name": "Dispell",
 					"entries":
 					[
-						"Sophos casts {@spell dispell magic|PHB}."
+						"Sophos casts {@spell dispell magic|XPHB}."
 					]
 				},
 				{
@@ -33889,7 +33889,7 @@
 			"hp":
 			{
 				"average": 21,
-				"formula": "6d6"
+				"formula": "6d10"
 			},
 			"speed":
 			{
@@ -33946,35 +33946,42 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The  naga makes two Glaive attacks."
+						"The naga makes one Bite attack and one Glaive attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries":
+					[
+						"{@atkr m} {@hit 5}, reach 10 ft. {@h}6 ({@damage 1d6 + 3}) Piercing damage plus 3 ({@damage 1d6}) Poison damage."
 					]
 				},
 				{
 					"name": "Glaive",
 					"entries":
 					[
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h} ({@damage 1d10+5}) slashing damage plus 3 ({@damage 1d6}) fire damage."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d10+3}) slashing damage."
 					]
 				}
 			],
 			"spellcasting":
 			[
 				{
-					"name": "Innate Spellcasting (1/Day)",
+					"name": "Spellcasting",
+					"type": "spellcasting",
 					"headerEntries":
 					[
-						"The mephit can innately cast {@spell blur}, requiring no material components. Its innate spellcasting ability is Charisma."
+						"The mephit can innately cast {@spell mirror image}, requiring no material components. Its innate spellcasting ability is Charisma."
 					],
 					"will":
 					[
-						"{@spell blur}"
+						"{@spell word of radiance|XPHB}"
 					],
 					"hidden":
 					[
 						"will"
 					],
-					"ability": "cha",
-					"type": "spellcasting"
+					"ability": "int"
 				}
 			],
 			"traitTags":
@@ -34140,25 +34147,25 @@
 					],
 					"will":
 					[
-						"{@spell mage hand|PHB}",
-						"{@spell message|PHB}",
-						"{@spell prestidigitation|PHB}"
+						"{@spell mage hand|XPHB}",
+						"{@spell message|XPHB}",
+						"{@spell prestidigitation|XPHB}"
 					],
 					"daily":
 					{
 						"2e":
 						[
-							"{@spell call lightning|PHB}",
-							"{@spell dimension door|PHB}",
-							"{@spell hold person|PHB}",
-							"{@spell lightning bolt|PHB}",
-							"{@spell thunderwave|PHB}"
+							"{@spell call lightning|XPHB}",
+							"{@spell dimension door|XPHB}",
+							"{@spell hold person|XPHB}",
+							"{@spell lightning bolt|XPHB}",
+							"{@spell thunderwave|XPHB}"
 						],
 						"1e":
 						[
-							"{@spell arcane eye|PHB}",
-							"{@spell chain lightning|PHB}",
-							"{@spell legend lore|PHB}"
+							"{@spell arcane eye|XPHB}",
+							"{@spell chain lightning|XPHB}",
+							"{@spell legend lore|XPHB}"
 						]
 					},
 					"ability": "int",
@@ -34467,7 +34474,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -34615,7 +34622,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -34788,7 +34795,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -34953,7 +34960,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -35134,7 +35141,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -35318,7 +35325,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -35332,7 +35339,7 @@
 					"name": "Shadow Stalker",
 					"entries":
 					[
-						"Creatures within the living spell's space must treat the area as the {@spell darkness|PHB} spell.",
+						"Creatures within the living spell's space must treat the area as the {@spell darkness|XPHB} spell.",
 						"While in darkness, the living spell is {@condition invisible} to creatures that rely on vision to see it."
 					]
 				},
@@ -35475,7 +35482,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -35631,14 +35638,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
 					"name": "Blazing Form",
 					"entries":
 					[
-						"Creatures within the living spell's space must treat the area as the {@spell faerie fire|PHB} spell."
+						"Creatures within the living spell's space must treat the area as the {@spell faerie fire|XPHB} spell."
 					]
 				},
 				{
@@ -35776,7 +35783,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -35954,7 +35961,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -36130,7 +36137,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -36321,7 +36328,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -36608,7 +36615,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -36760,7 +36767,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -37042,7 +37049,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -37206,7 +37213,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -37384,7 +37391,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -37563,7 +37570,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|PHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
 					]
 				},
 				{
@@ -37928,7 +37935,7 @@
 					"type": "list",
 					"items":
 					[
-						"The storm naga instantly inscribes a glyph (as if by the {@spell glyph of warding|PHB} spell) on the surface of an unoccupied 10-foot-squared area within its lair. If the glyph is a spell glyph, it consumes one use of the spell from the storm naga’s Spellcasting. If the glyph is an explosive rune, it deals 13 ({@damage 3d8}) lightning damage.",
+						"The storm naga instantly inscribes a glyph (as if by the {@spell glyph of warding|XPHB} spell) on the surface of an unoccupied 10-foot-squared area within its lair. If the glyph is a spell glyph, it consumes one use of the spell from the storm naga’s Spellcasting. If the glyph is an explosive rune, it deals 13 ({@damage 3d8}) lightning damage.",
 						"The storm naga calls forth three guards that appear from the entrance nearest to the storm naga. The guards flee if the storm naga dies.",
 						"A thin blue streak of lightning springs from the storm naga’s pointing finger to a creature the storm naga can see within 60 feet of it. That creature must succeed on a {@dc 17} Constitution saving throw or be {@condition stunned} until the end of its next turn. If the save fails by 5 or more, the creature is {@condition paralyzed} until the end of its next turn instead."
 					]
@@ -38049,7 +38056,7 @@
 									"name": "Rejuvenation (4 blood points)",
 									"entries":
 									[
-										"You can take a minute to acquire one benefit from either {@spell lesser restoration|PHB} or {@spell greater restoration|PHB} spells. If you are not starving, you can regrow 1 limb during a long rest."
+										"You can take a minute to acquire one benefit from either {@spell lesser restoration|XPHB} or {@spell greater restoration|XPHB} spells. If you are not starving, you can regrow 1 limb during a long rest."
 									]
 								}
 							]
@@ -38579,16 +38586,16 @@
 			],
 			"entries":
 			[
-				"Choose a spell and appropriate target(s) from the list below. You must also already know the spell and/or have it prepared in order to choose it. You cas that spell and make it permanent as part of casting permanency, expending spell slots for both. The chosen spell lasts until dispelled (see below) instead of for its normal duration. If a spell would end for a reason other than its duration expiring (such as those listed for {@spell invisibility|PHB} spell) then spell ends as normal.",
-				"You must be of a certain level in your spellcasting class to make certain spells permanent. The minimum spellcaster level to make a spell permanent is equal to 8 + the spell's elvel. For example, you must be at least an 11th-level spellcaster to make the {@spell tongues|PHB} spell permanent.",
+				"Choose a spell and appropriate target(s) from the list below. You must also already know the spell and/or have it prepared in order to choose it. You cas that spell and make it permanent as part of casting permanency, expending spell slots for both. The chosen spell lasts until dispelled (see below) instead of for its normal duration. If a spell would end for a reason other than its duration expiring (such as those listed for {@spell invisibility|XPHB} spell) then spell ends as normal.",
+				"You must be of a certain level in your spellcasting class to make certain spells permanent. The minimum spellcaster level to make a spell permanent is equal to 8 + the spell's elvel. For example, you must be at least an 11th-level spellcaster to make the {@spell tongues|XPHB} spell permanent.",
 				"Different spells have different allowable targets, either yourself, another willing creature, an object, an area, or some combination of those. Allowable targets for each spell are shown below",
-				"If the target affected by the permanent spell is targeted with a successful {@spell dispel magic|PHB} spell, the effect is suppressed for 24 hours, rather than being permanently dispelled. If the effect is dispelled every day 30 days, it is permanently dispelled. An affected target entering an {@spell antimagic field|PHB} has the ability suppressed as if it were one originating from a magic item.",
+				"If the target affected by the permanent spell is targeted with a successful {@spell dispel magic|XPHB} spell, the effect is suppressed for 24 hours, rather than being permanently dispelled. If the effect is dispelled every day 30 days, it is permanently dispelled. An affected target entering an {@spell antimagic field|XPHB} has the ability suppressed as if it were one originating from a magic item.",
 				{
 					"name": "Self Only",
 					"type": "list",
 					"items":
 					[
-						"{@spell comprehend languages|PHB}, {@spell detect magic|PHB}, {@spell expeditious retreat|PHB}, {@spell alter self|PHB}, {@spell see invisibility|PHB}, {@spell fly|PHB}, {@spell tongues|PHB}, {@spell true seeing|PHB}"
+						"{@spell comprehend languages|XPHB}, {@spell detect magic|XPHB}, {@spell expeditious retreat|XPHB}, {@spell alter self|XPHB}, {@spell see invisibility|XPHB}, {@spell fly|XPHB}, {@spell tongues|XPHB}, {@spell true seeing|XPHB}"
 					]
 				},
 				{
@@ -38596,7 +38603,7 @@
 					"type": "list",
 					"items":
 					[
-						"{@spell barkskin|PHB}, {@spell darkvision|PHB}, {@spell enlarge/reduce|PHB}, {@spell spider climb|PHB}, {@spell stoneskin|PHB}, {@spell rary's telepathic bond|PHB}"
+						"{@spell barkskin|XPHB}, {@spell darkvision|XPHB}, {@spell enlarge/reduce|XPHB}, {@spell spider climb|XPHB}, {@spell stoneskin|XPHB}, {@spell rary's telepathic bond|XPHB}"
 					]
 				},
 				{
@@ -38604,7 +38611,7 @@
 					"type": "list",
 					"items":
 					[
-						"{@spell invisibility|PHB}, {@spell nondetection|PHB}"
+						"{@spell invisibility|XPHB}, {@spell nondetection|XPHB}"
 					]
 				},
 				{
@@ -38612,7 +38619,7 @@
 					"type": "list",
 					"items":
 					[
-						"{@spell illusory script|PHB}, {@spell magic weapon|PHB}, {@spell elemental weapon|PHB}, {@spell animate objects|PHB}"
+						"{@spell illusory script|XPHB}, {@spell magic weapon|XPHB}, {@spell elemental weapon|XPHB}, {@spell animate objects|XPHB}"
 					]
 				},
 				{
@@ -38620,7 +38627,7 @@
 					"type": "list",
 					"items":
 					[
-						"{@spell alarm|PHB}, {@spell fog cloud|PHB}, {@spell web|PHB}, {@spell stinking cloud|PHB}, {@spell wall of fire|PHB}, {@spell wall of force|PHB}, {@spell wall of stone|PHB}, {@spell arcane gate|PHB}, {@spell wall of thorns|PHB}, {@spell reverse gravity|PHB}, {@spell antimagic field|PHB}, {@spell prismatic wall|PHB}"
+						"{@spell alarm|XPHB}, {@spell fog cloud|XPHB}, {@spell web|XPHB}, {@spell stinking cloud|XPHB}, {@spell wall of fire|XPHB}, {@spell wall of force|XPHB}, {@spell wall of stone|XPHB}, {@spell arcane gate|XPHB}, {@spell wall of thorns|XPHB}, {@spell reverse gravity|XPHB}, {@spell antimagic field|XPHB}, {@spell prismatic wall|XPHB}"
 					]
 				}
 			],
@@ -38902,7 +38909,7 @@
 			"outro":
 			[
 				"If a table item says you cast a spell which requires concentrating on it, you cannot end your concentration on the spell willingly until the duration ends.",
-				"If you are using {@variantrule spell points|DMG} instead of spell slots; for any spell that refers to your remeaning spell slots, look up the {@table Variant: Spell Points; Spell Points by Level|DMG|spell points by level} table to determine the class level that would have as much spell points and than refer to a {@table Spellcasting; Multiclass Spellcaster: Spell Slots per Spell Level|PHB|spell slots per level} table, for any spell that refers to level of the spell, refer to {@table Variant: Spell Points; Spell Point Cost|DMG|spell point cost} table."
+				"If you are using {@variantrule spell points|DMG} instead of spell slots; for any spell that refers to your remeaning spell slots, look up the {@table Variant: Spell Points; Spell Points by Level|DMG|spell points by level} table to determine the class level that would have as much spell points and than refer to a {@table Spellcasting; Multiclass Spellcaster: Spell Slots per Spell Level|XPHB|spell slots per level} table, for any spell that refers to level of the spell, refer to {@table Variant: Spell Points; Spell Point Cost|DMG|spell point cost} table."
 			],
 			"caption": "Perilious Magic Surge Effects",
 			"colLabels":
@@ -38927,7 +38934,7 @@
 				],
 				[
 					"3",
-					"You cast {@spell fireball|PHB} spell centered on yourself."
+					"You cast {@spell fireball|XPHB} spell centered on yourself."
 				],
 				[
 					"4",
@@ -38935,19 +38942,19 @@
 				],
 				[
 					"5",
-					"You cast {@spell enlarge/reduce|PHB|reduce} on yourself."
+					"You cast {@spell enlarge/reduce|XPHB|reduce} on yourself."
 				],
 				[
 					"6",
-					"You cast {@spell ice storm|PHB} spell centered on yourself."
+					"You cast {@spell ice storm|XPHB} spell centered on yourself."
 				],
 				[
 					"7",
-					"You cast {@spell confusion|PHB} centered on yourself."
+					"You cast {@spell confusion|XPHB} centered on yourself."
 				],
 				[
 					"8",
-					"You cast {@spell grease|PHB} centered on yourself."
+					"You cast {@spell grease|XPHB} centered on yourself."
 				],
 				[
 					"9",
@@ -38967,7 +38974,7 @@
 				],
 				[
 					"13",
-					"You cast {@spell levitate|PHB} on yourself."
+					"You cast {@spell levitate|XPHB} on yourself."
 				],
 				[
 					"14",
@@ -38975,11 +38982,11 @@
 				],
 				[
 					"15",
-					"You cast {@spell entangle|PHB} centered on yourself."
+					"You cast {@spell entangle|XPHB} centered on yourself."
 				],
 				[
 					"16",
-					"You cast {@spell fog cloud|PHB} centered on yourself."
+					"You cast {@spell fog cloud|XPHB} centered on yourself."
 				],
 				[
 					"17",
@@ -38995,15 +39002,15 @@
 				],
 				[
 					"20",
-					"You cast {@spell stoneskin|PHB} on yourself. While the spell is active, your walking speed becomes 5 feet and you can't swim or fly."
+					"You cast {@spell stoneskin|XPHB} on yourself. While the spell is active, your walking speed becomes 5 feet and you can't swim or fly."
 				],
 				[
 					"21",
-					"You cast {@spell polymorph|PHB} on yourself. If you fail the saving throw, you turn into a {@creature sheep|SKT} for the spell's duration."
+					"You cast {@spell polymorph|XPHB} on yourself. If you fail the saving throw, you turn into a {@creature sheep|SKT} for the spell's duration."
 				],
 				[
 					"22",
-					"You cast {@spell enlarge/reduce|PHB|enlarge} on yourself."
+					"You cast {@spell enlarge/reduce|XPHB|enlarge} on yourself."
 				],
 				[
 					"23",
@@ -39031,7 +39038,7 @@
 				],
 				[
 					"29",
-					"You cast {@spell light|PHB} on yourself."
+					"You cast {@spell light|XPHB} on yourself."
 				],
 				[
 					"30",
@@ -39039,7 +39046,7 @@
 				],
 				[
 					"31",
-					"You cast {@spell fog cloud|PHB} centered on the target."
+					"You cast {@spell fog cloud|XPHB} centered on the target."
 				],
 				[
 					"32",
@@ -39055,7 +39062,7 @@
 				],
 				[
 					"35",
-					"You cast {@spell silence|PHB} centered on your self."
+					"You cast {@spell silence|XPHB} centered on your self."
 				],
 				[
 					"36",
@@ -39071,7 +39078,7 @@
 				],
 				[
 					"39",
-					"You cast {@spell faerie fire|PHB} centered on you."
+					"You cast {@spell faerie fire|XPHB} centered on you."
 				],
 				[
 					"40",
@@ -39083,11 +39090,11 @@
 				],
 				[
 					"42",
-					"You cast {@spell wall of fire|PHB} centered on yourself in the shape of a 20 feet diameter ring."
+					"You cast {@spell wall of fire|XPHB} centered on yourself in the shape of a 20 feet diameter ring."
 				],
 				[
 					"43",
-					"You cast {@spell antimagic field|PHB} centered on yourself."
+					"You cast {@spell antimagic field|XPHB} centered on yourself."
 				],
 				[
 					"44",
@@ -39135,7 +39142,7 @@
 				],
 				[
 					"55",
-					"You cast {@spell create or destroy water|PHB|create water} centered on yourself."
+					"You cast {@spell create or destroy water|XPHB|create water} centered on yourself."
 				],
 				[
 					"56",
@@ -39307,7 +39314,7 @@
 				],
 				[
 					"97",
-					"You cast {@spell sleep|PHB} centered on your self at level {@dice 1d8}."
+					"You cast {@spell sleep|XPHB} centered on your self at level {@dice 1d8}."
 				],
 				[
 					"98",
@@ -39340,26 +39347,26 @@
 						"3":
 						[
 							"{@spell absorb elements|XGE}",
-							"{@spell ceremony|PHB}"
+							"{@spell ceremony|XPHB}"
 						],
 						"5":
 						[
-							"{@spell augury|PHB}",
+							"{@spell augury|XPHB}",
 							"{@spell dragon's breath|XGE}"
 						],
 						"9":
 						[
-							"{@spell fear|PHB}",
+							"{@spell fear|XPHB}",
 							"{@spell fly|XGE}"
 						],
 						"13":
 						[
 							"{@spell elemental bane|XGE}",
-							"{@spell leomund's secret chest|PHB}"
+							"{@spell leomund's secret chest|XPHB}"
 						],
 						"17":
 						[
-							"{@spell dominate person|PHB}",
+							"{@spell dominate person|XPHB}",
 							"{@spell teleportation circle|XGE}"
 						]
 					}
@@ -39489,7 +39496,7 @@
 						],
 						[
 							"5th",
-							"{@spell augury|PHB}, {@spell dragon's breath|XGE}"
+							"{@spell augury|XPHB}, {@spell dragon's breath|XGE}"
 						],
 						[
 							"9th",
@@ -39497,11 +39504,11 @@
 						],
 						[
 							"13th",
-							"{@spell elemental bane|XGE}, {@spell leomund's secret chest|PHB}"
+							"{@spell elemental bane|XGE}, {@spell leomund's secret chest|XPHB}"
 						],
 						[
 							"17th",
-							"{@spell dominate person|PHB}, {@spell teleportation circle|PHB}"
+							"{@spell dominate person|XPHB}, {@spell teleportation circle|XPHB}"
 						]
 					]
 				}
@@ -39650,7 +39657,7 @@
 			"header": 2,
 			"entries":
 			[
-				"At 20th level you can, as an action, transform yourself into an {@5etools adult dragon|https://5e.tools/bestiary.html#adult%20red%20dracolich_tce,flstsource:ai=0~bgdia=0~bam=0~canbrew=0~cm=0~crcotn=0~cos=0~dc=0~dip=0~dmg=0~erlw=0~esk=0~egw=0~ftd=0~gos=0~ggr=0~hotdq=0~hftt=0~idrotf=0~jttrc=0~kkw=0~lox=0~lmop=0~mpmm=0~mtf=0~mot=0~oota=0~phb=0~pota=0~sdw=0~sja=0~skt=0~slw=0~scc=0~tftyp=0~tce=0~hol=0~rmbre=0~oow=0~rot=0~wbtw=0~toa=0~tod=0~vrgr=0~vgm=0~wdh=0~wdmm=0~xge=0,flopsource:extend,flstdragon%20age:adult=1,flopdragon%20age:extend,sublistselected:%7b%22items%22%3a%5b%5d%2c%22sources%22%3a%5b%5d%2c%22saveid%22%3a%222e913123-55a0-45bf-b59b-07ef2fb3e31f%22%7d} matching the type of your Sovereign for 1 minute. You count as under the effect of a {@spell polymorph|PHB} spell for the duration but you retain Intelligence, Wizdom, and Charisma scores. You may end your transformation early by using a bonus action on your turn.",
+				"At 20th level you can, as an action, transform yourself into an {@5etools adult dragon|https://5e.tools/bestiary.html#adult%20red%20dracolich_tce,flstsource:ai=0~bgdia=0~bam=0~canbrew=0~cm=0~crcotn=0~cos=0~dc=0~dip=0~dmg=0~erlw=0~esk=0~egw=0~ftd=0~gos=0~ggr=0~hotdq=0~hftt=0~idrotf=0~jttrc=0~kkw=0~lox=0~lmop=0~mpmm=0~mtf=0~mot=0~oota=0~phb=0~pota=0~sdw=0~sja=0~skt=0~slw=0~scc=0~tftyp=0~tce=0~hol=0~rmbre=0~oow=0~rot=0~wbtw=0~toa=0~tod=0~vrgr=0~vgm=0~wdh=0~wdmm=0~xge=0,flopsource:extend,flstdragon%20age:adult=1,flopdragon%20age:extend,sublistselected:%7b%22items%22%3a%5b%5d%2c%22sources%22%3a%5b%5d%2c%22saveid%22%3a%222e913123-55a0-45bf-b59b-07ef2fb3e31f%22%7d} matching the type of your Sovereign for 1 minute. You count as under the effect of a {@spell polymorph|XPHB} spell for the duration but you retain Intelligence, Wizdom, and Charisma scores. You may end your transformation early by using a bonus action on your turn.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
