@@ -16438,6 +16438,194 @@
 				"type": "external",
 				"url": "https://i.imgur.com/03Wtybv.png"
 			}
+    },
+    {
+      "name": "Krozen",
+      "isNamedCreature": true,
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 22,
+          "from": [
+            "{@item +2 plate armor|XDMG|+2 plate}",
+            "{@item shield|XPHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 102,
+        "formula": "12d8 + 48"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 8,
+      "con": 19,
+      "int": 13,
+      "wis": 18,
+      "cha": 14,
+      "save": {
+        "con": "+8",
+        "wis": "+8"
+      },
+      "skill": {
+        "history": "+5",
+        "persuasion": "+6",
+        "religion": "+5"
+      },
+      "passive": 14,
+      "languages": [
+        "Common",
+        "Draconic"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Krozen casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 16}):"
+          ],
+          "will": [
+            "{@spell bane|XPHB}",
+            "{@spell command|XPHB}",
+            "{@spell cure wounds|XPHB} (2nd level)",
+            "{@spell heroism|XPHB}",
+            "{@spell light|XPHB}",
+            "{@spell protection from evil and good|XPHB}",
+            "{@spell spare the dying|XPHB}",
+            "{@spell thaumaturgy|XPHB}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell commune|XPHB} (as an action)",
+              "{@spell true seeing|XPHB}"
+            ],
+            "3e": [
+              "{@spell calm emotions|XPHB}",
+              "{@spell dispel magic|XPHB}",
+              "{@spell flame strike|XPHB} (see above)",
+              "{@spell hold person|XPHB}",
+              "{@spell silence|XPHB}",
+              "{@spell slow|XPHB}",
+              "{@spell zone of truth|XPHB}"
+            ],
+            "2e": [
+              "{@spell compulsion|XPHB}",
+              "{@spell divination|XPHB}",
+              "{@spell death ward|XPHB}",
+              "{@spell dominate person|XPHB}",
+              "{@spell hold monster|XPHB}",
+              "{@spell locate creature|XPHB}"
+            ]
+          },
+          "ability": "wis",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Driven (Recharges after a Short or Long Rest)",
+          "entries": [
+            "Krozen rerolls a failed ability check, attack roll, or saving throw with advantage."
+          ]
+        },
+        {
+          "name": "Special Equipment",
+          "entries": [
+            "Krozen wears an {@item amulet of health|XDMG}, +2 plate armor, and {@item gauntlets of ogre power|XDMG}, and he wields a {@item mace of disruption|XDMG}. While Krozen holds the mace, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+            "Krozen may additionally be equipped with legendary items or artifacts retrieved by Argentum agents if he has time to prepare, though most of the items retrieved by the Argentum are evil or cursed in nature."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Mace of Disruption",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage plus 4 ({@damage 1d8}) radiant damage. If the target is a fiend or undead, it takes an extra 7 ({@damage 2d6}) radiant damage.",
+            "If a fiend or undead is reduced to 25 hit points or fewer by this damage, it must succeed on a {@dc 15} Wisdom saving throw or be destroyed. On a successful save, the creature becomes {@condition frightened} of Krozen until the end of his next turn."
+          ]
+        },
+        {
+          "name": "Flame Strike (5th-Level Spell; 3/Day)",
+          "entries": [
+            "A vertical column of divine fire roars down from the heavens on a point within 60 feet that Krozen specifies. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on that point must make a {@dc 16} Dexterity saving throw. A creature takes 14 ({@damage 4d6}) fire damage and 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Healing Aurora (4th-Level Spell; 3/Day)",
+          "entries": [
+            "Krozen and each creature of his choice that he can see within 60 feet of him regains 13 ({@dice 2d8 + 4}) hit points."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Divine Authority",
+          "entries": [
+            "When Krozen casts a spell of 1st level or higher, one ally he can see within 30 feet of him can use its reaction to make one weapon attack against a creature of Krozen's choice."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "mace of disruption|dmg"
+      ],
+      "languageTags": [
+        "C",
+        "DR"
+      ],
+      "damageTags": [
+        "B",
+        "F",
+        "R"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "R"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "AOE",
+        "MLW",
+        "MW"
+      ],
+      "conditionInflict": [
+        "frightened"
+      ],
+      "conditionInflictSpell": [
+        "charmed",
+        "deafened",
+        "paralyzed",
+        "prone"
+      ],
+      "savingThrowForced": [
+        "dexterity",
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "dexterity",
+        "wisdom"
+      ]
     }
   ]
 }
