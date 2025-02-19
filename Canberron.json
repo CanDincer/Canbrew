@@ -11,13 +11,13 @@
 				[
 					"Can Dinçer"
 				],
-				"version": "2024.12.13.0",
+				"version": "2025.02.19.0",
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
     "edition": "one",
 		"dateAdded": 1723470600,
-		"dateLastModified": 1734115560
+		"dateLastModified": 1739971200
 	},
   "magicvariant":
   [
@@ -16440,7 +16440,7 @@
 			}
     },
     {
-      "name": "Krozen",
+      "name": "Asalbaşı Krozen",
       "isNamedCreature": true,
       "source": "Canberron",
       "size": [
