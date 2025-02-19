@@ -16625,6 +16625,101 @@
         "dexterity",
         "wisdom"
       ]
-    }
+    },
+    {
+      "name": "Deneith Altın Kılıç",
+      "source": "",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "humanoid",
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "{@item half plate armor|XPHB|half plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 78,
+        "formula": "12d8 + 24"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 15,
+      "con": 14,
+      "int": 11,
+      "wis": 14,
+      "cha": 11,
+      "save": {
+        "str": "+5",
+        "dex": "+4",
+        "con": "+4"
+      },
+      "skill": {
+        "athletics": "+5",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "Common"
+      ],
+      "cr": "4",
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Gold Blade makes three attacks with its longsword."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "entries": [
+            "{@atk rw} {@hit 4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Blademark Strike",
+          "entries": [
+            "The Gold Blade makes a longsword attack against a creature that leaves its reach, even if the creature took the Disengage action. If the attack hits, the target's speed is reduced to 0 for the rest of its turn. This reaction occurs before the target's triggering movement."
+          ]
+        }
+      ],
+      "attachedItems": [
+        "heavy crossbow|phb",
+        "longsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ]
+    },
   ]
 }
