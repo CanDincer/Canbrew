@@ -15,7 +15,7 @@
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
-    "edition": "one",
+		"edition": "one",
 		"dateAdded": 1546862880,
 		"dateLastModified": 1739795520
 	},
@@ -62,7 +62,7 @@
 			[
 				"H",
 				"2H"
-			 ],
+			],
 			"range": "150/600",
 			"rarity": "rare",
 			"source": "Canbrew",
@@ -86,7 +86,7 @@
 				"A",
 				"H",
 				"2H"
-			 ],
+			],
 			"range": "150/600",
 			"rarity": "uncommon",
 			"source": "Canbrew",
@@ -113,7 +113,6 @@
 						"Leaning towards the dark side corrupts your soul. You, constantly, feel agitated. On a critical success, deals {@damage 3d6} necrotic damage both to you and your target."
 					]
 				}
-
 			]
 		},
 		{
@@ -479,10 +478,10 @@
 							"entries":
 							[
 								"While you're inside shadows or at most a dimly lighted area, as a bonus action, you can \"{@spell blink|XPHB} teleport\". Doing so expends 3 runic charges.",
-									"You can travel up to 30 feet through shadows and darkness to a place you can see at the location you've started.",
-									"You do not provoke opportunity attacks while you travel in this manner.",
-									"You cannot attack or take any other actions until you emerge from the shadows.",
-									"To the untrained eye, it looks as if you had teleported."
+								"You can travel up to 30 feet through shadows and darkness to a place you can see at the location you've started.",
+								"You do not provoke opportunity attacks while you travel in this manner.",
+								"You cannot attack or take any other actions until you emerge from the shadows.",
+								"To the untrained eye, it looks as if you had teleported."
 							]
 						},
 						{
@@ -1010,7 +1009,6 @@
 						"Earth + Air = {@creature dust mephit of the elementalist|Canbrew}",
 						"Water + Earth = {@creature mud mephit of the elementalist|Canbrew}",
 						"Fire + Earth = {@creature magma mephit of the elementalist|Canbrew}"
-
 					]
 				},
 				"Stored elemental energy is released and lost after a successful conjuring. You can only have one mephit bound to you. Conjuring another while one already exists, creates an unbound mephit.",
@@ -1257,7 +1255,7 @@
 				"2H"
 			],
 			"rarity": "rare",
-			"range":"25/100",
+			"range": "25/100",
 			"source": "Canbrew",
 			"entries":
 			[
@@ -1778,7 +1776,7 @@
 			"reqAttune": true,
 			"property":
 			[
-				"2H" 
+				"2H"
 			],
 			"rarity": "artifact",
 			"source": "Canbrew",
@@ -1839,7 +1837,7 @@
 			"reqAttune": true,
 			"property":
 			[
-				"V" 
+				"V"
 			],
 			"rarity": "very rare",
 			"source": "Canbrew",
@@ -2411,7 +2409,7 @@
 			]
 		},
 		{
-			"name": "Rebuker",      
+			"name": "Rebuker",
 			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
@@ -2429,7 +2427,7 @@
 			]
 		},
 		{
-			"name": "Band of the Shimmering Shield",      
+			"name": "Band of the Shimmering Shield",
 			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 1,
@@ -2458,7 +2456,7 @@
 			]
 		},
 		{
-			"name": "Sage Bull",            
+			"name": "Sage Bull",
 			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
@@ -2522,7 +2520,7 @@
 			]
 		},
 		{
-			"name": "Rho Aias",            
+			"name": "Rho Aias",
 			"baseItem": "Shield|XPHB",
 			"type": "S",
 			"weight": 6,
@@ -3243,7 +3241,7 @@
 			"name": "Potion of Nightshade",
 			"type": "P",
 			"weight": 0.5,
-			"rarity":"very rare",
+			"rarity": "very rare",
 			"source": "Canbrew",
 			"entries":
 			[
@@ -5000,10 +4998,10 @@
 			[
 				{
 					"tokenHref":
-			{
-				"type": "external",
-				"url": "https://i.imgur.com/1rF4OQr.png"
-			}
+					{
+						"type": "external",
+						"url": "https://i.imgur.com/1rF4OQr.png"
+					}
 				}
 			],
 			"fluff":
@@ -5888,8 +5886,7 @@
 				"D"
 			],
 			"miscTags":
-			[
-			],
+			[],
 			"actionTags":
 			[
 				"Multiattack"
@@ -6110,17 +6107,17 @@
 			[
 				{
 					"tokenHref":
-			{
-				"type": "external",
-				"url": "https://i.imgur.com/eRxgf2I.png"
-			}
+					{
+						"type": "external",
+						"url": "https://i.imgur.com/eRxgf2I.png"
+					}
 				},
 				{
 					"tokenHref":
-			{
-				"type": "external",
-				"url": "https://i.imgur.com/rxt5bB4.png"
-			}
+					{
+						"type": "external",
+						"url": "https://i.imgur.com/rxt5bB4.png"
+					}
 				}
 			],
 			"fluff":
@@ -6356,7 +6353,7 @@
 			{
 				"str": "+12",
 				"dex": "+11",
-				"con":" +11"
+				"con": " +11"
 			},
 			"skill":
 			{
@@ -6590,7 +6587,7 @@
 			{
 				"str": "+12",
 				"dex": "+11",
-				"con":" +11"
+				"con": " +11"
 			},
 			"skill":
 			{
@@ -7014,7 +7011,7 @@
 			{
 				"str": "+10",
 				"dex": "+9",
-				"con":" +9"
+				"con": " +9"
 			},
 			"skill":
 			{
@@ -7249,7 +7246,7 @@
 			{
 				"str": "+10",
 				"dex": "+9",
-				"con":" +9"
+				"con": " +9"
 			},
 			"skill":
 			{
@@ -7596,7 +7593,7 @@
 			{
 				"str": "+7",
 				"dex": "+6",
-				"con":" +6"
+				"con": " +6"
 			},
 			"skill":
 			{
@@ -7814,7 +7811,7 @@
 			{
 				"str": "+4",
 				"dex": "+3",
-				"con":" +4"
+				"con": " +4"
 			},
 			"skill":
 			{
@@ -9335,7 +9332,7 @@
 					"name": "Shiver me timbers",
 					"entries":
 					[
-						"The pirate hunter captain takes a step back and all negative effects and conditions on it ends." 
+						"The pirate hunter captain takes a step back and all negative effects and conditions on it ends."
 					]
 				}
 			],
@@ -10790,7 +10787,8 @@
 								"{@spell guardian of faith|XPHB}"
 							]
 						},
-						"5": {
+						"5":
+						{
 							"slots": 1,
 							"spells":
 							[
@@ -11027,7 +11025,8 @@
 								"{@spell polymorph|XPHB}"
 							]
 						},
-						"5": {
+						"5":
+						{
 							"slots": 1,
 							"spells":
 							[
@@ -11469,7 +11468,8 @@
 								"{@spell polymorph|XPHB}"
 							]
 						},
-						"5": {
+						"5":
+						{
 							"slots": 1,
 							"spells":
 							[
@@ -12026,7 +12026,8 @@
 				"average": 40,
 				"formula": "9d8"
 			},
-			"speed": {
+			"speed":
+			{
 				"walk": 30
 			},
 			"str": 9,
@@ -12035,23 +12036,28 @@
 			"int": 17,
 			"wis": 12,
 			"cha": 11,
-			"save": {
+			"save":
+			{
 				"int": "+6",
 				"wis": "+4"
 			},
-			"skill": {
+			"skill":
+			{
 				"arcana": "+6",
 				"history": "+6"
 			},
 			"passive": 11,
-			"languages": [
+			"languages":
+			[
 				"any four languages"
 			],
 			"cr": "6",
-			"action": [
+			"action":
+			[
 				{
 					"name": "Dagger",
-					"entries": [
+					"entries":
+					[
 						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
 					]
 				}
@@ -12077,7 +12083,8 @@
 								"{@spell prestidigitation|XPHB}"
 							]
 						},
-						"1": {
+						"1":
+						{
 							"slots": 4,
 							"spells":
 							[
@@ -12589,7 +12596,8 @@
 								"{@spell wall of fire|XPHB}"
 							]
 						},
-						"5": {
+						"5":
+						{
 							"slots": 1,
 							"spells":
 							[
@@ -12983,7 +12991,8 @@
 								"{@spell hreater invisibility|XPHB}"
 							]
 						},
-						"5": {
+						"5":
+						{
 							"slots": 2,
 							"spells":
 							[
@@ -12992,7 +13001,8 @@
 								"{@spell teleportation circle|XPHB}"
 							]
 						},
-						"6": {
+						"6":
+						{
 							"slots": 1,
 							"spells":
 							[
@@ -13000,7 +13010,8 @@
 								"{@spell true seeing|XPHB}"
 							]
 						},
-						"7": {
+						"7":
+						{
 							"slots": 1,
 							"spells":
 							[
@@ -13401,7 +13412,8 @@
 					]
 				}
 			],
-			"action": [
+			"action":
+			[
 				{
 					"name": "Multiattack",
 					"entries":
@@ -13560,7 +13572,8 @@
 			[
 				"U"
 			],
-			"ac": [
+			"ac":
+			[
 				{
 					"ac": 14,
 					"from":
@@ -13627,7 +13640,8 @@
 					]
 				}
 			],
-			"action": [
+			"action":
+			[
 				{
 					"name": "Bite",
 					"entries":
@@ -13751,7 +13765,7 @@
 				"darkvision 60 ft."
 			],
 			"passive": 10,
-			"cr":"1/4",
+			"cr": "1/4",
 			"trait":
 			[
 				{
@@ -14340,7 +14354,7 @@
 			[
 				"U"
 			],
-			"ac": 
+			"ac":
 			[
 				{
 					"ac": 18,
@@ -14448,7 +14462,7 @@
 			[
 				"U"
 			],
-			"ac": 
+			"ac":
 			[
 				18
 			],
@@ -14571,7 +14585,7 @@
 			[
 				"U"
 			],
-			"ac": 
+			"ac":
 			[
 				{
 					"ac": 16,
@@ -14617,7 +14631,7 @@
 			"trait":
 			[
 				{
-					"name":"Water Breathing",
+					"name": "Water Breathing",
 					"entries":
 					[
 						"The halocline shrimp can only breath underwater."
@@ -14701,7 +14715,7 @@
 			[
 				"U"
 			],
-			"ac": 
+			"ac":
 			[
 				{
 					"ac": 12,
@@ -14743,7 +14757,7 @@
 			"trait":
 			[
 				{
-					"name":"Water Breathing",
+					"name": "Water Breathing",
 					"entries":
 					[
 						"The abyssal grappler can only breath underwater."
@@ -14808,7 +14822,7 @@
 			[
 				"U"
 			],
-			"ac": 
+			"ac":
 			[
 				{
 					"ac": 14,
@@ -14945,7 +14959,7 @@
 			[
 				"U"
 			],
-			"ac": 
+			"ac":
 			[
 				{
 					"ac": 10,
@@ -15958,7 +15972,8 @@
 				},
 				{
 					"name": "Sure-Footed",
-					"entries": [
+					"entries":
+					[
 						"The bison has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
 					]
 				}
@@ -16059,7 +16074,7 @@
 			"cha": 17,
 			"skill":
 			{
-				"stealth":"+8"
+				"stealth": "+8"
 			},
 			"vulnerable":
 			[
@@ -16201,8 +16216,8 @@
 			"cha": 16,
 			"skill":
 			{
-				"acrobatics":"+10",
-				"athletics":"+7",
+				"acrobatics": "+10",
+				"athletics": "+7",
 				"intimidation": "+8"
 			},
 			"senses":
@@ -16387,9 +16402,9 @@
 			"cha": 20,
 			"skill":
 			{
-				"deception":"+10",
+				"deception": "+10",
 				"intimidation": "+10",
-				"insight":"+7"
+				"insight": "+7"
 			},
 			"senses":
 			[
@@ -17178,9 +17193,9 @@
 			"cha": 22,
 			"skill":
 			{
-				"deception":"+12",
+				"deception": "+12",
 				"intimidation": "+12",
-				"insight":"+9"
+				"insight": "+9"
 			},
 			"senses":
 			[
@@ -17818,8 +17833,8 @@
 			"cha": 20,
 			"skill":
 			{
-				"acrobatics":"+14",
-				"athletics":"+12",
+				"acrobatics": "+14",
+				"athletics": "+12",
 				"intimidation": "+12"
 			},
 			"senses":
@@ -18024,9 +18039,9 @@
 			"cha": 24,
 			"skill":
 			{
-				"deception":"+14",
+				"deception": "+14",
 				"intimidation": "+14",
-				"insight":"+10"
+				"insight": "+10"
 			},
 			"senses":
 			[
@@ -18692,7 +18707,7 @@
 			},
 			"skill":
 			{
-				"athletics":"+7",
+				"athletics": "+7",
 				"stealth": "+9"
 			},
 			"languages":
@@ -20728,7 +20743,8 @@
 				"U"
 			],
 			"languageTags":
-			[   "C",
+			[
+				"C",
 				"CS"
 			],
 			"tokenHref":
@@ -20867,7 +20883,8 @@
 			[
 				{
 					"ac": 20,
-					"from": [
+					"from":
+					[
 						"natural armor"
 					]
 				}
@@ -20952,7 +20969,8 @@
 					]
 				}
 			],
-			"action": [
+			"action":
+			[
 				{
 					"name": "Multiattack",
 					"entries":
@@ -21861,7 +21879,7 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell counterspell|XPHB}", 
+								"{@spell counterspell|XPHB}",
 								"{@spell galder's tower|LLK}",
 								"{@spell haste|XPHB}"
 							]
@@ -22155,7 +22173,8 @@
 						"The vampire summons {@dice 10d4} {@creature jackal|Canbrew|jackals} from sand. The called creatures arrive immediately, acting as allies of the vampire and obeying its spoken commands. The creatures remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
 					]
 				}
-			],"spellcasting":
+			],
+			"spellcasting":
 			[
 				{
 					"name": "Spellcasting",
@@ -24336,7 +24355,7 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell beast sense|XPHB}",   
+								"{@spell beast sense|XPHB}",
 								"{@spell healing spirit|XGE}",
 								"{@spell pass without trace|XPHB}",
 								"{@spell silence|XPHB}"
@@ -24921,7 +24940,7 @@
 			},
 			"skill":
 			{
-				"insight":"+10",
+				"insight": "+10",
 				"perception": "+10",
 				"stealth": "+9"
 			},
@@ -25085,7 +25104,7 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell branding smite|XPHB}",   
+								"{@spell branding smite|XPHB}",
 								"{@spell calm emotions|XPHB}",
 								"{@spell detect thoughts|XPHB}",
 								"{@spell zone of truth|XPHB}"
@@ -25171,7 +25190,8 @@
 				"P",
 				"R"
 			],
-			"spellcastingTags": [
+			"spellcastingTags":
+			[
 				"CP"
 			],
 			"miscTags":
@@ -26770,7 +26790,7 @@
 			},
 			"skill":
 			{
-				"arcana":"+8",
+				"arcana": "+8",
 				"perception": "+6",
 				"stealth": "+8"
 			},
@@ -26933,7 +26953,7 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell mirror image|XPHB}",   
+								"{@spell mirror image|XPHB}",
 								"{@spell mental barrier|UAFRW}"
 							]
 						}
@@ -28048,11 +28068,11 @@
 				"E"
 			],
 			"ac":
-			 [
+			[
 				{
 					"ac": 16,
 					"from":
-					 [
+					[
 						"natural armor"
 					]
 				}
@@ -28113,7 +28133,8 @@
 					[
 						"The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point."
 					]
-				},{
+				},
+				{
 					"name": "Keen Senses",
 					"entries":
 					[
@@ -30863,7 +30884,8 @@
 					]
 				}
 			],
-			"action": [
+			"action":
+			[
 				{
 					"name": "Slam",
 					"entries":
@@ -31426,7 +31448,7 @@
 			"cha": 13,
 			"save":
 			{
-				"dex":"+5"
+				"dex": "+5"
 			},
 			"skill":
 			{
@@ -31640,7 +31662,7 @@
 			"cha": 13,
 			"save":
 			{
-				"dex":"+5"
+				"dex": "+5"
 			},
 			"skill":
 			{
@@ -31825,8 +31847,8 @@
 			"cha": 12,
 			"save":
 			{
-				"int":"+3",
-				"wis":"+3"
+				"int": "+3",
+				"wis": "+3"
 			},
 			"skill":
 			{
@@ -31849,7 +31871,7 @@
 						"Wandslinger is a broad term for any wizard who trains to use a wand in the manner of a martial application. This training grants them profound mastery over a few devastating effects, precision and potency with their wands, and the ability to wield and even recharge them. Instead of relying on cantrips, wandslingers can channel raw magic through their wands.",
 						"Wandslingers do not require verbal or material components when casting through their wands. A swing of their wand is enough to channel magical power through it quickly. A wandslinger can cast their known cantrips as a bonus action.",
 						"Wandslingers are known to perform powerful trick shots to disable or damage their opponents using their wand.",
-						"Apprentice wandslingers create 3 missiles." 
+						"Apprentice wandslingers create 3 missiles."
 					]
 				}
 			],
@@ -31972,8 +31994,8 @@
 			"cha": 12,
 			"save":
 			{
-				"int":"+4",
-				"wis":"+3"
+				"int": "+4",
+				"wis": "+3"
 			},
 			"skill":
 			{
@@ -32173,8 +32195,8 @@
 			"cha": 12,
 			"save":
 			{
-				"int":"+7",
-				"wis":"+4"
+				"int": "+7",
+				"wis": "+4"
 			},
 			"skill":
 			{
@@ -32411,8 +32433,8 @@
 			"cha": 12,
 			"save":
 			{
-				"int":"+7",
-				"wis":"+4"
+				"int": "+7",
+				"wis": "+4"
 			},
 			"skill":
 			{
@@ -32514,8 +32536,8 @@
 			"save":
 			{
 				"str": "+10",
-				"con":"+9",
-				"wis":"+4",
+				"con": "+9",
+				"wis": "+4",
 				"cha": "+7"
 			},
 			"senses":
@@ -32861,17 +32883,20 @@
 						{
 							"type": "table",
 							"caption": "Draconic Type",
-							"colLabels": [
+							"colLabels":
+							[
 								"Dragon",
 								"Damage Type",
 								"Breath Weapon"
 							],
-							"colStyles": [
+							"colStyles":
+							[
 								"col-3 text-center",
 								"col-3 text-center",
 								"col-6"
 							],
-							"rows": [
+							"rows":
+							[
 								[
 									"Black",
 									"Acid",
@@ -33052,7 +33077,6 @@
 			},
 			"skill":
 			{
-
 				"arcana": "+6",
 				"athletics": "+7"
 			},
@@ -33353,7 +33377,6 @@
 								"{@spell detect thoughts|XPHB}",
 								"{@spell hold person|XPHB}",
 								"{@spell phantasmal force|XPHB}"
-
 							]
 						},
 						"3":
@@ -33542,8 +33565,8 @@
 							"{@spell searing smite|XPHB}"
 						]
 					},
-				"ability": "cha",
-				"type": "spellcasting"
+					"ability": "cha",
+					"type": "spellcasting"
 				}
 			],
 			"senseTags":
@@ -33885,12 +33908,12 @@
 			"ac":
 			[
 				{
-          "ac": 15,
-          "from":
+					"ac": 15,
+					"from":
 					[
-            "natural armor"
-          ]
-        }
+						"natural armor"
+					]
+				}
 			],
 			"hp":
 			{
@@ -34235,11 +34258,11 @@
 				"N"
 			],
 			"ac":
-			 [
+			[
 				{
 					"ac": 17,
 					"from":
-					 [
+					[
 						"{@item half plate armor of fire resistance|DMG}"
 					]
 				}
@@ -34377,7 +34400,8 @@
 					}
 				]
 			}
-		},{
+		},
+		{
 			"name": "Living Animate Dead",
 			"source": "Canbrew",
 			"size":
@@ -34901,7 +34925,7 @@
 			},
 			"speed":
 			{
-			  "fly": 30
+				"fly": 30
 			},
 			"str": 10,
 			"dex": 15,
@@ -35422,7 +35446,7 @@
 			},
 			"speed":
 			{
-			  "fly": 30
+				"fly": 30
 			},
 			"str": 10,
 			"dex": 14,
@@ -35826,10 +35850,10 @@
 				},
 				{
 					"name": "Spell Mimicry {@recharge 5}",
-							"entries":
-							[
-								"The living spell moves up to its speed and unleashes a stroke of fire in a 20-foot radius sphere. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one."
-							]
+					"entries":
+					[
+						"The living spell moves up to its speed and unleashes a stroke of fire in a 20-foot radius sphere. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
 				}
 			],
 			"traitTags":
@@ -36704,7 +36728,7 @@
 			},
 			"speed":
 			{
-			  "fly": 60
+				"fly": 60
 			},
 			"str": 10,
 			"dex": 14,
@@ -38081,12 +38105,12 @@
 						"A {@creature vampire spawn|MM} created in this way is automatically {@condition charmed} by you. Each time you or one of your companions do anything harmful to the target, it can make a Wisdom saving throw, ending the effect on itself on a success. DC for this saving throw is equal to 8 + double your proficiency bonus. Otherwise, the effect lasts until it grows into a full vampire or until you are destroyed. The DC is reduced by 2 for each {@creature vampire spawn|MM} you already have under your charm.",
 						{
 							"type": "quote",
-							"entries": [
+							"entries":
+							[
 								"Beware of a spawn's hunger, as it may consume its maker."
 							],
 							"by": "Vinma'al Ceregin"
 						}
-						
 					]
 				},
 				{
@@ -38741,9 +38765,9 @@
 			{
 				"type": "point",
 				"distance":
-					{
-						"type": "touch"
-					}
+				{
+					"type": "touch"
+				}
 			},
 			"components":
 			{
@@ -38767,10 +38791,10 @@
 						"amount": 1
 					},
 					"ends":
-						[
-							"dispel",
-							"trigger"
-						]
+					[
+						"dispel",
+						"trigger"
+					]
 				}
 			],
 			"entries":
