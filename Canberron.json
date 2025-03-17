@@ -18502,6 +18502,121 @@
         "RNG",
         "RW"
       ]
+    },
+    {
+      "name": "Yaşlı Gittik",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "hobgoblin"
+        ]
+      },
+      "alignment":
+      [
+        "N"
+      ],
+      "ac":
+      [
+        11
+      ],
+      "hp":
+      {
+        "average": 16,
+        "formula": "3d8 + 3"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 12,
+      "con": 13,
+      "int": 15,
+      "wis": 14,
+      "cha": 16,
+      "skill":
+      {
+        "insight": "+4",
+        "investigation": "+4",
+        "perception": "+4",
+        "persuasion": "+5"
+      },
+      "senses":
+      [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "languages":
+      [
+        "Common",
+        "Elvish",
+        "Gnome",
+        "Goblin",
+        "Theives cant"
+      ],
+      "cr": "1/4",
+      "trait":
+      [
+        {
+          "name": "Martial Advantage",
+          "entries":
+          [
+            "Once per turn, the Old Went can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of his that isn't {@condition incapacitated}.",
+            "Sneak Attack (1/Turn): Old Went deals an extra 3 ({@damage 1d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of his that isn't {@condition incapacitated} and he doesn't have disadvantage on the attack roll."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Club",
+          "entries":
+          [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries":
+          [
+            "{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "club|phb",
+        "dagger|phb"
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "languageTags":
+      [
+        "C",
+        "E",
+        "GO"
+      ],
+      "damageTags":
+      [
+        "B",
+        "P"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ]
     }
   ]
 }
