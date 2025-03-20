@@ -20739,6 +20739,186 @@
       [
         "wisdom"
       ]
+    },
+    {
+      "name": "Kara Yafta Ulak",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "human"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        {
+          "ac": 16,
+          "from":
+          [
+            "{@item studded leather armor|XPHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 97,
+        "formula": "15d8 + 30"
+      },
+      "speed":
+      {
+        "walk": 35
+      },
+      "str": 10,
+      "dex": 19,
+      "con": 14,
+      "int": 10,
+      "wis": 14,
+      "cha": 12,
+      "save":
+      {
+        "dex": "+7",
+        "con": "+5",
+        "wis": "+5"
+      },
+      "skill":
+      {
+        "acrobatics": "+10",
+        "athletics": "+3",
+        "perception": "+5",
+        "survival": "+5"
+      },
+      "passive": 15,
+      "languages":
+      [
+        "Common plus any two other languages"
+      ],
+      "cr": "5",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The courier casts one of the following spells, requiring no spell components and using Dexterity as the spellcasting ability:"
+          ],
+          "daily":
+          {
+            "1":
+            [
+              "{@spell dimension door|XPHB}"
+            ],
+            "3e":
+            [
+              "{@spell jump|XPHB}",
+              "{@spell pass without trace|XPHB}"
+            ]
+          },
+          "ability": "dex",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Determined Stride",
+          "entries":
+          [
+            "When the courier teleports any distance or takes the Dash action, difficult terrain doesn't cost it extra movement until the end of its turn."
+          ]
+        },
+        {
+          "name": "Evasion",
+          "entries":
+          [
+            "If the courier is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The courier makes two attacks with its rapier."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "entries":
+          [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Dimension Step (2nd-Level Spell; 3/Day)",
+          "entries":
+          [
+            "The courier and all equipment it is wearing or carrying teleports to an unoccupied space it can see within 30 feet of it."
+          ]
+        },
+        {
+          "name": "Lightfooted",
+          "entries":
+          [
+            "The courier takes the Dash or Disengage action."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Impossible Dodge",
+          "entries":
+          [
+            "When the courier is hit by an attack it can see, it can expend one use of a spell it has left that day. If it does so, the spell is not cast, but the attack misses as the courier instantly teleports out of and immediately back into its space."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "rapier|phb"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "languageTags":
+      [
+        "C",
+        "X"
+      ],
+      "damageTags":
+      [
+        "P"
+      ],
+      "damageTagsSpell":
+      [
+        "O"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW"
+      ]
     }
   ]
 }
