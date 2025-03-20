@@ -18617,6 +18617,158 @@
         "RW",
         "THW"
       ]
+    },
+    {
+      "name": "Orien Kılıcı",
+      "source": "Canbrew",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "human"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        {
+          "ac": 18,
+          "from":
+          [
+            "{@item studded leather armor|XPHB|studded leather}",
+            "{@item shield|XPHB}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 117,
+        "formula": "18d8 + 36"
+      },
+      "speed":
+      {
+        "walk": 35
+      },
+      "str": 16,
+      "dex": 19,
+      "con": 14,
+      "int": 11,
+      "wis": 14,
+      "cha": 10,
+      "skill":
+      {
+        "acrobatics": "+10",
+        "athletics": "+6",
+        "insight": "+5"
+      },
+      "passive": 12,
+      "languages":
+      [
+        "Common"
+      ],
+      "cr": "5",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting (3/Day)",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The blade casts dimension door, requiring no spell components and using Dexterity as the spellcasting ability."
+          ],
+          "ability": "dex",
+          "displayAs": "action"
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The blade makes three attacks with its longsword."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries":
+          [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Dimension Grasp",
+          "entries":
+          [
+            "The blade targets one item it can see within 30 feet that weighs no more than 10 pounds. The item teleports to the blade's waiting hand. If the targetted item is being held or worn by a creature, the creature can make a {@dc 15} Charisma saving throw. On a success, the item is not teleported."
+          ]
+        },
+        {
+          "name": "Dimension Thrust",
+          "entries":
+          [
+            "The blade can expend a use of dimension door if it has any remaining. If it does, the blade does not cast the spell. Instead, one creature it can see within 60 feet must make a {@dc 15} Charisma saving throw. On a failure, the target takes 21 ({@damage 6d6}) force damage and it and all equipment it is wearing or carrying are teleported horizontally to a space the blade chooses within 500 feet of it. The space can be one the blade can see, one it can describe by stating distance and direction, or one it is familiar with within range (such as \"the holding cell in the cargo cart of this lightning rail\"). On a successful save, the target takes half as much damage, and is not teleported."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Dimension Stride",
+          "entries":
+          [
+            "The blade and all equipment it is wearing or carrying teleports up to its speed to an unoccupied space it can see."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Dimension Swap",
+          "entries":
+          [
+            "When a creature within 60 feet of the blade that it can see is hit by an attack roll, the blade can expend a use of dimension door if it has any remaining. If it does, the blade does not cast the spell. Instead, the blade teleports itself and the creature, along with any equipment they are wearing or carrying, such that they exchange positions. The blade is then hit by the attack instead."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "longsword|phb"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "languageTags":
+      [
+        "C"
+      ],
+      "damageTags":
+      [
+        "O",
+        "S"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForced":
+      [
+        "charisma"
+      ]
     }
   ]
 }
