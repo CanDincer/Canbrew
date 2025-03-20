@@ -19793,6 +19793,223 @@
         "RW",
         "THW"
       ]
+    },
+    {
+      "name": "Fırtına Gardiyanı",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "half-elf"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        {
+          "ac": 15,
+          "from":
+          [
+            "{@item studded leather armor|XPHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 91,
+        "formula": "14d8 + 24"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 15,
+      "int": 11,
+      "wis": 12,
+      "cha": 16,
+      "save":
+      {
+        "dex": "+6",
+        "con": "+5"
+      },
+      "skill":
+      {
+        "acrobatics": "+9",
+        "athletics": "+3",
+        "intimidation": "+6"
+      },
+      "senses":
+      [
+        "darkvision 60 ft"
+      ],
+      "passive": 11,
+      "resist":
+      [
+        "cold",
+        "lightning",
+        "thunder"
+      ],
+      "languages":
+      [
+        "Common",
+        "Elvish"
+      ],
+      "cr": "8",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The warden casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+          ],
+          "will":
+          [
+            "{@spell gust|XGE}"
+          ],
+          "daily":
+          {
+            "3":
+            [
+              "{@spell gust of wind|XPHB}"
+            ],
+            "1e":
+            [
+              "{@spell call lightning|XPHB}",
+              "{@spell lightning bolt|XPHB}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Fey Ancestry",
+          "entries":
+          [
+            "The warden has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+          ]
+        },
+        {
+          "name": "Windfall",
+          "entries":
+          [
+            "The warden does not take damage from falling."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The warden makes two attacks with its rapier or dagger, then uses Storm Fist if available."
+          ]
+        },
+        {
+          "name": "Rapier",
+          "entries":
+          [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage and 7 ({@damage 2d6}) lightning damage."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries":
+          [
+            "{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage and 9 ({@damage 2d8}) thunder damage, and the impact can be heard up to 300 feet away."
+          ]
+        },
+        {
+          "name": "Storm Fist {@recharge 5}",
+          "entries":
+          [
+            "The warden sends a short magical burst of hurricane-force winds at one creature it can see within 60 feet. The target must make a {@dc 14} Strength saving throw. On a failure, the target takes 21 ({@damage 6d6}) bludgeoning damage and is pushed 15 feet away from the warden, then falls {@condition prone}. On a success, the target takes half damage and is not pushed or knocked {@condition prone}."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Warding Gale (3/Day)",
+          "entries":
+          [
+            "When the warden is hit by an attack roll, it can force the attacker the reroll the attack roll with disadvantage. If the warden does, all attacks made against it have disadvantage until the start of its next turn."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "dagger|phb",
+        "rapier|phb"
+      ],
+      "traitTags":
+      [
+        "Fey Ancestry"
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "languageTags":
+      [
+        "C",
+        "E"
+      ],
+      "damageTags":
+      [
+        "B",
+        "L",
+        "P",
+        "T"
+      ],
+      "damageTagsSpell":
+      [
+        "L"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "conditionInflict":
+      [
+        "prone"
+      ],
+      "savingThrowForced":
+      [
+        "strength"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "dexterity",
+        "strength"
+      ]
     }
   ]
 }
