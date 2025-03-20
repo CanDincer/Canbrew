@@ -20385,6 +20385,213 @@
       [
         "dexterity"
       ]
+    },
+    {
+      "name": "Mühürsüz Parşömen",
+      "source": "",
+      "size":
+      [
+        "S"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "gnome",
+          "wizard"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        12,
+        {
+          "ac": 15,
+          "condition": "with mage armor",
+          "braces": true
+        }
+      ],
+      "hp":
+      {
+        "average": 45,
+        "formula": "10d6 + 10"
+      },
+      "speed":
+      {
+        "walk": 25
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 13,
+      "int": 19,
+      "wis": 12,
+      "cha": 12,
+      "save":
+      {
+        "int": "+7",
+        "wis": "+4",
+        "cha": "+4"
+      },
+      "skill":
+      {
+        "arcana": "+10",
+        "history": "+10"
+      },
+      "senses":
+      [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "languages":
+      [
+        "Common and Gnomish",
+        "plus any three other languages"
+      ],
+      "cr": "7",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The unbound scroll casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+          ],
+          "will":
+          [
+            "{@spell comprehend languages|XPHB}",
+            "{@spell illusory script|XPHB} (as an action)",
+            "{@spell mage hand|XPHB}",
+            "{@spell message|XPHB}",
+            "{@spell minor illusion|XPHB}"
+          ],
+          "daily":
+          {
+            "3e":
+            [
+              "{@spell magic missile|XPHB}",
+              "{@spell mage armor|XPHB}",
+              "{@spell tasha's hideous laughter|XPHB}",
+              "{@spell shield|XPHB}"
+            ],
+            "2e":
+            [
+              "{@spell magic mouth|XPHB} (as an action)",
+              "{@spell sending|XPHB}",
+              "{@spell silence|XPHB}",
+              "{@spell suggestion|XPHB}",
+              "{@spell tongues|XPHB}"
+            ],
+            "1e":
+            [
+              "{@spell confusion|XPHB}",
+              "{@spell dream|XPHB} (as an action)",
+              "{@spell modify memory|XPHB}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        },
+        {
+          "name": "Master of the Unbound Glyph (3/Day)",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The unbound scroll casts {@spell glyph of warding|XPHB} as an action, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}). The effects of the spell gain several additional benefits, as follows:",
+            {
+              "type": "list",
+              "items":
+              [
+                "The glyph can be inscribed as a 5-foot wide, visible, glowing illusion in midair, in any space the unbound scroll can see within 100 feet.",
+                "The glyph can be triggered immediately.",
+                "Explosive Runes damage increases to 36 ({@dice 7d8}).",
+                "The unbound scroll can designate any number of creatures it can see to be immune to that casting of the spell."
+              ]
+            }
+          ],
+          "daily":
+          {
+            "3":
+            [
+              "{@spell glyph of warding|XPHB}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action",
+          "hidden":
+          [
+            "daily"
+          ]
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Gnome Cunning",
+          "entries":
+          [
+            "The unbound scroll has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Arcane Burst",
+          "entries":
+          [
+            "{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}15 ({@damage 2d10 + 4}) force damage."
+          ]
+        }
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "languageTags":
+      [
+        "C",
+        "G"
+      ],
+      "damageTags":
+      [
+        "O"
+      ],
+      "damageTagsSpell":
+      [
+        "A",
+        "C",
+        "F",
+        "L",
+        "O",
+        "T",
+        "Y"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MA",
+        "RA"
+      ],
+      "conditionInflictSpell":
+      [
+        "charmed",
+        "deafened",
+        "incapacitated",
+        "prone"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "dexterity",
+        "wisdom"
+      ]
     }
   ]
 }
