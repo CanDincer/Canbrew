@@ -19421,6 +19421,196 @@
         "MLW",
         "MW"
       ]
-    }    
+    },
+    {
+      "name": "Nöbet Subayı",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "human",
+          "paladin"
+        ]
+      },
+      "alignment":
+      [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac":
+      [
+        {
+          "ac": 22,
+          "from":
+          [
+            "{@item plate armor|XPHB|plate}",
+            "{@item shield|XPHB}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 110,
+        "formula": "17d8 + 34"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 17,
+      "dex": 10,
+      "con": 14,
+      "int": 11,
+      "wis": 12,
+      "cha": 16,
+      "save":
+      {
+        "str": "+6",
+        "dex": "+3",
+        "con": "+5",
+        "int": "+3",
+        "wis": "+7",
+        "cha": "+9"
+      },
+      "skill":
+      {
+        "athletics": "+6",
+        "insight": "+7",
+        "perception": "+7",
+        "persuasion": "+6"
+      },
+      "passive": 17,
+      "languages":
+      [
+        "Common"
+      ],
+      "cr": "6",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The Sentinel Marshal casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+          ],
+          "will":
+          [
+            "{@spell command|XPHB}",
+            "{@spell warding bond|XPHB}"
+          ],
+          "daily":
+          {
+            "2e":
+            [
+              "{@spell hunter's mark|XPHB}",
+              "{@spell hold person|XPHB}",
+              "{@spell locate object|XPHB}",
+              "{@spell zone of truth|XPHB}"
+            ],
+            "1e":
+            [
+              "{@spell haste|XPHB}",
+              "{@spell spirit guardians|XPHB}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Aura of Protection",
+          "entries":
+          [
+            "The Sentinel Marshal and all allies within 10 feet of it gain a bonus to all saving throws equal to the Sentinel Marshal's Charisma modifier (already included in the Sentinel Marshal's saving throws). The aura exists as long as the Sentinel Marshal is conscious."
+          ]
+        },
+        {
+          "name": "Faith's Shield",
+          "entries":
+          [
+            "The Sentinel Marshal's AC includes a magical +2 bonus."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The Sentinel Marshal makes two attacks with its longsword."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries":
+          [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Vigilant Guardian (Recharges after a Short or Long Rest)",
+          "entries":
+          [
+            "When a creature within 5 feet of the Sentinel Marshal that it can see is hit by an attack, the Sentinel Marshal can swap places with that creature, and be hit by the attack instead"
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "longsword|phb"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "languageTags":
+      [
+        "C"
+      ],
+      "damageTags":
+      [
+        "S"
+      ],
+      "damageTagsSpell":
+      [
+        "N",
+        "O",
+        "R"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell":
+      [
+        "incapacitated",
+        "paralyzed",
+        "prone"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "charisma",
+        "wisdom"
+      ]
+    }
   ]
 }
