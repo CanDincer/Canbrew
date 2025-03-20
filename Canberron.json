@@ -19611,6 +19611,189 @@
         "charisma",
         "wisdom"
       ]
+    },
+    {
+      "name": "Gümüş Anahtar",
+      "source": "",
+      "page": 0,
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "dwarf"
+        ]
+      },
+      "alignment":
+      [
+        "L",
+        "N"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac":
+      [
+        {
+          "ac": 15,
+          "from":
+          [
+            "{@item studded leather armor|XPHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 44,
+        "formula": "8d8 + 8"
+      },
+      "speed":
+      {
+        "walk": 25
+      },
+      "str": 14,
+      "dex": 16,
+      "con": 12,
+      "int": 16,
+      "wis": 11,
+      "cha": 10,
+      "save":
+      {
+        "dex": "+5",
+        "int": "+5"
+      },
+      "skill":
+      {
+        "acrobatics": "+5",
+        "athletics": "+4",
+        "perception": "+2",
+        "stealth": "+7"
+      },
+      "senses":
+      [
+        "darkvision 60 ft"
+      ],
+      "passive": 12,
+      "resist":
+      [
+        "poison",
+        {
+          "special": "damage dealt by traps"
+        }
+      ],
+      "languages":
+      [
+        "Common",
+        "Dwarvish"
+      ],
+      "cr": "3",
+      "trait":
+      [
+        {
+          "name": "Dwarven Resilience",
+          "entries":
+          [
+            "The Silver Key has advantage on saving throws against poison."
+          ]
+        },
+        {
+          "name": "Evasion",
+          "entries":
+          [
+            "If the Silver Key is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the Silver Key instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+          ]
+        },
+        {
+          "name": "Vault Delver",
+          "entries":
+          [
+            "The Silver Key has advantage on ability checks made to detect secret doors and open or disable locks, and on saving throws against traps."
+          ]
+        },
+        {
+          "name": "Ward Breaker",
+          "entries":
+          [
+            "The first time the Silver Key would activate, trigger, or have its movement or actions restricted by an abjuration spell, it may make an Intelligence ability check with advantage against a DC equal to the spell save DC of the spell's caster. If the Silver Key's check is successful, it is immune to that casting of the spell, bypassing all of its effects without triggering, activating, or being restricted by it."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The Silver Key makes two attacks with its battleaxe."
+          ]
+        },
+        {
+          "name": "Battleaxe",
+          "entries":
+          [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Light Hammer",
+          "entries":
+          [
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Cunning Action",
+          "entries":
+          [
+            "The Silver Key takes the Dash, Disengage, or Hide action."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Uncanny Dodge",
+          "entries":
+          [
+            "The Silver Key halves the damage that it takes from an attack that hits it. The Silver Key must be able to see the attacker"
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "battleaxe|phb",
+        "light hammer|phb"
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "languageTags":
+      [
+        "C",
+        "D"
+      ],
+      "damageTags":
+      [
+        "B",
+        "S"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ]
     }
   ]
 }
