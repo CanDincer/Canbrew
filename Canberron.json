@@ -18620,7 +18620,7 @@
     },
     {
       "name": "Orien Kılıcı",
-      "source": "Canbrew",
+      "source": "Canberron",
       "size":
       [
         "M"
@@ -18768,6 +18768,342 @@
       "savingThrowForced":
       [
         "charisma"
+      ]
+    },
+    {
+      "name": "Cannith Asa Ustası",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "artificer",
+          "human"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        {
+          "ac": 14,
+          "from":
+          [
+            "{@item studded leather armor|XPHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 66,
+        "formula": "12d8 + 12"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 19,
+      "wis": 13,
+      "cha": 12,
+      "save":
+      {
+        "con": "+4",
+        "int": "+7"
+      },
+      "skill":
+      {
+        "arcana": "+7",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "languages":
+      [
+        "Common"
+      ],
+      "cr": "5",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The wand adept casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}; +7 with spell attacks):"
+          ],
+          "will":
+          [
+            "{@spell acid splash|XPHB}",
+            "{@spell fire bolt|XPHB}",
+            "{@spell shocking grasp|XPHB}"
+          ],
+          "daily":
+          {
+            "3e":
+            [
+              "{@spell absorb elements|XGE}",
+              "{@spell shield|XPHB}"
+            ],
+            "1e":
+            [
+              "{@spell faerie fire|XPHB}",
+              "{@spell grease|XPHB}",
+              "{@spell invisibility|XPHB}",
+              "{@spell levitate|XPHB}",
+              "{@spell see invisibility|XPHB}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Superior Wand Efficiency",
+          "entries":
+          [
+            "When the wand adept uses a wand as an arcane focus to cast a cantrip, it adds its Intelligence modifier to the cantrip's damage and the cantrip is cast as though the wand adept is an 11th-level spellcaster (already included)."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Wands Akimbo",
+          "entries":
+          [
+            "The wand adept draws two wands (if it does not already have two drawn), and casts either two cantrips or one cantrip twice."
+          ]
+        }
+      ],
+      "languageTags":
+      [
+        "C"
+      ],
+      "damageTagsSpell":
+      [
+        "A",
+        "F",
+        "L"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "conditionInflictSpell":
+      [
+        "invisible",
+        "prone"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "constitution",
+        "dexterity"
+      ]
+    },
+    {
+      "name": "Deneith Siberys Kalkanı",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "human"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        {
+          "ac": 21,
+          "from":
+          [
+            "{@item plate armor|XPHB|plate}",
+            "{@item shield|XPHB}",
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 127,
+        "formula": "17d8 + 51"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 10,
+      "con": 17,
+      "int": 11,
+      "wis": 16,
+      "cha": 15,
+      "save":
+      {
+        "str": "+8",
+        "con": "+7",
+        "wis": "+7"
+      },
+      "skill":
+      {
+        "athletics": "+8",
+        "insight": "+11",
+        "perception": "+11",
+        "persuasion": "+6"
+      },
+      "passive": 21,
+      "resist":
+      [
+        {
+          "resist":
+          [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "damage from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "languages":
+      [
+        "Common"
+      ],
+      "cr": "10",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The defender casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:"
+          ],
+          "will":
+          [
+            "{@spell warding bond|XPHB}"
+          ],
+          "daily":
+          {
+            "1":
+            [
+              "{@spell circle of power|XPHB}",
+              "{@spell shield|XPHB}"
+            ],
+            "2":
+            [
+              "{@spell spirit guardians|XPHB} (bonus action)"
+            ]
+          },
+          "ability": "wis",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Vigilant Guardian",
+          "entries":
+          [
+            "Creatures have disadvantage on attack rolls against allies of the defender that are within 5 feet of it, unless the defender is {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The defender makes three attacks with its longsword."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries":
+          [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands, plus 10 ({@damage 3d6}) slashing damage if an ally of the defender it can see has less than maximum hit points."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Manifest Defenders (2/Day)",
+          "entries":
+          [
+            "The defender magically summons ephemeral duplicates of itself and its equipment made up of dragonmark-like lines of force that last for 1 minute. The duplicates move about in a 15-foot sphere centered on the defender that moves with it. When a creature hostile to the defender or the defender's allies enters the sphere for the first time on its turn, or starts its turn there, it must succeed on a {@dc 15} Constitution saving throw, taking 13 ({@damage 3d8}) force damage on a failed save, or half as much on a successful one."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Vigilant Strike",
+          "entries":
+          [
+            "When a creature within 5 feet of the defender that it can see is hit by an attack, the defender can swap places with that creature, and be hit by the attack instead. After the attack is resolved, the defender can then make a melee weapon attack with advantage against the attacker."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "longsword|phb"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "languageTags":
+      [
+        "C"
+      ],
+      "damageTags":
+      [
+        "O",
+        "S"
+      ],
+      "damageTagsSpell":
+      [
+        "N",
+        "R"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "AOE",
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForced":
+      [
+        "constitution"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "wisdom"
       ]
     }
   ]
