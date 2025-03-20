@@ -20212,6 +20212,179 @@
         "charisma",
         "wisdom"
       ]
+    },
+    {
+      "name": "Tharashk Ödül Avcısı",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "half-orc or human",
+          "ranger"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        {
+          "ac": 17,
+          "from":
+          [
+            "{@item half plate armor|XPHB|half plate}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 58,
+        "formula": "9d8 + 18"
+      },
+      "speed":
+      {
+        "walk": 35
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 15,
+      "int": 10,
+      "wis": 16,
+      "cha": 8,
+      "skill":
+      {
+        "athletics": "+7",
+        "perception": "+7",
+        "survival": "+7"
+      },
+      "senses":
+      [
+        "darkvision 60 ft."
+      ],
+      "passive": 17,
+      "languages":
+      [
+        "Common",
+        "Goblin"
+      ],
+      "cr": "3",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The bounty hunter casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+          ],
+          "daily":
+          {
+            "3e":
+            [
+              "{@spell faerie fire|XPHB}",
+              "{@spell locate object|XPHB}",
+              "{@spell hunter's mark|XPHB} (5th-level)"
+            ],
+            "2e":
+            [
+              "{@spell divination|XPHB}",
+              "{@spell locate creature|XPHB}"
+            ]
+          },
+          "ability": "wis",
+          "displayAs": "action"
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The bounty hunter makes two battleaxe attacks then uses Take Down. If it has a club drawn, the bounty hunter can't use Take Down, but can make a club attack."
+          ]
+        },
+        {
+          "name": "Battleaxe",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Club",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Take Down",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}the target is {@condition grappled} if it is a Large or smaller creature (escape {@dc 17}). If the target is a humanoid, it is also knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Collar",
+          "entries":
+          [
+            "The bounty hunter places manacles on a {@condition prone} humanoid it is grappling. A manacled target is {@condition restrained} and can only make weapon attacks with light weapons and unarmed strikes. The target can use its action to attempt to break the manacles with a {@dc 25} Strength check or escape them with a {@dc 25} Dexterity check."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "battleaxe|phb",
+        "club|phb"
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "languageTags":
+      [
+        "C",
+        "GO"
+      ],
+      "damageTags":
+      [
+        "B",
+        "S"
+      ],
+      "damageTagsSpell":
+      [
+        "O"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflict":
+      [
+        "grappled",
+        "restrained"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "dexterity"
+      ]
     }
   ]
 }
