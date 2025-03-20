@@ -20592,6 +20592,153 @@
         "dexterity",
         "wisdom"
       ]
+    },
+    {
+      "name": "Vadalis Hayvanlara Fısıldayan",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "human"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        {
+          "ac": 14,
+          "from":
+          [
+            "{@item studded leather armor|XPHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 44,
+        "formula": "8d8 + 8"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 13,
+      "int": 12,
+      "wis": 16,
+      "cha": 11,
+      "save":
+      {
+        "con": "+3",
+        "wis": "+5"
+      },
+      "skill":
+      {
+        "animal handling": "+7",
+        "nature": "+5",
+        "survival": "+5"
+      },
+      "passive": 13,
+      "languages":
+      [
+        "Common"
+      ],
+      "cr": "3",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The beastspeaker casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 13}). When it does so it may target a monstrosity with an Intelligence score of 3 or lower:"
+          ],
+          "daily":
+          {
+            "2":
+            [
+              "{@spell dominate beast|XPHB}"
+            ],
+            "3e":
+            [
+              "{@spell animal friendship|XPHB}",
+              "{@spell beast sense|XPHB}",
+              "{@spell speak with animals|XPHB}"
+            ]
+          },
+          "ability": "wis",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Primal Companion",
+          "entries":
+          [
+            "The beastspeaker is bonded to a companion: a beast or monstrosity with an Intelligence score of 7 or lower that has a challenge rating of 3, and which does not use manufactured weapons to make attacks. The companion shares the beastspeaker's alignment, is immune to being {@condition charmed} or {@condition frightened}, understands one language the beastspeaker does (although it does not gain the ability to speak if it is not naturally capable of doing so), and has advantage on attack rolls against all creatures within 15 feet of the beastspeaker."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Scimitar",
+          "entries":
+          [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Urge Companion",
+          "entries":
+          [
+            "If the beastspeaker is within 15 feet of its companion, the beastspeaker can expend a use of a spell it has remaining that day. When it does, the beastspeaker does not cast the spell. Instead, the companion uses any action listed in its stat block\u2014including the Multiattack action if it has it\u2014as a reaction."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "scimitar|phb"
+      ],
+      "languageTags":
+      [
+        "C"
+      ],
+      "damageTags":
+      [
+        "S"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell":
+      [
+        "charmed"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "wisdom"
+      ]
     }
   ]
 }
