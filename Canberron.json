@@ -19269,6 +19269,158 @@
         "charisma",
         "wisdom"
       ]
-    }
+    },
+    {
+      "name": "Jorasco Sıhhiyesi",
+      "source": "Canberron",
+      "size":
+      [
+        "S"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "halfling"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        {
+          "ac": 15,
+          "from":
+          [
+            "{@item studded leather armor|XPHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 45,
+        "formula": "10d6 + 10"
+      },
+      "speed":
+      {
+        "walk": 25
+      },
+      "str": 11,
+      "dex": 17,
+      "con": 12,
+      "int": 13,
+      "wis": 15,
+      "cha": 10,
+      "save":
+      {
+        "con": "+3",
+        "wis": "+4"
+      },
+      "skill":
+      {
+        "acrobatics": "+5",
+        "medicine": "+6",
+        "survival": "+4"
+      },
+      "passive": 12,
+      "languages":
+      [
+        "Common",
+        "Halfling"
+      ],
+      "cr": "2",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The medic casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:"
+          ],
+          "daily":
+          {
+            "3e":
+            [
+              "{@spell cure wounds|XPHB}",
+              "{@spell healing word|XPHB}"
+            ],
+            "1e":
+            [
+              "{@spell lesser restoration|XPHB}"
+            ]
+          },
+          "ability": "wis",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Brave",
+          "entries":
+          [
+            "The medic has advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "entries":
+          [
+            "The medic can move through the space of any creature that is of a size larger than it."
+          ]
+        },
+        {
+          "name": "Lucky",
+          "entries":
+          [
+            "When the medic rolls a 1 on an attack roll, ability check, or saving throw, it can reroll the die and must use the new roll."
+          ]
+        },
+        {
+          "name": "Anatomical Knowledge (1/Turn)",
+          "entries":
+          [
+            "When the medic hits with a melee weapon attack against a humanoid creature within 5 feet of it, the target takes an extra 10 ({@damage 3d6}) damage.",
+            "If this reduces the target to 0 hit points, the medic can choose to leave the target {@condition unconscious} but stable. If it does so, the target remains {@condition unconscious} for {@dice 1d4} hours, even if it regains hit points. A {@dc 14} Wisdom ({@skill Medicine|XPHB}) check made as an action can awaken a creature from this unconsciousness early if it has 1 or more hit points."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Scimitar",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft. ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "scimitar|phb"
+      ],
+      "languageTags":
+      [
+        "C",
+        "H"
+      ],
+      "damageTags":
+      [
+        "S"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW"
+      ]
+    }    
   ]
 }
