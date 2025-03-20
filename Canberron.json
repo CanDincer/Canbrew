@@ -19105,6 +19105,170 @@
       [
         "wisdom"
       ]
+    },
+    {
+      "name": "Ghallanda Mihmandarı",
+      "source": "Canberron",
+      "size":
+      [
+        "S"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "halfling"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        12
+      ],
+      "hp":
+      {
+        "average": 7,
+        "formula": "2d6"
+      },
+      "speed":
+      {
+        "walk": 25
+      },
+      "str": 9,
+      "dex": 14,
+      "con": 10,
+      "int": 13,
+      "wis": 14,
+      "cha": 16,
+      "save":
+      {
+        "con": "+2",
+        "wis": "+4"
+      },
+      "skill":
+      {
+        "persuasion": "+5"
+      },
+      "passive": 12,
+      "languages":
+      [
+        "Common",
+        "Halfling",
+        "any two other languages"
+      ],
+      "cr": "1/8",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The host casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 13}):"
+          ],
+          "will":
+          [
+            "{@spell prestidigitation|XPHB}",
+            "{@spell purify food and drink|XPHB}",
+            "{@spell unseen servant|XPHB}"
+          ],
+          "daily":
+          {
+            "1":
+            [
+              "{@spell hallow|XPHB} (as an action)"
+            ],
+            "3e":
+            [
+              "{@spell aid|XPHB}",
+              "{@spell calm emotions|XPHB}",
+              "{@spell goodberry|XPHB}",
+              "{@spell sleep|XPHB}"
+            ],
+            "2e":
+            [
+              "{@spell aura of purity|XPHB}",
+              "{@spell create food and water|XPHB}",
+              "{@spell Leomund's tiny hut|XPHB} (as an action)",
+              "{@spell Mordenkainen's private sanctum|XPHB} (as an action)"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Brave",
+          "entries":
+          [
+            "The host has advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "entries":
+          [
+            "The host can move through the space of any creature that is of a size larger than it."
+          ]
+        },
+        {
+          "name": "Lucky",
+          "entries":
+          [
+            "When the host rolls a 1 on an attack roll, ability check, or saving throw, it can reroll the die and must use the new roll."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Dart",
+          "entries":
+          [
+            "{@atk rw} {@hit 4} to hit, range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "dart|phb"
+      ],
+      "languageTags":
+      [
+        "C",
+        "H",
+        "X"
+      ],
+      "damageTags":
+      [
+        "P"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "RNG",
+        "RW",
+        "THW"
+      ],
+      "conditionInflictSpell":
+      [
+        "incapacitated",
+        "unconscious"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "charisma",
+        "wisdom"
+      ]
     }
   ]
 }
