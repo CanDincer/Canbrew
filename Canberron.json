@@ -20010,6 +20010,208 @@
         "dexterity",
         "strength"
       ]
+    },
+    {
+      "name": "Gölge Sazende/Hanende",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "bard",
+          "elf"
+        ]
+      },
+      "alignment":
+      [
+        "A"
+      ],
+      "ac":
+      [
+        {
+          "ac": 16,
+          "from":
+          [
+            "{@item studded leather armor|XPHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 110,
+        "formula": "20d8 + 20"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 18,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 19,
+      "save":
+      {
+        "dex": "+7",
+        "int": "+3",
+        "cha": "+7"
+      },
+      "skill":
+      {
+        "acrobatics": "+7",
+        "deception": "+10",
+        "performance": "+10",
+        "stealth": "+10"
+      },
+      "senses":
+      [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "languages":
+      [
+        "Common",
+        "Elvish"
+      ],
+      "cr": "8",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The entertainer casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+          ],
+          "will":
+          [
+            "{@spell dancing lights|XPHB}",
+            "{@spell disguise self|XPHB}",
+            "{@spell minor illusion|XPHB}",
+            "{@spell prestidigitation|XPHB}",
+            "{@spell vicious mockery|XPHB} (5th level)"
+          ],
+          "daily":
+          {
+            "3e":
+            [
+              "{@spell bane|XPHB}",
+              "{@spell charm person|XPHB}",
+              "{@spell darkness|XPHB}",
+              "{@spell healing word|XPHB}",
+              "{@spell invisibility|XPHB}",
+              "{@spell pass without trace|XPHB}"
+            ],
+            "2e":
+            [
+              "{@spell calm emotions|XPHB}",
+              "{@spell hold person|XPHB}",
+              "{@spell silence|XPHB}",
+              "{@spell suggestion|XPHB}"
+            ],
+            "1e":
+            [
+              "{@spell dimension door|XPHB}",
+              "{@spell fear|XPHB}",
+              "{@spell greater invisibility|XPHB}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Fey Ancestry",
+          "entries":
+          [
+            "The entertainer has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The entertainer uses its trick instrument to make three of the following attacks in any combination: a melee attack with a retractable blade, or a ranged attack fired from a hidden compartment."
+          ]
+        },
+        {
+          "name": "Trick Instrument",
+          "entries":
+          [
+            "{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 100/250 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Shadow Jump",
+          "entries":
+          [
+            "The entertainer can teleport while in dim light or darkness up to 30 feet to an unoccupied space that is also in dim light or darkness."
+          ]
+        }
+      ],
+      "traitTags":
+      [
+        "Fey Ancestry"
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "languageTags":
+      [
+        "C",
+        "E"
+      ],
+      "damageTags":
+      [
+        "I",
+        "P"
+      ],
+      "damageTagsSpell":
+      [
+        "O",
+        "Y"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MW",
+        "RW"
+      ],
+      "conditionInflictSpell":
+      [
+        "charmed",
+        "deafened",
+        "frightened",
+        "invisible",
+        "paralyzed"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "charisma",
+        "wisdom"
+      ]
     }
   ]
 }
