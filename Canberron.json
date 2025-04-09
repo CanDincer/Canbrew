@@ -21180,6 +21180,155 @@
         "constitution",
         "wisdom"
       ]
+    },
+    {
+      "name": "Mallora",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "human"
+        ]
+      },
+      "alignment":
+      [
+        "L",
+        "E"
+      ],
+      "ac":
+      [
+        12,
+        {
+          "ac": 15,
+          "condition": "with mage armor",
+          "braces": true
+        }
+      ],
+      "hp":
+      {
+        "average": 28,
+        "formula": "5d8 + 5"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 14,
+      "con": 13,
+      "int": 15,
+      "wis": 10,
+      "cha": 12,
+      "skill":
+      {
+        "arcana": "+4",
+        "deception": "+3",
+        "investigation": "+4",
+        "medicine": "+4"
+      },
+      "passive": 10,
+      "languages":
+      [
+        "Common",
+        "Draconic",
+        "Elven"
+      ],
+      "cr": "1",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "Mallora is a 2nd-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). She has the following wizard spells prepared:"
+          ],
+          "spells":
+          {
+            "0":
+            {
+              "spells":
+              [
+                "{@spell chill touch|XPHB} (+1 damage due to arcane focus)",
+                "{@spell dancing lights|XPHB}",
+                "{@spell mage hand|XPHB}"
+              ]
+            },
+            "1":
+            {
+              "spells":
+              [
+                "{@spell detect magic|XPHB}",
+                "{@spell mage armor|XPHB}",
+                "{@spell silent image|XPHB}",
+                "{@spell tasha's hideous laughter|XPHB}"
+              ]
+            }
+          },
+          "ability": "int"
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Dagger",
+          "entries":
+          [
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Wand of Magic Missiles (5 charges)",
+          "entries":
+          [
+            "Mallora can cast {@spell magic missile|XPHB} using her wand. Casting magic missile costs one charge per level the spell is cast at."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "dagger|phb"
+      ],
+      "languageTags":
+      [
+        "C",
+        "DR"
+      ],
+      "damageTags":
+      [
+        "P"
+      ],
+      "damageTagsSpell":
+      [
+        "N"
+      ],
+      "spellcastingTags":
+      [
+        "CW"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "conditionInflictSpell":
+      [
+        "incapacitated",
+        "prone"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "wisdom"
+      ]
     }
   ]
 }
