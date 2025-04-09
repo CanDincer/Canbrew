@@ -20919,6 +20919,102 @@
         "MLW",
         "MW"
       ]
-    }
+    },
+    {
+      "name": "Emerald Claw Soldier",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "human"
+        ]
+      },
+      "alignment":
+      [
+        "L",
+        "E"
+      ],
+      "ac":
+      [
+        {
+          "ac": 14,
+          "from":
+          [
+            "{@item scale mail|XPHB}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 16,
+        "formula": "3d8 + 3"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 11,
+      "con": 12,
+      "int": 9,
+      "wis": 10,
+      "cha": 8,
+      "skill":
+      {
+        "athletics": "+3",
+        "intimidation": "+1",
+        "religion": "+1"
+      },
+      "passive": 10,
+      "languages":
+      [
+        "Common"
+      ],
+      "cr": "1/4",
+      "action":
+      [
+        {
+          "name": "Flail",
+          "entries":
+          [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Light Crossbow",
+          "entries":
+          [
+            "{@atk rw} {@hit 2} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "flail|phb",
+        "light crossbow|phb"
+      ],
+      "languageTags":
+      [
+        "C"
+      ],
+      "damageTags":
+      [
+        "B",
+        "P"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ]
+    }    
   ]
 }
