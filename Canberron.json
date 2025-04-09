@@ -20853,6 +20853,95 @@
       [
         "MW"
       ]
+    },
+    {
+      "name": "Emerald Claw Skeleton",
+      "source": "",
+      "page": 0,
+      "size":
+      [
+        "M"
+      ],
+      "type": "undead",
+      "alignment":
+      [
+        "L",
+        "E"
+      ],
+      "ac":
+      [
+        {
+          "ac": 13,
+          "from":
+          [
+            "{@item leather armor|XPHB|leather}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 13,
+        "formula": "2d8 + 4"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 15,
+      "int": 6,
+      "wis": 8,
+      "cha": 5,
+      "senses":
+      [
+        "darkvision 60 ft."
+      ],
+      "passive": 9,
+      "immune":
+      [
+        "poison"
+      ],
+      "vulnerable":
+      [
+        "bludgeoning"
+      ],
+      "conditionImmune":
+      [
+        "exhaustion",
+        "poisoned"
+      ],
+      "languages":
+      [
+        "understands Common"
+      ],
+      "cr": "1/4",
+      "action":
+      [
+        {
+          "name": "Scythe",
+          "entries":
+          [
+            "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 2d4}) slashing damage."
+          ]
+        }
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "languageTags":
+      [
+        "C"
+      ],
+      "damageTags":
+      [
+        "S"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ]
     }
   ]
 }
