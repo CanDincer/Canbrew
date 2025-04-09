@@ -21015,6 +21015,171 @@
         "RNG",
         "RW"
       ]
-    }    
+    },
+    {
+      "name": "Keltis Doran",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "human"
+        ]
+      },
+      "alignment":
+      [
+        "L",
+        "E"
+      ],
+      "ac":
+      [
+        {
+          "ac": 16,
+          "from":
+          [
+            "{@item half plate armor|XPHB|half plate}",
+            "{@item shield|XPHB}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 28,
+        "formula": "5d8 + 5"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 14,
+      "dex": 8,
+      "con": 13,
+      "int": 10,
+      "wis": 15,
+      "cha": 12,
+      "skill":
+      {
+        "intimidation": "+3",
+        "medicine": "+4",
+        "persuasion": "+3",
+        "religion": "+2"
+      },
+      "passive": 12,
+      "languages":
+      [
+        "Common"
+      ],
+      "cr": "1",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "Keltis is a 2nd-level spellcaster. His spellcastingability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following cleric spells prepared:"
+          ],
+          "spells":
+          {
+            "0":
+            {
+              "spells":
+              [
+                "{@spell guidance|XPHB}",
+                "{@spell spare the dying|XPHB}",
+                "{@spell thaumaturgy|XPHB}",
+                "{@spell toll the dead|XPHB}"
+              ]
+            },
+            "1":
+            {
+              "spells":
+              [
+                "{@spell bane|XPHB}",
+                "{@spell cure wounds|XPHB}",
+                "{@spell detect magic|XPHB}",
+                "{@spell inflict wounds|XPHB}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Reaper",
+          "entries":
+          [
+            "When Keltis casts {@spell toll the dead|XPHB}, he can target two creatures in range who are within 5 feet of each other."
+          ]
+        },
+        {
+          "name": "Touch of Death (1/Short or Long Rest)",
+          "entries":
+          [
+            "When Keltis hits with a melee attack, he can deal an additional 9 necrotic damage to his target."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Morningstar",
+          "entries":
+          [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries":
+          [
+            "{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "dagger|phb",
+        "morningstar|phb"
+      ],
+      "languageTags":
+      [
+        "C"
+      ],
+      "damageTags":
+      [
+        "N",
+        "P"
+      ],
+      "damageTagsSpell":
+      [
+        "N"
+      ],
+      "spellcastingTags":
+      [
+        "CC"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "charisma",
+        "constitution",
+        "wisdom"
+      ]
+    }
   ]
 }
