@@ -21738,6 +21738,113 @@
         "strength",
         "wisdom"
       ]
+    },
+    {
+      "name": "Bone Wolf",
+      "source": "",
+      "page": 0,
+      "size":
+      [
+        "M"
+      ],
+      "type": "undead",
+      "alignment":
+      [
+        "L",
+        "E"
+      ],
+      "ac":
+      [
+        {
+          "ac": 13,
+          "from":
+          [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 26,
+        "formula": "4d8 + 8"
+      },
+      "speed":
+      {
+        "walk": 40
+      },
+      "str": 12,
+      "dex": 15,
+      "con": 15,
+      "int": 3,
+      "wis": 8,
+      "cha": 5,
+      "skill":
+      {
+        "stealth": "+4"
+      },
+      "senses":
+      [
+        "darkvision 60 ft."
+      ],
+      "passive": 9,
+      "immune":
+      [
+        "poison"
+      ],
+      "vulnerable":
+      [
+        "bludgeoning"
+      ],
+      "conditionImmune":
+      [
+        "exhaustion",
+        "poisoned"
+      ],
+      "cr": "1/2",
+      "trait":
+      [
+        {
+          "name": "Pack Tactics",
+          "entries":
+          [
+            "The bone wolf has advantage on attack rolls against a creature if at least one of the bone wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Bite",
+          "entries":
+          [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. Hit:7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+          ]
+        }
+      ],
+      "traitTags":
+      [
+        "Pack Tactics"
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "damageTags":
+      [
+        "P"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ],
+      "conditionInflict":
+      [
+        "prone"
+      ],
+      "savingThrowForced":
+      [
+        "strength"
+      ]
     }
   ]
 }
