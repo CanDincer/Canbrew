@@ -21639,6 +21639,105 @@
         "dexterity",
         "wisdom"
       ]
+    },
+    {
+      "name": "Worm Giant",
+      "source": "Canberron",
+      "size":
+      [
+        "L"
+      ],
+      "type": "monstrosity",
+      "alignment":
+      [
+        "C",
+        "E"
+      ],
+      "ac":
+      [
+        10
+      ],
+      "hp":
+      {
+        "average": 59,
+        "formula": "7d10 + 21"
+      },
+      "speed":
+      {
+        "walk": 10,
+        "burrow": 30
+      },
+      "str": 19,
+      "dex": 8,
+      "con": 16,
+      "int": 5,
+      "wis": 7,
+      "cha": 5,
+      "senses":
+      [
+        "tremorsense 30 ft."
+      ],
+      "passive": 8,
+      "resist":
+      [
+        "piercing",
+        "psychic"
+      ],
+      "conditionImmune":
+      [
+        "frightened",
+        "prone"
+      ],
+      "cr": "2",
+      "trait":
+      [
+        {
+          "name": "Burrowing Worms",
+          "entries":
+          [
+            "When the giant begins its turn with a creature {@condition grappled} by it, the worms of its body burrow into the creature, dealing 7 ({@damage 2d6}) piercing damage."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Slam",
+          "entries":
+          [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 4}) bludgeoning damage and the target must suc- ceed at a {@dc 14} Strength saving throw or be {@condition grappled} and re- strained as the worms that make up the giant envelop it."
+          ]
+        },
+        {
+          "name": "Environmental Effects",
+          "entries":
+          [
+            "The ground in this region seems to shift and move, inducing vertigo. Dexterity ({@skill Acrobatics|XPHB}) checks are made at disadvantage and creatures taking the Dash action must succeed at a {@dc 15} Wisdom saving throw or fall {@condition prone}."
+          ]
+        }
+      ],
+      "senseTags":
+      [
+        "T"
+      ],
+      "damageTags":
+      [
+        "B",
+        "P"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ],
+      "conditionInflict":
+      [
+        "prone"
+      ],
+      "savingThrowForced":
+      [
+        "strength",
+        "wisdom"
+      ]
     }
   ]
 }
