@@ -21329,6 +21329,97 @@
       [
         "wisdom"
       ]
+    },
+    {
+      "name": "Vulture Zombie",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type": "undead",
+      "alignment":
+      [
+        "N",
+        "E"
+      ],
+      "ac":
+      [
+        8
+      ],
+      "hp":
+      {
+        "average": 22,
+        "formula": "3d8 + 9"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 6,
+      "con": 16,
+      "int": 2,
+      "wis": 6,
+      "cha": 5,
+      "senses":
+      [
+        "darkvision 60 ft."
+      ],
+      "passive": 8,
+      "immune":
+      [
+        "poison"
+      ],
+      "conditionImmune":
+      [
+        "poisoned"
+      ],
+      "cr": "1/4",
+      "trait":
+      [
+        {
+          "name": "Pack Tactics",
+          "entries":
+          [
+            "The zombie has advantage on an attack roll against a creature if at least one of the zombie's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        },
+        {
+          "name": "Undead Fortitude",
+          "entries":
+          [
+            "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Beak:",
+          "entries":
+          [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+          ]
+        }
+      ],
+      "traitTags":
+      [
+        "Pack Tactics",
+        "Undead Fortitude"
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "damageTags":
+      [
+        "P"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ]
     }
   ]
 }
