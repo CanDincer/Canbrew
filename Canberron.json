@@ -21420,6 +21420,225 @@
       [
         "MW"
       ]
+    },
+    {
+      "name": "Garrow",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "changeling"
+        ]
+      },
+      "alignment":
+      [
+        "L",
+        "E"
+      ],
+      "ac":
+      [
+        {
+          "ac": 17,
+          "from":
+          [
+            "glamoured breastplate"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 91,
+        "formula": "14d8 + 28"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 14,
+      "int": 14,
+      "wis": 16,
+      "cha": 14,
+      "save":
+      {
+        "wis": "+5",
+        "cha": "+4"
+      },
+      "skill":
+      {
+        "deception": "+4",
+        "insight": "+5",
+        "persuasion": "+4",
+        "religion": "+4",
+        "stealth": "+4"
+      },
+      "passive": 14,
+      "languages":
+      [
+        "Common",
+        "Elven",
+        "Goblin"
+      ],
+      "cr": "4",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "Garrow is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell at- tacks). He has the following cleric spells prepared:"
+          ],
+          "spells":
+          {
+            "0":
+            {
+              "spells":
+              [
+                "{@spell chill touch|XPHB}",
+                "{@spell guidance|XPHB}",
+                "{@spell sacred flame|XPHB}",
+                "{@spell spare the dying|XPHB}",
+                "{@spell thaumaturgy|XPHB}"
+              ]
+            },
+            "1":
+            {
+              "slots": 4,
+              "spells":
+              [
+                "{@spell command|XPHB}",
+                "{@spell cure wounds|XPHB}",
+                "{@spell false life|XPHB}",
+                "{@spell inflict wounds|XPHB}",
+                "{@spell ray of sickness|XPHB}",
+                "{@spell sanctuary|XPHB}"
+              ]
+            },
+            "2":
+            {
+              "slots": 3,
+              "spells":
+              [
+                "{@spell blindness/deafness|XPHB}",
+                "{@spell calm emotions|XPHB}",
+                "{@spell ray of enfeeblement|XPHB}",
+                "{@spell silence|XPHB}"
+              ]
+            },
+            "3":
+            {
+              "slots": 2,
+              "spells":
+              [
+                "{@spell animate dead|XPHB}",
+                "{@spell meld into stone|XPHB}",
+                "{@spell speak with dead|XPHB}",
+                "{@spell vampiric touch|XPHB}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Change Appearance",
+          "entries":
+          [
+            "Garrow can change his appearance or revert to his natural form as an action. He can transform himself into another Medium sized creature of humanoid shape, but his clothing, equipment, and game statistics do not change. If someone has reason to suspect his ruse, he has advantage on any Charisma ({@skill Deception|XPHB}) check made to avoid detection."
+          ]
+        },
+        {
+          "name": "Reaper",
+          "entries":
+          [
+            "When Garrow casts {@spell chill touch|XPHB}, he can target two creatures in range who are within 5 feet of each other."
+          ]
+        },
+        {
+          "name": "Touch of Death (1/Short or Long Rest)",
+          "entries":
+          [
+            "When Garrow hits with a melee attack, he can deal an additional 15 necrotic damage to his target."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Dagger",
+          "entries":
+          [
+            "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Unsettling Visage (1/Short or long rest)",
+          "entries":
+          [
+            "When a creature Garrow can see makes an attack roll against him, Garrow can impose disadvantage on the roll, revealing his shapeshifting nature to any creature within 30 feet that can see him."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "dagger|phb"
+      ],
+      "languageTags":
+      [
+        "C",
+        "GO"
+      ],
+      "damageTags":
+      [
+        "N",
+        "P"
+      ],
+      "damageTagsSpell":
+      [
+        "I",
+        "N",
+        "O",
+        "R"
+      ],
+      "spellcastingTags":
+      [
+        "CC"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "conditionInflictSpell":
+      [
+        "blinded",
+        "deafened",
+        "poisoned",
+        "prone"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "charisma",
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ]
     }
   ]
 }
