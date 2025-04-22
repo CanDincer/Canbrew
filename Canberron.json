@@ -12761,8 +12761,8 @@
       ],
       "hp":
       {
-        "average": 51,
-        "formula": "6d8 + 24"
+        "average": 68,
+        "formula": "8d8 + 32"
       },
       "speed":
       {
@@ -12845,14 +12845,14 @@
           "name": "Bite",
           "entries":
           [
-            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 4}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
           ]
         },
         {
           "name": "Slow {@recharge 5}",
           "entries":
           [
-            "The stone wolf targets one or more creatures it can see within 10 feet of it. Each target must make a {@dc 14} Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+            "The stone wolf targets one or more creatures it can see within 10 feet of it. Each target must make a {@dc 15} Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
           ]
         }
       ],
