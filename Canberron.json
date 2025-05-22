@@ -20941,6 +20941,249 @@
       [
         "MW"
       ]
+    },
+    {
+      "name": "Bal Molesh",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "tiefling",
+          "warlock"
+        ]
+      },
+      "alignment":
+      [
+        "L",
+        "E"
+      ],
+      "ac":
+      [
+        13,
+        {
+          "ac": 16,
+          "condition": "with mage armor",
+          "braces": true
+        }
+      ],
+      "hp":
+      {
+        "average": 110,
+        "formula": "17d8 + 34"
+      },
+      "speed":
+      {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 16,
+      "con": 15,
+      "int": 17,
+      "wis": 14,
+      "cha": 20,
+      "save":
+      {
+        "dex": "+8",
+        "int": "+8",
+        "wis": "+7",
+        "cha": "+10"
+      },
+      "skill":
+      {
+        "deception": "+15",
+        "insight": "+7",
+        "persuasion": "+15"
+      },
+      "senses":
+      [
+        "truesight 60 ft."
+      ],
+      "passive": 12,
+      "resist":
+      [
+        "fire",
+        "poison"
+      ],
+      "languages":
+      [
+        "Common",
+        "Goblin",
+        "Infernal"
+      ],
+      "cr": "13",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "Bal casts one of the following spells, using Charisma as thespellcasting ability (spell save {@dc 18}; {@hit 10} to hit with spell attacks):"
+          ],
+          "will":
+          [
+            "{@spell eldritch blast|XPHB} (17th level)",
+            "{@spell mage armor|XPHB} (self only)",
+            "{@spell minor illusion|XPHB}"
+          ],
+          "daily":
+          {
+            "3e":
+            [
+              "{@spell darkness|XPHB}",
+              "{@spell dimension door|XPHB}",
+              "{@spell dominate person|XPHB}",
+              "{@spell fear|XPHB}",
+              "{@spell scrying|XPHB}",
+              "{@spell vampiric touch|XPHB} (5th level)"
+            ],
+            "1e":
+            [
+              "{@spell bestow curse|XPHB}",
+              "{@spell dominate monster|XPHB}",
+              "{@spell flame strike|XPHB}",
+              "{@spell mass suggestion|XPHB}",
+              "{@spell power word kill|XPHB}",
+              "{@spell power word pain|XGE}",
+              "{@spell wall of fire|XPHB}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Legendary Resistance (2/Day)",
+          "entries":
+          [
+            "If Bal fails a saving throw, she can chooseto succeed instead."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Rapier",
+          "entries":
+          [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7({@dice 1d8 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Eldritch Blast (Cantrip)",
+          "entries":
+          [
+            "Bal makes four of the following attacks: Ranged {@variantrule Spell Attack|XPHB}: {@hit 10} to hit, range 300 ft., one target. {@h}10 ({@dice 1d10 + 5})force damage."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Hellish Rebuke (1st-Level Spell)",
+          "entries":
+          [
+            "Bal points her finger at one creaturewithin 60 feet of her that just dealt damage to her. The creature mustmake a {@dc 18} Dexterity saving throw, taking 11 ({@damage 2d10}) fire damage ona failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "legendaryActions": 2,
+      "legendary":
+      [
+        {
+          "name": "Attack",
+          "entries":
+          [
+            "Bal makes one weapon attack."
+          ]
+        },
+        {
+          "name": "Teleport",
+          "entries":
+          [
+            "Bal teleports to an unoccupied space up to 30 feet away."
+          ]
+        },
+        {
+          "name": "Dark Magic (Costs 2 Actions)",
+          "entries":
+          [
+            "Bal uses Spellcasting."
+          ]
+        },
+        {
+          "name": "Hurl Through Khyber (Costs 2 Actions)",
+          "entries":
+          [
+            "One creature Bal can see within 60 feet of her must make a {@dc 18} Charisma saving throw. On a failure,the creature disappears. At the end of Bal's next turn, a disappearedcreature returns to the space it previously occupied, or the nearestunoccupied space. If the creature was not a fiend or aberration, it takes 66 ({@damage 12d10}) psychic damage from the experience."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "rapier|phb"
+      ],
+      "traitTags":
+      [
+        "Legendary Resistances"
+      ],
+      "senseTags":
+      [
+        "U"
+      ],
+      "languageTags":
+      [
+        "C",
+        "GO",
+        "I"
+      ],
+      "damageTags":
+      [
+        "F",
+        "Y"
+      ],
+      "damageTagsSpell":
+      [
+        "F",
+        "N",
+        "O",
+        "R",
+        "Y"
+      ],
+      "spellcastingTags":
+      [
+        "O"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell":
+      [
+        "charmed",
+        "frightened"
+      ],
+      "savingThrowForced":
+      [
+        "charisma",
+        "dexterity"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ]
     }
   ]
 }
