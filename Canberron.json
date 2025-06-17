@@ -21184,6 +21184,212 @@
         "dexterity",
         "wisdom"
       ]
+    },
+    {
+      "name": "Tsochar",
+      "source": "Canberron",
+      "size":
+      [
+        "S"
+      ],
+      "type":
+      {
+        "type": "aberration",
+        "tags":
+        [
+          "shapechanger"
+        ]
+      },
+      "alignment":
+      [
+        "C",
+        "E"
+      ],
+      "ac":
+      [
+        {
+          "ac": 14,
+          "from":
+          [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 60,
+        "formula": "8d6 + 32"
+      },
+      "speed":
+      {
+        "walk": 20,
+        "climb": 20
+      },
+      "str": 12,
+      "dex": 17,
+      "con": 18,
+      "int": 12,
+      "wis": 16,
+      "cha": 10,
+      "save":
+      {
+        "dex": "+5",
+        "wis": "+5"
+      },
+      "skill":
+      {
+        "deception": "+2",
+        "insight": "+5",
+        "stealth": "+5"
+      },
+      "senses":
+      [
+        "darkvision 60 ft"
+      ],
+      "passive": 13,
+      "resist":
+      [
+        {
+          "resist":
+          [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "damage from nonmagical weapons",
+          "cond": true
+        }
+      ],
+      "immune":
+      [
+        "cold"
+      ],
+      "languages":
+      [
+        "Toschari; telepathy 100 ft."
+      ],
+      "cr": "4",
+      "trait":
+      [
+        {
+          "name": "Ambusher",
+          "entries":
+          [
+            "The tsochar has advantage on attack rolls against any creature it has {@status surprised|XPHB}."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries":
+          [
+            "The tsochar has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Wear Flesh",
+          "entries":
+          [
+            "A tsochar can bore its way into a helpless living creature's body, slipping its ropy tendrils into the spaces between organs and muscles, and disappearing into the victim. The victim must be the same size as the tsochar or larger, and the process requires 1 minute. The tsochar can choose to inhabit or replace the victim. Incorporeal, creatures, constructs, elementals, oozes, plants, and undead are immune to this ability.",
+            "A tsochar can abandon a body it has inhabited or replaced as an action that takes one round, dealing 14 ({@damage 4d6}) piercing damage to the host. A tsochar can be forced to abandon a body by a disease curing or {@spell dispel evil and good|XPHB} spell (the tsochar must succeed on a Constitution saving throw against the caster's spell save DC or be expelled) which deals damage as described above, or a heal or {@spell greater restoration|XPHB} spell (which automatically succeeds and causes no damage to the host)."
+          ]
+        },
+        {
+          "name": "Inhabit",
+          "entries":
+          [
+            "Once a tsochar has successfully entered a creature it can leave the victim alive and aware. While inhabiting a creature it can use the Agony attack any time it cares to. The tsochar can take no physical actions while inhabiting a host, but can use purely mental actions (such as communication by means of telepathy, and threatening to injure or kill the host unless the host does as the monster wishes). When the host takes damage (other than damage inflicted by the tsochar) the inhabiting tsochar takes half of that damage.",
+            "While inhabiting a creature, the tsochar feeds on its blood and tissues, the host must succeed at a DC15 Constitution saving throw. The host takes {@dice 1d3} points of Constitution damage per day on a failed save, or half as much on a successful one. This ability damage can only be healed by using the Recuperating downtime activity which restores all lost Constitution after 3 days of rest. Frail hosts pushed too hard for too long will sicken and die, although tsochar are clever enough to direct their hosts to achieve proper rest if required."
+          ]
+        },
+        {
+          "name": "Replace",
+          "entries":
+          [
+            "Once a tsochar has successfully entered a creature it can bore out the victim's nervous system at any time, killing the host. It then animates the body, effectively acting as the nervous system of the dead host. The body remains alive, hosting the tsochar.",
+            "The tsochar uses the victims physical ability scores in place of its own, and slowly devours the new shell from the inside out causing 1 constitution damage per month, which cannot be healed. Often tsochar impostors choose to abandon bodies they have replaced before they become too weak to be serviceable."
+          ]
+        },
+        {
+          "name": "Take Spells",
+          "entries":
+          [
+            "A tsochar that replaces a spellcaster retains any arcane spells prepared or known by the dead host, as well as any remaining spell slots to cast them. If a prepared spell is of 3rd level or higher the tsochar must make an ability check using the spellcasting ability of the host's spellcasting class to cast it successfully (DC10 + the spell level). On a failed check the spell is lost and the tsochar cannot regain spells or spell slots it expends."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The Tsochar makes four attacks; three with its tentacles and one to constrict."
+          ]
+        },
+        {
+          "name": "Tentacles",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Constrict",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 10 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the creature is {@condition restrained}, and the tsochar can't constrict another target. The target must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} for 1 hour. Until this poison ends, the target is {@condition unconscious}. Another creature can use an action to shake the target awake."
+          ]
+        },
+        {
+          "name": "Agony",
+          "entries":
+          [
+            "While the tsochar is inhabiting another creature, any time it cares to it can inflict indescribable agony on its host as an action, dealing 3 ({@dice 1d6}) to 21 ({@damage 6d6}) piercing damage and requiring the host to succeed on a DC15 Constitution saving throw or become nauseated, the creature must repeat the saving throw (DC12) at the end of each of its turns (if the character rolls a natural 1, the character is {@condition incapacitated} by vomiting for the next round). After three successful saves, the nausea ends. The tsochar chooses how much damage to deal with this attack."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "agony|tdcsr"
+      ],
+      "traitTags":
+      [
+        "Ambusher",
+        "Magic Resistance"
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "actionTags":
+      [
+        "Multiattack",
+        "Tentacles"
+      ],
+      "languageTags":
+      [
+        "TP"
+      ],
+      "damageTags":
+      [
+        "P"
+      ],
+      "miscTags":
+      [
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict":
+      [
+        "grappled",
+        "poisoned",
+        "restrained",
+        "unconscious"
+      ],
+      "savingThrowForced":
+      [
+        "constitution"
+      ]
     }
   ]
 }
