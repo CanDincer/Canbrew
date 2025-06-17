@@ -21298,7 +21298,7 @@
           "entries":
           [
             "Once a tsochar has successfully entered a creature it can leave the victim alive and aware. While inhabiting a creature it can use the Agony attack any time it cares to. The tsochar can take no physical actions while inhabiting a host, but can use purely mental actions (such as communication by means of telepathy, and threatening to injure or kill the host unless the host does as the monster wishes). When the host takes damage (other than damage inflicted by the tsochar) the inhabiting tsochar takes half of that damage.",
-            "While inhabiting a creature, the tsochar feeds on its blood and tissues, the host must succeed at a DC15 Constitution saving throw. The host takes {@dice 1d3} points of Constitution damage per day on a failed save, or half as much on a successful one. This ability damage can only be healed by using the Recuperating downtime activity which restores all lost Constitution after 3 days of rest. Frail hosts pushed too hard for too long will sicken and die, although tsochar are clever enough to direct their hosts to achieve proper rest if required."
+            "While inhabiting a creature, the tsochar feeds on its blood and tissues. At the end of a long rest the creature must roll a {@dice d20}. On a 1 the host loses 1 point of Constitution. This ability loss can only be recovered by using the Recuperating downtime activity which restores all lost Constitution after 3 days of rest. Frail hosts pushed too hard for too long will sicken and die, although tsochar are clever enough to direct their hosts to achieve proper rest if required."
           ]
         },
         {
@@ -21306,14 +21306,14 @@
           "entries":
           [
             "Once a tsochar has successfully entered a creature it can bore out the victim's nervous system at any time, killing the host. It then animates the body, effectively acting as the nervous system of the dead host. The body remains alive, hosting the tsochar.",
-            "The tsochar uses the victims physical ability scores in place of its own, and slowly devours the new shell from the inside out causing 1 constitution damage per month, which cannot be healed. Often tsochar impostors choose to abandon bodies they have replaced before they become too weak to be serviceable."
+            "The tsochar uses the victims physical ability scores in place of its own, and slowly devours the new shell from the inside out causing 1 point of Constitution loss per month, which cannot be healed. Often tsochar impostors choose to abandon bodies they have replaced before they become too weak to be serviceable."
           ]
         },
         {
           "name": "Take Spells",
           "entries":
           [
-            "A tsochar that replaces a spellcaster retains any arcane spells prepared or known by the dead host, as well as any remaining spell slots to cast them. If a prepared spell is of 3rd level or higher the tsochar must make an ability check using the spellcasting ability of the host's spellcasting class to cast it successfully (DC10 + the spell level). On a failed check the spell is lost and the tsochar cannot regain spells or spell slots it expends."
+            "A tsochar that replaces a spellcaster retains any arcane spells prepared or known by the dead host, as well as any remaining spell slots to cast them. If a prepared spell is of 3rd level or higher the tsochar must make an ability check using the spellcasting ability of the host's spellcasting class to cast it successfully ({@dc 10 + the spell level}). On a failed check the spell is lost and the tsochar cannot regain spells or spell slots it expends."
           ]
         }
       ],
