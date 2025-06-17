@@ -21289,7 +21289,7 @@
           "name": "Wear Flesh",
           "entries":
           [
-            "A tsochar can bore its way into a helpless living creature's body, slipping its ropy tendrils into the spaces between organs and muscles, and disappearing into the victim. The victim must be the same size as the tsochar or larger, and the process requires 1 minute. The tsochar can choose to inhabit or replace the victim. Incorporeal, creatures, constructs, elementals, oozes, plants, and undead are immune to this ability.",
+            "A tsochar can bore its way into a helpless living creature's body, slipping its ropy tendrils into the spaces between organs and muscles, and disappearing into the victim. The victim must be the same size as the tsochar or larger, and the process requires 1 minute. The tsochar can choose to inhabit or replace the victim. Incorporeal creatures, constructs, elementals, oozes, plants, and undead are immune to this ability.",
             "A tsochar can abandon a body it has inhabited or replaced as an action that takes one round, dealing 14 ({@damage 4d6}) piercing damage to the host. A tsochar can be forced to abandon a body by a disease curing or {@spell dispel evil and good|XPHB} spell (the tsochar must succeed on a Constitution saving throw against the caster's spell save DC or be expelled) which deals damage as described above, or a heal or {@spell greater restoration|XPHB} spell (which automatically succeeds and causes no damage to the host)."
           ]
         },
