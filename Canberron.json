@@ -21390,6 +21390,157 @@
       [
         "constitution"
       ]
+    },
+    {
+      "name": "Boromar Clawfoot",
+      "source": "Canberron",
+      "size":
+      [
+        "S"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "Halfling"
+        ]
+      },
+      "alignment":
+      [
+        "N",
+        "E"
+      ],
+      "alignmentPrefix": "typically ",
+      "ac":
+      [
+        {
+          "ac": 15,
+          "from":
+          [
+            "{@item studded leather armor|XPHB|studded leather}"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 49,
+        "formula": "9d6 + 18"
+      },
+      "speed":
+      {
+        "walk": 25
+      },
+      "str": 9,
+      "dex": 16,
+      "con": 14,
+      "int": 10,
+      "wis": 13,
+      "cha": 11,
+      "skill":
+      {
+        "intimidation": "+4",
+        "perception": "+3",
+        "stealth": "+7"
+      },
+      "passive": 13,
+      "languages":
+      [
+        "Common",
+        "Halfling"
+      ],
+      "cr": "2",
+      "trait":
+      [
+        {
+          "name": "Brave",
+          "entries":
+          [
+            "The clawfoot has advantage on saving throws against beingfrightened."
+          ]
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "entries":
+          [
+            "The clawfoot can move through the space of anycreature that is of a size larger than it."
+          ]
+        },
+        {
+          "name": "Lucky",
+          "entries":
+          [
+            "When the clawfoot rolls a 1 on an attack roll, ability check, orsaving throw, it can reroll the die and must use the new roll."
+          ]
+        },
+        {
+          "name": "Vicious",
+          "entries":
+          [
+            "At the start of its turn, the clawfoot can gain advantage on\u2014anddeals an additional 5 ({@damage 1d10}) damage with\u2014all melee weapon attacks itmakes until the start of its next turn, but attack rolls against it haveadvantage until the start of its next turn."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The clawfoot makes two melee weapon attacks."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+          ]
+        },
+        {
+          "name": "Dagger",
+          "entries":
+          [
+            "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or ranged 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Uncanny Dodge",
+          "entries":
+          [
+            "The clawfoot halves the damage that it takes from anattack that hits it. The clawfoot must be able to see the attacker."
+          ]
+        }
+      ],
+      "attachedItems":
+      [
+        "dagger|phb",
+        "shortsword|phb"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "languageTags":
+      [
+        "C",
+        "H"
+      ],
+      "damageTags":
+      [
+        "P",
+        "S"
+      ],
+      "miscTags":
+      [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ]
     }
   ]
 }
