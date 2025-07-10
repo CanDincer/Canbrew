@@ -21629,6 +21629,139 @@
       [
         "MW"
       ]
+    },
+    {
+      "name": "Magebred Clawfoot",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "beast",
+        "tags":
+        [
+          "Dinosaur"
+        ]
+      },
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        14
+      ],
+      "hp":
+      {
+        "average": 24,
+        "formula": "4d8 + 8"
+      },
+      "speed":
+      {
+        "walk": 45
+      },
+      "str": 14,
+      "dex": 16,
+      "con": 14,
+      "int": 4,
+      "wis": 12,
+      "cha": 6,
+      "skill":
+      {
+        "perception": "+3",
+        "stealth": "+5"
+      },
+      "passive": 13,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "3",
+      "trait":
+      [
+        {
+          "name": "Pack Tactics",
+          "entries":
+          [
+            "The clawfoot has advantage on an attack roll against a creature if at least one of the clawfoot's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The clawfoot makes two attacks: one with its bite and one with its claws."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries":
+          [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+          ]
+        },
+        {
+          "name": "Claws",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+          ]
+        },
+        {
+          "name": "Pounce",
+          "entries":
+          [
+            "If the clawfoot moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the clawfoot can make one bite attack against it as a bonus action."
+          ]
+        }
+      ],
+      "reaction":
+      [
+        {
+          "name": "Protective Instincts",
+          "entries":
+          [
+            "Immediately after a creature within 5 feet of the clawfoot takes the Disengage action or hits a target other than it with an attack, it can make an Opportunity Attack against that creature."
+          ]
+        },
+        {
+          "name": "Halt",
+          "entries":
+          [
+            "When the clawfoot hits a creature with an Opportunity Attack, the creature's {@variantrule Speed|XPHB} becomes 0 for the rest of the current turn."
+          ]
+        }
+      ],
+      "traitTags":
+      [
+        "Pack Tactics"
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "damageTags":
+      [
+        "P",
+        "S"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ],
+      "conditionInflict":
+      [
+        "prone"
+      ],
+      "savingThrowForced":
+      [
+        "strength"
+      ]
     }
   ]
 }
