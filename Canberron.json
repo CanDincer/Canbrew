@@ -21541,6 +21541,94 @@
         "RW",
         "THW"
       ]
+    },
+    {
+      "name": "Magebred Camel",
+      "source": "Canberron",
+      "size":
+      [
+        "L"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        12
+      ],
+      "hp":
+      {
+        "average": 24,
+        "formula": "3d10 + 9"
+      },
+      "speed":
+      {
+        "walk": 55
+      },
+      "str": 16,
+      "dex": 8,
+      "con": 19,
+      "int": 2,
+      "wis": 11,
+      "cha": 5,
+      "save":
+      {
+        "con": "+8"
+      },
+      "senses":
+      [
+        "Darkvision 60 ft."
+      ],
+      "passive": 10,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "1/2",
+      "trait":
+      [
+        {
+          "name": "Energy Efficiency",
+          "entries":
+          [
+            "This camel only needs to eat or drink half as much as a standard camel, and it has advantage on all Constitution saving throws."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Bite",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Health Reserves",
+          "entries":
+          [
+            "As a bonus action, the camel can expend one of its {@variantrule Hit Point Dice|XPHB}, roll the die, and regain a number of hit points equal to the roll."
+          ]
+        }
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "damageTags":
+      [
+        "B"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ]
     }
   ]
 }
