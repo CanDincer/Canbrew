@@ -21868,6 +21868,101 @@
       [
         "dexterity"
       ]
-    }
+    },
+    {
+      "name": "Magebred Fastieth",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "beast",
+        "tags":
+        [
+          "Dinosaur"
+        ]
+      },
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        15
+      ],
+      "hp":
+      {
+        "average": 15,
+        "formula": "3d8 + 3"
+      },
+      "speed":
+      {
+        "walk": 65
+      },
+      "str": 13,
+      "dex": 20,
+      "con": 10,
+      "int": 4,
+      "wis": 11,
+      "cha": 4,
+      "save":
+      {
+        "dex": "+7"
+      },
+      "passive": 10,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "1",
+      "trait":
+      [
+        {
+          "name": "Agile Movement",
+          "entries":
+          [
+            "Opportunity Attacks have disadvantage against you."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Bite",
+          "entries":
+          [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+          ]
+        },
+        {
+          "name": "Fastiest Dash",
+          "entries":
+          [
+            "When you take the Dash action, your {@variantrule Speed|XPHB} increases by 10 feet for that action. Additionally, {@variantrule Difficult Terrain|XPHB} doesn't cost you extra movement for the rest of that turn."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Quickness {@recharge 4}",
+          "entries":
+          [
+            "The fastieth can take the Dodge action as a bonus action."
+          ]
+        }
+      ],
+      "damageTags":
+      [
+        "P"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ]
+    },
+    
   ]
 }
