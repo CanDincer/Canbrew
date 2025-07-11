@@ -21762,6 +21762,112 @@
       [
         "strength"
       ]
+    },
+    {
+      "name": "Magebred Elephant",
+      "source": "Canberron",
+      "size":
+      [
+        "H"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        14
+      ],
+      "hp":
+      {
+        "average": 94,
+        "formula": "9d12 + 40"
+      },
+      "speed":
+      {
+        "walk": 45
+      },
+      "str": 22,
+      "dex": 10,
+      "con": 19,
+      "int": 3,
+      "wis": 11,
+      "cha": 6,
+      "passive": 10,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "6",
+      "trait":
+      [
+        {
+          "name": "Improved Dash",
+          "entries":
+          [
+            "When you take the Dash action, your {@variantrule Speed|XPHB} increases by 10 feet for that action."
+          ]
+        },
+        {
+          "name": "Charge Attack",
+          "entries":
+          [
+            "If you move at least 10 feet in a straight line toward a target immediately before hitting it with a melee attack roll as part of the Attack action, choose one of the following effects: Gain a {@dice 1d8} bonus to the attack's damage roll, or Push the target up to 10 feet away (if it is no more than one size larger than you).",
+            "You can use this benefit only once on each of your turns."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The elephant makes two Gore attacks."
+          ]
+        },
+        {
+          "name": "Gore",
+          "entries":
+          [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the {@condition Prone|XPHB} condition."
+          ]
+        }
+      ],
+      "bonus":
+      [
+        {
+          "name": "Trample",
+          "entries":
+          [
+            "{@actSave dex} {@dc 16}, one creature within 5 feet that has the {@condition Prone|XPHB} condition.",
+            "{@actSaveFail} 17 ({@damage 2d10 + 6}) bludgeoning damage.",
+            "{@actSaveSuccess} Half damage."
+          ]
+        }
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "damageTags":
+      [
+        "B",
+        "P"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ],
+      "conditionInflict":
+      [
+        "prone"
+      ],
+      "savingThrowForced":
+      [
+        "dexterity"
+      ]
     }
   ]
 }
