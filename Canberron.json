@@ -21962,6 +21962,97 @@
       [
         "MW"
       ]
+    },
+    {
+      "name": "Magebred Goat",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        10
+      ],
+      "hp":
+      {
+        "average": 10,
+        "formula": "2d8 + 2"
+      },
+      "speed":
+      {
+        "walk": 45,
+        "climb": 45
+      },
+      "str": 12,
+      "dex": 10,
+      "con": 13,
+      "int": 2,
+      "wis": 10,
+      "cha": 5,
+      "save":
+      {
+        "str": "+3",
+        "dex": "+2"
+      },
+      "skill":
+      {
+        "perception": "+2"
+      },
+      "senses":
+      [
+        "Darkvision 60 ft."
+      ],
+      "passive": 12,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "1/8",
+      "trait":
+      [
+        {
+          "name": "Bred for Burden",
+          "entries":
+          [
+            "The goat counts as one size larger for the purpose of determining its carrying capacity."
+          ]
+        },
+        {
+          "name": "Jumping Goat",
+          "entries":
+          [
+            "The goat can make a running Long or {@variantrule High Jump|XPHB} after moving only 5 feet."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Ram",
+          "entries":
+          [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 bludgeoning damage, or 3 ({@damage 1d4 + 1}) bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit."
+          ]
+        }
+      ],
+      "senseTags":
+      [
+        "D"
+      ],
+      "damageTags":
+      [
+        "B"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ]
     }
   ]
 }
