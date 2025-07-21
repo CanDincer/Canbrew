@@ -22053,6 +22053,108 @@
       [
         "MW"
       ]
+    },
+    {
+      "name": "Magebred Mountain Goat",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        12
+      ],
+      "hp":
+      {
+        "average": 21,
+        "formula": "3d8 + 9"
+      },
+      "speed":
+      {
+        "walk": 55,
+        "climb": 45
+      },
+      "str": 16,
+      "dex": 12,
+      "con": 15,
+      "int": 2,
+      "wis": 10,
+      "cha": 5,
+      "save":
+      {
+        "str": "+3",
+        "dex": "+1",
+        "con": "+2"
+      },
+      "passive": 10,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "1",
+      "trait":
+      [
+        {
+          "name": "Sure-Footed",
+          "entries":
+          [
+            "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+          ]
+        },
+        {
+          "name": "Agile Movement",
+          "entries":
+          [
+            "Opportunity Attacks have disadvantage against the goat."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Ram",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Charge",
+          "entries":
+          [
+            "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 ({@damage 1d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Dash over Difficult Terrain",
+          "entries":
+          [
+            "When the goat takes the Dash action on its turn, {@variantrule Difficult Terrain|XPHB} doesn't cost it extra movement for the rest of that turn."
+          ]
+        }
+      ],
+      "damageTags":
+      [
+        "B"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ],
+      "conditionInflict":
+      [
+        "prone"
+      ],
+      "savingThrowForced":
+      [
+        "strength"
+      ]
     }
   ]
 }
