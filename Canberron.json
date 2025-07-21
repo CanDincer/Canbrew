@@ -22155,6 +22155,67 @@
       [
         "strength"
       ]
+    },
+    {
+      "name": "Magebred Draft Horse",
+      "source": "Canberron",
+      "size":
+      [
+        "L"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        11
+      ],
+      "hp":
+      {
+        "average": 23,
+        "formula": "3d10 + 8"
+      },
+      "speed":
+      {
+        "walk": 45
+      },
+      "str": 20,
+      "dex": 10,
+      "con": 16,
+      "int": 2,
+      "wis": 11,
+      "cha": 7,
+      "save":
+      {
+        "str": "+7",
+        "con": "+3"
+      },
+      "passive": 10,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "1",
+      "action":
+      [
+        {
+          "name": "Hooves",
+          "entries":
+          [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) bludgeoning damage."
+          ]
+        }
+      ],
+      "damageTags":
+      [
+        "B"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ]
     }
   ]
 }
