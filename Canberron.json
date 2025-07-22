@@ -22216,6 +22216,85 @@
       [
         "MW"
       ]
+    },
+    {
+      "name": "Magebred Riding Horse",
+      "source": "Canberron",
+      "size":
+      [
+        "L"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        12
+      ],
+      "hp":
+      {
+        "average": 23,
+        "formula": "3d10 + 8"
+      },
+      "speed":
+      {
+        "walk": 75
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 14,
+      "int": 2,
+      "wis": 11,
+      "cha": 7,
+      "save":
+      {
+        "str": "+3",
+        "dex": "+2",
+        "con": "+2"
+      },
+      "passive": 10,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "1",
+      "trait":
+      [
+        {
+          "name": "Agile Movement",
+          "entries":
+          [
+            "Opportunity Attacks have {@variantrule Disadvantage|XPHB} against you."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Hooves",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Dash over Difficult Terrain",
+          "entries":
+          [
+            "When you take the Dash action on your turn, {@variantrule Difficult Terrain|XPHB} doesn't cost you extra movement for the rest of that turn."
+          ]
+        }
+      ],
+      "damageTags":
+      [
+        "B"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ]
     }
   ]
 }
