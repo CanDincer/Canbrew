@@ -22295,6 +22295,73 @@
       [
         "MW"
       ]
+    },
+    {
+      "name": "Magebred Warhorse",
+      "source": "Canberron",
+      "size":
+      [
+        "L"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        11
+      ],
+      "hp":
+      {
+        "average": 36,
+        "formula": "4d10 + 18"
+      },
+      "speed":
+      {
+        "walk": 65
+      },
+      "str": 19,
+      "dex": 12,
+      "con": 14,
+      "int": 2,
+      "wis": 12,
+      "cha": 7,
+      "save":
+      {
+        "str": "+4",
+        "dex": "+1",
+        "con": "+2",
+        "wis": "+3"
+      },
+      "passive": 11,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "1",
+      "action":
+      [
+        {
+          "name": "Hooves",
+          "entries":
+          [
+            "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 5}) bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 4 ({@damage 2d4}) bludgeoning damage and has the {@condition Prone|XPHB} condition."
+          ]
+        }
+      ],
+      "damageTags":
+      [
+        "B"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ],
+      "conditionInflict":
+      [
+        "prone"
+      ]
     }
   ]
 }
