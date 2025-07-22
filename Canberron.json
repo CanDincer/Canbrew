@@ -22362,6 +22362,83 @@
       [
         "prone"
       ]
+    },
+    {
+      "name": "Magebred Mammoth",
+      "source": "Canberron",
+      "size":
+      [
+        "H"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        14
+      ],
+      "hp":
+      {
+        "average": 170,
+        "formula": "12d12 + 72"
+      },
+      "speed":
+      {
+        "walk": 55
+      },
+      "str": 24,
+      "dex": 9,
+      "con": 22,
+      "int": 3,
+      "wis": 11,
+      "cha": 6,
+      "save":
+      {
+        "str": "+10",
+        "con": "+9"
+      },
+      "passive": 10,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "7",
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The mammoth makes two Gore attacks."
+          ]
+        },
+        {
+          "name": "Gore",
+          "entries":
+          [
+            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 7}) piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the {@condition Prone|XPHB} condition."
+          ]
+        }
+      ],
+      "actionTags":
+      [
+        "Multiattack"
+      ],
+      "damageTags":
+      [
+        "P"
+      ],
+      "miscTags":
+      [
+        "MW",
+        "RCH"
+      ],
+      "conditionInflict":
+      [
+        "prone"
+      ]
     }
   ]
 }
