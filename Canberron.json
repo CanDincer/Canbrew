@@ -22618,6 +22618,92 @@
 			[
 				"MW"
 			]
+		},
+{
+			"name": "Magebred Ox",
+			"source": "Canberron",
+			"size":
+			[
+				"L"
+			],
+			"type":
+			{
+				"type": "beast",
+				"tags":
+				[
+					"Cattle"
+				]
+			},
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				11
+			],
+			"hp":
+			{
+				"average": 28,
+				"formula": "4d10 + 8"
+			},
+			"speed":
+			{
+				"walk": 35
+			},
+			"str": 22,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"save":
+			{
+				"str": "+6",
+				"con": "+2"
+			},
+			"skill":
+			{
+				"athletics": "+8"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Beast of Burden",
+					"entries":
+					[
+						"The ox is considered to be one size larger for the purpose of determining its carrying capacity."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Gore",
+					"entries":
+					[
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage. If the ox moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 ({@damage 2d6}) piercing damage."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Beast of Burden"
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
 		}
   ]
 }
