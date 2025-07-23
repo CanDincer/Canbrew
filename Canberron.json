@@ -23752,6 +23752,167 @@
 				"RNG",
 				"RW"
 			]
+		},
+{
+			"name": "Argentum Fist",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "humanoid",
+			"alignment":
+			[
+				"L",
+				"G"
+			],
+			"alignmentPrefix": "typically ",
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 60,
+				"formula": "11d8 + 11"
+			},
+			"speed":
+			{
+				"walk": 40
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 13,
+			"int": 11,
+			"wis": 16,
+			"cha": 18,
+			"save":
+			{
+				"str": "+2",
+				"dex": "+6",
+				"wis": "+5",
+				"cha": "+6"
+			},
+			"skill":
+			{
+				"acrobatics": "+6",
+				"athletics": "+2",
+				"insight": "+5"
+			},
+			"passive": 13,
+			"conditionImmune":
+			[
+				"charmed",
+				"frightened"
+			],
+			"languages":
+			[
+				"any one language (usually Common)"
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Divine Health",
+					"entries":
+					[
+						"The Argent Fist is immune to disease."
+					]
+				},
+				{
+					"name": "Holy Defense",
+					"entries":
+					[
+						"While the Argent Fist is wearing light, medium, or no armor, it's AC includes its Wisdom modifier."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The Argent Fist makes three unarmed strikes or three Argent Flame Bolt attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is a creature, the Argent Fist can choose one of the following additional effects:",
+						{
+							"type": "list",
+							"items":
+							[
+								"The target must succeed on a {@dc 13} Strength saving throw or drop one item it is holding (Argent Fist's choice).",
+								"The target must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition prone}.",
+								"The target must succeed on a {@dc 13} Constitution saving throw or be {@condition stunned} until the end of the Argent Fist's next turn."
+							]
+						}
+					]
+				},
+				{
+					"name": "Argent Flame Bolt",
+					"entries":
+					[
+						"{@atk rs} {@hit 6} to hit, range 30 ft., one target. {@h}8 ({@damage 1d8 + 4}) radiant damage."
+					]
+				},
+				{
+					"name": "Lay on Hands (25/Day)",
+					"entries":
+					[
+						"The Argent Fist touches a creature within 5 feet of it and restores up to 25 of the target's hit points. The Argent Fist can only restore a total of 25 hit points with this action per day. The Argent Fist can forego healing up to 5 hit points (reducing its daily amount) to instead cure a target of one disease or neutralize one poison affecting it."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Protector",
+					"entries":
+					[
+						"When a creature within 5 feet of the Argent Fist that it can see is attacked, the Argent Fist can impose disadvantage on that attack roll."
+					]
+				}
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"X"
+			],
+			"damageTags":
+			[
+				"B",
+				"R"
+			],
+			"miscTags":
+			[
+				"MW",
+				"RA"
+			],
+			"conditionInflict":
+			[
+				"prone",
+				"stunned"
+			],
+			"savingThrowForced":
+			[
+				"constitution",
+				"dexterity",
+				"strength"
+			]
 		}
   ]
 }
