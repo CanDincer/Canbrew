@@ -23218,6 +23218,216 @@
 				"charisma",
 				"wisdom"
 			]
+		},
+{
+			"name": "Skaravojen",
+			"isNamedCreature": true,
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment":
+			[
+				"L",
+				"G"
+			],
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 126,
+				"formula": "12d8 + 72"
+			},
+			"speed":
+			{
+				"walk": 50
+			},
+			"str": 22,
+			"dex": 15,
+			"con": 23,
+			"int": 11,
+			"wis": 15,
+			"cha": 12,
+			"save":
+			{
+				"dex": "+7"
+			},
+			"skill":
+			{
+				"insight": "+7",
+				"perception": "+12"
+			},
+			"passive": 22,
+			"immune":
+			[
+				{
+					"immune":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune":
+			[
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"stunned"
+			],
+			"languages":
+			[
+				"understands Common but can't speak"
+			],
+			"cr": "14",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Skaravojen casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:"
+					],
+					"will":
+					[
+						"{@spell detect evil and good|XPHB} (unlimited duration, does not require concentration)",
+						"{@spell see invisibility|XPHB}"
+					],
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Regeneration",
+					"entries":
+					[
+						"Skaravojen regains 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Vengeful Tracker",
+					"entries":
+					[
+						"Skaravojen knows the distance to and direction of any creature that has slain a Keeper of the Flame that was serving as head of the Church of the Silver Flame at the time of their death, even if the creature and Skaravojen are on different planes of existence. If the creature being tracked by Skaravojen dies, Skaravojen knows."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Skaravojen makes three attacks: one with its gore and two with its claws."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries":
+					[
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries":
+					[
+						"{@atk mw} + {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries":
+					[
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Thunderous Roar {@recharge 5}",
+					"entries":
+					[
+						"Skaravojen roars, filling a 30-foot cone with deafening, thunderous noise. Each creature in the cone must make a {@dc 19} Constitution saving throw. On a failed saving throw, a creature takes 54 ({@damage 12d8}) thunder damage and is {@condition deafened} for 1 minute. On a successful save, a creature takes half as much damage, and is not {@condition deafened}. A creature {@condition deafened} by Skaravojen's roar can repeat the saving throw at the end of each of its turns, ending the condition on a success."
+					]
+				}
+			],
+			"legendary":
+			[
+				{
+					"name": "Detect",
+					"entries":
+					[
+						"Skaravojen makes a Wisdom ({@skill Perception|XPHB}) check."
+					]
+				},
+				{
+					"name": "Move",
+					"entries":
+					[
+						"Skaravojen moves up to half its speed."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries":
+					[
+						"Skaravojen makes a tail attack."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Regeneration"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"CS"
+			],
+			"damageTags":
+			[
+				"B",
+				"P",
+				"S",
+				"T"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict":
+			[
+				"deafened"
+			],
+			"savingThrowForced":
+			[
+				"constitution"
+			]
 		}
   ]
 }
