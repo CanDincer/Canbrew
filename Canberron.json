@@ -22543,6 +22543,81 @@
 			[
 				"prone"
 			]
+		},
+{
+			"name": "Magebred Mule",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				11
+			],
+			"hp":
+			{
+				"average": 18,
+				"formula": "3d8 + 6"
+			},
+			"speed":
+			{
+				"walk": 45
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"save":
+			{
+				"str": "+5",
+				"con": "+2"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1/4",
+			"trait":
+			[
+				{
+					"name": "Beast of Burden",
+					"entries":
+					[
+						"The mule counts as one size larger for the purpose of determining its carrying capacity."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Hooves",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Beast of Burden"
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
 		}
   ]
 }
