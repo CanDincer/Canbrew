@@ -22704,6 +22704,359 @@
 			[
 				"MW"
 			]
+		},
+{
+			"name": "Jaela Daran (Keeper)",
+			"isNamedCreature": true,
+			"source": "Canberron",
+			"size":
+			[
+				"S"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"Cleric",
+					"Human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"G"
+			],
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"{@item bracers of defense}",
+						"{@item ring of protection}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 13,
+			"wis": 25,
+			"cha": 23,
+			"save":
+			{
+				"str": "+0",
+				"dex": "+2",
+				"con": "+1",
+				"int": "+2",
+				"wis": "+14",
+				"cha": "+13"
+			},
+			"skill":
+			{
+				"medicine": "+19",
+				"persuasion": "+18",
+				"religion": "+25"
+			},
+			"senses":
+			[
+				"truesight 120 ft."
+			],
+			"passive": 17,
+			"resist":
+			[
+				"necrotic",
+				"radiant",
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune":
+			[
+				"charmed",
+				"frightened"
+			],
+			"languages":
+			[
+				"Common",
+				"Celestial",
+				"Dwarven"
+			],
+			"cr": "17",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Jaela casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 21}; {@hit 13} to hit with spell attacks):"
+					],
+					"will":
+					[
+						"{@spell bless|XPHB}",
+						"{@spell burning hands|XPHB} (3rd level)",
+						"{@spell command|XPHB}",
+						"{@spell cure wounds|XPHB} (5th level)",
+						"{@spell detect evil and good|XPHB}",
+						"{@spell guidance|XPHB}",
+						"{@spell light|XPHB}",
+						"{@spell protection from evil and good|XPHB}",
+						"{@spell spare the dying|XPHB}",
+						"{@spell thaumaturgy|XPHB}"
+					],
+					"daily":
+					{
+						"2e":
+						[
+							"{@spell banishment|XPHB}",
+							"{@spell beacon of hope|XPHB}",
+							"{@spell crusader's mantle|XPHB}",
+							"{@spell daylight|XPHB}",
+							"{@spell death ward|XPHB}",
+							"{@spell dispel evil and good|XPHB}",
+							"{@spell dispel magic|XPHB}",
+							"{@spell fireball|XPHB}",
+							"{@spell flame strike|XPHB} (9th level)",
+							"{@spell freedom of movement|XPHB}",
+							"{@spell geas|XPHB} (as an action)",
+							"{@spell greater restoration|XPHB}",
+							"{@spell guardian of faith|XPHB}",
+							"{@spell hold monster|XPHB}",
+							"{@spell magic circle|XPHB} (as an action)",
+							"{@spell mass cure wounds|XPHB}",
+							"{@spell raise dead|XPHB} (as an action)",
+							"{@spell tongues|XPHB}",
+							"{@spell wall of fire|XPHB}"
+						],
+						"1e":
+						[
+							"{@spell antimagic field|XPHB}",
+							"{@spell gate|XPHB}",
+							"{@spell harm|XPHB}",
+							"{@spell heal|XPHB}",
+							"{@spell holy aura|XPHB}",
+							"{@spell resurrection|XPHB} (as an action)",
+							"{@spell true resurrection|XPHB} (as an action)"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
+				},
+				{
+					"name": "Judgement (Costs 3 Actions)",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Jaela casts {@spell divine word|XPHB}, using Wisdom as the spellcasting ability (spell save {@dc 21}), or uses Destroy Undead (if available)"
+					],
+					"legendary":
+					{
+						"3":
+						[
+							"{@spell divine word|XPHB}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "legendary",
+					"hidden":
+					[
+						"legendary"
+					]
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Bastion of Faith",
+					"entries":
+					[
+						"The AC of Jaela includes a magical +4 bonus. Additionally, each ally that can see Jaela within 60 feet of her while she is conscious has its AC magically increased by 4."
+					]
+				},
+				{
+					"name": "Divine Focus",
+					"entries":
+					[
+						"Due to her communion with the Voice of the Flame, Jaela can concentrate on two spells at once. Additionally, while Jaela is {@status Concentration|XPHB|Concentrating} on one or more spells, her {@status Concentration|XPHB} can't be broken as a result of taking damage."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries":
+					[
+						"If Jaela fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries":
+					[
+						"Jaela regains 5 hit points at the start of her turn if she has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Shroud of Tira",
+					"entries":
+					[
+						"At the start of combat, ghost-like spirits of silver fire wielding swords of light surround Jaela. The spirits fill a 15-foot radius around Jaela as long as creatures hostile to her are in combat. Creatures hostile to Jaela have their speed halved in the area, and when such a creature enters the area for the first time on a turn or starts its turn there, it must make a {@dc 21} Constitution saving throw. On a failed save, the creature takes 11 ({@damage 2d6 + 5}) slashing damage and 36 ({@damage 6d8}) radiant damage. On a successful save, the creature takes half as much damage."
+					]
+				},
+				{
+					"name": "Supreme Healing",
+					"entries":
+					[
+						"When Jaela would normally roll one or more dice to restore hit points with a spell, she instead uses the highest number possible for each die."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries":
+					[
+						"Jaela wears {@item bracers of defense|XDMG} and a {@item ring of protection|XDMG}. The ring is special for its kind, allowing its wearer to cast {@spell word of recall|XPHB} once between each dawn, allowing Jaela to teleport back to her private chambers in the Cathedral of Flamekeep."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Holy Flame",
+					"entries":
+					[
+						"{@atk ms,rs} {@hit 13} to hit, reach 5 ft. or range 60 ft., one target. {@h}25 ({@damage 4d8 + 7}) radiant damage and the target must succeed on a {@dc 21} Wisdom saving throw or be {@condition blinded} until the start of Jaela's next turn."
+					]
+				},
+				{
+					"name": "Destroy Undead {@recharge 3}",
+					"entries":
+					[
+						"Jaela presents her holy symbol of the Silver Flame and speaks a prayer censuring the undead. Each undead that can see or hear her within 120 feet of her must succeed on a {@dc 21} Wisdom saving throw or be destroyed. Targets that have a challenge rating higher than 4 are instead {@condition incapacitated} for 1 minute if they fail the save."
+					]
+				},
+				{
+					"name": "Keeper of the Flame (1/Day)",
+					"entries":
+					[
+						"Jaela calls on the Voice of the Silver Flame to intervene. She makes a request of the Flame, and the DM chooses the nature of the intervention. The effect of any cleric spell or Life, {@spell Light|XPHB}, or War domain spell cast up to 9th level, without expending a use of a spell, is appropriate."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Form of Radiance (Recharges after a Short or Long Rest)",
+					"entries":
+					[
+						"Jaela manifests rainbow-feathered wings which shed brilliant radiance, wreathing herself in a silvery aura that lasts for 1 minute, or until she dismisses it with another bonus action. The aura emits bright light in a 60-foot radius and dim light 30 feet beyond that. The bright light of the aura is sunlight, and each creature of Jaela's choice within the bright light has disadvantage on saving throws against any spell that deals fire or radiant damage. While the aura and wings exist, Jaela has a flying speed of 30 feet, and once per round she can deal an additional 18 radiant damage to one target when she deals damage with an attack or spell."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Guided Strike {@recharge 3}",
+					"entries":
+					[
+						"Jaela grants a + 10 bonus to an attack roll made by herself or another creature within 30 feet of her. Jaela can make this choice after the roll is made but before it hits or misses."
+					]
+				}
+			],
+			"legendary":
+			[
+				{
+					"name": "Mercy",
+					"entries":
+					[
+						"Jaela magically restores 20 hit points to a creature she can see within 30 feet of her."
+					]
+				},
+				{
+					"name": "Benediction",
+					"entries":
+					[
+						"One condition or magical effect of Jaela's choice ends on a creature she can see within 30 feet."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Legendary Resistances",
+				"Regeneration"
+			],
+			"senseTags":
+			[
+				"U"
+			],
+			"languageTags":
+			[
+				"C",
+				"CE"
+			],
+			"damageTags":
+			[
+				"R",
+				"S"
+			],
+			"damageTagsSpell":
+			[
+				"F",
+				"N",
+				"R",
+				"Y"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"AOE",
+				"MA",
+				"RA"
+			],
+			"conditionInflict":
+			[
+				"blinded"
+			],
+			"conditionInflictSpell":
+			[
+				"blinded",
+				"charmed",
+				"deafened",
+				"incapacitated",
+				"paralyzed",
+				"prone",
+				"stunned"
+			],
+			"savingThrowForced":
+			[
+				"constitution",
+				"wisdom"
+			],
+			"savingThrowForcedSpell":
+			[
+				"charisma",
+				"constitution",
+				"dexterity",
+				"wisdom"
+			]
 		}
   ]
 }
