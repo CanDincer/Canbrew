@@ -23598,6 +23598,160 @@
 			[
 				"dexterity"
 			]
+		},
+{
+			"name": "Argentum Agent",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "humanoid",
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"{@item leather armor|XPHB}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 16,
+			"wis": 15,
+			"cha": 13,
+			"save":
+			{
+				"dex": "+5",
+				"wis": "+4"
+			},
+			"skill":
+			{
+				"arcana": "+7",
+				"insight": "+4",
+				"investigation": "+7",
+				"perception": "+6",
+				"sleight of hand": "+5",
+				"stealth": "+5"
+			},
+			"passive": 16,
+			"languages":
+			[
+				"Common",
+				"Deep Speech",
+				"Infernal",
+				"Argent Sign"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Righteous Devotion",
+					"entries":
+					[
+						"The agent has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Survivor",
+					"entries":
+					[
+						"The agent regains 5 hit points at the start of its turn if it has at least 1 hit point but fewer hit points than half its hit point maximum."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The agent makes two sword cane attacks. If it draws the sword from inside the cane, it can make three sword cane attacks instead, so long as it wields the cane and sword in each hand."
+					]
+				},
+				{
+					"name": "Sword Cane",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage (wooded cane) or piercing damage (unsheathed sword)."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Cunning Action",
+					"entries":
+					[
+						"The agent takes the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Slayer's Eye (1/Turn)",
+					"entries":
+					[
+						"The agent adds 7 ({@dice 2d6}) to either its next attack roll or damage roll with a finesse weapon (such as its sword cane) until the end of its turn."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Uncanny Dodge",
+					"entries":
+					[
+						"The agent halves the damage that it takes from an attack that hits it. The agent must be able to see the attacker."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"hand crossbow|phb"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"DS",
+				"I"
+			],
+			"damageTags":
+			[
+				"B",
+				"P"
+			],
+			"miscTags":
+			[
+				"MW",
+				"RNG",
+				"RW"
+			]
 		}
   ]
 }
