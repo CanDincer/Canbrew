@@ -22439,6 +22439,110 @@
       [
         "prone"
       ]
-    }
+    },
+    {
+			"name": "Magebred Mastiff",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				12
+			],
+			"hp":
+			{
+				"average": 10,
+				"formula": "2d8 + 2"
+			},
+			"speed":
+			{
+				"walk": 45
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 12,
+			"int": 3,
+			"wis": 14,
+			"cha": 7,
+			"save":
+			{
+				"str": "+2",
+				"dex": "+2",
+				"con": "+1",
+				"wis": "+2",
+				"cha": "-2"
+			},
+			"skill":
+			{
+				"perception": "+5"
+			},
+			"senses":
+			[
+				"Darkvision 60 ft."
+			],
+			"passive": 15,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1/2",
+			"trait":
+			[
+				{
+					"name": "Keen Smell",
+					"entries":
+					[
+						"The mastiff has advantage on {@skill Perception|XPHB} checks made to follow, find, or identify an odor."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Bite",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 2}) piercing damage. If the target is a Medium or smaller creature, it has the {@condition Prone|XPHB} condition."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Quick Search",
+					"entries":
+					[
+						"The mastiff can take the Search action as a bonus action."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Keen Senses"
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"miscTags":
+			[
+				"MW"
+			],
+			"conditionInflict":
+			[
+				"prone"
+			]
+		}
   ]
 }
