@@ -23427,7 +23427,21 @@
 			"savingThrowForced":
 			[
 				"constitution"
-			]
+			],
+			"fluff":
+			{
+				"images":
+				[
+					{
+						"type": "image",
+						"href":
+						{
+							"type": "external",
+							"url": "https://i.imgur.com/PwB2ABr.png"
+						}
+					}
+				]
+      }
 		},
 {
 			"name": "Silvereye Marauder",
