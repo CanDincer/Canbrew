@@ -23913,6 +23913,76 @@
 				"dexterity",
 				"strength"
 			]
-		}
+		},
+{
+      "name": "Magebred Pony",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        10
+      ],
+      "hp":
+      {
+        "average": 16,
+        "formula": "3d8 + 4"
+      },
+      "speed":
+      {
+        "walk": 50
+      },
+      "str": 15,
+      "dex": 12,
+      "con": 14,
+      "int": 2,
+      "wis": 11,
+      "cha": 7,
+      "save":
+      {
+        "str": "+4"
+      },
+      "passive": 10,
+      "conditionImmune":
+      [
+        "frightened"
+      ],
+      "cr": "1/4",
+      "trait":
+      [
+        {
+          "name": "Quick Reflexes",
+          "entries":
+          [
+            "The pony may add +2 to its own {@variantrule Initiative|XPHB} if it is not being mounted. Otherwise, it grants its rider the ability to add their {@variantrule Proficiency|XPHB} bonus to their {@variantrule Initiative|XPHB} roll."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Hooves",
+          "entries":
+          [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target.{@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+          ]
+        }
+      ],
+      "damageTags":
+      [
+        "B"
+      ],
+      "miscTags":
+      [
+        "MW"
+      ]
+    }
   ]
 }
