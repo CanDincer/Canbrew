@@ -2041,14 +2041,14 @@
           "name": "{@item Glaive of Kalok Shash|Canberron}",
           "entries":
           [
-            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 1d10 + 1d6 + 6}) slahing damage. If the target is evil, it takes additional 3 ({@damage 1d6}) radiant damage."
+            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 1d10 + 1d6 + 6}) slahing damage. If the target is evil, it takes an additional 7 ({@damage 2d6}) radiant damage."
           ]
         },
         {
           "name": "{@item Glaive of Kalok Shash|Canberron} (Opposite End)",
           "entries":
           [
-            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d4 + 1d6 + 6}) bludgeoning damage. If the target is evil, it takes additional 3 ({@damage 1d6}) radiant damage."
+            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}12 ({@damage 1d4 + 1d6 + 6}) bludgeoning damage. If the target is evil, it takes an additional 7 ({@damage 2d6}) radiant damage."
           ]
         },
         {
