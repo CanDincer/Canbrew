@@ -1964,8 +1964,8 @@
       ],
       "hp":
       {
-        "average": 110,
-        "formula": "13d10 + 39"
+        "average": 123,
+        "formula": "13d10 + 54"
       },
       "speed":
       {
@@ -1973,7 +1973,7 @@
       },
       "str": 20,
       "dex": 10,
-      "con": 16,
+      "con": 18,
       "int": 14,
       "wis": 12,
       "cha": 8,
@@ -1994,6 +1994,7 @@
       "languages":
       [
         "Common",
+        "Goblin",
         "Giant",
         "Orc"
       ],
