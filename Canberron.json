@@ -1994,7 +1994,8 @@
       "languages":
       [
         "Common",
-        "Giant"
+        "Giant",
+        "Orc"
       ],
       "cr": "9",
       "trait":
@@ -2065,7 +2066,7 @@
           "name": "Second Wind (1/day)",
           "entries":
           [
-            "Şol gains 18 ({@dice 1d10 + 12}) hit points."
+            "Şol gains 18 ({@dice 1d10 + 4d6}) hit points."
           ]
         },
         {
