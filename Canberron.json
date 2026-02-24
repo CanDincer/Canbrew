@@ -1977,6 +1977,12 @@
       "int": 14,
       "wis": 12,
       "cha": 8,
+      "savingThrows":
+      {
+        "str": "+9",
+        "con": "+7",
+        "wis": "+5"
+      },
       "skill":
       {
         "athletics": "+9",
@@ -1995,7 +2001,7 @@
       [
         "Common",
         "Goblin",
-        "Giant",
+        "Infernal",
         "Orc"
       ],
       "cr": "9",
