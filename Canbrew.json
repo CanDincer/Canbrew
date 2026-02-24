@@ -4354,6 +4354,40 @@
 				"This platinum circlet can be used as a spell focus. While casting through this focus, it reduces the spell slot requirement by one, except for 1st and 9th level spells and when higher-than-default level spell slot is used for a spell.",
 				"If you are using spell points, spell point requirements are reduced accordingly."
 			]
+		},
+		{
+			"name": "Tethysthysepheses's Scales",
+			"source": "Canbrew",
+			"rarity": "artifact",
+			"wondrous": true,
+			"weight": 8,
+			"entries":
+			[
+				"These scales are forged from tarnished brass and sit upon a base of {@condition petrified} bone. The pans never settle, constantly oscillating as if weighing {@condition invisible} sins, regardless of the surface they rest upon.",
+				{
+					"type": "entries",
+					"name": "Summon Merchant",
+					"entries":
+					[
+						"You can use an action to speak the command word. When you do, a Fiend Merchant appears in an unoccupied space within 15 feet of you, along with a wooden stall and several crates filled with exotic goods. The stall is lit by a single candle burning with a green flame that sheds dim light in a 10-foot radius.",
+						"The merchant remains for 10 minutes, until you dismiss it as a bonus action, or until it is attacked or takes any damage. The merchant is neutral evil and will not fight for you. If attacked, the merchant, the stall, and all its goods vanish immediately.",
+						"Once this property has been used, it cannot be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infernal Commerce",
+					"entries":
+					[
+						"While the merchant is present, creatures can buy, sell, or trade magic items with it. The DM determines the merchant's inventory, which at least includes potions, scrolls, ammunition, tools and veriaty of magic items. The merchant accepts gold pieces but prefers alternative payments, offering a 20% discount for trades made in such case."
+					]
+				}
+			],
+			"light": [
+				{
+					"dim": 10
+				}
+			]
 		}
 	],
 	"monster":
