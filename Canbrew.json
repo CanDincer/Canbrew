@@ -158,7 +158,7 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"The bow has protrusions on its arrow rest. When released, an arrow starts to spin fast. If you hit, creatures directly behind are struck if your attack roll surpasses their AC, until a creature's AC from armor stops it."
+				"The bow has protrusions on its arrow rest. When released, an arrow starts to spin fast. If you hit, creatures directly behind are struck if your attack roll surpasses their AC, until the attack roll fails to exceed a target's Armor Class."
 			]
 		},
 		{
@@ -404,7 +404,7 @@
 			[
 				"A very large fang with a slight curve. In darkness, you can see shadows bend towards it.",
 				"If you try to throw it, it hangs in the air in front of you.",
-				"You can use your bonus action to command it with your mind. It has a flying speed of up to 40 feet, but it can only travel in a straight line that you can see during a turn and it can't go through creatures. It deals {@damage 1d4} force damage. You use your spellcasting modifier for both attack and damage rolls.",
+				"You can use your bonus action to command it with your mind. It has a flying speed of up to 40 feet, but it can only travel in a straight line. It cannot pass through creatures. It deals {@damage 1d4} force damage. You use your spellcasting modifier for both attack and damage rolls.",
 				{
 					"type": "entries",
 					"name": "Curse",
@@ -429,7 +429,7 @@
 					[
 						"You can turn a willing creature into a cult worshipper by extending your shadow. A small part of the sigil appears on their chest and their skin color darkens slightly.",
 						"For each sentient being you convince to join the cult, the sigil on your chest spreads with new runes.",
-						"The Annihilator is as strong as it has followers.",
+						"The Annihilator grows stronger as its number of followers increases.",
 						"You are the prophet and don't count as a cultist."
 					]
 				},
@@ -477,7 +477,7 @@
 							"name": "30 cultists",
 							"entries":
 							[
-								"While you're inside shadows or at most a dimly lit area, as a bonus action, you can \"{@spell blink|XPHB} teleport\". Doing so expends 3 runic charges.",
+								"While you are in dim light or darkness, as a bonus action, you can \"{@spell blink|XPHB} teleport\". Doing so expends 3 runic charges.",
 								"You can travel up to 30 feet through shadows and darkness to a place you can see at the location you've started.",
 								"You do not provoke opportunity attacks while you travel in this manner.",
 								"You cannot attack or take any other actions until you emerge from the shadows.",
