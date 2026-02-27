@@ -2049,7 +2049,7 @@
           "name": "{@item Glaive of Kalok Shash|Canberron}",
           "entries":
           [
-            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 1d10 + 1d6 + 6}) slahing damage. If the target is evil, it takes an additional 7 ({@damage 2d6}) radiant damage."
+            "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}15 ({@damage 1d10 + 1d6 + 6}) slashing damage. If the target is evil, it takes an additional 7 ({@damage 2d6}) radiant damage."
           ]
         },
         {
@@ -2087,7 +2087,7 @@
           "name": "Tunnel Fighter",
           "entries":
           [
-            "As a bonus aciton, Şol can enter a defensive stance that lasts until the start of his next turn. While in his defensive stance, he can make opportunity attacks without using his reaction, and he can use his reaction to make a melee attack against a creature that moves more than 5 feet while within his reach."
+            "As a bonus action, Şol can enter a defensive stance that lasts until the start of his next turn. While in his defensive stance, he can make opportunity attacks without using his reaction, and he can use his reaction to make a melee attack against a creature that moves more than 5 feet while within his reach."
           ]
         }
       ],
@@ -2150,7 +2150,8 @@
       {
         "type": "external",
         "url": "https://i.imgur.com/Hp9MsoD.png"
-      }
+      },
+      "tokenUrl": "https://i.imgur.com/Hp9MsoD.png"
     },
     {
       "name": "Calderus",
