@@ -135,7 +135,7 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"It causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@damage 1d6} slashing damage and on a critical roll, causes the target to bleed for {@damage 1d4} damage per turn until it succeeds a DC equal to your Strength modifier + 10 Constitution saving throw repeated at the end of the target's turn."
+				"It causes the air behind it to become as sharp as a blade. Arrows fired from this bow deal an extra {@damage 1d6} slashing damage and on a critical roll, causes the target to bleed for {@damage 1d4} damage per turn until it succeeds on a Constitution saving throw (DC equal to your Strength modifier + 10) at the end of the target's turn."
 			]
 		},
 		{
