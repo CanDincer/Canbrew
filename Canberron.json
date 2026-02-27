@@ -1981,7 +1981,7 @@
 			{
 				"str": "+9",
 				"con": "+7",
-				"wis": "+5"        
+				"wis": "+5"
 			},
 			"skill":
 			{
@@ -16926,7 +16926,7 @@
 					"name": "Cinder Aura",
 					"entries":
 					[
-						"At the end of each turn, each creature within 5 feet of  the swarm takes 11 ({@damage 2d10}) Fire damage. Creatures and flammable objects inside the area start burning. Until someone takes an action to douse the fire, a burning creature takes 11 ({@damage 2d10}) fire damage at the start of each of its turns. Both of the damages are lowered to {@dice 1d10}'s if the swarm has half of its hit points or fewer."
+						"At the end of each turn, each creature within 5 feet of the swarm takes 11 ({@damage 2d10}) Fire damage. Creatures and flammable objects inside the area start burning. Until someone takes an action to douse the fire, a burning creature takes 11 ({@damage 2d10}) fire damage at the start of each of its turns. Both of the damages are lowered to {@dice 1d10}'s if the swarm has half of its hit points or fewer."
 					]
 				},
 				{
