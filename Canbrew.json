@@ -46,7 +46,7 @@
 			"entries":
 			[
 				"The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. A Ki-rin sacrificed itself so this weapon can be crafted and used to destroy a fiend.",
-				"When you lunch an arrow from this weapon, the arrow transforms into a {@spell guiding bolt|XPHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're {@condition unconscious}."
+				"When you launch an arrow from this weapon, the arrow transforms into a {@spell guiding bolt|XPHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're {@condition unconscious}."
 			]
 		},
 		{
@@ -68,7 +68,7 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"This weapon doesn't have a visible string, but when you pull where would be a string, a string glows into existence. When the string is pulled all the way, an ethereal arrow forms. The arrows deal force damage instead of piercing. If you used an action to attack, you can fire another arrow using your bonus action as you don't have to spend time to get an arrow from your quiver. Arrows disappear a minute after they are fired."
+				"This weapon doesn't have a visible string, but when you pull where a string would be, a string glows into existence. When the string is pulled all the way, an ethereal arrow forms. The arrows deal force damage instead of piercing. If you used an action to attack, you can fire another arrow using your bonus action as you don't have to spend time to get an arrow from your quiver. Arrows disappear a minute after they are fired."
 			]
 		},
 		{
@@ -277,8 +277,8 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"An adamantine dagger with an onyx blade. It was crafted in Kravenforge, in an era where the titans were roaming the material plane, wrecking havoc. For once, in the entire history of existance, mountain dwarves and fire giants worked together to forge this dagger.",
-				"It looks cool and that's it. It has no magic properties, detect magic has no effect on it, and identify reveals nothing. Until it's within 15 feet of a Large or larger creature. Then, the onxy grows. Depending on the size of the creature it grows to different sizes and deals different damage.",
+				"An adamantine dagger with an onyx blade. It was crafted in Kravenforge, in an era where the titans were roaming the material plane, wreaking havoc. For once, in the entire history of existence, mountain dwarves and fire giants worked together to forge this dagger.",
+				"It looks cool and that's it. It has no magic properties, detect magic has no effect on it, and identify reveals nothing. Until it's within 15 feet of a Large or larger creature. Then, the onyx grows. Depending on the size of the creature it grows to different sizes and deals different damage.",
 				{
 					"type": "table",
 					"colLabels":
@@ -410,7 +410,7 @@
 					"name": "Curse",
 					"entries":
 					[
-						"It channels The Annihilator's shadow to you, a shadow incarnate being, created to purge the material plane from its corruption. Wolven in form a gargantuan creature with green flames for eyes, an unending tongue, and seven chains attached to piercings on its body. After completing its purpose, it was chained in the material plane's depths by three {@creature solar|MM}s. The Annihilator attaches to you in your dreams, either trying to consume you or force you into spreading its shadows to gain its strength back.",
+						"It channels The Annihilator's shadow to you, a shadow incarnate being, created to purge the material plane from its corruption. Wolf-like in form a gargantuan creature with green flames for eyes, an unending tongue, and seven chains attached to piercings on its body. After completing its purpose, it was chained in the material plane's depths by three {@creature solar|MM}s. The Annihilator attaches to you in your dreams, either trying to consume you or force you into spreading its shadows to gain its strength back.",
 						"If you accept to become its prophet, a sigil appears on your chest."
 					]
 				},
@@ -460,7 +460,7 @@
 							"name": "10 cultists",
 							"entries":
 							[
-								"As an action, you can summon up to two {@creature shadow mastiff|VGM}s (5 charges each). They stay with you for an hour, unless they drop to zero hit points, or unless you lose your concentration on this power. You mentally guide the summoned mastiffs, and they take actions in their own initiative together."
+								"As an action, you can summon up to two {@creature shadow mastiff|VGM}s (5 charges each). They stay with you for an hour, unless they drop to zero hit points or you lose your concentration on this power. You mentally guide the summoned mastiffs, and they take actions in their own initiative together."
 							]
 						},
 						{
@@ -562,7 +562,7 @@
 		{
 			"name": "Marks of the Horsemen (WIP)",
 			"tattoo": true,
-			"reqAttune": "true",
+			"reqAttune": true,
 			"curse": true,
 			"rarity": "artifact",
 			"source": "Canbrew",
@@ -602,7 +602,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Femine",
+					"name": "Famine",
 					"entries":
 					[
 						"blablabla",
