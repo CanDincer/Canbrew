@@ -715,7 +715,7 @@
 			[
 				"A long brown leather and blue cloth brace with cut fingers. When you attune to it two blue magical signs appear on your thumb and index finger.",
 				"This scripter's hand brace allows you to ditch your spell book. Instead, you can activate it to conjure a visual archive of spells which you can scroll through with your thumb and add or remove with your index finger.",
-				"There is a small orafice under the brace, where you can plug an ink bottle to fil it. It uses stored ink to generate the visual archive. Therefore, you still need to pay the regular cost of copying spells.",
+				"There is a small orifice under the brace, where you can plug an ink bottle to fill it. It uses stored ink to generate the visual archive. Therefore, you still need to pay the regular cost of copying spells.",
 				"As long as the brace is intact, your archive cannot be harmed."
 			]
 		},
@@ -16332,7 +16332,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strength saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it is pulled 5 feet."
 					]
 				},
 				{
@@ -16523,7 +16523,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strength saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
 					]
 				},
 				{
@@ -16729,7 +16729,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 16} Strength saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it is pulled 5 feet."
 					]
 				},
 				{
@@ -16927,7 +16927,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 15} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 15} Strength saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it is pulled 5 feet."
 					]
 				},
 				{
@@ -17126,7 +17126,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strength saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it is pulled 5 feet."
 					]
 				},
 				{
@@ -17328,7 +17328,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strength saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
 					]
 				},
 				{
@@ -17547,7 +17547,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 18} Strength saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it is pulled 5 feet."
 					]
 				},
 				{
@@ -17715,7 +17715,7 @@
 					"name": "Implosion",
 					"entries":
 					[
-						"The dread draws its enemies in a 60-foot radius sphere centered on it closer. Each creature inside the are must make a Strength saving throw. On a fail, creatures are pulled up to 30 feet towards the dread. On a success, creatures are pulled 5 feet."
+						"The dread draws its enemies in a 60-foot radius sphere centered on it closer. Each creature inside the area must make a Strength saving throw. On a fail, creatures are pulled up to 30 feet towards the dread. On a success, creatures are pulled 5 feet."
 					]
 				},
 				{
@@ -17761,7 +17761,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 17} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 17} Strength saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it is pulled 5 feet."
 					]
 				},
 				{
@@ -17968,7 +17968,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 20} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 20} Strength saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it is pulled 5 feet."
 					]
 				},
 				{
@@ -18181,7 +18181,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 22} Strenght saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 22} Strength saving throw. On a failed save, it is pulled 30 feet towards the dread in a straight line. On a successful save, it tis pulled 15 feet."
 					]
 				},
 				{
@@ -18408,7 +18408,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 20} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 20} Strength saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it is pulled 5 feet."
 					]
 				},
 				{
@@ -18576,7 +18576,7 @@
 					"name": "Implosion",
 					"entries":
 					[
-						"The dread draws its enemies in a 60-foot radius sphere centered on it closer. Each creature inside the are must make a Strength saving throw. On a fail, creatures are pulled up to 30 feet towards the dread. On a success, creatures are pulled 5 feet."
+						"The dread draws its enemies in a 60-foot radius sphere centered on it closer. Each creature inside the area must make a Strength saving throw. On a fail, creatures are pulled up to 30 feet towards the dread. On a success, creatures are pulled 5 feet."
 					]
 				},
 				{
@@ -18629,7 +18629,7 @@
 					"name": "Pull",
 					"entries":
 					[
-						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 19} Strenght saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it tis pulled 5 feet."
+						"The dread extends his hand to drag a target within 60 feet towards the dread. The target must make a {@dc 19} Strength saving throw. On a failed save, it is pulled 20 feet towards the dread in a straight line. On a successful save, it is pulled 5 feet."
 					]
 				},
 				{
@@ -31109,7 +31109,7 @@
 			{
 				"entries":
 				[
-					"Nestled in quiet, forgotten corners of abandoned buildings and caves live the dust minimentals. They tend to be very wary of creatures, mostly keeping to themselves, and are usually shy if approached. Dust minimentals are sleepy and quite content to doze the day away with others of their kind in the quiet darkness, away from loud noises and wind. Once they find a suitable corner or neglected shelf, they rarely move unless disturbed. They are able to contort their body to fil natural crevices and escape predators through tiny openings."
+					"Nestled in quiet, forgotten corners of abandoned buildings and caves live the dust minimentals. They tend to be very wary of creatures, mostly keeping to themselves, and are usually shy if approached. Dust minimentals are sleepy and quite content to doze the day away with others of their kind in the quiet darkness, away from loud noises and wind. Once they find a suitable corner or neglected shelf, they rarely move unless disturbed. They are able to contort their body to fill natural crevices and escape predators through tiny openings."
 				],
 				"images":
 				[
