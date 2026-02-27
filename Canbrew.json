@@ -34532,14 +34532,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -34680,7 +34680,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -34694,7 +34694,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -34853,7 +34853,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -34867,7 +34867,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -35018,7 +35018,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -35046,7 +35046,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -35199,28 +35199,28 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
 					"name": "Flash Freeze",
 					"entries":
 					[
-						"Creatures killed by the living spell is turned to ice."
+						"Creatures killed by the living spell are turned to ice."
 					]
 				},
 				{
 					"name": "Frozen Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takess 9 ({@damage 2d8}) cold damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 9 ({@damage 2d8}) cold damage."
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -35244,7 +35244,7 @@
 					"name": "Frigid Touch",
 					"entries":
 					[
-						"{@atk ms} {@hit 7} to hit, 10 ft., one target. {@h}23 ({@damage 4d8 + 5}) cold damage."
+						"{@atk ms} {@hit 7} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d8 + 5}) cold damage."
 					]
 				},
 				{
@@ -35383,7 +35383,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -35405,7 +35405,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -35540,28 +35540,28 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
 					"name": "Disintegration",
 					"entries":
 					[
-						"A creature reduced to 0 hit points by the living spell is reduced to a pile of fine gray dust including everything it is wearing and carrying, except magic items. The creature can be restored to life only by means of a {@spell true resurrection} or a {@spell wish} spell. ash."
+						"A creature reduced to 0 hit points by the living spell is reduced to a pile of fine gray dust including everything it is wearing and carrying, except magic items. The creature can be restored to life only by means of a {@spell true resurrection} or a {@spell wish} spell."
 					]
 				},
 				{
 					"name": "Disintegrating Body",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takess 45 ({@damage 6d6 + 24}) force damage."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it takes 45 ({@damage 6d6 + 24}) force damage."
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -35696,7 +35696,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -35717,7 +35717,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -35841,7 +35841,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -35855,7 +35855,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -35886,7 +35886,7 @@
 					"name": "Spell Mimicry {@recharge 5}",
 					"entries":
 					[
-						"The living spell moves up to its speed and unleashes a stroke of fire in a 20-foot radius sphere. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one."
+						"The living spell moves up to its speed and unleashes an explosion of fire in a 20-foot-radius sphere. Each creature in the sphere must make a {@dc 15} Dexterity saving throw, taking 28 ({@damage 8d6}) fire damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
@@ -36019,7 +36019,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -36040,7 +36040,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -36195,7 +36195,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -36223,7 +36223,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -36386,14 +36386,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -36531,7 +36531,7 @@
 					"entries":
 					[
 						"If the living spell starts its turn in an {@spell Antimagic Field}, it takes 10 damage.",
-						"This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -36545,7 +36545,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -36673,14 +36673,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -36825,14 +36825,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -37107,14 +37107,14 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -37271,7 +37271,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -37292,7 +37292,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -37449,7 +37449,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -37470,7 +37470,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
@@ -37628,7 +37628,7 @@
 					"name": "Antimagic Susceptibility",
 					"entries":
 					[
-						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except the ones that it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws as well."
+						"If the living spell starts its turn in an {@spell antimagic field|XPHB}, it takes 10 damage and has vulnerability to all magical damage types except those to which it is immune. This damage cannot be reduced in any way. Until the start of its next turn, it also suffers disadvantage on attack rolls, ability checks, and saving throws."
 					]
 				},
 				{
@@ -37642,7 +37642,7 @@
 					"name": "Unusual Nature",
 					"entries":
 					[
-						"The living spell does not need to eat, drink, or sleep."
+						"The living spell doesn't require air, food, drink, or sleep."
 					]
 				},
 				{
