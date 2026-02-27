@@ -1977,11 +1977,11 @@
       "int": 14,
       "wis": 12,
       "cha": 8,
-      "savingThrows":
+      "save":
       {
         "str": "+9",
         "con": "+7",
-        "wis": "+5"
+        "wis": "+5"        
       },
       "skill":
       {
