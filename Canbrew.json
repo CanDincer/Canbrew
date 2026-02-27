@@ -45,8 +45,8 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"The string is made from its hair, the riser is made from its carved horn, limbs made from its sculpted bones. A Ki-rin sacrificed itself so this weapon can be crafted and used to destroy a fiend.",
-				"When you launch an arrow from this weapon, the arrow transforms into a {@spell guiding bolt|XPHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either the target or you're {@condition unconscious}."
+				"The string is made from its hair, the riser is made from its carved horn, limbs are made from its sculpted bones. A Ki-rin sacrificed itself so this weapon can be crafted and used to destroy a fiend.",
+				"When you launch an arrow from this weapon, the arrow transforms into a {@spell guiding bolt|XPHB} of light. On a hit, the target takes {@damage 4d6} radiant damage, and all your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. On a critical success, further attacks automatically hit until either you or the target is {@condition unconscious}."
 			]
 		},
 		{
@@ -108,9 +108,9 @@
 					"name": "Curse",
 					"entries":
 					[
-						"Leaning towards one side particularly may have consequences.",
-						"Leaning towards the light side slowly burns your soul out and diminishes your spirit. You feel numb inside. On a critical success, deals {@damage 3d6} radiant damage both to you and your target.",
-						"Leaning towards the dark side corrupts your soul. You, constantly, feel agitated. On a critical success, deals {@damage 3d6} necrotic damage both to you and your target."
+						"Leaning towards one side in particular may have consequences.",
+						"Leaning towards the light side slowly burns your soul out and diminishes your spirit. You feel numb inside. On a critical success, it deals {@damage 3d6} radiant damage both to you and your target.",
+						"Leaning towards the dark side corrupts your soul. You constantly feel agitated. On a critical success, it deals {@damage 3d6} necrotic damage both to you and your target."
 					]
 				}
 			]
@@ -929,7 +929,7 @@
 			[
 				"An elegant rapier, inlaid with elven engravings.",
 				"Whenever you're about to make an attack, you can dash 5 feet towards your target to close the distance, as a free action. You have to make an attack roll with the rapier after dashing to be able to do this. To the untrained eye, it looks like you've teleported. If you are directly dashing away from another foe, it has disadvantage on his opportunity attack.",
-				"Glows dimly green when used in this way and deals an extra {@damage 1d4} force damage."
+				"Glows dimly green when used in this way and it deals an extra {@damage 1d4} force damage."
 			]
 		},
 		{
@@ -1443,7 +1443,7 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"A nonmagical arrow or bolt fired from this magic weapon emits a fizzing red glow when it hits a creature. Only one creature can be so affected at a time. All your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. When you attack a creature with the Inevitable Bow and roll a 20 on the attack roll, further attacks automatically hit until either the target or you're {@condition unconscious}."
+				"A nonmagical arrow or bolt fired from this magic weapon emits a fizzing red glow when it hits a creature. Only one creature can be so affected at a time. All your subsequent attacks from this weapon ignore the target's AC from their Dexterity modifier. When you attack a creature with the Inevitable Bow and roll a 20 on the attack roll, further attacks automatically hit until either you or the target is {@condition unconscious}."
 			]
 		},
 		{
@@ -1890,7 +1890,7 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"In an attempt to create a sentient Longsword. A powerful wizard and a renowned blacksmith got together. While being forged it kept yelling \"Harder!\", \"Right there!\", and other kinky stuff. The blacksmith couldn't handle hearing it every time he hammered the sword and gave up. Deals {@damage 1d6} bludgeoning + {@damage 1d4} psychic damage. If you can please it enough it has +1 magic for a day."
+				"In an attempt to create a sentient Longsword. A powerful wizard and a renowned blacksmith got together. While being forged it kept yelling \"Harder!\", \"Right there!\", and other kinky stuff. The blacksmith couldn't handle hearing it every time he hammered the sword and gave up. It deals {@damage 1d6} bludgeoning + {@damage 1d4} psychic damage. If you can please it enough it has +1 magic for a day."
 			]
 		},
 		{
