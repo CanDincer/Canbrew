@@ -93,7 +93,7 @@
 			"entries":
 			[
 				"A Twilight Valkyrie is said to walk the line between the light and the dark.",
-				"You can use your bonus action to switch between bow's celestial and infernal stances.",
+				"You can use your bonus action to switch between the bow's celestial and infernal stances.",
 				{
 					"type": "list",
 					"items":
@@ -181,7 +181,7 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"Using a bonus action, you can deploy the Bastilla's stand to gain +2 on your attack and damage rolls. You can either deploy the Bastilla on a half cover sized object or choose to go {@condition prone} to deploy it on the ground. Retracting the stand also requires a bonus action. Attack and damage rolls have -2 while moving with the stand out."
+				"Using a bonus action, you can deploy the Bastilla's stand to gain +2 on your attack and damage rolls. You can either deploy the Bastilla on a half-cover-sized object or choose to go {@condition prone} to deploy it on the ground. Retracting the stand also requires a bonus action. Attack and damage rolls have -2 while moving with the stand out."
 			]
 		},
 		{
@@ -334,7 +334,7 @@
 			"source": "Canbrew",
 			"entries":
 			[
-				"A small dagger with a jagged black blade. You have proficiency (expertise if you're already proficient) on any Stealth or Sleight of Hand checks to hide it, and get a surprise round when attacking any non-hostile character.",
+				"A small dagger with a jagged black blade. You have proficiency (expertise if you're already proficient) on any Stealth or Sleight of Hand checks to hide it, and the target is {@condition surprised} if you attack it while it is non-hostile.",
 				"The location of this dagger is currently unknown, but it is being sought in connection with the murder of a Count. If you have any information regarding its whereabouts, report to your nearest guard post for a reward of 20 gold pieces."
 			]
 		},
@@ -477,7 +477,7 @@
 							"name": "30 cultists",
 							"entries":
 							[
-								"While you're inside shadows or at most a dimly lighted area, as a bonus action, you can \"{@spell blink|XPHB} teleport\". Doing so expends 3 runic charges.",
+								"While you're inside shadows or at most a dimly lit area, as a bonus action, you can \"{@spell blink|XPHB} teleport\". Doing so expends 3 runic charges.",
 								"You can travel up to 30 feet through shadows and darkness to a place you can see at the location you've started.",
 								"You do not provoke opportunity attacks while you travel in this manner.",
 								"You cannot attack or take any other actions until you emerge from the shadows.",
@@ -490,7 +490,7 @@
 							"entries":
 							[
 								"You can take a minute to detach your shadow from your body using a bonus action, creating a shadow clone. Doing so expends 10 runic charges.",
-								"Your shadow clone has the statistics of an {@spell unseen servant|XPHB} and a shadow copy of everything you had equipped at the time of detachment, with two exceptions; the shadow clone can make weapon attacks with a bonus of +0 and the spell does not end when the shadow clone is 60 feet away from you. You can use an action to see through its eyes. After 10 minutes or when called, your shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the 10 minutes. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so destroys the shadow clone immediately and restores you to the hit points your shadow clone had."
+								"Your shadow clone has the statistics of an {@spell unseen servant|XPHB} and a shadow copy of everything you had equipped at the time of detachment, with two exceptions: the shadow clone can make weapon attacks with a bonus of +0 and the spell does not end when the shadow clone is 60 feet away from you. You can use an action to see through its eyes. After 10 minutes or when called, your shadow clone returns to you. If it drops to 0 hit points, you are left shadowless for the rest of the 10 minutes. While your shadow clone is active, if you drop to zero hit points, you switch bodies with the shadow clone. Doing so destroys the shadow clone immediately and restores you to the hit points your shadow clone had."
 							]
 						},
 						{
@@ -498,7 +498,7 @@
 							"name": "50 cultists",
 							"entries":
 							[
-								"The Annihilator grants you a part of his own shadow",
+								"The Annihilator grants you a part of his own shadow.",
 								"When you're mortally wounded you can forego 50 runic charges to become a shadow with 1 hit point for one minute. You're not {@condition invisible} but cannot be interacted with. At the end of your reformation, you are fully healed and your spell slots and traits are restored as if you had completed a long rest."
 							]
 						},
@@ -515,7 +515,7 @@
 							"name": "70 cultists",
 							"entries":
 							[
-								"Serrations grow on the fang, increasing its die to a {@damage d6}"
+								"Serrations grow on the fang, increasing its die to a {@damage d6}."
 							]
 						},
 						{
@@ -2452,7 +2452,7 @@
 			"entries":
 			[
 				"A shield made out of thick wooden sticks tied together with a leather strap as a grip.",
-				"This shield feeds from your fears. Whenever you're surprised you panic and raise your shield, gaining temporary hit points equal to 20 - your Wisdom score until the end of the surprise round."
+				"This shield feeds from your fears. Whenever you're {@condition surprised} you panic and raise your shield, gaining temporary hit points equal to 20 - your Wisdom score until the end of the surprise round."
 			]
 		},
 		{
@@ -17080,7 +17080,7 @@
 					"name": "Whirling Blade",
 					"entries":
 					[
-						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half as much damage."
+						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half as much damage."
 					]
 				},
 				{
@@ -17289,7 +17289,7 @@
 					"name": "Whirling Blade",
 					"entries":
 					[
-						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+8} radiant damage. On a success, creatures take half as much damage."
+						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+8} radiant damage. On a success, creatures take half as much damage."
 					]
 				},
 				{
@@ -17494,7 +17494,7 @@
 					"name": "Whirling Blade",
 					"entries":
 					[
-						"The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
+						"The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. Any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
 					]
 				},
 				{
@@ -17708,7 +17708,7 @@
 					"name": "Whirling Blade",
 					"entries":
 					[
-						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+5} radiant damage. On a success, creatures take half damage."
+						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+5} radiant damage. On a success, creatures take half damage."
 					]
 				},
 				{
@@ -17915,7 +17915,7 @@
 					"name": "Whirling Blade",
 					"entries":
 					[
-						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half as much damage."
+						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half as much damage."
 					]
 				},
 				{
@@ -18135,7 +18135,7 @@
 					"name": "Whirling Blade",
 					"entries":
 					[
-						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+9} radiant damage. On a success, creatures take half as much damage."
+						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+9} radiant damage. On a success, creatures take half as much damage."
 					]
 				},
 				{
@@ -18348,7 +18348,7 @@
 					"name": "Whirling Blade",
 					"entries":
 					[
-						"The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half damage."
+						"The dread throws its weapon to travel in a circular path. The weapon covers a 30-foot sphere centered on the dread. Any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+7} radiant damage. On a success, creatures take half damage."
 					]
 				},
 				{
@@ -18569,7 +18569,7 @@
 					"name": "Whirling Blade",
 					"entries":
 					[
-						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
+						"The dread throws its weapon to travel in a circular path. The weapon covers a 20-foot sphere centered on the dread. Any creature in the area must make a Dexterity saving throw. On a fail, creatures take {@damage 1d8+6} radiant damage. On a success, creatures take half damage."
 					]
 				},
 				{
@@ -30914,7 +30914,7 @@
 					"name": "Smoke Form",
 					"entries":
 					[
-						"The Smoke minimental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. If the hostile creature is size Small or smaller, it is {@condition blinded} while the minimental is in its space."
+						"The smoke minimental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. If the hostile creature is size Small or smaller, it is {@condition blinded} while the minimental is in its space."
 					]
 				}
 			],
@@ -35039,7 +35039,7 @@
 					"name": "Poison Smog",
 					"entries":
 					[
-						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it must make a {@dc 16} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one."
+						"Any creature that enters the living spell's space for the first time on a turn or starts its turn there, or hits it with a melee weapon attack while within 5 ft. of it, must make a {@dc 16} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one."
 					]
 				},
 				{
@@ -38312,7 +38312,7 @@
 					"name": "Age",
 					"entries":
 					[
-						"Klyntar do not age. They leap from one host to another and can live for tens of thousands of years"
+						"Klyntar do not age. They leap from one host to another and can live for tens of thousands of years."
 					]
 				},
 				{
