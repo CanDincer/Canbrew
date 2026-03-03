@@ -95,9 +95,9 @@
 			[
 				"A portable manifest zone generator is a spherical construct that can levitate when its command word is spoken and be pushed to move around while it's hovering. It has a diameter of 4 feet and it looks magichanical.",
 				"It is powered by 4 dragonshards; one of each plus another syberis dragonshard. The dragonshards are consumed upon use and the energy they provide lasts for 1 minute.",
-				"It can be activated with a command word to generate a manifest zone to a choosen plane. Couterminous effects of the choosen plane will manifest.",
-				"While a manifest zone is active, it's also easier to cast {{@spell planeshift|XPHB}} targeting the choosen plane. While within 30 feet of the device, the spell can be cast using a 5th-level spell slot and the material requirement is automatically satisfied.",
-				"The construct has an HP of 32, an AC of 10, and a damage treshold of 1."
+				"It can be activated with a command word to generate a manifest zone to a chosen plane. Coterminous effects of the chosen plane will manifest.",
+				"While a manifest zone is active, it's also easier to cast {{@spell planeshift|XPHB}} targeting the chosen plane. While within 30 feet of the device, the spell can be cast using a 5th-level spell slot and the material requirement is automatically satisfied.",
+				"The construct has an HP of 32, an AC of 10, and a damage threshold of 1."
 			]
 		},
 		{
@@ -111,7 +111,7 @@
 			"ac": 17,
 			"entries":
 			[
-				"This leather composite armor from old era reduces damage taken by 5 and grants advantage on all saving throws."
+				"While wearing this armor from an older era, all damage you take is reduced by 5, and you have advantage on all saving throws."
 			]
 		},
 		{
@@ -138,7 +138,7 @@
 			"entries":
 			[
 				"A glaive blessed by Kalok Shash.",
-				"This weapon has +1 to attack and damage rolls.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 				"It also deals additional ({@damage 1d6}) radiant damage if the target is evil."
 			]
 		},
@@ -223,14 +223,14 @@
 			"entries":
 			[
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. It has the following additional properties.",
-				"Loyal steed. Talaen Kara's bonus to attack and damage rolls increases to +2 when it is used from horseback. A horse being ridden by its wielder gains a +2 bonus to armor class. It can cast {@spell beast bond|XGE} on behalf of its wielder, but will only do so with a horse. It can also cast {@spell bless} with its wielder and (if applicable) mount as targets. It will maintain concentration on these spells so that its wielder does not need to do so. Once it casts one of these spell it cannot cast that spell again until the next dawn.",
+				"Loyal steed. Talaen Kara's bonus to attack and damage rolls increases to +2 when it is used from horseback. A horse being ridden by its wielder gains a +2 bonus to armor class. It can cast {@spell beast bond|XGE} on behalf of its wielder, but will only do so with a horse. It can also cast {@spell bless} with its wielder and (if applicable) mount as targets. It will maintain concentration on these spells so that its wielder does not need to do so. Once it casts one of these spells it cannot cast that spell again until the next dawn.",
 				{
 					"type": "entries",
 					"name": "Sentience",
 					"entries":
 					[
 						"Talaen Kara is a chaotic good sentient weapon with an Intelligence of 10, Wisdom of 12, and Charisma of 12. It has hearing and {@sense darkvision} out to a range of 120 feet.",
-						"This beautiful weapon holds the essence of a proud Valenar warhorse, the lifelong companion of the ranger Valea Ildallia. When her faithful steed fi nally fell in battle, Valea forged this blade so her companion could continue to ride with her into battle. While the weapon is intelligent, it has the mind of a horse and only communicates with strong, pure emotions—anger, joy, suspicion, and so on.",
+						"This beautiful weapon holds the essence of a proud Valenar warhorse, the lifelong companion of the ranger Valea Ildallia. When her faithful steed finally fell in battle, Valea forged this blade so her companion could continue to ride with her into battle. While the weapon is intelligent, it has the mind of a horse and only communicates with strong, pure emotions—anger, joy, suspicion, and so on.",
 						"Talaen Kara understands Elvish, but does not speak. It communicates empathically by transmitting strong, pure emotions. While intelligent, it has the mind and personality of a horse."
 					]
 				}
@@ -351,7 +351,7 @@
 					"name": "Final Messenger",
 					"entries":
 					[
-						"If Saber is disabled, destroyed, or rendered {@condition unconscious}, his fnal messenger fies off to a message station where a message will be relayed to the Lord of Blades. The fnal messenger is a delicate winged assembly that deploys from his chest and carries a vision of his last moments. It has armor class 20, 10 hit points, and a fy speed of 60 ft."
+						"If Saber is disabled, destroyed, or rendered {@condition unconscious}, his final messenger flies off to a message station where a message will be relayed to the Lord of Blades. The fnal messenger is a delicate winged assembly that deploys from his chest and carries a vision of his last moments. It has armor class 20, 10 hit points, and a fly speed of 60 ft."
 					]
 				}
 			],
@@ -361,7 +361,7 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"The warforged makes two longsword attacks or a longsword attack and an iron fsts attack."
+						"The warforged makes two Longsword attacks, or one Longsword attack and one Iron Fists attack."
 					]
 				},
 				{
@@ -506,7 +506,7 @@
 					"name": "Final Messenger",
 					"entries":
 					[
-						"If Cutter is disabled, destroyed, or rendered {@condition unconscious}, her fnal messenger fies off to warn Saber. The fnal messenger is a delicate winged assembly that deploys from Cutter's chest and carries a vision of her last moments to Saber. It has armor class 20, 10 hit points, and a fy speed of 60 ft."
+						"If Cutter is disabled, destroyed, or rendered {@condition unconscious}, her final messenger flies off to warn Saber. The fnal messenger is a delicate winged assembly that deploys from Cutter's chest and carries a vision of her last moments to Saber. It has armor class 20, 10 hit points, and a fly speed of 60 ft."
 					]
 				}
 			],
@@ -1191,7 +1191,7 @@
 					"name": "Multiattack",
 					"entries":
 					[
-						"Mandy makes two melee attacks"
+						"Mandy makes two melee attacks."
 					]
 				},
 				{
@@ -3502,7 +3502,7 @@
 					"name": "Special Equipment",
 					"entries":
 					[
-						"Ek wears glamoured leather armor (the appearance of which it can change as a bonus action, retaining its protective qualities) and a {@item ring of protection}. It carries a concealed +1 shortsword inside a +1 sword cane."
+						"Ek wears {@item glamoured studded leather} (the appearance of which it can change as a bonus action, retaining its protective qualities) and a {@item ring of protection}. It carries a concealed +1 shortsword inside a +1 sword cane."
 					]
 				}
 			],
@@ -9138,7 +9138,7 @@
 					"name": "Phantom Form (2/Day)",
 					"entries":
 					[
-						"The knight transforms into an incorporeal version of itself for 1 minute. While incorporeal, the knight's weapon attacks deal an extra 9 ({@damage 2d8}) force damage (noted in the attack), the knight gains a flying speed of 20 feet, and it can move through other creatures and objects as if they were difficult terrain. The knight takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The knight transforms into an incorporeal version of itself for 1 minute. While incorporeal, the knight's weapon attacks deal an extra 9 ({@damage 2d8}) force damage (included in the attack), the knight gains a flying speed of 20 feet, and it can move through other creatures and objects as if they were difficult terrain. The knight takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				}
 			],
@@ -10098,7 +10098,7 @@
 					"name": "Phantom Form {@recharge 5}",
 					"entries":
 					[
-						"Darro transforms into an incorporeal version of himself for 1 minute. While incorporeal, Darro's weapon attacks deal an extra 9 ({@damage 2d8}) force damage (noted in the attack), he gains a flying speed of 20 feet, and he can move through other creatures and objects as if they were difficult terrain. Darro takes 5 ({@damage 1d10}) force damage if he ends his turn inside an object."
+						"Darro transforms into an incorporeal version of himself for 1 minute. While incorporeal, Darro's weapon attacks deal an extra 9 ({@damage 2d8}) force damage (included in the attack), he gains a flying speed of 20 feet, and he can move through other creatures and objects as if they were difficult terrain. Darro takes 5 ({@damage 1d10}) force damage if he ends his turn inside an object."
 					]
 				}
 			],
@@ -10757,7 +10757,7 @@
 					"name": "The Best Defense",
 					"entries":
 					[
-						"If Cutlass makes a successful melee attack against a creature, that creature can't make opportunity attacks against him for the rest of his turn."
+						"If Cutlass hits a creature with a melee attack, that creature can't make opportunity attacks against him for the rest of his turn."
 					]
 				}
 			],
@@ -11706,7 +11706,7 @@
 					"name": "Undead Fortitude",
 					"entries":
 					[
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant damage or from a critical hit. On a success, the zombie drops to 1 hit point instead."
 					]
 				}
 			],
@@ -14541,7 +14541,17 @@
 					"entries":
 					[
 						"Sora Maenya's melee weapon attacks are magical and ignore damage resistances and immunities.",
-						"ActionsMultiattack. Sora Maenya makes three attacks: two with her claws and one with her bite."
+						
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Sora Maenya makes three attacks: two with her claws and one with her bite."
 					]
 				},
 				{
@@ -14631,7 +14641,7 @@
 					"name": "Rending Embrace (Costs 3 Actions)",
 					"entries":
 					[
-						"One creature {@condition grappled} by Sora Maenya must make a {@dc 21} Strength saving throw, taking 30 ({@damage 5d6 + 13}) piercing damage and 30 ({@damage 5d6 + 13}) slashing damage on a failed saving throw, or half as much of each on a success."
+						"Sora Maenya targets one creature {@condition grappled} by her. The target must make a {@dc 21} Strength saving throw, taking 30 ({@damage 5d6 + 13}) piercing damage and 30 ({@damage 5d6 + 13}) slashing damage on a failed saving throw, or half as much of each on a success."
 					]
 				},
 				{
@@ -15534,7 +15544,7 @@
 					"entries":
 					[
 						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}10 ({@damage 1d12 + 4}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 15}). The quori has four pincers, each of which can grapple one target.",
-						"If a creature is hit by two pincer attacks in one turn, the creature must succeed on a {@dc 16} Charisma save. On a failure, the creature is {@condition incapacitated} for 1 round while its mind is filled with doubt and it hears thoughts of self-loathing. A creature with Intelligence 4 or less is unaffected."
+						"If a creature is hit by two pincer attacks in one turn, the creature must succeed on a {@dc 16} Charisma saving throw. On a failure, the creature is {@condition incapacitated} for 1 round while its mind is filled with doubt and it hears thoughts of self-loathing. A creature with Intelligence 4 or less is unaffected."
 					]
 				},
 				{
@@ -20830,7 +20840,7 @@
 					"name": "Undead Fortitude",
 					"entries":
 					[
-						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant damage or from a critical hit. On a success, the zombie drops to 1 hit point instead."
 					]
 				}
 			],
@@ -21305,7 +21315,7 @@
 					"name": "Inhabit",
 					"entries":
 					[
-						"Once a tsochar has successfully entered a creature it can leave the victim alive and aware. While inhabiting a creature it can use the Agony attack any time it cares to. The tsochar can take no physical actions while inhabiting a host, but can use purely mental actions (such as communication by means of telepathy, and threatening to injure or kill the host unless the host does as the monster wishes). When the host takes damage (other than damage inflicted by the tsochar) the inhabiting tsochar takes half of that damage.",
+						"Once a tsochar has successfully entered a creature it can leave the victim alive and aware. While inhabiting a creature it can use the Agony attack as an action any time it cares to. The tsochar can take no physical actions while inhabiting a host, but can use purely mental actions (such as communication by means of telepathy, and threatening to injure or kill the host unless the host does as the monster wishes). When the host takes damage (other than damage inflicted by the tsochar), the inhabiting tsochar takes half of that damage.",
 						"While inhabiting a creature, the tsochar feeds on its blood and tissues. At the end of a long rest the creature must roll a {@dice d20}. On a 1 the host loses 1 point of Constitution. This ability loss can only be recovered by using the Recuperating downtime activity which restores all lost Constitution after 3 days of rest. Frail hosts pushed too hard for too long will sicken and die, although tsochar are clever enough to direct their hosts to achieve proper rest if required."
 					]
 				},
