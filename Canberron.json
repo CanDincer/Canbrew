@@ -351,7 +351,7 @@
 					"name": "Final Messenger",
 					"entries":
 					[
-						"If Saber is disabled, destroyed, or rendered {@condition unconscious}, his final messenger flies off to a message station where a message will be relayed to the Lord of Blades. The fnal messenger is a delicate winged assembly that deploys from his chest and carries a vision of his last moments. It has armor class 20, 10 hit points, and a fly speed of 60 ft."
+						"If Saber is disabled, destroyed, or rendered {@condition unconscious}, his final messenger flies off to a message station where a message will be relayed to the Lord of Blades. The final messenger is a delicate winged assembly that deploys from his chest and carries a vision of his last moments. It has armor class 20, 10 hit points, and a fly speed of 60 ft."
 					]
 				}
 			],
@@ -372,7 +372,7 @@
 					]
 				},
 				{
-					"name": "Iron fists",
+					"name": "Iron Fists",
 					"entries":
 					[
 						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
@@ -506,7 +506,7 @@
 					"name": "Final Messenger",
 					"entries":
 					[
-						"If Cutter is disabled, destroyed, or rendered {@condition unconscious}, her final messenger flies off to warn Saber. The fnal messenger is a delicate winged assembly that deploys from Cutter's chest and carries a vision of her last moments to Saber. It has armor class 20, 10 hit points, and a fly speed of 60 ft."
+						"If Cutter is disabled, destroyed, or rendered {@condition unconscious}, her final messenger flies off to warn Saber. The final messenger is a delicate winged assembly that deploys from Cutter's chest and carries a vision of her last moments to Saber. It has armor class 20, 10 hit points, and a fly speed of 60 ft."
 					]
 				}
 			],
@@ -18159,7 +18159,7 @@
 					"name": "Dimension Grasp",
 					"entries":
 					[
-						"The blade targets one item it can see within 30 feet that weighs no more than 10 pounds. The item teleports to the blade's waiting hand. If the targetted item is being held or worn by a creature, the creature can make a {@dc 15} Charisma saving throw. On a success, the item is not teleported."
+						"The blade targets one item it can see within 30 feet that weighs no more than 10 pounds. The item teleports to the blade's waiting hand. If the targeted item is being held or worn by a creature, the creature can make a {@dc 15} Charisma saving throw. On a success, the item is not teleported."
 					]
 				},
 				{
