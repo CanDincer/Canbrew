@@ -2039,7 +2039,14 @@
 					"name": "Labyrinth Guardian",
 					"entries":
 					[
-						"Şol has {@variantrule Advantage|XPHB} on Initiative rolls and on Wisdom (Perception) checks made during combat."
+						"Şol has {@variantrule advantage|XPHB} on Initiative rolls and on Wisdom (Perception) checks made during combat."
+					]
+				},
+				{
+					"name": "Fiend Chaser",
+					"entries":
+					[
+						"Şol has {@variantrule advantage|XPHB} on saving throws against spells cast by Fiends and other magical effects caused by Fiends."
 					]
 				}
 			],
