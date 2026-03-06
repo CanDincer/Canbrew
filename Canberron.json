@@ -2034,6 +2034,13 @@
 					[
 						"Şol adds {@dice 1d6} to his saving throw rolls."
 					]
+				},
+				{
+					"name": "Labyrinth Guardian",
+					"entries":
+					[
+						"Şol has {@variantrule Advantage|XPHB} on Initiative rolls and on Wisdom (Perception) checks made during combat."
+					]
 				}
 			],
 			"action":
