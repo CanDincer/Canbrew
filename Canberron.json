@@ -11,13 +11,13 @@
 				[
 					"Can Dinçer"
 				],
-				"version": "2026.03.07.1",
+				"version": "2026.03.07.2",
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
 		"edition": "one",
 		"dateAdded": 1723470600,
-		"dateLastModified": 1772880424
+		"dateLastModified": 1772881134
 	},
 	"magicvariant":
 	[
@@ -14633,8 +14633,7 @@
 					"name": "Stolen Teeth and Iron Claws",
 					"entries":
 					[
-						"Sora Maenya's melee weapon attacks are magical and ignore damage resistances and immunities.",
-						
+						"Sora Maenya's melee weapon attacks are magical and ignore damage resistances and immunities."
 					]
 				}
 			],
