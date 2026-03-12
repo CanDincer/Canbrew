@@ -317,15 +317,7 @@
 					"name": "Vile Extraction",
 					"entries":
 					[
-						"A creature that takes psychic damage from the Mind Ripping property or the {@spell Mind Spike|XPHB} spell cast via this prism has its hit point maximum reduced by an amount equal to the psychic damage taken. This reduction lasts until the creature finishes a long rest. The creature dies if this effect reduces its hit point maximum to 0."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Intellect Erosion",
-					"entries":
-					[
-						"If a creature's hit point maximum is reduced by at least 20 points through this prism's effects, or if it fails the saving throw against the Mind Ripping property by 5 or more, its Intelligence score is reduced by {@dice 1d4}. The creature becomes a mindless husk (Intelligence score of 2) if this reduces its Intelligence to 0. This reduction lasts until restored by a {@spell Greater Restoration|XPHB} spell or similar magic."
+						"A creature that takes psychic damage from the Mind Ripping property has its Intelligence score reduced by 1. The creature dies if its Intelligence is reduced to 0. This reduction lasts until restored by a {@spell Greater Restoration|XPHB} spell or similar magic but the creature only regains 1 Intelligence score per casting."
 					]
 				}
 			],
