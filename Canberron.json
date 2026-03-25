@@ -24209,6 +24209,127 @@
 			[
 				"MA"
 			]
-    }
+    },
+		{
+			"name": "Örüntü",
+			"source": "Canberron",
+			"size":
+			[
+				"S"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"N"
+			],
+			"alignmentPrefix": "typically ",
+			"ac":
+			[
+				12
+			],
+			"hp":
+			{
+				"average": 27,
+				"formula": "6d6 + 6"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 13,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"passive": 10,
+			"immune":
+			[
+				"poison"
+			],
+			"conditionImmune":
+			[
+				"poisoned"
+			],
+			"languages":
+			[
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "1/4",
+			"trait":
+			[
+				{
+					"name": "Relative Density",
+					"entries":
+					[
+						"Örüntü can move through creatures as if they were {@quickref difficult terrain||3}."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Fractal Strike",
+					"entries":
+					[
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) force damage, or 6 ({@damage 2d4 + 1}) force damage if Örüntü is Medium or bigger."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Augment",
+					"entries":
+					[
+						"Örüntü's size increases by one category. While Örüntü is Medium or bigger, it makes Strength checks and Strength saving throws with advantage. Örüntü can become no larger than Huge via this bonus action."
+					]
+				},
+				{
+					"name": "Diminish",
+					"entries":
+					[
+						"Örüntü's size decreases by one category. While Örüntü is Tiny, it makes attack rolls, Dexterity checks, and Dexterity saving throws with advantage. Örüntü can become no smaller than 1 foot in height via this bonus action."
+					]
+				}
+			],
+			"familiar": true,
+			"languageTags":
+			[
+				"CS"
+			],
+			"damageTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MW"
+			],
+			"tokenHref":
+			{
+				"type": "external",
+				"url": "https://5e.candincer.keenetic.link/img/bestiary/tokens/SCC/Fractal%20Mascot.webp"
+			},
+			"fluff":
+			{
+				"entries":
+				[
+					"To an untrained eye, a fractal mascot looks like a creature made from facets of hard light. But arithmancers know that these fractals are actually living equations: artificial life forms created by extrapolating magic from the mathematical patterns in nature.",
+					"Because of their arithmetic basis, fractal mascots can alter both their size and density. Quandrix College has adopted the fractal as its mascot, and many a Quandrix student can be found playing fetch with a fractal companion in between lessons."
+				],
+				"images":
+				[
+					{
+						"type": "image",
+						"href":
+						{
+							"type": "external",
+							"url": "https://5e.candincer.keenetic.link/img/bestiary/SCC/Fractal%20Mascot.webp"
+						}
+					}
+				]
+			}
+		}
 	]
 }
