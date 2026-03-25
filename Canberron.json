@@ -11,13 +11,13 @@
 				[
 					"Can Dinçer"
 				],
-				"version": "2026.03.25.8",
+				"version": "2026.03.25.9",
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
 		"edition": "one",
 		"dateAdded": 1723470600,
-		"dateLastModified": 1774429206
+		"dateLastModified": 1774430434
 	},
 	"magicvariant":
 	[
@@ -22716,6 +22716,1449 @@
 			[
 				"MW"
 			]
-		}
+		},
+		{
+			"name": "Magebred Ox",
+			"source": "Canberron",
+			"size":
+			[
+				"L"
+			],
+			"type":
+			{
+				"type": "beast",
+				"tags":
+				[
+					"Cattle"
+				]
+			},
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				11
+			],
+			"hp":
+			{
+				"average": 28,
+				"formula": "4d10 + 8"
+			},
+			"speed":
+			{
+				"walk": 35
+			},
+			"str": 22,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"save":
+			{
+				"str": "+6",
+				"con": "+2"
+			},
+			"skill":
+			{
+				"athletics": "+8"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Beast of Burden",
+					"entries":
+					[
+						"The ox is considered to be one size larger for the purpose of determining its carrying capacity."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Gore",
+					"entries":
+					[
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage. If the ox moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 ({@damage 2d6}) piercing damage."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Beast of Burden"
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Jaela Daran",
+			"isNamedCreature": true,
+			"source": "Canberron",
+			"size":
+			[
+				"S"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"Cleric",
+					"Human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"G"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"{@item bracers of defense}",
+						"{@item ring of protection}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 13,
+			"wis": 20,
+			"cha": 20,
+			"save":
+			{
+				"str": "+0",
+				"dex": "+2",
+				"con": "+1",
+				"int": "+2",
+				"wis": "+8",
+				"cha": "+8"
+			},
+			"skill":
+			{
+				"medicine": "+7",
+				"persuasion": "+7",
+				"religion": "+3"
+			},
+			"passive": 15,
+			"conditionImmune":
+			[
+				"charmed",
+				"frightened"
+			],
+			"languages":
+			[
+				"Common",
+				"Celestial",
+				"Dwarven"
+			],
+			"cr": "1",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Jaela casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 15}; {@hit 7} to hit with spell attacks):"
+					],
+					"will":
+					[
+						"{@spell bless|XPHB}",
+						"{@spell command|XPHB}",
+						"{@spell cure wounds|XPHB} (5th level)",
+						"{@spell detect evil and good|XPHB}",
+						"{@spell guidance|XPHB}",
+						"{@spell light|XPHB}"
+						"{@spell protection from evil and good|XPHB}",
+						"{@spell spare the dying|XPHB}",
+						"{@spell thaumaturgy|XPHB}"
+					],
+					"daily":
+					{
+						"2e":
+						[
+							"{@spell bless|XPHB}",
+							"{@spell beacon of hope|XPHB}",
+							"{@spell command|XPHB}",
+							"{@spell crusader's mantle|XPHB}",
+							"{@spell daylight|XPHB}",
+							"{@spell death ward|XPHB}",
+							"{@spell dispel evil and good|XPHB}",
+							"{@spell greater restoration|XPHB}",
+							"{@spell guardian of faith|XPHB}",
+							"{@spell mass cure wounds|XPHB}",
+							"{@spell protection from evil and good|XPHB}"
+						],
+						"1e":
+						[
+							"{@spell banishment|XPHB}",
+							"{@spell calm emotions|XPHB}",
+							"{@spell heal|XPHB}",
+							"{@spell hold person|XPHB}",
+							"{@spell holy aura|XPHB}",
+							"{@spell mass cure wounds|XPHB}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Special Equipment",
+					"entries":
+					[
+						"Jaela wears {@item bracers of defense|XDMG} and {@item ring of protection|XDMG}.",
+						"The ring is special for its kind, allowing its wearer to cast {@spell word of recall|XPHB} once between each dawn, allowing Jaela to teleport back to her private chambers in the Cathedral of Flamekeep."
+					]
+				},
+				{
+					"name": "Divine Focus",
+					"entries":
+					[
+						"For each spell Jaela is concentrating on, a coautl appears on her shoulders up to 2. Jaela can concentrate on two spells at once. Additionally, while Jaela is {@status Concentration|XPHB|Concentrating} on one or more spells, her {@status Concentration|XPHB} can't be broken as a result of taking damage."
+					]
+				},
+			],
+			"action":
+			[
+				{
+					"name": "Holy Flame",
+					"entries":
+					[
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 60 ft., one target. {@h}9 ({@damage 1d8 + 5}) radiant damage and the target must succeed on a {@dc 15} Wisdom saving throw or be {@condition blinded} until the start of Jaela's next turn."
+					]
+				}
+			],
+			"languageTags":
+			[
+				"C"
+			],
+			"damageTags":
+			[
+				"R"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MA",
+				"RA"
+			],
+			"conditionInflict":
+			[
+				"blinded"
+			],
+			"conditionInflictSpell":
+			[
+				"paralyzed",
+				"prone"
+			],
+			"savingThrowForced":
+			[
+				"wisdom"
+			],
+			"savingThrowForcedSpell":
+			[
+				"charisma",
+				"wisdom"
+			]
+		},
+{
+			"name": "Skaravojen",
+			"isNamedCreature": true,
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "monstrosity",
+			"alignment":
+			[
+				"L",
+				"G"
+			],
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 126,
+				"formula": "12d8 + 72"
+			},
+			"speed":
+			{
+				"walk": 50
+			},
+			"str": 22,
+			"dex": 15,
+			"con": 23,
+			"int": 11,
+			"wis": 15,
+			"cha": 12,
+			"save":
+			{
+				"dex": "+7"
+			},
+			"skill":
+			{
+				"insight": "+7",
+				"perception": "+12"
+			},
+			"passive": 22,
+			"immune":
+			[
+				{
+					"immune":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"conditionImmune":
+			[
+				"charmed",
+				"frightened",
+				"paralyzed",
+				"stunned"
+			],
+			"languages":
+			[
+				"understands Common but can't speak"
+			],
+			"cr": "14",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Skaravojen casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:"
+					],
+					"will":
+					[
+						"{@spell detect evil and good|XPHB} (unlimited duration, does not require concentration)",
+						"{@spell see invisibility|XPHB}"
+					],
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Regeneration",
+					"entries":
+					[
+						"Skaravojen regains 10 hit points at the start of its turn if it has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Vengeful Tracker",
+					"entries":
+					[
+						"Skaravojen knows the distance to and direction of any creature that has slain a Keeper of the Flame that was serving as head of the Church of the Silver Flame at the time of their death, even if the creature and Skaravojen are on different planes of existence. If the creature being tracked by Skaravojen dies, Skaravojen knows."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Skaravojen makes three attacks: one with its gore and two with its claws."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries":
+					[
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}20 ({@damage 4d6 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries":
+					[
+						"{@atk mw} + {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries":
+					[
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Thunderous Roar {@recharge 5}",
+					"entries":
+					[
+						"Skaravojen roars, filling a 30-foot cone with deafening, thunderous noise. Each creature in the cone must make a {@dc 19} Constitution saving throw. On a failed saving throw, a creature takes 54 ({@damage 12d8}) thunder damage and is {@condition deafened} for 1 minute. On a successful save, a creature takes half as much damage, and is not {@condition deafened}. A creature {@condition deafened} by Skaravojen's roar can repeat the saving throw at the end of each of its turns, ending the condition on a success."
+					]
+				}
+			],
+			"legendary":
+			[
+				{
+					"name": "Detect",
+					"entries":
+					[
+						"Skaravojen makes a Wisdom ({@skill Perception|XPHB}) check."
+					]
+				},
+				{
+					"name": "Move",
+					"entries":
+					[
+						"Skaravojen moves up to half its speed."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries":
+					[
+						"Skaravojen makes a tail attack."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Regeneration"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"CS"
+			],
+			"damageTags":
+			[
+				"B",
+				"P",
+				"S",
+				"T"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict":
+			[
+				"deafened"
+			],
+			"savingThrowForced":
+			[
+				"constitution"
+			],
+			"fluff":
+			{
+				"images":
+				[
+					{
+						"type": "image",
+						"href":
+						{
+							"type": "external",
+							"url": "https://i.imgur.com/PwB2ABr.png"
+						}
+					}
+				]
+			}
+		},
+{
+			"name": "Silvereye Marauder",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 90,
+				"formula": "12d8 + 36"
+			},
+			"speed":
+			{
+				"walk": 50,
+				"climb": 30
+			},
+			"str": 19,
+			"dex": 20,
+			"con": 16,
+			"int": 4,
+			"wis": 11,
+			"cha": 11,
+			"save":
+			{
+				"dex": "+8"
+			},
+			"senses":
+			[
+				"darkvision 120 ft."
+			],
+			"passive": 10,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks made with weapons that aren't adamantine",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				"radiant"
+			],
+			"conditionImmune":
+			[
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages":
+			[
+				"understands Common but can't speak"
+			],
+			"cr": "6",
+			"trait":
+			[
+				{
+					"name": "Immutable Form",
+					"entries":
+					[
+						"The marauder is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The marauder has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries":
+					[
+						"The marauder's weapon attacks are magical."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The marauder makes one bite and two claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries":
+					[
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries":
+					[
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Breath of the Silver Flame {@recharge 5}",
+					"entries":
+					[
+						"The marauder exhales heatless silver flame in a 20-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 36 ({@damage 8d8}) radiant damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags":
+			[
+				"SD"
+			],
+			"actionTags":
+			[
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"CS"
+			],
+			"damageTags":
+			[
+				"P",
+				"R",
+				"S"
+			],
+			"miscTags":
+			[
+				"AOE",
+				"MW"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			]
+		},
+{
+			"name": "Argentum Agent",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "humanoid",
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"{@item leather armor|XPHB}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 16,
+			"wis": 15,
+			"cha": 13,
+			"save":
+			{
+				"dex": "+5",
+				"wis": "+4"
+			},
+			"skill":
+			{
+				"arcana": "+7",
+				"insight": "+4",
+				"investigation": "+7",
+				"perception": "+6",
+				"sleight of hand": "+5",
+				"stealth": "+5"
+			},
+			"passive": 16,
+			"languages":
+			[
+				"Common",
+				"Deep Speech",
+				"Infernal",
+				"Argent Sign"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Righteous Devotion",
+					"entries":
+					[
+						"The agent has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Survivor",
+					"entries":
+					[
+						"The agent regains 5 hit points at the start of its turn if it has at least 1 hit point but fewer hit points than half its hit point maximum."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The agent makes two sword cane attacks. If it draws the sword from inside the cane, it can make three sword cane attacks instead, so long as it wields the cane and sword in each hand."
+					]
+				},
+				{
+					"name": "Sword Cane",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage (wooded cane) or piercing damage (unsheathed sword)."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Cunning Action",
+					"entries":
+					[
+						"The agent takes the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Slayer's Eye (1/Turn)",
+					"entries":
+					[
+						"The agent adds 7 ({@dice 2d6}) to either its next attack roll or damage roll with a finesse weapon (such as its sword cane) until the end of its turn."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Uncanny Dodge",
+					"entries":
+					[
+						"The agent halves the damage that it takes from an attack that hits it. The agent must be able to see the attacker."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"hand crossbow|phb"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"DS",
+				"I"
+			],
+			"damageTags":
+			[
+				"B",
+				"P"
+			],
+			"miscTags":
+			[
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+{
+			"name": "Argentum Fist",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "humanoid",
+			"alignment":
+			[
+				"L",
+				"G"
+			],
+			"alignmentPrefix": "typically ",
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 60,
+				"formula": "11d8 + 11"
+			},
+			"speed":
+			{
+				"walk": 40
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 13,
+			"int": 11,
+			"wis": 16,
+			"cha": 18,
+			"save":
+			{
+				"str": "+2",
+				"dex": "+6",
+				"wis": "+5",
+				"cha": "+6"
+			},
+			"skill":
+			{
+				"acrobatics": "+6",
+				"athletics": "+2",
+				"insight": "+5"
+			},
+			"passive": 13,
+			"conditionImmune":
+			[
+				"charmed",
+				"frightened"
+			],
+			"languages":
+			[
+				"any one language (usually Common)"
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Divine Health",
+					"entries":
+					[
+						"The Argent Fist is immune to disease."
+					]
+				},
+				{
+					"name": "Holy Defense",
+					"entries":
+					[
+						"While the Argent Fist is wearing light, medium, or no armor, it's AC includes its Wisdom modifier."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The Argent Fist makes three unarmed strikes or three Argent Flame Bolt attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is a creature, the Argent Fist can choose one of the following additional effects:",
+						{
+							"type": "list",
+							"items":
+							[
+								"The target must succeed on a {@dc 13} Strength saving throw or drop one item it is holding (Argent Fist's choice).",
+								"The target must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition prone}.",
+								"The target must succeed on a {@dc 13} Constitution saving throw or be {@condition stunned} until the end of the Argent Fist's next turn."
+							]
+						}
+					]
+				},
+				{
+					"name": "Argent Flame Bolt",
+					"entries":
+					[
+						"{@atk rs} {@hit 6} to hit, range 30 ft., one target. {@h}8 ({@damage 1d8 + 4}) radiant damage."
+					]
+				},
+				{
+					"name": "Lay on Hands (25/Day)",
+					"entries":
+					[
+						"The Argent Fist touches a creature within 5 feet of it and restores up to 25 of the target's hit points. The Argent Fist can only restore a total of 25 hit points with this action per day. The Argent Fist can forego healing up to 5 hit points (reducing its daily amount) to instead cure a target of one disease or neutralize one poison affecting it."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Protector",
+					"entries":
+					[
+						"When a creature within 5 feet of the Argent Fist that it can see is attacked, the Argent Fist can impose disadvantage on that attack roll."
+					]
+				}
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"X"
+			],
+			"damageTags":
+			[
+				"B",
+				"R"
+			],
+			"miscTags":
+			[
+				"MW",
+				"RA"
+			],
+			"conditionInflict":
+			[
+				"prone",
+				"stunned"
+			],
+			"savingThrowForced":
+			[
+				"constitution",
+				"dexterity",
+				"strength"
+			]
+		},
+{
+			"name": "Magebred Pony",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				10
+			],
+			"hp":
+			{
+				"average": 16,
+				"formula": "3d8 + 4"
+			},
+			"speed":
+			{
+				"walk": 50
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 2,
+			"wis": 11,
+			"cha": 7,
+			"save":
+			{
+				"str": "+4"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1/4",
+			"trait":
+			[
+				{
+					"name": "Quick Reflexes",
+					"entries":
+					[
+						"The pony may add +2 to its own {@variantrule Initiative|XPHB} if it is not being mounted. Otherwise, it grants its rider the ability to add their {@variantrule Proficiency|XPHB} bonus to their {@variantrule Initiative|XPHB} roll."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Hooves",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target.{@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Cavallah",
+			"isNamedCreature": true,
+			"source": "",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "giant",
+				"tags": [
+					"oni"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|XPHB|plate}"
+					]
+				}
+			],
+			"hp": {
+				"average": 218,
+				"formula": "23d10 + 92"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 19,
+			"int": 19,
+			"wis": 16,
+			"cha": 20,
+			"save": {
+				"dex": "+5",
+				"con": "+9",
+				"wis": "+8",
+				"cha": "+10"
+			},
+			"skill": {
+				"arcana": "+14",
+				"athletics": "+10",
+				"deception": "+15",
+				"insight": "+8",
+				"intimidation": "+10",
+				"perception": "+8",
+				"persuasion": "+10"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 18,
+			"conditionImmune": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"Giant",
+				"Goblin"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Cavallah's innate spellcasting ability is Charisma (spell save {@dc 18}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell darkness|XPHB}",
+						"{@spell invisibility|XPHB}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell charm person|XPHB}",
+							"{@spell cone of cold|XPHB}",
+							"{@spell gaseous form|XPHB}",
+							"{@spell sleep|XPHB}",
+							"{@spell polymorph|XPHB}"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Cavallah is an 11th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). She has the following warlock spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell minor illusion|XPHB}",
+								"{@spell booming blade|TCE}",
+								"{@spell eldritch blast|XPHB}",
+								"{@spell mage hand|XPHB}"
+							]
+						},
+						"5": {
+							"lower": 1,
+							"slots": 3,
+							"spells": [
+								"{@spell blink|XPHB}",
+								"{@spell armor of agathys|XPHB}",
+								"{@spell dimension door|XPHB}",
+								"{@spell dominate beast|XPHB}",
+								"{@spell faerie fire|XPHB}",
+								"{@spell fear|XPHB}",
+								"{@spell hold monster|XPHB}",
+								"{@spell misty step|XPHB}",
+								"{@spell phantasmal force|XPHB}",
+								"{@spell seeming|XPHB}",
+								"{@spell hex|XPHB}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Cavallah's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Cavallah regains 10 hit points at the start of her turn if she has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Beguiling Defenses",
+					"entries": [
+						"Cavallah is immune to being {@condition charmed}, and when another creature attempts to charm her, she can use her reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against Cavallah's warlock spell save DC or be {@condition charmed} by her for 1 minute or until the creature takes any damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Cavallah makes two attacks, either with her claws or her glaive."
+					]
+				},
+				{
+					"name": "Claw (Oni Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage in Small or Medium form."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Misty Escape (Recharges after a Short or Long Rest)",
+					"entries": [
+						"In response to taking damage, Cavallah turns {@condition invisible} and teleports up to 60 ft. to an unoccupied space she can see. She remains {@condition invisible} until the start of her next turn or until she attacks, makes a damage roll or casts a spell."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Weapon Attack",
+					"entries": [
+						"Cavallah makes an attack with either her glaive or her claws."
+					]
+				},
+				{
+					"name": "Command Ally",
+					"entries": [
+						"Cavallah targets one ally she can see within 30 ft. of it. If the target can see and hear her, the target can make one weapon attack as a reaction and gains advantage on the attack roll."
+					]
+				},
+				{
+					"name": "Dislocate Creature (Costs 3 Actions)",
+					"entries": [
+						"Cavallah magically forces two creatures she can see within 120 ft. of her to switch places with one another. This movement counts as teleportation and does not provoke opportunity attacks."
+					]
+				}
+			],
+			"attachedItems": [
+				"glaive|phb"
+			],
+			"traitTags": [
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"C",
+				"GI",
+				"GO"
+			],
+			"damageTags": [
+				"S"
+			],
+			"damageTagsSpell": [
+				"C",
+				"N",
+				"O",
+				"T",
+				"Y"
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened",
+				"incapacitated",
+				"invisible",
+				"paralyzed",
+				"unconscious"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"wisdom"
+			]
+		},
+		{
+      "name": "Dragonhawk",
+      "source": "Canberron",
+      "size":
+      [
+        "L"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        {
+          "ac": 16,
+          "from":
+          [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 115,
+        "formula": "10d12 + 50"
+      },
+      "speed":
+      {
+        "walk": 10,
+        "fly": 120
+      },
+      "str": 22,
+      "dex": 12,
+      "con": 20,
+      "int": 2,
+      "wis": 14,
+      "cha": 6,
+      "skill":
+      {
+        "perception": "+5"
+      },
+      "passive": 15,
+      "senses":
+      [
+        "blindsight 60 ft."
+      ],
+      "cr": "6",
+      "trait":
+      [
+        {
+          "name": "Keen Sight",
+          "entries":
+          [
+            "The dragonhawk has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+          ]
+        },
+        {
+          "name": "Flyby",
+          "entries":
+          [
+            "A dragonhawk doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The dragonhawk makes three attacks: one with its beak, one with its claws, and one with its talons."
+          ]
+        },
+        {
+          "name": "Beak",
+          "entries":
+          [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
+          ]
+        },
+        {
+          "name": "Claws",
+          "entries":
+          [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d4 + 6}) piercing damage."
+          ]
+        },
+        {
+          "name": "Talons",
+          "entries":
+          [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage and the target is grappled (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the dragonhawk can't use its talon attack against another target."
+          ]
+        }
+      ],
+      "fluff":
+      {
+        "entries":
+        [
+          "The most iconic of Eberron's giant hawks is the Dragonhawk, which is well known across Khorvaire as the heraldic beast of Aundair. These enormous raptors have been known to carry off livestock as large as horses and cattle. Dragonhawks are even known to prey on humanoids, and though the ragtag clans of orcs and kobolds have more to fear, the Aundairians of less well protected villages may fear for the safety of their families.",
+          "Although dragonhawks are closely associated with Aundair, they build their nests across the north-west of Khorvaire, and especially in the mountainous regions of the Eldeen Reaches. In fact, the legendary First Aerie deep within the Eldeen Reaches is said to be home to some of the largest dragonhawks to take flight.",
+          {
+            "type": "entries",
+            "name": "Flying Mount",
+            "entries":
+            [
+              "With the support of House Vadalis, Aundairian handlers have been able to train dragonhawks to take riders. The most elite cavalrymen and women of Aundair ride dragonhawks into battle. At the Sky Battle of Daskaran, Aundairian dragonhawk riders famously fought the wyvern-riding knights of Thrane."
+            ]
+          }
+        ]
+      },
+			"traitTags":
+			[
+				"Flyby",
+				"Keen Senses"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+	    "damageTags":
+			[
+				"P",
+				"S"
+			],
+			"miscTags":
+			[
+				"MA"
+			]
+    }
 	]
 }
