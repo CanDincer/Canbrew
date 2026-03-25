@@ -11,13 +11,13 @@
 				[
 					"Can Dinçer"
 				],
-				"version": "2026.03.25.12",
+				"version": "2026.03.25.13",
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
 		"edition": "one",
 		"dateAdded": 1723470600,
-		"dateLastModified": 1774431435
+		"dateLastModified": 1774431523
 	},
 	"magicvariant":
 	[
@@ -23386,6 +23386,321 @@
 			"savingThrowForced":
 			[
 				"dexterity"
+			]
+		},
+		{
+			"name": "Argentum Agent",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "humanoid",
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"{@item leather armor|XPHB}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 16,
+			"wis": 15,
+			"cha": 13,
+			"save":
+			{
+				"dex": "+5",
+				"wis": "+4"
+			},
+			"skill":
+			{
+				"arcana": "+7",
+				"insight": "+4",
+				"investigation": "+7",
+				"perception": "+6",
+				"sleight of hand": "+5",
+				"stealth": "+5"
+			},
+			"passive": 16,
+			"languages":
+			[
+				"Common",
+				"Deep Speech",
+				"Infernal",
+				"Argent Sign"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Righteous Devotion",
+					"entries":
+					[
+						"The agent has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Survivor",
+					"entries":
+					[
+						"The agent regains 5 hit points at the start of its turn if it has at least 1 hit point but fewer hit points than half its hit point maximum."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The agent makes two sword cane attacks. If it draws the sword from inside the cane, it can make three sword cane attacks instead, so long as it wields the cane and sword in each hand."
+					]
+				},
+				{
+					"name": "Sword Cane",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage (wooded cane) or piercing damage (unsheathed sword)."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Cunning Action",
+					"entries":
+					[
+						"The agent takes the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Slayer's Eye (1/Turn)",
+					"entries":
+					[
+						"The agent adds 7 ({@dice 2d6}) to either its next attack roll or damage roll with a finesse weapon (such as its sword cane) until the end of its turn."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Uncanny Dodge",
+					"entries":
+					[
+						"The agent halves the damage that it takes from an attack that hits it. The agent must be able to see the attacker."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"hand crossbow|phb"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"DS",
+				"I"
+			],
+			"damageTags":
+			[
+				"B",
+				"P"
+			],
+			"miscTags":
+			[
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Argentum Fist",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "humanoid",
+			"alignment":
+			[
+				"L",
+				"G"
+			],
+			"alignmentPrefix": "typically ",
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 60,
+				"formula": "11d8 + 11"
+			},
+			"speed":
+			{
+				"walk": 40
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 13,
+			"int": 11,
+			"wis": 16,
+			"cha": 18,
+			"save":
+			{
+				"str": "+2",
+				"dex": "+6",
+				"wis": "+5",
+				"cha": "+6"
+			},
+			"skill":
+			{
+				"acrobatics": "+6",
+				"athletics": "+2",
+				"insight": "+5"
+			},
+			"passive": 13,
+			"conditionImmune":
+			[
+				"charmed",
+				"frightened"
+			],
+			"languages":
+			[
+				"any one language (usually Common)"
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Divine Health",
+					"entries":
+					[
+						"The Argent Fist is immune to disease."
+					]
+				},
+				{
+					"name": "Holy Defense",
+					"entries":
+					[
+						"While the Argent Fist is wearing light, medium, or no armor, it's AC includes its Wisdom modifier."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The Argent Fist makes three unarmed strikes or three Argent Flame Bolt attacks."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is a creature, the Argent Fist can choose one of the following additional effects:",
+						{
+							"type": "list",
+							"items":
+							[
+								"The target must succeed on a {@dc 13} Strength saving throw or drop one item it is holding (Argent Fist's choice).",
+								"The target must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition prone}.",
+								"The target must succeed on a {@dc 13} Constitution saving throw or be {@condition stunned} until the end of the Argent Fist's next turn."
+							]
+						}
+					]
+				},
+				{
+					"name": "Argent Flame Bolt",
+					"entries":
+					[
+						"{@atk rs} {@hit 6} to hit, range 30 ft., one target. {@h}8 ({@damage 1d8 + 4}) radiant damage."
+					]
+				},
+				{
+					"name": "Lay on Hands (25/Day)",
+					"entries":
+					[
+						"The Argent Fist touches a creature within 5 feet of it and restores up to 25 of the target's hit points. The Argent Fist can only restore a total of 25 hit points with this action per day. The Argent Fist can forego healing up to 5 hit points (reducing its daily amount) to instead cure a target of one disease or neutralize one poison affecting it."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Protector",
+					"entries":
+					[
+						"When a creature within 5 feet of the Argent Fist that it can see is attacked, the Argent Fist can impose disadvantage on that attack roll."
+					]
+				}
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"X"
+			],
+			"damageTags":
+			[
+				"B",
+				"R"
+			],
+			"miscTags":
+			[
+				"MW",
+				"RA"
+			],
+			"conditionInflict":
+			[
+				"prone",
+				"stunned"
+			],
+			"savingThrowForced":
+			[
+				"constitution",
+				"dexterity",
+				"strength"
 			]
 		}
 	]
