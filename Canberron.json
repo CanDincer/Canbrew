@@ -17,7 +17,7 @@
 		],
 		"edition": "one",
 		"dateAdded": 1723470600,
-		"dateLastModified": 1774428850
+		"dateLastModified": 1774429056
 	},
 	"magicvariant":
 	[
@@ -18955,6 +18955,2910 @@
 			[
 				"MLW",
 				"MW"
+			]
+		},
+		{
+			"name": "Nöbet Subayı",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human",
+					"paladin"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"N"
+			],
+			"alignmentPrefix": "typically ",
+			"ac":
+			[
+				{
+					"ac": 22,
+					"from":
+					[
+						"{@item plate armor|XPHB|plate}",
+						"{@item shield|XPHB}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 110,
+				"formula": "17d8 + 34"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 14,
+			"int": 11,
+			"wis": 12,
+			"cha": 16,
+			"save":
+			{
+				"str": "+6",
+				"dex": "+3",
+				"con": "+5",
+				"int": "+3",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill":
+			{
+				"athletics": "+6",
+				"insight": "+7",
+				"perception": "+7",
+				"persuasion": "+6"
+			},
+			"passive": 17,
+			"languages":
+			[
+				"Common"
+			],
+			"cr": "6",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"The Sentinel Marshal casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+					],
+					"will":
+					[
+						"{@spell command|XPHB}",
+						"{@spell warding bond|XPHB}"
+					],
+					"daily":
+					{
+						"2e":
+						[
+							"{@spell hunter's mark|XPHB}",
+							"{@spell hold person|XPHB}",
+							"{@spell locate object|XPHB}",
+							"{@spell zone of truth|XPHB}"
+						],
+						"1e":
+						[
+							"{@spell haste|XPHB}",
+							"{@spell spirit guardians|XPHB}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Aura of Protection",
+					"entries":
+					[
+						"The Sentinel Marshal and all allies within 10 feet of it gain a bonus to all saving throws equal to the Sentinel Marshal's Charisma modifier (already included in the Sentinel Marshal's saving throws). The aura exists as long as the Sentinel Marshal is conscious."
+					]
+				},
+				{
+					"name": "Faith's Shield",
+					"entries":
+					[
+						"The Sentinel Marshal's AC includes a magical +2 bonus."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The Sentinel Marshal makes two attacks with its longsword."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Vigilant Guardian (Recharges after a Short or Long Rest)",
+					"entries":
+					[
+						"When a creature within 5 feet of the Sentinel Marshal that it can see is hit by an attack, the Sentinel Marshal can swap places with that creature, and be hit by the attack instead"
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"longsword|phb"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C"
+			],
+			"damageTags":
+			[
+				"S"
+			],
+			"damageTagsSpell":
+			[
+				"N",
+				"O",
+				"R"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW"
+			],
+			"conditionInflictSpell":
+			[
+				"incapacitated",
+				"paralyzed",
+				"prone"
+			],
+			"savingThrowForcedSpell":
+			[
+				"charisma",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Gümüş Anahtar",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"dwarf"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"N"
+			],
+			"alignmentPrefix": "typically ",
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"{@item studded leather armor|XPHB|studded leather}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 44,
+				"formula": "8d8 + 8"
+			},
+			"speed":
+			{
+				"walk": 25
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 12,
+			"int": 16,
+			"wis": 11,
+			"cha": 10,
+			"save":
+			{
+				"dex": "+5",
+				"int": "+5"
+			},
+			"skill":
+			{
+				"acrobatics": "+5",
+				"athletics": "+4",
+				"perception": "+2",
+				"stealth": "+7"
+			},
+			"senses":
+			[
+				"darkvision 60 ft"
+			],
+			"passive": 12,
+			"resist":
+			[
+				"poison",
+				{
+					"special": "damage dealt by traps"
+				}
+			],
+			"languages":
+			[
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Dwarven Resilience",
+					"entries":
+					[
+						"The Silver Key has advantage on saving throws against poison."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries":
+					[
+						"If the Silver Key is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the Silver Key instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Vault Delver",
+					"entries":
+					[
+						"The Silver Key has advantage on ability checks made to detect secret doors and open or disable locks, and on saving throws against traps."
+					]
+				},
+				{
+					"name": "Ward Breaker",
+					"entries":
+					[
+						"The first time the Silver Key would activate, trigger, or have its movement or actions restricted by an abjuration spell, it may make an Intelligence ability check with advantage against a DC equal to the spell save DC of the spell's caster. If the Silver Key's check is successful, it is immune to that casting of the spell, bypassing all of its effects without triggering, activating, or being restricted by it."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The Silver Key makes two attacks with its battleaxe."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands."
+					]
+				},
+				{
+					"name": "Light Hammer",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Cunning Action",
+					"entries":
+					[
+						"The Silver Key takes the Dash, Disengage, or Hide action."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Uncanny Dodge",
+					"entries":
+					[
+						"The Silver Key halves the damage that it takes from an attack that hits it. The Silver Key must be able to see the attacker"
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"battleaxe|phb",
+				"light hammer|phb"
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"D"
+			],
+			"damageTags":
+			[
+				"B",
+				"S"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Fırtına Gardiyanı",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"half-elf"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"{@item studded leather armor|XPHB|studded leather}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 91,
+				"formula": "14d8 + 24"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 15,
+			"int": 11,
+			"wis": 12,
+			"cha": 16,
+			"save":
+			{
+				"dex": "+6",
+				"con": "+5"
+			},
+			"skill":
+			{
+				"acrobatics": "+9",
+				"athletics": "+3",
+				"intimidation": "+6"
+			},
+			"senses":
+			[
+				"darkvision 60 ft"
+			],
+			"passive": 11,
+			"resist":
+			[
+				"cold",
+				"lightning",
+				"thunder"
+			],
+			"languages":
+			[
+				"Common",
+				"Elvish"
+			],
+			"cr": "8",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"The warden casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+					],
+					"will":
+					[
+						"{@spell gust|XGE}"
+					],
+					"daily":
+					{
+						"3":
+						[
+							"{@spell gust of wind|XPHB}"
+						],
+						"1e":
+						[
+							"{@spell call lightning|XPHB}",
+							"{@spell lightning bolt|XPHB}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Fey Ancestry",
+					"entries":
+					[
+						"The warden has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				},
+				{
+					"name": "Windfall",
+					"entries":
+					[
+						"The warden does not take damage from falling."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warden makes two attacks with its rapier or dagger, then uses Storm Fist if available."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage and 7 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage and 9 ({@damage 2d8}) thunder damage, and the impact can be heard up to 300 feet away."
+					]
+				},
+				{
+					"name": "Storm Fist {@recharge 5}",
+					"entries":
+					[
+						"The warden sends a short magical burst of hurricane-force winds at one creature it can see within 60 feet. The target must make a {@dc 14} Strength saving throw. On a failure, the target takes 21 ({@damage 6d6}) bludgeoning damage and is pushed 15 feet away from the warden, then falls {@condition prone}. On a success, the target takes half damage and is not pushed or knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Warding Gale (3/Day)",
+					"entries":
+					[
+						"When the warden is hit by an attack roll, it can force the attacker the reroll the attack roll with disadvantage. If the warden does, all attacks made against it have disadvantage until the start of its next turn."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"dagger|phb",
+				"rapier|phb"
+			],
+			"traitTags":
+			[
+				"Fey Ancestry"
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"E"
+			],
+			"damageTags":
+			[
+				"B",
+				"L",
+				"P",
+				"T"
+			],
+			"damageTagsSpell":
+			[
+				"L"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict":
+			[
+				"prone"
+			],
+			"savingThrowForced":
+			[
+				"strength"
+			],
+			"savingThrowForcedSpell":
+			[
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "Gölge Sazende/Hanende",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"bard",
+					"elf"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"{@item studded leather armor|XPHB|studded leather}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 110,
+				"formula": "20d8 + 20"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 19,
+			"save":
+			{
+				"dex": "+7",
+				"int": "+3",
+				"cha": "+7"
+			},
+			"skill":
+			{
+				"acrobatics": "+7",
+				"deception": "+10",
+				"performance": "+10",
+				"stealth": "+10"
+			},
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages":
+			[
+				"Common",
+				"Elvish"
+			],
+			"cr": "8",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"The entertainer casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 15}):"
+					],
+					"will":
+					[
+						"{@spell dancing lights|XPHB}",
+						"{@spell disguise self|XPHB}",
+						"{@spell minor illusion|XPHB}",
+						"{@spell prestidigitation|XPHB}",
+						"{@spell vicious mockery|XPHB} (5th level)"
+					],
+					"daily":
+					{
+						"3e":
+						[
+							"{@spell bane|XPHB}",
+							"{@spell charm person|XPHB}",
+							"{@spell darkness|XPHB}",
+							"{@spell healing word|XPHB}",
+							"{@spell invisibility|XPHB}",
+							"{@spell pass without trace|XPHB}"
+						],
+						"2e":
+						[
+							"{@spell calm emotions|XPHB}",
+							"{@spell hold person|XPHB}",
+							"{@spell silence|XPHB}",
+							"{@spell suggestion|XPHB}"
+						],
+						"1e":
+						[
+							"{@spell dimension door|XPHB}",
+							"{@spell fear|XPHB}",
+							"{@spell greater invisibility|XPHB}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Fey Ancestry",
+					"entries":
+					[
+						"The entertainer has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The entertainer uses its trick instrument to make three of the following attacks in any combination: a melee attack with a retractable blade, or a ranged attack fired from a hidden compartment."
+					]
+				},
+				{
+					"name": "Trick Instrument",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 100/250 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Shadow Jump",
+					"entries":
+					[
+						"The entertainer can teleport while in dim light or darkness up to 30 feet to an unoccupied space that is also in dim light or darkness."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Fey Ancestry"
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"E"
+			],
+			"damageTags":
+			[
+				"I",
+				"P"
+			],
+			"damageTagsSpell":
+			[
+				"O",
+				"Y"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MW",
+				"RW"
+			],
+			"conditionInflictSpell":
+			[
+				"charmed",
+				"deafened",
+				"frightened",
+				"invisible",
+				"paralyzed"
+			],
+			"savingThrowForcedSpell":
+			[
+				"charisma",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Tharashk Ödül Avcısı",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"half-orc or human",
+					"ranger"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 17,
+					"from":
+					[
+						"{@item half plate armor|XPHB|half plate}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 58,
+				"formula": "9d8 + 18"
+			},
+			"speed":
+			{
+				"walk": 35
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 15,
+			"int": 10,
+			"wis": 16,
+			"cha": 8,
+			"skill":
+			{
+				"athletics": "+7",
+				"perception": "+7",
+				"survival": "+7"
+			},
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"languages":
+			[
+				"Common",
+				"Goblin"
+			],
+			"cr": "3",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"The bounty hunter casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 13}):"
+					],
+					"daily":
+					{
+						"3e":
+						[
+							"{@spell faerie fire|XPHB}",
+							"{@spell locate object|XPHB}",
+							"{@spell hunter's mark|XPHB} (5th-level)"
+						],
+						"2e":
+						[
+							"{@spell divination|XPHB}",
+							"{@spell locate creature|XPHB}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The bounty hunter makes two battleaxe attacks then uses Take Down. If it has a club drawn, the bounty hunter can't use Take Down, but can make a club attack."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+					]
+				},
+				{
+					"name": "Club",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Take Down",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}the target is {@condition grappled} if it is a Large or smaller creature (escape {@dc 17}). If the target is a humanoid, it is also knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Collar",
+					"entries":
+					[
+						"The bounty hunter places manacles on a {@condition prone} humanoid it is grappling. A manacled target is {@condition restrained} and can only make weapon attacks with light weapons and unarmed strikes. The target can use its action to attempt to break the manacles with a {@dc 25} Strength check or escape them with a {@dc 25} Dexterity check."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"battleaxe|phb",
+				"club|phb"
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"GO"
+			],
+			"damageTags":
+			[
+				"B",
+				"S"
+			],
+			"damageTagsSpell":
+			[
+				"O"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW"
+			],
+			"conditionInflict":
+			[
+				"grappled",
+				"restrained"
+			],
+			"savingThrowForcedSpell":
+			[
+				"dexterity"
+			]
+		},
+		{
+			"name": "Mühürsüz Parşömen",
+			"source": "Canbrew",
+			"size":
+			[
+				"S"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"gnome",
+					"wizard"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				12,
+				{
+					"ac": 15,
+					"condition": "with mage armor",
+					"braces": true
+				}
+			],
+			"hp":
+			{
+				"average": 45,
+				"formula": "10d6 + 10"
+			},
+			"speed":
+			{
+				"walk": 25
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 13,
+			"int": 19,
+			"wis": 12,
+			"cha": 12,
+			"save":
+			{
+				"int": "+7",
+				"wis": "+4",
+				"cha": "+4"
+			},
+			"skill":
+			{
+				"arcana": "+10",
+				"history": "+10"
+			},
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages":
+			[
+				"Common and Gnomish",
+				"plus any three other languages"
+			],
+			"cr": "7",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"The unbound scroll casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+					],
+					"will":
+					[
+						"{@spell comprehend languages|XPHB}",
+						"{@spell illusory script|XPHB} (as an action)",
+						"{@spell mage hand|XPHB}",
+						"{@spell message|XPHB}",
+						"{@spell minor illusion|XPHB}"
+					],
+					"daily":
+					{
+						"3e":
+						[
+							"{@spell magic missile|XPHB}",
+							"{@spell mage armor|XPHB}",
+							"{@spell tasha's hideous laughter|XPHB}",
+							"{@spell shield|XPHB}"
+						],
+						"2e":
+						[
+							"{@spell magic mouth|XPHB} (as an action)",
+							"{@spell sending|XPHB}",
+							"{@spell silence|XPHB}",
+							"{@spell suggestion|XPHB}",
+							"{@spell tongues|XPHB}"
+						],
+						"1e":
+						[
+							"{@spell confusion|XPHB}",
+							"{@spell dream|XPHB} (as an action)",
+							"{@spell modify memory|XPHB}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action"
+				},
+				{
+					"name": "Master of the Unbound Glyph (3/Day)",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"The unbound scroll casts {@spell glyph of warding|XPHB} as an action, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}). The effects of the spell gain several additional benefits, as follows:",
+						{
+							"type": "list",
+							"items":
+							[
+								"The glyph can be inscribed as a 5-foot wide, visible, glowing illusion in midair, in any space the unbound scroll can see within 100 feet.",
+								"The glyph can be triggered immediately.",
+								"Explosive Runes damage increases to 36 ({@dice 7d8}).",
+								"The unbound scroll can designate any number of creatures it can see to be immune to that casting of the spell."
+							]
+						}
+					],
+					"daily":
+					{
+						"3":
+						[
+							"{@spell glyph of warding|XPHB}"
+						]
+					},
+					"ability": "int",
+					"displayAs": "action",
+					"hidden":
+					[
+						"daily"
+					]
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Gnome Cunning",
+					"entries":
+					[
+						"The unbound scroll has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Arcane Burst",
+					"entries":
+					[
+						"{@atk ms,rs} {@hit 7} to hit, reach 5 ft. or range 120 ft., one target. {@h}15 ({@damage 2d10 + 4}) force damage."
+					]
+				}
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"languageTags":
+			[
+				"C",
+				"G"
+			],
+			"damageTags":
+			[
+				"O"
+			],
+			"damageTagsSpell":
+			[
+				"A",
+				"C",
+				"F",
+				"L",
+				"O",
+				"T",
+				"Y"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MA",
+				"RA"
+			],
+			"conditionInflictSpell":
+			[
+				"charmed",
+				"deafened",
+				"incapacitated",
+				"prone"
+			],
+			"savingThrowForcedSpell":
+			[
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Vadalis Hayvanlara Fısıldayan",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"{@item studded leather armor|XPHB|studded leather}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 44,
+				"formula": "8d8 + 8"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 13,
+			"int": 12,
+			"wis": 16,
+			"cha": 11,
+			"save":
+			{
+				"con": "+3",
+				"wis": "+5"
+			},
+			"skill":
+			{
+				"animal handling": "+7",
+				"nature": "+5",
+				"survival": "+5"
+			},
+			"passive": 13,
+			"languages":
+			[
+				"Common"
+			],
+			"cr": "3",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"The beastspeaker casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save {@dc 13}). When it does so it may target a monstrosity with an Intelligence score of 3 or lower:"
+					],
+					"daily":
+					{
+						"2":
+						[
+							"{@spell dominate beast|XPHB}"
+						],
+						"3e":
+						[
+							"{@spell animal friendship|XPHB}",
+							"{@spell beast sense|XPHB}",
+							"{@spell speak with animals|XPHB}"
+						]
+					},
+					"ability": "wis",
+					"displayAs": "action"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Primal Companion",
+					"entries":
+					[
+						"The beastspeaker is bonded to a companion: a beast or monstrosity with an Intelligence score of 7 or lower that has a challenge rating of 3, and which does not use manufactured weapons to make attacks. The companion shares the beastspeaker's alignment, is immune to being {@condition charmed} or {@condition frightened}, understands one language the beastspeaker does (although it does not gain the ability to speak if it is not naturally capable of doing so), and has advantage on attack rolls against all creatures within 15 feet of the beastspeaker."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Scimitar",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Urge Companion",
+					"entries":
+					[
+						"If the beastspeaker is within 15 feet of its companion, the beastspeaker can expend a use of a spell it has remaining that day. When it does, the beastspeaker does not cast the spell. Instead, the companion uses any action listed in its stat block\u2014including the Multiattack action if it has it\u2014as a reaction."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"scimitar|phb"
+			],
+			"languageTags":
+			[
+				"C"
+			],
+			"damageTags":
+			[
+				"S"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW"
+			],
+			"conditionInflictSpell":
+			[
+				"charmed"
+			],
+			"savingThrowForcedSpell":
+			[
+				"wisdom"
+			]
+		},
+		{
+			"name": "Kara Yafta Ulak",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"{@item studded leather armor|XPHB|studded leather}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 97,
+				"formula": "15d8 + 30"
+			},
+			"speed":
+			{
+				"walk": 35
+			},
+			"str": 10,
+			"dex": 19,
+			"con": 14,
+			"int": 10,
+			"wis": 14,
+			"cha": 12,
+			"save":
+			{
+				"dex": "+7",
+				"con": "+5",
+				"wis": "+5"
+			},
+			"skill":
+			{
+				"acrobatics": "+10",
+				"athletics": "+3",
+				"perception": "+5",
+				"survival": "+5"
+			},
+			"passive": 15,
+			"languages":
+			[
+				"Common plus any two other languages"
+			],
+			"cr": "5",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"The courier casts one of the following spells, requiring no spell components and using Dexterity as the spellcasting ability:"
+					],
+					"daily":
+					{
+						"1":
+						[
+							"{@spell dimension door|XPHB}"
+						],
+						"3e":
+						[
+							"{@spell jump|XPHB}",
+							"{@spell pass without trace|XPHB}"
+						]
+					},
+					"ability": "dex",
+					"displayAs": "action"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Determined Stride",
+					"entries":
+					[
+						"When the courier teleports any distance or takes the Dash action, difficult terrain doesn't cost it extra movement until the end of its turn."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries":
+					[
+						"If the courier is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The courier makes two attacks with its rapier."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries":
+					[
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Dimension Step (2nd-Level Spell; 3/Day)",
+					"entries":
+					[
+						"The courier and all equipment it is wearing or carrying teleports to an unoccupied space it can see within 30 feet of it."
+					]
+				},
+				{
+					"name": "Lightfooted",
+					"entries":
+					[
+						"The courier takes the Dash or Disengage action."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Impossible Dodge",
+					"entries":
+					[
+						"When the courier is hit by an attack it can see, it can expend one use of a spell it has left that day. If it does so, the spell is not cast, but the attack misses as the courier instantly teleports out of and immediately back into its space."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"rapier|phb"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"X"
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"damageTagsSpell":
+			[
+				"O"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW"
+			]
+		},
+		{
+			"name": "Emerald Claw Soldier",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"E"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"{@item scale mail|XPHB}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 11,
+			"con": 12,
+			"int": 9,
+			"wis": 10,
+			"cha": 8,
+			"skill":
+			{
+				"athletics": "+3",
+				"intimidation": "+1",
+				"religion": "+1"
+			},
+			"passive": 10,
+			"languages":
+			[
+				"Common"
+			],
+			"cr": "1/4",
+			"action":
+			[
+				{
+					"name": "Flail",
+					"entries":
+					[
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 2} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"flail|phb",
+				"light crossbow|phb"
+			],
+			"languageTags":
+			[
+				"C"
+			],
+			"damageTags":
+			[
+				"B",
+				"P"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Keltis Doran",
+			"isNamedCreature": true,
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"E"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"{@item half plate armor|XPHB|half plate}",
+						"{@item shield|XPHB}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 28,
+				"formula": "5d8 + 5"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 8,
+			"con": 13,
+			"int": 10,
+			"wis": 15,
+			"cha": 12,
+			"skill":
+			{
+				"intimidation": "+3",
+				"medicine": "+4",
+				"persuasion": "+3",
+				"religion": "+2"
+			},
+			"passive": 12,
+			"languages":
+			[
+				"Common"
+			],
+			"cr": "1",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Keltis is a 2nd-level spellcaster. His spellcastingability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following cleric spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell guidance|XPHB}",
+								"{@spell spare the dying|XPHB}",
+								"{@spell thaumaturgy|XPHB}",
+								"{@spell toll the dead|XPHB}"
+							]
+						},
+						"1":
+						{
+							"spells":
+							[
+								"{@spell bane|XPHB}",
+								"{@spell cure wounds|XPHB}",
+								"{@spell detect magic|XPHB}",
+								"{@spell inflict wounds|XPHB}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Reaper",
+					"entries":
+					[
+						"When Keltis casts {@spell toll the dead|XPHB}, he can target two creatures in range who are within 5 feet of each other."
+					]
+				},
+				{
+					"name": "Touch of Death (1/Short or Long Rest)",
+					"entries":
+					[
+						"When Keltis hits with a melee attack, he can deal an additional 9 necrotic damage to his target."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Morningstar",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"dagger|phb",
+				"morningstar|phb"
+			],
+			"languageTags":
+			[
+				"C"
+			],
+			"damageTags":
+			[
+				"N",
+				"P"
+			],
+			"damageTagsSpell":
+			[
+				"N"
+			],
+			"spellcastingTags":
+			[
+				"CC"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell":
+			[
+				"charisma",
+				"constitution",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Mallora",
+			"isNamedCreature": true,
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"E"
+			],
+			"ac":
+			[
+				12,
+				{
+					"ac": 15,
+					"condition": "with mage armor",
+					"braces": true
+				}
+			],
+			"hp":
+			{
+				"average": 28,
+				"formula": "5d8 + 5"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 13,
+			"int": 15,
+			"wis": 10,
+			"cha": 12,
+			"skill":
+			{
+				"arcana": "+4",
+				"deception": "+3",
+				"investigation": "+4",
+				"medicine": "+4"
+			},
+			"passive": 10,
+			"languages":
+			[
+				"Common",
+				"Draconic",
+				"Elven"
+			],
+			"cr": "1",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Mallora is a 2nd-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). She has the following wizard spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell chill touch|XPHB} (+1 damage due to arcane focus)",
+								"{@spell dancing lights|XPHB}",
+								"{@spell mage hand|XPHB}"
+							]
+						},
+						"1":
+						{
+							"spells":
+							[
+								"{@spell detect magic|XPHB}",
+								"{@spell mage armor|XPHB}",
+								"{@spell silent image|XPHB}",
+								"{@spell tasha's hideous laughter|XPHB}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Wand of Magic Missiles (5 charges)",
+					"entries":
+					[
+						"Mallora can cast {@spell magic missile|XPHB} using her wand. Casting magic missile costs one charge per level the spell is cast at."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"dagger|phb"
+			],
+			"languageTags":
+			[
+				"C",
+				"DR"
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"damageTagsSpell":
+			[
+				"N"
+			],
+			"spellcastingTags":
+			[
+				"CW"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflictSpell":
+			[
+				"incapacitated",
+				"prone"
+			],
+			"savingThrowForcedSpell":
+			[
+				"wisdom"
+			]
+		},
+		{
+			"name": "Vulture Zombie",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "undead",
+			"alignment":
+			[
+				"N",
+				"E"
+			],
+			"ac":
+			[
+				8
+			],
+			"hp":
+			{
+				"average": 22,
+				"formula": "3d8 + 9"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 6,
+			"con": 16,
+			"int": 2,
+			"wis": 6,
+			"cha": 5,
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"immune":
+			[
+				"poison"
+			],
+			"conditionImmune":
+			[
+				"poisoned"
+			],
+			"cr": "1/4",
+			"trait":
+			[
+				{
+					"name": "Pack Tactics",
+					"entries":
+					[
+						"The zombie has advantage on an attack roll against a creature if at least one of the zombie's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries":
+					[
+						"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant damage or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Beak:",
+					"entries":
+					[
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Pack Tactics",
+				"Undead Fortitude"
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Emerald Claw Skeleton",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "undead",
+			"alignment":
+			[
+				"L",
+				"E"
+			],
+			"ac":
+			[
+				{
+					"ac": 13,
+					"from":
+					[
+						"{@item leather armor|XPHB|leather}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 13,
+				"formula": "2d8 + 4"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"immune":
+			[
+				"poison"
+			],
+			"vulnerable":
+			[
+				"bludgeoning"
+			],
+			"conditionImmune":
+			[
+				"exhaustion",
+				"poisoned"
+			],
+			"languages":
+			[
+				"understands Common"
+			],
+			"cr": "1/4",
+			"action":
+			[
+				{
+					"name": "Scythe",
+					"entries":
+					[
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 2d4}) slashing damage."
+					]
+				}
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"languageTags":
+			[
+				"C"
+			],
+			"damageTags":
+			[
+				"S"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Bal Molesh",
+			"isNamedCreature": true,
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"tiefling",
+					"warlock"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"E"
+			],
+			"ac":
+			[
+				13,
+				{
+					"ac": 16,
+					"condition": "with mage armor",
+					"braces": true
+				}
+			],
+			"hp":
+			{
+				"average": 110,
+				"formula": "17d8 + 34"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 15,
+			"int": 17,
+			"wis": 14,
+			"cha": 20,
+			"save":
+			{
+				"dex": "+8",
+				"int": "+8",
+				"wis": "+7",
+				"cha": "+10"
+			},
+			"skill":
+			{
+				"deception": "+15",
+				"insight": "+7",
+				"persuasion": "+15"
+			},
+			"senses":
+			[
+				"truesight 60 ft."
+			],
+			"passive": 12,
+			"resist":
+			[
+				"fire",
+				"poison"
+			],
+			"languages":
+			[
+				"Common",
+				"Goblin",
+				"Infernal"
+			],
+			"cr": "13",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Bal casts one of the following spells, using Charisma as thespellcasting ability (spell save {@dc 18}; {@hit 10} to hit with spell attacks):"
+					],
+					"will":
+					[
+						"{@spell eldritch blast|XPHB} (17th level)",
+						"{@spell mage armor|XPHB} (self only)",
+						"{@spell minor illusion|XPHB}"
+					],
+					"daily":
+					{
+						"3e":
+						[
+							"{@spell darkness|XPHB}",
+							"{@spell dimension door|XPHB}",
+							"{@spell dominate person|XPHB}",
+							"{@spell fear|XPHB}",
+							"{@spell scrying|XPHB}",
+							"{@spell vampiric touch|XPHB} (5th level)"
+						],
+						"1e":
+						[
+							"{@spell bestow curse|XPHB}",
+							"{@spell dominate monster|XPHB}",
+							"{@spell flame strike|XPHB}",
+							"{@spell mass suggestion|XPHB}",
+							"{@spell power word kill|XPHB}",
+							"{@spell power word pain|XGE}",
+							"{@spell wall of fire|XPHB}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries":
+					[
+						"If Bal fails a saving throw, she can chooseto succeed instead."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Rapier",
+					"entries":
+					[
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7({@dice 1d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Eldritch Blast (Cantrip)",
+					"entries":
+					[
+						"Bal makes four of the following attacks: Ranged {@variantrule Spell Attack|XPHB}: {@hit 10} to hit, range 300 ft., one target. {@h}10 ({@dice 1d10 + 5})force damage."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Hellish Rebuke (1st-Level Spell)",
+					"entries":
+					[
+						"Bal points her finger at one creaturewithin 60 feet of her that just dealt damage to her. The creature mustmake a {@dc 18} Dexterity saving throw, taking 11 ({@damage 2d10}) fire damage ona failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"legendary":
+			[
+				{
+					"name": "Attack",
+					"entries":
+					[
+						"Bal makes one weapon attack."
+					]
+				},
+				{
+					"name": "Teleport",
+					"entries":
+					[
+						"Bal teleports to an unoccupied space up to 30 feet away."
+					]
+				},
+				{
+					"name": "Dark Magic (Costs 2 Actions)",
+					"entries":
+					[
+						"Bal uses Spellcasting."
+					]
+				},
+				{
+					"name": "Hurl Through Khyber (Costs 2 Actions)",
+					"entries":
+					[
+						"One creature Bal can see within 60 feet of her must make a {@dc 18} Charisma saving throw. On a failure,the creature disappears. At the end of Bal's next turn, a disappearedcreature returns to the space it previously occupied, or the nearestunoccupied space. If the creature was not a fiend or aberration, it takes 66 ({@damage 12d10}) psychic damage from the experience."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"rapier|phb"
+			],
+			"traitTags":
+			[
+				"Legendary Resistances"
+			],
+			"senseTags":
+			[
+				"U"
+			],
+			"languageTags":
+			[
+				"C",
+				"GO",
+				"I"
+			],
+			"damageTags":
+			[
+				"F",
+				"Y"
+			],
+			"damageTagsSpell":
+			[
+				"F",
+				"N",
+				"O",
+				"R",
+				"Y"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW"
+			],
+			"conditionInflictSpell":
+			[
+				"charmed",
+				"frightened"
+			],
+			"savingThrowForced":
+			[
+				"charisma",
+				"dexterity"
+			],
+			"savingThrowForcedSpell":
+			[
+				"constitution",
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Tsochar",
+			"source": "Canberron",
+			"size":
+			[
+				"S"
+			],
+			"type":
+			{
+				"type": "aberration",
+				"tags":
+				[
+					"shapechanger"
+				]
+			},
+			"alignment":
+			[
+				"C",
+				"E"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 60,
+				"formula": "8d6 + 32"
+			},
+			"speed":
+			{
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 12,
+			"dex": 17,
+			"con": 18,
+			"int": 12,
+			"wis": 16,
+			"cha": 10,
+			"save":
+			{
+				"dex": "+5",
+				"wis": "+5"
+			},
+			"skill":
+			{
+				"deception": "+2",
+				"insight": "+5",
+				"stealth": "+5"
+			},
+			"senses":
+			[
+				"darkvision 60 ft"
+			],
+			"passive": 13,
+			"resist":
+			[
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "damage from nonmagical weapons",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"cold"
+			],
+			"languages":
+			[
+				"Toschari; telepathy 100 ft."
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Ambusher",
+					"entries":
+					[
+						"The tsochar has advantage on attack rolls against any creature it has {@status surprised|XPHB}."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries":
+					[
+						"The tsochar has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Wear Flesh",
+					"entries":
+					[
+						"A tsochar can bore its way into a helpless living creature's body, slipping its ropy tendrils into the spaces between organs and muscles, and disappearing into the victim. The victim must be the same size as the tsochar or larger, and the process requires 1 minute. The tsochar can choose to inhabit or replace the victim. Incorporeal creatures, constructs, elementals, oozes, plants, and undead are immune to this ability.",
+						"A tsochar can abandon a body it has inhabited or replaced as an action that takes one round, dealing 14 ({@damage 4d6}) piercing damage to the host. A tsochar can be forced to abandon a body by a disease curing or {@spell dispel evil and good|XPHB} spell (the tsochar must succeed on a Constitution saving throw against the caster's spell save DC or be expelled) which deals damage as described above, or a heal or {@spell greater restoration|XPHB} spell (which automatically succeeds and causes no damage to the host)."
+					]
+				},
+				{
+					"name": "Inhabit",
+					"entries":
+					[
+						"Once a tsochar has successfully entered a creature it can leave the victim alive and aware. While inhabiting a creature it can use the Agony attack as an action any time it cares to. The tsochar can take no physical actions while inhabiting a host, but can use purely mental actions (such as communication by means of telepathy, and threatening to injure or kill the host unless the host does as the monster wishes). When the host takes damage (other than damage inflicted by the tsochar), the inhabiting tsochar takes half of that damage.",
+						"While inhabiting a creature, the tsochar feeds on its blood and tissues. At the end of a long rest the creature must roll a {@dice d20}. On a 1 the host loses 1 point of Constitution. This ability loss can only be recovered by using the Recuperating downtime activity which restores all lost Constitution after 3 days of rest. Frail hosts pushed too hard for too long will sicken and die, although tsochar are clever enough to direct their hosts to achieve proper rest if required."
+					]
+				},
+				{
+					"name": "Replace",
+					"entries":
+					[
+						"Once a tsochar has successfully entered a creature it can bore out the victim's nervous system at any time, killing the host. It then animates the body, effectively acting as the nervous system of the dead host. The body remains alive, hosting the tsochar.",
+						"The tsochar uses the victims physical ability scores in place of its own, and slowly devours the new shell from the inside out causing 1 point of Constitution loss per month, which cannot be healed. Often tsochar impostors choose to abandon bodies they have replaced before they become too weak to be serviceable."
+					]
+				},
+				{
+					"name": "Take Spells",
+					"entries":
+					[
+						"A tsochar that replaces a spellcaster retains any arcane spells prepared or known by the dead host, as well as any remaining spell slots to cast them. If a prepared spell is of 3rd level or higher the tsochar must make an ability check using the spellcasting ability of the host's spellcasting class to cast it successfully ({@dc 10 + the spell level}). On a failed check the spell is lost and the tsochar cannot regain spells or spell slots it expends."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The Tsochar makes four attacks; three with its tentacles and one to constrict."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one creature. {@h}6 ({@damage 1d6 + 3}) piercing damage. If the target is Medium or smaller, it is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the creature is {@condition restrained}, and the tsochar can't constrict another target. The target must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} for 1 hour. Until this poison ends, the target is {@condition unconscious}. Another creature can use an action to shake the target awake."
+					]
+				},
+				{
+					"name": "Agony",
+					"entries":
+					[
+						"While the tsochar is inhabiting another creature, any time it cares to it can inflict indescribable agony on its host as an action, dealing 3 ({@dice 1d6}) to 21 ({@damage 6d6}) piercing damage and requiring the host to succeed on a DC15 Constitution saving throw or become nauseated, the creature must repeat the saving throw (DC12) at the end of each of its turns (if the character rolls a natural 1, the character is {@condition incapacitated} by vomiting for the next round). After three successful saves, the nausea ends. The tsochar chooses how much damage to deal with this attack."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Ambusher",
+				"Magic Resistance"
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"actionTags":
+			[
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags":
+			[
+				"TP"
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"miscTags":
+			[
+				"MW",
+				"RCH"
+			],
+			"conditionInflict":
+			[
+				"grappled",
+				"poisoned",
+				"restrained",
+				"unconscious"
+			],
+			"savingThrowForced":
+			[
+				"constitution"
+			]
+		},
+		{
+			"name": "Boromar Clawfoot",
+			"source": "Canberron",
+			"size":
+			[
+				"S"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"Halfling"
+				]
+			},
+			"alignment":
+			[
+				"N",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"{@item studded leather armor|XPHB|studded leather}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 49,
+				"formula": "9d6 + 18"
+			},
+			"speed":
+			{
+				"walk": 25
+			},
+			"str": 9,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 13,
+			"cha": 11,
+			"skill":
+			{
+				"intimidation": "+4",
+				"perception": "+3",
+				"stealth": "+7"
+			},
+			"passive": 13,
+			"languages":
+			[
+				"Common",
+				"Halfling"
+			],
+			"cr": "2",
+			"trait":
+			[
+				{
+					"name": "Brave",
+					"entries":
+					[
+						"The clawfoot has advantage on saving throws against beingfrightened."
+					]
+				},
+				{
+					"name": "Halfling Nimbleness",
+					"entries":
+					[
+						"The clawfoot can move through the space of anycreature that is of a size larger than it."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries":
+					[
+						"When the clawfoot rolls a 1 on an attack roll, ability check, orsaving throw, it can reroll the die and must use the new roll."
+					]
+				},
+				{
+					"name": "Vicious",
+					"entries":
+					[
+						"At the start of its turn, the clawfoot can gain advantage on\u2014anddeals an additional 5 ({@damage 1d10}) damage with\u2014all melee weapon attacks itmakes until the start of its next turn, but attack rolls against it haveadvantage until the start of its next turn."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The clawfoot makes two melee weapon attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or ranged 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Uncanny Dodge",
+					"entries":
+					[
+						"The clawfoot halves the damage that it takes from anattack that hits it. The clawfoot must be able to see the attacker."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"dagger|phb",
+				"shortsword|phb"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"H"
+			],
+			"damageTags":
+			[
+				"P",
+				"S"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Magebred Camel",
+			"source": "Canberron",
+			"size":
+			[
+				"L"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				12
+			],
+			"hp":
+			{
+				"average": 24,
+				"formula": "3d10 + 9"
+			},
+			"speed":
+			{
+				"walk": 55
+			},
+			"str": 16,
+			"dex": 8,
+			"con": 19,
+			"int": 2,
+			"wis": 11,
+			"cha": 5,
+			"save":
+			{
+				"con": "+8"
+			},
+			"senses":
+			[
+				"Darkvision 60 ft."
+			],
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1/2",
+			"trait":
+			[
+				{
+					"name": "Energy Efficiency",
+					"entries":
+					[
+						"This camel only needs to eat or drink half as much as a standard camel, and it has advantage on all Constitution saving throws."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Bite",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Health Reserves",
+					"entries":
+					[
+						"As a bonus action, the camel can expend one of its {@variantrule Hit Point Dice|XPHB}, roll the die, and regain a number of hit points equal to the roll."
+					]
+				}
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Magebred Clawfoot",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "beast",
+				"tags":
+				[
+					"Dinosaur"
+				]
+			},
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				14
+			],
+			"hp":
+			{
+				"average": 24,
+				"formula": "4d8 + 8"
+			},
+			"speed":
+			{
+				"walk": 45
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 14,
+			"int": 4,
+			"wis": 12,
+			"cha": 6,
+			"skill":
+			{
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"passive": 13,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Pack Tactics",
+					"entries":
+					[
+						"The clawfoot has advantage on an attack roll against a creature if at least one of the clawfoot's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The clawfoot makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries":
+					[
+						"If the clawfoot moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the clawfoot can make one bite attack against it as a bonus action."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Protective Instincts",
+					"entries":
+					[
+						"Immediately after a creature within 5 feet of the clawfoot takes the Disengage action or hits a target other than it with an attack, it can make an Opportunity Attack against that creature."
+					]
+				},
+				{
+					"name": "Halt",
+					"entries":
+					[
+						"When the clawfoot hits a creature with an Opportunity Attack, the creature's {@variantrule Speed|XPHB} becomes 0 for the rest of the current turn."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Pack Tactics"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"P",
+				"S"
+			],
+			"miscTags":
+			[
+				"MW"
+			],
+			"conditionInflict":
+			[
+				"prone"
+			],
+			"savingThrowForced":
+			[
+				"strength"
 			]
 		}
 	]
