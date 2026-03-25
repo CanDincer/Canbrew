@@ -11,13 +11,13 @@
 				[
 					"Can Dinçer"
 				],
-				"version": "2026.03.25.3",
+				"version": "2026.03.25.2",
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
 		"edition": "one",
 		"dateAdded": 1723470600,
-		"dateLastModified": 1774427686
+		"dateLastModified": 1774426518
 	},
 	"magicvariant":
 	[
@@ -260,77 +260,6 @@
 			"entries":
 			[
 				"The tangat is a weapon used by the halflings of the Talenta Plains. It is a peculiarly balanced scimitar with a slightly extended, curved haft that allows it to be wielded with blinding speed – even two-handed – by a trained user."
-			]
-		},
-		{
-			"name": "Prizma Obliti",
-			"source": "Canberron",
-			"rarity": "legendary",
-			"reqAttune": true,
-			"wondrous": true,
-			"recharge": "dawn",
-			"rechargeAmount": "{@dice 1d4}",
-			"charges": 10,
-			"entries":
-			[
-				"Corners of this clear octagon prism are each connected by faint string of light to resamble an inverted pyramid Inside its depths, swirling mists of trapped memories shift and coil. Known in the dark corners of Khorvaire as the \"Mind-Ripper's Eye,\" the Prisma Obliti was designed for the systematic deconstruction of the sentient mind.",
-				{
-					"type": "entries",
-					"name": "Charges",
-					"entries":
-					[
-						"The prism has 10 charges for the following properties. It regains {@dice 1d4} expended charges daily at dawn, but only if the prism has not been used to cast a spell or use a property within the last 24 hours. If you use the last charge, roll a {@dice d20}. On a 1, the prism shatters into mundane glass, and the screams of the memories trapped within echo in the user's mind, dealing {@damage 10d6} psychic damage."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spells",
-					"entries":
-					[
-						"While holding the prism, you can use an action to expend 1 or more of its charges to cast one of the following spells from it (save DC 18, or your own spell save DC, whichever is higher):",
-						{
-							"type": "list",
-							"items":
-							[
-								"{@spell Comprehend Languages|XPHB} (1 charge)",
-								"{@spell Borrowed Knowledge|XPHB}  (2 charges)",
-								"{@spell Detect Thoughts|XPHB} (2 charges)",
-								"{@spell Mind Spike|XPHB} (2 charges)",
-								"{@spell Enemies Abound|XPHB} (3 charges)",
-								"{@spell Legend Lore|XPHB} (5 charges)",
-								"{@spell Modify Memory|XPHB} (5 charges)",
-								"{@spell Mind Blank|XPHB} (8 charges, self only)"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Mind Ripping",
-					"entries":
-					[
-						"When you use the prism to cast {@spell Detect Thoughts|XPHB} and attempt to probe deeper into a creature's mind, the process is violent and invasive. The target must succeed on a DC 18 Intelligence saving throw. On a failure, you gain the information you seek, and the target takes {@damage 8d6} psychic damage. On a success, the target takes half as much damage and you fail to gain the information."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Vile Extraction",
-					"entries":
-					[
-						"A creature that takes psychic damage from the Mind Ripping property has its Intelligence score reduced by 1. The creature dies if its Intelligence is reduced to 0. This reduction lasts until restored by a {@spell Greater Restoration|XPHB} spell or similar magic but the creature only regains 1 Intelligence score per casting."
-					]
-				}
-			],
-			"attachedSpells":
-			[
-				"comprehend languages|XPHB",
-				"borrowed knowledge|XPHB",
-				"detect thoughts|XPHB",
-				"mind spike|XPHB",
-				"enemies abound|XPHB",
-				"legend lore|XPHB",
-				"modify memory|XPHB",
-				"mind blank|XPHB"
 			]
 		}
 	],
@@ -9355,7 +9284,7 @@
 					"name": "Mounted Flyby",
 					"entries":
 					[
-						"When controlling a mounted dragonhawk, the rider doesn't provoke opportunity attacks when its mount flies out of an enemy's reach."
+						"When controlling a mounted {@creature dragonhawk|CBE}, the rider doesn't provoke opportunity attacks when its mount flies out of an enemy's reach."
 					]
 				}
 			],
@@ -9417,7 +9346,7 @@
 			{
 				"entries":
 				[
-					"The dragonhawk is a symbol of Aundair’s majesty and pride, representing the nation on the royal crest. These gigantic birds of prey are difficult to rear, but the crown invests in several flights trained to carry soldiers into battle. The dragonhawk riders are an esteemed position, often only granted to knights that hold noble titles as a mark of prestige."
+					"The {@creature dragonhawk|CBE} is a symbol of Aundair’s majesty and pride, representing the nation on the royal crest. These gigantic birds of prey are difficult to rear, but the crown invests in several flights trained to carry soldiers into battle. The {@creature dragonhawk|CBE} riders are an esteemed position, often only granted to knights that hold noble titles as a mark of prestige."
 				]
 			}
 		},
@@ -24351,6 +24280,137 @@
 				"intelligence",
 				"wisdom"
 			]
-		}
+		},
+		{
+      "name": "Dragonhawk",
+      "source": "Canberron",
+      "size":
+      [
+        "L"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        {
+          "ac": 16,
+          "from":
+          [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 115,
+        "formula": "10d12 + 50"
+      },
+      "speed":
+      {
+        "walk": 10,
+        "fly": 120
+      },
+      "str": 22,
+      "dex": 12,
+      "con": 20,
+      "int": 2,
+      "wis": 14,
+      "cha": 6,
+      "skill":
+      {
+        "perception": "+5"
+      },
+      "passive": 15,
+      "senses":
+      [
+        "blindsight 60 ft."
+      ],
+      "cr": "6",
+      "trait":
+      [
+        {
+          "name": "Keen Sight",
+          "entries":
+          [
+            "The dragonhawk has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+          ]
+        },
+        {
+          "name": "Flyby",
+          "entries":
+          [
+            "A dragonhawk doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The dragonhawk makes three attacks: one with its beak, one with its claws, and one with its talons."
+          ]
+        },
+        {
+          "name": "Beak",
+          "entries":
+          [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
+          ]
+        },
+        {
+          "name": "Claws",
+          "entries":
+          [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d4 + 6}) piercing damage."
+          ]
+        },
+        {
+          "name": "Talons",
+          "entries":
+          [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage and the target is grappled (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the dragonhawk can't use its talon attack against another target."
+          ]
+        }
+      ],
+      "fluff":
+      {
+        "entries":
+        [
+          "The most iconic of Eberron's giant hawks is the Dragonhawk, which is well known across Khorvaire as the heraldic beast of Aundair. These enormous raptors have been known to carry off livestock as large as horses and cattle. Dragonhawks are even known to prey on humanoids, and though the ragtag clans of orcs and kobolds have more to fear, the Aundairians of less well protected villages may fear for the safety of their families.",
+          "Although dragonhawks are closely associated with Aundair, they build their nests across the north-west of Khorvaire, and especially in the mountainous regions of the Eldeen Reaches. In fact, the legendary First Aerie deep within the Eldeen Reaches is said to be home to some of the largest dragonhawks to take flight.",
+          {
+            "type": "entries",
+            "name": "Flying Mount",
+            "entries":
+            [
+              "With the support of House Vadalis, Aundairian handlers have been able to train dragonhawks to take riders. The most elite cavalrymen and women of Aundair ride dragonhawks into battle. At the Sky Battle of Daskaran, Aundairian dragonhawk riders famously fought the wyvern-riding knights of Thrane."
+            ]
+          }
+        ]
+      },
+			"traitTags":
+			[
+				"Flyby",
+				"Keen Senses"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+	    "damageTags":
+			[
+				"P",
+				"S"
+			],
+			"miscTags":
+			[
+				"MA"
+			]
+    }
 	]
 }
