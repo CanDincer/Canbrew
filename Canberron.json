@@ -22994,7 +22994,7 @@
 				"wisdom"
 			]
 		},
-{
+		{
 			"name": "Skaravojen",
 			"isNamedCreature": true,
 			"source": "Canberron",
@@ -23218,7 +23218,7 @@
 				]
 			}
 		},
-{
+		{
 			"name": "Silvereye Marauder",
 			"source": "Canberron",
 			"size":
@@ -23388,7 +23388,7 @@
 				"dexterity"
 			]
 		},
-{
+		{
 			"name": "Argentum Agent",
 			"source": "Canberron",
 			"size":
@@ -23542,7 +23542,7 @@
 				"RW"
 			]
 		},
-{
+		{
 			"name": "Argentum Fist",
 			"source": "Canberron",
 			"size":
@@ -23703,7 +23703,7 @@
 				"strength"
 			]
 		},
-{
+		{
 			"name": "Magebred Pony",
 			"source": "Canberron",
 			"size":
