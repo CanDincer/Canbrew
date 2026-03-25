@@ -11,13 +11,13 @@
 				[
 					"Can Dinçer"
 				],
-				"version": "2026.03.25.13",
+				"version": "2026.03.25.14",
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
 		"edition": "one",
 		"dateAdded": 1723470600,
-		"dateLastModified": 1774431523
+		"dateLastModified": 1774431956
 	},
 	"magicvariant":
 	[
@@ -16103,7 +16103,7 @@
 					"ac": 15,
 					"from":
 					[
-						"{@item chain shirt|xphb}"
+						"{@item chain shirt|XPHB}"
 					]
 				}
 			],
@@ -16210,7 +16210,7 @@
 					"ac": 15,
 					"from":
 					[
-						"{@item studded leather armor|xphb}"
+						"{@item studded leather armor|XPHB}"
 					]
 				}
 			],
@@ -18014,8 +18014,8 @@
 			],
 			"attachedItems":
 			[
-				"heavy crossbow|phb",
-				"longsword|phb"
+				"heavy crossbow|XPHB",
+				"longsword|XPHB"
 			],
 			"actionTags":
 			[
@@ -18127,8 +18127,8 @@
 			],
 			"attachedItems":
 			[
-				"club|phb",
-				"dagger|phb"
+				"club|XPHB",
+				"dagger|XPHB"
 			],
 			"senseTags":
 			[
@@ -18276,7 +18276,7 @@
 			],
 			"attachedItems":
 			[
-				"longsword|phb"
+				"longsword|XPHB"
 			],
 			"actionTags":
 			[
@@ -18602,7 +18602,7 @@
 			],
 			"attachedItems":
 			[
-				"longsword|phb"
+				"longsword|XPHB"
 			],
 			"actionTags":
 			[
@@ -18772,7 +18772,7 @@
 			],
 			"attachedItems":
 			[
-				"dart|phb"
+				"dart|XPHB"
 			],
 			"languageTags":
 			[
@@ -18936,7 +18936,7 @@
 			],
 			"attachedItems":
 			[
-				"scimitar|phb"
+				"scimitar|XPHB"
 			],
 			"languageTags":
 			[
@@ -19106,7 +19106,7 @@
 			],
 			"attachedItems":
 			[
-				"longsword|phb"
+				"longsword|XPHB"
 			],
 			"actionTags":
 			[
@@ -19300,8 +19300,8 @@
 			],
 			"attachedItems":
 			[
-				"battleaxe|phb",
-				"light hammer|phb"
+				"battleaxe|XPHB",
+				"light hammer|XPHB"
 			],
 			"senseTags":
 			[
@@ -19490,8 +19490,8 @@
 			],
 			"attachedItems":
 			[
-				"dagger|phb",
-				"rapier|phb"
+				"dagger|XPHB",
+				"rapier|XPHB"
 			],
 			"traitTags":
 			[
@@ -19877,8 +19877,8 @@
 			],
 			"attachedItems":
 			[
-				"battleaxe|phb",
-				"club|phb"
+				"battleaxe|XPHB",
+				"club|XPHB"
 			],
 			"senseTags":
 			[
@@ -20247,7 +20247,7 @@
 			],
 			"attachedItems":
 			[
-				"scimitar|phb"
+				"scimitar|XPHB"
 			],
 			"languageTags":
 			[
@@ -20426,7 +20426,7 @@
 			],
 			"attachedItems":
 			[
-				"rapier|phb"
+				"rapier|XPHB"
 			],
 			"actionTags":
 			[
@@ -20531,8 +20531,8 @@
 			],
 			"attachedItems":
 			[
-				"flail|phb",
-				"light crossbow|phb"
+				"flail|XPHB",
+				"light crossbow|XPHB"
 			],
 			"languageTags":
 			[
@@ -20682,8 +20682,8 @@
 			],
 			"attachedItems":
 			[
-				"dagger|phb",
-				"morningstar|phb"
+				"dagger|XPHB",
+				"morningstar|XPHB"
 			],
 			"languageTags":
 			[
@@ -20829,7 +20829,7 @@
 			],
 			"attachedItems":
 			[
-				"dagger|phb"
+				"dagger|XPHB"
 			],
 			"languageTags":
 			[
@@ -21232,7 +21232,7 @@
 			],
 			"attachedItems":
 			[
-				"rapier|phb"
+				"rapier|XPHB"
 			],
 			"traitTags":
 			[
@@ -21615,8 +21615,8 @@
 			],
 			"attachedItems":
 			[
-				"dagger|phb",
-				"shortsword|phb"
+				"dagger|XPHB",
+				"shortsword|XPHB"
 			],
 			"actionTags":
 			[
@@ -23518,7 +23518,7 @@
 			],
 			"attachedItems":
 			[
-				"hand crossbow|phb"
+				"hand crossbow|XPHB"
 			],
 			"actionTags":
 			[
@@ -23562,7 +23562,7 @@
 					"ac": 18,
 					"from":
 					[
-						"{@item chain shirt|phb}"
+						"{@item chain shirt|XPHB}"
 					]
 				}
 			],
@@ -23702,6 +23702,513 @@
 				"dexterity",
 				"strength"
 			]
-		}
+		},
+		{
+			"name": "Magebred Pony",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				10
+			],
+			"hp":
+			{
+				"average": 16,
+				"formula": "3d8 + 4"
+			},
+			"speed":
+			{
+				"walk": 50
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 2,
+			"wis": 11,
+			"cha": 7,
+			"save":
+			{
+				"str": "+4"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1/4",
+			"trait":
+			[
+				{
+					"name": "Quick Reflexes",
+					"entries":
+					[
+						"The pony may add +2 to its own {@variantrule Initiative|XPHB} if it is not being mounted. Otherwise, it grants its rider the ability to add their {@variantrule Proficiency|XPHB} bonus to their {@variantrule Initiative|XPHB} roll."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Hooves",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target.{@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Cavallah",
+			"isNamedCreature": true,
+			"source": "Canberron",
+			"size":
+			[
+				"L"
+			],
+			"type":
+			{
+				"type": "giant",
+				"tags":
+				[
+					"oni"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 18,
+					"from":
+					[
+						"{@item plate armor|XPHB|plate}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 218,
+				"formula": "23d10 + 92"
+			},
+			"speed":
+			{
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 19,
+			"int": 19,
+			"wis": 16,
+			"cha": 20,
+			"save":
+			{
+				"dex": "+5",
+				"con": "+9",
+				"wis": "+8",
+				"cha": "+10"
+			},
+			"skill":
+			{
+				"arcana": "+14",
+				"athletics": "+10",
+				"deception": "+15",
+				"insight": "+8",
+				"intimidation": "+10",
+				"perception": "+8",
+				"persuasion": "+10"
+			},
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 18,
+			"conditionImmune":
+			[
+				"charmed"
+			],
+			"languages":
+			[
+				"Common",
+				"Giant",
+				"Goblin"
+			],
+			"cr": "14",
+			"spellcasting":
+			[
+				{
+					"name": "Innate Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Cavallah's innate spellcasting ability is Charisma (spell save {@dc 18}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will":
+					[
+						"{@spell darkness|XPHB}",
+						"{@spell invisibility|XPHB}"
+					],
+					"daily":
+					{
+						"1e":
+						[
+							"{@spell charm person|XPHB}",
+							"{@spell cone of cold|XPHB}",
+							"{@spell gaseous form|XPHB}",
+							"{@spell sleep|XPHB}",
+							"{@spell polymorph|XPHB}"
+						]
+					},
+					"ability": "cha"
+				},
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Cavallah is an 11th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 18}, {@hit 10} to hit with spell attacks). She has the following warlock spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell minor illusion|XPHB}",
+								"{@spell booming blade|TCE}",
+								"{@spell eldritch blast|XPHB}",
+								"{@spell mage hand|XPHB}"
+							]
+						},
+						"5":
+						{
+							"lower": 1,
+							"slots": 3,
+							"spells":
+							[
+								"{@spell blink|XPHB}",
+								"{@spell armor of agathys|XPHB}",
+								"{@spell dimension door|XPHB}",
+								"{@spell dominate beast|XPHB}",
+								"{@spell faerie fire|XPHB}",
+								"{@spell fear|XPHB}",
+								"{@spell hold monster|XPHB}",
+								"{@spell misty step|XPHB}",
+								"{@spell phantasmal force|XPHB}",
+								"{@spell seeming|XPHB}",
+								"{@spell hex|XPHB}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Magic Weapons",
+					"entries":
+					[
+						"Cavallah's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries":
+					[
+						"Cavallah regains 10 hit points at the start of her turn if she has at least 1 hit point."
+					]
+				},
+				{
+					"name": "Beguiling Defenses",
+					"entries":
+					[
+						"Cavallah is immune to being {@condition charmed}, and when another creature attempts to charm her, she can use her reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against Cavallah's warlock spell save DC or be {@condition charmed} by her for 1 minute or until the creature takes any damage."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Cavallah makes two attacks, either with her claws or her glaive."
+					]
+				},
+				{
+					"name": "Claw (Oni Form Only)",
+					"entries":
+					[
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries":
+					[
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage in Small or Medium form."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries":
+					[
+						"The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Misty Escape (Recharges after a Short or Long Rest)",
+					"entries":
+					[
+						"In response to taking damage, Cavallah turns {@condition invisible} and teleports up to 60 ft. to an unoccupied space she can see. She remains {@condition invisible} until the start of her next turn or until she attacks, makes a damage roll or casts a spell."
+					]
+				}
+			],
+			"legendary":
+			[
+				{
+					"name": "Weapon Attack",
+					"entries":
+					[
+						"Cavallah makes an attack with either her glaive or her claws."
+					]
+				},
+				{
+					"name": "Command Ally",
+					"entries":
+					[
+						"Cavallah targets one ally she can see within 30 ft. of it. If the target can see and hear her, the target can make one weapon attack as a reaction and gains advantage on the attack roll."
+					]
+				},
+				{
+					"name": "Dislocate Creature (Costs 3 Actions)",
+					"entries":
+					[
+						"Cavallah magically forces two creatures she can see within 120 ft. of her to switch places with one another. This movement counts as teleportation and does not provoke opportunity attacks."
+					]
+				}
+			],
+			"attachedItems":
+			[
+				"glaive|XPHB"
+			],
+			"traitTags":
+			[
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"actionTags":
+			[
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags":
+			[
+				"C",
+				"GI",
+				"GO"
+			],
+			"damageTags":
+			[
+				"S"
+			],
+			"damageTagsSpell":
+			[
+				"C",
+				"N",
+				"O",
+				"T",
+				"Y"
+			],
+			"spellcastingTags":
+			[
+				"CL",
+				"I"
+			],
+			"miscTags":
+			[
+				"MLW",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict":
+			[
+				"charmed"
+			],
+			"conditionInflictSpell":
+			[
+				"charmed",
+				"frightened",
+				"incapacitated",
+				"invisible",
+				"paralyzed",
+				"unconscious"
+			],
+			"savingThrowForcedSpell":
+			[
+				"charisma",
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"wisdom"
+			]
+		},
+		{
+      "name": "Dragonhawk",
+      "source": "Canberron",
+      "size":
+      [
+        "L"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        {
+          "ac": 16,
+          "from":
+          [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 115,
+        "formula": "10d12 + 50"
+      },
+      "speed":
+      {
+        "walk": 10,
+        "fly": 120
+      },
+      "str": 22,
+      "dex": 12,
+      "con": 20,
+      "int": 2,
+      "wis": 14,
+      "cha": 6,
+      "skill":
+      {
+        "perception": "+5"
+      },
+      "passive": 15,
+      "senses":
+      [
+        "blindsight 60 ft."
+      ],
+      "cr": "6",
+      "trait":
+      [
+        {
+          "name": "Keen Sight",
+          "entries":
+          [
+            "The dragonhawk has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+          ]
+        },
+        {
+          "name": "Flyby",
+          "entries":
+          [
+            "A dragonhawk doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The dragonhawk makes three attacks: one with its beak, one with its claws, and one with its talons."
+          ]
+        },
+        {
+          "name": "Beak",
+          "entries":
+          [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) piercing damage."
+          ]
+        },
+        {
+          "name": "Claws",
+          "entries":
+          [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d4 + 6}) piercing damage."
+          ]
+        },
+        {
+          "name": "Talons",
+          "entries":
+          [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage and the target is grappled (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the dragonhawk can't use its talon attack against another target."
+          ]
+        }
+      ],
+      "fluff":
+      {
+        "entries":
+        [
+          "The most iconic of Eberron's giant hawks is the Dragonhawk, which is well known across Khorvaire as the heraldic beast of Aundair. These enormous raptors have been known to carry off livestock as large as horses and cattle. Dragonhawks are even known to prey on humanoids, and though the ragtag clans of orcs and kobolds have more to fear, the Aundairians of less well protected villages may fear for the safety of their families.",
+          "Although dragonhawks are closely associated with Aundair, they build their nests across the north-west of Khorvaire, and especially in the mountainous regions of the Eldeen Reaches. In fact, the legendary First Aerie deep within the Eldeen Reaches is said to be home to some of the largest dragonhawks to take flight.",
+          {
+            "type": "entries",
+            "name": "Flying Mount",
+            "entries":
+            [
+              "With the support of House Vadalis, Aundairian handlers have been able to train dragonhawks to take riders. The most elite cavalrymen and women of Aundair ride dragonhawks into battle. At the Sky Battle of Daskaran, Aundairian dragonhawk riders famously fought the wyvern-riding knights of Thrane."
+            ]
+          }
+        ]
+      },
+			"traitTags":
+			[
+				"Flyby",
+				"Keen Senses"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+	    "damageTags":
+			[
+				"P",
+				"S"
+			],
+			"miscTags":
+			[
+				"MA"
+			]
+    }
 	]
 }
