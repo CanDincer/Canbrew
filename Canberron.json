@@ -11,13 +11,13 @@
 				[
 					"Can Dinçer"
 				],
-				"version": "2026.03.25.7",
+				"version": "2026.03.25.2",
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
 		"edition": "one",
 		"dateAdded": 1723470600,
-		"dateLastModified": 1774429056
+		"dateLastModified": 1774426518
 	},
 	"magicvariant":
 	[
@@ -21859,6 +21859,862 @@
 			"savingThrowForced":
 			[
 				"strength"
+			]
+		},
+		{
+			"name": "Magebred Elephant",
+			"source": "Canberron",
+			"size":
+			[
+				"H"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				14
+			],
+			"hp":
+			{
+				"average": 94,
+				"formula": "9d12 + 40"
+			},
+			"speed":
+			{
+				"walk": 45
+			},
+			"str": 22,
+			"dex": 10,
+			"con": 19,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "6",
+			"trait":
+			[
+				{
+					"name": "Improved Dash",
+					"entries":
+					[
+						"When you take the Dash action, your {@variantrule Speed|XPHB} increases by 10 feet for that action."
+					]
+				},
+				{
+					"name": "Charge Attack",
+					"entries":
+					[
+						"If you move at least 10 feet in a straight line toward a target immediately before hitting it with a melee attack roll as part of the Attack action, choose one of the following effects: Gain a {@dice 1d8} bonus to the attack's damage roll, or Push the target up to 10 feet away (if it is no more than one size larger than you).",
+						"You can use this benefit only once on each of your turns."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The elephant makes two Gore attacks."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries":
+					[
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the {@condition Prone|XPHB} condition."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Trample",
+					"entries":
+					[
+						"{@actSave dex} {@dc 16}, one creature within 5 feet that has the {@condition Prone|XPHB} condition.",
+						"{@actSaveFail} 17 ({@damage 2d10 + 6}) bludgeoning damage.",
+						"{@actSaveSuccess} Half damage."
+					]
+				}
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"B",
+				"P"
+			],
+			"miscTags":
+			[
+				"MW"
+			],
+			"conditionInflict":
+			[
+				"prone"
+			],
+			"savingThrowForced":
+			[
+				"dexterity"
+			]
+		},
+		{
+			"name": "Magebred Fastieth",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "beast",
+				"tags":
+				[
+					"Dinosaur"
+				]
+			},
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				15
+			],
+			"hp":
+			{
+				"average": 15,
+				"formula": "3d8 + 3"
+			},
+			"speed":
+			{
+				"walk": 65
+			},
+			"str": 13,
+			"dex": 20,
+			"con": 10,
+			"int": 4,
+			"wis": 11,
+			"cha": 4,
+			"save":
+			{
+				"dex": "+7"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Agile Movement",
+					"entries":
+					[
+						"Opportunity Attacks have disadvantage against you."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Bite",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Fastiest Dash",
+					"entries":
+					[
+						"When you take the Dash action, your {@variantrule Speed|XPHB} increases by 10 feet for that action. Additionally, {@variantrule Difficult Terrain|XPHB} doesn't cost you extra movement for the rest of that turn."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Quickness {@recharge 4}",
+					"entries":
+					[
+						"The fastieth can take the Dodge action as a bonus action."
+					]
+				}
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Magebred Goat",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				10
+			],
+			"hp":
+			{
+				"average": 10,
+				"formula": "2d8 + 2"
+			},
+			"speed":
+			{
+				"walk": 45,
+				"climb": 45
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 13,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"save":
+			{
+				"str": "+3",
+				"dex": "+2"
+			},
+			"skill":
+			{
+				"perception": "+2"
+			},
+			"senses":
+			[
+				"Darkvision 60 ft."
+			],
+			"passive": 12,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1/8",
+			"trait":
+			[
+				{
+					"name": "Bred for Burden",
+					"entries":
+					[
+						"The goat counts as one size larger for the purpose of determining its carrying capacity."
+					]
+				},
+				{
+					"name": "Jumping Goat",
+					"entries":
+					[
+						"The goat can make a running Long or {@variantrule High Jump|XPHB} after moving only 5 feet."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Ram",
+					"entries":
+					[
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 bludgeoning damage, or 3 ({@damage 1d4 + 1}) bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit."
+					]
+				}
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Magebred Mountain Goat",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				12
+			],
+			"hp":
+			{
+				"average": 21,
+				"formula": "3d8 + 9"
+			},
+			"speed":
+			{
+				"walk": 55,
+				"climb": 45
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 15,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"save":
+			{
+				"str": "+3",
+				"dex": "+1",
+				"con": "+2"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Sure-Footed",
+					"entries":
+					[
+						"The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				},
+				{
+					"name": "Agile Movement",
+					"entries":
+					[
+						"Opportunity Attacks have disadvantage against the goat."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Ram",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries":
+					[
+						"If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 ({@damage 1d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Dash over Difficult Terrain",
+					"entries":
+					[
+						"When the goat takes the Dash action on its turn, {@variantrule Difficult Terrain|XPHB} doesn't cost it extra movement for the rest of that turn."
+					]
+				}
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
+			],
+			"conditionInflict":
+			[
+				"prone"
+			],
+			"savingThrowForced":
+			[
+				"strength"
+			]
+		},
+		{
+			"name": "Magebred Draft Horse",
+			"source": "Canberron",
+			"size":
+			[
+				"L"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				11
+			],
+			"hp":
+			{
+				"average": 23,
+				"formula": "3d10 + 8"
+			},
+			"speed":
+			{
+				"walk": 45
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 16,
+			"int": 2,
+			"wis": 11,
+			"cha": 7,
+			"save":
+			{
+				"str": "+7",
+				"con": "+3"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1",
+			"action":
+			[
+				{
+					"name": "Hooves",
+					"entries":
+					[
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) bludgeoning damage."
+					]
+				}
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Magebred Riding Horse",
+			"source": "Canberron",
+			"size":
+			[
+				"L"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				12
+			],
+			"hp":
+			{
+				"average": 23,
+				"formula": "3d10 + 8"
+			},
+			"speed":
+			{
+				"walk": 75
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 2,
+			"wis": 11,
+			"cha": 7,
+			"save":
+			{
+				"str": "+3",
+				"dex": "+2",
+				"con": "+2"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Agile Movement",
+					"entries":
+					[
+						"Opportunity Attacks have {@variantrule Disadvantage|XPHB} against you."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Hooves",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Dash over Difficult Terrain",
+					"entries":
+					[
+						"When you take the Dash action on your turn, {@variantrule Difficult Terrain|XPHB} doesn't cost you extra movement for the rest of that turn."
+					]
+				}
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
+			]
+		},
+		{
+			"name": "Magebred Warhorse",
+			"source": "Canberron",
+			"size":
+			[
+				"L"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				11
+			],
+			"hp":
+			{
+				"average": 36,
+				"formula": "4d10 + 18"
+			},
+			"speed":
+			{
+				"walk": 65
+			},
+			"str": 19,
+			"dex": 12,
+			"con": 14,
+			"int": 2,
+			"wis": 12,
+			"cha": 7,
+			"save":
+			{
+				"str": "+4",
+				"dex": "+1",
+				"con": "+2",
+				"wis": "+3"
+			},
+			"passive": 11,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1",
+			"action":
+			[
+				{
+					"name": "Hooves",
+					"entries":
+					[
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 5}) bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 4 ({@damage 2d4}) bludgeoning damage and has the {@condition Prone|XPHB} condition."
+					]
+				}
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
+			],
+			"conditionInflict":
+			[
+				"prone"
+			]
+		},
+		{
+			"name": "Magebred Mammoth",
+			"source": "Canberron",
+			"size":
+			[
+				"H"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				14
+			],
+			"hp":
+			{
+				"average": 170,
+				"formula": "12d12 + 72"
+			},
+			"speed":
+			{
+				"walk": 55
+			},
+			"str": 24,
+			"dex": 9,
+			"con": 22,
+			"int": 3,
+			"wis": 11,
+			"cha": 6,
+			"save":
+			{
+				"str": "+10",
+				"con": "+9"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "7",
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The mammoth makes two Gore attacks."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries":
+					[
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 7}) piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the {@condition Prone|XPHB} condition."
+					]
+				}
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"miscTags":
+			[
+				"MW",
+				"RCH"
+			],
+			"conditionInflict":
+			[
+				"prone"
+			]
+		},
+		{
+			"name": "Magebred Mastiff",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				12
+			],
+			"hp":
+			{
+				"average": 10,
+				"formula": "2d8 + 2"
+			},
+			"speed":
+			{
+				"walk": 45
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 12,
+			"int": 3,
+			"wis": 14,
+			"cha": 7,
+			"save":
+			{
+				"str": "+2",
+				"dex": "+2",
+				"con": "+1",
+				"wis": "+2",
+				"cha": "-2"
+			},
+			"skill":
+			{
+				"perception": "+5"
+			},
+			"senses":
+			[
+				"Darkvision 60 ft."
+			],
+			"passive": 15,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1/2",
+			"trait":
+			[
+				{
+					"name": "Keen Smell",
+					"entries":
+					[
+						"The mastiff has advantage on {@skill Perception|XPHB} checks made to follow, find, or identify an odor."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Bite",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 2}) piercing damage. If the target is a Medium or smaller creature, it has the {@condition Prone|XPHB} condition."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Quick Search",
+					"entries":
+					[
+						"The mastiff can take the Search action as a bonus action."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Keen Senses"
+			],
+			"senseTags":
+			[
+				"D"
+			],
+			"damageTags":
+			[
+				"P"
+			],
+			"miscTags":
+			[
+				"MW"
+			],
+			"conditionInflict":
+			[
+				"prone"
+			]
+		},
+{
+			"name": "Magebred Mule",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "beast",
+			"alignment":
+			[
+				"U"
+			],
+			"ac":
+			[
+				11
+			],
+			"hp":
+			{
+				"average": 18,
+				"formula": "3d8 + 6"
+			},
+			"speed":
+			{
+				"walk": 45
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"save":
+			{
+				"str": "+5",
+				"con": "+2"
+			},
+			"passive": 10,
+			"conditionImmune":
+			[
+				"frightened"
+			],
+			"cr": "1/4",
+			"trait":
+			[
+				{
+					"name": "Beast of Burden",
+					"entries":
+					[
+						"The mule counts as one size larger for the purpose of determining its carrying capacity."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Hooves",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"traitTags":
+			[
+				"Beast of Burden"
+			],
+			"damageTags":
+			[
+				"B"
+			],
+			"miscTags":
+			[
+				"MW"
 			]
 		}
 	]
