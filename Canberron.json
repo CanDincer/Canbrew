@@ -9355,7 +9355,7 @@
 					"name": "Mounted Flyby",
 					"entries":
 					[
-						"When controlling a mounted {@creature dragonhawk|CBE}, the rider doesn't provoke opportunity attacks when its mount flies out of an enemy's reach."
+						"When controlling a mounted {@creature dragonhawk|Canberron}, the rider doesn't provoke opportunity attacks when its mount flies out of an enemy's reach."
 					]
 				}
 			],
@@ -9417,7 +9417,7 @@
 			{
 				"entries":
 				[
-					"The {@creature dragonhawk|CBE} is a symbol of Aundair’s majesty and pride, representing the nation on the royal crest. These gigantic birds of prey are difficult to rear, but the crown invests in several flights trained to carry soldiers into battle. The {@creature dragonhawk|CBE} riders are an esteemed position, often only granted to knights that hold noble titles as a mark of prestige."
+					"The {@creature dragonhawk|Canberron} is a symbol of Aundair’s majesty and pride, representing the nation on the royal crest. These gigantic birds of prey are difficult to rear, but the crown invests in several flights trained to carry soldiers into battle. The {@creature dragonhawk|Canberron} riders are an esteemed position, often only granted to knights that hold noble titles as a mark of prestige."
 				]
 			}
 		},
