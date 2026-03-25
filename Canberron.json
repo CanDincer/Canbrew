@@ -11,13 +11,13 @@
 				[
 					"Can Dinçer"
 				],
-				"version": "2026.03.25.5",
+				"version": "2026.03.25.2",
 				"url": "https://github.com/CanDincer/Canbrew"
 			}
 		],
 		"edition": "one",
 		"dateAdded": 1723470600,
-		"dateLastModified": 1774428043
+		"dateLastModified": 1774426518
 	},
 	"magicvariant":
 	[
@@ -260,6 +260,77 @@
 			"entries":
 			[
 				"The tangat is a weapon used by the halflings of the Talenta Plains. It is a peculiarly balanced scimitar with a slightly extended, curved haft that allows it to be wielded with blinding speed – even two-handed – by a trained user."
+			]
+		},
+		{
+			"name": "Prizma Obliti",
+			"source": "Canberron",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4}",
+			"charges": 10,
+			"entries":
+			[
+				"Corners of this clear octagon prism are each connected by faint string of light to resamble an inverted pyramid Inside its depths, swirling mists of trapped memories shift and coil. Known in the dark corners of Khorvaire as the \"Mind-Ripper's Eye,\" the Prisma Obliti was designed for the systematic deconstruction of the sentient mind.",
+				{
+					"type": "entries",
+					"name": "Charges",
+					"entries":
+					[
+						"The prism has 10 charges for the following properties. It regains {@dice 1d4} expended charges daily at dawn, but only if the prism has not been used to cast a spell or use a property within the last 24 hours. If you use the last charge, roll a {@dice d20}. On a 1, the prism shatters into mundane glass, and the screams of the memories trapped within echo in the user's mind, dealing {@damage 10d6} psychic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells",
+					"entries":
+					[
+						"While holding the prism, you can use an action to expend 1 or more of its charges to cast one of the following spells from it (save DC 18, or your own spell save DC, whichever is higher):",
+						{
+							"type": "list",
+							"items":
+							[
+								"{@spell Comprehend Languages|XPHB} (1 charge)",
+								"{@spell Borrowed Knowledge|XPHB}  (2 charges)",
+								"{@spell Detect Thoughts|XPHB} (2 charges)",
+								"{@spell Mind Spike|XPHB} (2 charges)",
+								"{@spell Enemies Abound|XPHB} (3 charges)",
+								"{@spell Legend Lore|XPHB} (5 charges)",
+								"{@spell Modify Memory|XPHB} (5 charges)",
+								"{@spell Mind Blank|XPHB} (8 charges, self only)"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mind Ripping",
+					"entries":
+					[
+						"When you use the prism to cast {@spell Detect Thoughts|XPHB} and attempt to probe deeper into a creature's mind, the process is violent and invasive. The target must succeed on a DC 18 Intelligence saving throw. On a failure, you gain the information you seek, and the target takes {@damage 8d6} psychic damage. On a success, the target takes half as much damage and you fail to gain the information."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vile Extraction",
+					"entries":
+					[
+						"A creature that takes psychic damage from the Mind Ripping property has its Intelligence score reduced by 1. The creature dies if its Intelligence is reduced to 0. This reduction lasts until restored by a {@spell Greater Restoration|XPHB} spell or similar magic but the creature only regains 1 Intelligence score per casting."
+					]
+				}
+			],
+			"attachedSpells":
+			[
+				"comprehend languages|XPHB",
+				"borrowed knowledge|XPHB",
+				"detect thoughts|XPHB",
+				"mind spike|XPHB",
+				"enemies abound|XPHB",
+				"legend lore|XPHB",
+				"modify memory|XPHB",
+				"mind blank|XPHB"
 			]
 		}
 	],
