@@ -24330,6 +24330,253 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Eudokia ir'Talyn",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type": "fey",
+			"alignment":
+			[
+				"L",
+				"N"
+			],
+			"ac":
+			[
+				{
+					"ac": 19,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 135,
+				"formula": "18d8 + 54"
+			},
+			"speed":
+			{
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 16,
+			"dex": 26,
+			"con": 26,
+			"int": 21,
+			"wis": 30,
+			"cha": 30,
+			"save":
+			{
+				"con": "+17",
+				"wis": "+19",
+				"cha": "+19"
+			},
+			"skill":
+			{
+				"animal handling": "+19",
+				"perception": "+28",
+				"nature": "+14",
+				"insight": "+19",
+				"religion": "+14"
+			},
+			"immune":
+			[
+				"fire",
+				"lightning",
+				"bludgeoning, piercing, and slashing from nonmagical weapons"
+			],
+			"resist":
+			[
+				"poison",
+				"lightning",
+				"radiant"
+			],
+			"senses":
+			[
+				"truesight 120 ft."
+			],
+			"passive": 22,
+			"languages":
+			[
+				"Sylvan",
+				"Elvish",
+				"Druidic",
+				"telepathy 120 ft."
+			],
+			"cr": "24",
+			"trait":
+			[
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries":
+					[
+						"If the archfey fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries":
+					[
+						"The archfey has advantage on saving throws against being {@condition charmed}, and magic can't put the Archfey to sleep."
+					]
+				}
+			],
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"headerEntries":
+					[
+						"Archfey is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Archfey has the following druid spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell druidcraft}",
+								"{@spell guidance}",
+								"{@spell produce flame}",
+								"{@spell thorn whip}"
+							]
+						},
+						"1":
+						{
+							"slots": 4,
+							"spells":
+							[
+								"{@spell faerie fire}",
+								"{@spell healing word}",
+								"{@spell speak with animals}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell barkskin}",
+								"{@spell flame blade}",
+								"{@spell flaming sphere}",
+								"{@spell heat metal}"
+							]
+						},
+						"3":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell call lightning}",
+								"{@spell daylight}",
+								"{@spell dispel magic}",
+								"{@spell speak with plants}"
+							]
+						},
+						"4":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell conjure minor elementals}",
+								"{@spell wall of fire}"
+							]
+						},
+						"5":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell conjure elemental}",
+								"{@spell geas}"
+							]
+						},
+						"6":
+						{
+							"slots": 1,
+							"spells":
+							[
+								"{@spell conjure fey}",
+								"{@spell sunbeam}"
+							]
+						},
+						"7":
+						{
+							"slots": 1,
+							"spells":
+							[
+								"{@spell fire storm}",
+								"{@spell regenerate}"
+							]
+						},
+						"8":
+						{
+							"slots": 1,
+							"spells":
+							[
+								"{@spell feeblemind}",
+								"{@spell sunburst}"
+							]
+						},
+						"9":
+						{
+							"slots": 1,
+							"spells":
+							[
+								"{@spell true resurrection}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Burning Touch",
+					"entries":
+					[
+						"{@atk ms} {@hit 12} to hit, reach 5 ft., one target. {@h}10 ({@damage 3d6}) fire damage. The target must succeed on a {@dc 18} Constitution saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"legendary":
+			[
+				{
+					"name": "Cantrip",
+					"entries":
+					[
+						"The archfey casts a cantrip."
+					]
+				},
+				{
+					"name": "Burning Touch (Costs 2 Actions)",
+					"entries":
+					[
+						"The archfey uses its Burning Touch."
+					]
+				},
+				{
+					"name": "Stunning Beauty (Costs 2 Actions)",
+					"entries":
+					[
+						"The archfey's beautiful appearance hypnotizes one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Charisma saving throw against this magic or become {@condition stunned} until the archfey's next turn."
+					]
+				},
+				{
+					"name": "Amerin's Chosen (Costs 3 Actions)",
+					"entries":
+					[
+						"The archfey calls upon Amerin the Everchanging to aid it in its time of need. Each creature within 20 feet of the archfey must make a {@dc 18} Constitution saving throw against this magic, taking 21 ({@damage 6d6}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			]
 		}
 	]
 }
