@@ -5025,7 +5025,7 @@
 						],
 						"1e":
 						[
-							"{@spell enemies abound|XGE} (XGtE)",
+							"{@spell enemies abound|XGE}",
 							"{@spell major image}"
 						]
 					},
@@ -24506,7 +24506,7 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell call lightning|XPHB}",
+								"{@spell fireball|XPHB}",
 								"{@spell daylight|XPHB}",
 								"{@spell dispel magic|XPHB}",
 								"{@spell speak with plants|XPHB}"
@@ -24527,7 +24527,7 @@
 							"spells":
 							[
 								"{@spell conjure elemental|XPHB}",
-								"{@spell geas|XPHB}"
+								"{@spell greater restoration|XPHB}"
 							]
 						},
 						"6":
@@ -24535,7 +24535,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell conjure fey|XPHB}",
+								"{@spell investiture of flame|XGE}",
 								"{@spell sunbeam|XPHB}"
 							]
 						},
