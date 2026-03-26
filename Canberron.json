@@ -2310,7 +2310,8 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from nonmagical attacks"
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
 			],
 			"vulnerable":
@@ -6761,7 +6762,8 @@
 					[
 						"bludgeoning"
 					],
-					"note": "from nonmagical attacks"
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
 			],
 			"languages":
@@ -16661,7 +16663,8 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from nonmagical attacks"
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
 			],
 			"conditionImmune":
@@ -16835,7 +16838,8 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "from nonmagical attacks"
+					"note": "from nonmagical attacks",
+					"cond": true
 				}
 			],
 			"conditionImmune":
@@ -24395,7 +24399,15 @@
 				"fire",
 				"lightning",
 				"poison",
-				"bludgeoning, piercing, and slashing from nonmagical weapons"
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
 			],
 			"conditionImmune":
 			[
@@ -24588,7 +24600,6 @@
 					[
 						"The archfey's beautiful appearance hypnotizes one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Charisma saving throw against this magic or become {@condition charmed} until the archfey's next turn."
 					]
-				}
 				}
 			]
 		}
