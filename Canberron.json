@@ -24588,13 +24588,7 @@
 					[
 						"The archfey's beautiful appearance hypnotizes one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Charisma saving throw against this magic or become {@condition charmed} until the archfey's next turn."
 					]
-				},
-				{
-					"name": "Amerin's Chosen (Costs 3 Actions)",
-					"entries":
-					[
-						"The archfey calls upon Amerin the Everchanging to aid it in its time of need. Each creature within 20 feet of the archfey must make a {@dc 18} Constitution saving throw against this magic, taking 21 ({@damage 6d6}) psychic damage on a failed save, or half as much damage on a successful one."
-					]
+				}
 				}
 			]
 		}
