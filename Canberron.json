@@ -24562,7 +24562,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell true resurrection|XPHB}"
+								"{@spell phoenix flames|GrimHollowPG24}"
 							]
 						}
 					},
@@ -24575,7 +24575,7 @@
 					"name": "Burning Touch",
 					"entries":
 					[
-						"{@atk ms} {@hit 12} to hit, reach 5 ft., one target. {@h}10 ({@damage 3d6}) fire damage. The target must succeed on a {@dc 18} Constitution saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"{@atk ms} {@hit 19} to hit, reach 5 ft., one target. {@h}10 ({@damage 3d6}) fire damage. The target must succeed on a {@dc 27} Constitution saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				}
 			],
@@ -24599,7 +24599,7 @@
 					"name": "Stunning Beauty (Costs 2 Actions)",
 					"entries":
 					[
-						"The archfey's beautiful appearance hypnotizes one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Charisma saving throw against this magic or become {@condition charmed} until the archfey's next turn."
+						"The archfey's beautiful appearance hypnotizes one creature it can see within 10 feet of it. The target must succeed on a {@dc 27} Charisma saving throw against this magic or become {@condition charmed} until the archfey's next turn."
 					]
 				}
 			],
