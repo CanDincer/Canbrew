@@ -24428,6 +24428,7 @@
 			"passive": 38,
 			"languages":
 			[
+				"Common",
 				"Sylvan",
 				"Elvish",
 				"Druidic",
@@ -24601,6 +24602,31 @@
 						"The archfey's beautiful appearance hypnotizes one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Charisma saving throw against this magic or become {@condition charmed} until the archfey's next turn."
 					]
 				}
+			],
+			"traitTags":
+			[
+				"Fey Ancestry",
+				"Legendary Resistances"
+			],
+			"spellcastingTags":
+			[
+				"CD"
+			],
+			"languageTags":
+			[
+				"C",
+				"DU",
+				"E",
+				"S",
+				"TP"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"senseTags":
+			[
+				"U"
 			]
 		}
 	]
