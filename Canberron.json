@@ -24333,6 +24333,7 @@
 		},
 		{
 			"name": "Eudokia ir'Talyn",
+			"isNamedCreature": true,
 			"source": "Canberron",
 			"size":
 			[
@@ -24347,7 +24348,7 @@
 			"ac":
 			[
 				{
-					"ac": 19,
+					"ac": 25,
 					"from":
 					[
 						"natural armor"
@@ -24356,13 +24357,18 @@
 			],
 			"hp":
 			{
-				"average": 135,
-				"formula": "18d8 + 54"
+				"average": 500,
+				"formula": "40d8 + 320"
 			},
 			"speed":
 			{
 				"walk": 30,
-				"fly": 30
+				"fly":
+				{
+					"number": 60,
+					"condition": "(hover)"
+				},
+				"canHover": true
 			},
 			"str": 16,
 			"dex": 26,
@@ -24388,19 +24394,26 @@
 			[
 				"fire",
 				"lightning",
+				"poison",
 				"bludgeoning, piercing, and slashing from nonmagical weapons"
+			],
+			"conditionImmune":
+			[
+				"blinded",
+				"charmed",
+				"disease",
+				"magical sleep",
+				"stunned"
 			],
 			"resist":
 			[
-				"poison",
-				"lightning",
 				"radiant"
 			],
 			"senses":
 			[
 				"truesight 120 ft."
 			],
-			"passive": 22,
+			"passive": 38,
 			"languages":
 			[
 				"Sylvan",
@@ -24408,11 +24421,11 @@
 				"Druidic",
 				"telepathy 120 ft."
 			],
-			"cr": "24",
+			"cr": "30",
 			"trait":
 			[
 				{
-					"name": "Legendary Resistance (3/Day)",
+					"name": "Legendary Resistance (5/Day)",
 					"entries":
 					[
 						"If the archfey fails a saving throw, it can choose to succeed instead."
@@ -24422,7 +24435,14 @@
 					"name": "Fey Ancestry",
 					"entries":
 					[
-						"The archfey has advantage on saving throws against being {@condition charmed}, and magic can't put the Archfey to sleep."
+						"The archfey cannot be {@condition charmed} and magic can't put the archfey to sleep."
+					]
+				},
+				{
+					"name": "Favored of Nature",
+					"entries":
+					[
+						"If the archfey is slain outside of the Feywild, it instead returns to the Feywild, and returns to life after {@dice 1d8} days."
 					]
 				}
 			],
@@ -24432,7 +24452,7 @@
 					"name": "Spellcasting",
 					"headerEntries":
 					[
-						"Archfey is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Archfey has the following druid spells prepared:"
+						"Archfey is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 27}, {@hit 19} to hit with spell attacks). Archfey has the following druid spells prepared:"
 					],
 					"spells":
 					{
@@ -24440,10 +24460,10 @@
 						{
 							"spells":
 							[
-								"{@spell druidcraft}",
-								"{@spell guidance}",
-								"{@spell produce flame}",
-								"{@spell thorn whip}"
+								"{@spell druidcraft|XPHB}",
+								"{@spell guidance|XPHB}",
+								"{@spell produce flame|XPHB}",
+								"{@spell thorn whip|XPHB}"
 							]
 						},
 						"1":
@@ -24451,10 +24471,10 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell faerie fire}",
-								"{@spell healing word}",
-								"{@spell speak with animals}",
-								"{@spell thunderwave}"
+								"{@spell faerie fire|XPHB}",
+								"{@spell healing word|XPHB}",
+								"{@spell speak with animals|XPHB}",
+								"{@spell thunderwave|XPHB}"
 							]
 						},
 						"2":
@@ -24462,10 +24482,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell barkskin}",
-								"{@spell flame blade}",
-								"{@spell flaming sphere}",
-								"{@spell heat metal}"
+								"{@spell barkskin|XPHB}",
+								"{@spell flame blade|XPHB}",
+								"{@spell flaming sphere|XPHB}",
+								"{@spell heat metal|XPHB}"
 							]
 						},
 						"3":
@@ -24473,10 +24493,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell call lightning}",
-								"{@spell daylight}",
-								"{@spell dispel magic}",
-								"{@spell speak with plants}"
+								"{@spell call lightning|XPHB}",
+								"{@spell daylight|XPHB}",
+								"{@spell dispel magic|XPHB}",
+								"{@spell speak with plants|XPHB}"
 							]
 						},
 						"4":
@@ -24484,8 +24504,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell conjure minor elementals}",
-								"{@spell wall of fire}"
+								"{@spell conjure minor elementals|XPHB}",
+								"{@spell wall of fire|XPHB}"
 							]
 						},
 						"5":
@@ -24493,8 +24513,8 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell conjure elemental}",
-								"{@spell geas}"
+								"{@spell conjure elemental|XPHB}",
+								"{@spell geas|XPHB}"
 							]
 						},
 						"6":
@@ -24502,8 +24522,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell conjure fey}",
-								"{@spell sunbeam}"
+								"{@spell conjure fey|XPHB}",
+								"{@spell sunbeam|XPHB}"
 							]
 						},
 						"7":
@@ -24511,8 +24531,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell fire storm}",
-								"{@spell regenerate}"
+								"{@spell fire storm|XPHB}",
+								"{@spell regenerate|XPHB}"
 							]
 						},
 						"8":
@@ -24520,8 +24540,8 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell feeblemind}",
-								"{@spell sunburst}"
+								"{@spell feeblemind|XPHB}",
+								"{@spell sunburst|XPHB}"
 							]
 						},
 						"9":
@@ -24529,7 +24549,7 @@
 							"slots": 1,
 							"spells":
 							[
-								"{@spell true resurrection}"
+								"{@spell true resurrection|XPHB}"
 							]
 						}
 					},
@@ -24566,7 +24586,7 @@
 					"name": "Stunning Beauty (Costs 2 Actions)",
 					"entries":
 					[
-						"The archfey's beautiful appearance hypnotizes one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Charisma saving throw against this magic or become {@condition stunned} until the archfey's next turn."
+						"The archfey's beautiful appearance hypnotizes one creature it can see within 10 feet of it. The target must succeed on a {@dc 18} Charisma saving throw against this magic or become {@condition charmed} until the archfey's next turn."
 					]
 				},
 				{
