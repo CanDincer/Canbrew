@@ -332,6 +332,27 @@
 				"modify memory|XPHB",
 				"mind blank|XPHB"
 			]
+		},
+		{
+			"name": "Treant Totem",
+			"source": "Canberron",
+			"rarity": "very rare",
+			"wondrous": true,
+			"weight": 0.5,
+			"charges": 1,
+			"entries":
+			[
+				"This totem has 1 charge. While holding it, you can use an action to expend the charge and speak the command word to magically animate one Huge tree you can see within 60 feet of you. The tree uses the {@creature treant|XMM} stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks the Animate Trees action.",
+				"The tree takes its turn immediately after yours on the same initiative count, and it obeys your verbal commands (no action required by you). The tree remains animated for 1 day, until it dies, or until it is more than 120 feet away from the totem. When the effect ends, the tree takes root if possible.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries":
+					[
+						"To regain the expended charge, you must plant a tree seed in fertile soil and tend to it until it sprouts through nonmagical means. Spells such as {@spell plant growth|XPHB} or {@spell druidcraft|XPHB} cannot be used to accelerate this process. The totem regains its charge once the sprout naturally breaks the surface of the earth (typically {@dice 1d10} days, depending on the tree species and environment)."
+					]
+				}
+			]
 		}
 	],
 	"monster":
