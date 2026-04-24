@@ -387,7 +387,7 @@
 					"name": "Sentience",
 					"entries":
 					[
-						"{@i Calderus's Blade} is a sentient neutral evil weapon with an Intelligence of 15, a Wisdom of 17, and a Charisma of 10. It has hearing and darkvision out to a range of 120 feet.",
+						"{@i Calderus's Blade|Canberron} is a sentient neutral evil weapon with an Intelligence of 15, a Wisdom of 17, and a Charisma of 10. It has hearing and darkvision out to a range of 120 feet.",
 						"The weapon can speak, read, and understand Common, and it can communicate with its wielder telepathically. Its voice is thin and whispery."
 					]
 				},
@@ -404,7 +404,7 @@
 					"name": "Aura of Doom",
 					"entries":
 					[
-						"When you hit with this weapon, the target must succeed on a {@dc 18} Charisma saving throw. On a failed save, the target takes the highest number possible for each damage die of the attack and it has disadvantage on saving throws until the end of your next turn."
+						"When you hit with this weapon, the target must succeed on a {@dc 18} Charisma saving throw. On a failed save, the target takes the highest number possible for each damage die of the attack and it has disadvantage on saving throws until the end of your next turn. Additionally, you are immune to radiant damage."
 					]
 				},
 				{
@@ -24748,7 +24748,7 @@
 			"str": 18,
 			"dex": 18,
 			"con": 18,
-			"int": 17,
+			"int": 20,
 			"wis": 15,
 			"cha": 18,
 			"save":
@@ -24760,14 +24760,16 @@
 			},
 			"skill":
 			{
-				"perception": "+7",
-				"stealth": "+9"
+				"arcana": "+10",
+				"investigation": "+15",
+				"perception": "+12",
+				"stealth": "+14"
 			},
 			"senses":
 			[
 				"Darkvision 120 ft."
 			],
-			"passive": 17,
+			"passive": 22,
 			"resist":
 			[
 				"necrotic"
@@ -24842,8 +24844,15 @@
 					"name": "Misty Escape",
 					"entries":
 					[
-						"If Lucan drops to 0 {@variantrule Hit Points|XPHB} outside its resting place, Lucan uses Shape-Shift to become mist (no action required). If it can't use Shape-Shift, it is destroyed.",
+						"If Lucan drops to 0 {@variantrule Hit Points|XPHB} outside its resting place, Lucan uses Shape-Shift to become mist (no action required). If he can't use Shape-Shift, he is destroyed.",
 						"While it has 0 {@variantrule Hit Points|XPHB} in mist form, it can't return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the {@condition Paralyzed|XPHB} condition until it regains any {@variantrule Hit Points|XPHB}, and it regains 1 {@variantrule Hit Points|XPHB|Hit Point} after spending 1 hour there."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries":
+					[
+						"Lucan regains 20 hit points at the start of his turn if he has at least 1 hit point and isn't in running water or sunlight. If he takes radiant damage or damage from holy water, this trait doesn't function at the start of his next turn."
 					]
 				},
 				{
@@ -24906,14 +24915,14 @@
 					"name": "Multiattack (Vampire Form Only)",
 					"entries":
 					[
-						"Lucan makes two {@i Calderus's Blade} or Grave Strike attacks and uses Bite."
+						"Lucan makes two {@i Calderus's Blade|Canberron} or Grave Strike attacks and uses Bite."
 					]
 				},
 				{
-					"name": "{@i Calderus's Blade} (Vampire Form Only)",
+					"name": "{@i Calderus's Blade|Canberron} (Vampire Form Only)",
 					"entries":
 					[
-						"{@atkr m} {@hit 11}, reach 5 ft. {@h}8 ({@damage 1d8 + 4}) Bludgeoning damage plus 7 ({@damage 2d6}) Necrotic damage. If the target is a Large or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 14}) from one of two hands."
+						"{@atkr m} {@hit 11}, reach 5 ft. {@h}10 ({@damage 1d8 + 6}) Bludgeoning damage plus 7 ({@damage 2d6}) Necrotic damage."
 					]
 				},
 				{
