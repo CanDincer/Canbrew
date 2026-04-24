@@ -360,7 +360,7 @@
 		},
 		{
 			"name": "Calderus's Blade",
-			"source": "Canbrew",
+			"source": "Canberron",
 			"baseItem": "longsword|XPHB",
 			"type": "M|XPHB",
 			"rarity": "legendary",
@@ -24716,7 +24716,7 @@
 		},
 		{
 			"name": "Lucan Stellos",
-			"source": "Canbrew",
+			"source": "Canberron",
 			"size":
 			[
 				"M"
@@ -24773,6 +24773,34 @@
 			"resist":
 			[
 				"necrotic"
+				{
+					"resist":
+					[
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune":
+			[
+				"poison",
+				{
+					"immune":
+					[
+						"radiant"
+					],
+					"note": "(from {@i Calderus's Blade|Canberron}, Aura of Doom)",
+					"cond": true
+				}
+			],
+			"conditionImmune":
+			[
+				"poisoned",
+				"charmed",
+				"exhaustion"
 			],
 			"languages":
 			[
@@ -24783,8 +24811,7 @@
 			],
 			"cr":
 			{
-				"cr": "13",
-				"xpLair": 11500
+				"cr": "14"
 			},
 			"spellcasting":
 			[
@@ -24838,6 +24865,13 @@
 					"entries":
 					[
 						"If Lucan fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Weapon",
+					"entries":
+					[
+						"Lucan's weapon attacks are magical."
 					]
 				},
 				{
@@ -24922,7 +24956,7 @@
 					"name": "{@i Calderus's Blade|Canberron} (Vampire Form Only)",
 					"entries":
 					[
-						"{@atkr m} {@hit 11}, reach 5 ft. {@h}10 ({@damage 1d8 + 6}) Bludgeoning damage plus 7 ({@damage 2d6}) Necrotic damage."
+						"{@atkr m} {@hit 11}, reach 5 ft. {@h}10 ({@damage 1d8 + 6}) Bludgeoning damage plus 7 ({@damage 2d6}) Necrotic damage and the target must succeed on a {@dc 18} Charisma saving throw. On a failed save, the target takes the highest number possible for each damage die of the attack and it has disadvantage on saving throws until the end of Lucan's next turn."
 					]
 				},
 				{
