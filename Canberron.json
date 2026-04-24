@@ -24717,6 +24717,7 @@
 		{
 			"name": "Lucan Stellos",
 			"source": "Canberron",
+			"isNamedCreature": true,
 			"size":
 			[
 				"M"
@@ -24841,7 +24842,7 @@
 					"type": "spellcasting",
 					"headerEntries":
 					[
-						"Lucan casts {@spell Command|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}). Lucan can't take this action again until the start of its next turn."
+						"Lucan casts {@spell Command|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}). Lucan can't take this action again until the start of his next turn."
 					],
 					"legendary":
 					{
@@ -24864,7 +24865,7 @@
 					"name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
 					"entries":
 					[
-						"If Lucan fails a saving throw, it can choose to succeed instead."
+						"If Lucan fails a saving throw, he can choose to succeed instead."
 					]
 				},
 				{
@@ -24878,8 +24879,8 @@
 					"name": "Misty Escape",
 					"entries":
 					[
-						"If Lucan drops to 0 {@variantrule Hit Points|XPHB} outside its resting place, Lucan uses Shape-Shift to become mist (no action required). If he can't use Shape-Shift, he is destroyed.",
-						"While it has 0 {@variantrule Hit Points|XPHB} in mist form, it can't return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the {@condition Paralyzed|XPHB} condition until it regains any {@variantrule Hit Points|XPHB}, and it regains 1 {@variantrule Hit Points|XPHB|Hit Point} after spending 1 hour there."
+						"If Lucan drops to 0 {@variantrule Hit Points|XPHB} outside his resting place, Lucan uses Shape-Shift to become mist (no action required). If he can't use Shape-Shift, he is destroyed.",
+						"While he has 0 {@variantrule Hit Points|XPHB} in mist form, he can't return to his vampire form, and he must reach his resting place within 2 hours or be destroyed. Once in his resting place, he returns to his vampire form and has the {@condition Paralyzed|XPHB} condition until he regains any {@variantrule Hit Points|XPHB}, and he regains 1 {@variantrule Hit Points|XPHB|Hit Point} after spending 1 hour there."
 					]
 				},
 				{
@@ -24919,7 +24920,7 @@
 									"name": "Running Water",
 									"entries":
 									[
-										"Lucan takes 20 Acid damage if it ends its turn in running water."
+										"Lucan takes 20 Acid damage if he ends his turn in running water."
 									]
 								},
 								{
@@ -24935,7 +24936,7 @@
 									"name": "Sunlight",
 									"entries":
 									[
-										"Lucan takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has {@variantrule Disadvantage|XPHB} on attack rolls and ability checks."
+										"Lucan takes 20 Radiant damage if he starts his turn in sunlight. While in sunlight, he has {@variantrule Disadvantage|XPHB} on attack rolls and ability checks."
 									]
 								}
 							]
@@ -24977,12 +24978,19 @@
 			"bonus":
 			[
 				{
+					"name": "Cunning Action",
+					"entries":
+					[
+						"Lucan takes the {@action Dash|XPHB}, {@action Disengage|XPHB}, or {@action Hide|XPHB} action."
+					]
+				},
+				{
 					"name": "Shape-Shift",
 					"entries":
 					[
-						"If Lucan isn't in sunlight or running water, it shape-shifts into a Tiny bat ({@variantrule Speed|XPHB} 5 ft., {@variantrule Fly Speed|XPHB} 30 ft.) or a Medium cloud of mist ({@variantrule Speed|XPHB} 5 ft., {@variantrule Fly Speed|XPHB} 20 ft. [hover]), or it returns to its vampire form. Anything it is wearing transforms with it.",
-						"While in bat form, Lucan can't speak. Its game statistics, other than its size and {@variantrule Speed|XPHB}, are unchanged.",
-						"While in mist form, Lucan can't take any actions, speak, or manipulate objects. It is weightless and can enter an enemy's space and stop there. If air can pass through a space, the mist can do so, but it can't pass through liquid. It has {@variantrule Resistance|XPHB} to all damage, except the damage it takes from sunlight."
+						"If Lucan isn't in sunlight or running water, he shape-shifts into a Tiny bat ({@variantrule Speed|XPHB} 5 ft., {@variantrule Fly Speed|XPHB} 30 ft.) or a Medium cloud of mist ({@variantrule Speed|XPHB} 5 ft., {@variantrule Fly Speed|XPHB} 20 ft. [hover]), or he returns to his vampire form. Anything he is wearing transforms with him.",
+						"While in bat form, Lucan can't speak. His game statistics, other than his size and {@variantrule Speed|XPHB}, are unchanged.",
+						"While in mist form, Lucan can't take any actions, speak, or manipulate objects. he is weightless and can enter an enemy's space and stop there. If air can pass through a space, the mist can do so, but he can't pass through liquid. He has {@variantrule Resistance|XPHB} to all damage, except the damage he takes from sunlight."
 					]
 				}
 			],
@@ -24993,7 +25001,7 @@
 					"name": "Deathless Strike",
 					"entries":
 					[
-						"Lucan moves up to half its {@variantrule Speed|XPHB}, and it makes one Grave Strike attack."
+						"Lucan moves up to half his {@variantrule Speed|XPHB}, and he makes one Grave Strike attack."
 					]
 				}
 			],
