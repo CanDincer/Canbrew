@@ -23,7 +23,7 @@
 	[
 		{
 			"name": "Rebounding Weapon",
-			"type": "GV",
+			"type": "GV|XDMG",
 			"requires":
 			[
 				{
@@ -46,7 +46,7 @@
 		},
 		{
 			"name": "Glamoured Armor",
-			"type": "GV",
+			"type": "GV|XDMG",
 			"requires":
 			[
 				{
@@ -103,7 +103,7 @@
 		{
 			"name": "Tactical Armor",
 			"source": "Canberron",
-			"type": "LA",
+			"type": "LA|XPHB",
 			"reqAttune": true,
 			"tier": "major",
 			"rarity": "artifact",
@@ -118,7 +118,7 @@
 			"name": "Glaive of Kalok Shash",
 			"source": "Canberron",
 			"baseItem": "Glaive|XPHB",
-			"type": "M",
+			"type": "M|XPHB",
 			"reqAttune": "by a believer of Kalok Shash",
 			"weaponCategory": "martial",
 			"rarity": "rare",
@@ -145,6 +145,7 @@
 		{
 			"name": "Olladra's Chalice",
 			"source": "Canberron",
+			"type": "OTH",
 			"wondrous": true,
 			"rarity": "uncommon",
 			"attachedSpells":
@@ -159,7 +160,7 @@
 		},
 		{
 			"name": "Glamoured Breastplate",
-			"type": "MA",
+			"type": "MA|XPHB",
 			"source": "Canberron",
 			"rarity": "rare",
 			"tier": "major",
@@ -175,6 +176,7 @@
 		{
 			"name": "Amulet of Undead Eyes",
 			"source": "Canberron",
+			"type": "OTH",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
 			"reqAttuneTags":
@@ -244,7 +246,7 @@
 		{
 			"name": "Rapier",
 			"source": "Canberron",
-			"type": "M",
+			"type": "M|XPHB",
 			"rarity": "none",
 			"weight": 4,
 			"value": 2000,
@@ -265,6 +267,7 @@
 		{
 			"name": "Prizma Obliti",
 			"source": "Canberron",
+			"type": "OTH",
 			"rarity": "legendary",
 			"reqAttune": true,
 			"wondrous": true,
@@ -336,6 +339,7 @@
 		{
 			"name": "Treant Totem",
 			"source": "Canberron",
+			"type": "OTH",
 			"rarity": "very rare",
 			"wondrous": true,
 			"weight": 0.5,
@@ -353,6 +357,66 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Calderus's Blade",
+			"source": "Canbrew",
+			"baseItem": "longsword|XPHB",
+			"type": "M|XPHB",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 3,
+			"bonusWeapon": "+2",
+			"weaponCategory": "martial",
+			"property":
+			[
+				"V|XPHB"
+			],
+			"entries":
+			[
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. The blade deals an extra 7 ({@damage 2d6}) necrotic damage to the target.",
+				"It has the following additional properties.",
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries":
+					[
+						"{@i Calderus's Blade} is a sentient neutral evil weapon with an Intelligence of 15, a Wisdom of 17, and a Charisma of 10. It has hearing and darkvision out to a range of 120 feet.",
+						"The weapon can speak, read, and understand Common, and it can communicate with its wielder telepathically. Its voice is thin and whispery."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lesser Powers",
+					"entries":
+					[
+						"While holding the sword, you can use an action to cast one of the following spells from it: {@spell cure wounds} (3/Day) or {@spell faerie fire} (3/Day)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Doom",
+					"entries":
+					[
+						"When you hit with this weapon, the target must succeed on a {@dc 18} Charisma saving throw or take the highest number possible for each damage die of the attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dedicated Power",
+					"entries":
+					[
+						"While holding the sword, you can use an action to cast {@spell confusion} from it at will."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"Calderus's Blade is a legendary sentient longsword."
+				]
+			}
 		}
 	],
 	"monster":
