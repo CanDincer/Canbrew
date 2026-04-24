@@ -372,6 +372,12 @@
 			[
 				"V|XPHB"
 			],
+			"attachedSpells":
+			[
+				"cure wounds",
+				"faerie fire",
+				"confusion"
+			],
 			"entries":
 			[
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. The blade deals an extra 7 ({@damage 2d6}) necrotic damage to the target.",
@@ -395,10 +401,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Doom",
+					"name": "Aura of Doom",
 					"entries":
 					[
-						"When you hit with this weapon, the target must succeed on a {@dc 18} Charisma saving throw or take the highest number possible for each damage die of the attack."
+						"When you hit with this weapon, the target must succeed on a {@dc 18} Charisma saving throw. On a failed save, the target takes the highest number possible for each damage die of the attack and it has disadvantage on saving throws until the end of your next turn."
 					]
 				},
 				{
@@ -409,14 +415,7 @@
 						"While holding the sword, you can use an action to cast {@spell confusion} from it at will."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"Calderus's Blade is a legendary sentient longsword."
-				]
-			}
+			]
 		}
 	],
 	"monster":
@@ -24485,7 +24484,8 @@
 				"lightning",
 				"poison",
 				{
-					"immune": [
+					"immune":
+					[
 						"bludgeoning",
 						"piercing",
 						"slashing"
@@ -24713,6 +24713,326 @@
 			[
 				"U"
 			]
+		},
+		{
+			"name": "Lucan Stellos",
+			"source": "Canbrew",
+			"size":
+			[
+				"M"
+			],
+			"type": "undead",
+			"alignment":
+			[
+				"L",
+				"E"
+			],
+			"ac":
+			[
+				16
+			],
+			"hp":
+			{
+				"average": 195,
+				"formula": "23d8 + 92"
+			},
+			"speed":
+			{
+				"walk": 40,
+				"climb": 40
+			},
+			"initiative":
+			{
+				"proficiency": 2
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 18,
+			"int": 17,
+			"wis": 15,
+			"cha": 18,
+			"save":
+			{
+				"dex": "+9",
+				"con": "+9",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill":
+			{
+				"perception": "+7",
+				"stealth": "+9"
+			},
+			"senses":
+			[
+				"Darkvision 120 ft."
+			],
+			"passive": 17,
+			"resist":
+			[
+				"necrotic"
+			],
+			"languages":
+			[
+				"Common",
+				"Gnomish",
+				"Elvish",
+				"Dwarven"
+			],
+			"cr":
+			{
+				"cr": "13",
+				"xpLair": 11500
+			},
+			"spellcasting":
+			[
+				{
+					"name": "Charm {@recharge 5}",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Lucan casts {@spell Charm Person|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}), and the duration is 24 hours. The Charmed target is a willing recipient of Lucan's Bite, the damage of which doesn't end the spell. When the spell ends, the target is unaware it was Charmed by Lucan."
+					],
+					"recharge":
+					{
+						"5":
+						[
+							"{@spell Charm Person|XPHB}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "bonus",
+					"hidden":
+					[
+						"recharge"
+					]
+				},
+				{
+					"name": "Beguile",
+					"type": "spellcasting",
+					"headerEntries":
+					[
+						"Lucan casts {@spell Command|XPHB}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}). Lucan can't take this action again until the start of its next turn."
+					],
+					"legendary":
+					{
+						"1":
+						[
+							"{@spell Command|XPHB}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "legendary",
+					"hidden":
+					[
+						"legendary"
+					]
+				}
+			],
+			"trait":
+			[
+				{
+					"name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+					"entries":
+					[
+						"If Lucan fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Misty Escape",
+					"entries":
+					[
+						"If Lucan drops to 0 {@variantrule Hit Points|XPHB} outside its resting place, Lucan uses Shape-Shift to become mist (no action required). If it can't use Shape-Shift, it is destroyed.",
+						"While it has 0 {@variantrule Hit Points|XPHB} in mist form, it can't return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the {@condition Paralyzed|XPHB} condition until it regains any {@variantrule Hit Points|XPHB}, and it regains 1 {@variantrule Hit Points|XPHB|Hit Point} after spending 1 hour there."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries":
+					[
+						"Lucan can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Vampire Weakness",
+					"entries":
+					[
+						"Lucan has these weaknesses:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items":
+							[
+								{
+									"type": "item",
+									"name": "Forbiddance",
+									"entries":
+									[
+										"Lucan can't enter a residence without an invitation from an occupant."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Running Water",
+									"entries":
+									[
+										"Lucan takes 20 Acid damage if it ends its turn in running water."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Stake to the Heart",
+									"entries":
+									[
+										"If a weapon that deals Piercing damage is driven into Lucan's heart while Lucan has the {@condition Incapacitated|XPHB} condition in its resting place, Lucan has the {@condition Paralyzed|XPHB} condition until the weapon is removed."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sunlight",
+									"entries":
+									[
+										"Lucan takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has {@variantrule Disadvantage|XPHB} on attack rolls and ability checks."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack (Vampire Form Only)",
+					"entries":
+					[
+						"Lucan makes two {@i Calderus's Blade} or Grave Strike attacks and uses Bite."
+					]
+				},
+				{
+					"name": "{@i Calderus's Blade} (Vampire Form Only)",
+					"entries":
+					[
+						"{@atkr m} {@hit 11}, reach 5 ft. {@h}8 ({@damage 1d8 + 4}) Bludgeoning damage plus 7 ({@damage 2d6}) Necrotic damage. If the target is a Large or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 14}) from one of two hands."
+					]
+				},
+				{
+					"name": "Grave Strike (Vampire Form Only)",
+					"entries":
+					[
+						"{@atkr m} {@hit 9}, reach 5 ft. {@h}8 ({@damage 1d8 + 4}) Bludgeoning damage plus 7 ({@damage 2d6}) Necrotic damage. If the target is a Large or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 14}) from one of two hands."
+					]
+				},
+				{
+					"name": "Bite (Bat or Vampire Form Only)",
+					"entries":
+					[
+						"{@actSave con} {@dc 17}, one creature within 5 feet that is willing or that has the {@condition Grappled|XPHB}, {@condition Incapacitated|XPHB}, or {@condition Restrained|XPHB} condition. {@actSaveFail} 6 ({@damage 1d4 + 4}) Piercing damage plus 13 ({@damage 3d8}) Necrotic damage. The target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the Necrotic damage taken, and Lucan regains {@variantrule Hit Points|XPHB} equal to that amount. A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage and then buried rises the following sunset as a {@creature Vampire Spawn|XMM} under Lucan's control."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Shape-Shift",
+					"entries":
+					[
+						"If Lucan isn't in sunlight or running water, it shape-shifts into a Tiny bat ({@variantrule Speed|XPHB} 5 ft., {@variantrule Fly Speed|XPHB} 30 ft.) or a Medium cloud of mist ({@variantrule Speed|XPHB} 5 ft., {@variantrule Fly Speed|XPHB} 20 ft. [hover]), or it returns to its vampire form. Anything it is wearing transforms with it.",
+						"While in bat form, Lucan can't speak. Its game statistics, other than its size and {@variantrule Speed|XPHB}, are unchanged.",
+						"While in mist form, Lucan can't take any actions, speak, or manipulate objects. It is weightless and can enter an enemy's space and stop there. If air can pass through a space, the mist can do so, but it can't pass through liquid. It has {@variantrule Resistance|XPHB} to all damage, except the damage it takes from sunlight."
+					]
+				}
+			],
+			"legendaryActionsLair": 4,
+			"legendary":
+			[
+				{
+					"name": "Deathless Strike",
+					"entries":
+					[
+						"Lucan moves up to half its {@variantrule Speed|XPHB}, and it makes one Grave Strike attack."
+					]
+				}
+			],
+			"legendaryGroup":
+			{
+				"name": "Vampire",
+				"source": "XMM"
+			},
+			"environment":
+			[
+				"underdark",
+				"urban"
+			],
+			"treasure":
+			[
+				"any"
+			],
+			"soundClip":
+			{
+				"type": "internal",
+				"path": "bestiary/vampire.opus"
+			},
+			"traitTags":
+			[
+				"Legendary Resistances",
+				"Spider Climb"
+			],
+			"senseTags":
+			[
+				"SD"
+			],
+			"actionTags":
+			[
+				"Multiattack"
+			],
+			"languageTags":
+			[
+				"C",
+				"X"
+			],
+			"damageTags":
+			[
+				"A",
+				"B",
+				"N",
+				"P",
+				"R"
+			],
+			"spellcastingTags":
+			[
+				"O"
+			],
+			"miscTags":
+			[
+				"HPR",
+				"MA"
+			],
+			"conditionInflict":
+			[
+				"charmed",
+				"grappled"
+			],
+			"conditionInflictSpell":
+			[
+				"charmed",
+				"prone"
+			],
+			"savingThrowForced":
+			[
+				"constitution"
+			],
+			"savingThrowForcedLegendary":
+			[
+				"wisdom"
+			],
+			"savingThrowForcedSpell":
+			[
+				"wisdom"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }
