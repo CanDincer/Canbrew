@@ -24773,7 +24773,7 @@
 			"passive": 22,
 			"resist":
 			[
-				"necrotic"
+				"necrotic",
 				{
 					"resist":
 					[
