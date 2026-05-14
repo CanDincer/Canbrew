@@ -25465,6 +25465,257 @@
 				]
 			}
 		},
-		
+		{
+			"name": "Warforged Hulk",
+			"source": "Canberron",
+			"size":
+			[
+				"G"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 23,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 492,
+				"formula": "24d20 + 240"
+			},
+			"speed":
+			{
+				"walk": 60
+			},
+			"str": 30,
+			"dex": 10,
+			"con": 30,
+			"int": 20,
+			"wis": 19,
+			"cha": 21,
+			"save":
+			{
+				"str": "+19",
+				"con": "+19",
+				"int": "+14",
+				"cha": "+14"
+			},
+			"skill":
+			{
+				"athletics": "+19",
+				"perception": "+13"
+			},
+			"immune":
+			[
+				"poison",
+				"psychic"
+			],
+			"conditionImmune":
+			[
+				"charmed",
+				"deafened",
+				"disease",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"unconscious"
+			],
+			"passive": 23,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "29",
+			"trait":
+			[
+				{
+					"name": "Armored Chassis",
+					"entries":
+					[
+						"When creatures on the warforged's platforms are forced to make a Dexterity saving throw, they take half damage on a failed saving throw and no damage on a successful one."
+					]
+				},
+				{
+					"name": "Battle Colossus",
+					"entries":
+					[
+						"The warforged has 16 platforms built into its chassis where one Large or smaller creature can ride without squeezing. These creatures are considered to have half cover. While on these platforms, they can only be targeted by melee attacks with a reach of at least 10 feet."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Endurance",
+					"entries":
+					[
+						"When the warforged is forced to make a Dexterity saving throw, it takes half damage on a failed saving throw and no damage on a successful one."
+					]
+				},
+				{
+					"name": "Exoskeleton",
+					"entries":
+					[
+						"Any damage the warforged takes is reduced by 10."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries":
+					[
+						"If the warforged fails a saving throw, it can choose to succeed instead. Upon using this feature, it can fire its Heavy Cannon."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries":
+					[
+						"The warforged is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Titanic Demise",
+					"entries":
+					[
+						"When the warforged is reduced to 0 hit points, creatures in its space and within 10 feet of it must succeed on a {@dc 18} Dexterity saving throw. On a failed save, a creature takes 59 ({@damage 9d12}) bludgeoning damage and is knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Titanic Frame",
+					"entries":
+					[
+						"The warforged has advantage on Strength and Dexterity saving throws."
+					]
+				},
+				{
+					"name": "Titanic Form",
+					"entries":
+					[
+						"The warforged can move through the spaces of Large or smaller creatures without expending additional movement."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries":
+					[
+						"The warforged deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Vulnerable Underbelly",
+					"entries":
+					[
+						"Large and smaller creatures can enter the warforged's space without expending additional movement. While in this space, attacks from these creatures have advantage."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes four attacks: one with its hammer fist and one with its cleaver. It can also make two Heavy Cannon attacks."
+					]
+				},
+				{
+					"name": "Hammer Fist",
+					"entries":
+					[
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}43 ({@damage 6d10 + 10}) bludgeoning damage. Upon a hit, the target must succeed on a {@dc 28} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Cleaver",
+					"entries":
+					[
+						"{@atk mw} {@hit 19} to hit, reach 10 ft., one target. {@h}49 ({@damage 6d12 + 10}) bludgeoning damage. Upon a critical hit, the damage die is tripled."
+					]
+				},
+				{
+					"name": "Heavy Cannon",
+					"entries":
+					[
+						"The warforged fires a heavy cannon at a point it can see within 600 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 28} Dexterity saving throw, taking 22 ({@damage 4d10}) piercing damage plus 22 ({@damage 4d10}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Barrage (Recharge 5-6)",
+					"entries":
+					[
+						"The warforged fires a barrage in a 300-foot cone. Each creature in that area must make a {@dc 28} Dexterity saving throw. On a failed save, a creature takes 44 ({@damage 8d10}) bludgeoning damage plus 44 ({@damage 8d10}) fire damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Stomp",
+					"entries":
+					[
+						"Each creature in a 20-foot-radius, 20-foot-high cylinder centered on the warforged must make a {@dc 28} Dexterity saving throw. On a failed save, a creature takes 27 ({@damage 6d8}) bludgeoning damage and is {@condition restrained} and knocked {@condition prone}. A creature remains {@condition restrained} until the warforged uses its Stomp again or moves. A {@condition restrained} creature or a creature within 5 feet of it can use its action to make a {@dc 28} Strength check, freeing the {@condition restrained} creature on a success. On a success, the creature is no longer {@condition restrained} and is relocated to an unoccupied space within 5 feet of the warforged."
+					]
+				}
+			],
+			"legendary":
+			[
+				{
+					"name": "Earth Shaker",
+					"entries":
+					[
+						"Each creature within 30 feet of the warforged must succeed on a {@dc 28} Dexterity saving throw or be knocked {@condition prone}. The warforged can then move up to its speed to an unoccupied space that it can see."
+					]
+				},
+				{
+					"name": "Stomp",
+					"entries":
+					[
+						"The warforged makes a Stomp attack against a creature in its space."
+					]
+				},
+				{
+					"name": "Reload (Costs 2 Actions)",
+					"entries":
+					[
+						"The warforged rolls a d6 to regain its Barrage."
+					]
+				},
+				{
+					"name": "Resilience (Costs 3 Actions)",
+					"entries":
+					[
+						"The warforged ends one spell effect or condition on itself."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
+		}
 	]
 }
