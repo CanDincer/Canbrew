@@ -27309,6 +27309,325 @@
 					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
 				]
 			}
+		},
+		{
+			"name": "Warforged Aerilist",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 60,
+				"formula": "8d8 + 24"
+			},
+			"speed":
+			{
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"acrobatics": "+5",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Airborne Evasion",
+					"entries":
+					[
+						"While airborne, if the warforged is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries":
+					[
+						"The warforged doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Skydive",
+					"entries":
+					[
+						"If the warforged flies at least 30 feet down and makes an armblade attack on its turn, the attack deals an extra 14 ({@damage 3d8}) damage."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes two attacks with its armblade. It can substitute any number of armblade attacks with a hand cannon attack."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Hand Cannon",
+					"entries":
+					[
+						"{@atk rw} {@hit 5} to hit, range 120/240 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Skyjet Core",
+					"entries":
+					[
+						"While airborne, the warforged takes the Dash action."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Aerial Evasion",
+					"entries":
+					[
+						"While airborne, if a creature moves within 5 feet of the warforged, the warforged can move up to half its flying speed to an unoccupied space it can see."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
+		},
+		{
+			"name": "Warforged Assassin",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 60,
+				"formula": "8d8 + 24"
+			},
+			"speed":
+			{
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 14,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"perception": "+4",
+				"sleight of hand": "+6",
+				"stealth": "+8"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries":
+					[
+						"The warforged deals an extra 7 ({@damage 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the warforged that isn't {@condition incapacitated} and the warforged doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "First Strike",
+					"entries":
+					[
+						"The warforged has advantage on attack rolls against any creature that is {@condition surprised} and hasn't taken a turn in the combat yet."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Lethal Strike",
+					"entries":
+					[
+						"The warforged's weapon attacks score a critical hit on a roll of 19 or 20. Upon dealing a critical hit, it can triple the weapon's damage die."
+					]
+				},
+				{
+					"name": "Opportunistic Strike",
+					"entries":
+					[
+						"When the warforged takes the Attack action against a creature that is {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition poisoned}, {@condition prone}, {@condition restrained}, or {@condition stunned}, it can make one additional weapon attack as part of that action."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes three attacks with its armblade. It can substitute any number of armblade attacks with a hand cannon attack."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Hand Cannon",
+					"entries":
+					[
+						"{@atk rw} {@hit 6} to hit, range 120/240 ft., one target. {@h}8 ({@damage 2d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Stealth Plating",
+					"entries":
+					[
+						"The warforged takes the Hide action, even if it is only lightly obscured."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
 		}
 	]
 }
