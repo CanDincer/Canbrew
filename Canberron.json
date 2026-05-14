@@ -25256,6 +25256,215 @@
 					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
 				]
 			}
-		}
+		},
+		{
+			"name": "Warforged Goliath",
+			"source": "Canberron",
+			"size":
+			[
+				"H"
+			],
+			"type": "construct",
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 19,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 138,
+				"formula": "12d12 + 72"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 23,
+			"dex": 10,
+			"con": 23,
+			"int": 15,
+			"wis": 14,
+			"cha": 15,
+			"save":
+			{
+				"str": "+10",
+				"con": "+10",
+				"int": "+6",
+				"cha": "+6"
+			},
+			"skill":
+			{
+				"athletics": "+10",
+				"perception": "+6",
+				"survival": "+6"
+			},
+			"immune":
+			[
+				"poison",
+				"psychic"
+			],
+			"conditionImmune":
+			[
+				"charmed",
+				"deafened",
+				"disease",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"unconscious"
+			],
+			"passive": 16,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "12",
+			"trait":
+			[
+				{
+					"name": "Armored Chassis",
+					"entries":
+					[
+						"When creatures on the warforged's platforms are forced to make a Dexterity saving throw, they take half damage on a failed saving throw and no damage on a successful one."
+					]
+				},
+				{
+					"name": "Battle Colossus",
+					"entries":
+					[
+						"The warforged has two platforms built into its chassis where one Medium or smaller creature can ride without squeezing. These creatures are considered to have half cover. While on these platforms, they can only be targeted by melee attacks with a reach of at least 10 feet."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Exoskeleton",
+					"entries":
+					[
+						"Any damage the warforged takes is reduced by 5."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to being put to sleep or diseased."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Titanic Demise",
+					"entries":
+					[
+						"When the warforged is reduced to 0 hit points, creatures in its space and within 10 feet of it must succeed on a {@dc 18} Dexterity saving throw. On a failed save, a creature takes 22 ({@damage 4d10}) bludgeoning damage and is knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Titanic Frame",
+					"entries":
+					[
+						"The warforged has advantage on Strength and Dexterity saving throws."
+					]
+				},
+				{
+					"name": "Titanic Form",
+					"entries":
+					[
+						"The warforged can move through the spaces of Medium or smaller creatures without expending additional movement."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries":
+					[
+						"The warforged deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Vulnerable Underbelly",
+					"entries":
+					[
+						"Medium and smaller creatures can enter the warforged's space without expending additional movement. While in this space, attacks from these creatures have advantage."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes two attacks: one with its hammer fist and one with its cleaver."
+					]
+				},
+				{
+					"name": "Hammer Fist",
+					"entries":
+					[
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}29 ({@damage 4d10 + 7}) bludgeoning damage. Upon a hit, the target must succeed on a {@dc 19} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Cleaver",
+					"entries":
+					[
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}33 ({@damage 4d12 + 7}) bludgeoning damage. Upon a critical hit, the damage die is tripled."
+					]
+				},
+				{
+					"name": "Heavy Cannon",
+					"entries":
+					[
+						"The warforged fires a heavy cannon at a point it can see within 240 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a {@dc 19} Dexterity saving throw, taking 20 ({@damage 8d4}) piercing damage plus 20 ({@damage 8d4}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Stomp",
+					"entries":
+					[
+						"Each creature in a 10-foot-radius, 10-foot-high cylinder centered on the warforged must make a {@dc 19} Dexterity saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) bludgeoning damage and is {@condition restrained} and knocked {@condition prone}. A creature remains {@condition restrained} until the warforged uses its Stomp again or moves. A {@condition restrained} creature or a creature within 5 feet of it can use its action to make a {@dc 26} Strength check, freeing the {@condition restrained} creature on a success. On a success, the creature is no longer {@condition restrained} and is relocated to an unoccupied space within 5 feet of the warforged."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
+		},
+		
 	]
 }
