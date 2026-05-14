@@ -25716,6 +25716,771 @@
 					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
 				]
 			}
+		},
+		{
+			"name": "Warforged Bladestorm",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"athletics": "+5",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "5",
+			"trait":
+			[
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Multi-limbed",
+					"entries":
+					[
+						"When the warforged uses its reaction to make an opportunity attack, it can make two armblade attacks instead of one as part of that reaction."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				},
+				{
+					"name": "Reactive",
+					"entries":
+					[
+						"The warforged can take one reaction on every turn in a combat."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes four attacks with its armblade."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Blade Storm (Recharge 5-6)",
+					"entries":
+					[
+						"Each creature within 5 feet of the warforged must make a {@dc 14} Dexterity saving throw, taking 28 ({@damage 8d6}) slashing damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Parry",
+					"entries":
+					[
+						"When a creature hits the warforged with a melee weapon attack, the warforged can add 2 to its AC against the attack. If this causes the attack to miss, the warforged can make two armblade attacks against the attacker as part of this reaction."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
+		},
+		{
+			"name": "Warforged Phalanx",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 21,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 75,
+				"formula": "10d8 + 30"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 18,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"athletics": "+7",
+				"perception": "+5",
+				"survival": "+5"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "6",
+			"trait":
+			[
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Defender",
+					"entries":
+					[
+						"When the warforged hits a creature with an attack, the target has disadvantage on attack rolls against all creatures other than the warforged until the start of the warforged's next turn."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries":
+					[
+						"If the warforged is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the warforged instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Multi-limbed",
+					"entries":
+					[
+						"When the warforged uses its reaction to make an opportunity attack, it can make two armblade or shield bash attacks instead of one as part of that reaction."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				},
+				{
+					"name": "Reactive",
+					"entries":
+					[
+						"The warforged can take one reaction on every turn in a combat."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes four attacks: two with its armblade and two with its Shield Bash."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries":
+					[
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries":
+					[
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 4}) bludgeoning damage. Upon a hit, the target must succeed on a {@dc 15} Strength saving throw or be pushed 5 feet away from the warforged."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Shield Defense",
+					"entries":
+					[
+						"When the warforged or a creature within 5 feet of it is targeted by an attack, the warforged can impose disadvantage on the attack roll. If the attack still hits, the target of the attack takes half damage instead."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
+		},
+		{
+			"name": "Warforged Warcaster",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 16,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 108,
+				"formula": "12d8 + 36"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 18,
+			"wis": 16,
+			"cha": 18,
+			"skill":
+			{
+				"arcana": "+8",
+				"perception": "+7",
+				"survival": "+7"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"passive": 17,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "9",
+			"trait":
+			[
+				{
+					"name": "Battle Casting",
+					"entries":
+					[
+						"The warforged has advantage on saving throws to maintain concentration on spell effects."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Rune Plating",
+					"entries":
+					[
+						"While concentrating on a spell effect, the warforged can add its Charisma modifier to its AC and saving throws."
+					]
+				},
+				{
+					"name": "Spellcore",
+					"entries":
+					[
+						"The warforged's body counts as its spellcasting focus. Whenever it rolls damage for its spell effects, it can add its Charisma modifier to the total damage roll."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries":
+					[
+						"When the warforged makes an opportunity attack, it can choose to cast a spell."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				}
+			],
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"headerEntries":
+					[
+						"The warforged is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It has the following spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell booming blade}",
+								"{@spell eldritch blast}",
+								"{@spell fire bolt}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1":
+						{
+							"slots": 4,
+							"spells":
+							[
+								"{@spell burning hands}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							]
+						},
+						"2":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell invisibility}",
+								"{@spell scorching ray}"
+							]
+						},
+						"3":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}",
+								"{@spell haste}",
+								"{@spell lightning bolt}"
+							]
+						},
+						"4":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell fire shield}",
+								"{@spell summon construct}",
+								"{@spell wall of fire}"
+							]
+						},
+						"5":
+						{
+							"slots": 2,
+							"spells":
+							[
+								"{@spell animate objects}",
+								"{@spell Bigby's hand}",
+								"{@spell cone of cold}",
+								"{@spell conjure volley}"
+							]
+						},
+						"6":
+						{
+							"slots": 1,
+							"spells":
+							[
+								"{@spell blade barrier}",
+								"{@spell chain lightning}",
+								"{@spell disintegrate}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged casts a spell and makes one attack with its armblade."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries":
+					[
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Spell Break (Recharge 5-6)",
+					"entries":
+					[
+						"Upon casting a spell that deals damage, the warforged can choose to treat the damage as its maximum value instead of rolling."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Spell Surge (Recharge 5-6)",
+					"entries":
+					[
+						"The warforged can cast a spell with a casting time of 1 action as a bonus action. If the warforged casts a leveled spell as its action, it can cast a spell of any level while using this specific feature."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
+		},
+		{
+			"name": "Warforged Spellslinger",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 14,
+			"wis": 14,
+			"cha": 15,
+			"skill":
+			{
+				"arcana": "+4",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Battle Casting",
+					"entries":
+					[
+						"The warforged has advantage on saving throws to maintain concentration on spell effects."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Rune Plating",
+					"entries":
+					[
+						"While concentrating on a spell effect, the warforged can add its Charisma modifier to its AC and saving throws."
+					]
+				},
+				{
+					"name": "Spellcore",
+					"entries":
+					[
+						"The warforged's body counts as its spellcasting focus. Whenever it rolls damage for its spell effects, it can add its Charisma modifier to the total damage roll."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries":
+					[
+						"When the warforged makes an opportunity attack, it can choose to cast a spell."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				}
+			],
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"headerEntries":
+					[
+						"The warforged is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell booming blade}",
+								"{@spell eldritch blast}",
+								"{@spell fire bolt}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1":
+						{
+							"slots": 4,
+							"spells":
+							[
+								"{@spell burning hands}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							]
+						},
+						"2":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell invisibility}",
+								"{@spell scorching ray}"
+							]
+						},
+						"3":
+						{
+							"slots": 2,
+							"spells":
+							[
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}",
+								"{@spell lightning bolt}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged casts a spell and makes one attack with its armblade."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 2}) slashing damage."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
 		}
 	]
 }
