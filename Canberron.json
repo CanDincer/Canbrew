@@ -26810,6 +26810,300 @@
 					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
 				]
 			}
+		},
+		{
+			"name": "Warforged Vanguard",
+			"source": "HOMEBREW",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 17,
+					"from":
+					[
+						"natural armor",
+						"shield"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 15,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"athletics": "+5",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Battle Formation",
+					"entries":
+					[
+						"The warforged has advantage on an attack roll against a creature if at least one of the warforged's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Tactical Strike",
+					"entries":
+					[
+						"Once per turn, the warforged can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the warforged that isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes two attacks with its armblade. It can substitute any number of armblade attacks with a hand cannon attack."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Hand Cannon",
+					"entries":
+					[
+						"{@atk rw} {@hit 4} to hit, range 60/120 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Shield Deflection",
+					"entries":
+					[
+						"When a creature within 5 feet of the warforged is targeted by an attack, the warforged can impose disadvantage on the attack roll. If the attack still hits, the target of the attack takes half damage instead."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
+		},
+		{
+			"name": "Warforged Juggernaut",
+			"source": "HOMEBREW",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 17,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 85,
+				"formula": "10d8 + 40"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 18,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"athletics": "+6",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Spiked Armor",
+					"entries":
+					[
+						"If a creature grapples or hits the warforged with a melee weapon attack while within 5 feet of it, the creature takes 3 ({@damage 1d4}) piercing damage."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Powerful Build",
+					"entries":
+					[
+						"The warforged counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries":
+					[
+						"The warforged deals double damage to objects and structures."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes two attacks with its Hammer Fist. It can substitute any number of Hammer Fist attacks with a Heavy Cannon attack."
+					]
+				},
+				{
+					"name": "Hammer Fist",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage. Upon a hit, the target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Heavy Cannon",
+					"entries":
+					[
+						"{@atk rw} {@hit 6} to hit, range 60/120 ft., one target. {@h}14 ({@damage 4d4 + 4}) piercing damage. Upon a hit, the target must succeed on a {@dc 14} Strength saving throw or be pushed 10 feet away from the warforged."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
 		}
 	]
 }
