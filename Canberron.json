@@ -26481,6 +26481,335 @@
 					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
 				]
 			}
+		},
+		{
+			"name": "Warforged Sharpshooter",
+			"source": "HOMEBREW",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 17,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed":
+			{
+				"walk": 40,
+				"climb": 40,
+				"swim": 40
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 14,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"acrobatics": "+6",
+				"athletics": "+4",
+				"perception": "+4",
+				"stealth": "+6",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries":
+					[
+						"The warforged has advantage on Intelligence (Investigation) and Wisdom (Perception) checks."
+					]
+				},
+				{
+					"name": "Sharpshooter",
+					"entries":
+					[
+						"The warforged's ranged weapon attacks ignore half cover and three-quarters cover, and attacking at long range doesn't impose disadvantage on its ranged weapon attack rolls."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes two attacks with its double hand cannon."
+					]
+				},
+				{
+					"name": "Double Hand Cannon",
+					"entries":
+					[
+						"{@atk rw} {@hit 6} to hit, range 600 ft., one target. {@h}14 ({@damage 4d4 + 4}) piercing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Keen Aim",
+					"entries":
+					[
+						"The warforged grants itself advantage on its next ranged weapon attack roll. Its speed is reduced to 0 until the start of its next turn."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Suppressing Fire",
+					"entries":
+					[
+						"When a creature makes a ranged attack against the warforged or an ally within 30 feet of it, the warforged can make one hand cannon attack against the attacker."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
+		},
+		{
+			"name": "Warforged Scout",
+			"source": "HOMEBREW",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 17,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed":
+			{
+				"walk": 40,
+				"climb": 40,
+				"swim": 40
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 14,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"acrobatics": "+6",
+				"athletics": "+4",
+				"perception": "+4",
+				"stealth": "+6",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries":
+					[
+						"The warforged has advantage on Intelligence (Investigation) and Wisdom (Perception) checks."
+					]
+				},
+				{
+					"name": "Skirmisher's Strike",
+					"entries":
+					[
+						"When the warforged hits a creature with an attack, it can move outside that creature's reach without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Ambush Strike",
+					"entries":
+					[
+						"The warforged has advantage on attack rolls against any creature that is {@condition surprised} or hasn't taken a turn in the combat yet. While these conditions are met, the warforged can make one additional armblade or hand cannon attack as part of its Attack action."
+					]
+				},
+				{
+					"name": "Land Stride",
+					"entries":
+					[
+						"The warforged can move through nonmagical difficult terrain without expending extra movement."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes three attacks with its armblade. It can substitute any number of armblade attacks with a hand cannon attack."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries":
+					[
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Hand Cannon",
+					"entries":
+					[
+						"{@atk rw} {@hit 6} to hit, range 60/120 ft., one target. {@h}9 ({@damage 2d4 + 4}) piercing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Skirmisher's Escape",
+					"entries":
+					[
+						"The warforged takes the Dash action."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
 		}
 	]
 }
