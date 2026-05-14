@@ -27628,6 +27628,294 @@
 					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
 				]
 			}
+		},
+		{
+			"name": "Warforged Enforcer",
+			"source": "HOMEBREW",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"athletics": "+5",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "2",
+			"trait":
+			[
+				{
+					"name": "Vigil",
+					"entries":
+					[
+						"The warforged has advantage on Wisdom (Perception) checks and can't be {@condition surprised}."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Defender",
+					"entries":
+					[
+						"If the warforged hits a creature with an attack, that creature has disadvantage on all attack rolls against targets other than the warforged until the end of the warforged's next turn."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Disarm",
+					"entries":
+					[
+						"When the warforged scores a critical hit against a Medium or smaller creature, that creature must drop one item it is holding of the warforged's choice."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes two attacks with its stun mace. It can substitute any number of stun mace attacks with a manacle launcher attack."
+					]
+				},
+				{
+					"name": "Stun Mace",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage. Upon a hit, the target must succeed on a {@dc 12} Constitution saving throw or be {@condition stunned} for 1 minute. The {@condition stunned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Manacle Launcher",
+					"entries":
+					[
+						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage. Upon a hit, if the target is a Medium or smaller creature, it is {@condition grappled} and {@condition restrained} (escape {@dc 12})."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
+		},
+		{
+			"name": "Warforged Nautilus",
+			"source": "HOMEBREW",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 45,
+				"formula": "6d8 + 18"
+			},
+			"speed":
+			{
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 11,
+			"skill":
+			{
+				"athletics": "+5",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "2",
+			"trait":
+			[
+				{
+					"name": "Aquatic Combatant",
+					"entries":
+					[
+						"The warforged has advantage on attack rolls against creatures that do not possess a natural swimming speed."
+					]
+				},
+				{
+					"name": "Agile Swimmer",
+					"entries":
+					[
+						"The warforged doesn't provoke opportunity attacks when it swims out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Echolocation",
+					"entries":
+					[
+						"The warforged has blindsight out to a range of 60 feet while underwater. It can't use this blindsight while {@condition deafened}."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				},
+				{
+					"name": "Sea Legs",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged makes two attacks with its trident spear. It can substitute any number of trident spear attacks with a harpoon launcher attack."
+					]
+				},
+				{
+					"name": "Trident Spear",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Harpoon Launcher",
+					"entries":
+					[
+						"{@atk rw} {@hit 4} to hit, range 120/240 ft., one target. {@h}8 ({@damage 1d10 + 2}) piercing damage. Upon dealing a critical hit with this weapon, the target is {@condition restrained} (escape {@dc 13})."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
 		}
 	]
 }
