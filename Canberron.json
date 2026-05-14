@@ -27104,6 +27104,211 @@
 					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
 				]
 			}
+		},
+		{
+			"name": "Warforged Triage",
+			"source": "HOMEBREW",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"warforged"
+				]
+			},
+			"alignment":
+			[
+				"A"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"natural armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 14,
+			"cha": 15,
+			"skill":
+			{
+				"medicine": "+6",
+				"survival": "+4"
+			},
+			"resist":
+			[
+				"poison"
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"one other language of your choice"
+			],
+			"cr": "2",
+			"trait":
+			[
+				{
+					"name": "Dauntless",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Constructed Nature",
+					"entries":
+					[
+						"The warforged has no need for food, drink, or air."
+					]
+				},
+				{
+					"name": "Life Saver",
+					"entries":
+					[
+						"The warforged can roll the maximum value on its healing spells if it uses a healing spell on a creature with 0 hit points."
+					]
+				},
+				{
+					"name": "Mending Triage",
+					"entries":
+					[
+						"The warforged's healing spells can affect constructs and grant them temporary hit points equal to the amount of hit points recovered."
+					]
+				},
+				{
+					"name": "Warforged Resilience",
+					"entries":
+					[
+						"The warforged has advantage on saving throws against being {@condition poisoned}. The warforged is immune to disease and being put to sleep."
+					]
+				},
+				{
+					"name": "Tactical Training",
+					"entries":
+					[
+						"The warforged has advantage on initiative rolls."
+					]
+				},
+				{
+					"name": "Vitality Sensors",
+					"entries":
+					[
+						"The warforged can determine if a creature within 60 feet of it that it can see suffers from one of the following conditions: {@condition blinded}, {@condition deafened}, diseased, {@condition paralyzed}, or {@condition poisoned}."
+					]
+				}
+			],
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"headerEntries":
+					[
+						"The warforged is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell mending}",
+								"{@spell spare the dying}",
+								"{@spell toll the dead}"
+							]
+						},
+						"1":
+						{
+							"slots": 4,
+							"spells":
+							[
+								"{@spell cure wounds}",
+								"{@spell healing word}",
+								"{@spell inflict wounds}",
+								"{@spell ray of sickness}"
+							]
+						},
+						"2":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell lesser restoration}"
+							]
+						},
+						"3":
+						{
+							"slots": 2,
+							"spells":
+							[
+								"{@spell aura of vitality}",
+								"{@spell mass healing word}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The warforged casts a spell and makes one attack with a sedative of its choice."
+					]
+				},
+				{
+					"name": "Sedative Needle",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. Upon a hit, the target must succeed on a {@dc 14} Constitution saving throw or take 7 ({@damage 2d6}) poison damage and fall {@condition unconscious}. On a successful saving throw, a creature takes half as much damage and is otherwise unaffected. A creature remains {@condition unconscious} for 10 minutes, until it takes damage, or until another creature uses its action to shake it awake."
+					]
+				},
+				{
+					"name": "Vile Needle",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. Upon a hit, the target must succeed on a {@dc 14} Constitution saving throw. On a failed save, a creature takes 7 ({@damage 2d6}) poison damage and is {@condition poisoned} until the end of the warforged's next turn. On a successful save, a creature takes half as much damage and isn't {@condition poisoned}."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Emergency Healing",
+					"entries":
+					[
+						"When a creature within 30 feet of the warforged is reduced to 0 hit points, the warforged can move up to its speed and cast a healing spell on that creature."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
+				]
+			}
 		}
 	]
 }
