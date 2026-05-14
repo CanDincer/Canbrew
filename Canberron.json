@@ -24651,7 +24651,8 @@
 							]
 						}
 					},
-					"ability": "wis"
+					"ability": "wis",
+					"type": "spellcasting"
 				}
 			],
 			"action":
