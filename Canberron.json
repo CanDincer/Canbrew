@@ -25248,14 +25248,7 @@
 						"Upon missing an attack roll, the warforged can use its reaction to make another attack against that creature."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Goliath",
@@ -25456,14 +25449,7 @@
 						"Each creature in a 10-foot-radius, 10-foot-high cylinder centered on the warforged must make a {@dc 19} Dexterity saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) bludgeoning damage and is {@condition restrained} and knocked {@condition prone}. A creature remains {@condition restrained} until the warforged uses its Stomp again or moves. A {@condition restrained} creature or a creature within 5 feet of it can use its action to make a {@dc 26} Strength check, freeing the {@condition restrained} creature on a success. On a success, the creature is no longer {@condition restrained} and is relocated to an unoccupied space within 5 feet of the warforged."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Hulk",
@@ -25708,14 +25694,7 @@
 						"The warforged ends one spell effect or condition on itself."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Bladestorm",
@@ -25860,14 +25839,7 @@
 						"When a creature hits the warforged with a melee weapon attack, the warforged can add 2 to its AC against the attack. If this causes the attack to miss, the warforged can make two armblade attacks against the attacker as part of this reaction."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Phalanx",
@@ -26026,14 +25998,7 @@
 						"When the warforged or a creature within 5 feet of it is targeted by an attack, the warforged can impose disadvantage on the attack roll. If the attack still hits, the target of the attack takes half damage instead."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Warcaster",
@@ -26274,14 +26239,7 @@
 						"The warforged can cast a spell with a casting time of 1 action as a bonus action. If the warforged casts a leveled spell as its action, it can cast a spell of any level while using this specific feature."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Spellslinger",
@@ -26473,14 +26431,7 @@
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 2}) slashing damage."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Sharpshooter",
@@ -26632,14 +26583,7 @@
 						"When a creature makes a ranged attack against the warforged or an ally within 30 feet of it, the warforged can make one hand cannon attack against the attacker."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Scout",
@@ -26802,14 +26746,7 @@
 						"The warforged takes the Dash action."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Vanguard",
@@ -26951,14 +26888,7 @@
 						"When a creature within 5 feet of the warforged is targeted by an attack, the warforged can impose disadvantage on the attack roll. If the attack still hits, the target of the attack takes half damage instead."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Juggernaut",
@@ -27096,14 +27026,7 @@
 						"{@atk rw} {@hit 6} to hit, range 60/120 ft., one target. {@h}14 ({@damage 4d4 + 4}) piercing damage. Upon a hit, the target must succeed on a {@dc 14} Strength saving throw or be pushed 10 feet away from the warforged."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Triage",
@@ -27301,14 +27224,7 @@
 						"When a creature within 30 feet of the warforged is reduced to 0 hit points, the warforged can move up to its speed and cast a healing spell on that creature."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Aerilist",
@@ -27464,14 +27380,7 @@
 						"While airborne, if a creature moves within 5 feet of the warforged, the warforged can move up to half its flying speed to an unoccupied space it can see."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Assassin",
@@ -27620,14 +27529,7 @@
 						"The warforged takes the Hide action, even if it is only lightly obscured."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Enforcer",
@@ -27758,14 +27660,7 @@
 						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage. Upon a hit, if the target is a Medium or smaller creature, it is {@condition grappled} and {@condition restrained} (escape {@dc 12})."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Warforged Nautilus",
@@ -27908,14 +27803,7 @@
 						"{@atk rw} {@hit 4} to hit, range 120/240 ft., one target. {@h}8 ({@damage 1d10 + 2}) piercing damage. Upon dealing a critical hit with this weapon, the target is {@condition restrained} (escape {@dc 13})."
 					]
 				}
-			],
-			"fluff":
-			{
-				"entries":
-				[
-					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
-				]
-			}
+			]
 		},
 		{
 			"name": "Grilsha",
@@ -27941,7 +27829,7 @@
 			[
 				12,
 				{
-					"ac": 15,
+					"ac": 16,
 					"condition": "with {@spell mage armor}",
 					"braces": true
 				}
@@ -27949,43 +27837,44 @@
 			"hp":
 			{
 				"average": 65,
-				"formula": "10d8 + 20"
+				"formula": "10d8 + 30"
 			},
 			"speed":
 			{
 				"walk": 30
 			},
 			"str": 9,
-			"dex": 14,
-			"con": 15,
+			"dex": 16,
+			"con": 16,
 			"int": 13,
 			"wis": 10,
-			"cha": 16,
+			"cha": 20,
 			"save":
 			{
-				"con": "+5",
-				"cha": "+6"
+				"con": "+7",
+				"cha": "+9"
 			},
 			"skill":
 			{
-				"animal handling": "+3",
-				"arcana": "+4",
-				"perception": "+3",
-				"persuasion": "+6"
+				"animal handling": "+4",
+				"arcana": "+5",
+				"deception": "+9",
+				"perception": "+4",
+				"persuasion": "+9"
 			},
 			"resist":
 			[
 				"lightning",
 				"thunder"
 			],
-			"passive": 13,
+			"passive": 14,
 			"languages":
 			[
 				"Common",
 				"Draconic",
 				"Primordial"
 			],
-			"cr": "5",
+			"cr": "7",
 			"trait":
 			[
 				{
@@ -28003,6 +27892,13 @@
 					]
 				},
 				{
+					"name": "Twinned Spell (2/Day)",
+					"entries":
+					[
+						"When Grilsha casts a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, she can increase the spell's effective level by 1."
+					]
+				},
+				{
 					"name": "Short Flight",
 					"entries":
 					[
@@ -28015,6 +27911,13 @@
 					[
 						"When Grilsha casts {@spell lightning bolt}, she deals 3 lightning damage to creatures of her choice within 10 feet of her that she can see."
 					]
+				},
+				{
+					"name": "Bloodwell Vial",
+					"entries":
+					[
+						"Grilsha has a {@i +2 bloodwell vial|TCE} which adds +1 bonus to spell attack rolls and to the saving throw DCs of her sorcerer spells which is included in her spellcasting."
+					]
 				}
 			],
 			"spellcasting":
@@ -28023,7 +27926,7 @@
 					"name": "Spellcasting",
 					"headerEntries":
 					[
-						"Grilsha is a 6th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). She knows the following sorcerer spells:"
+						"Grilsha is a 12th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 19}, {@hit 11} to hit with spell attacks). She knows the following sorcerer spells:"
 					],
 					"spells":
 					{
@@ -28031,11 +27934,12 @@
 						{
 							"spells":
 							[
-								"{@spell dancing lights}",
-								"{@spell friends}",
-								"{@spell mage hand}",
-								"{@spell message}",
-								"{@spell ray of frost}"
+								"{@spell friends|XPHB}",
+								"{@spell lightning lure|XPHB}",
+								"{@spell mage hand|XPHB}",
+								"{@spell message|XPHB}",
+								"{@spell ray of frost|XPHB}",
+								"{@spell shocking grasp|XPHB}"
 							]
 						},
 						"1":
@@ -28043,9 +27947,11 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell mage armor}",
-								"{@spell shield}",
-								"{@spell silent image}"
+								"{@spell disguise self|XPHB}",
+								"{@spell longstrider|XPHB}",
+								"{@spell mage armor|XPHB}",
+								"{@spell shield|XPHB}",
+								"{@spell thunderwave|XPHB}"
 							]
 						},
 						"2":
@@ -28053,8 +27959,10 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell alter self}",
-								"{@spell invisibility}"
+								"{@spell counterspell|XPHB}",
+								"{@spell alter self|XPHB}",
+								"{@spell enlarge/reduce|XPHB}",
+								"{@spell invisibility|XPHB}"
 							]
 						},
 						"3":
@@ -28062,12 +27970,45 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell fly}",
-								"{@spell lightning bolt}"
+								"{@spell fly|XPHB}",
+								"{@spell lightning bolt|XPHB}",
+								"{@spell thunder step|XGE}",
+								"{@spell tidal wave|XGE}"
+							]
+						},
+						"4":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell confusion|XPHB}",
+								"{@spell dimension door|XPHB}",
+								"{@spell greater invisibility|XPHB}",
+								"{@spell storm sphere|XPHB}"
+							]
+						},
+						"5":
+						{
+							"slots": 2,
+							"spells":
+							[
+								"{@spell hold monster|XPHB}",
+								"{@spell seeming|XPHB}",
+								"{@spell wall of stone|XPHB}"
+							]
+						},
+						"6":
+						{
+							"slots": 1,
+							"spells":
+							[
+								"{@spell chain lightning|XPHB}",
+								"{@spell investiture of wind|XPHB}"
 							]
 						}
 					},
-					"ability": "cha"
+					"ability": "cha",
+					"type": "spellcasting"
 				}
 			],
 			"action":
@@ -28076,7 +28017,7 @@
 					"name": "Dagger",
 					"entries":
 					[
-						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
 					]
 				}
 			],
@@ -28290,10 +28231,10 @@
 						{
 							"spells":
 							[
-								"{@spell fire bolt}",
-								"{@spell friends}",
-								"{@spell mage hand}",
-								"{@spell message}"
+								"{@spell fire bolt|XPHB}",
+								"{@spell friends|XPHB}",
+								"{@spell mage hand|XPHB}",
+								"{@spell message|XPHB}"
 							]
 						},
 						"1":
@@ -28301,9 +28242,9 @@
 							"slots": 4,
 							"spells":
 							[
-								"{@spell disguise self}",
-								"{@spell mage armor}",
-								"{@spell shield}"
+								"{@spell disguise self|XPHB}",
+								"{@spell mage armor|XPHB}",
+								"{@spell shield|XPHB}"
 							]
 						},
 						"2":
@@ -28311,9 +28252,9 @@
 							"slots": 3,
 							"spells":
 							[
-								"{@spell hold person}",
-								"{@spell suggestion}",
-								"{@spell web}"
+								"{@spell hold person|XPHB}",
+								"{@spell suggestion|XPHB}",
+								"{@spell web|XPHB}"
 							]
 						},
 						"3":
@@ -28321,8 +28262,8 @@
 							"slots": 2,
 							"spells":
 							[
-								"{@spell fear}",
-								"{@spell fireball}"
+								"{@spell fear|XPHB}",
+								"{@spell fireball|XPHB}"
 							]
 						}
 					},
