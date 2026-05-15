@@ -27916,6 +27916,692 @@
 					"This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC."
 				]
 			}
+		},
+		{
+			"name": "Grilsha",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"C",
+				"N"
+			],
+			"ac":
+			[
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp":
+			{
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 15,
+			"int": 13,
+			"wis": 10,
+			"cha": 16,
+			"save":
+			{
+				"con": "+5",
+				"cha": "+6"
+			},
+			"skill":
+			{
+				"animal handling": "+3",
+				"arcana": "+4",
+				"perception": "+3",
+				"persuasion": "+6"
+			},
+			"resist":
+			[
+				"lightning",
+				"thunder"
+			],
+			"passive": 13,
+			"languages":
+			[
+				"Common",
+				"Draconic",
+				"Primordial"
+			],
+			"cr": "5",
+			"trait":
+			[
+				{
+					"name": "Quickened Spell (2/Day)",
+					"entries":
+					[
+						"Grilsha casts one of her spells as a bonus action."
+					]
+				},
+				{
+					"name": "Extend Spell (2/Day)",
+					"entries":
+					[
+						"When Grilsha casts one of her spells with a duration of 1 minute or more, she can double its duration."
+					]
+				},
+				{
+					"name": "Short Flight",
+					"entries":
+					[
+						"Immediately before or after casting a spell of 1st-level or higher, Grilsha can fly 10 feet without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Storm Heart",
+					"entries":
+					[
+						"When Grilsha casts {@spell lightning bolt}, she deals 3 lightning damage to creatures of her choice within 10 feet of her that she can see."
+					]
+				}
+			],
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"headerEntries":
+					[
+						"Grilsha is a 6th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). She knows the following sorcerer spells:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell dancing lights}",
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1":
+						{
+							"slots": 4,
+							"spells":
+							[
+								"{@spell mage armor}",
+								"{@spell shield}",
+								"{@spell silent image}"
+							]
+						},
+						"2":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell alter self}",
+								"{@spell invisibility}"
+							]
+						},
+						"3":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell fly}",
+								"{@spell lightning bolt}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"Grilsha is a sorcerer of storm and thunder who claims descent from a powerful elemental spirit.",
+					"She is a member of the Aurum who is using the organization's resources to search for a way to break the seal on an ancient elemental binding, believing that the elemental's power is her birthright.",
+					"She is currently searching for a cache of Khyber dragonshards that she believes will amplify her innate magic to the point where she can shatter the seal.",
+					"She is ruthless in her pursuit of power and will not hesitate to eliminate anyone who gets in her way."
+				]
+			}
+		},
+		{
+			"name": "Edvin Garm",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"E"
+			],
+			"ac":
+			[
+				12
+			],
+			"hp":
+			{
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 12,
+			"int": 13,
+			"wis": 14,
+			"cha": 16,
+			"save":
+			{
+				"dex": "+4",
+				"int": "+3"
+			},
+			"skill":
+			{
+				"deception": "+5",
+				"insight": "+4",
+				"investigation": "+3",
+				"perception": "+4",
+				"persuasion": "+3",
+				"stealth": "+4"
+			},
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"Dwarvish"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries":
+					[
+						"Garm deals an extra 7 ({@damage 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of his that isn't {@condition incapacitated} and Garm doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Garm makes two melee attacks."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Cunning Action",
+					"entries":
+					[
+						"On each of his turns, Garm can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Parry",
+					"entries":
+					[
+						"Garm adds 2 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"Edvin was born to a disgraced noble family of Karrnath and spent his youth trying to reclaim his family's honor. When that failed, he turned to the criminal underworld. He found that he had a knack for it, and soon rose through the ranks.",
+					"He now serves as the Emerald Claw's chief enforcer in the city. He doesn't care much for the religious aspects of the group, but he appreciates the power and wealth they offer."
+				]
+			}
+		},
+		{
+			"name": "Meena ir'Erdalis",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"N"
+			],
+			"ac":
+			[
+				11,
+				{
+					"ac": 14,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp":
+			{
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 14,
+			"int": 16,
+			"wis": 12,
+			"cha": 13,
+			"save":
+			{
+				"int": "+5",
+				"wis": "+3"
+			},
+			"skill":
+			{
+				"arcana": "+5",
+				"deception": "+3",
+				"insight": "+3",
+				"investigation": "+5"
+			},
+			"passive": 11,
+			"languages":
+			[
+				"Common",
+				"Draconic"
+			],
+			"cr": "3",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"headerEntries":
+					[
+						"Meena is a 5th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). She has the following wizard spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell fire bolt}",
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell message}"
+							]
+						},
+						"1":
+						{
+							"slots": 4,
+							"spells":
+							[
+								"{@spell disguise self}",
+								"{@spell mage armor}",
+								"{@spell shield}"
+							]
+						},
+						"2":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell hold person}",
+								"{@spell suggestion}",
+								"{@spell web}"
+							]
+						},
+						"3":
+						{
+							"slots": 2,
+							"spells":
+							[
+								"{@spell fear}",
+								"{@spell fireball}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"Meena is an ambitious agent of the Aurum, hoping to find an artifact hidden within the Sunken Tower that she can use to increase her own standing in her faction.",
+					"She relies heavily on deception and manipulation to get others to do her dirty work, but is fully capable of holding her own in a fight if forced."
+				]
+			}
+		},
+		{
+			"name": "Neya ir'Krell",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"N"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"{@item ring of protection}"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 55,
+				"formula": "10d8 + 10"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 14,
+			"wis": 12,
+			"cha": 16,
+			"save":
+			{
+				"str": "+1",
+				"dex": "+6",
+				"con": "+2",
+				"int": "+5",
+				"wis": "+2",
+				"cha": "+4"
+			},
+			"skill":
+			{
+				"deception": "+7",
+				"history": "+4",
+				"insight": "+3",
+				"perception": "+3",
+				"persuasion": "+7",
+				"stealth": "+5"
+			},
+			"passive": 13,
+			"languages":
+			[
+				"Common",
+				"Elvish",
+				"Gnomish",
+				"thieves' cant"
+			],
+			"cr": "3",
+			"trait":
+			[
+				{
+					"name": "Crossbow Expert",
+					"entries":
+					[
+						"When Neya makes an attack with her dagger, she can use a bonus action to attack with her hand crossbow. Being within 5 feet of a hostile creature doesn't impose disadvantage on her ranged attack rolls with her hand crossbow."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries":
+					[
+						"On each of her turns, Neya can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries":
+					[
+						"Neya deals an extra 10 ({@damage 3d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Neya that isn't {@condition incapacitated} and Neya doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Neya makes two melee attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Hidden Hand Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"Neya was the daughter of an Aurum concordian from the Mror Holds who invested heavily in Lyrandar shipping. While her father was more interested in wealth and status, Neya has taken his resources and focused them instead on information.",
+					"She operates the Sunken Tower as a neutral meeting ground, a place where people can come to make deals without fear of discovery.",
+					"Her motives are largely her own, but she leans towards protecting her own interests and the interests of the Aurum.",
+					"She carries a {@item ring of protection} and a hidden hand crossbow."
+				]
+			}
+		},
+		{
+			"name": "Jayres Tachiot, Majordomo",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"N"
+			],
+			"ac":
+			[
+				10,
+				{
+					"ac": 13,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp":
+			{
+				"average": 13,
+				"formula": "2d8 + 4"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 11,
+			"con": 14,
+			"int": 15,
+			"wis": 14,
+			"cha": 16,
+			"skill":
+			{
+				"arcana": "+4",
+				"deception": "+5",
+				"history": "+4",
+				"insight": "+4",
+				"perception": "+4",
+				"stealth": "+2"
+			},
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"Draconic",
+				"Gnomish"
+			],
+			"cr": "1/2",
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"headerEntries":
+					[
+						"Jayres is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following wizard spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell message}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1":
+						{
+							"slots": 4,
+							"spells":
+							[
+								"{@spell charm person}",
+								"{@spell disguise self}",
+								"{@spell mage armor}"
+							]
+						},
+						"2":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell detect thoughts}",
+								"{@spell invisibility}",
+								"{@spell suggestion}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"Jayres was previously the majordomo for the noble house that lived in the Sunken Tower, but was away on business when the tower sank. He has since been trying to uncover what happened and how to reverse it, returning to the tower periodically to investigate.",
+					"Jayres carries a spellbook containing the spells he has prepared along with the following ritual spells: {@spell alarm}, {@spell comprehend languages}, {@spell unseen servant}, and {@spell illusory script}."
+				]
+			}
 		}
 	]
 }
