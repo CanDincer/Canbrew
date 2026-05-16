@@ -27827,7 +27827,7 @@
 			],
 			"ac":
 			[
-				12,
+				13,
 				{
 					"ac": 16,
 					"condition": "with {@spell mage armor}",
