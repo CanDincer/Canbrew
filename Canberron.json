@@ -27916,7 +27916,7 @@
 					"name": "Bloodwell Vial",
 					"entries":
 					[
-						"Grilsha has a {@i +2 bloodwell vial|TCE} which adds +1 bonus to spell attack rolls and to the saving throw DCs of her sorcerer spells which is included in her spellcasting."
+						"Grilsha has a {@item +2 bloodwell vial|TCE} which adds +1 bonus to spell attack rolls and to the saving throw DCs of her sorcerer spells which is included in her spellcasting."
 					]
 				}
 			],
@@ -27935,7 +27935,7 @@
 							"spells":
 							[
 								"{@spell friends|XPHB}",
-								"{@spell lightning lure|XPHB}",
+								"{@spell lightning lure|TCE}",
 								"{@spell mage hand|XPHB}",
 								"{@spell message|XPHB}",
 								"{@spell ray of frost|XPHB}",
@@ -27984,7 +27984,7 @@
 								"{@spell confusion|XPHB}",
 								"{@spell dimension door|XPHB}",
 								"{@spell greater invisibility|XPHB}",
-								"{@spell storm sphere|XPHB}"
+								"{@spell storm sphere|XGE}"
 							]
 						},
 						"5":
