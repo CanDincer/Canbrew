@@ -27878,21 +27878,21 @@
 			"trait":
 			[
 				{
-					"name": "Quickened Spell (2/Day)",
+					"name": "Quickened Spell (4/Day)",
 					"entries":
 					[
 						"Grilsha casts one of her spells as a bonus action."
 					]
 				},
 				{
-					"name": "Extend Spell (2/Day)",
+					"name": "Extend Spell (4/Day)",
 					"entries":
 					[
 						"When Grilsha casts one of her spells with a duration of 1 minute or more, she can double its duration."
 					]
 				},
 				{
-					"name": "Twinned Spell (2/Day)",
+					"name": "Twinned Spell (4/Day)",
 					"entries":
 					[
 						"When Grilsha casts a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, she can increase the spell's effective level by 1."
