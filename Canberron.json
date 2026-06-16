@@ -28543,6 +28543,201 @@
 					"Jayres carries a spellbook containing the spells he has prepared along with the following ritual spells: {@spell alarm}, {@spell comprehend languages}, {@spell unseen servant}, and {@spell illusory script}."
 				]
 			}
+		},
+		{
+			"name": "Auxiliary Embassy Guard",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"N"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"chain shirt"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 15,
+			"int": 10,
+			"wis": 10,
+			"cha": 9,
+			"skill":
+			{
+				"athletics": "+4",
+				"intimidation": "+1"
+			},
+			"passive": 10,
+			"languages":
+			[
+				"Common",
+				"Gnomish"
+			],
+			"cr": "1",
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The guard makes two melee attacks."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 3} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Parry",
+					"entries":
+					[
+						"The guard adds 2 to its AC against one melee attack that would hit it. To do so, the guard must see the attacker and be wielding a melee weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aundair Agent",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"human"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"N"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"Unarmored Defense"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed":
+			{
+				"walk": 40
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 12,
+			"int": 10,
+			"wis": 14,
+			"cha": 8,
+			"skill":
+			{
+				"acrobatics": "+4",
+				"athletics": "+2",
+				"perception": "+4",
+				"stealth": "+4"
+			},
+			"passive": 14,
+			"languages":
+			[
+				"Common"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Unarmored Defense",
+					"entries":
+					[
+						"While the agent is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The agent makes two attacks with its unarmed strikes, or one attack with its unarmed strike and one attack with its stunning fist."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Stunning Fist (Recharge 6)",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage, and the target must succeed on a {@dc 12} Constitution saving throw or be {@condition stunned} until the end of the agent's next turn."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Step of the Wind (1/Day)",
+					"entries":
+					[
+						"The agent takes the Dash or Disengage action."
+					]
+				}
+			]
 		}
 	]
 }
