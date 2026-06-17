@@ -28738,6 +28738,170 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Trust Agent",
+			"source": "Canberron",
+			"size":
+			[
+				"S"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"gnome"
+				]
+			},
+			"alignment":
+			[
+				"L",
+				"N"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"leather armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 66,
+				"formula": "12d6 + 24"
+			},
+			"speed":
+			{
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 17,
+			"con": 14,
+			"int": 16,
+			"wis": 14,
+			"cha": 12,
+			"save":
+			{
+				"dex": "+5",
+				"int": "+5"
+			},
+			"skill":
+			{
+				"deception": "+3",
+				"intimidation": "+3",
+				"investigation": "+5",
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"Gnomish",
+				"Goblin"
+			],
+			"cr": "4",
+			"trait":
+			[
+				{
+					"name": "Gnome Cunning",
+					"entries":
+					[
+						"The agent has advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries":
+					[
+						"If the agent is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the agent instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries":
+					[
+						"The agent deals an extra 10 ({@damage 3d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the agent that isn't {@condition incapacitated} and the agent doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"headerEntries":
+					[
+						"The agent is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following wizard spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell minor illusion}",
+								"{@spell poison spray}"
+							]
+						},
+						"1":
+						{
+							"slots": 3,
+							"spells":
+							[
+								"{@spell disguise self}",
+								"{@spell fog cloud}",
+								"{@spell sleep}",
+								"{@spell Tasha's hideous laughter}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"The agent makes two melee attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries":
+					[
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage and the target must succeed on a {@dc 13} Intelligence saving throw or be muddled for 1 minute. A muddled creature must succeed on a Dexterity saving throw at the end of each of its turns in which it moves or fall {@condition prone}. The DC is equal to the number of feet moved in that turn. If the creature succeeds on three of these Dexterity saving throws, it is no longer muddled."
+					]
+				}
+			],
+			"bonus":
+			[
+				{
+					"name": "Cunning Action",
+					"entries":
+					[
+						"On each of its turns, the agent can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				}
+			]
 		}
 	]
 }
