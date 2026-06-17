@@ -24870,6 +24870,13 @@
 					]
 				},
 				{
+					"name": "Evasion",
+					"entries":
+					[
+						"When Lucan is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails."
+					]
+				},
+				{
 					"name": "Magic Weapon",
 					"entries":
 					[
@@ -24896,6 +24903,13 @@
 					"entries":
 					[
 						"Lucan can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Tactical Strike (1/Turn)",
+					"entries":
+					[
+						"Lucan deals an extra 14 ({@damage 4d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll."
 					]
 				},
 				{
@@ -24992,6 +25006,16 @@
 						"If Lucan isn't in sunlight or running water, he shape-shifts into a Tiny bat ({@variantrule Speed|XPHB} 5 ft., {@variantrule Fly Speed|XPHB} 30 ft.) or a Medium cloud of mist ({@variantrule Speed|XPHB} 5 ft., {@variantrule Fly Speed|XPHB} 20 ft. [hover]), or he returns to his vampire form. Anything he is wearing transforms with him.",
 						"While in bat form, Lucan can't speak. His game statistics, other than his size and {@variantrule Speed|XPHB}, are unchanged.",
 						"While in mist form, Lucan can't take any actions, speak, or manipulate objects. he is weightless and can enter an enemy's space and stop there. If air can pass through a space, the mist can do so, but he can't pass through liquid. He has {@variantrule Resistance|XPHB} to all damage, except the damage he takes from sunlight."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Tactical Redirection",
+					"entries":
+					[
+						"When Lucan is hit by an attack, he can target a creature within 5 feet of him. The target takes the damage instead of Lucan."
 					]
 				}
 			],
