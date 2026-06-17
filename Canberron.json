@@ -29010,6 +29010,281 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Atorra d'Lyrandar",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"half-elf"
+				]
+			},
+			"alignment":
+			[
+				"N",
+				"G"
+			],
+			"ac":
+			[
+				{
+					"ac": 15,
+					"from":
+					[
+						"studded leather armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 46,
+				"formula": "7d8 + 14"
+			},
+			"speed":
+			{
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 14,
+			"int": 12,
+			"wis": 12,
+			"cha": 16,
+			"skill":
+			{
+				"acrobatics": "+5",
+				"athletics": "+4",
+				"intimidation": "+5",
+				"persuasion": "+5"
+			},
+			"resist":
+			[
+				"lightning"
+			],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages":
+			[
+				"Common",
+				"Elvish",
+				"Gnomish",
+				"Goblin"
+			],
+			"cr": "2",
+			"trait":
+			[
+				{
+					"name": "Fey Ancestry",
+					"entries":
+					[
+						"Atorra has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "Windwright's Intuition",
+					"entries":
+					[
+						"When Atorra makes a Dexterity (Acrobatics) check or any ability check involving operating or maintaining a water or air vehicle, she can roll one Intuition die, a d4, and add the number rolled to the ability check."
+					]
+				},
+				{
+					"name": "Headwinds",
+					"entries":
+					[
+						"Atorra knows the {@spell gust|xge} cantrip. She can cast the {@spell gust of wind} spell once and regains the ability to do so when she finishes a long rest."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Atorra makes two melee or ranged attacks."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries":
+					[
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Parry",
+					"entries":
+					[
+						"Atorra adds 2 to her AC against one melee attack that would hit her. To do so, she must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"Atorra is the captain of the Soaring Siren, a skyship that operates out of Sharn. She is a loyal member of House Lyrandar, but she is not above bending the rules to get the job done.",
+					"She is a skilled pilot and a fierce fighter, and she demands the same level of competence from her crew.",
+					"Atorra is currently working a contract for the Aurum, transporting a sensitive cargo across the continent. She doesn't know what the cargo is, and she doesn't care, as long as she gets paid."
+				]
+			}
+		},
+		{
+			"name": "Captain Morgis d'Lyrandar",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"half-elf"
+				]
+			},
+			"alignment":
+			[
+				"N",
+				"G"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"studded leather armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 38,
+				"formula": "7d8 + 7"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 12,
+			"int": 13,
+			"wis": 14,
+			"cha": 14,
+			"save":
+			{
+				"str": "+3",
+				"con": "+3"
+			},
+			"skill":
+			{
+				"athletics": "+3",
+				"perception": "+4"
+			},
+			"resist":
+			[
+				"lightning"
+			],
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"Elvish"
+			],
+			"cr": "1",
+			"trait":
+			[
+				{
+					"name": "Fey Ancestry",
+					"entries":
+					[
+						"Morgis has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Windwright's Intuition",
+					"entries":
+					[
+						"When Morgis makes a Dexterity (Acrobatics) check or any ability check involving operating or maintaining a water or air vehicle, he can roll one Intuition die, a d4, and add the number rolled to the ability check."
+					]
+				},
+				{
+					"name": "Headwinds",
+					"entries":
+					[
+						"Morgis knows the {@spell gust|xge} cantrip. He can cast the {@spell gust of wind} spell once and regains the ability to do so when he finishes a long rest."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Multiattack",
+					"entries":
+					[
+						"Morgis makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage plus 2 ({@damage 1d4}) lightning damage."
+					]
+				},
+				{
+					"name": "Lightning Rod",
+					"entries":
+					[
+						"{@atk rs} {@hit 4} to hit, range 240 ft., one target. {@h}7 ({@damage 2d6}) lightning damage, and the target can't take reactions until the start of its next turn."
+					]
+				}
+			],
+			"reaction":
+			[
+				{
+					"name": "Parry",
+					"entries":
+					[
+						"Morgis adds 2 to his AC against one melee attack that would hit him. To do so, he must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"Captain Morgis was once an idealist who believed that the Aurum could be a force for good. Now, he's just a man who's seen too much and just wants to keep his crew safe and well-paid.",
+					"He's loyal to his ship, the Storm's Wake, and his crew, and will go to great lengths to protect them."
+				]
+			}
 		}
 	]
 }
