@@ -25032,28 +25032,28 @@
 			"action":
 			[
 				{
-					"name": "Multiattack (Vampire Form Only)",
+					"name": "Multiattack",
 					"entries":
 					[
 						"Lucan makes two {@i Calderus's Blade|Canberron} or Grave Strike attacks and uses Bite."
 					]
 				},
 				{
-					"name": "{@i Calderus's Blade|Canberron} (Vampire Form Only)",
+					"name": "{@i Calderus's Blade|Canberron}",
 					"entries":
 					[
 						"{@atkr m} {@hit 11}, reach 5 ft. {@h}10 ({@damage 1d8 + 6}) Radiant damage plus 7 ({@damage 2d6}) Necrotic damage and the target must succeed on a {@dc 18} Charisma saving throw. On a failed save, the target takes the highest number possible for each damage die of the attack and it has disadvantage on saving throws until the end of Lucan's next turn."
 					]
 				},
 				{
-					"name": "Grave Strike (Vampire Form Only)",
+					"name": "Grave Strike",
 					"entries":
 					[
 						"{@atkr m} {@hit 9}, reach 5 ft. {@h}8 ({@damage 1d8 + 4}) Bludgeoning damage plus 7 ({@damage 2d6}) Necrotic damage. If the target is a Large or smaller creature, it has the {@condition Grappled|XPHB} condition (escape {@dc 14}) from one of two hands."
 					]
 				},
 				{
-					"name": "Bite (Bat or Vampire Form Only)",
+					"name": "Bite (Bat or Vampire Form)",
 					"entries":
 					[
 						"{@actSave con} {@dc 17}, one creature within 5 feet that is willing or that has the {@condition Grappled|XPHB}, {@condition Incapacitated|XPHB}, or {@condition Restrained|XPHB} condition. {@actSaveFail} 6 ({@damage 1d4 + 4}) Piercing damage plus 13 ({@damage 3d8}) Necrotic damage. The target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the Necrotic damage taken, and Lucan regains {@variantrule Hit Points|XPHB} equal to that amount. A Humanoid reduced to 0 {@variantrule Hit Points|XPHB} by this damage and then buried rises the following sunset as a {@creature Vampire Spawn|XMM} under Lucan's control."
