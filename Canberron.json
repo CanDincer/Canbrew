@@ -24972,7 +24972,7 @@
 					"name": "{@i Calderus's Blade|Canberron} (Vampire Form Only)",
 					"entries":
 					[
-						"{@atkr m} {@hit 11}, reach 5 ft. {@h}10 ({@damage 1d8 + 6}) Bludgeoning damage plus 7 ({@damage 2d6}) Necrotic damage and the target must succeed on a {@dc 18} Charisma saving throw. On a failed save, the target takes the highest number possible for each damage die of the attack and it has disadvantage on saving throws until the end of Lucan's next turn."
+						"{@atkr m} {@hit 11}, reach 5 ft. {@h}10 ({@damage 1d8 + 6}) Radiant damage plus 7 ({@damage 2d6}) Necrotic damage and the target must succeed on a {@dc 18} Charisma saving throw. On a failed save, the target takes the highest number possible for each damage die of the attack and it has disadvantage on saving throws until the end of Lucan's next turn."
 					]
 				},
 				{
@@ -25026,7 +25026,7 @@
 					"name": "Deathless Strike",
 					"entries":
 					[
-						"Lucan moves up to half his {@variantrule Speed|XPHB}, and he makes one Grave Strike attack."
+						"Lucan moves up to half his {@variantrule Speed|XPHB} without triggering opportunity attacks, and he makes one Grave Strike attack."
 					]
 				}
 			],
