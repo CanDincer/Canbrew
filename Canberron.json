@@ -24870,6 +24870,76 @@
 					]
 				},
 				{
+					"name": "Battle Maneuvers",
+					"entries":
+					[
+						"When Lucan hits with an attack roll, he can choose to add one of the following effects:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items":
+							[
+								{
+									"type": "item",
+									"name": "Disarming Attack",
+									"entries":
+									[
+										"The target must succeed on a {@dc 17} Strength saving throw or drop one object of Lucan's choice that it's holding, with the object landing in its space."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Distracting Strike",
+									"entries":
+									[
+										"The next attack roll against the target by an attacker other than Lucan has advantage if the attack is made before the start of Lucan's next turn."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Goading Attack",
+									"entries":
+									[
+										"The target must succeed on a {@dc 17} Wisdom saving throw or have disadvantage on attack rolls against targets other than Lucan until the end of Lucan's next turn."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Maneuvering Attack",
+									"entries":
+									[
+										"Lucan can move up to half his speed without provoking an opportunity attack from the target of his attack."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Menacing Attack",
+									"entries":
+									[
+										"The target must succeed on a {@dc 17} Wisdom saving throw or have the {@condition frightened} condition until the end of Lucan's next turn."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Pushing Attack",
+									"entries":
+									[
+										"If the target is a Large or smaller creature, it must succeed on a {@dc 17} Strength saving throw or be pushed up to 15 feet directly away from Lucan."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Trip Attack",
+									"entries":
+									[
+										"If the target is a Large or smaller creature, it must succeed on a {@dc 17} Dexterity saving throw or have the {@condition prone} condition."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
 					"name": "Evasion",
 					"entries":
 					[
@@ -25007,6 +25077,13 @@
 						"While in bat form, Lucan can't speak. His game statistics, other than his size and {@variantrule Speed|XPHB}, are unchanged.",
 						"While in mist form, Lucan can't take any actions, speak, or manipulate objects. he is weightless and can enter an enemy's space and stop there. If air can pass through a space, the mist can do so, but he can't pass through liquid. He has {@variantrule Resistance|XPHB} to all damage, except the damage he takes from sunlight."
 					]
+				},
+				{
+					"name": "Tactical Sabotage {@recharge 5}",
+					"entries":
+					[
+						"Lucan targets one creature he can see within 30 feet. The target must succeed on a {@dc 17} Wisdom saving throw or be unable to take reactions until the end of its next turn."
+					]
 				}
 			],
 			"reaction":
@@ -25016,6 +25093,13 @@
 					"entries":
 					[
 						"When Lucan is hit by an attack, he can target a creature within 5 feet of him. The target takes the damage instead of Lucan."
+					]
+				},
+				{
+					"name": "Riposte",
+					"entries":
+					[
+						"When a creature misses Lucan with a melee attack roll, he can take a reaction and make one melee weapon attack or an Unarmed Strike against the creature."
 					]
 				}
 			],
