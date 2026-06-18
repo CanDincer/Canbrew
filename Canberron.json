@@ -29150,7 +29150,7 @@
 			}
 		},
 		{
-			"name": "Captain Morgis d'Lyrandar",
+			"name": "Captain Morgis Lyrandar",
 			"source": "Canberron",
 			"size":
 			[
@@ -29283,6 +29283,132 @@
 				[
 					"Captain Morgis was once an idealist who believed that the Aurum could be a force for good. Now, he's just a man who's seen too much and just wants to keep his crew safe and well-paid.",
 					"He's loyal to his ship, the Storm's Wake, and his crew, and will go to great lengths to protect them."
+				]
+			}
+		},
+		{
+			"name": "Cloud's Destiny Crewmember",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"half-elf"
+				]
+			},
+			"alignment":
+			[
+				"N"
+			],
+			"ac":
+			[
+				{
+					"ac": 12,
+					"from":
+					[
+						"leather armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 13,
+			"int": 14,
+			"wis": 14,
+			"cha": 12,
+			"skill":
+			{
+				"athletics": "+2",
+				"perception": "+4"
+			},
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"Elvish"
+			],
+			"cr": "1/8",
+			"trait":
+			[
+				{
+					"name": "Fey Ancestry",
+					"entries":
+					[
+						"The crewmember has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				}
+			],
+			"spellcasting":
+			[
+				{
+					"name": "Spellcasting",
+					"headerEntries":
+					[
+						"The crewmember is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It has the following wizard spells prepared:"
+					],
+					"spells":
+					{
+						"0":
+						{
+							"spells":
+							[
+								"{@spell mage hand}",
+								"{@spell mending}"
+							]
+						},
+						"1":
+						{
+							"slots": 2,
+							"spells":
+							[
+								"{@spell feather fall}",
+								"{@spell unseen servant}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Club",
+					"entries":
+					[
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"The crewmembers of the Cloud's Destiny are all members of House Lyrandar, though most are not marked. They are loyal to Captain Morgis and to their house, and are well-trained in the operation of skyships. They are not trained for combat, but will defend their ship if necessary."
 				]
 			}
 		}
