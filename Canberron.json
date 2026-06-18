@@ -29411,6 +29411,101 @@
 					"The crewmembers of the Cloud's Destiny are all members of House Lyrandar, though most are not marked. They are loyal to Captain Morgis and to their house, and are well-trained in the operation of skyships. They are not trained for combat, but will defend their ship if necessary."
 				]
 			}
+		},
+		{
+			"name": "Cloud's Destiny Guard",
+			"source": "Canberron",
+			"size":
+			[
+				"M"
+			],
+			"type":
+			{
+				"type": "humanoid",
+				"tags":
+				[
+					"half-elf"
+				]
+			},
+			"alignment":
+			[
+				"N"
+			],
+			"ac":
+			[
+				{
+					"ac": 14,
+					"from":
+					[
+						"studded leather armor"
+					]
+				}
+			],
+			"hp":
+			{
+				"average": 27,
+				"formula": "4d8 + 8"
+			},
+			"speed":
+			{
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 14,
+			"int": 11,
+			"wis": 14,
+			"cha": 12,
+			"skill":
+			{
+				"athletics": "+3",
+				"perception": "+4"
+			},
+			"senses":
+			[
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages":
+			[
+				"Common",
+				"Elvish"
+			],
+			"cr": "1/2",
+			"trait":
+			[
+				{
+					"name": "Fey Ancestry",
+					"entries":
+					[
+						"The guard has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+					]
+				}
+			],
+			"action":
+			[
+				{
+					"name": "Shortsword",
+					"entries":
+					[
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries":
+					[
+						"{@atk rw} {@hit 4} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"fluff":
+			{
+				"entries":
+				[
+					"The guards aboard the Cloud's Destiny are highly trained mercenaries hired by House Lyrandar to protect their ship and its cargo. They are fiercely loyal to their paymasters and will not hesitate to use lethal force against anyone who threatens the ship or its crew."
+				]
+			}
 		}
 	]
 }
