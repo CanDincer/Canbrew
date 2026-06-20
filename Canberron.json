@@ -25189,10 +25189,7 @@
       "savingThrowForcedSpell":
       [
         "wisdom"
-      ],
-      "hasToken": true,
-      "hasFluff": true,
-      "hasFluffImages": true
+      ]
     },
     {
       "name": "Warforged Commander",
