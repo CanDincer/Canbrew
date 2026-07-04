@@ -25189,7 +25189,12 @@
       "savingThrowForcedSpell":
       [
         "wisdom"
-      ]
+      ],
+      "tokenHref":
+      {
+        "type": "external",
+        "url": "https://i.ibb.co/BHdjCJL9/Lucan-Stellos-Token.png"
+      }
     },
     {
       "name": "Warforged Commander",
@@ -28138,6 +28143,11 @@
           "She is currently searching for a cache of Khyber dragonshards that she believes will amplify her innate magic to the point where she can shatter the seal.",
           "She is ruthless in her pursuit of power and will not hesitate to eliminate anyone who gets in her way."
         ]
+      },
+      "tokenHref":
+      {
+        "type": "external",
+        "url": "https://i.ibb.co/359VFh74/Grilsha-Token.png"
       }
     },
     {
