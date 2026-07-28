@@ -29520,6 +29520,435 @@
           "The guards aboard the Cloud's Destiny are highly trained mercenaries hired by House Lyrandar to protect their ship and its cargo. They are fiercely loyal to their paymasters and will not hesitate to use lethal force against anyone who threatens the ship or its crew."
         ]
       }
+    },
+    {
+      "name": "İlletilik Hanım",
+      "isNamedCreature": true,
+      "source": "Canberron",
+      "referenceSources":
+      [
+        "EFA",
+        "ERLW"
+      ],
+      "size":
+      [
+        "M"
+      ],
+      "type": "undead",
+      "alignment":
+      [
+        "N",
+        "E"
+      ],
+      "ac":
+      [
+        {
+          "ac": 20,
+          "from":
+          [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 315,
+        "formula": "42d8 + 126"
+      },
+      "speed":
+      {
+        "walk": 30,
+        "fly": 40
+      },
+      "str": 16,
+      "dex": 16,
+      "con": 16,
+      "int": 27,
+      "wis": 14,
+      "cha": 24,
+      "save":
+      {
+        "con": "+10",
+        "int": "+15",
+        "wis": "+9"
+      },
+      "skill":
+      {
+        "arcana": "+22",
+        "history": "+15",
+        "insight": "+9",
+        "perception": "+9"
+      },
+      "senses":
+      [
+        "truesight 120 ft."
+      ],
+      "passive": 19,
+      "resist":
+      [
+        "cold",
+        "lightning"
+      ],
+      "immune":
+      [
+        "necrotic",
+        "poison",
+        {
+          "immune":
+          [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "conditionImmune":
+      [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "stunned"
+      ],
+      "languages":
+      [
+        "Common",
+        "Draconic",
+        "Elvish"
+      ],
+      "cr": "22",
+      "spellcasting":
+      [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "Illmarrow is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Illmarrow has the following wizard spells prepared:"
+          ],
+          "spells":
+          {
+            "0":
+            {
+              "spells":
+              [
+                "{@spell chill touch} (see \"Actions\" below)",
+                "{@spell fire bolt}",
+                "{@spell mage hand}",
+                "{@spell prestidigitation}",
+                "{@spell ray of frost}"
+              ]
+            },
+            "1":
+            {
+              "slots": 4,
+              "spells":
+              [
+                "{@spell magic missile}",
+                "{@spell shield}",
+                "{@spell sleep}"
+              ]
+            },
+            "2":
+            {
+              "slots": 3,
+              "spells":
+              [
+                "{@spell blur}",
+                "{@spell detect thoughts}",
+                "{@spell mirror image}"
+              ]
+            },
+            "3":
+            {
+              "slots": 3,
+              "spells":
+              [
+                "{@spell animate dead}",
+                "{@spell counterspell}",
+                "{@spell dispel magic}",
+                "{@spell fly}",
+                "{@spell lightning bolt}"
+              ]
+            },
+            "4":
+            {
+              "slots": 3,
+              "spells":
+              [
+                "{@spell blight}",
+                "{@spell confusion}",
+                "{@spell polymorph}"
+              ]
+            },
+            "5":
+            {
+              "slots": 3,
+              "spells":
+              [
+                "{@spell cloudkill}",
+                "{@spell cone of cold}",
+                "{@spell hold monster}",
+                "{@spell scrying}"
+              ]
+            },
+            "6":
+            {
+              "slots": 2,
+              "spells":
+              [
+                "{@spell chain lightning}",
+                "{@spell circle of death}",
+                "{@spell create undead}"
+              ]
+            },
+            "7":
+            {
+              "slots": 2,
+              "spells":
+              [
+                "{@spell finger of death}",
+                "{@spell forcecage}",
+                "{@spell prismatic spray}"
+              ]
+            },
+            "8":
+            {
+              "slots": 1,
+              "spells":
+              [
+                "{@spell incendiary cloud}",
+                "{@spell maze}"
+              ]
+            },
+            "9":
+            {
+              "slots": 1,
+              "spells":
+              [
+                "{@spell power word kill}",
+                "{@spell time stop}"
+              ]
+            }
+          },
+          "ability": "int"
+        },
+        {
+          "name": "Protective Magic",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The lich casts {@spell Counterspell|XPHB} or {@spell Shield|XPHB} in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+          ],
+          "will":
+          [
+            "{@spell Counterspell|XPHB}",
+            "{@spell Shield|XPHB}"
+          ],
+          "ability": "int",
+          "displayAs": "reaction",
+          "hidden":
+          [
+            "will"
+          ]
+        },
+        {
+          "name": "Frightening Gaze",
+          "type": "spellcasting",
+          "headerEntries":
+          [
+            "The lich casts {@spell Fear|XPHB}, using the same spellcasting ability as Spellcasting. The lich can't take this action again until the start of its next turn."
+          ],
+          "legendary":
+          {
+            "1":
+            [
+              "{@spell Fear|XPHB}"
+            ]
+          },
+          "ability": "int",
+          "displayAs": "legendary",
+          "hidden":
+          [
+            "legendary"
+          ]
+        }
+      ],
+      "trait":
+      [
+        {
+          "name": "Legendary Resistance (5/Day)",
+          "entries":
+          [
+            "If Illmarrow fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries":
+          [
+            "Illmarrow has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Rejuvenation",
+          "entries":
+          [
+            "Illmarrow's body turns to dust when she drops to 0 hit points, and her equipment is left behind. She gains a new body after {@dice 1d10} days, regaining all her hit points and becoming active again. The new body appears within two hundred miles of the location at which she was destroyed."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination."
+          ]
+        },
+        {
+          "name": "Eldritch Burst",
+          "entries":
+          [
+            "{@atkr m,r} {@hit 12}, reach 5 ft. or range 120 ft. {@h}31 ({@damage 4d12 + 5}) Force damage."
+          ]
+        },
+        {
+          "name": "Paralyzing Touch",
+          "entries":
+          [
+    				"{@atkr m} {@hit 12}, reach 5 ft. {@h}15 ({@damage 3d6 + 5}) Cold damage, and the target has the {@condition Paralyzed|XPHB} condition until the start of the lich's next turn."
+          ]
+        },
+        {
+          "name": "Poison Breath {@recharge 5}",
+          "entries":
+          [
+            "Illmarrow exhales poisonous gas in a 30-foot cone. Each creature in that area must make a {@dc 20} Constitution saving throw. On a failed save, a creature takes 35 ({@damage 10d6}) poison damage and is {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, the creature can't regain hit points. On a successful save, the creature takes half as much damage and isn't {@condition poisoned}.",
+            "A humanoid reduced to 0 hit points by this damage dies and rises at the start of Illmarrow's next turn as a zombie. The zombie acts immediately after Illmarrow in the initiative count and is permanently under her command, following her verbal orders."
+          ]
+        }
+      ],
+      "legendary":
+      [
+        {
+          "name": "Cantrip",
+          "entries":
+          [
+            "Illmarrow casts a cantrip."
+          ]
+        },
+        {
+          "name": "Paralyzing Touch",
+          "entries":
+          [
+            "Illmarrow uses her Paralyzing Touch."
+          ]
+        },
+        {
+          "name": "Poison Breath (Costs 3 Actions)",
+          "entries":
+          [
+            "Illmarrow recharges her Poison Breath and uses it."
+          ]
+        },
+        {
+          "name": "Deathly Teleport",
+          "entries":
+          [
+            "The lich teleports up to 60 feet to an unoccupied space it can see, and each creature within 10 feet of the space it left takes 11 ({@damage 2d10}) Necrotic damage."
+          ]
+        },
+        {
+          "name": "Disrupt Life",
+          "entries":
+          [
+            "{@actSave con} {@dc 20}, each creature that isn't an Undead in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the lich. {@actSaveFail} 31 ({@damage 9d6}) Necrotic damage. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} The lich can't take this action again until the start of its next turn."
+          ]
+        }
+      ],
+      "traitTags":
+      [
+        "Legendary Resistances",
+        "Magic Resistance",
+        "Rejuvenation"
+      ],
+      "senseTags":
+      [
+        "U"
+      ],
+      "actionTags":
+      [
+        "Breath Weapon"
+      ],
+      "languageTags":
+      [
+        "C",
+        "DR",
+        "E"
+      ],
+      "damageTags":
+      [
+        "C",
+        "I",
+        "N",
+        "S"
+      ],
+      "damageTagsSpell":
+      [
+        "A",
+        "C",
+        "F",
+        "I",
+        "L",
+        "N",
+        "O"
+      ],
+      "spellcastingTags":
+      [
+        "CW"
+      ],
+      "miscTags":
+      [
+        "AOE",
+        "MW"
+      ],
+      "conditionInflict":
+      [
+        "frightened",
+        "paralyzed",
+        "poisoned"
+      ],
+      "conditionInflictSpell":
+      [
+        "blinded",
+        "paralyzed",
+        "petrified",
+        "restrained",
+        "unconscious"
+      ],
+      "savingThrowForced":
+      [
+        "constitution",
+        "wisdom"
+      ],
+      "savingThrowForcedSpell":
+      [
+        "charisma",
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ],
+      "hasToken": true,
+      "hasFluff": true,
+      "hasFluffImages": true
     }
   ]
 }
