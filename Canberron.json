@@ -29963,6 +29963,103 @@
       "hasToken": true,
       "hasFluff": true,
       "hasFluffImages": true
+    },
+    {
+      "name": "Magebred Devil Shark",
+      "source": "Canberron",
+      "size":
+      [
+        "H"
+      ],
+      "type": "beast",
+      "alignment":
+      [
+        "U"
+      ],
+      "ac":
+      [
+        {
+          "ac": 14,
+          "from":
+          [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 150,
+        "formula": "12d12 + 72"
+      },
+      "speed":
+      {
+        "walk": 0,
+        "swim": 50
+      },
+      "str": 25,
+      "dex": 12,
+      "con": 22,
+      "int": 2,
+      "wis": 10,
+      "cha": 5,
+      "skill":
+      {
+        "perception": "+4"
+      },
+      "senses":
+      [
+        "blindsight 60 ft."
+      ],
+      "passive": 14,
+      "cr": "9",
+      "trait":
+      [
+        {
+          "name": "Blood Frenzy",
+          "entries":
+          [
+            "The shark has advantage on melee attack rolls with its bite against any creature that doesn't have all its hit points."
+          ]
+        },
+        {
+          "name": "Swimby",
+          "entries":
+          [
+            "The shark doesn't provoke an opportunity attack when it swims out of an enemy's reach."
+          ]
+        },
+        {
+          "name": "Water Breathing",
+          "entries":
+          [
+            "The shark can breathe only underwater."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The shark makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries":
+          [
+            "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}33 ({@damage 4d12 + 7}) piercing damage. If the target is a creature, it is grappled (escape DC 19)."
+          ]
+        },
+        {
+          "name": "Tail",
+          "entries":
+          [
+            "{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+          ]
+        }
+      ]
     }
   ]
 }
