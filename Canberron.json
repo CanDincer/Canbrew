@@ -30060,6 +30060,131 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sahuagin Shark Keeper",
+      "source": "Canberron",
+      "size":
+      [
+        "M"
+      ],
+      "type":
+      {
+        "type": "humanoid",
+        "tags":
+        [
+          "sahuagin"
+        ]
+      },
+      "alignment":
+      [
+        "L",
+        "E"
+      ],
+      "ac":
+      [
+        {
+          "ac": 16,
+          "from":
+          [
+            "breastplate"
+          ]
+        }
+      ],
+      "hp":
+      {
+        "average": 67,
+        "formula": "9d8 + 27"
+      },
+      "speed":
+      {
+        "walk": 30,
+        "swim": 40
+      },
+      "str": 16,
+      "dex": 13,
+      "con": 16,
+      "int": 14,
+      "wis": 13,
+      "cha": 9,
+      "skill":
+      {
+        "animal handling": "+5",
+        "perception": "+5",
+        "survival": "+3"
+      },
+      "senses":
+      [
+        "darkvision 120 ft."
+      ],
+      "passive": 15,
+      "languages":
+      [
+        "Sahuagin"
+      ],
+      "cr": "4",
+      "trait":
+      [
+        {
+          "name": "Blood Frenzy",
+          "entries":
+          [
+            "The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+          ]
+        },
+        {
+          "name": "Limited Amphiousness",
+          "entries":
+          [
+            "The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+          ]
+        },
+        {
+          "name": "Shark Telepathy",
+          "entries":
+          [
+            "The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy."
+          ]
+        },
+        {
+          "name": "Slayer",
+          "entries":
+          [
+            "Once per turn when the sahuagin hits a creature with a weapon attack, the creature takes an extra 9 ({@damage 2d8}) damage if it's below its hit point maximum."
+          ]
+        }
+      ],
+      "action":
+      [
+        {
+          "name": "Multiattack",
+          "entries":
+          [
+            "The sahuagin makes two melee attacks: one with its bite and one with its claws or trident."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Claws",
+          "entries":
+          [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+          ]
+        },
+        {
+          "name": "Trident",
+          "entries":
+          [
+            "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack."
+          ]
+        }
+      ]
     }
   ]
 }
