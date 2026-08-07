@@ -30022,6 +30022,13 @@
           ]
         },
         {
+          "name": "Damage Threshold",
+          "entries":
+          [
+            "The shark has immune to damage unless it takes 20 or more damage from a single attack or effect. If it takes damage below this threshold, it takes 0 damage instead."
+          ]
+        },
+        {
           "name": "Swimby",
           "entries":
           [
